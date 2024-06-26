@@ -6,6 +6,7 @@ body {
     background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le body */
     background-position: center; /* Centre l'image horizontalement et verticalement */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    padding-top: 100px; /* Ajouter un padding en haut pour compenser la hauteur de la navbar fixe */
 }
 
 /* navbar */
@@ -62,6 +63,7 @@ body {
     position: relative;
     height: 70vh;
     overflow: hidden;
+    margin-top: -100px; /* Compense le padding du body pour réajuster le header */
 }
 
 #video-bg {
@@ -127,8 +129,13 @@ body {
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
+    body {
+        padding-top: 56px; /* Ajuster le padding-top pour les appareils mobiles */
+    }
+
     #special-header {
         height: 50vh; /* Réduire la hauteur du header sur les appareils mobiles */
+        margin-top: -56px; /* Ajuster le margin-top pour les appareils mobiles */
     }
 
     #logo-container img {
@@ -142,6 +149,22 @@ body {
 
     .star {
         font-size: 10px; /* Réduire la taille des caractères sur les appareils mobiles */
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem; /* Ajustez la taille du texte "Harmony Digital" */
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin: 5px 0;
     }
 }
 

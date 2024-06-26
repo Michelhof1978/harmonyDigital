@@ -1,8 +1,8 @@
 const chars = '01';
 
 function createStarLines() {
-  const lineCount = 30; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 450; // Nombre de caractères par ligne
+  const lineCount = 230; // Nombre de lignes de lettres et chiffres
+  const charsPerLine = 250; // Nombre de caractères par ligne
   const specialText = 'HarmonyDigital';
 
   const starContainer = document.getElementById('star-container');

@@ -1,5 +1,5 @@
 <footer class="container-fluid bg-dark">
-    <div class="row">
+    <!-- <div class="row">
 
 
         <div class="img3 col-12 pt-3">
@@ -62,7 +62,7 @@
     <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. Acceptez-vous l'utilisation des cookies ?</p>
     <button onclick="acceptCookies()">Accepter</button>
     <button onclick="refuseCookies()">Refuser</button>
-</div>
+</div> -->
 
 <!-- _____________________________________________________________________________________ -->
 <!-- Google Tag Manager (noscript) -->

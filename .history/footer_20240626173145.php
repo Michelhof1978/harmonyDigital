@@ -1,4 +1,4 @@
-<footer class="container-fluid bg-dark">
+<!-- <footer class="container-fluid bg-dark">
     <div class="row">
 
 
@@ -49,7 +49,7 @@
     <p class="color-weight" style="color: white;">© <span id="date"></span>
         <a class="text-dark" href="<?php echo AUTHOR_URL; ?>" target="_blank">Harmony Digital-Droits réservés</a>
     </p>
-</div>
+</div> -->
 <!-- FIN Copyright -->
 
 <!-- COMPTEUR -->

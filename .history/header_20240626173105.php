@@ -6,7 +6,7 @@
   define('GITHUB_URL', 'https://github.com/Michelhof1978/');
 ?>
   
-   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand fs-2" href="#">
                 <strong class="text-white text-logo">

@@ -143,6 +143,22 @@ body {
     .star {
         font-size: 10px; /* Réduire la taille des caractères sur les appareils mobiles */
     }
+
+    .navbar-brand {
+        font-size: 1.2rem; /* Ajustez la taille du texte "Harmony Digital" */
+    }
+
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
 }
 
 /* footer */

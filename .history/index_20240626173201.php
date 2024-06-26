@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
     <?php include("head.php") ?>
     <meta name="description" content="">
     <title>Harmony Digital</title>
@@ -16,4 +18,4 @@
         <!-- Autres sections de contenu ici -->
     </div>
 
-    <?php include("footer.php") ?>
+    <!-- <?php include("footer.php") ?> -->
