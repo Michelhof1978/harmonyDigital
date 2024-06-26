@@ -2,6 +2,7 @@
 <?php
   // Constantes pour les URLs
   define('AUTHOR_URL', 'https://cvmichel-hoffmann.fr/');
+  define('TOURISM_URL', 'https://tourisme.interco-abl.info/');
   define('LINKEDIN_URL', 'https://www.linkedin.com/in/michel-h-245436203/');
   define('GITHUB_URL', 'https://github.com/Michelhof1978/');
   

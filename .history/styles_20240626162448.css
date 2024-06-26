@@ -139,32 +139,33 @@ body {
 	
                                          /* FOOTER */
 
-footer{
-   height: 360px;
-     
-}
-
-
-.copyright{
-    text-align: center;
-    color: #fff;
-    font-size: 15px; 
-    
-}
-.img1{
-    width: 330px;
-    height: 650px;
-    margin-top: 50px;
-    margin-left: 50px; 
-} 
-.img2{
-    
-    height: 180px;
-    width:205px;
-    text-align: center;
-}
-.img3{
-   text-align: center;
-   
-}
-/* END FOOTER */
+                                         footer{
+                                            height: 360px;
+                                             background: rgba(230, 122, 22, 0.883);   
+                                         }
+                                         
+                                         
+                                         .copyright{
+                                             text-align: center;
+                                             color: #fff;
+                                             font-size: 15px; 
+                                             
+                                         }
+                                         .img1{
+                                             width: 330px;
+                                             height: 650px;
+                                             margin-top: 50px;
+                                             margin-left: 50px; 
+                                         } 
+                                         .img2{
+                                             
+                                             height: 180px;
+                                             width:205px;
+                                             text-align: center;
+                                         }
+                                         .img3{
+                                            text-align: center;
+                                            
+                                         }
+                                         /* END FOOTER */
+                                         

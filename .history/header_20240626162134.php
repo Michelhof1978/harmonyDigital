@@ -2,6 +2,10 @@
 <?php
   // Constantes pour les URLs
   define('AUTHOR_URL', 'https://cvmichel-hoffmann.fr/');
+  define('FACEBOOK_URL', 'https://www.facebook.com/lescaravanesdelabesbre/');
+  define('TOURISM_URL', 'https://tourisme.interco-abl.info/');
+  define('INSTAGRAM_URL', 'https://www.instagram.com/lescaravanesdelabesbre/?hl=fr');
+  define('METEO_URL', 'https://meteofrance.com/previsions-meteo-france/allier/3');
   define('LINKEDIN_URL', 'https://www.linkedin.com/in/michel-h-245436203/');
   define('GITHUB_URL', 'https://github.com/Michelhof1978/');
   

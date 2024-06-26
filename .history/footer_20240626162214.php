@@ -1,4 +1,4 @@
-<footer class="container-fluid bg-dark">
+<footer class="container-fluid">
     <div class="row">
 
 
@@ -8,6 +8,7 @@
 
 
             <div class="mb-2">
+                
 
 
                 <!-- Linkedin -->
