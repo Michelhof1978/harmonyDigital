@@ -19,17 +19,15 @@
         <div class="text-center">
 
           <button class="navbar-toggler w-75  navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="images/hamburger.png" loading="lazy" alt="Hamburger navbar" class="me-2 mt-1" style="height: 30px;"><span class="align-middle mt-1">Menu </span>
+            <img src="../images/hamburger.png" loading="lazy" alt="Hamburger navbar" class="me-2 mt-1" style="height: 30px;"><span class="align-middle mt-1">Menu </span>
           </button>
 
         </div>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-       
-      <ul class="navbar-nav mx-auto" id="menu">
-
+        <ul class="navbar-nav" id="menu">
           <li class="nav-item">
-            <a class="nav-link fs-5" aria-current="page" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>
+            <a class="nav-link fs-5" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>
           </li>
           <li class="nav-item">
             <a class="nav-link fs-5" href="#"><strong><span class="text-orange-nav">R</span>éalisations</strong></a>

@@ -39,7 +39,7 @@ body {
 }
 
 .nav-item a:hover {
-    color: rgba(85, 211, 243, 0.777);
+    color: rgba(8, 197, 244, 0.499);
 }
 
 .nav-item {
@@ -56,20 +56,6 @@ body {
     font-weight: 700;
     font-style: normal;
 }
-
-.hamburger{
-    background-color: rgb(145, 141, )
-  }
-
-  .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;..");
-    color: black;
-  }
-
-  .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-
 
 /* header */
 #special-header {
@@ -188,7 +174,6 @@ body {
         font-size: 10px; /* Réduire la taille des caractères sur les appareils mobiles */
     }
 }
-
 
 /* footer */
 footer {

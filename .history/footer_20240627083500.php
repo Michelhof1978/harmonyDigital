@@ -39,20 +39,18 @@
 </footer>
 
 
-<!-- Scripts JavaScript -->
 <!-- jQuery et JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" async></script>
-<script src="./js/main.js" async></script>
+<!-- Bootstrap JS (en bas de la page) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+
 
 <!-- _____________________________________________________________________________________ -->
 
-<!-- BOOTSTRAP JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" async></script>
-
-<!-- _____________________________________________________________________________________ -->
-
-<!-- _____________________________________________________________________________________ -->
-
+<!-- Google reCAPTCHA formulaire -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!-- _____________________________________________________________________________________ -->
 
@@ -101,7 +99,7 @@
 <!-- _____________________________________________________________________________________ -->
 
 <!--ZOOM SURVOL SOURIS SUR IMAGE-->
-<!-- <script>
+<script>
     function zoomIn(img) {
         img.style.transform = "scale(1.5)"; // agrandir l'image 1.5 fois
         img.style.transition = "transform 0.5s"; // ajouter une transition de 0.5s pour une animation fluide
@@ -111,12 +109,12 @@
         img.style.transform = "scale(1)"; // remettre l'image à sa taille d'origine
         img.style.transition = "transform 0.5s"; // ajouter une transition de 0.5s pour une animation fluide
     }
-</script> -->
+</script>
 
 <!-- _____________________________________________________________________________________ -->
 
 <!-- DATE MISE A JOUR AUTO COPYRIGHT FOOTER -->
-<!-- <script>
+<script>
     function afficherDate() {
         // Récupérer la date et l'année actuelles
         var date = new Date().getFullYear();
@@ -125,7 +123,7 @@
     }
     // Appeler la fonction afficherDate toutes les secondes
     setInterval(afficherDate, 1000);
-</script> -->
+</script>
 
 <!-- _____________________________________________________________________________________ -->
 

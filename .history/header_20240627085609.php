@@ -1,0 +1,44 @@
+<body>
+<?php
+  // Constantes pour les URLs
+  define('AUTHOR_URL', 'https://cvmichel-hoffmann.fr/');
+  define('LINKEDIN_URL', 'https://www.linkedin.com/in/michel-h-245436203/');
+  define('GITHUB_URL', 'https://github.com/Michelhof1978/');
+?>
+  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Réalisations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Informations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contactez-nous</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <header id="special-header">
+    <video autoplay muted loop id="video-bg">
+      <source src="videos/header.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <div id="logo-container">
+      <img src="images/logo.png" alt="Logo">
+    </div>
+  </header>
+
+  

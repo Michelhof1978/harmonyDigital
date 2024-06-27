@@ -2,6 +2,8 @@
 <meta name="description" content="">
 <title>Harmony Digital</title>
 </head>
+
+
 <body>
 <?php include("header.php") ?>
 
@@ -9,7 +11,7 @@
   <!-- Autres sections de contenu ici -->
   
   <div id="star-container">
-    <!-- Contenu des étoiles -->
+ 
   </div>
   
   <!-- Autres sections de contenu ici -->

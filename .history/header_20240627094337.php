@@ -25,11 +25,9 @@
         </div>
 
       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-       
-      <ul class="navbar-nav mx-auto" id="menu">
-
+        <ul class="navbar-nav" id="menu">
           <li class="nav-item">
-            <a class="nav-link fs-5" aria-current="page" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>
+            <a class="nav-link fs-5" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>
           </li>
           <li class="nav-item">
             <a class="nav-link fs-5" href="#"><strong><span class="text-orange-nav">R</span>éalisations</strong></a>

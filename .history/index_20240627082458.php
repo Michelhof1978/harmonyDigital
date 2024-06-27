@@ -9,7 +9,7 @@
   <!-- Autres sections de contenu ici -->
   
   <div id="star-container">
-    <!-- Contenu des étoiles -->
+ 
   </div>
   
   <!-- Autres sections de contenu ici -->
