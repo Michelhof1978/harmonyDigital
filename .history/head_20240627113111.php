@@ -16,10 +16,10 @@
   <meta property="og:description" content="Conception de Sites Internet, Réalisation Maquettes et Logos, Référencement SEO, Marketing Digital, Communication En Événementielle, Réalisation Campagne Publicitaire. Entreprise Nationale">
   <meta property="og:image" content="../images/logo.ico">
 
- 
-
-
-
   <style>
-    
+    @media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem; /* Redéfinition de la taille de la police pour les écrans plus petits */
+    }
+}
   </style>

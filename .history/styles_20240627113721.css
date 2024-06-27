@@ -129,7 +129,6 @@ body {
 }
 
 /* Media queries pour les appareils mobiles */
-
 @media (max-width: 768px) {
     .navbar {
         height: auto;

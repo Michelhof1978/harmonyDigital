@@ -129,13 +129,21 @@ body {
 }
 
 /* Media queries pour les appareils mobiles */
-
 @media (max-width: 768px) {
     .navbar {
         height: auto;
     }
+
+    @media screen and (max-width: 768px) {
+        .navbar-brand {
+            font-size: 1.5rem !important;
+            text-align: center !important; /* Ajouter le centrage */
+            width: 100% !important; /* Ajouter la largeur à 100% */
+        }
+    }
     
     
+
     .text-orange {
         font-size: 1.5rem;
     }

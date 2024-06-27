@@ -16,10 +16,4 @@
   <meta property="og:description" content="Conception de Sites Internet, Réalisation Maquettes et Logos, Référencement SEO, Marketing Digital, Communication En Événementielle, Réalisation Campagne Publicitaire. Entreprise Nationale">
   <meta property="og:image" content="../images/logo.ico">
 
- 
-
-
-
-  <style>
-    
-  </style>
+  <style></style>

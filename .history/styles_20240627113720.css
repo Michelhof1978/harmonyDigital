@@ -129,13 +129,13 @@ body {
 }
 
 /* Media queries pour les appareils mobiles */
-
 @media (max-width: 768px) {
     .navbar {
         height: auto;
     }
     
     
+
     .text-orange {
         font-size: 1.5rem;
     }

@@ -129,13 +129,15 @@ body {
 }
 
 /* Media queries pour les appareils mobiles */
-
 @media (max-width: 768px) {
     .navbar {
         height: auto;
     }
-    
-    
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
     .text-orange {
         font-size: 1.5rem;
     }
@@ -159,7 +161,7 @@ body {
     }
 
     #special-header {
-        height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
+        height: 40vh; /* Réduire la hauteur du header sur les appareils mobiles */
     }
 
     #logo-container img {

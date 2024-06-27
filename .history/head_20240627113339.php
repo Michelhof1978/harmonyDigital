@@ -16,9 +16,9 @@
   <meta property="og:description" content="Conception de Sites Internet, Réalisation Maquettes et Logos, Référencement SEO, Marketing Digital, Communication En Événementielle, Réalisation Campagne Publicitaire. Entreprise Nationale">
   <meta property="og:image" content="../images/logo.ico">
 
- 
-
-
+  <!-- Assurez-vous que votre fichier CSS personnalisé est chargé après Bootstrap -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles/custom.css">
 
   <style>
     
