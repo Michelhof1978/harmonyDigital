@@ -10,8 +10,8 @@
 <div class=" navbar-brand"> 
     <div class="container-fluid">
   <!-- Logo et titre -->
-  <a class="navbar-brand" href="index.php">
-            <strong class="text-white nav-brand ">
+  <a class="navbar-brand fs-2 mb-2 mt-2 text-center" href="index.php">
+            <strong class="text-white text-logo">
                 <span class="text-orange">H</span>armony <span class="text-orange">D</span>igital
             </strong>
             <span class="orange">.</span>

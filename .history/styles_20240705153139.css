@@ -129,6 +129,10 @@ body {
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
     
+    .text-orange{
+        font-size: 50px;
+    }
+    
     .navbar {
         height: auto;
         display: flex;
@@ -155,7 +159,7 @@ body {
     }
 
     .text-orange {
-        font-size: 55px;
+        font-size: 1.5rem;
     }
 
     .text-orange-nav {

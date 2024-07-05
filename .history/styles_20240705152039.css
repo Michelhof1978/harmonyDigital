@@ -28,8 +28,7 @@ body {
     font-size: 20px;
 }
 
-.nav-brand {
-    font-size: 40px;
+.navbrand {
     font-family: "Special Elite", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -128,7 +127,6 @@ body {
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
-    
     .navbar {
         height: auto;
         display: flex;
@@ -137,13 +135,12 @@ body {
     }
 
     .navbar-brand {
-        font-size: 150px;
         text-align: center;
         order: 1; /* Assurez-vous que le logo et le titre viennent en premier */
     }
 
     .navbar-toggler {
-        font-size: 300px !important;
+        font-size: 1rem;
         margin-bottom: 1rem;
         display: flex;
         justify-content: center;
@@ -155,7 +152,7 @@ body {
     }
 
     .text-orange {
-        font-size: 55px;
+        font-size: 1.5rem;
     }
 
     .text-orange-nav {
