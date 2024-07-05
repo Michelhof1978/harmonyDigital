@@ -140,7 +140,7 @@ body {
     .navbar-brand {
         font-size: 100px;
         text-align: center;
-        order: 1; /* Position du logo et le titre viennent en premier */
+        order: 1; /* Assurez-vous que le logo et le titre viennent en premier */
     }
 
     .navbar-toggler {
@@ -152,7 +152,7 @@ body {
     }
 
     .navbar-collapse {
-        order: 3; /* le menu collapsé doit venir après le bouton hamburger */
+        order: 3; /* Assurez-vous que le menu collapsé vient après le bouton hamburger */
     }
 
     .text-orange {

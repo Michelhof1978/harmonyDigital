@@ -6,7 +6,7 @@ body {
     background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le body */
     background-position: center; /* Centre l'image horizontalement et verticalement */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    max-height: 100vh;
+    hei
 }
 
 /* navbar */
@@ -138,21 +138,21 @@ body {
     }
 
     .navbar-brand {
-        font-size: 100px;
+        font-size: 150px;
         text-align: center;
-        order: 1; /* Position du logo et le titre viennent en premier */
+        order: 1; /* Assurez-vous que le logo et le titre viennent en premier */
     }
 
     .navbar-toggler {
-        font-size: 300px;
+        font-size: 300px !important;
         margin-bottom: 1rem;
         display: flex;
         justify-content: center;
-        order: 2; /* Position du bouton hamburger vient après le logo et le titre */
+        order: 2; /* Assurez-vous que le bouton hamburger vient après le logo et le titre */
     }
 
     .navbar-collapse {
-        order: 3; /* le menu collapsé doit venir après le bouton hamburger */
+        order: 3; /* Assurez-vous que le menu collapsé vient après le bouton hamburger */
     }
 
     .text-orange {
@@ -184,7 +184,7 @@ body {
     }
 
     #logo-container img {
-        max-width: 20vh; /* Réduire la taille du logo sur les appareils mobiles */
+        max-width: 200px; /* Réduire la taille du logo sur les appareils mobiles */
     }
 
     .star-line {

@@ -152,7 +152,7 @@ body {
     }
 
     .navbar-collapse {
-        order: 3; /* le menu collapsé doit venir après le bouton hamburger */
+        order: 3; /* le menu collapsé vient après le bouton hamburger */
     }
 
     .text-orange {

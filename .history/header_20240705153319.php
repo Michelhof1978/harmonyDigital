@@ -10,7 +10,7 @@
 <div class=" navbar-brand"> 
     <div class="container-fluid">
   <!-- Logo et titre -->
-  <a class="navbar-brand ms-2" href="index.php">
+  <a class="navbar-brand" href="index.php">
             <strong class="text-white nav-brand ">
                 <span class="text-orange">H</span>armony <span class="text-orange">D</span>igital
             </strong>
@@ -30,7 +30,7 @@
 
         <!-- Menu collapsé -->
         <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto text-center me-3">
+            <ul class="navbar-nav ms-auto text-center">
                 <li class="nav-item">
                     <a class="nav-link fs-5" aria-current="page" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>
                 </li>
