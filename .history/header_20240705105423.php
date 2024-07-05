@@ -6,21 +6,15 @@
   define('GITHUB_URL', 'https://github.com/Michelhof1978/');
 ?>
 
-<div class="bg-dark navbar-brand"> 
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid">
-  <!-- Logo et titre -->
-  <a class="navbar-brand fs-2 mb-2 mt-2 text-center" href="index.php">
+        <!-- Logo et titre -->
+        <a class="navbar-brand fs-2 mb-2 mt-2 text-center" href="index.php">
             <strong class="text-white text-logo">
                 <span class="text-orange">H</span>armony <span class="text-orange">D</span>igital
             </strong>
             <span class="orange">.</span>
         </a>
-    </div>
-</div>
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">  
-    <div class="container-fluid">
-      
 
         <!-- Bouton hamburger -->
         <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +40,6 @@
         </div>
     </div>
 </nav>
-
 
 <header id="special-header">
     <video autoplay muted loop id="video-bg" playsinline>

@@ -6,7 +6,7 @@
   define('GITHUB_URL', 'https://github.com/Michelhof1978/');
 ?>
 
-<div class="bg-dark navbar-brand"> 
+<div class="navbar navbar-expand-md navbar-dark bg-dark"> 
     <div class="container-fluid">
   <!-- Logo et titre -->
   <a class="navbar-brand fs-2 mb-2 mt-2 text-center" href="index.php">
@@ -15,8 +15,7 @@
             </strong>
             <span class="orange">.</span>
         </a>
-    </div>
-</div>
+        <
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">  
     <div class="container-fluid">

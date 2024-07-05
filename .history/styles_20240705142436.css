@@ -125,6 +125,7 @@ body {
     }
 }
 
+
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
     .navbar {
@@ -135,7 +136,7 @@ body {
     }
 
     .navbar-brand {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         text-align: center;
         order: 1; /* Assurez-vous que le logo et le titre viennent en premier */
     }
@@ -177,7 +178,7 @@ body {
     }
 
     #special-header {
-        height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
+        height: 10vh; /* Réduire la hauteur du header sur les appareils mobiles */
     }
 
     #logo-container img {
@@ -194,30 +195,31 @@ body {
     }
 }
 
-/* footer */
-footer {
+    
+    /* footer */
+    footer {
     height: 360px;
-}
-
-.copyright {
+    }
+    
+    .copyright {
     text-align: center;
     color: #fff;
     font-size: 15px;
-}
-
-.img1 {
+    }
+    
+    .img1 {
     width: 330px;
     height: 650px;
     margin-top: 50px;
     margin-left: 50px;
-}
-
-.img2 {
+    }
+    
+    .img2 {
     height: 180px;
     width: 205px;
     text-align: center;
-}
-
-.img3 {
+    }
+    
+    .img3 {
     text-align: center;
-}
+    }

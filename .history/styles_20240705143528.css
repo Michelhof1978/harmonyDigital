@@ -135,7 +135,7 @@ body {
     }
 
     .navbar-brand {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         text-align: center;
         order: 1; /* Assurez-vous que le logo et le titre viennent en premier */
     }

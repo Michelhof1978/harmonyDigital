@@ -6,7 +6,7 @@
   define('GITHUB_URL', 'https://github.com/Michelhof1978/');
 ?>
 
-<div class="bg-dark navbar-brand"> 
+<div class="bg-dark"> 
     <div class="container-fluid">
   <!-- Logo et titre -->
   <a class="navbar-brand fs-2 mb-2 mt-2 text-center" href="index.php">
@@ -23,7 +23,7 @@
       
 
         <!-- Bouton hamburger -->
-        <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <img src="images/hamburger.png" loading="lazy" alt="Hamburger navbar" class="hamburger-icon">
         </button>
 
