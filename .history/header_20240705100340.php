@@ -18,7 +18,8 @@
 
         <!-- Bouton hamburger -->
         <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="images/hamburger.png" loading="lazy" alt="Hamburger navbar" class="hamburger-icon">
+            <img src="images/hamburger.png" loading="lazy" alt="Hamburger navbar" class="me-2" style="height: 30px;">
+            <span class="align-middle">Menu</span>
         </button>
 
         <!-- Menu collapsé -->
