@@ -1,9 +1,9 @@
-<footer class="container-fluid bg-dark w-100 h-100">
+<footer class="container-fluid bg-dark">
     <div class="row">
-        <div class="img3 col-12 pt-3 text-center">
+        <div class="img3 col-12 pt-3">
             <img class="img2" src="../images/logo.webp" loading="lazy" alt="logo">
-            <p class="copyright d-flex flex-wrap justify-content-center">
-                Site réalisé par &nbsp; 
+            <p class="copyright d-flex flex-wrap text-sm justify-content-center">
+                Site réalisé par &nbsp;
                 <a href="<?php echo AUTHOR_URL; ?>" target="_blank">
                     <strong>Michel Hoffmann - Harmony Digital</strong>
                 </a>
@@ -18,11 +18,22 @@
                 <!-- Github -->
                 <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="<?php echo GITHUB_URL; ?>" target="_blank" role="button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.548 7.548 0 0 1 2-.27c.68.003 1.36.092 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.91.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.001 8.001 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.292 6.532 5.47 7.59.4.074.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.923-.89-1.168-.89-1.168-.727-.497.055-.487.055-.487.803.057 1.226.825 1.226.825.715 1.223 1.873.87 2.33.665.073-.517.28-.87.508-1.07-1.776-.202-3.644-.888-3.644-3.95 0-.872.31-1.587.823-2.146-.083-.203-.357-1.018.078-2.12 0 0 .67-.215 2.2.82A7.655 7.655 0 0 1 8 4.572c.68.003 1.366.092 2.006.272 1.53-1.035 2.198-.82 2.198-.82.436 1.102.162 1.917.08 2.12.513.559.822 1.274.822 2.146 0 3.071-1.87 3.746-3.654 3.944.287.246.543.73.543 1.473 0 1.062-.01 1.92-.01 2.182 0 .214.145.462.55.384C13.708 14.532 16 11.54 16 8c0-4.42-3.58-8-8-8z"/>
                     </svg>
                 </a>
             </div>
         </div>
+        <div class="text-center mb-5">
+            <p class="text-center" style="color: white;">
+                <strong>Harmony Digital
+                    <a href="#" target="_blank">"</a> - 03 290 Dompierre Sur Besbre
+                </strong>
+            </p>
+            <p>
+                <a href="mentionsLegales.php">Mentions Légales</a> &nbsp;&nbsp;&nbsp;
+                <a href="politiquedeConfidentialite.php">Politique De Confidentialité</a>&nbsp;&nbsp;&nbsp;
+                <a href="conditionsGeneralesDeVente.php">CGV</a>
+            </p>
+        </div>
     </div>
 </footer>
-</body>

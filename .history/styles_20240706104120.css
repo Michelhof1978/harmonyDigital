@@ -1,16 +1,11 @@
 /* Général */
 body {
     font-family: 'Times New Roman', Times, serif;
-    overflow: hidden; /* Masquer le dépassement de contenu */
-    background-image: url('Images/body.png'); /* Remplacez par le chemin correct de votre image */
-    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le body */
-    background-position: center; /* Centre l'image horizontalement et verticalement */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-}
-
-/* Appliquer à tous les éléments directs du body */
-body > * {
-    width: 100%;
+    overflow: hidden;
+    background-image: url('Images/body.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Navbar */
@@ -53,8 +48,8 @@ body > * {
 }
 
 .nav-spacing {
-    margin-left: 5px; /* Ajustez cette valeur selon vos besoins */
-    margin-right: 5px; /* Ajustez cette valeur selon vos besoins */
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .navbar-nav {
@@ -147,11 +142,12 @@ body > * {
 
     .nav-brand {
         font-size: 28px;
-        order: 1; /* Position du logo et le titre viennent en premier */
+        order: 1;
     }
 
     .navbar-brand {
         text-align: center;
+        width: 100%; /* Ajouter cette ligne */
     }
 
     .navbar-toggler {
@@ -159,11 +155,12 @@ body > * {
         margin-bottom: 1rem;
         display: flex;
         justify-content: center;
-        order: 2; /* Position du bouton hamburger vient après le logo et le titre */
+        order: 2;
     }
 
     .navbar-collapse {
-        order: 3; /* Le menu collapsé doit venir après le bouton hamburger */
+        order: 3;
+        width: 100%; /* Ajouter cette ligne */
     }
 
     .text-orange {
@@ -191,25 +188,25 @@ body > * {
     }
 
     #special-header {
-        height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
-        width: 100%; /* Assurer la pleine largeur */
+        height: 20vh;
+        width: 100%;
     }
 
     #logo-container img {
-        max-width: 20vh; /* Réduire la taille du logo sur les appareils mobiles */
+        max-width: 20vh;
     }
 
     .star-line {
-        height: 0.4em; /* Réduire la hauteur des lignes de caractères */
-        margin-bottom: 20px; /* Réduire l'espacement entre les lignes */
+        height: 0.4em;
+        margin-bottom: 20px;
     }
 
     .star {
-        font-size: 10px; /* Réduire la taille des caractères sur les appareils mobiles */
+        font-size: 10px;
     }
 
     footer {
-        width: 100%; /* Assurer la pleine largeur */
+        width: 100%;
     }
 }
 

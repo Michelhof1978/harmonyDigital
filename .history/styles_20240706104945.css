@@ -8,11 +8,6 @@ body {
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
 }
 
-/* Appliquer à tous les éléments directs du body */
-body > * {
-    width: 100%;
-}
-
 /* Navbar */
 .navbar {
     height: auto;
@@ -134,9 +129,18 @@ body > * {
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
-    .bg-dark {
-        width: 100%;
+    body, .bg-dark, .navbar, footer {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden;
     }
+
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    
     
     .navbar {
         height: auto;

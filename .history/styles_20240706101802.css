@@ -1,16 +1,23 @@
 /* Général */
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* Styles de base */
+body {
     font-family: 'Times New Roman', Times, serif;
-    overflow: hidden; /* Masquer le dépassement de contenu */
+    overflow-x: hidden; /* Masquer le dépassement horizontal */
     background-image: url('Images/body.png'); /* Remplacez par le chemin correct de votre image */
     background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le body */
     background-position: center; /* Centre l'image horizontalement et verticalement */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
-}
-
-/* Appliquer à tous les éléments directs du body */
-body > * {
-    width: 100%;
 }
 
 /* Navbar */
@@ -137,7 +144,7 @@ body > * {
     .bg-dark {
         width: 100%;
     }
-    
+
     .navbar {
         height: auto;
         display: flex;
@@ -206,10 +213,6 @@ body > * {
 
     .star {
         font-size: 10px; /* Réduire la taille des caractères sur les appareils mobiles */
-    }
-
-    footer {
-        width: 100%; /* Assurer la pleine largeur */
     }
 }
 

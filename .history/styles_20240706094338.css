@@ -1,19 +1,22 @@
-/* Général */
+/* html{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	
+} */
+
 body {
+    margin: 0;
     font-family: 'Times New Roman', Times, serif;
     overflow: hidden; /* Masquer le dépassement de contenu */
     background-image: url('Images/body.png'); /* Remplacez par le chemin correct de votre image */
     background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le body */
     background-position: center; /* Centre l'image horizontalement et verticalement */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
+   
 }
 
-/* Appliquer à tous les éléments directs du body */
-body > * {
-    width: 100%;
-}
-
-/* Navbar */
+/* navbar */
 .navbar {
     height: auto;
 }
@@ -63,12 +66,11 @@ body > * {
     font-style: normal;
 }
 
-/* Header */
+/* header */
 #special-header {
     position: relative;
     height: 70vh;
     overflow: hidden;
-    width: 100%;
 }
 
 #video-bg {
@@ -94,7 +96,7 @@ body > * {
     max-height: auto;
 }
 
-/* Star-container */
+/* star-container */
 #star-container {
     position: relative;
     width: 100%;
@@ -134,9 +136,6 @@ body > * {
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
-    .bg-dark {
-        width: 100%;
-    }
     
     .navbar {
         height: auto;
@@ -149,8 +148,7 @@ body > * {
         font-size: 28px;
         order: 1; /* Position du logo et le titre viennent en premier */
     }
-
-    .navbar-brand {
+    .navbar-brand{
         text-align: center;
     }
 
@@ -163,7 +161,7 @@ body > * {
     }
 
     .navbar-collapse {
-        order: 3; /* Le menu collapsé doit venir après le bouton hamburger */
+        order: 3; /* le menu collapsé doit venir après le bouton hamburger */
     }
 
     .text-orange {
@@ -192,7 +190,6 @@ body > * {
 
     #special-header {
         height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
-        width: 100%; /* Assurer la pleine largeur */
     }
 
     #logo-container img {
@@ -207,16 +204,11 @@ body > * {
     .star {
         font-size: 10px; /* Réduire la taille des caractères sur les appareils mobiles */
     }
-
-    footer {
-        width: 100%; /* Assurer la pleine largeur */
-    }
 }
 
-/* Footer */
+/* footer */
 footer {
     height: 360px;
-    width: 100%;
 }
 
 .copyright {

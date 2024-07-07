@@ -8,11 +8,6 @@ body {
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
 }
 
-/* Appliquer à tous les éléments directs du body */
-body > * {
-    width: 100%;
-}
-
 /* Navbar */
 .navbar {
     height: auto;
