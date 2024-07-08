@@ -19,8 +19,8 @@
     margin-top: -80px;
   }
 
-  .imgcard{
-    margin-top: -40px;
+  .textcard{
+    margin-top: -80px;
   }
     .pricecard{
      color: #e06717e4;

@@ -20,7 +20,7 @@
   }
 
   .imgcard{
-    margin-top: -40px;
+    margin-top: -80px;
   }
     .pricecard{
      color: #e06717e4;

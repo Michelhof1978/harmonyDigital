@@ -205,10 +205,10 @@ body {
     }
 }
 
-/* Carte bootstrap */
-
-/* Fin Carte bootstrap */
-
+Carte bootstrap
+.locationIndex{
+	margin-top: -20px !important;
+}
 /* Footer */
 footer {
     height: 360px; 

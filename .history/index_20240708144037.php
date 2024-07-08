@@ -18,12 +18,8 @@
     .textcard{
     margin-top: -80px;
   }
-
-  .imgcard{
-    margin-top: -40px;
-  }
     .pricecard{
-     color: #e06717e4;
+     color: ;
     }
 
 </style>

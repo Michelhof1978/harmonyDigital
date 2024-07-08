@@ -14,18 +14,6 @@
     .custom-animation {
         animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
     }
-
-    .textcard{
-    margin-top: -80px;
-  }
-
-  .imgcard{
-    margin-top: -40px;
-  }
-    .pricecard{
-     color: #e06717e4;
-    }
-
 </style>
 
 </head>
@@ -43,19 +31,19 @@
       <div class="col-lg-3 col-md-6">
         <div class="card bg-dark">
           <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-            <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
+            <img src="images/card1.png" alt="site internet" loading="lazy" class="img-fluid">
            
-            <p class="textcard card-text text-white">
-              <strong>
+            <p class="card-text text-white">
+              <strong></strong>
                 Site vitrine<br>
                 Corporate<br>
                 Evènementiel<br>
-                E-commerce<br><br>
-              </strong>
+                E-commerce<br>
             </p>
-          </div><br><br><br><br>
+          </div>
 
-          <strong class="pricecard text-white custom-animation">A partir de 890,00 €</strong>
+          <strong class="text-success">Tarif</strong><br>
+          <strong class="text-success custom-animation">A partir de 890,00 €</strong>
           
           <div class="card-body"> 
             <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>

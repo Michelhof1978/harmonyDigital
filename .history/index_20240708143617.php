@@ -17,15 +17,11 @@
 
     .textcard{
     margin-top: -80px;
-  }
 
-  .imgcard{
-    margin-top: -40px;
-  }
-    .pricecard{
-     color: #e06717e4;
+    .imgcard{
+     
     }
-
+}
 </style>
 
 </head>
@@ -55,7 +51,7 @@
             </p>
           </div><br><br><br><br>
 
-          <strong class="pricecard text-white custom-animation">A partir de 890,00 €</strong>
+          <strong class="text-white custom-animation">A partir de 890,00 €</strong>
           
           <div class="card-body"> 
             <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>

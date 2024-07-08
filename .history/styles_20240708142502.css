@@ -206,7 +206,9 @@ body {
 }
 
 /* Carte bootstrap */
-
+.textcard{
+    margin-top: -120px !important;
+}
 /* Fin Carte bootstrap */
 
 /* Footer */
