@@ -18,7 +18,7 @@
   <meta name="author" content="HOFFMANN MICHEL-Harmony Digital">
 
 
-  <!-- css Titres ne fonctionne pas ds le fichier css-->
+  css Titres
   <style>
   .border-orange {
     border-color: orange !important;

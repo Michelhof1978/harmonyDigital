@@ -206,6 +206,10 @@ body {
 }
 
 
+.border-orange {
+    border-color: orange;
+  }
+
 /* Footer */
 footer {
     height: 360px; 

@@ -41,8 +41,9 @@
               Tarifs <strong>89,00 €</strong> la nuitée.<br><br>
               <strong class="text-success">Tarif</strong><br>
               <strong class="text-success custom-animation">A partir de 600,00 €</strong><br><br>
+             
             </p>
-            <a href=".php" class="btn btn-primary">Contactez-nous pour un devis !</a>
+            <a href="resaContact.php" class="btn btn-primary">Réserver !</a>
           </div>
         </div>
       </div>

@@ -205,6 +205,10 @@ body {
     }
 }
 
+/* Footer */
+.border-orange {
+    border-color: orange;
+  }
 
 /* Footer */
 footer {

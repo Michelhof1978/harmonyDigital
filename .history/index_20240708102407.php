@@ -1,21 +1,6 @@
 <?php include("head.php"); ?>
 <meta name="description" content="">
 <title>Harmony Digital</title>
-<style>
-    @keyframes infiniteBlink {
-        0%, 100% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-    }
-
-    .custom-animation {
-        animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
-    }
-</style>
-
 </head>
 <body>
 <?php include("header.php"); ?>
@@ -39,10 +24,11 @@
               <strong>Découvrez en détail et en images les caractéristiques des caravanes sur la page 'Camping'.</strong><br>
               Linge de lit non inclus, prévoir des draps de dimensions <strong>140/190 et 120/190</strong>.<br><br>
               Tarifs <strong>89,00 €</strong> la nuitée.<br><br>
-              <strong class="text-success">Tarif</strong><br>
-              <strong class="text-success custom-animation">A partir de 600,00 €</strong><br><br>
+              <strong class="text-success">PROMO</strong><br>
+              <strong class="text-success custom-animation">Réduction de 10% sur la totalité du séjour à partir de la 3<sup>ème</sup> nuit réservée</strong><br><br>
+              Option d'hébergement sous le auvent, permettant d'accueillir 2 personnes supplémentaires pour <strong>12,00 €</strong> par personne (matelas non fournis, veuillez prévoir).
             </p>
-            <a href=".php" class="btn btn-primary">Contactez-nous pour un devis !</a>
+            <a href="resaContact.php" class="btn btn-primary">Réserver !</a>
           </div>
         </div>
       </div>

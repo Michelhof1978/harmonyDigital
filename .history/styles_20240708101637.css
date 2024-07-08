@@ -205,6 +205,10 @@ body {
     }
 }
 
+/* Titres */
+.border-orange {
+    border-color: #e06717e4 !important;
+  }
 
 /* Footer */
 footer {
