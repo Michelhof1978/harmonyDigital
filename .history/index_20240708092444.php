@@ -5,8 +5,15 @@
 <body>
 <?php include("header.php"); ?>
 
-   <!-- PROPOSITION LOGEMENTS -->
-   <section id="star-container" class="index text-center clear mt-4 ms-2 me-2">
+<div id="content">
+  <!-- Autres sections de contenu ici -->
+  
+  <div id="star-container">
+    <!-- Contenu des étoiles -->
+  </div>
+  
+  <!-- PROPOSITION LOGEMENTS -->
+  <section class="index text-center clear mt-4 ms-2 me-2">
     <h4 class="mb-5 border border-3 rounded display-6 p-2 col m-2 h4Index text-white">
       <strong>LOCATION POUR 4 PERSONNES A 89,00€ / NUIT</strong>
     </h4>
@@ -79,8 +86,6 @@
     </div>
   </section>
 </div>
-  
- 
 
 <?php include("footer.php"); ?>
 
