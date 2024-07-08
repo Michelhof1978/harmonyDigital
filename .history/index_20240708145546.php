@@ -46,15 +46,17 @@
             <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
            
             <p class="textcard text-orange-nav card-text text-white">
-            <strong><span class="text-orange-nav">S</span>ites <span class="text-orange-nav">V</span>itrines</strong><br>
-            <strong><span class="text-orange-nav">C</span>orporate</strong><br>
-            <strong><span class="text-orange-nav">E</span>vènementiel</strong><br>
-            <strong><span class="text-orange-nav">E</span>-<span class="text-orange-nav">C</span>ommerce</strong><br>
+            <strong><span class="text-orange-nav">S</span>ites<span class="text-orange-nav">V</span>ites</strong>
+              <strong>
+               
+                Corporate<br>
+                Evènementiel<br>
+                E-commerce<br><br>
+              </strong>
             </p>
+          </div><br><br><br><br>
 
-          </div>
-
-          <strong class="pricecard text-white custom-animation mt-3">A partir de 890,00 €</strong>
+          <strong class="pricecard text-white custom-animation">A partir de 890,00 €</strong>
           
           <div class="card-body"> 
             <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>

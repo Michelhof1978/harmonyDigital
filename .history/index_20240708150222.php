@@ -54,7 +54,7 @@
 
           </div>
 
-          <strong class="pricecard text-white custom-animation mt-3">A partir de 890,00 €</strong>
+          <strong class="pricecard text-white custom-animation">A partir de 890,00 €</strong>
           
           <div class="card-body"> 
             <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>

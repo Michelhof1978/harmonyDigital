@@ -52,9 +52,9 @@
             <strong><span class="text-orange-nav">E</span>-<span class="text-orange-nav">C</span>ommerce</strong><br>
             </p>
 
-          </div>
+          </div><br><br><br><br><b
 
-          <strong class="pricecard text-white custom-animation mt-3">A partir de 890,00 €</strong>
+          <strong class="pricecard text-white custom-animation">A partir de 890,00 €</strong>
           
           <div class="card-body"> 
             <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
