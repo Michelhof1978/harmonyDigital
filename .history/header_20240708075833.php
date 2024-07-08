@@ -1,4 +1,4 @@
-<body>
+<body class="w-100">
 <?php
   // Constantes pour les URLs
   define('AUTHOR_URL', 'https://cvmichel-hoffmann.fr/');
@@ -6,7 +6,7 @@
   define('GITHUB_URL', 'https://github.com/Michelhof1978/');
 ?>
 
-<div class="bg-dark">
+<div class="bg-dark w-100">
 <div class=" navbar-brand"> 
     <div class="container-fluid">
   <!-- Logo et titre -->

@@ -1,4 +1,4 @@
-<body>
+<body w>
 <?php
   // Constantes pour les URLs
   define('AUTHOR_URL', 'https://cvmichel-hoffmann.fr/');

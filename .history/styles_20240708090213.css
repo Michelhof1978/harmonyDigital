@@ -187,7 +187,7 @@ body {
 
     #special-header {
         height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
-       
+        width: 100%; /* Assurer la pleine largeur */
     }
 
     #logo-container img {
@@ -211,7 +211,7 @@ body {
 /* Footer */
 footer {
     height: 360px;
-   
+    width: 100%;
 }
 
 .copyright {

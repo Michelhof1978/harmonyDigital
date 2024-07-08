@@ -63,7 +63,7 @@ body {
     position: relative;
     height: 70vh;
     overflow: hidden;
-   
+    width: 100%;
 }
 
 #video-bg {
@@ -130,7 +130,7 @@ body {
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
     .bg-dark {
-        
+        width: 100%;
     }
     
     .navbar {
@@ -187,7 +187,7 @@ body {
 
     #special-header {
         height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
-       
+        width: 100%; /* Assurer la pleine largeur */
     }
 
     #logo-container img {
@@ -204,14 +204,14 @@ body {
     }
 
     footer {
-       
+        width: 100%; /* Assurer la pleine largeur */
     }
 }
 
 /* Footer */
 footer {
     height: 360px;
-   
+    width: 100%;
 }
 
 .copyright {
@@ -237,3 +237,34 @@ footer {
     text-align: center;
 }
 
+html{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	
+}
+	
+/*body*/
+body {
+	font-family: 'Roboto Slab', serif;
+    background-color: rgba(245, 245, 245, 0.767);
+    margin: 0;
+	padding: 20px;
+
+  }
+  body:before, body:after {
+	content: "";
+	position: relative;
+	z-index: 999;
+	background: inherit;
+	left: 0;
+	right: 0;
+	height: 20px;
+  }
+  body:before {
+	top: 0;
+  }
+  body:after {
+	bottom: 0;
+  }
+/*End body*/

@@ -8,6 +8,11 @@ body {
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
 }
 
+/* Appliquer à tous les éléments directs du body */
+body > * {
+    width: 100%;
+}
+
 /* Navbar */
 .navbar {
     height: auto;
@@ -63,7 +68,7 @@ body {
     position: relative;
     height: 70vh;
     overflow: hidden;
-   
+    width: 100%;
 }
 
 #video-bg {
@@ -130,7 +135,7 @@ body {
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
     .bg-dark {
-        
+        width: 100%;
     }
     
     .navbar {
@@ -187,7 +192,7 @@ body {
 
     #special-header {
         height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
-       
+        width: 100%; /* Assurer la pleine largeur */
     }
 
     #logo-container img {
@@ -204,14 +209,14 @@ body {
     }
 
     footer {
-       
+        width: 100%; /* Assurer la pleine largeur */
     }
 }
 
 /* Footer */
 footer {
     height: 360px;
-   
+    width: 100%;
 }
 
 .copyright {
@@ -236,4 +241,3 @@ footer {
 .img3 {
     text-align: center;
 }
-
