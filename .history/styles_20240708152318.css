@@ -1,15 +1,17 @@
 /* Général */
 body {
     font-family: 'Times New Roman', Times, serif;
-   
+   ba
     /* Image en fond d'écran */
-    background-image: url('Images/fondGris.jpg'); /* Remplacez par le chemin correct de votre image */
-    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le body */
-    background-position: center; /* Centre l'image horizontalement et verticalement */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    /* background-image: url('Images/fondgris.png'); Remplacez par le chemin correct de votre image */
+    /* background-size: cover; Ajuste la taille de l'image pour couvrir tout le body */
+    /* background-position: center; Centre l'image horizontalement et verticalement */
+    /* background-repeat: no-repeat; Empêche la répétition de l'image */
 }
 
-
+.clear{
+    clear: both;
+} 
 
 /* Navbar */
 .navbar {

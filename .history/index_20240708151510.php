@@ -22,8 +22,8 @@
   .imgcard{
     margin-top: -40px;
   }
-    .borderColor{
-      color: #e06717e4 !important;
+    .{
+    
     }
 
 </style>

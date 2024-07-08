@@ -22,8 +22,8 @@
   .imgcard{
     margin-top: -40px;
   }
-    .borderColor{
-      color: #e06717e4 !important;
+    .pricecard{
+    
     }
 
 </style>
@@ -35,7 +35,7 @@
    <!-- TARIFS -->
    <section id="star-container" class="index text-center clear mt-4 ms-2 me-2">
    
-   <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2  text-white ">
+   <h4 class="mb-5 border border-orange border-5 rounded display-6 p-2 col m-2  text-white ">
   <strong>Nos Tarifs</strong>
 </h4>
 
