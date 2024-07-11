@@ -26,8 +26,6 @@
       color: #e06717e4 !important;
     }
 
-    
-
 </style>
 
 </head>
@@ -35,9 +33,9 @@
 <?php include("header.php"); ?>
 
    <!-- TARIFS -->
-   <section id="star-container" class=" text-center mt-4 ms-2 me-2">
+   <section  class="index text-center clear mt-4 ms-2 me-2">
    
-   <!-- <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2  text-white ">
+   <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2  text-white ">
   <strong>Nos Tarifs</strong>
 </h4>
 
@@ -108,9 +106,9 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </section>
-
+</div>
   
  
 

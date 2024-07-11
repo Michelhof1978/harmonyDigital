@@ -26,7 +26,70 @@
       color: #e06717e4 !important;
     }
 
+    <style>
     
+
+    .custom-animation {
+        animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
+    }
+
+    .textcard {
+        margin-top: -80px;
+    }
+
+    .imgcard {
+        margin-top: -40px;
+    }
+
+    .borderColor {
+        color: #e06717e4 !important;
+    }
+
+    /* Style pour les 1 et 0 en arrière-plan */
+    .binary-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1; /* Derrière tout le contenu */
+    }
+
+    .binary-line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        height: 1em;
+        width: 100%;
+    }
+
+    .binary-char {
+        opacity: 0;
+        animation: sparkle 1s infinite alternate;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.1); /* Couleur blanche translucide */
+    }
+
+    @keyframes sparkle {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* Général */
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url('Images/fondGris6.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
 
 </style>
 
@@ -35,9 +98,9 @@
 <?php include("header.php"); ?>
 
    <!-- TARIFS -->
-   <section id="star-container" class=" text-center mt-4 ms-2 me-2">
+   <section id="star-container" class="index text-center clear mt-4 ms-2 me-2">
    
-   <!-- <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2  text-white ">
+   <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2  text-white ">
   <strong>Nos Tarifs</strong>
 </h4>
 
@@ -108,9 +171,9 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </section>
-
+</div>
   
  
 
