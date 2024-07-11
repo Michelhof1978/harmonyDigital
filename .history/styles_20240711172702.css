@@ -105,7 +105,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #7ed2f1c4;
+    color: #f1867ec4;
 }
 
 .star-line {
@@ -133,6 +133,7 @@ body {
         opacity: 1;
     }
 }
+
 
 /* Fin animation 0 et 1*/
 

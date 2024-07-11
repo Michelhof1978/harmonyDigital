@@ -4,8 +4,9 @@ function createStarLines() {
   const lineCount = 30; // Nombre de lignes de lettres et chiffres
   const charsPerLine = 320; // Nombre de caractères par ligne
 
-  const starContainer = document.getElementById('star-container');
-  if (!starContainer) return; // S'assurer que l'élément existe
+  const starBackground = document.createElement('div');
+  starBackground.id = 'star-background';
+  document.body.appendChild(starBackground);
 
   for (let i = 0; i < lineCount; i++) {
     const line = document.createElement('div');
@@ -21,7 +22,7 @@ function createStarLines() {
       line.appendChild(span);
     }
 
-    starContainer.appendChild(line); // Ajouter la ligne au conteneur
+    starBackground.appendChild(line); // Ajouter la ligne au conteneur
   }
 }
 
