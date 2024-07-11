@@ -61,7 +61,7 @@
     </h4>
   </div>
 
-  <div id="tarifCarousel" class="carousel slide">
+  <div id="tarifCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <!-- Premier groupe de cartes -->
       <div class="carousel-item active">
@@ -180,4 +180,10 @@
   </div>
 </section>
 
+  
+ 
+
 <?php include("footer.php"); ?>
+
+
+

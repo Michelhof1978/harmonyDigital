@@ -53,7 +53,7 @@
 <body>
 <?php include("header.php"); ?>
 
- <!-- TARIFS -->
+<!-- TARIFS -->
 <section id="star-container" class="text-center mt-4 ms-2 me-2">
   <div>
     <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2 text-white">
@@ -61,7 +61,7 @@
     </h4>
   </div>
 
-  <div id="tarifCarousel" class="carousel slide">
+  <div id="tarifCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
     <div class="carousel-inner">
       <!-- Premier groupe de cartes -->
       <div class="carousel-item active">
@@ -164,7 +164,7 @@
           </div>
         </div>
       </div>
-
+      
       <!-- Ajoutez d'autres items de carrousel ici si nécessaire -->
     </div>
 
@@ -180,4 +180,11 @@
   </div>
 </section>
 
+
+  
+ 
+
 <?php include("footer.php"); ?>
+
+
+
