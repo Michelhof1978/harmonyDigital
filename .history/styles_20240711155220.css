@@ -96,8 +96,8 @@ body {
 /* Fin Banner vidéo */
 
 /* Animation 1 et 0 */
+/* Animation 1 et 0 */
 #star-container {
-  
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -120,12 +120,12 @@ body {
 
 .star {
     opacity: 0;
-    animation: sparkle 3s infinite alternate; /*INFINITE: se répéter indéfiniment*/
+    animation: sparkle 2s infinite alternate;
     font-size: 8px;
-    margin-right: 2em; /* Marge horizontale entre les caractères */
+    padding: 0 5px; /* Ajout de padding pour espacer les caractères */
 }
 
- @keyframes sparkle { /*keyframes: pour faire des animations / sparkle: nom de l'animation */
+@keyframes sparkle {
     0% {
         opacity: 0;
     }
@@ -133,6 +133,7 @@ body {
         opacity: 1;
     }
 }
+
 /* Fin animation 0 et 1*/
 
 /* Media queries pour les appareils mobiles */

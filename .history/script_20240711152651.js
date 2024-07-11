@@ -2,7 +2,7 @@ const chars = '01';
 
 function createStarLines() {
   const lineCount = 30; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 320; // Nombre de caractères par ligne
+  const charsPerLine = 30; // Nombre de caractères par ligne
 
   const starContainer = document.getElementById('star-container');
   if (!starContainer) return; // S'assurer que l'élément existe
@@ -16,8 +16,7 @@ function createStarLines() {
       const span = document.createElement('span');
       span.textContent = char;
       span.className = 'star';
-      span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
-      span.style.marginRight = '2em'; // Marge horizontale entre les caractères
+      span.style.animationDelay = `${Math.random() * 550}s`; // Délai d'animation aléatoire
       line.appendChild(span);
     }
 

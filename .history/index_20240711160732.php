@@ -25,9 +25,7 @@
     margin-top: -40px;
   }
 
-   /* Fin css CARD  */
-
-    /* Titre */
+   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
     .borderColor{
       color: #e06717e4 !important;
     }

@@ -2,7 +2,7 @@
 <meta name="description" content="">
 <title>Harmony Digital</title>
 <style>
-  /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
+  /* css */
     @keyframes infiniteBlink {
         0%, 100% {
             opacity: 1;
@@ -24,10 +24,6 @@
   .imgcard{
     margin-top: -40px;
   }
-
-   /* Fin css CARD  */
-
-    /* Titre */
     .borderColor{
       color: #e06717e4 !important;
     }

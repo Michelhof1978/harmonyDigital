@@ -1,5 +1,3 @@
-const chars = '01';
-
 function createStarLines() {
   const lineCount = 30; // Nombre de lignes de lettres et chiffres
   const charsPerLine = 320; // Nombre de caractères par ligne
@@ -17,7 +15,7 @@ function createStarLines() {
       span.textContent = char;
       span.className = 'star';
       span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
-      span.style.marginRight = '2em'; // Marge horizontale entre les caractères
+      span.style.margin = '0 5px'; // Ajout de margin pour espacer les caractères
       line.appendChild(span);
     }
 

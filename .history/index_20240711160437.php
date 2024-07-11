@@ -2,7 +2,6 @@
 <meta name="description" content="">
 <title>Harmony Digital</title>
 <style>
-  /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
     @keyframes infiniteBlink {
         0%, 100% {
             opacity: 1;
@@ -12,7 +11,7 @@
         }
     }
 
-    /* Animation tarif clignotant */
+    custom-animation 
     .custom-animation {
         animation: infiniteBlink 3s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
     }
@@ -24,10 +23,6 @@
   .imgcard{
     margin-top: -40px;
   }
-
-   /* Fin css CARD  */
-
-    /* Titre */
     .borderColor{
       color: #e06717e4 !important;
     }

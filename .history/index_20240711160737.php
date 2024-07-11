@@ -25,9 +25,7 @@
     margin-top: -40px;
   }
 
-   /* Fin css CARD  */
-
-    /* Titre */
+   /* css CARD  */
     .borderColor{
       color: #e06717e4 !important;
     }

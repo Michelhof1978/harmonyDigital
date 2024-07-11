@@ -120,9 +120,8 @@ body {
 
 .star {
     opacity: 0;
-    animation: sparkle 3s infinite alternate; /*INFINITE: se répéter indéfiniment*/
+    animation: sparkle 2s infinite alternate; INFINITEse répéter indéfiniment
     font-size: 8px;
-    margin-right: 2em; /* Marge horizontale entre les caractères */
 }
 
  @keyframes sparkle { /*keyframes: pour faire des animations / sparkle: nom de l'animation */

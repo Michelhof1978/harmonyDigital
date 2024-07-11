@@ -17,7 +17,6 @@ function createStarLines() {
       span.textContent = char;
       span.className = 'star';
       span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
-      span.style.marginRight = '2em'; // Marge horizontale entre les caractères
       line.appendChild(span);
     }
 
