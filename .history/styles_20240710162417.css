@@ -3,7 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
    /* background-color: rgb(255, 255, 248) !important; */
     /* Image en fond d'écran */
-     background-image: url('Images/fondGris6.jpg'); /* Remplacez par le chemin correct de votre image */
+     background-image: url('Images/fondGris7.png'); /* Remplacez par le chemin correct de votre image */
      background-size: cover;/* Ajuste la taille de l'image pour couvrir tout le body */
      background-position: center; /*Centre l'image horizontalement et verticalement */
      background-repeat: no-repeat;/* Empêche la répétition de l'image */ 
