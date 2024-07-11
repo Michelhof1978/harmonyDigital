@@ -79,8 +79,7 @@ body {
     object-fit: cover;
     z-index: 0;
 }
-
-
+/* Banner vidéo */
 #logo-container {
     position: absolute;
     top: 50%;
@@ -93,7 +92,6 @@ body {
     max-width: 280px;
     max-height: auto;
 }
-/* Fin Banner vidéo */
 
 /* Animation 1 et 0 */
 #star-container {

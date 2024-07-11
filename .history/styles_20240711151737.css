@@ -60,9 +60,8 @@ body {
     font-weight: 700;
     font-style: normal;
 }
-/* Fin Navbar */
-
-/* Banner vidéo */
+/* Navbar */
+/* Header */
 #special-header {
     position: relative;
     height: 70vh;
@@ -80,7 +79,6 @@ body {
     z-index: 0;
 }
 
-
 #logo-container {
     position: absolute;
     top: 50%;
@@ -93,7 +91,6 @@ body {
     max-width: 280px;
     max-height: auto;
 }
-/* Fin Banner vidéo */
 
 /* Animation 1 et 0 */
 #star-container {

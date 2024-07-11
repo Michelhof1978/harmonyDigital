@@ -31,7 +31,7 @@
 </style>
 
 </head>
-<body>
+<body id="star-container">
 <?php include("header.php"); ?>
 
    <!-- TARIFS -->

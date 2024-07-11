@@ -29,7 +29,7 @@
         </button>
 
         <!-- Menu collapsé -->
-        <div class="collapse navbar-collapse mt-2">
+        <div class="collapse navbar-collapse mt-2" id=">
             <ul class="navbar-nav ms-auto text-center me-3">
                 <li class="nav-item">
                     <a class="nav-link fs-5" aria-current="page" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>

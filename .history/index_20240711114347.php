@@ -33,9 +33,9 @@
 </head>
 <body>
 <?php include("header.php"); ?>
-
+<div ></div>
    <!-- TARIFS -->
-   <section id="star-container" class=" text-center mt-4 ms-2 me-2">
+   <section  class=" text-center mt-4 ms-2 me-2">
    
    <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2  text-white ">
   <strong>Nos Tarifs</strong>

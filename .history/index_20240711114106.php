@@ -31,7 +31,7 @@
 </style>
 
 </head>
-<body>
+<body >
 <?php include("header.php"); ?>
 
    <!-- TARIFS -->

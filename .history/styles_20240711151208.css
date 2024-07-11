@@ -60,9 +60,8 @@ body {
     font-weight: 700;
     font-style: normal;
 }
-/* Fin Navbar */
 
-/* Banner vidéo */
+/* Header */
 #special-header {
     position: relative;
     height: 70vh;
@@ -80,7 +79,6 @@ body {
     z-index: 0;
 }
 
-
 #logo-container {
     position: absolute;
     top: 50%;
@@ -93,7 +91,6 @@ body {
     max-width: 280px;
     max-height: auto;
 }
-/* Fin Banner vidéo */
 
 /* Animation 1 et 0 */
 #star-container {
@@ -124,7 +121,7 @@ body {
     font-size: 8px;
 }
 
- @keyframes sparkle { /*keyframes: pour faire des animations / sparkle: nom de l'animation */
+@keyframes sparkle { 
     0% {
         opacity: 0;
     }
@@ -207,7 +204,6 @@ body {
     }
 
 }
-/* Fin Media queries pour les appareils mobiles */
 
 /* Carte bootstrap */
 
@@ -224,5 +220,20 @@ footer {
     font-size: 15px;
 }
 
-/* Fin Footer */
+.img1 {
+    width: 330px;
+    height: 650px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.img2 {
+    height: 180px;
+    width: 205px;
+    text-align: center;
+}
+
+.img3 {
+    text-align: center;
+}
 
