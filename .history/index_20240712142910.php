@@ -47,29 +47,47 @@
         justify-content: center;
     }
 
-    /* Ajoutez cette classe au conteneur parent du carrousel */
-.carousel-container {
-  position: relative; /* Positionnement relatif pour que les boutons soient positionnés par rapport à ce conteneur */
-  padding: 20px; /* Ajoutez un peu de rembourrage pour éviter que les boutons ne soient collés aux bords */
+    /* Positionner les boutons du carrousel en dehors des cartes */
+#tarifCarousel {
+  position: relative; /* Assure que les contrôles sont positionnés relativement au conteneur du carrousel */
 }
 
-/* Modifiez les boutons de navigation du carrousel */
-.carousel-control-prev,
-.carousel-control-next {
-  position: absolute; /* Positionnement absolu pour déplacer les boutons */
-  top: 50%; /* Alignez verticalement les boutons au centre */
-  transform: translateY(-50%); /* Déplacez-les vers le haut de moitié de leur hauteur pour les centrer verticalement */
-  z-index: 1; /* Assurez-vous qu'ils sont au-dessus des cartes */
-}
-
-/* Positionnez le bouton "Précédent" à gauche */
+/* Bouton précédent */
 .carousel-control-prev {
-  left: 0;
+  left: -50px; /* Ajustez cette valeur pour positionner le bouton sur le côté gauche */
+  z-index: 2; /* Assure que le bouton est au-dessus des cartes */
+  background-color: rgba(0, 0, 0, 0.5); /* Ajoutez une couleur de fond semi-transparente pour le bouton */
+  border-radius: 50%; /* Forme du bouton circulaire */
+  width: 50px; /* Largeur du bouton */
+  height: 50px; /* Hauteur du bouton */
 }
 
-/* Positionnez le bouton "Suivant" à droite */
+/* Icône du bouton précédent */
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"><path d="M11.293 12.293a1 1 0 0 0 0-1.414L7.414 7.5 11.293 3.707a1 1 0 0 0-1.414-1.414L5.5 6.586a1 1 0 0 0 0 1.414l4.379 4.379a1 1 0 0 0 1.414 0z"/></svg>');
+}
+
+/* Bouton suivant */
 .carousel-control-next {
-  right: 0;
+  right: -50px; /* Ajustez cette valeur pour positionner le bouton sur le côté droit */
+  z-index: 2; /* Assure que le bouton est au-dessus des cartes */
+  background-color: rgba(0, 0, 0, 0.5); /* Ajoutez une couleur de fond semi-transparente pour le bouton */
+  border-radius: 50%; /* Forme du bouton circulaire */
+  width: 50px; /* Largeur du bouton */
+  height: 50px; /* Hauteur du bouton */
+}
+
+/* Icône du bouton suivant */
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path d="M4.707 3.707a1 1 0 0 1 1.414 0L9.5 6.586a1 1 0 0 1 0 1.414L6.121 12.707a1 1 0 1 1-1.414-1.414L7.586 8.5 4.707 5.207a1 1 0 0 1 0-1.414z"/></svg>');
+}
+
+/* Optionnel : Boutons plus grands sur mobile */
+@media (max-width: 768px) {
+  .carousel-control-prev, .carousel-control-next {
+    width: 40px; /* Réduit la largeur des boutons sur mobile */
+    height: 40px; /* Réduit la hauteur des boutons sur mobile */
+  }
 }
 
 </style>
@@ -86,7 +104,7 @@
     </h4>
   </div>
 
-  <div id="tarifCarousel" class="carousel slide carousel-container">
+  <div id="tarifCarousel" class="carousel slide">
     <div class="carousel-inner">
       <!-- Premier groupe de cartes -->
       <div class="carousel-item active">

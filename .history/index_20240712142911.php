@@ -47,31 +47,7 @@
         justify-content: center;
     }
 
-    /* Ajoutez cette classe au conteneur parent du carrousel */
-.carousel-container {
-  position: relative; /* Positionnement relatif pour que les boutons soient positionnés par rapport à ce conteneur */
-  padding: 20px; /* Ajoutez un peu de rembourrage pour éviter que les boutons ne soient collés aux bords */
-}
-
-/* Modifiez les boutons de navigation du carrousel */
-.carousel-control-prev,
-.carousel-control-next {
-  position: absolute; /* Positionnement absolu pour déplacer les boutons */
-  top: 50%; /* Alignez verticalement les boutons au centre */
-  transform: translateY(-50%); /* Déplacez-les vers le haut de moitié de leur hauteur pour les centrer verticalement */
-  z-index: 1; /* Assurez-vous qu'ils sont au-dessus des cartes */
-}
-
-/* Positionnez le bouton "Précédent" à gauche */
-.carousel-control-prev {
-  left: 0;
-}
-
-/* Positionnez le bouton "Suivant" à droite */
-.carousel-control-next {
-  right: 0;
-}
-
+    
 </style>
 
 </head>
@@ -86,7 +62,7 @@
     </h4>
   </div>
 
-  <div id="tarifCarousel" class="carousel slide carousel-container">
+  <div id="tarifCarousel" class="carousel slide">
     <div class="carousel-inner">
       <!-- Premier groupe de cartes -->
       <div class="carousel-item active">

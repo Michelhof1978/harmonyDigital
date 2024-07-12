@@ -86,7 +86,7 @@
     </h4>
   </div>
 
-  <div id="tarifCarousel" class="carousel slide carousel-container">
+  <div id="tarifCarousel" class="carousel slide">
     <div class="carousel-inner">
       <!-- Premier groupe de cartes -->
       <div class="carousel-item active">
