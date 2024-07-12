@@ -47,7 +47,21 @@
         justify-content: center;
     }
 
-    
+    @media (max-width: 992px) {
+        .card {
+            flex: 1 0 45%; /* Ajuster pour 2 cartes sur des écrans moyens */
+        }
+    }
+
+    @media (max-width: 768px) {
+        .card {
+            flex: 1 0 100%; /* Une carte par ligne sur des petits écrans */
+        }
+    }
+
+    body{
+      width: 100%;
+    }
 </style>
 
 </head>
