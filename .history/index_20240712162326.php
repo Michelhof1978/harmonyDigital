@@ -49,6 +49,9 @@
 }
 
 /* CAROUSSEL */
+.carousel {
+  position: relative;
+}
 
 /* Réinitialiser les marges pour les éléments de la première et de la dernière ligne */
 .carousel-inner .d-flex > .card:first-child,
@@ -108,7 +111,7 @@
 .carousel-control-next {
   right: 0;
 }
-/* FIN CAROUSSEL */
+
 </style>
 
 </head>
