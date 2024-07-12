@@ -32,13 +32,19 @@
       color: #e06717e4 !important;
     }
 
-    .carousel-item .card {
+    /* Style pour le carrousel */
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel-item .card {
     margin: 0 10px; /* Espace entre les cartes */
   }
 
   /* Style pour les cartes */
   .card {
-    flex: 1 0 30%; /* Ajuster la largeur pour afficher 3 cartes */
+    flex: 1 0 25%; /* Réduit la largeur des cartes pour afficher 3 cartes */
   }
 
 </style>

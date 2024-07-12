@@ -1,4 +1,6 @@
-<?php include("head.php"); ?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
 <meta name="description" content="">
 <title>Harmony Digital</title>
 <style>
@@ -18,28 +20,35 @@
     }
 
     .textcard{
-    margin-top: -80px;
-  }
+        margin-top: -80px;
+    }
 
-  .imgcard{
-    margin-top: -40px;
-  }
+    .imgcard{
+        margin-top: -40px;
+    }
 
-   /* Fin css CARD  */
+    /* Fin css CARD  */
 
     /* Titre */
     .borderColor{
-      color: #e06717e4 !important;
+        color: #e06717e4 !important;
+    }
+
+    /* Style pour le carrousel */
+    .carousel-item {
+        display: flex;
+        justify-content: center;
     }
 
     .carousel-item .card {
-    margin: 0 10px; /* Espace entre les cartes */
-  }
+        margin: 0 10px; /* Espace entre les cartes */
+    }
 
-  /* Style pour les cartes */
-  .card {
-    flex: 1 0 30%; /* Ajuster la largeur pour afficher 3 cartes */
-  }
+    /* Style pour les cartes */
+    .card {
+        flex: 0 0 20%; /* Réduit la largeur des cartes */
+        max-width: 200px; /* Limite maximale de la largeur des cartes */
+    }
 
 </style>
 
@@ -55,7 +64,7 @@
     </h4>
   </div>
 
-  <div id="tarifCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="tarifCarousel" class="carousel slide">
     <div class="carousel-inner">
       <!-- Premier groupe de cartes -->
       <div class="carousel-item active">
@@ -174,10 +183,4 @@
   </div>
 </section>
 
-  
- 
-
 <?php include("footer.php"); ?>
-
-
-
