@@ -83,14 +83,14 @@
 
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
-  left: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(40%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
+  left: 20%; /* Déplacez-le vers le centre */
+  transform: translateX(20%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
 }
 
 /* Positionnez le bouton "Suivant" à droite */
 .carousel-control-next {
-  right: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(-50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
+  right: 20%; /* Déplacez-le vers le centre */
+  transform: translateX(%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
 }
 
 

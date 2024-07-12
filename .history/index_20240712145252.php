@@ -40,12 +40,12 @@
 /* Rapprocher les cartes en utilisant des marges négatives */
 .card {
   transform: scale(0.7); /* Réduit la taille à 70% */
-  transform-origin: center center; /* Centre la position d'origine des cartes */
+  transform-origin: top left; /* Conserve la position d'origine des cartes */
   flex: 1 0 30%; /* Ajuster la largeur pour afficher 3 cartes */
   box-sizing: border-box; /* S'assurer que padding et border sont inclus dans la largeur totale */
-  margin: 0 -90px; /* Ajoute une marge égale de chaque côté */
-}
+  margin: 0 -90px; /* Réduit l'espace entre les cartes à l'aide de marges négatives */
 
+}
 
 /* Réinitialiser les marges pour les éléments de la première et de la dernière ligne */
 .carousel-inner .d-flex > .card:first-child,
@@ -77,20 +77,20 @@
   height: 40px; /* Ajoutez une hauteur fixe */
   margin-top: -20px; /* Réduisez la hauteur de moitié pour centrer verticalement */
   z-index: 1; /* Assurez-vous qu'ils sont au-dessus des cartes */
-  background-color: #e06717e4; /* Ajoutez une couleur d'arrière-plan pour plus de visibilité */
+  background-color: rgba(0, 0, 0, 0.5); /* Ajoutez une couleur d'arrière-plan pour plus de visibilité */
   border-radius: 50%; /* Rendez les boutons circulaires */
 }
 
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
   left: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(40%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
+  transform: translateX(-50%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
 }
 
 /* Positionnez le bouton "Suivant" à droite */
 .carousel-control-next {
-  right: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(-50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
+  right: 0%; /* Déplacez-le vers le centre */
+  transform: translateX(50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
 }
 
 
