@@ -54,6 +54,15 @@
   margin-right: 0;
 }
 
+/* Centrer les cartes sur les écrans de petite taille uniquement */
+@media (max-width: 767px) {
+  .carousel-inner .d-flex {
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les éléments flexibles (les cartes) */
+  }
+}
+
+
 
     /* Conteneur de cartes responsif */
     .carousel-inner .d-flex {
@@ -68,31 +77,13 @@
 }
 
 /* Modifiez les boutons de navigation du carrousel */
-/* Modifiez les boutons de navigation du carrousel */
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute; /* Positionnement absolu pour déplacer les boutons */
   top: 50%; /* Alignez verticalement les boutons au centre */
-  width: 40px; /* Ajoutez une largeur fixe */
-  height: 40px; /* Ajoutez une hauteur fixe */
-  margin-top: -20px; /* Réduisez la hauteur de moitié pour centrer verticalement */
+  transform: translateY(-50%); /* Déplacez-les vers le haut de moitié de leur hauteur pour les centrer verticalement */
   z-index: 1; /* Assurez-vous qu'ils sont au-dessus des cartes */
-  background-color: rgba(0, 0, 0, 0.5); /* Ajoutez une couleur d'arrière-plan pour plus de visibilité */
-  border-radius: 50%; /* Rendez les boutons circulaires */
 }
-
-/* Positionnez le bouton "Précédent" à gauche */
-.carousel-control-prev {
-  left: 50%; /* Déplacez-le vers le centre */
-  transform: translateX(-50%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
-}
-
-/* Positionnez le bouton "Suivant" à droite */
-.carousel-control-next {
-  right: 50%; /* Déplacez-le vers le centre */
-  transform: translateX(50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
-}
-
 
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {

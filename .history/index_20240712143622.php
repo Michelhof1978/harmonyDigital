@@ -37,22 +37,14 @@
     /* Style pour les cartes */
     /* Réduire la taille des cartes à 70% */
 /* Rapprocher les cartes en réduisant la marge */
-/* Rapprocher les cartes en utilisant des marges négatives */
 .card {
   transform: scale(0.7); /* Réduit la taille à 70% */
   transform-origin: top left; /* Conserve la position d'origine des cartes */
   flex: 1 0 30%; /* Ajuster la largeur pour afficher 3 cartes */
   box-sizing: border-box; /* S'assurer que padding et border sont inclus dans la largeur totale */
-  margin: 0 -90px; /* Réduit l'espace entre les cartes à l'aide de marges négatives */
-
+  margin: 5px; /* Espace autour de chaque carte réduit à 5px */
 }
 
-/* Réinitialiser les marges pour les éléments de la première et de la dernière ligne */
-.carousel-inner .d-flex > .card:first-child,
-.carousel-inner .d-flex > .card:last-child {
-  margin-left: 0;
-  margin-right: 0;
-}
 
 
     /* Conteneur de cartes responsif */
@@ -68,31 +60,13 @@
 }
 
 /* Modifiez les boutons de navigation du carrousel */
-/* Modifiez les boutons de navigation du carrousel */
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute; /* Positionnement absolu pour déplacer les boutons */
   top: 50%; /* Alignez verticalement les boutons au centre */
-  width: 40px; /* Ajoutez une largeur fixe */
-  height: 40px; /* Ajoutez une hauteur fixe */
-  margin-top: -20px; /* Réduisez la hauteur de moitié pour centrer verticalement */
+  transform: translateY(-50%); /* Déplacez-les vers le haut de moitié de leur hauteur pour les centrer verticalement */
   z-index: 1; /* Assurez-vous qu'ils sont au-dessus des cartes */
-  background-color: rgba(0, 0, 0, 0.5); /* Ajoutez une couleur d'arrière-plan pour plus de visibilité */
-  border-radius: 50%; /* Rendez les boutons circulaires */
 }
-
-/* Positionnez le bouton "Précédent" à gauche */
-.carousel-control-prev {
-  left: 50%; /* Déplacez-le vers le centre */
-  transform: translateX(-50%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
-}
-
-/* Positionnez le bouton "Suivant" à droite */
-.carousel-control-next {
-  right: 50%; /* Déplacez-le vers le centre */
-  transform: translateX(50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
-}
-
 
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
