@@ -61,9 +61,7 @@
         }
     }
 
-    body{
-      width: 100%;
-    }
+    body{}
 </style>
 
 </head>

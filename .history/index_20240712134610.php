@@ -60,10 +60,7 @@
             flex: 1 0 100%; /* Une carte par ligne sur des petits écrans */
         }
     }
-
-    body{
-      width: 100%;
-    }
+    
 </style>
 
 </head>

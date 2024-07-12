@@ -18,56 +18,33 @@
     }
 
     .textcard{
-        margin-top: -80px;
-    }
+    margin-top: -80px;
+  }
 
-    .imgcard{
-        margin-top: -40px;
-    }
+  .imgcard{
+    margin-top: -40px;
+  }
 
-    /* Fin css CARD  */
+   /* Fin css CARD  */
 
     /* Titre */
     .borderColor{
-        color: #e06717e4 !important;
+      color: #e06717e4 !important;
     }
 
     .carousel-item .card {
-        margin: 0 10px; /* Espace entre les cartes */
-    }
+    margin: 0 10px; /* Espace entre les cartes */
+  }
 
-    /* Style pour les cartes */
-    .card {
-        flex: 1 0 30%; /* Ajuster la largeur pour afficher 3 cartes */
-        box-sizing: border-box; /* S'assurer que padding et border sont inclus dans la largeur totale */
-        margin: 10px; /* Espace autour de chaque carte */
-    }
+  /* Style pour les cartes */
+  .card {
+    flex: 1 0 30%; /* Ajuster la largeur pour afficher 3 cartes */
+  }
 
-    /* Conteneur de cartes responsif */
-    .carousel-inner .d-flex {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    @media (max-width: 992px) {
-        .card {
-            flex: 1 0 45%; /* Ajuster pour 2 cartes sur des écrans moyens */
-        }
-    }
-
-    @media (max-width: 768px) {
-        .card {
-            flex: 1 0 100%; /* Une carte par ligne sur des petits écrans */
-        }
-    }
-
-    body{
-      width: 100%;
-    }
 </style>
 
 </head>
-<body class="w-100">
+<body>
 <?php include("header.php"); ?>
 
  <!-- TARIFS -->
@@ -78,7 +55,7 @@
     </h4>
   </div>
 
-  <div id="tarifCarousel" class="carousel slide">
+  <div id="tarifCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <!-- Premier groupe de cartes -->
       <div class="carousel-item active">
@@ -197,4 +174,10 @@
   </div>
 </section>
 
+  
+ 
+
 <?php include("footer.php"); ?>
+
+
+

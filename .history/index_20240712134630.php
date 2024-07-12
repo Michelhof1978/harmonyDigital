@@ -62,7 +62,7 @@
     }
 
     body{
-      width: 100%;
+      width: ;
     }
 </style>
 

@@ -2,7 +2,8 @@ const chars = '01';
 
 function createStarLines() {
   const lineCount = 30; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 110; // Nombre de caractères par ligne
+  const charsPerLine = Math.floor(window.innerWidth / 15); // 15 est la largeur moyenne d'un caractère
+
 
   const starContainer = document.getElementById('star-container');
   if (!starContainer) return; // S'assurer que l'élément existe

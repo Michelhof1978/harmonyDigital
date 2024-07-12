@@ -1,19 +1,17 @@
 /* Général */
 body {
+    width: auto;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url('Images/fondGris.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0; /* Supprime les marges par défaut du body */
-    padding: 0; /* Supprime les paddings par défaut du body */
-    overflow-x: hidden; /* Évite le débordement horizontal */
+   /* background-color: rgb(255, 255, 248) !important; */
+    /* Image en fond d'écran */
+     background-image: url('Images/fondGris.png'); /* Remplacez par le chemin correct de votre image */
+     background-size: cover;/* Ajuste la taille de l'image pour couvrir tout le body */
+     background-position: center; /*Centre l'image horizontalement et verticalement */
+     background-repeat: no-repeat;/* Empêche la répétition de l'image */ 
 }
 
 html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Évite le débordement horizontal */
+    width: auto;
 }
 
 /* Navbar */
@@ -56,8 +54,8 @@ html {
 }
 
 .nav-spacing {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 5px; /* Ajustez cette valeur selon vos besoins */
+    margin-right: 5px; /* Ajustez cette valeur selon vos besoins */
 }
 
 .navbar-nav {
@@ -65,12 +63,14 @@ html {
     font-weight: 700;
     font-style: normal;
 }
+/* Fin Navbar */
 
 /* Banner vidéo */
 #special-header {
     position: relative;
     height: 70vh;
     overflow: hidden;
+   
 }
 
 #video-bg {
@@ -82,6 +82,7 @@ html {
     object-fit: cover;
     z-index: 0;
 }
+
 
 #logo-container {
     position: absolute;
@@ -95,11 +96,11 @@ html {
     max-width: 280px;
     max-height: auto;
 }
+/* Fin Banner vidéo */
 
 /* Animation 1 et 0 */
 #star-container {
-    margin: 0;
-    padding: 0;
+  
     width: 100%;
     height: 100%;
     z-index: 1;
@@ -108,7 +109,6 @@ html {
     justify-content: center;
     align-items: center;
     color: #7ed2f1c4;
-    overflow-x: hidden; /* Évite le débordement horizontal */
 }
 
 .star-line {
@@ -119,17 +119,16 @@ html {
     height: 0.5em;
     width: 100%;
     margin-bottom: 30px;
-   
 }
 
 .star {
     opacity: 0;
-    animation: sparkle 3s infinite alternate;
+    animation: sparkle 3s infinite alternate; /*INFINITE: se répéter indéfiniment*/
     font-size: 8px;
     margin-right: 3em; /* Marge horizontale entre les caractères */
 }
 
-@keyframes sparkle {
+ @keyframes sparkle { /*keyframes: pour faire des animations / sparkle: nom de l'animation */
     0% {
         opacity: 0;
     }
@@ -137,6 +136,8 @@ html {
         opacity: 1;
     }
 }
+
+/* Fin animation 0 et 1*/
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
@@ -149,7 +150,7 @@ html {
 
     .nav-brand {
         font-size: 28px;
-        order: 1;
+        order: 1; /* Position du logo et le titre viennent en premier */
     }
 
     .navbar-brand {
@@ -161,11 +162,11 @@ html {
         margin-bottom: 1rem;
         display: flex;
         justify-content: center;
-        order: 2;
+        order: 2; /* Position du bouton hamburger vient après le logo et le titre */
     }
 
     .navbar-collapse {
-        order: 3;
+        order: 3; /* Le menu collapsé doit venir après le bouton hamburger */
     }
 
     .text-orange {
@@ -193,22 +194,29 @@ html {
     }
 
     #special-header {
-        height: 20vh;
+        height: 20vh; /* Réduire la hauteur du header sur les appareils mobiles */
+       
     }
 
     #logo-container img {
-        max-width: 20vh;
+        max-width: 20vh; /* Réduire la taille du logo sur les appareils mobiles */
     }
 
     .star-line {
-        height: 0.4em;
-        margin-bottom: 20px;
+        height: 0.4em; /* Réduire la hauteur des lignes de caractères */
+        margin-bottom: 20px; /* Réduire l'espacement entre les lignes */
     }
 
     .star {
-        font-size: 10px;
+        font-size: 10px; /* Réduire la taille des caractères sur les appareils mobiles */
     }
+
 }
+/* Fin Media queries pour les appareils mobiles */
+
+/* Carte bootstrap */
+
+/* Fin Carte bootstrap */
 
 /* Footer */
 footer {
@@ -220,3 +228,6 @@ footer {
     color: #fff;
     font-size: 15px;
 }
+
+/* Fin Footer */
+
