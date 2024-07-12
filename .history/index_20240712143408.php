@@ -41,7 +41,7 @@
   transform-origin: top left; /* Conserve la position d'origine des cartes */
   flex: 1 0 30%; /* Ajuster la largeur pour afficher 3 cartes */
   box-sizing: border-box; /* S'assurer que padding et border sont inclus dans la largeur totale */
-  
+  margin: 5px; /* Espace autour de chaque carte */
 }
 
 
