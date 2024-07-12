@@ -79,6 +79,7 @@
   width: 40px; /* Ajoutez une largeur fixe */
   height: 40px; /* Ajoutez une hauteur fixe */
   margin-top: -70px; /* Réduisez la hauteur de moitié pour centrer verticalement */
+  z-index: 0; /* Assurez-vous qu'ils sont au-dessus des cartes */
   background-color: #e06717e4; /* Ajoutez une couleur d'arrière-plan pour plus de visibilité */
   border-radius: 50%; /* Rendez les boutons circulaires */
 
