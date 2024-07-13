@@ -52,37 +52,24 @@
 
 <!-- Arrière plan 0 et 1 -->
 <script>
-   const chars = '01';
+      const sequence = '1010100101010110101';
+        const displayElement = document.getElementById('binary-sequence');
+        let index = 0;
 
-function createStarLines() {
-  const lineCount = 30; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 110; // Nombre de caractères par ligne
+        function updateSequence() {
+            if (index < sequence.length * 2) {
+                if (index % 2 === 0) {
+                    displayElement.textContent = sequence.charAt(index / 2);
+                } else {
+                    displayElement.textContent = '';
+                }
+                index++;
+            } else {
+                index = 0; // Reset the index to loop the animation
+            }
+        }
 
-  const starContainer = document.getElementById('star-container');
-  if (!starContainer) return; // S'assurer que l'élément existe
-
-  for (let i = 0; i < lineCount; i++) {
-    const line = document.createElement('div');
-    line.className = 'star-line';
-
-    for (let j = 0; j < charsPerLine; j++) {
-      const char = chars.charAt(Math.floor(Math.random() * chars.length));
-      const span = document.createElement('span');
-      span.textContent = char;
-      span.className = 'star';
-      span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
-      line.appendChild(span);
-    }
-
-    starContainer.appendChild(line); // Ajouter la ligne au conteneur
-  }
-}
-
-// Générer les lignes de lettres et chiffres scintillants au chargement de la page
-document.addEventListener('DOMContentLoaded', function() {
-  createStarLines();
-});
-
+        setInterval(updateSequence, 500); // Update every 500 milliseconds
 </script>
 
 

@@ -112,7 +112,7 @@
 </style>
 
 </head>
-<body>
+<body cl>
 <?php include("header.php"); ?>
 
  <!-- TARIFS -->

@@ -62,7 +62,7 @@ function createStarLines() {
   if (!starContainer) return; // S'assurer que l'élément existe
 
   for (let i = 0; i < lineCount; i++) {
-    const line = document.createElement('div');
+    const line = document.createElement('');
     line.className = 'star-line';
 
     for (let j = 0; j < charsPerLine; j++) {

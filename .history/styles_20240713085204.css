@@ -102,6 +102,9 @@ html {
 
 /* Animation 1 et 0 */
 
+
+
+
 #star-container {
     margin: 0;
     padding: 0;
@@ -116,7 +119,16 @@ html {
     overflow-x: hidden; /* Évite le débordement horizontal */
 }
 
-
+.star-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    height: 0.5em;
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
 
 .star {
     opacity: 0;
@@ -124,7 +136,7 @@ html {
     font-size: 8px;
     margin-right: 3em; /* Marge horizontale entre les caractères */
     display: inline-block;
-    animation: blink 3s infinite;
+    animation: blink 1s infinite;
 }
 /* Fin Animation 1 et 0 */
 

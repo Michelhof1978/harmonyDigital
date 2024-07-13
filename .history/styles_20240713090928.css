@@ -114,8 +114,19 @@ html {
     align-items: center;
     color: #7ed2f1c4;
     overflow-x: hidden; /* Évite le débordement horizontal */
+     white-space: nowrap; /* Ne pas autoriser le retour à la ligne automatique */
 }
 
+.star-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    height: 0.5em;
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
 
 
 .star {
@@ -124,7 +135,7 @@ html {
     font-size: 8px;
     margin-right: 3em; /* Marge horizontale entre les caractères */
     display: inline-block;
-    animation: blink 3s infinite;
+    animation: blink 1s infinite;
 }
 /* Fin Animation 1 et 0 */
 

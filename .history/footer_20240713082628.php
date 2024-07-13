@@ -52,7 +52,7 @@
 
 <!-- Arrière plan 0 et 1 -->
 <script>
-   const chars = '01';
+const chars = '01';
 
 function createStarLines() {
   const lineCount = 30; // Nombre de lignes de lettres et chiffres
@@ -70,7 +70,7 @@ function createStarLines() {
       const span = document.createElement('span');
       span.textContent = char;
       span.className = 'star';
-      span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
+      span.style.animationDelay = `${Math.random() * 2}s`; // Délai d'animation aléatoire
       line.appendChild(span);
     }
 
@@ -82,9 +82,7 @@ function createStarLines() {
 document.addEventListener('DOMContentLoaded', function() {
   createStarLines();
 });
-
 </script>
-
 
 <!-- _____________________________________________________________________________________ -->
 

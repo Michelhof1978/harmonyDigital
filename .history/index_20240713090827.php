@@ -112,9 +112,9 @@
 </style>
 
 </head>
-<body>
+<body class="w-100">
 <?php include("header.php"); ?>
-
+<div id="star-container">
  <!-- TARIFS -->
 <section id="star-container" class="text-center mt-4 ms-2 me-2">
   <div>
@@ -241,6 +241,6 @@
     </button>
   </div>
 </section>
-
+</div>
 <?php include("footer.php"); ?>
 

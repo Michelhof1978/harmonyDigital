@@ -2,66 +2,70 @@
 <meta name="description" content="">
 <title>Harmony Digital</title>
 <style>
-
-/* TITRES */
-.borderColor {
-    color: #e06717e4 !important;
-}
-
-/* CARDS */
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
-   /* Animation clignotante */
-   @keyframes blink {
-    0%, 100% {
-        opacity: 1;
+    @keyframes infiniteBlink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
     }
-    50% {
-        opacity: 0;
+
+    /* Animation tarif clignotant */
+    .custom-animation {
+        animation: infiniteBlink 3s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
     }
-}
 
-/* ANIMATION TARIF CLIGNOTANT CARD */
-.custom-animation {
-    animation: infiniteBlink 3s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
-}
+    .textcard{
+        margin-top: -80px;
+    }
 
-.textcard {
-    margin-top: -80px;
-}
+    .imgcard{
+        margin-top: -40px;
+    }
 
-.imgcard {
-    margin-top: -40px;
-}
+    /* Fin css CARD  */
 
-/* Style pour les cartes */
-/* Réduire la taille des cartes à 70% */
+    /* Titre */
+    .borderColor{
+        color: #e06717e4 !important;
+    }
+
+    
+
+    /* Style pour les cartes */
+    /* Réduire la taille des cartes à 70% */
 /* Rapprocher les cartes en réduisant la marge */
 /* Rapprocher les cartes en utilisant des marges négatives */
+/* Style pour les cartes */
 .card {
-    transform: scale(0.7);
-    transform-origin: center center;
-    flex: 1 0 30%;
-    box-sizing: border-box;
-    margin: 0 -90px;
+  transform: scale(0.7);
+  transform-origin: center center;
+  flex: 1 0 30%;
+  box-sizing: border-box;
+  margin: 0 -90px;
+ 
 }
 
 /* CAROUSSEL */
+
 /* Réinitialiser les marges pour les éléments de la première et de la dernière ligne */
 .carousel-inner .d-flex > .card:first-child,
 .carousel-inner .d-flex > .card:last-child {
-    margin-left: 30px;
-    margin-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 
-/* Conteneur de cartes responsif */
+    /* Conteneur de cartes responsif */
     .carousel-inner .d-flex {
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 80px; /* Ajoutez une marge inférieure pour compenser la hauteur des boutons */
 }
 
-/*classe au conteneur parent du carrousel */
+    /* Ajoutez cette classe au conteneur parent du carrousel */
 .carousel-container {
   position: relative; /* Positionnement relatif pour que les boutons soient positionnés par rapport à ce conteneur */
   padding: 20px; /* Ajoutez un peu de rembourrage pour éviter que les boutons ne soient collés aux bords */
@@ -80,9 +84,6 @@
 
 }
 
-
-/* Positionnez le bouton "Précédent" à gauche */
-/* Positionnez le bouton "Précédent" à gauche */
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
   left: 40%; /* Déplacez-le vers le centre */
@@ -100,7 +101,7 @@
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
   left: 0;
-
+ 
 }
 
 /* Positionnez le bouton "Suivant" à droite */
@@ -109,10 +110,24 @@
 }
 /* FIN CAROUSSEL */
 
+/* Animation clignotante */
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.star {
+    display: inline-block;
+    animation: blink 1s infinite;
+}
 </style>
 
 </head>
-<body>
+<body class="w-100">
 <?php include("header.php"); ?>
 
  <!-- TARIFS -->
@@ -175,7 +190,6 @@
           </div>
         </div>
       </div>
-
       <!-- Deuxième groupe de cartes -->
       <div class="carousel-item">
         <div class="d-flex justify-content-center">
@@ -226,11 +240,10 @@
           </div>
         </div>
       </div>
-
-      <!-- Ajoutez d'autres items de carrousel ici si nécessaire -->
+      <!-- Ajoutez d'autres éléments de carrousel ici si nécessaire -->
     </div>
 
-    <!-- Contrôles du carrousel -->
+    <!-- Contrôles de navigation -->
     <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -241,6 +254,7 @@
     </button>
   </div>
 </section>
+
 
 <?php include("footer.php"); ?>
 

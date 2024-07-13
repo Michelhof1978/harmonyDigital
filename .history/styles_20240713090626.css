@@ -116,7 +116,22 @@ html {
     overflow-x: hidden; /* Évite le débordement horizontal */
 }
 
+.star-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    height: 0.5em;
+    width: 100%;
+    margin-bottom: 30px;
+   
+}
 
+#binary-background {
+    font-size: 16px; /* Taille de la police pour les chiffres binaires */
+    color: #0f0; /* Couleur verte des chiffres binaires */
+    white-space: nowrap; /* Ne pas autoriser le retour à la ligne automatique */
+}
 
 .star {
     opacity: 0;
@@ -124,7 +139,7 @@ html {
     font-size: 8px;
     margin-right: 3em; /* Marge horizontale entre les caractères */
     display: inline-block;
-    animation: blink 3s infinite;
+    animation: blink 1s infinite;
 }
 /* Fin Animation 1 et 0 */
 

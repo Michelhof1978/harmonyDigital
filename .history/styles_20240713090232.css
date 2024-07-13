@@ -116,7 +116,10 @@ html {
     overflow-x: hidden; /* Évite le débordement horizontal */
 }
 
-
+.star-line {
+    white-space: nowrap; /* Empêche le retour à la ligne automatique */
+            overflow: hidden;
+}
 
 .star {
     opacity: 0;
@@ -124,7 +127,7 @@ html {
     font-size: 8px;
     margin-right: 3em; /* Marge horizontale entre les caractères */
     display: inline-block;
-    animation: blink 3s infinite;
+    animation: blink 1s infinite;
 }
 /* Fin Animation 1 et 0 */
 

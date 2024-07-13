@@ -53,36 +53,52 @@
 <!-- Arrière plan 0 et 1 -->
 <script>
    const chars = '01';
+        const lineCount = 130; // Nombre de lignes de lettres et chiffres
+        const charsPerLine = 210; // Nombre de caractères par ligne
+        const delayBetweenBits = 100; // Temps en ms entre chaque bit
 
-function createStarLines() {
-  const lineCount = 30; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 110; // Nombre de caractères par ligne
+        function createBinaryBackground() {
+            const binaryBackground = document.getElementById('binary-background');
 
-  const starContainer = document.getElementById('star-container');
-  if (!starContainer) return; // S'assurer que l'élément existe
+            for (let i = 0; i < lineCount; i++) {
+                const line = document.createElement('div');
+                line.className = 'binary-line';
 
-  for (let i = 0; i < lineCount; i++) {
-    const line = document.createElement('div');
-    line.className = 'star-line';
+                for (let j = 0; j < charsPerLine; j++) {
+                    const char = chars.charAt(Math.floor(Math.random() * chars.length));
+                    const bitElement = document.createElement('span');
+                    bitElement.textContent = char;
+                    bitElement.className = 'bit';
+                    line.appendChild(bitElement);
+                }
 
-    for (let j = 0; j < charsPerLine; j++) {
-      const char = chars.charAt(Math.floor(Math.random() * chars.length));
-      const span = document.createElement('span');
-      span.textContent = char;
-      span.className = 'star';
-      span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
-      line.appendChild(span);
-    }
+                binaryBackground.appendChild(line);
+            }
 
-    starContainer.appendChild(line); // Ajouter la ligne au conteneur
-  }
-}
+            animateBits();
+        }
 
-// Générer les lignes de lettres et chiffres scintillants au chargement de la page
-document.addEventListener('DOMContentLoaded', function() {
-  createStarLines();
-});
+        function animateBits() {
+            const bits = document.querySelectorAll('.bit');
+            let index = 0;
 
+            setInterval(() => {
+                if (index > 0) {
+                    bits[index - 1].style.opacity = 0; // Rendre le bit précédent transparent
+                }
+                if (index < bits.length) {
+                    bits[index].style.opacity = 1; // Rendre le bit actuel visible
+                }
+                index++;
+                if (index >= bits.length) {
+                    index = 0; // Réinitialiser pour faire boucler l'animation
+                }
+            }, delayBetweenBits);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            createBinaryBackground();
+        });
 </script>
 
 

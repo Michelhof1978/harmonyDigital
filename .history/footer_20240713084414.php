@@ -52,37 +52,47 @@
 
 <!-- Arrière plan 0 et 1 -->
 <script>
-   const chars = '01';
+      const sequence = '1010100101010110101';
+        const displayElement = document.getElementById('binary-sequence');
+        const delayBetweenBits = 200; // Temps en ms entre chaque bit
+        const bitVisibilityDuration = 100; // Temps en ms pendant lequel le bit est visible
 
-function createStarLines() {
-  const lineCount = 30; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 110; // Nombre de caractères par ligne
+        function createBitElement(bit) {
+            const span = document.createElement('span');
+            span.textContent = bit;
+            span.classList.add('bit');
+            return span;
+        }
 
-  const starContainer = document.getElementById('star-container');
-  if (!starContainer) return; // S'assurer que l'élément existe
+        function showBit(index) {
+            const bits = document.querySelectorAll('.bit');
+            if (index > 0) {
+                bits[index - 1].style.opacity = 0;
+            }
+            if (index < bits.length) {
+                bits[index].style.opacity = 1;
+            }
+        }
 
-  for (let i = 0; i < lineCount; i++) {
-    const line = document.createElement('div');
-    line.className = 'star-line';
+        function animateBits() {
+            const bits = [];
+            for (const bit of sequence) {
+                const bitElement = createBitElement(bit);
+                bits.push(bitElement);
+                displayElement.appendChild(bitElement);
+            }
+            
+            let index = 0;
+            const interval = setInterval(() => {
+                showBit(index);
+                index++;
+                if (index > bits.length) {
+                    index = 0; // Réinitialiser pour faire boucler l'animation
+                }
+            }, delayBetweenBits);
+        }
 
-    for (let j = 0; j < charsPerLine; j++) {
-      const char = chars.charAt(Math.floor(Math.random() * chars.length));
-      const span = document.createElement('span');
-      span.textContent = char;
-      span.className = 'star';
-      span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
-      line.appendChild(span);
-    }
-
-    starContainer.appendChild(line); // Ajouter la ligne au conteneur
-  }
-}
-
-// Générer les lignes de lettres et chiffres scintillants au chargement de la page
-document.addEventListener('DOMContentLoaded', function() {
-  createStarLines();
-});
-
+        animateBits();
 </script>
 
 
