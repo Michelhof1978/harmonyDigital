@@ -50,38 +50,6 @@
 
 <!-- _____________________________________________________________________________________ -->
 
-<!-- Arrière plan 0 et 1 -->
-<script>
-    const chars = '01';
-
-    function createBinaryBackground() {
-        const lineCount = 130; // Nombre de lignes de lettres et chiffres
-        const charsPerLine = 210; // Nombre de caractères par ligne
-
-        const binaryBackground = document.createElement('div');
-        binaryBackground.id = 'binary-background';
-
-        for (let i = 0; i < lineCount; i++) {
-            const line = document.createElement('div');
-            line.className = 'binary-line';
-
-            for (let j = 0; j < charsPerLine; j++) {
-                const char = chars.charAt(Math.floor(Math.random() * chars.length));
-                line.appendChild(document.createTextNode(char));
-            }
-
-            binaryBackground.appendChild(line);
-        }
-
-        document.body.appendChild(binaryBackground);
-    }
-
-    // Générer les lignes de lettres et chiffres scintillants au chargement de la page
-    document.addEventListener('DOMContentLoaded', function() {
-        createBinaryBackground();
-    });
-</script>
-
 
 <!-- _____________________________________________________________________________________ -->
 

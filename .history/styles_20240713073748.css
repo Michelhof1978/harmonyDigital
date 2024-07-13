@@ -162,12 +162,7 @@ html {
    
 }
 
-.star {
-    opacity: 0;
-    animation: sparkle 3s infinite alternate;
-    font-size: 8px;
-    margin-right: 3em; /* Marge horizontale entre les caractères */
-}
+
 .star {
     display: inline-block;
     animation: blink 1s infinite;

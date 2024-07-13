@@ -3,8 +3,7 @@
 <title>Harmony Digital</title>
 <style>
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
-   /* Animation clignotante */
-   @keyframes blink {
+   /* Animation clignotante */@keyframes blink {
     0%, 100% {
         opacity: 1;
     }

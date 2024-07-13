@@ -3,15 +3,15 @@
 <title>Harmony Digital</title>
 <style>
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
-   /* Animation clignotante */
-   @keyframes blink {
-    0%, 100% {
-        opacity: 1;
+    @keyframes infiniteBlink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
     }
-    50% {
-        opacity: 0;
-    }
-}
+
     /* Animation tarif clignotant */
 .custom-animation {
     animation: infiniteBlink 3s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */

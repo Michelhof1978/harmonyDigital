@@ -4,7 +4,7 @@
 <style>
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
    /* Animation clignotante */
-   @keyframes blink {
+@keyframes blink {
     0%, 100% {
         opacity: 1;
     }

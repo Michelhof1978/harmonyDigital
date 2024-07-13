@@ -55,8 +55,8 @@
     const chars = '01';
 
     function createBinaryBackground() {
-        const lineCount = 130; // Nombre de lignes de lettres et chiffres
-        const charsPerLine = 210; // Nombre de caractères par ligne
+        const lineCount = 30; // Nombre de lignes de lettres et chiffres
+        const charsPerLine = 110; // Nombre de caractères par ligne
 
         const binaryBackground = document.createElement('div');
         binaryBackground.id = 'binary-background';

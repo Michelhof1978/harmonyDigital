@@ -3,15 +3,15 @@
 <title>Harmony Digital</title>
 <style>
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
-   /* Animation clignotante */
-   @keyframes blink {
-    0%, 100% {
-        opacity: 1;
+    @keyframes infiniteBlink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
     }
-    50% {
-        opacity: 0;
-    }
-}
+
     /* Animation tarif clignotant */
 .custom-animation {
     animation: infiniteBlink 3s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
@@ -34,8 +34,7 @@
     /* Style pour les cartes */
     /* Réduire la taille des cartes à 70% */
 /* Rapprocher les cartes en réduisant la marge */
-/* Rapprocher les cartes en utilisant des marges négatives */
-.card {
+/* Rapprocher les cartes en utilisant des marges négatives */.card {
     transform: scale(0.7);
     transform-origin: center center;
     flex: 1 0 30%;

@@ -3,15 +3,15 @@
 <title>Harmony Digital</title>
 <style>
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
-   /* Animation clignotante */
-   @keyframes blink {
-    0%, 100% {
-        opacity: 1;
+    @keyframes infiniteBlink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
     }
-    50% {
-        opacity: 0;
-    }
-}
+
     /* Animation tarif clignotant */
 .custom-animation {
     animation: infiniteBlink 3s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
@@ -35,6 +35,7 @@
     /* Réduire la taille des cartes à 70% */
 /* Rapprocher les cartes en réduisant la marge */
 /* Rapprocher les cartes en utilisant des marges négatives */
+/* Style pour les cartes */
 .card {
     transform: scale(0.7);
     transform-origin: center center;
@@ -60,7 +61,7 @@
   margin-bottom: 80px; /* Ajoutez une marge inférieure pour compenser la hauteur des boutons */
 }
 
-/*classe au conteneur parent du carrousel */
+    /* Ajoutez cette classe au conteneur parent du carrousel */
 .carousel-container {
   position: relative; /* Positionnement relatif pour que les boutons soient positionnés par rapport à ce conteneur */
   padding: 20px; /* Ajoutez un peu de rembourrage pour éviter que les boutons ne soient collés aux bords */
@@ -81,9 +82,17 @@
 
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
-  left: 0;
+  left: 40%; /* Déplacez-le vers le centre */
+  transform: translateX(40%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
 
 }
+
+/* Positionnez le bouton "Suivant" à droite */
+.carousel-control-next {
+  right: 40%; /* Déplacez-le vers le centre */
+  transform: translateX(-50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
+}
+
 
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
