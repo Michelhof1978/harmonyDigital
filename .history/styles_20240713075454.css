@@ -18,6 +18,17 @@ html {
 }
 
 
+@keyframes scroll {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+
+
 /* Navbar */
 .navbar {
     height: auto;

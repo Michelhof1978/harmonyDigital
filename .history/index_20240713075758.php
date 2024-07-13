@@ -74,33 +74,22 @@
   top: 50%; /* Alignez verticalement les boutons au centre */
   width: 40px; /* Ajoutez une largeur fixe */
   height: 40px; /* Ajoutez une hauteur fixe */
-  margin-top: -70px; /* Réduisez la hauteur de moitié pour centrer verticalement */
+  margin-top: -80px; /* Réduisez la hauteur de moitié pour centrer verticalement */
   background-color: #e06717e4; /* Ajoutez une couleur d'arrière-plan pour plus de visibilité */
   border-radius: 50%; /* Rendez les boutons circulaires */
 
 }
 
-
-/* Positionnez le bouton "Précédent" à gauche */
-/* Positionnez le bouton "Précédent" à gauche */
-/* Positionnez le bouton "Précédent" à gauche */
-.carousel-control-prev {
-  left: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(40%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
-
-}
-
-/* Positionnez le bouton "Suivant" à droite */
-.carousel-control-next {
-  right: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(-50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
-}
-
-
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
   left: 0;
 
+}
+
+/* Positionnez le bouton "Précédent" à gauche */
+.carousel-control-prev {
+  left: 0;
+ 
 }
 
 /* Positionnez le bouton "Suivant" à droite */

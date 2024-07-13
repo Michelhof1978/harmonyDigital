@@ -2,13 +2,6 @@
 <meta name="description" content="">
 <title>Harmony Digital</title>
 <style>
-
-/* TITRES */
-.borderColor {
-    color: #e06717e4 !important;
-}
-
-/* CARDS */
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
    /* Animation clignotante */
    @keyframes blink {
@@ -19,8 +12,7 @@
         opacity: 0;
     }
 }
-
-/* ANIMATION TARIF CLIGNOTANT CARD */
+    /* Animation tarif clignotant */
 .custom-animation {
     animation: infiniteBlink 3s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
 }
@@ -31,6 +23,10 @@
 
 .imgcard {
     margin-top: -40px;
+}
+
+.borderColor {
+    color: #e06717e4 !important;
 }
 
 /* Style pour les cartes */
@@ -46,6 +42,7 @@
 }
 
 /* CAROUSSEL */
+
 /* Réinitialiser les marges pour les éléments de la première et de la dernière ligne */
 .carousel-inner .d-flex > .card:first-child,
 .carousel-inner .d-flex > .card:last-child {
@@ -54,7 +51,7 @@
 }
 
 
-/* Conteneur de cartes responsif */
+    /* Conteneur de cartes responsif */
     .carousel-inner .d-flex {
   flex-wrap: wrap;
   justify-content: center;
@@ -80,27 +77,16 @@
 
 }
 
-
-/* Positionnez le bouton "Précédent" à gauche */
-/* Positionnez le bouton "Précédent" à gauche */
-/* Positionnez le bouton "Précédent" à gauche */
-.carousel-control-prev {
-  left: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(40%); /* Déplacez-le vers la gauche de moitié de sa largeur pour le centrer horizontalement */
-
-}
-
-/* Positionnez le bouton "Suivant" à droite */
-.carousel-control-next {
-  right: 40%; /* Déplacez-le vers le centre */
-  transform: translateX(-50%); /* Déplacez-le vers la droite de moitié de sa largeur pour le centrer horizontalement */
-}
-
-
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
   left: 0;
 
+}
+
+/* Positionnez le bouton "Précédent" à gauche */
+.carousel-control-prev {
+  left: 0;
+ 
 }
 
 /* Positionnez le bouton "Suivant" à droite */

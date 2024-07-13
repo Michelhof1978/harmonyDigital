@@ -17,6 +17,44 @@ html {
     overflow-x: hidden; /* Évite le débordement horizontal */
 }
 
+#binary-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.binary-line {
+    white-space: nowrap;
+    display: block;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.1);
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes infiniteBlink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
 
 /* Navbar */
 .navbar {
@@ -67,7 +105,6 @@ html {
     font-weight: 700;
     font-style: normal;
 }
-/* Navbar */
 
 /* Banner vidéo */
 #special-header {
@@ -101,28 +138,6 @@ html {
 /* Fin Banner vidéo */
 
 /* Animation 1 et 0 */
-
-#binary-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    z-index: -1;
-    overflow: hidden;
-}
-
-.binary-line {
-    white-space: nowrap;
-    display: block;
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.1);
-    animation: scroll 10s linear infinite;
-}
-
 #star-container {
     margin: 0;
     padding: 0;
