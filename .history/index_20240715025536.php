@@ -111,7 +111,9 @@
 <?php include("header.php"); ?>
 
  <!-- TARIFS -->
-  
+
+
+
  <section id="star-container" class="text-center mt-4 ms-2 me-2">
   <div>
     <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2 text-white">
@@ -237,6 +239,8 @@
     </button>
   </div>
 </section>
-
+<div id="star-container"> <!-- Ici commence la div contenant l'animation de fond -->
+  <!-- Ici se trouve votre code JavaScript pour l'animation de fond -->
+</div> <!-- Ici se termine la div contenant l'animation de fond -->
 <?php include("footer.php"); ?>
 

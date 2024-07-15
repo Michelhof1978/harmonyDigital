@@ -52,39 +52,36 @@
 
 <!-- Arrière plan 0 et 1 -->
 <script>
-   const chars = '01';
+    const chars = '01';
 
-function createStarLines() {
-  const lineCount = 130; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 200; // Nombre de caractères par ligne
+    function createStarLines() {
+        const lineCount = 30;
+        const charsPerLine = 110;
 
-  const starContainer = document.getElementById('star-container');
-  if (!starContainer) return; // S'assurer que l'élément existe
+        const starContainer = document.getElementById('star-container');
+        if (!starContainer) return;
 
-  for (let i = 0; i < lineCount; i++) {
-    const line = document.createElement('div');
-    line.className = 'star-line';
+        for (let i = 0; i < lineCount; i++) {
+            const line = document.createElement('div');
+            line.className = 'star-line';
 
-    for (let j = 0; j < charsPerLine; j++) {
-      const char = chars.charAt(Math.floor(Math.random() * chars.length));
-      const span = document.createElement('span');
-      span.textContent = char;
-      span.className = 'star';
-      span.style.animationDelay = `${Math.random() * 1550}s`; // Délai d'animation aléatoire
-      line.appendChild(span);
+            for (let j = 0; j < charsPerLine; j++) {
+                const char = chars.charAt(Math.floor(Math.random() * chars.length));
+                const span = document.createElement('span');
+                span.textContent = char;
+                span.className = 'star';
+                span.style.animationDelay = `${Math.random() * 1550}s`;
+                line.appendChild(span);
+            }
+
+            starContainer.appendChild(line);
+        }
     }
 
-    starContainer.appendChild(line); // Ajouter la ligne au conteneur
-  }
-}
-
-// Générer les lignes de lettres et chiffres scintillants au chargement de la page
-document.addEventListener('DOMContentLoaded', function() {
-  createStarLines();
-});
-
+    document.addEventListener('DOMContentLoaded', function() {
+        createStarLines();
+    });
 </script>
-
 
 <!-- _____________________________________________________________________________________ -->
 

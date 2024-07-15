@@ -111,8 +111,11 @@
 <?php include("header.php"); ?>
 
  <!-- TARIFS -->
-  
- <section id="star-container" class="text-center mt-4 ms-2 me-2">
+
+ <div class="statcontainer"> <!-- Ici commence la div du script -->
+
+  <!-- Ici commence la section "tarifs" -->
+  <section id="star-container" class="text-center mt-4 ms-2 me-2">
   <div>
     <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2 text-white">
       <strong>Nos Tarifs</strong>
@@ -237,6 +240,6 @@
     </button>
   </div>
 </section>
-
+</div>
 <?php include("footer.php"); ?>
 

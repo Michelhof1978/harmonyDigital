@@ -55,14 +55,14 @@
    const chars = '01';
 
 function createStarLines() {
-  const lineCount = 130; // Nombre de lignes de lettres et chiffres
-  const charsPerLine = 200; // Nombre de caractères par ligne
+  const lineCount = 30; // Nombre de lignes de lettres et chiffres
+  const charsPerLine = 110; // Nombre de caractères par ligne
 
   const starContainer = document.getElementById('star-container');
   if (!starContainer) return; // S'assurer que l'élément existe
 
   for (let i = 0; i < lineCount; i++) {
-    const line = document.createElement('div');
+    const line = document.createElement('d');
     line.className = 'star-line';
 
     for (let j = 0; j < charsPerLine; j++) {

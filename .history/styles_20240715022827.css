@@ -100,7 +100,34 @@ html {
 }
 /* Fin Banner vidéo */
 
+/* Animation 1 et 0 */
 
+#star-container {
+   
+    position: relative;
+    z-index: -1;
+    height: 100vh; /* Hauteur égale à la hauteur de l'écran */
+    width: 100%; /* Largeur égale à la largeur de l'écran */
+}
+
+.star {
+    opacity: 0;
+    animation: sparkle 3s infinite alternate;
+    font-size: 8px;
+    margin-right: 3em;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    color: #fff; /* Couleur de texte blanche */
+    animation: blink 3s infinite;
+}
+
+.star-line {
+    position: relative; /* Positionnement relatif pour que les éléments enfants soient positionnés par rapport à cette section */
+}
+
+
+/* Fin Animation 1 et 0 */
 
 /* Footer */
 footer {

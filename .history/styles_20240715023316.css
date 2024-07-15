@@ -100,7 +100,26 @@ html {
 }
 /* Fin Banner vidéo */
 
+/* Animation 1 et 0 */
 
+#star-container {
+    background: #000; /* Couleur de fond noire */
+    position: relative; /* Positionnement relatif pour que les éléments enfants soient positionnés par rapport à cette section */
+    z-index: -1; /* Pour que la section soit derrière les autres éléments */
+}
+
+
+
+
+.star {
+    opacity: 0;
+    animation: sparkle 3s infinite alternate;
+    font-size: 8px;
+    margin-right: 3em; /* Marge horizontale entre les caractères */
+    display: inline-block;
+    animation: blink 3s infinite;
+}
+/* Fin Animation 1 et 0 */
 
 /* Footer */
 footer {

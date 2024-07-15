@@ -111,7 +111,6 @@
 <?php include("header.php"); ?>
 
  <!-- TARIFS -->
-  
  <section id="star-container" class="text-center mt-4 ms-2 me-2">
   <div>
     <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2 text-white">
@@ -222,21 +221,20 @@
           </div>
         </div>
       </div>
-
-      <!-- Ajoutez d'autres items de carrousel ici si nécessaire -->
     </div>
-
-    <!-- Contrôles du carrousel -->
     <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+      <span class="visually-hidden">Précédent</span>
     </button>
     <button class="carousel-control-next" type="button" data-bs-target="#tarifCarousel" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
+      <span class="visually-hidden">Suivant</span>
     </button>
   </div>
 </section>
 
 <?php include("footer.php"); ?>
 
+<!-- Scripts additionnels -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLR0P9SL5qp6C16e1rYyaxSMkFy+1p6nKVXTd73scD" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2KN8A2rHcIvKOQrKtv0evOrl3KPC9GxL32czmKFgiWQlHSANxRMJr80hLZ1" crossorigin="anonymous"></script>

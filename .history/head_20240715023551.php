@@ -16,7 +16,6 @@
   <meta property="og:description" content="Conception de Sites Internet, Réalisation Maquettes et Logos, Référencement SEO, Marketing Digital, Communication En Événementielle, Réalisation Campagne Publicitaire. Entreprise Nationale">
   <meta property="og:image" content="../images/logo.ico">
   <meta name="author" content="HOFFMANN MICHEL-Harmony Digital">
-  <title>Harmony Digital</title>
 
 
   <!-- css Titres ne fonctionne pas ds le fichier css-->
@@ -31,10 +30,13 @@
 
  /* Animation 1 et 0 */
 #star-container {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
+   
     color: #7ed2f1c4;
-    
+    overflow-x: hidden; /* Évite le débordement horizontal */
 }
 
 .star {
@@ -42,6 +44,7 @@
     animation: sparkle 3s infinite alternate;
     font-size: 8px;
     margin-right: 3em; /* Marge horizontale entre les caractères */
+
     animation: blink 3s infinite;
 }
 /* Fin Animation 1 et 0 */

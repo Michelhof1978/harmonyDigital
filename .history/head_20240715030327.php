@@ -16,7 +16,6 @@
   <meta property="og:description" content="Conception de Sites Internet, Réalisation Maquettes et Logos, Référencement SEO, Marketing Digital, Communication En Événementielle, Réalisation Campagne Publicitaire. Entreprise Nationale">
   <meta property="og:image" content="../images/logo.ico">
   <meta name="author" content="HOFFMANN MICHEL-Harmony Digital">
-  <title>Harmony Digital</title>
 
 
   <!-- css Titres ne fonctionne pas ds le fichier css-->
