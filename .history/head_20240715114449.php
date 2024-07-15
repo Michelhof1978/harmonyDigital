@@ -30,11 +30,13 @@ body {
     margin: 0; /* Supprime les marges par défaut du body */
    /* padding: 0; /* Supprime les paddings par défaut du body */
     overflow-x: hidden; /* Évite le débordement horizontal */
-   
+    position: relative; */
+    height: 100%;
 }  
 
 html {
-  
+  height: 100%;
+  margin: 0;
 }
 /* TITRES */
 .borderColor {

@@ -24,17 +24,19 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-image: url('Images/fondBleu.png');
-  /*background-size: cover;
-    /*background-position: center;
-   /* background-repeat: no-repeat;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0; /* Supprime les marges par défaut du body */
-   /* padding: 0; /* Supprime les paddings par défaut du body */
-    overflow-x: hidden; /* Évite le débordement horizontal */
-   
-}  
+    /*padding: 0;  Supprime les paddings par défaut du body */
+    /*overflow-x: hidden; /* Évite le débordement horizontal */
+    /*position: relative; */
+}
 
 html {
-  
+    /* margin: 0;
+    padding: 0; */
+    overflow-x: hidden; /* Évite le débordement horizontal, garde uniquement la largeur de l'écran */
 }
 /* TITRES */
 .borderColor {
@@ -45,9 +47,16 @@ html {
   }
 
  /* Animation 1 et 0 */
-#star-container {
+ #star-container {
+    position: relative; /* Pour que les éléments absolus à l'intérieur soient positionnés par rapport à celui-ci */
+    z-index: 1; /* Pour s'assurer que le contenu existant est en dessous des animations */
     color: #7ed2f1c4;
-    
+}
+
+.star-line {
+    position: absolute;
+    z-index: 2; /* Pour s'assurer que les animations sont au-dessus du contenu existant */
+    width: 100%; /* Pour que les lignes s'étendent sur toute la largeur de la section */
 }
 
 .star {
@@ -56,6 +65,7 @@ html {
     margin-right: 3em; /* Marge horizontale entre les caractères */
     animation: blink 3s infinite;
 }
+
 /* Fin Animation 1 et 0 */
 </style>
 

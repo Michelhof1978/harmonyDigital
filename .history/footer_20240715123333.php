@@ -51,7 +51,19 @@
 <!-- _____________________________________________________________________________________ -->
 
 <!-- Arrière plan 0 et 1 -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const typingElement = document.querySelector('#binary-background .typing-animation');
+    const binaryLength = 200; // Nombre de caractères à afficher
+    let binaryContent = '';
 
+    for (let i = 0; i < binaryLength; i++) {
+        binaryContent += Math.round(Math.random()); // Ajoute 0 ou 1
+    }
+
+    typingElement.textContent = binaryContent;
+});
+</script>
 
 
 <!-- _____________________________________________________________________________________ -->
@@ -134,3 +146,5 @@
 <!--____________________________________________________________________________________-->
 
 
+</body>
+</html>

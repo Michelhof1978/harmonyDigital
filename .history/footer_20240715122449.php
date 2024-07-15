@@ -51,6 +51,24 @@
 <!-- _____________________________________________________________________________________ -->
 
 <!-- Arrière plan 0 et 1 -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const binaryBackground = document.getElementById('binary-background');
+    const rows = 20;
+    const cols = 60;
+    let binaryContent = '';
+
+    for (let i = 0; i < rows; i++) {
+        let row = '';
+        for (let j = 0; j < cols; j++) {
+            row += Math.round(Math.random()); // Ajoute 0 ou 1
+        }
+        binaryContent += row + '\n';
+    }
+
+    binaryBackground.textContent = binaryContent;
+});
+</script>
 
 
 
@@ -134,3 +152,5 @@
 <!--____________________________________________________________________________________-->
 
 
+</body>
+</html>

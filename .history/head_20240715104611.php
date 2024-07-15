@@ -24,17 +24,19 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-image: url('Images/fondBleu.png');
-  /*background-size: cover;
-    /*background-position: center;
-   /* background-repeat: no-repeat;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0; /* Supprime les marges par défaut du body */
-   /* padding: 0; /* Supprime les paddings par défaut du body */
-    overflow-x: hidden; /* Évite le débordement horizontal */
-   
-}  
+    /*padding: 0;  Supprime les paddings par défaut du body */
+    /*overflow-x: hidden; /* Évite le débordement horizontal */
+    /*position: relative; */
+}
 
 html {
-  
+    /* margin: 0;
+    padding: 0; */
+    overflow-x: hidden; /* Évite le débordement horizontal, garde uniquement la largeur de l'écran */
 }
 /* TITRES */
 .borderColor {
@@ -45,17 +47,34 @@ html {
   }
 
  /* Animation 1 et 0 */
-#star-container {
+ #star-container {
+    position: relative;
+    z-index: 0; /* Pour s'assurer que les animations sont derrière les cartes */
     color: #7ed2f1c4;
-    
+}
+
+.card {
+    position: relative;
+    z-index: 1; /* Pour s'assurer que les cartes sont au-dessus des animations */
+    /* ... Le reste de votre code CSS ... */
+}
+
+.star-line {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .star {
     opacity: 0;
     font-size: 8px;
-    margin-right: 3em; /* Marge horizontale entre les caractères */
+    margin-right: 3em;
     animation: blink 3s infinite;
 }
+
+
 /* Fin Animation 1 et 0 */
 </style>
 

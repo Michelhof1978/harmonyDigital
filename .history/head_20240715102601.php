@@ -24,17 +24,19 @@
 body {
     font-family: 'Times New Roman', Times, serif;
     background-image: url('Images/fondBleu.png');
-  /*background-size: cover;
-    /*background-position: center;
-   /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0; /* Supprime les marges par défaut du body */
-   /* padding: 0; /* Supprime les paddings par défaut du body */
+    padding: 0; /* Supprime les paddings par défaut du body */
     overflow-x: hidden; /* Évite le débordement horizontal */
-   
-}  
+    position: relative;
+}
 
 html {
-  
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Évite le débordement horizontal */
 }
 /* TITRES */
 .borderColor {
@@ -46,12 +48,14 @@ html {
 
  /* Animation 1 et 0 */
 #star-container {
+   
     color: #7ed2f1c4;
     
 }
 
 .star {
     opacity: 0;
+    animation: sparkle 3s infinite alternate;
     font-size: 8px;
     margin-right: 3em; /* Marge horizontale entre les caractères */
     animation: blink 3s infinite;

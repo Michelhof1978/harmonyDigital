@@ -51,7 +51,31 @@
 <!-- _____________________________________________________________________________________ -->
 
 <!-- Arrière plan 0 et 1 -->
-
+<script>
+        const chars = '01';
+        function createStarLines() {
+            const lineCount = 30;
+            const charsPerLine = 110;
+            const starContainer = document.body;
+            for (let i = 0; i < lineCount; i++) {
+                const line = document.createElement('div');
+                line.className = 'star-line';
+                line.style.top = `${(100 / lineCount) * i}%`;
+                for (let j = 0; j < charsPerLine; j++) {
+                    const char = chars.charAt(Math.floor(Math.random() * chars.length));
+                    const span = document.createElement('span');
+                    span.textContent = char;
+                    span.className = 'star';
+                    span.style.animationDelay = `${Math.random() * 1550}s`;
+                    line.appendChild(span);
+                }
+                starContainer.appendChild(line);
+            }
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            createStarLines();
+        });
+    </script>
 
 
 <!-- _____________________________________________________________________________________ -->
@@ -134,3 +158,5 @@
 <!--____________________________________________________________________________________-->
 
 
+</body>
+</html>

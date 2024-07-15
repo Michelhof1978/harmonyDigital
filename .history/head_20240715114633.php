@@ -30,11 +30,14 @@ body {
     margin: 0; /* Supprime les marges par défaut du body */
    /* padding: 0; /* Supprime les paddings par défaut du body */
     overflow-x: hidden; /* Évite le débordement horizontal */
-   
+    position: relative; 
+    height: 100%;
 }  
 
 html {
-  
+  height: 100%;
+  margin: 0;
+  position: relative; 
 }
 /* TITRES */
 .borderColor {
@@ -45,17 +48,24 @@ html {
   }
 
  /* Animation 1 et 0 */
-#star-container {
-    color: #7ed2f1c4;
-    
-}
-
-.star {
-    opacity: 0;
-    font-size: 8px;
-    margin-right: 3em; /* Marge horizontale entre les caractères */
-    animation: blink 3s infinite;
-}
+ .star-line {
+            position: absolute;
+            white-space: nowrap;
+            animation: move 5s linear infinite;
+            width: 100%;
+        }
+        .star {
+            display: inline-block;
+            font-size: 20px;
+            animation: blink 1s linear infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+        @keyframes move {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
 /* Fin Animation 1 et 0 */
 </style>
 

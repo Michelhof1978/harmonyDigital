@@ -30,11 +30,13 @@ body {
     margin: 0; /* Supprime les marges par défaut du body */
    /* padding: 0; /* Supprime les paddings par défaut du body */
     overflow-x: hidden; /* Évite le débordement horizontal */
-   
+    /*position: relative; */
+    height: 100%;
 }  
 
 html {
-  
+  height: 100%;
+  margin: 0;
 }
 /* TITRES */
 .borderColor {
@@ -45,17 +47,25 @@ html {
   }
 
  /* Animation 1 et 0 */
-#star-container {
-    color: #7ed2f1c4;
-    
-}
+ #star-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        .star-line {
+            white-space: nowrap;
+            animation: move 5s linear infinite;
+        }
 
-.star {
-    opacity: 0;
-    font-size: 8px;
-    margin-right: 3em; /* Marge horizontale entre les caractères */
-    animation: blink 3s infinite;
-}
+        .star {
+            display: inline-block;
+            font-size: 20px;
+            animation: blink 1s linear infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
 /* Fin Animation 1 et 0 */
 </style>
 

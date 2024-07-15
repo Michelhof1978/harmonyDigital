@@ -29,12 +29,15 @@ body {
    /* background-repeat: no-repeat;
     margin: 0; /* Supprime les marges par défaut du body */
    /* padding: 0; /* Supprime les paddings par défaut du body */
-    overflow-x: hidden; /* Évite le débordement horizontal */
-   
+   /* overflow-x: hidden; /* Évite le débordement horizontal */
+    /*position: relative; 
+    height: 100%;
 }  
 
 html {
-  
+    margin: 0;
+    padding: 0; 
+    overflow-x: hidden; /* Évite le débordement horizontal, garde uniquement la largeur de l'écran */
 }
 /* TITRES */
 .borderColor {
