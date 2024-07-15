@@ -44,7 +44,34 @@ html {
     border-color: orange !important;
   }
 
- 
+ /* Animation 1 et 0 */
+ #binary-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+            color: lime; /* Couleur des 1 et 0 */
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.3;
+            font-size: 20px; /* Ajustez la taille de la police si nécessaire */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+    /* Animation pour les caractères binaires */
+    @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }     
+/* Fin Animation 1 et 0 */
 </style>
 
 

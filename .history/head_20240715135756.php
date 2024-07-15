@@ -44,7 +44,46 @@ html {
     border-color: orange !important;
   }
 
- 
+  /* Styles pour le fond binaire */
+  #binary-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+            color: lime; /* Couleur des 1 et 0 */
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.9;
+            font-size: 10px; /* Ajustez la taille de la police si nécessaire */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .star-line {
+            display: flex;
+            justify-content: center;
+            overflow: hidden; /* Pour s'assurer que le texte ne déborde pas */
+            white-space: nowrap;
+        }
+
+        .star {
+            animation: blink 3s step-start infinite;
+            display: inline-block;
+        }
+
+        /* Animation pour les caractères binaires */
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
 </style>
 
 

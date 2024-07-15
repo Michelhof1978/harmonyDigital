@@ -7,7 +7,7 @@
 
     <style>
         /* Styles pour le fond binaire */
-  #binary-background {
+        #binary-background {
             position: fixed;
             top: 0;
             left: 0;
@@ -17,12 +17,11 @@
             overflow: hidden;
             color: lime; /* Couleur des 1 et 0 */
             font-family: 'Courier New', Courier, monospace;
-            opacity: 0.9;
-            font-size: 10px; /* Ajustez la taille de la police si nécessaire */
+            opacity: 0.3;
+            font-size: 20px; /* Ajustez la taille de la police si nécessaire */
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 50px;
         }
 
         .star-line {
@@ -30,13 +29,11 @@
             justify-content: center;
             overflow: hidden; /* Pour s'assurer que le texte ne déborde pas */
             white-space: nowrap;
-           
         }
 
         .star {
-            animation: blink 3s step-start infinite;
+            animation: blink 1s step-start infinite;
             display: inline-block;
-            
         }
 
         /* Animation pour les caractères binaires */
@@ -110,7 +107,7 @@
     <?php include("header.php"); ?>
 
     <!-- TARIFS -->
-    <section class="text-center mt-4 ms-2 me-2">
+    <section id="star-container" class="text-center mt-4 ms-2 me-2">
         <div>
             <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2 text-white">
                 <strong>Nos Tarifs</strong>
@@ -237,31 +234,4 @@
 
     <?php include("footer.php"); ?>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 150; // Nombre de caractères à afficher
-            let binaryContent = '';
-
-            for (let i = 0; i < binaryLength; i++) {
-                binaryContent += Math.round(Math.random()); // Ajoute 0 ou 1
-            }
-
-            // Ajout des lignes binaires
-            for (let i = 0; i < 30; i++) {
-                const line = document.createElement('div');
-                line.className = 'star-line';
-                for (let j = 0; j < binaryLength; j++) {
-                    const char = Math.round(Math.random()); // 0 ou 1
-                    const span = document.createElement('span');
-                    span.textContent = char;
-                    span.className = 'star';
-                    span.style.animationDelay = `${Math.random() * 2}s`; // Délai d'animation aléatoire
-                    line.appendChild(span);
-                }
-                typingElement.appendChild(line);
-            }
-        });
-    </script>
-</body>
-</html>
+    
