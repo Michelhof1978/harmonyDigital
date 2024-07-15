@@ -240,7 +240,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 250; // Nombre de caractères à afficher
+            const binaryLength = 150; // Nombre de caractères à afficher
             let binaryContent = '';
 
             for (let i = 0; i < binaryLength; i++) {
@@ -248,7 +248,7 @@
             }
 
             // Ajout des lignes binaires
-            for (let i = 0; i < 50; i++) {
+            for (let i = 0; i < 60; i++) {
                 const line = document.createElement('div');
                 line.className = 'star-line';
                 for (let j = 0; j < binaryLength; j++) {

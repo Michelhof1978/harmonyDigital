@@ -17,13 +17,11 @@
             overflow: hidden;
             color: lime; /* Couleur des 1 et 0 */
             font-family: 'Courier New', Courier, monospace;
-            opacity: 0.6;
-            font-size: 10px; /* Ajustez la taille de la police si nécessaire */
+            opacity: 0.3;
+            font-size: 20px; /* Ajustez la taille de la police si nécessaire */
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin-right: 30px;
-            
         }
 
         .star-line {
@@ -31,23 +29,22 @@
             justify-content: center;
             overflow: hidden; /* Pour s'assurer que le texte ne déborde pas */
             white-space: nowrap;
-          
         }
 
-       /* CSS modifié pour ralentir l'animation binaire */
-.star {
-    animation: blink 15s step-start infinite; /* Augmentez cette valeur pour ralentir l'animation */
-    display: inline-block;
-}
+        .star {
+            animation: blink 1s step-start infinite;
+            display: inline-block;
+        }
 
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
+        /* Animation pour les caractères binaires */
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
 
         /* CARDS */
         /* Réduire la taille des cartes à 70% */
@@ -240,7 +237,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 250; // Nombre de caractères à afficher
+            const binaryLength = 200; // Nombre de caractères à afficher
             let binaryContent = '';
 
             for (let i = 0; i < binaryLength; i++) {
@@ -248,7 +245,7 @@
             }
 
             // Ajout des lignes binaires
-            for (let i = 0; i < 50; i++) {
+            for (let i = 0; i < 30; i++) {
                 const line = document.createElement('div');
                 line.className = 'star-line';
                 for (let j = 0; j < binaryLength; j++) {
@@ -256,7 +253,7 @@
                     const span = document.createElement('span');
                     span.textContent = char;
                     span.className = 'star';
-                    span.style.animationDelay = `${Math.random() * 25}s`; // Délai d'animation aléatoire
+                    span.style.animationDelay = `${Math.random() * 2}s`; // Délai d'animation aléatoire
                     line.appendChild(span);
                 }
                 typingElement.appendChild(line);

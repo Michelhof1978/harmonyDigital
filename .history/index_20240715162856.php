@@ -240,7 +240,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 250; // Nombre de caractères à afficher
+            const binaryLength = 150; // Nombre de caractères à afficher
             let binaryContent = '';
 
             for (let i = 0; i < binaryLength; i++) {

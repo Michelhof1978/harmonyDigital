@@ -17,7 +17,7 @@
             overflow: hidden;
             color: lime; /* Couleur des 1 et 0 */
             font-family: 'Courier New', Courier, monospace;
-            opacity: 0.6;
+            opacity: 0.8;
             font-size: 10px; /* Ajustez la taille de la police si nécessaire */
             display: flex;
             flex-direction: column;
@@ -108,7 +108,7 @@
 <body>
     
     <?php include("header.php"); ?>
-    <div id="binary-background"></div>
+   
     <!-- TARIFS -->
     <section  class="text-center mt-4 ms-2 me-2">
         <div>
@@ -240,7 +240,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 250; // Nombre de caractères à afficher
+            const binaryLength = 1150; // Nombre de caractères à afficher
             let binaryContent = '';
 
             for (let i = 0; i < binaryLength; i++) {
@@ -248,7 +248,7 @@
             }
 
             // Ajout des lignes binaires
-            for (let i = 0; i < 50; i++) {
+            for (let i = 0; i < 30; i++) {
                 const line = document.createElement('div');
                 line.className = 'star-line';
                 for (let j = 0; j < binaryLength; j++) {

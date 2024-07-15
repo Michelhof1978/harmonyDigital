@@ -17,13 +17,11 @@
             overflow: hidden;
             color: lime; /* Couleur des 1 et 0 */
             font-family: 'Courier New', Courier, monospace;
-            opacity: 0.6;
-            font-size: 10px; /* Ajustez la taille de la police si nécessaire */
+            opacity: 0.9;
+            font-size: 15px; /* Augmenter la taille de la police pour plus de visibilité */
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            margin-right: 30px;
-            
+            padding: 100px 0; /* Augmenter le padding pour plus d'espace */
         }
 
         .star-line {
@@ -31,28 +29,25 @@
             justify-content: center;
             overflow: hidden; /* Pour s'assurer que le texte ne déborde pas */
             white-space: nowrap;
-          
+            margin-bottom: 20px; /* Plus d'espace entre les lignes */
         }
 
-       /* CSS modifié pour ralentir l'animation binaire */
-.star {
-    animation: blink 15s step-start infinite; /* Augmentez cette valeur pour ralentir l'animation */
-    display: inline-block;
-}
+        .star {
+            animation: blink 5s step-start infinite; /* Rendre l'animation plus lente */
+            display: inline-block;
+        }
 
-@keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
+        /* Animation pour les caractères binaires */
+        @keyframes blink {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
 
         /* CARDS */
-        /* Réduire la taille des cartes à 70% */
-        /* Rapprocher les cartes en réduisant la marge */
-        /* Rapprocher les cartes en utilisant des marges négatives */
         .card {
             transform: scale(0.7);
             transform-origin: center center;
@@ -62,27 +57,23 @@
         }
 
         /* CAROUSSEL */
-        /* Réinitialiser les marges pour les éléments de la première et de la dernière ligne */
         .carousel-inner .d-flex > .card:first-child,
         .carousel-inner .d-flex > .card:last-child {
             margin-left: 30px;
             margin-right: 30px;
         }
 
-        /* Conteneur de cartes responsif */
         .carousel-inner .d-flex {
             flex-wrap: wrap;
             justify-content: center;
             margin-bottom: 80px; /* Ajoutez une marge inférieure pour compenser la hauteur des boutons */
         }
 
-        /*classe au conteneur parent du carrousel */
         .carousel-container {
             position: relative; /* Positionnement relatif pour que les boutons soient positionnés par rapport à ce conteneur */
             padding: 20px; /* Ajoutez un peu de rembourrage pour éviter que les boutons ne soient collés aux bords */
         }
 
-        /* Modifiez les boutons de navigation du carrousel */
         .carousel-control-prev,
         .carousel-control-next {
             position: absolute; /* Positionnement absolu pour déplacer les boutons */
@@ -94,23 +85,21 @@
             border-radius: 50%; /* Rendez les boutons circulaires */
         }
 
-        /* Positionnez le bouton "Précédent" à gauche */
         .carousel-control-prev {
             left: 0;
         }
 
-        /* Positionnez le bouton "Suivant" à droite */
         .carousel-control-next {
             right: 0;
         }
     </style>
 </head>
 <body>
-    
-    <?php include("header.php"); ?>
     <div id="binary-background"></div>
+    <?php include("header.php"); ?>
+
     <!-- TARIFS -->
-    <section  class="text-center mt-4 ms-2 me-2">
+    <section class="text-center mt-4 ms-2 me-2">
         <div>
             <h4 class="mb-5 border borderColor border-5 rounded display-6 p-2 col m-2 text-white">
                 <strong>Nos Tarifs</strong>
@@ -240,7 +229,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 250; // Nombre de caractères à afficher
+            const binaryLength = 150; // Nombre de caractères à afficher
             let binaryContent = '';
 
             for (let i = 0; i < binaryLength; i++) {
@@ -248,7 +237,7 @@
             }
 
             // Ajout des lignes binaires
-            for (let i = 0; i < 50; i++) {
+            for (let i = 0; i < 30; i++) {
                 const line = document.createElement('div');
                 line.className = 'star-line';
                 for (let j = 0; j < binaryLength; j++) {
@@ -256,7 +245,7 @@
                     const span = document.createElement('span');
                     span.textContent = char;
                     span.className = 'star';
-                    span.style.animationDelay = `${Math.random() * 25}s`; // Délai d'animation aléatoire
+                    span.style.animationDelay = `${Math.random() * 2}s`; // Délai d'animation aléatoire
                     line.appendChild(span);
                 }
                 typingElement.appendChild(line);

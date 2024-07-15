@@ -17,13 +17,12 @@
             overflow: hidden;
             color: lime; /* Couleur des 1 et 0 */
             font-family: 'Courier New', Courier, monospace;
-            opacity: 0.6;
+            opacity: 0.8;
             font-size: 10px; /* Ajustez la taille de la police si nécessaire */
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin-right: 30px;
-            
+            margin: 20px;
         }
 
         .star-line {
@@ -31,7 +30,7 @@
             justify-content: center;
             overflow: hidden; /* Pour s'assurer que le texte ne déborde pas */
             white-space: nowrap;
-          
+            
         }
 
        /* CSS modifié pour ralentir l'animation binaire */
@@ -240,7 +239,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 250; // Nombre de caractères à afficher
+            const binaryLength = 450; // Nombre de caractères à afficher
             let binaryContent = '';
 
             for (let i = 0; i < binaryLength; i++) {
@@ -248,7 +247,7 @@
             }
 
             // Ajout des lignes binaires
-            for (let i = 0; i < 50; i++) {
+            for (let i = 0; i < 30; i++) {
                 const line = document.createElement('div');
                 line.className = 'star-line';
                 for (let j = 0; j < binaryLength; j++) {
