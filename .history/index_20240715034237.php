@@ -1,8 +1,13 @@
 <?php include("head.php"); ?>
 <meta name="description" content="">
 <title>Harmony Digital</title>
-
 <style>
+
+/* TITRES */
+.borderColor {
+    color: #e06717e4 !important;
+}
+
 /* CARDS */
   /* css CARD ajouté ds le head car non opérationnel sur le fichier css */
    /* Animation clignotante */
@@ -75,6 +80,9 @@
 
 }
 
+
+/* Positionnez le bouton "Précédent" à gauche */
+/* Positionnez le bouton "Précédent" à gauche */
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
   left: 40%; /* Déplacez-le vers le centre */

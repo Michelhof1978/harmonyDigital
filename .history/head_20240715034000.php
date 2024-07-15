@@ -20,7 +20,7 @@
 
   <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
-/* Général */
+
 body {
     font-family: 'Times New Roman', Times, serif;
     background-image: url('Images/fondBleu.png');

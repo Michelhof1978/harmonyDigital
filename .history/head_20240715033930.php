@@ -16,28 +16,11 @@
   <meta property="og:description" content="Conception de Sites Internet, Réalisation Maquettes et Logos, Référencement SEO, Marketing Digital, Communication En Événementielle, Réalisation Campagne Publicitaire. Entreprise Nationale">
   <meta property="og:image" content="../images/logo.ico">
   <meta name="author" content="HOFFMANN MICHEL-Harmony Digital">
+  <title>Harmony Digital</title>
 
 
   <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
-/* Général */
-body {
-    font-family: 'Times New Roman', Times, serif;
-    background-image: url('Images/fondBleu.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0; /* Supprime les marges par défaut du body */
-    padding: 0; /* Supprime les paddings par défaut du body */
-    overflow-x: hidden; /* Évite le débordement horizontal */
-    position: relative;
-}
-
-html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Évite le débordement horizontal */
-}
 /* TITRES */
 .borderColor {
     color: #e06717e4 !important;

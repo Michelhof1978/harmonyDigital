@@ -75,6 +75,9 @@
 
 }
 
+
+/* Positionnez le bouton "Précédent" à gauche */
+/* Positionnez le bouton "Précédent" à gauche */
 /* Positionnez le bouton "Précédent" à gauche */
 .carousel-control-prev {
   left: 40%; /* Déplacez-le vers le centre */
