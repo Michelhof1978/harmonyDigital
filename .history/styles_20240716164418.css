@@ -1,3 +1,5 @@
+
+/* Navbar */
 /* Navbar */
 .navbar {
     height: auto;
@@ -47,16 +49,7 @@
     font-weight: 700;
     font-style: normal;
 }
-
-/* Personnalisation du bouton hamburger */
-.navbar-toggler.custom-toggler {
-    border-color: transparent; /* Supprime la bordure du bouton */
-}
-
-.navbar-toggler.custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    /* Change la couleur du hamburger en blanc */
-}
+/* Navbar */
 
 /* Banner vidéo */
 #special-header {
@@ -106,6 +99,7 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 30px;
+    
 }
 
 .star-line {
@@ -113,23 +107,24 @@
     justify-content: center;
     overflow: hidden; /* Pour s'assurer que le texte ne déborde pas */
     white-space: nowrap;
+  
 }
 
 /* CSS modifié pour ralentir l'animation binaire */
 .star {
-    animation: blink 10s step-start infinite; /* Augmentez cette valeur pour ralentir l'animation */
-    display: inline-block;
+animation: blink 10s step-start infinite; /* Augmentez cette valeur pour ralentir l'animation */
+display: inline-block;
 }
 
 @keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
+0%, 100% {
+opacity: 1;
 }
-/*Fin Styles pour le fond binaire */
+50% {
+opacity: 0;
+}
+}
+/* Styles pour le fond binaire */
 
 /* Footer */
 footer {
