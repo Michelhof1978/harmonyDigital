@@ -39,10 +39,7 @@
     box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(0, 94, 255, 0.5), 0 0 15px rgba(0, 94, 255, 0.3);
 }
 
-.text-orange-titre{
-  color: #e06717e4;
-  font-size: 40px;
-} 
+.text-orange-titre
 /*FIN  TITRES */
 </style>
 

@@ -40,9 +40,8 @@
 }
 
 .text-orange-titre{
-  color: #e06717e4;
-  font-size: 40px;
-} 
+
+  
 /*FIN  TITRES */
 </style>
 
