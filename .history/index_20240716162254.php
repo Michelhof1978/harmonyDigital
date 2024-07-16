@@ -17,7 +17,7 @@
             overflow: hidden;
             color: lime; /* Couleur des 1 et 0 */
             font-family: 'Courier New', Courier, monospace;
-            opacity: 0.4;
+            opacity: 0.5;
             font-size: 10px; /* Ajustez la taille de la police si nécessaire */
             display: flex;
             flex-direction: column;
@@ -36,7 +36,7 @@
 
        /* CSS modifié pour ralentir l'animation binaire */
 .star {
-    animation: blink 10s step-start infinite; /* Augmentez cette valeur pour ralentir l'animation */
+    animation: blink 1s step-start infinite; /* Augmentez cette valeur pour ralentir l'animation */
     display: inline-block;
 }
 

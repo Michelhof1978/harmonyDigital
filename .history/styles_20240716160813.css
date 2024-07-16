@@ -150,12 +150,12 @@ footer {
     }
 
     #special-header {
-        height: 25vh;
+        height: 20vh;
     }
 
     #logo-container img {
         max-width: 20vh;
-       padding-top: 30px;
+        margin-top: 10px;
     }
 
 

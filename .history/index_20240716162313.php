@@ -17,7 +17,7 @@
             overflow: hidden;
             color: lime; /* Couleur des 1 et 0 */
             font-family: 'Courier New', Courier, monospace;
-            opacity: 0.4;
+            opacity: 0.6;
             font-size: 10px; /* Ajustez la taille de la police si nécessaire */
             display: flex;
             flex-direction: column;
