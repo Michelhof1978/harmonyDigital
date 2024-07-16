@@ -15,9 +15,15 @@ body {
 html {
   
 }
+/* TITRES */
+.borderColor {
+    color: #e06717e4 !important;
+}
+  .border-orange {
+    border-color: orange !important;
+  }
 
-
-
+ 
 
 
 /* Navbar */

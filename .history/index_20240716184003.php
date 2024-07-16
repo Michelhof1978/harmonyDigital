@@ -71,7 +71,7 @@
     <section  class="text-center mt-4 ms-2 me-2">
         <div>
             <h4 class="border borderColor border-5 rounded display-6 p-2 col m-2">
-                <strong class="text-white"><span class="text-orange-nav">N</span>os<span class="text-orange-nav">T</span> arifs</strong>
+                <strong class="text-white"><span class="text-orange-nav">N</span>os<span class="text-orange-nav">S</span> arifs</strong>
             </h4>
         </div>
 

@@ -23,9 +23,7 @@
   <style>
 /* TITRES */
 .borderColor {
-    border: 3px solid transparent; /* Bordure transparente, l'effet est créé par le border-image */
-    border-image: linear-gradient(45deg, #0033cc, #0066ff, #3399ff, #66ccff) 1;
-    /* Dégradé linéaire de bleu métal pour la bordure */
+    border-color: rgb(0, 94, 255) !important;
     background-image: url('Images/fondBleu.png');
     background-size: cover;
     background-position: center;
@@ -34,12 +32,10 @@
     font-family: "Noticia Text", serif;
     font-weight: 700;
     font-style: normal;
-
-    /* Effet métallique brillant */
-    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(0, 94, 255, 0.5), 0 0 15px rgba(0, 94, 255, 0.3);
 }
 
-/*FIN  TITRES */
+
+
 </style>
 
 

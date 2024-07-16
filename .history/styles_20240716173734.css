@@ -17,7 +17,9 @@ html {
 }
 
 
-
+.borderColor {
+    border-color: rgb(0, 94, 255) !important;
+  }
 
 
 /* Navbar */

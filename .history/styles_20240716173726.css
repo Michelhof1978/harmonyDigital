@@ -17,7 +17,9 @@ html {
 }
 
 
-
+.borderColor {
+    border-color: blue !important;
+  }
 
 
 /* Navbar */
