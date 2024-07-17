@@ -4,90 +4,94 @@
     <?php include("head.php"); ?>
     <meta name="description" content="">
     <title>Harmony Digital</title>
-
     <style>
-
         /* CARDS */
-        /* Réduire la taille des cartes à 70% */
-        /* Rapprocher les cartes en réduisant la marge */
-        /* Rapprocher les cartes en utilisant des marges négatives */
         .card {
             transform: scale(0.7);
             transform-origin: center center;
             flex: 1 0 30%;
             box-sizing: border-box;
             margin: 0 -90px;
-            background-image: url('Images/fondBleu.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
         }
 
         /* CAROUSSEL */
-        /* Réinitialiser les marges pour les éléments de la première et de la dernière ligne */
         .carousel-inner .d-flex > .card:first-child,
         .carousel-inner .d-flex > .card:last-child {
             margin-left: 30px;
             margin-right: 30px;
         }
 
-        /* Conteneur de cartes responsif */
         .carousel-inner .d-flex {
             flex-wrap: wrap;
             justify-content: center;
-            margin-bottom: 80px; /* Ajoutez une marge inférieure pour compenser la hauteur des boutons */
+            margin-bottom: 80px;
         }
 
-        /*classe au conteneur parent du carrousel */
         .carousel-container {
-            position: relative; /* Positionnement relatif pour que les boutons soient positionnés par rapport à ce conteneur */
-            padding: 20px; /* Ajoutez un peu de rembourrage pour éviter que les boutons ne soient collés aux bords */
+            position: relative;
+            padding: 20px;
         }
 
-        /* Modifiez les boutons de navigation du carrousel */
         .carousel-control-prev,
         .carousel-control-next {
-            position: absolute; /* Positionnement absolu pour déplacer les boutons */
-            top: 50%; /* Alignez verticalement les boutons au centre */
-            width: 40px; /* Ajoutez une largeur fixe */
-            height: 40px; /* Ajoutez une hauteur fixe */
-            margin-top: -70px; /* Réduisez la hauteur de moitié pour centrer verticalement */
-            background-color: #e06717e4; /* Ajoutez une couleur d'arrière-plan pour plus de visibilité */
-            border-radius: 50%; /* Rendez les boutons circulaires */
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            margin-top: -70px;
+            background-color: #e06717e4;
+            border-radius: 50%;
         }
 
-        /* Positionnez le bouton "Précédent" à gauche */
         .carousel-control-prev {
             left: 0;
         }
 
-        /* Positionnez le bouton "Suivant" à droite */
         .carousel-control-next {
             right: 0;
+        }
+
+        /* Media queries pour les appareils mobiles */
+        @media (max-width: 768px) {
+            .card {
+                transform: scale(1);
+                flex: 1 0 45%;
+                box-sizing: border-box;
+                margin: 10px;
+            }
+
+            .carousel-inner .d-flex {
+                flex-wrap: wrap;
+                justify-content: space-around;
+                margin-bottom: 80px;
+            }
+
+            .carousel-inner .d-flex > .card:first-child,
+            .carousel-inner .d-flex > .card:last-child {
+                margin: 10px;
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                width: 30px;
+                height: 30px;
+                margin-top: -35px;
+            }
         }
     </style>
 </head>
 <body>
-    
     <?php include("header.php"); ?>
     <div id="binary-background"></div>
-
-    <div class="mt-5">
-            <h1 class="border borderColor border-4 rounded  p-2 col m-2 text-center ">
-                <strong class="text-white "><span class="text-orange-titre">C</span>oncepteur<span class="text-orange-titre"> D</span>e <span class="text-orange-titre">S</span>ites<span class="text-orange-titre"> I</span>nternet <span class="text-orange-titre">E</span>t<span class="text-orange-titre"> E</span>n <span class="text-orange-titre">M</span>arketing<span class="text-orange-titre"> D</span>igital</strong>
-            </h1>
-        </div>
-    <!-- TARIFS -->
-    <section  class="text-center mt-4 ms-2 me-2">
+    <section class="text-center mt-4 ms-2 me-2">
         <div>
-            <h2 class="border borderColor border-4 rounded  p-2 col m-2">
+            <h4 class="border borderColor border-5 rounded display-6 p-2 col m-2">
                 <strong class="text-white"><span class="text-orange-titre">N</span>os<span class="text-orange-titre"> T</span>arifs</strong>
-            </h2>
+            </h4>
         </div>
 
         <div id="tarifCarousel" class="carousel slide carousel-container">
             <div class="carousel-inner">
-                <!-- Premier groupe de cartes -->
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center">
                         <div class="card bg-dark">
@@ -138,7 +142,6 @@
                     </div>
                 </div>
 
-                <!-- Deuxième groupe de cartes -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
                         <div class="card bg-dark">
@@ -188,21 +191,19 @@
                         </div>
                     </div>
                 </div>
-                <!-- Ajoutez d'autres items de carrousel ici si nécessaire -->
             </div>
 
-            <!-- Contrôles du carrousel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-mdb-target="#tarifCarousel" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Précédent</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#tarifCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-mdb-target="#tarifCarousel" data-mdb-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Suivant</span>
             </button>
         </div>
     </section>
-
     <?php include("footer.php"); ?>
-
     
+</body>
+</html>
