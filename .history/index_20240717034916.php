@@ -42,7 +42,7 @@
         .carousel-container {
             position: relative; /* Positionnement relatif pour que les boutons soient positionnés par rapport à ce conteneur */
             padding: 20px; /* Ajoutez un peu de rembourrage pour éviter que les boutons ne soient collés aux bords */
-            margin-top: -70px;
+        margin-top: -70px;
         }
 
         /* Modifiez les boutons de navigation du carrousel */
@@ -78,12 +78,11 @@
                 <strong class="text-white "><span class="text-orange-titre">C</span>oncepteur<span class="text-orange-titre"> D</span>e <span class="text-orange-titre">S</span>ites<span class="text-orange-titre"> I</span>nternet <span class="text-orange-titre">E</span>t<span class="text-orange-titre"> E</span>n <span class="text-orange-titre">M</span>arketing<span class="text-orange-titre"> D</span>igital</strong>
             </h1>
         </div>
-        
-    <!-- TARIFS ET PRESTATIONS-->
+    <!-- TARIFS -->
     <section  class="text-center mt-4 ms-2 me-2">
         <div>
             <h2 class="border borderColor border-4 rounded  p-2 col m-2">
-                <strong class="text-white"><span class="text-orange-titre">N</span>os<span class="text-orange-titre"> P</span>réstations</strong>
+                <strong class="text-white"><span class="text-orange-titre">N</span>os<span class="text-orange-titre"> T</span>arifs</strong>
             </h2>
         </div>
 

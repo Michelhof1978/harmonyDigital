@@ -30,6 +30,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-width: 50px;
     font-family: "Noticia Text", serif;
     font-weight: 700;
     font-style: normal;

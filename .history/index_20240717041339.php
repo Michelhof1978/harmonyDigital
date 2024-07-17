@@ -67,6 +67,7 @@
             right: 0;
         }
     </style>
+    
 </head>
 <body>
     
@@ -82,7 +83,7 @@
     <!-- TARIFS ET PRESTATIONS-->
     <section  class="text-center mt-4 ms-2 me-2">
         <div>
-            <h2 class="border borderColor border-4 rounded  p-2 col m-2">
+            <h2 class="prestations-title border borderColor border-4 rounded  p-2 col m-2">
                 <strong class="text-white"><span class="text-orange-titre">N</span>os<span class="text-orange-titre"> P</span>réstations</strong>
             </h2>
         </div>
