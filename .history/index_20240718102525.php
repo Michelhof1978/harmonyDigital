@@ -76,7 +76,7 @@
             </h2>
         </div>
 
-        <div id="tarifCarousel" class="carousel slide carousel-container">
+        <div id="tarifCarousel" class="carousel slide carousel-container" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <!-- Premier groupe de cartes -->
                 <div class="carousel-item active">
@@ -97,7 +97,10 @@
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
-                                   
+                                    <strong><span class="text-orange-nav">S</span>ites <span class="text-orange-nav">V</span>itrines</strong><br>
+                                    <strong><span class="text-orange-nav">C</span>orporate</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>vènementiel</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>-<span class="text-orange-nav">C</span>ommerce</strong><br>
                                 </p>
                             </div>
                             <strong class="pricecard text-white custom-animation mt-3">À partir de 890,00 €</strong>
@@ -109,7 +112,10 @@
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
-                                    
+                                    <strong><span class="text-orange-nav">S</span>ites <span class="text-orange-nav">V</span>itrines</strong><br>
+                                    <strong><span class="text-orange-nav">C</span>orporate</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>vènementiel</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>-<span class="text-orange-nav">C</span>ommerce</strong><br>
                                 </p>
                             </div>
                             <strong class="pricecard text-white custom-animation mt-3">À partir de 890,00 €</strong>
@@ -127,7 +133,10 @@
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
-                                    
+                                    <strong><span class="text-orange-nav">S</span>ites <span class="text-orange-nav">V</span>itrines</strong><br>
+                                    <strong><span class="text-orange-nav">C</span>orporate</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>vènementiel</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>-<span class="text-orange-nav">C</span>ommerce</strong><br>
                                 </p>
                             </div>
                             <strong class="pricecard text-white custom-animation mt-3">À partir de 890,00 €</strong>
@@ -139,7 +148,10 @@
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
-                                   
+                                    <strong><span class="text-orange-nav">S</span>ites <span class="text-orange-nav">V</span>itrines</strong><br>
+                                    <strong><span class="text-orange-nav">C</span>orporate</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>vènementiel</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>-<span class="text-orange-nav">C</span>ommerce</strong><br>
                                 </p>
                             </div>
                             <strong class="pricecard text-white custom-animation mt-3">À partir de 890,00 €</strong>
@@ -151,7 +163,10 @@
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
-                                   
+                                    <strong><span class="text-orange-nav">S</span>ites <span class="text-orange-nav">V</span>itrines</strong><br>
+                                    <strong><span class="text-orange-nav">C</span>orporate</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>vènementiel</strong><br>
+                                    <strong><span class="text-orange-nav">E</span>-<span class="text-orange-nav">C</span>ommerce</strong><br>
                                 </p>
                             </div>
                             <strong class="pricecard text-white custom-animation mt-3">À partir de 890,00 €</strong>
@@ -177,4 +192,4 @@
 
     <?php include("footer.php"); ?>
 
-    
+  
