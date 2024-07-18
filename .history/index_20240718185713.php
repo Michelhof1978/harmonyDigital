@@ -86,7 +86,7 @@ margin-top: -100px;
 /* Texte intro */
 .textIntro {
 	text-align: justify;
-	margin-top: 160px;
+	margin-top: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
     
@@ -107,7 +107,6 @@ margin-top: -100px;
 <body>
     
     <?php include("header.php"); ?>
-
     <div id="binary-background"></div>
 
     <div class="mt-5">
@@ -117,7 +116,7 @@ margin-top: -100px;
     </div>
 
     <div class="d-flex justify-content-center">
-  <div class="col-sm-12 col-xl-6 w-75">
+  <div class="col-sm-12 col-xl-6 w-75 h-100">
     <p class="textIntro lead bg-light rounded shadow p-4 pb-5 bg-white rounded ms-1 me-1">
     
     <strong>GESTION DE PROJETS WEB</strong><br>

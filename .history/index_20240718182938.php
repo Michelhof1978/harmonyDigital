@@ -86,7 +86,7 @@ margin-top: -100px;
 /* Texte intro */
 .textIntro {
 	text-align: justify;
-	margin-top: 160px;
+	margin-top: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
     
@@ -107,7 +107,6 @@ margin-top: -100px;
 <body>
     
     <?php include("header.php"); ?>
-
     <div id="binary-background"></div>
 
     <div class="mt-5">
@@ -133,13 +132,22 @@ margin-top: -100px;
     <p>Codage à la main respectueux des standards du web</p><br>
 
     <strong>DYNAMISE DES PAGES PAR JAVASCRIPT</strong><br>
-    <p>React et Vue.js</p><br>
+    <p>React</p><br>
 
-    <strong>VALIDATION W3C & REFERENCEMENT NATUREL SEO</strong><br>
-    <p>Accessibilité & ergonomie des pages web</p><br>
+    <strong></strong><br>
+    <p></p><br>
 
-    <strong>CONCEPTION MULTI-PLATERFORMES</strong><br>
-    <p>Compatible tous supports, tablette & application mobile</p><br>  </div>
+    <strong></strong><br>
+    <p></p><br>
+
+    <strong></strong><br>
+    <p></p><br>
+
+    <strong></strong><br>
+    <p></p><br>
+    
+</p>
+  </div>
 </div>
 
 

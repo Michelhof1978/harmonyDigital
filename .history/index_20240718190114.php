@@ -86,7 +86,7 @@ margin-top: -100px;
 /* Texte intro */
 .textIntro {
 	text-align: justify;
-	margin-top: 160px;
+	margin-top: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
     
@@ -107,7 +107,7 @@ margin-top: -100px;
 <body>
     
     <?php include("header.php"); ?>
-
+    
     <div id="binary-background"></div>
 
     <div class="mt-5">
