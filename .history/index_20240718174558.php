@@ -69,7 +69,19 @@
         }
     }
     /* Fin Animation clignotante tarif */
+/* Texte intro */
+    .textIntro {
+	text-align: justify;
+	margin-top: 60px;
+}
 
+ @media screen and (max-width: 1400px) {
+    .textIntro{
+		margin-top: 40px;
+	}
+       
+ }
+ /* FinTexte intro */
     .pricecard{
 font-size: 25px !important;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -83,22 +95,7 @@ margin-top: -100px;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
    
 }
-/* Texte intro */
-.textIntro {
-	text-align: justify;
-	margin-top: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
-}
 
- @media screen and (max-width: 1400px) {
-    .textIntro{
-		margin-top: 40px;
-	}
-       
- }
- /* Fin Texte intro */
  /* FIN CARDS */
     
 
@@ -115,14 +112,18 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <div class="d-flex justify-content-center">
-  <div class="col-sm-12 col-xl-6 w-75">
-    <p class="textIntro lead bg-light rounded shadow p-4 pb-5 bg-white rounded ms-1 me-1">
-      Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
-    </p>
-  </div>
-</div>
+    <div class="col-sm-12 col-xl-6 ">
+        <p class="textIntro lead bg-light rounded shadow p-4 pb-5 bg-white rounded ms-1 me-1 ">
+          Profitez d'une expérience de camping unique au  target="_blank">Camping proche du Pal de Dompierre Sur Besbre, situé à proximité du parc d'attractions " target="_blank">Le-Pal</a></strong>.
+          Niché dans un cadre naturel exceptionnel en bordure d'une rivière et à proximité des commerces, ce site paisible et verdoyant offre une atmosphère propice à la détente et au ressourcement.
 
+          Vous serez enchanté par l'ambiance caravane proposée par notre équipe. Des caravanes tout confort et entièrement équipées sont disponibles du <strong>01/07/2024 au 25/08/2024</strong> pour accueillir 4 personnes chacune (2 adultes et 2 enfants).
+          En outre, une épicerie de base est fournie, comprenant café, sucre, sel, poivre, huile, etc.
+
+          Notre équipe, dirigée par Isabelle, se fera un plaisir de vous aider à rendre votre séjour inoubliable. N'hésitez pas à nous contacter pour plus d'informations ou pour réserver votre séjour dès maintenant.
+        <strong>Le linge de lit n'est pas inclus</strong>
+        </p>
+      </div>
 
     <!-- PRESTATIONS -->
     <section class="text-center mt-4 ms-2 me-2">

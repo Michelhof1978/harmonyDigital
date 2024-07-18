@@ -69,7 +69,6 @@
         }
     }
     /* Fin Animation clignotante tarif */
-
     .pricecard{
 font-size: 25px !important;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -83,22 +82,7 @@ margin-top: -100px;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
    
 }
-/* Texte intro */
-.textIntro {
-	text-align: justify;
-	margin-top: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-    
-}
 
- @media screen and (max-width: 1400px) {
-    .textIntro{
-		margin-top: 40px;
-	}
-       
- }
- /* Fin Texte intro */
  /* FIN CARDS */
     
 
@@ -114,15 +98,6 @@ margin-top: -100px;
             <strong class="text-white"><span class="text-orange-titre">C</span>oncepteur<span class="text-orange-titre"> D</span>e <span class="text-orange-titre">S</span>ites<span class="text-orange-titre"> I</span>nternet <span class="text-orange-titre">E</span>t<span class="text-orange-titre"> E</span>n <span class="text-orange-titre">S</span>tratégie<span class="text-orange-titre"> D</span>igitale</strong>
         </h1>
     </div>
-
-    <div class="d-flex justify-content-center">
-  <div class="col-sm-12 col-xl-6 w-75">
-    <p class="textIntro lead bg-light rounded shadow p-4 pb-5 bg-white rounded ms-1 me-1">
-      Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
-    </p>
-  </div>
-</div>
-
 
     <!-- PRESTATIONS -->
     <section class="text-center mt-4 ms-2 me-2">
