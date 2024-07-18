@@ -55,6 +55,32 @@
             right: 0;
         }
 
+        /* Styles pour le fond binaire */
+        #binary-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            color: lime;
+            font-family: 'Courier New', Courier, monospace;
+            opacity: 0.4;
+            font-size: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .star {
+            position: absolute;
+            animation: blink 3s step-start infinite; /* Augmenter la durée de l'animation pour un clignotement plus lent */
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
     </style>
 </head>
 <body>
@@ -195,4 +221,35 @@
 
     <?php include("footer.php"); ?>
 
-    
+    <!-- Arrière plan 0 et 1 -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const typingElement = document.querySelector('#binary-background');
+            const binaryLength = 1000; // Nombre total de caractères binaires à afficher
+            const characters = [];
+
+            // Créez des éléments span pour chaque caractère binaire
+            for (let i = 0; i < binaryLength; i++) {
+                const char = document.createElement('span');
+                char.textContent = Math.round(Math.random());
+                char.className = 'star';
+                char.style.left = Math.random() * 100 + 'vw';
+                char.style.top = Math.random() * 100 + 'vh';
+                char.style.animationDelay = `${Math.random() * 5}s`; // Délai d'animation aléatoire pour chaque caractère
+                typingElement.appendChild(char);
+                characters.push(char);
+            }
+
+            // Fonction pour afficher les caractères un par un
+            function showCharacters(index) {
+                if (index < characters.length) {
+                    characters[index].style.opacity = 1;
+                    setTimeout(() => showCharacters(index + 1), 200); // Ajustez la durée pour la vitesse souhaitée
+                }
+            }
+
+            showCharacters(0);
+        });
+    </script>
+</body>
+</html>
