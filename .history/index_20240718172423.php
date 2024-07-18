@@ -73,7 +73,7 @@
 font-size: 25px !important;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin-top: -100px;
-
+color: ;
     }
 
     .info {

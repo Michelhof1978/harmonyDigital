@@ -73,14 +73,13 @@
 font-size: 25px !important;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin-top: -100px;
-
     }
 
     .info {
     font-size: 30px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
-   
+    ba
 }
 
  /* FIN CARDS */

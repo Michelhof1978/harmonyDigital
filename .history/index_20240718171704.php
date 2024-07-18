@@ -73,16 +73,12 @@
 font-size: 25px !important;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 margin-top: -100px;
-
     }
 
-    .info {
-    font-size: 30px !important;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
-   
-}
-
+    .info{
+        font-size: 25px !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
  /* FIN CARDS */
     
 
@@ -121,7 +117,7 @@ margin-top: -100px;
                             </div>
                             <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                             <div class="card-body">
-                                <a href=".php" class=" info btn text-white mb-5">Plus d'infos !</a>
+                                <a href=".php" class=" info border border-3 border-white btn text-white mb-5">Plus d'infos !</a>
                             </div>
                         </div>
                         <div class="card">
@@ -133,7 +129,7 @@ margin-top: -100px;
                             </div>
                             <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                             <div class="card-body">
-                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                                <a href=".php" class="info border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
                         <div class="card">
@@ -145,7 +141,7 @@ margin-top: -100px;
                             </div>
                             <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                             <div class="card-body">
-                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                                <a href=".php" class="info border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
                     </div>
@@ -163,7 +159,7 @@ margin-top: -100px;
                             </div>
                             <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                             <div class="card-body">
-                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                                <a href=".php" class="info border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
                         <div class="card">
@@ -175,7 +171,7 @@ margin-top: -100px;
                             </div>
                             <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                             <div class="card-body">
-                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                                <a href=".php" class="info border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
                         <div class="card">
@@ -187,7 +183,7 @@ margin-top: -100px;
                             </div>
                             <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                             <div class="card-body fs-5 mb-5">
-                                <a href=".php" class="info btn text-white ">Plus d'infos !</a>
+                                <a href=".php" class="info border border-4 border-white btn text-white ">Plus d'infos !</a>
                             </div>
                         </div>
                     </div>
