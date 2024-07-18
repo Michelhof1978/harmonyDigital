@@ -117,7 +117,7 @@
                                    
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -129,7 +129,7 @@
                                     
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -147,7 +147,7 @@
                                     
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -159,7 +159,7 @@
                                    
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -171,7 +171,7 @@
                                    
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation ">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>

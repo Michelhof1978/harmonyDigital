@@ -54,12 +54,12 @@
         .carousel-control-next {
             right: 0;
         }
- /* Animation clignotante tarif */
+
         .custom-animation {
         animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
     }
 
-    
+    /* FIN CARDS */
         @keyframes infiniteBlink {
         0%, 100% {
             opacity: 1;
@@ -68,7 +68,6 @@
             opacity: 0;
         }
     }
-    /* Fin Animation clignotante tarif */
  /* FIN CARDS */
     
 
@@ -105,7 +104,7 @@
                                     
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -117,7 +116,7 @@
                                    
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -129,7 +128,7 @@
                                     
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -147,7 +146,7 @@
                                     
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -159,7 +158,7 @@
                                    
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
@@ -171,7 +170,7 @@
                                    
                                 </p>
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 fs-5">À partir de 890,00 €</strong>
+                            <strong class="pricecard text-white custom-animation ">À partir de 890,00 €</strong>
                             <div class="card-body">
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
