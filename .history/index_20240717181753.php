@@ -78,20 +78,21 @@
                 <strong class="text-white "><span class="text-orange-titre">C</span>oncepteur<span class="text-orange-titre"> D</span>e <span class="text-orange-titre">S</span>ites<span class="text-orange-titre"> I</span>nternet <span class="text-orange-titre">E</span>t<span class="text-orange-titre"> E</span>n <span class="text-orange-titre">M</span>arketing<span class="text-orange-titre"> D</span>igital</strong>
             </h1>
         </div>
-    <!-- TARIFS -->
+        
+    <!-- TARIFS ET PRESTATIONS-->
     <section  class="text-center mt-4 ms-2 me-2">
         <div>
             <h2 class="border borderColor border-4 rounded  p-2 col m-2">
-                <strong class="text-white"><span class="text-orange-titre">N</span>os<span class="text-orange-titre"> P</span>réstation</strong>
+                <strong class="text-white"><span class="text-orange-titre">N</span>os<span class="text-orange-titre"> P</span>réstations</strong>
             </h2>
         </div>
 
-        <div id="tarifCarousel" class="carousel slide carousel-container">
+        <div class="carousel slide carousel-container">
             <div class="carousel-inner">
                 <!-- Premier groupe de cartes -->
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center">
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -106,7 +107,7 @@
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -121,7 +122,7 @@
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -142,7 +143,7 @@
                 <!-- Deuxième groupe de cartes -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -157,7 +158,7 @@
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -172,7 +173,7 @@
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -187,6 +188,8 @@
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
+
+                        
                     </div>
                 </div>
                 <!-- Ajoutez d'autres items de carrousel ici si nécessaire -->

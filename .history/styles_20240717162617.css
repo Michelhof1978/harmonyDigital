@@ -2,7 +2,7 @@
 
 body {
    
-    background-image: url('Images/fondBleu.png');
+    background-image: url('Images/fondGris1.jpg');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -12,9 +12,6 @@ body {
    
 }  
 
-html {
-  
-}
 
 /* Navbar */
 .navbar {
@@ -152,6 +149,7 @@ html {
 /* Footer */
 footer {
     height: 360px; 
+    background-color: ;
 }
 
 .copyright {

@@ -2,7 +2,7 @@
 
 body {
    
-    background-image: url('Images/fondBleu.png');
+    background-image: url('Images/fondGris3.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -12,9 +12,6 @@ body {
    
 }  
 
-html {
-  
-}
 
 /* Navbar */
 .navbar {
@@ -116,9 +113,9 @@ html {
     height: 100%;
     z-index: -1;
     overflow: hidden;
-    color: lime; /* Couleur des 1 et 0 */
+    color: rgb(10, 246, 57); /* Couleur des 1 et 0 */
     font-family: 'Courier New', Courier, monospace;
-    opacity: 0.4;
+    opacity: 0.9;
     font-size: 10px; /* Ajustez la taille de la police si nécessaire */
     display: flex;
     flex-direction: column;
@@ -152,6 +149,7 @@ html {
 /* Footer */
 footer {
     height: 360px; 
+    background-color: #e06717;
 }
 
 .copyright {

@@ -86,7 +86,7 @@
             </h2>
         </div>
 
-        <div id="tarifCarousel" class="carousel slide carousel-container">
+        <div class="carousel slide carousel-container">
             <div class="carousel-inner">
                 <!-- Premier groupe de cartes -->
                 <div class="carousel-item active">
@@ -157,7 +157,7 @@
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -172,7 +172,7 @@
                                 <a href=".php" class="border border-3 border-white btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card bg-dark">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">

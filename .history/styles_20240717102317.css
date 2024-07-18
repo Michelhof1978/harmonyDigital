@@ -1,20 +1,17 @@
 /* Général */
 
 body {
-   
-    background-image: url('Images/fondBleu.png');
+   ba
+    /* background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
-   background-repeat: no-repeat;
+   background-repeat: no-repeat; */
     margin: 0; /* Supprime les marges par défaut du body */
     padding: 0; /* Supprime les paddings par défaut du body */
     overflow-x: hidden; /* Évite le débordement horizontal */
    
 }  
 
-html {
-  
-}
 
 /* Navbar */
 .navbar {
