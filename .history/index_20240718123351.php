@@ -149,7 +149,7 @@
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card6.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
+                                <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>
