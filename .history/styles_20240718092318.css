@@ -117,7 +117,7 @@ html {
     z-index: -1;
     color: lime;
     font-family: 'Courier New', Courier, monospace;
-    opacity: 0.5;
+    opacity: ;
     font-size: 10px;
     display: flex;
     flex-direction: column;
