@@ -51,7 +51,33 @@
    
 <!-- _____________________________________________________________________________________ -->
 
+<!-- Arrière plan 0 et 1 -->
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const typingElement = document.querySelector('#binary-background');
+            const binaryLength = 250; // Nombre de caractères à afficher
+            let binaryContent = '';
 
+            for (let i = 0; i < binaryLength; i++) {
+                binaryContent += Math.round(Math.random()); // Ajoute 0 ou 1
+            }
+
+            // Ajout des lignes binaires
+            for (let i = 0; i < 50; i++) {
+                const line = document.createElement('div');
+                line.className = 'star-line';
+                for (let j = 0; j < binaryLength; j++) {
+                    const char = Math.round(Math.random()); // 0 ou 1
+                    const span = document.createElement('span');
+                    span.textContent = char;
+                    span.className = 'star';
+                    span.style.animationDelay = `${Math.random() * 25}s`; // Délai d'animation aléatoire
+                    line.appendChild(span);
+                }
+                typingElement.appendChild(line);
+            }
+        });
+    </script>
 <!-- _____________________________________________________________________________________ -->
 
 <!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
@@ -131,4 +157,5 @@
 
 <!--____________________________________________________________________________________-->
 
-
+</body>
+</html>

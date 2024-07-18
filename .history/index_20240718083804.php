@@ -4,6 +4,7 @@
     <?php include("head.php"); ?>
     <meta name="description" content="">
     <title>Harmony Digital</title>
+
     <style>
         /* CARDS */
         .card {
@@ -18,6 +19,7 @@
             background-repeat: no-repeat;
         }
 
+        /* CAROUSSEL */
         .carousel-inner .d-flex > .card:first-child,
         .carousel-inner .d-flex > .card:last-child {
             margin-left: 30px;
@@ -63,6 +65,7 @@
             width: 100%;
             height: 100%;
             z-index: -1;
+            overflow: hidden;
             color: lime;
             font-family: 'Courier New', Courier, monospace;
             opacity: 0.4;
@@ -72,19 +75,19 @@
             justify-content: center;
         }
 
-        .star {
-            position: absolute;
-            animation: blink 1s step-start infinite;
+        .star-line {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            white-space: nowrap;
         }
 
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
+        .star {
+            display: inline-block;
         }
     </style>
 </head>
 <body>
-    
     <?php include("header.php"); ?>
     <div id="binary-background"></div>
 
@@ -205,6 +208,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Ajoutez d'autres items de carrousel ici si nécessaire -->
             </div>
 
             <!-- Contrôles du carrousel -->
@@ -225,30 +229,35 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const typingElement = document.querySelector('#binary-background');
-            const binaryLength = 1000; // Nombre total de caractères binaires à afficher
-            const characters = [];
+            const binaryLength = 250; // Nombre de caractères à afficher
+            const lineCount = 50; // Nombre de lignes
 
-            // Créez des éléments span pour chaque caractère binaire
-            for (let i = 0; i < binaryLength; i++) {
-                const char = document.createElement('span');
-                char.textContent = Math.round(Math.random());
-                char.className = 'star';
-                char.style.left = Math.random() * 100 + 'vw';
-                char.style.top = Math.random() * 100 + 'vh';
-                char.style.animationDelay = `${Math.random() * 5}s`; // Délai d'animation aléatoire pour chaque caractère
-                typingElement.appendChild(char);
-                characters.push(char);
+            function createBinaryLine() {
+                const line = document.createElement('div');
+                line.className = 'star-line';
+                return line;
             }
 
-            // Fonction pour afficher les caractères un par un
-            function showCharacters(index) {
-                if (index < characters.length) {
-                    characters[index].style.opacity = 1;
-                    setTimeout(() => showCharacters(index + 1), 100); // Ajustez la durée pour la vitesse souhaitée
+            function addCharacterToLine(line, char, delay) {
+                const span = document.createElement('span');
+                span.textContent = char;
+                span.className = 'star';
+                span.style.animationDelay = `${delay}s`; // Délai d'animation aléatoire
+                line.appendChild(span);
+            }
+
+            function typeBinaryLine(line, delay) {
+                for (let j = 0; j < binaryLength; j++) {
+                    const char = Math.round(Math.random()); // 0 ou 1
+                    setTimeout(() => addCharacterToLine(line, char, Math.random() * 25), j * 50); // Ajoute un caractère toutes les 50 ms
                 }
             }
 
-            showCharacters(0);
+            for (let i = 0; i < lineCount; i++) {
+                const line = createBinaryLine();
+                typingElement.appendChild(line);
+                setTimeout(() => typeBinaryLine(line, Math.random() * 25), i * 1000); // Ajoute une nouvelle ligne toutes les secondes
+            }
         });
     </script>
 </body>

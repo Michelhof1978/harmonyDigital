@@ -107,6 +107,47 @@ html {
 }
 /* Fin Banner vidéo */
 
+/* Styles pour le fond binaire */
+#binary-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    color: lime; /* Couleur des 1 et 0 */
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.4;
+    font-size: 10px; /* Ajustez la taille de la police si nécessaire */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.star-line {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Pour s'assurer que le texte ne déborde pas */
+    white-space: nowrap;
+}
+
+/* CSS modifié pour ralentir l'animation binaire */
+.star {
+    animation: blink 10s step-start infinite; /* Augmentez cette valeur pour ralentir l'animation */
+    display: inline-block;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+/*Fin Styles pour le fond binaire */
 
 /* Footer */
 footer {
