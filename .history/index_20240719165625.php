@@ -287,7 +287,7 @@ margin-top: -100px;
 
             <div>
             <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
+            
             
             <div class="text-center">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
@@ -296,7 +296,7 @@ margin-top: -100px;
 
             <div>
             <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
+
 
             <div class="text-center">
                 <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
@@ -305,7 +305,7 @@ margin-top: -100px;
 
             <div>
             <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
+
 
             <div class="text-center">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
@@ -314,7 +314,7 @@ margin-top: -100px;
 
             <div>
             <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
+
 
             <div class="text-center">
                 <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
@@ -323,7 +323,7 @@ margin-top: -100px;
 
             <div>
             <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
+
 
             <div class="text-center">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>

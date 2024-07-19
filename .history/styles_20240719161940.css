@@ -48,7 +48,7 @@ html {
 }
 
 .nav-item a:hover {
-    color: rgb(22, 215, 245);
+    color: rgba(17, 196, 223, 0.533);
 }
 
 .nav-item {

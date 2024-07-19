@@ -129,10 +129,10 @@ margin-top: -100px;
 
 .robotSeparateur {
     max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 100px; /* Conserve le ratio de l'image */
+  height: 150px; /* Conserve le ratio de l'image */
   display: block;
   margin: 0 auto; /* Centre l'image */
-  
+  margin-top: 20px;
 }
 
 .h2competence {
@@ -285,17 +285,12 @@ margin-top: -100px;
                 <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</strong></p>
             </div>
 
-            <div>
             <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
+
             
             <div class="text-center">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
                 <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
-            </div>
-
-            <div>
-            <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -303,17 +298,9 @@ margin-top: -100px;
                 <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
             </div>
 
-            <div>
-            <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
-
             <div class="text-center">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
                 <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
-            </div>
-
-            <div>
-            <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -321,17 +308,9 @@ margin-top: -100px;
                 <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
-            <div>
-            <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-            </div>
-
             <div class="text-center">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
                 <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
-            </div>
-
-            <div>
-            <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid  robotSeparateur"> 
             </div>
 
             <div class="text-center">
