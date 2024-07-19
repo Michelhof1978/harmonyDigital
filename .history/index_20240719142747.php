@@ -97,15 +97,8 @@ margin-top: -100px;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 20%; 
+    width: 25%; 
     margin-top: 50px;
-}
-
-.neon-yellow {
-    color: #FFFF33; /* Code couleur pour un jaune néon clair H4*/
-    text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
-                 0 0 10px rgba(255, 255, 51, 0.5), 
-                 0 0 20px rgba(255, 255, 51, 0.5);
 }
 
  
@@ -127,8 +120,55 @@ margin-top: -100px;
         </h1>
     </div>
 
-     <!-- PRESTATIONS -->
-     <section class="text-center mt-4 ms-2 me-2">
+     <!-- PRESENTATION -->
+     <section class="d-flex ms-5 position-relative justify-content-center rounded">
+    <div class="w-75 textIntro">
+        <div class="mt-4 ">
+            <div class="text-center">
+                <h4 class="neon-yellow">GESTION DE PROJET WEB</h4>
+                <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</strong></p>
+            </div>
+            
+            <div class="text-center">
+            <h4 class="neon-yellow">CONCEPTION GRAPHIQUE & WEBDESIGN</h4>
+                <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
+            </div>
+
+            <div class="text-center">
+            <h4 class="neon-yellow">INTERFACE D'ADMINISTRAION</h4>
+                <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
+            </div>
+
+            <div class="text-center">
+            <h4 class="neon-yellow">INTEGRATION HTML / CSS</h4>
+                <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
+            </div>
+
+            <div class="text-center">
+            <h4 class="neon-yellow">DYNAMISE DES PAGES PAR JAVASCRIPT</h4>
+                <p class="text-white lead"><strong>React et Vue.js</strong></p>
+            </div>
+
+            <div class="text-center">
+            <h4 class="neon-yellow">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h4>
+                <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
+            </div>
+
+            <div class="text-center">
+            <h4 class="neon-yellow">CONCEPTION MULTI-PLATEFORME</h4>
+                <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
+            </div>
+        </div>
+    </div>
+    <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
+        <img src="images/robotIntro.png" alt="robot" loading="lazy" class=" img-fluid"> 
+    </div>
+</section>
+
+
+
+    <!-- PRESTATIONS -->
+    <section class="text-center mt-4 ms-2 me-2">
         <div>
             <h2 class="border borderColor border-4 rounded p-2  m-5">
                 <strong class="text-white"><span class="text-orange-titre">N</span>os<span class="text-orange-titre"> P</span>restations</strong>
@@ -233,57 +273,6 @@ margin-top: -100px;
             </button>
         </div>
     </section>
-
-    <div>
-            <h2 class="border borderColor border-4 rounded p-2 text-center ms-5 me-5">
-                <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
-            </h2>
-        </div>
-        
-     <!-- PRESENTATION -->
-     <section class="d-flex ms-5 mb-5 position-relative justify-content-center">
-    <div class="w-50 textIntro">
-        <div class="mt-4 mb-4 ">
-            <div class="text-center">
-                <h4 class="neon-yellow">GESTION DE PROJET WEB</h4>
-                <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</strong></p>
-            </div>
-            
-            <div class="text-center">
-            <h4 class="neon-yellow">CONCEPTION GRAPHIQUE & WEBDESIGN</h4>
-                <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
-            </div>
-
-            <div class="text-center">
-            <h4 class="neon-yellow">INTERFACE D'ADMINISTRAION</h4>
-                <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
-            </div>
-
-            <div class="text-center">
-            <h4 class="neon-yellow">INTEGRATION HTML / CSS</h4>
-                <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
-            </div>
-
-            <div class="text-center">
-            <h4 class="neon-yellow">DYNAMISE DES PAGES PAR JAVASCRIPT</h4>
-                <p class="text-white lead"><strong>React et Vue.js</strong></p>
-            </div>
-
-            <div class="text-center">
-            <h4 class="neon-yellow">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h4>
-                <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
-            </div>
-
-            <div class="text-center">
-            <h4 class="neon-yellow">CONCEPTION MULTI-PLATEFORME</h4>
-                <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
-            </div>
-        </div>
-    </div>
-    <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
-        <img src="images/robotIntro.png" alt="robot" loading="lazy" class=" img-fluid"> 
-    </div>
-</section>
 
     <?php include("footer.php"); ?>
 

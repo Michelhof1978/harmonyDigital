@@ -97,7 +97,7 @@ margin-top: -100px;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 20%; 
+    width: 2%; 
     margin-top: 50px;
 }
 
@@ -242,7 +242,7 @@ margin-top: -100px;
         
      <!-- PRESENTATION -->
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center">
-    <div class="w-50 textIntro">
+    <div class="w-75 textIntro">
         <div class="mt-4 mb-4 ">
             <div class="text-center">
                 <h4 class="neon-yellow">GESTION DE PROJET WEB</h4>

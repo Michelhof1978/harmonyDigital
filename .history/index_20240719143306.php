@@ -97,12 +97,12 @@ margin-top: -100px;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 20%; 
+    width: 25%; 
     margin-top: 50px;
 }
 
 .neon-yellow {
-    color: #FFFF33; /* Code couleur pour un jaune néon clair H4*/
+    color: #FFFF33; /* Code couleur pour un jaune néon plus clair */
     text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
                  0 0 10px rgba(255, 255, 51, 0.5), 
                  0 0 20px rgba(255, 255, 51, 0.5);
@@ -234,15 +234,9 @@ margin-top: -100px;
         </div>
     </section>
 
-    <div>
-            <h2 class="border borderColor border-4 rounded p-2 text-center ms-5 me-5">
-                <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
-            </h2>
-        </div>
-        
      <!-- PRESENTATION -->
-     <section class="d-flex ms-5 mb-5 position-relative justify-content-center">
-    <div class="w-50 textIntro">
+     <section class="d-flex ms-5 mb-5 position-relative justify-content-center rounded">
+    <div class="w-75 textIntro">
         <div class="mt-4 mb-4 ">
             <div class="text-center">
                 <h4 class="neon-yellow">GESTION DE PROJET WEB</h4>
