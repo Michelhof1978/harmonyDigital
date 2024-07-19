@@ -284,12 +284,12 @@ margin-top: -100px;
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
+                <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h4>
                 <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
+                <h4 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h4>
                 <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>

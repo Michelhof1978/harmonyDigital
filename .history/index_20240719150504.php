@@ -102,7 +102,7 @@ margin-top: -100px;
 }
 
 .neon-yellow {
-    color: rgba(255, 255, 51, 0.8); /* Code couleur pour un jaune néon plus clair et plus transparent */
+    color: #FFFF33; /* Code couleur pour un jaune néon plus clair */
     text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
                  0 0 10px rgba(255, 255, 51, 0.5), 
                  0 0 20px rgba(255, 255, 51, 0.5);
@@ -114,9 +114,8 @@ margin-top: -100px;
     display: inline-block; /* Nécessaire pour que le box-shadow soit visible */
 }
 
-
 .neon-section {
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .h2competence {
@@ -256,40 +255,40 @@ margin-top: -100px;
         
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
-    <div class="w-50 textIntro neon-section">
+    <div class="w-50 textIntro ">
         <div class="m-5">
             <div class="text-center">
-                <h5 class="neon-yellow rounded">GESTION DE PROJET WEB</h5>
+                <h4 class="neon-yellow rounded">GESTION DE PROJET WEB</h4>
                 <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</strong></p>
             </div>
             
             <div class="text-center">
-                <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
+                <h4 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h4>
                 <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
+                <h4 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h4>
                 <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
+                <h4 class="neon-yellow rounded">INTEGRATION HTML / CSS</h4>
                 <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
+                <h4 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h4>
                 <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
+                <h4 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h4>
                 <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
+                <h4 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h4>
                 <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>

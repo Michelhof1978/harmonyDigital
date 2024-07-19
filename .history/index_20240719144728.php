@@ -98,29 +98,18 @@ margin-top: -100px;
     right: 0;
     transform: translateY(-50%);
     width: 20%; 
-    
+    margin-top: 50px;
 }
 
 .neon-yellow {
-    color: rgba(255, 255, 51, 0.8); /* Code couleur pour un jaune néon plus clair et plus transparent */
+    color: #FFFF33; /* Code couleur pour un jaune néon clair H4*/
     text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
                  0 0 10px rgba(255, 255, 51, 0.5), 
                  0 0 20px rgba(255, 255, 51, 0.5);
-    box-shadow: 0 0 10px rgba(255, 255, 51, 0.5), 
-                0 0 20px rgba(255, 255, 51, 0.3), 
-                0 0 30px rgba(255, 255, 51, 0.2);
-    border-radius: 10px; /* Légèrement arrondir les bords */
-    padding: 10px; /* Ajouter du padding pour que l'effet soit plus visible */
-    display: inline-block; /* Nécessaire pour que le box-shadow soit visible */
-}
-
-
-.neon-section {
-  border-radius: 5px;
 }
 
 .h2competence {
-  margin-top: -70px;
+  
 }
  /* Fin Texte intro */
  /* FIN CARDS */
@@ -247,55 +236,54 @@ margin-top: -100px;
         </div>
     </section>
 
-    <!-- DOMAINE DE COMPETENCE -->
     <div>
             <h2 class=" h2competence border borderColor border-4 rounded p-2 text-center ms-5 me-5">
                 <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
             </h2>
         </div>
         
-     
-     <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
-    <div class="w-50 textIntro neon-section">
-        <div class="m-5">
+     <!-- PRESENTATION -->
+     <section class="d-flex ms-5 mb-5 position-relative justify-content-center">
+    <div class="w-50 textIntro">
+        <div class="mt-4 mb-4 ">
             <div class="text-center">
-                <h5 class="neon-yellow rounded">GESTION DE PROJET WEB</h5>
+                <h4 class="neon-yellow">GESTION DE PROJET WEB</h4>
                 <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</strong></p>
             </div>
             
             <div class="text-center">
-                <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
+            <h4 class="neon-yellow">CONCEPTION GRAPHIQUE & WEBDESIGN</h4>
                 <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
+            <h4 class="neon-yellow">INTERFACE D'ADMINISTRAION</h4>
                 <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
+            <h4 class="neon-yellow">INTEGRATION HTML / CSS</h4>
                 <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
+            <h4 class="neon-yellow">DYNAMISE DES PAGES PAR JAVASCRIPT</h4>
                 <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
+            <h4 class="neon-yellow">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h4>
                 <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
+            <h4 class="neon-yellow">CONCEPTION MULTI-PLATEFORME</h4>
                 <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>
     </div>
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
-        <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid"> 
+        <img src="images/robotIntro.png" alt="robot" loading="lazy" class=" img-fluid"> 
     </div>
 </section>
 

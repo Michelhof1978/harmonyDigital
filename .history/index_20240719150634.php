@@ -269,27 +269,27 @@ margin-top: -100px;
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
+                <h4 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h4>
                 <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
+                <h4 class="neon-yellow rounded">INTEGRATION HTML / CSS</h4>
                 <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
+                <h4 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h4>
                 <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
+                <h4 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h4>
                 <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <div class="text-center">
-                <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
+                <h4 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h4>
                 <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>
