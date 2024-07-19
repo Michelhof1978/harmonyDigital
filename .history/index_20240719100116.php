@@ -114,27 +114,28 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="d-flex ms-5">
-        <div class="w-75 textIntro">
-            <div class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
+    <section class="d-flex  ms-5">
+  <div class="w-75 textIntro">
+    <p class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
     
-<div class="">
-    <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid ms-2">
-    <p class="text-white ms-3">Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</p>
-</div>
+    <div class="ms-3">
+    <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid">
+    <p class="text-white">Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</p>
+    </div>
 
-<div class="ms-3">
+    <div class="ms-3">
+    <strong>CONCEPTION GRAPHIQUE & WEBDESIGN</strong>
     <img src="images/intro2.png" alt="site internet" loading="lazy" class="img-fluid">
     <p class="text-white">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters... </p>
-</div>
+    </div>
 
 <div class="ms-3">
     <strong>APPLICATIONS SPECIFIQUES ET INTERFACE D'ADMINISTRATION</strong>
     <img src="images/intro3.png" alt="site internet" loading="lazy" class="img-fluid">
     <p class="text-white">PHP ET MYSQL</p>
-</div>
+    </div>
 
-<div class="ms-3">
+    <div class="ms-3">
     <strong>INTEGRATION HTML / CSS</strong>
     <img src="images/intro4.png" alt="site internet" loading="lazy" class="img-fluid">
     <p class="text-white">Codage à la main respectueux des standards du web</p>
@@ -144,22 +145,20 @@ margin-top: -100px;
     <strong>DYNAMISE DES PAGES PAR JAVASCRIPT</strong>
     <img src="images/intro5.png" alt="site internet" loading="lazy" class="img-fluid">
     <p class="text-white">React et Vue.js</p>
-</div>
+    </div>
 
-<div class="ms-3">
+    <div class="ms-3">
     <strong>VALIDATION W3C & REFERENCEMENT NATUREL SEO</strong>
-    <img src="images/intro6.png" alt="site internet" loading="lazy" class="img-fluid">
+    <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid">
     <p class="text-white">Accessibilité & ergonomie des pages web</p>
 </div>
 
 <div class="ms-3">
     <strong>CONCEPTION MULTI-PLATERFORMES</strong>
-    <img src="images/intro7.png" alt="site internet" loading="lazy" class="img-fluid">
     <p class="text-white">Compatible tous supports, tablette & application mobile</p>
-</div>
+    </div>
 
-</div>
-</div>
+  </div>
 </section>
 
 

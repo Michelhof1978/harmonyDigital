@@ -116,7 +116,7 @@ margin-top: -100px;
 
     <section class="d-flex ms-5">
         <div class="w-75 textIntro">
-            <div class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
+    <div class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
     
 <div class="">
     <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid ms-2">

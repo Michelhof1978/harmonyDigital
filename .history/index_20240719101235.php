@@ -113,10 +113,9 @@ margin-top: -100px;
             <strong class="text-white"><span class="text-orange-titre">C</span>oncepteur<span class="text-orange-titre"> D</span>e <span class="text-orange-titre">S</span>ites<span class="text-orange-titre"> I</span>nternet <span class="text-orange-titre">E</span>t<span class="text-orange-titre"> E</span>n <span class="text-orange-titre">S</span>tratégie<span class="text-orange-titre"> D</span>igitale</strong>
         </h1>
     </div>
-
-    <section class="d-flex ms-5">
-        <div class="w-75 textIntro">
-            <div class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
+<section class="d-flex ms-5">
+  <div class="w-75 textIntro">
+    <div class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
     
 <div class="">
     <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid ms-2">
