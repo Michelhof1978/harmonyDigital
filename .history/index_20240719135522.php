@@ -120,42 +120,41 @@ margin-top: -100px;
         </h1>
     </div>
 
-     <!-- PRESENTATION -->
-    <section class="d-flex ms-5 position-relative justify-content-center rounded">
+    <section class="d-flex ms-5 position-relative justify-content-center">
     <div class="w-75 textIntro">
-        <div class="mt-4">
-            <div class="text-center">
-                <h4>GESTION DE PROJET WEB</h4>
+        <div class="">
+            <div class="ms-3">
+                <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid ms-2">
                 <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</strong></p>
             </div>
             
-            <div class="text-center">
-            <h4>CONCEPTION GRAPHIQUE & WEBDESIGN</h4>
+            <div class="ms-">
+                <img src="images/intro2.png" alt="site internet" loading="lazy" class="img-fluid">
                 <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
             </div>
 
-            <div class="text-center">
-            <h4>INTERFACE D'ADMINISTRAION</h4>
+            <div class="ms-3">
+                <img src="images/intro3.png" alt="site internet" loading="lazy" class="img-fluid">
                 <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
             </div>
 
-            <div class="text-center">
-            <h4>INTEGRATION HTML / CSS</h4>
+            <div class="ms-3">
+                <img src="images/intro4.png" alt="site internet" loading="lazy" class="img-fluid">
                 <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
             </div>
 
-            <div class="text-center">
-            <h4>DYNAMISE DES PAGES PAR JAVASCRIPT</h4>
+            <div class="ms-3">
+                <img src="images/intro5.png" alt="site internet" loading="lazy" class="img-fluid">
                 <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
-            <div class="text-center">
-            <h4>VALIDATION W3C & REFERENCEMENT NATUREL SEO</h4>
+            <div class="ms-3">
+                <img src="images/intro6.png" alt="site internet" loading="lazy" class="img-fluid">
                 <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
-            <div class="text-center">
-            <h4>CONCEPTION MULTI-PLATEFORME</h4>
+            <div class="ms-3">
+                <img src="images/intro7.png" alt="site internet" loading="lazy" class="img-fluid">
                 <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>

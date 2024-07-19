@@ -120,8 +120,7 @@ margin-top: -100px;
         </h1>
     </div>
 
-     <!-- PRESENTATION -->
-    <section class="d-flex ms-5 position-relative justify-content-center rounded">
+    <section class="d-flex ms-5 position-relative justify-content-center">
     <div class="w-75 textIntro">
         <div class="mt-4">
             <div class="text-center">
