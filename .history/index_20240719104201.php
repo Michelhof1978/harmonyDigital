@@ -85,20 +85,14 @@ margin-top: -100px;
 }
 /* Texte intro */
 .textIntro {
+	
 	margin-top: 40px;
     background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
-}
-
-.robotIndex {
-	position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 25%; 
-    margin-top: 50px;
+    
+    
 }
 
  
@@ -120,48 +114,48 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="d-flex ms-5 position-relative justify-content-center">
-    <div class="w-75 textIntro">
-        <div class="lead rounded shadow p-4 pb-5 ms-1 me-1">
-            <div class="mb-4">
-                <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid ms-2">
-                <p class="text-white ms-3">Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</p>
-            </div>
-            
-            <div class="ms-3">
-                <img src="images/intro2.png" alt="site internet" loading="lazy" class="img-fluid">
-                <p class="text-white">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</p>
-            </div>
+    <section class="d-flex ms-5">
+        <div class="w-75 textIntro">
+            <div class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
+    
+<div class="">
+    <img src="images/intro.png" alt="site internet" loading="lazy" class="img-fluid ms-2">
+    <p class="text-white ms-3">Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</p>
+</div>
 
-            <div class="ms-3">
-                <img src="images/intro3.png" alt="site internet" loading="lazy" class="img-fluid">
-                <p class="text-white">PHP ET MYSQL</p>
-            </div>
+<div class="ms-3">
+    <img src="images/intro2.png" alt="site internet" loading="lazy" class="img-fluid">
+    <p class="text-white">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters... </p>
+</div>
 
-            <div class="ms-3">
-                <img src="images/intro4.png" alt="site internet" loading="lazy" class="img-fluid">
-                <p class="text-white">Codage à la main respectueux des standards du web</p>
-            </div>
+<div class="ms-3">
+    <img src="images/intro3.png" alt="site internet" loading="lazy" class="img-fluid">
+    <p class="text-white">PHP ET MYSQL</p>
+</div>
 
-            <div class="ms-3">
-                <img src="images/intro5.png" alt="site internet" loading="lazy" class="img-fluid">
-                <p class="text-white">React et Vue.js</p>
-            </div>
+<div class="ms-3">
+    <img src="images/intro4.png" alt="site internet" loading="lazy" class="img-fluid">
+    <p class="text-white">Codage à la main respectueux des standards du web</p>
+</div>
 
-            <div class="ms-3">
-                <img src="images/intro6.png" alt="site internet" loading="lazy" class="img-fluid">
-                <p class="text-white">Accessibilité & ergonomie des pages web</p>
-            </div>
+<div class="ms-3">
+    <img src="images/intro5.png" alt="site internet" loading="lazy" class="img-fluid">
+    <p class="text-white">React et Vue.js</p> <img src="images/card2.png" alt="" loading="lazy" class="imgcard img-fluid"> <img src="images/card2.png" alt="site internet" loading="lazy" class="img-fluid">
 
-            <div class="ms-3">
-                <img src="images/intro7.png" alt="site internet" loading="lazy" class="img-fluid">
-                <p class="text-white">Compatible tous supports, tablette & application mobile</p>
-            </div>
-        </div>
-    </div>
-    <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
-        <img src="images/robotIntro.png" alt="robot" loading="lazy" class=" img-fluid"> 
-    </div>
+</div>
+
+<div class="ms-3">
+    <img src="images/intro6.png" alt="site internet" loading="lazy" class="img-fluid">
+    <p class="text-white">Accessibilité & ergonomie des pages web</p>
+</div>
+
+<div class="ms-3">
+    <img src="images/intro7.png" alt="site internet" loading="lazy" class="img-fluid">
+    <p class="text-white">Compatible tous supports, tablette & application mobile</p>
+</div>
+
+</div>
+</div>
 </section>
 
 

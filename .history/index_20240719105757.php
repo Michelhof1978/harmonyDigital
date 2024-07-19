@@ -97,8 +97,8 @@ margin-top: -100px;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 25%; 
-    margin-top: 50px;
+    width: 50%; 
+    margin-top: 60px;
 }
 
  
@@ -120,7 +120,7 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="d-flex ms-5 position-relative justify-content-center">
+    <section class="d-flex ms-5 position-relative">
     <div class="w-75 textIntro">
         <div class="lead rounded shadow p-4 pb-5 ms-1 me-1">
             <div class="mb-4">

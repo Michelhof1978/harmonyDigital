@@ -97,7 +97,7 @@ margin-top: -100px;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 25%; 
+    width: 30%; 
     margin-top: 50px;
 }
 

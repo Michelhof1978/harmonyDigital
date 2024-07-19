@@ -92,13 +92,8 @@ margin-top: -100px;
    background-repeat: no-repeat;
 }
 
-.robotIndex {
-	position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 25%; 
-    margin-top: 50px;
+.robot {
+	
 }
 
  
@@ -120,7 +115,7 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="d-flex ms-5 position-relative justify-content-center">
+    <section class="d-flex ms-5 position-relative">
     <div class="w-75 textIntro">
         <div class="lead rounded shadow p-4 pb-5 ms-1 me-1">
             <div class="mb-4">
@@ -160,7 +155,7 @@ margin-top: -100px;
         </div>
     </div>
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
-        <img src="images/robotIntro.png" alt="robot" loading="lazy" class=" img-fluid"> 
+        <img src="images/robotIntro.png" alt="robot" loading="lazy" class="w-50 img-fluid"> 
     </div>
 </section>
 
