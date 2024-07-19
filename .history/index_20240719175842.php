@@ -5,11 +5,6 @@
     <meta name="description" content="">
     <title>Harmony Digital</title>
     <style>
-         /* OFFRE */
-         .offre {
-           
-        }
-
         /* CARDS */
         .card {
             transform: scale(0.7);
@@ -88,7 +83,7 @@ margin-top: -100px;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
    
 }
-/* Domaine de compétence */
+/* Texte intro */
 .textIntro {
 	margin-top: 40px;
     background-image: url('Images/fondBleu.png');
@@ -143,23 +138,9 @@ margin-top: -100px;
 .h2competence {
   margin-top: -70px;
 }
- /* Fin domaine de compétence*/
- 
- .center-section {
-    display: flex;
-    justify-content: center;
-}
-
-.offre-container {
-    display: flex;
+ /* Fin Texte intro */
+ /* FIN CARDS */
     
-}
-
-.offre {
-    display: flex;
-    justify-content: center;
-}
-
 
     </style>
 </head>
@@ -175,20 +156,9 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="center-section mt-5">
-    <div class="offre-container">
-        <div class="offre">
-            <!-- <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-25"> -->
-        </div>
-
-        <div class="offre">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-25">
-        </div>
+    <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
+        <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid"> 
     </div>
-</section>
-
-
-
 
      <!-- PRESTATIONS -->
      <section class="text-center mt-4 ms-2 me-2">

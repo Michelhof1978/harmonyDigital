@@ -178,7 +178,7 @@ margin-top: -100px;
     <section class="center-section mt-5">
     <div class="offre-container">
         <div class="offre">
-            <!-- <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-25"> -->
+            <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-25">
         </div>
 
         <div class="offre">

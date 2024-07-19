@@ -152,7 +152,7 @@ margin-top: -100px;
 
 .offre-container {
     display: flex;
-    
+    gap: 2rem; /* Ajustez la valeur pour plus ou moins d'espace entre les images */
 }
 
 .offre {
@@ -178,11 +178,11 @@ margin-top: -100px;
     <section class="center-section mt-5">
     <div class="offre-container">
         <div class="offre">
-            <!-- <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-25"> -->
+            <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-50">
         </div>
 
         <div class="offre">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-25">
+            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50">
         </div>
     </div>
 </section>

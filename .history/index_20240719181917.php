@@ -88,7 +88,7 @@ margin-top: -100px;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
    
 }
-/* Domaine de compétence */
+/* Texte intro */
 .textIntro {
 	margin-top: 40px;
     background-image: url('Images/fondBleu.png');
@@ -143,24 +143,41 @@ margin-top: -100px;
 .h2competence {
   margin-top: -70px;
 }
- /* Fin domaine de compétence*/
- 
- .center-section {
-    display: flex;
-    justify-content: center;
+ /* Fin Texte intro */
+ /* FIN CARDS */
+    
+.firework-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        45deg,
+        gold,
+        gold 20px,
+        transparent 20px,
+        transparent 40px
+    );
+    background-color: black; /* Fond noir */
+    background-image: 
+        linear-gradient(gold, gold),
+        linear-gradient(90deg, transparent, transparent),
+        linear-gradient(0deg, transparent, transparent);
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px, 25px 25px;
+    animation: fireworks 2s infinite;
 }
 
-.offre-container {
-    display: flex;
-    
+@keyframes fireworks {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 .offre {
-    display: flex;
-    justify-content: center;
+    position: relative;
+    z-index: 1; /* Met l'image au-dessus du fond d'artifice */
 }
-
-
     </style>
 </head>
 <body>
@@ -175,20 +192,14 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="center-section mt-5">
-    <div class="offre-container">
-        <div class="offre">
-            <!-- <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-25"> -->
+    <div class="container">
+        <div class="firework-background">
+            <!-- Fond d'artifice -->
         </div>
-
-        <div class="offre">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-25">
+        <div class="offre w-25 mt-5">
+            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid"> 
         </div>
     </div>
-</section>
-
-
-
 
      <!-- PRESTATIONS -->
      <section class="text-center mt-4 ms-2 me-2">

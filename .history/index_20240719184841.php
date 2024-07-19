@@ -152,7 +152,7 @@ margin-top: -100px;
 
 .offre-container {
     display: flex;
-    
+    gap: 2rem; /* Ajustez la valeur pour plus ou moins d'espace entre les images */
 }
 
 .offre {
@@ -175,18 +175,21 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="center-section mt-5">
-    <div class="offre-container">
-        <div class="offre">
-            <!-- <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-25"> -->
+    <section class="container mt-5">
+    <div class="row justify-content-center g-4"> <!-- g-4 ajoute un espacement de 1.5rem entre les colonnes -->
+        <div class="col-3 d-flex justify-content-center mb-4">
+            <div class="offre w-100">
+                <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid">
+            </div>
         </div>
 
-        <div class="offre">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-25">
+        <div class="col-3 d-flex justify-content-center mb-4">
+            <div class="offre w-100">
+                <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid">
+            </div>
         </div>
     </div>
 </section>
-
 
 
 

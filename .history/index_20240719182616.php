@@ -145,21 +145,7 @@ margin-top: -100px;
 }
  /* Fin domaine de compétence*/
  
- .center-section {
-    display: flex;
-    justify-content: center;
-}
-
-.offre-container {
-    display: flex;
-    
-}
-
-.offre {
-    display: flex;
-    justify-content: center;
-}
-
+ 
 
     </style>
 </head>
@@ -175,20 +161,11 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="center-section mt-5">
-    <div class="offre-container">
-        <div class="offre">
-            <!-- <img src="images/robotParty.png" alt="robot" loading="lazy" class="img-fluid w-25"> -->
+   <section class="ro">
+        <div class="offre w-25 mt-5">
+            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid"> 
         </div>
-
-        <div class="offre">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-25">
-        </div>
-    </div>
-</section>
-
-
-
+    </section>
 
      <!-- PRESTATIONS -->
      <section class="text-center mt-4 ms-2 me-2">
