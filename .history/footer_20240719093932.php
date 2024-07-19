@@ -129,7 +129,7 @@
 
 <!-- _____________________________________________________________________________________ -->
 
-<!--ZOOM SURVOL SOURIS SUR IMAGE CARD-->
+<!--ZOOM SURVOL SOURIS SUR IMAGE -->
 <script>
     function zoomIn(img) {
         img.style.transform = "scale(1.5)"; // agrandir l'image 1.5 fois

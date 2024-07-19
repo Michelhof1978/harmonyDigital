@@ -114,45 +114,43 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="d-flex  ms-5">
+    <section class="d-flex justify-content-center">
   <div class="w-50 textIntro">
     <p class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
     
     <div class="ms-3">
-    <!-- <strong>GESTION DE PROJETS WEB</strong> -->
-    <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
-
-    <p class="text-white">Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</p>
+    <strong>GESTION DE PROJETS WEB</strong>
+    <p>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</p>
     </div>
 
     <div class="ms-3">
     <strong>CONCEPTION GRAPHIQUE & WEBDESIGN</strong>
-    <p class="text-white">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters... </p>
+    <p>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters... </p>
     </div>
 
 <div class="ms-3">
     <strong>APPLICATIONS SPECIFIQUES ET INTERFACE D'ADMINISTRATION</strong>
-    <p class="text-white">PHP ET MYSQL</p>
+    <p>PHP ET MYSQL</p>
     </div>
 
     <div class="ms-3">
     <strong>INTEGRATION HTML / CSS</strong>
-    <p class="text-white">Codage à la main respectueux des standards du web</p>
+    <p>Codage à la main respectueux des standards du web</p>
 </div>
 
 <div class="ms-3">
     <strong>DYNAMISE DES PAGES PAR JAVASCRIPT</strong>
-    <p class="text-white">React et Vue.js</p>
+    <p>React et Vue.js</p><br>
     </div>
 
     <div class="ms-3">
     <strong>VALIDATION W3C & REFERENCEMENT NATUREL SEO</strong>
-    <p class="text-white">Accessibilité & ergonomie des pages web</p>
+    <p>Accessibilité & ergonomie des pages web</p>
 </div>
 
 <div class="ms-3">
     <strong>CONCEPTION MULTI-PLATERFORMES</strong>
-    <p class="text-white">Compatible tous supports, tablette & application mobile</p>
+    <p class="">Compatible tous supports, tablette & application mobile</p>
     </div>
 
   </div>
@@ -174,7 +172,7 @@ margin-top: -100px;
                     <div class="d-flex justify-content-center">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
@@ -186,7 +184,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card2.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>
@@ -198,7 +196,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card3.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
@@ -216,7 +214,7 @@ margin-top: -100px;
                     <div class="d-flex justify-content-center">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card4.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
@@ -228,7 +226,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card5.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>
@@ -240,7 +238,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card6.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>

@@ -114,14 +114,12 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="d-flex  ms-5">
+    <section class="d-flex justify-content-left ms-5">
   <div class="w-50 textIntro">
     <p class=" lead rounded shadow p-4 pb-5  rounded ms-1 me-1">
     
     <div class="ms-3">
-    <!-- <strong>GESTION DE PROJETS WEB</strong> -->
-    <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
-
+    <strong>GESTION DE PROJETS WEB</strong>
     <p class="text-white">Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</p>
     </div>
 
@@ -174,7 +172,7 @@ margin-top: -100px;
                     <div class="d-flex justify-content-center">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card1.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
@@ -186,7 +184,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card2.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>
@@ -198,7 +196,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card3.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
@@ -216,7 +214,7 @@ margin-top: -100px;
                     <div class="d-flex justify-content-center">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card4.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
@@ -228,7 +226,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card5.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>
@@ -240,7 +238,7 @@ margin-top: -100px;
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card6.png" alt="site internet" loading="lazy" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>
