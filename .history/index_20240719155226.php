@@ -119,15 +119,6 @@ margin-top: -100px;
   border-radius: 5px;
 }
 
-.robotDomaine {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 150px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
-}
-
-
 .h2competence {
   margin-top: -70px;
 }
@@ -265,13 +256,10 @@ margin-top: -100px;
         
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
-     
+     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
+        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid"> 
+    </div>
     <div class="w-50 textIntro neon-section">
-
-   
-        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
-    
-    
         <div class="m-5">
             <div class="text-center">
                 <h5 class="neon-yellow rounded">GESTION DE PROJET WEB</h5>

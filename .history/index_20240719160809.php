@@ -121,10 +121,9 @@ margin-top: -100px;
 
 .robotDomaine {
     max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 150px; /* Conserve le ratio de l'image */
+  height: 30px; /* Conserve le ratio de l'image */
   display: block;
   margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
 }
 
 

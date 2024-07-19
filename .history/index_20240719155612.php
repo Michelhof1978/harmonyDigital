@@ -119,15 +119,6 @@ margin-top: -100px;
   border-radius: 5px;
 }
 
-.robotDomaine {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 150px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
-}
-
-
 .h2competence {
   margin-top: -70px;
 }
@@ -268,8 +259,6 @@ margin-top: -100px;
      
     <div class="w-50 textIntro neon-section">
 
-   
-        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
     
     
         <div class="m-5">

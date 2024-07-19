@@ -120,11 +120,9 @@ margin-top: -100px;
 }
 
 .robotDomaine {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 150px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 
@@ -269,8 +267,8 @@ margin-top: -100px;
     <div class="w-50 textIntro neon-section">
 
    
-        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
-    
+        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid "> 
+    </div>
     
         <div class="m-5">
             <div class="text-center">

@@ -124,7 +124,6 @@ margin-top: -100px;
   height: 150px; /* Conserve le ratio de l'image */
   display: block;
   margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
 }
 
 
