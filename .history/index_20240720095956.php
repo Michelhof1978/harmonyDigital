@@ -153,13 +153,12 @@ margin-top: -100px;
  } 
 
  .intro {
-    margin-right: 60px;
+    margin-right: 130px;
     margin-top: 30px;
     background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
-   border-radius: 5px;
      
  } 
 /*fin Into*/
@@ -185,8 +184,8 @@ margin-top: -100px;
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-75">
         </div>
 
-        <div class="w-100 text-white intro ">
-            <p class="m-5 lead fs-4 neon-yellow text-center" >
+        <div class="w-75 text-white intro">
+            <p class="m-3 lead fs-4" >
                 <strong>
 Conception de Sites Internet<br>
 Réalisation Maquettes et Logos<br>

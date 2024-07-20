@@ -159,7 +159,6 @@ margin-top: -100px;
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
-   border-radius: 5px;
      
  } 
 /*fin Into*/

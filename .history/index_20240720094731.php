@@ -153,13 +153,12 @@ margin-top: -100px;
  } 
 
  .intro {
-    margin-right: 60px;
+    margin-right: 130px;
     margin-top: 30px;
     background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
-   border-radius: 5px;
      
  } 
 /*fin Into*/
@@ -185,17 +184,25 @@ margin-top: -100px;
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-75">
         </div>
 
-        <div class="w-100 text-white intro ">
-            <p class="m-5 lead fs-4 neon-yellow text-center" >
-                <strong>
-Conception de Sites Internet<br>
-Réalisation Maquettes et Logos<br>
-Référencement SEO<br>
-Marketing Digital<br>
-Communication En Événementielle<br>
-Réalisation Campagne Publicitaire<br>
-</strong>
-            </p>
+        <div class="w-75 text-white intro">
+            <p class="m-4">
+            1. Conception de Sites Internet
+Nous créons des sites web sur mesure, modernes et fonctionnels pour répondre à vos besoins spécifiques. Que vous ayez besoin d'un site vitrine, d'un e-commerce ou d'une plateforme plus complexe, notre équipe de développeurs et de designers est à votre écoute pour donner vie à vos projets.
+
+2. Réalisation Maquettes et Logos
+Une identité visuelle forte est essentielle pour se démarquer. Nous concevons des maquettes et des logos uniques et professionnels qui reflètent parfaitement l'image de votre entreprise. Notre approche créative garantit des résultats esthétiques et impactants.
+
+3. Référencement SEO
+Optimisez votre visibilité sur les moteurs de recherche avec notre service de référencement SEO. Nous mettons en place des stratégies personnalisées pour améliorer votre classement et attirer un trafic qualifié vers votre site. Notre expertise en SEO vous aide à rester en tête des résultats de recherche.
+
+4. Marketing Digital
+Développez votre présence en ligne grâce à nos solutions de marketing digital. Nous élaborons des campagnes efficaces sur les réseaux sociaux, par e-mailing et d'autres canaux digitaux pour accroître votre audience et renforcer l'engagement de vos clients.
+
+5. Communication En Événementielle
+Faites de vos événements un succès retentissant grâce à notre expertise en communication événementielle. Nous prenons en charge la planification, la promotion et la gestion de vos événements pour garantir une expérience mémorable et un impact maximal.
+
+6. Réalisation Campagne Publicitaire
+Boostez votre notoriété et vos ventes avec nos campagnes publicitaires ciblées. Nous concevons et gérons des campagnes sur différents supports, y compris les médias traditionnels et numériques, pour atteindre vos objectifs marketing de manière efficace et mesurable.            </p>
         </div>
 
     </div>

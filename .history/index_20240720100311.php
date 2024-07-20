@@ -153,13 +153,12 @@ margin-top: -100px;
  } 
 
  .intro {
-    margin-right: 60px;
+    margin-right: 100px;
     margin-top: 30px;
     background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
-   border-radius: 5px;
      
  } 
 /*fin Into*/
