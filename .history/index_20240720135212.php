@@ -143,10 +143,12 @@ margin-top: -100px;
   margin-top: -70px;
 }
  /* Fin domaine de compétence*/
+  /*Into*/
 
-  /*Intro*/
 .offre {
-    margin-left: 100px;  
+    margin-left: 100px;
+    
+     
  } 
 
  .intro {
@@ -159,8 +161,7 @@ margin-top: -100px;
    border-radius: 5px;
      
  } 
- /*Fin Intro*/
-  /*Intro2*/
+
  .robotDomaine2 {
     max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
     height: auto; /* Conserve le ratio de l'image */
@@ -175,7 +176,11 @@ margin-top: -100px;
     padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
 }
 
-/*fin Intro2*/
+
+
+
+
+/*fin Into*/
 
     </style>
 </head>
@@ -379,11 +384,11 @@ Réalisation Campagne Publicitaire<br>
 </div>
 
 <div>
- <img src="images/intro2RobotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
+ <img src="images/intro2RobotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
 </div>
 
-    <div class="text-center">
-      <p class="neon-yellow fs-5 ">
+    <div>
+      <p class="conclusionIntro2 fs-5">
       <strong>
         N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
         </strong>

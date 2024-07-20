@@ -382,8 +382,8 @@ Réalisation Campagne Publicitaire<br>
  <img src="images/intro2RobotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
 </div>
 
-    <div class="text-center">
-      <p class="neon-yellow fs-5 ">
+    <div>
+      <p class="neon-yellow fs-5">
       <strong>
         N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
         </strong>
