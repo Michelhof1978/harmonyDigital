@@ -132,6 +132,14 @@ margin-top: -100px;
   margin: 0 auto; /* Centre l'image */
   margin-top: 20px;
 }
+
+.robotDomaine2 {
+    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
+  height: 150px; /* Conserve le ratio de l'image */
+  display: block;
+  margin: 0 auto; /* Centre l'image */
+  margin-top: 20px;
+}
 .robotSeparateur {
     max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
   height: 100px; /* Conserve le ratio de l'image */
@@ -139,6 +147,7 @@ margin-top: -100px;
   margin: 0 auto; /* Centre l'image */
   
 }
+
 .h2competence {
   margin-top: -70px;
 }
@@ -162,24 +171,14 @@ margin-top: -100px;
      
  } 
 
- .robotDomaine2 {
-    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
-    height: auto; /* Conserve le ratio de l'image */
-    position: absolute; /* Positionnement absolu */
-    left: 0; /* Aligne l'image complètement à gauche */
-    top: 20px; /* Décale l'image vers le bas depuis le haut du conteneur */
-    margin-top: 250px;
-}
-
-.intro2 {
-    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
-    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
-}
-
-
-
-
-
+ .intro2 {
+    background-image: url('Images/fondBleu.png');
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+     
+ } 
 /*fin Into*/
 
     </style>
@@ -342,46 +341,43 @@ Réalisation Campagne Publicitaire<br>
             
         </div>
 
-        <section class="d-flex ms-0 mb-5 position-relative">
-  <!-- Image à gauche -->
-  <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2">
+  <section class="d-flex ms-5 mb-5 position-relative  text-center"> 
   
-  <!-- Contenu principal -->
-  <div class="w-75 text-white intro2 mt-5"> 
-    <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
+  <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2"> 
+     
+        <div class="w-75 text-white intro2 mt-5 me-5"> 
+        <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
 
-    <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3><br>
+              <h3 class="neon-yellow mt-5  mb-5">  Pourquoi Choisir Nos Services ?</h3><br>
+              
 
-    <div>
-      <h5><strong>Expertise et Créativité</strong></h5><br>
-      <p>
-        Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.<br>
-      </p>
-    </div>
+<div>
+<h5><strong>Expertise et Créativité</strong></h5><br>
+<p>
+Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.<br>
+</p>
+</div>
 
-    <div>
-      <h5><strong>Approche Personnalisée</strong></h5><br>
-      <p> 
-        Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.<br>
-      </p>
-    </div>
+<div>
+<h5><strong>Approche Personnalisée</strong></h5><br>
+<p> 
+Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.<br>
+ </p>
+ </div>
 
-    <div>
-      <h5><strong>Résultats Mesurables</strong></h5><br>
-      <p>
-        Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.<br>
-      </p>
-    </div>
+ <div>
+ <h5><strong>Résultats Mesurables</strong></h5><br>
+ <p>
+ Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.<br>
+ </p>
+ </div>
 
-    <div>
-      <p>
-        N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
-      </p>
-    </div>        
-  </div>
-</section>
-
-
+ <div>
+ <p>N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
+</p>
+</div>        
+        </div>
+        </section>
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
      

@@ -132,6 +132,14 @@ margin-top: -100px;
   margin: 0 auto; /* Centre l'image */
   margin-top: 20px;
 }
+
+.robotDomaine2 {
+    max-width: 50%; /* Ajustez la largeur de l'image */
+    height: 150px; /* Conserve le ratio de l'image */
+    position: absolute; /* Positionnement absolu */
+    right: 0; /* Aligne l'image à droite de l'écran */
+    top: 20px; /* Décale l'image vers le bas depuis le haut de l'écran */
+}
 .robotSeparateur {
     max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
   height: 100px; /* Conserve le ratio de l'image */
@@ -139,6 +147,7 @@ margin-top: -100px;
   margin: 0 auto; /* Centre l'image */
   
 }
+
 .h2competence {
   margin-top: -70px;
 }
@@ -162,24 +171,14 @@ margin-top: -100px;
      
  } 
 
- .robotDomaine2 {
-    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
-    height: auto; /* Conserve le ratio de l'image */
-    position: absolute; /* Positionnement absolu */
-    left: 0; /* Aligne l'image complètement à gauche */
-    top: 20px; /* Décale l'image vers le bas depuis le haut du conteneur */
-    margin-top: 250px;
-}
-
-.intro2 {
-    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
-    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
-}
-
-
-
-
-
+ .intro2 {
+    background-image: url('Images/fondBleu.png');
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+     
+ } 
 /*fin Into*/
 
     </style>
@@ -342,12 +341,12 @@ Réalisation Campagne Publicitaire<br>
             
         </div>
 
-        <section class="d-flex ms-0 mb-5 position-relative">
-  <!-- Image à gauche -->
+        <section class="d-flex ms-5 mb-5 position-relative text-center">
+  <!-- Image à droite -->
   <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2">
   
   <!-- Contenu principal -->
-  <div class="w-75 text-white intro2 mt-5"> 
+  <div class="w-75 text-white intro2 mt-5 me-5"> 
     <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
 
     <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3><br>
@@ -380,7 +379,6 @@ Réalisation Campagne Publicitaire<br>
     </div>        
   </div>
 </section>
-
 
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">

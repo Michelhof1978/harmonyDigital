@@ -163,22 +163,16 @@ margin-top: -100px;
  } 
 
  .robotDomaine2 {
-    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
+    max-width: 40%; /* Ajustez cette valeur pour rendre l'image plus grande ou plus petite */
     height: auto; /* Conserve le ratio de l'image */
     position: absolute; /* Positionnement absolu */
-    left: 0; /* Aligne l'image complètement à gauche */
-    top: 20px; /* Décale l'image vers le bas depuis le haut du conteneur */
-    margin-top: 250px;
+    right: 0; /* Aligne l'image à droite de l'écran */
+    top: 20px; /* Décale l'image vers le bas depuis le haut de l'écran */
 }
 
 .intro2 {
-    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
-    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
+    margin-right: 50%; /* Ajustez cette valeur pour faire de la place pour l'image */
 }
-
-
-
-
 
 /*fin Into*/
 
@@ -342,12 +336,12 @@ Réalisation Campagne Publicitaire<br>
             
         </div>
 
-        <section class="d-flex ms-0 mb-5 position-relative">
+        <section class="d-flex ms-5 mb-5 position-relative text-center">
   <!-- Image à gauche -->
   <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2">
   
   <!-- Contenu principal -->
-  <div class="w-75 text-white intro2 mt-5"> 
+  <div class="w-75 text-white intro2 mt-5 me-5"> 
     <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
 
     <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3><br>
@@ -380,7 +374,6 @@ Réalisation Campagne Publicitaire<br>
     </div>        
   </div>
 </section>
-
 
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">

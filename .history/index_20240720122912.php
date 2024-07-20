@@ -163,20 +163,18 @@ margin-top: -100px;
  } 
 
  .robotDomaine2 {
-    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
+    max-width: 40%; /* Ajustez la largeur de l'image */
     height: auto; /* Conserve le ratio de l'image */
-    position: absolute; /* Positionnement absolu */
+    position: absolute; /* Positionnement fixe pour s'assurer que l'image est toujours à gauche */
     left: 0; /* Aligne l'image complètement à gauche */
-    top: 20px; /* Décale l'image vers le bas depuis le haut du conteneur */
-    margin-top: 250px;
+    top: 20px; /* Décale l'image vers le bas depuis le haut de l'écran */
+    z-index: 1; /* Assure que l'image reste au-dessus du texte */
 }
 
 .intro2 {
-    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
+    margin-left: 45%; /* Ajustez cette valeur pour faire de la place pour l'image */
     padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
 }
-
-
 
 
 
@@ -342,7 +340,7 @@ Réalisation Campagne Publicitaire<br>
             
         </div>
 
-        <section class="d-flex ms-0 mb-5 position-relative">
+        <section class="d-flex ms-5 mb-5 position-relative">
   <!-- Image à gauche -->
   <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2">
   

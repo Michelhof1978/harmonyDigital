@@ -168,7 +168,7 @@ margin-top: -100px;
     position: absolute; /* Positionnement absolu */
     left: 0; /* Aligne l'image complètement à gauche */
     top: 20px; /* Décale l'image vers le bas depuis le haut du conteneur */
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 .intro2 {
