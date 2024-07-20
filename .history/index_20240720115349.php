@@ -133,13 +133,6 @@ margin-top: -100px;
   margin-top: 20px;
 }
 
-.robotDomaine2 {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 150px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
-}
 .robotSeparateur {
     max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
   height: 100px; /* Conserve le ratio de l'image */
@@ -332,20 +325,16 @@ Réalisation Campagne Publicitaire<br>
     </section>
 
     <!-- DOMAINE DE COMPETENCE -->
-    <div class="text-center mb-3">
-            <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
-            <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
-            <p class="text-white lead fs-2"><strong> Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
-            </strong></p>
+    <div>
+            <h2 class=" h2competence border borderColor border-4 rounded p-2 text-center ms-5 me-5">
+                <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
             </h2>
-            
         </div>
 
   <section class="d-flex ms-5 mb-5 position-relative  text-center"> 
-  
-  <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2"> 
+  <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
      
-        <div class="w-75 text-white intro2 mt-5 me-5"> 
+        <div class="w-75 text-white intro2 mt-5"> 
         <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
 
               <h3 class="neon-yellow mt-5  mb-5">  Pourquoi Choisir Nos Services ?</h3><br>
@@ -374,6 +363,7 @@ Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins
 
  <div>
  <p>N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
+ Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
 </p>
 </div>        
         </div>

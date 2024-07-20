@@ -333,7 +333,7 @@ Réalisation Campagne Publicitaire<br>
 
     <!-- DOMAINE DE COMPETENCE -->
     <div class="text-center mb-3">
-            <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
+            <h2 class="border borderColor border-4 rounded p-2  m-3">
             <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
             <p class="text-white lead fs-2"><strong> Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
             </strong></p>
