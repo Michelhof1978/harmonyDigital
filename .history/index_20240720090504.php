@@ -147,18 +147,7 @@ margin-top: -100px;
   /*Into*/
 
 .offre {
-    margin-left: 100px;
     
-     
- } 
-
- .intro {
-    margin-right: 130px;
-    margin-top: 30px;
-    background-image: url('Images/fondBleu.png');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
      
  } 
 /*fin Into*/
@@ -178,20 +167,20 @@ margin-top: -100px;
     </div>
 
     <section class="mt-5 container">
-    <div class="d-flex align-items-center justify-content-center">
+    <div class="d-flex align-items-center justify-content-between row">
 
-        <div class="offre ">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-75">
-        </div>
-
-        <div class="w-75 text-white intro">
+    
+        <div class="w-75 text-white textIntro order-2 col-6">
             <p class="m-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
         </div>
 
+        
+
     </div>
 </section>
+
 
 
 

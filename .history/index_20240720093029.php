@@ -147,8 +147,8 @@ margin-top: -100px;
   /*Into*/
 
 .offre {
-    margin-left: 100px;
-    
+    margin-left: 160px;
+    height: 150px;
      
  } 
 
@@ -181,7 +181,7 @@ margin-top: -100px;
     <div class="d-flex align-items-center justify-content-center">
 
         <div class="offre ">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-75">
+            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid ">
         </div>
 
         <div class="w-75 text-white intro">

@@ -147,7 +147,7 @@ margin-top: -100px;
   /*Into*/
 
 .offre {
-    margin-left: 100px;
+    margin-left: 160px;
     
      
  } 

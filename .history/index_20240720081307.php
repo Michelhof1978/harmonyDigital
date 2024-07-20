@@ -144,24 +144,22 @@ margin-top: -100px;
   margin-top: -70px;
 }
  /* Fin domaine de compétence*/
-  /*Into*/
+ 
+ .center-section {
+    display: flex;
+    justify-content: center;
+}
+
+.offre-container {
+    display: flex;
+    
+}
 
 .offre {
-    margin-left: 100px;
-    
-     
- } 
+    display: flex;
+    justify-content: center;
+}
 
- .intro {
-    margin-right: 130px;
-    margin-top: 30px;
-    background-image: url('Images/fondBleu.png');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
-     
- } 
-/*fin Into*/
 
     </style>
 </head>
@@ -177,23 +175,32 @@ margin-top: -100px;
         </h1>
     </div>
 
-    <section class="mt-5 container">
-    <div class="d-flex align-items-center justify-content-center">
+    
+<div class="container offre-container">
+    <!--Section INTRO-->
 
-        <div class="offre ">
-            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-75">
-        </div>
+    <div class="row mt-5">
 
-        <div class="w-75 text-white intro">
-            <p class="m-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-        </div>
+      <div class=" offre col-xl-6">
+      <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-25">
+      </div>
 
+      <div class="col">
+        <p class="lead bg-light rounded p-4 pb-5 ms-1 me-1 ">
+          Profitez d'une expérience de camping unique au Camping proche du Pal de Dompierre Sur Besbre</a>, situé à proximité du parc d'attractions .
+          Niché dans un cadre naturel exceptionnel en bordure d'une rivière et à proximité des commerces, ce site paisible et verdoyant offre une atmosphère propice à la détente et au ressourcement.
+
+          Vous serez enchanté par l'ambiance caravane proposée par notre équipe. Des caravanes tout confort et entièrement équipées sont disponibles du <strong>01/07/2024 au 25/08/2024</strong> pour accueillir 4 personnes chacune (2 adultes et 2 enfants).
+          En outre, une épicerie de base est fournie, comprenant café, sucre, sel, poivre, huile, etc.
+
+          
+        </p>
+      </div>
     </div>
-</section>
 
 
+
+  </div>
 
 
 
