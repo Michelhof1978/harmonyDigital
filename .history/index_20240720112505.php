@@ -325,10 +325,9 @@ Réalisation Campagne Publicitaire<br>
                 <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
             </h2>
         </div>
-
-  <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">      
+        
         <div class="w-75 text-white intro2 mt-5"> 
-              <h3 class="neon-yellow mt-3">  Pourquoi Choisir Nos Services ?</h3><br>
+              <h3 class="neon-yellow mt-3">  Pourquoi Choisir Nos Services?</h3><br>
 
               <p class="m-3  mb-4"> 
 <div>
@@ -358,7 +357,6 @@ Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins
 </p>
 </div>        
         </div>
-        </section>
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
      

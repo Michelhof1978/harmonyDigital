@@ -325,28 +325,27 @@ Réalisation Campagne Publicitaire<br>
                 <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
             </h2>
         </div>
-
-  <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">      
+        
         <div class="w-75 text-white intro2 mt-5"> 
-              <h3 class="neon-yellow mt-3">  Pourquoi Choisir Nos Services ?</h3><br>
+              <h3 class="neon-yellow mt-3">  Pourquoi Choisir Nos Services?</h3><br>
 
               <p class="m-3  mb-4"> 
 <div>
-<h5><strong>Expertise et Créativité</strong></h5><br>
+<strong>Expertise et Créativité</strong><br>
 <p>
 Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.<br>
 </p>
 </div>
 
 <div>
-<h5><strong>Approche Personnalisée</strong></h5><br>
+<strong>Approche Personnalisée</strong><br>
 <p> 
 Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.<br>
  </p>
  </div>
 
  <div>
- <h5><strong>Résultats Mesurables</strong></h5><br>
+ <strong>Résultats Mesurables</strong><br>
  <p>
  Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.<br>
  </p>
@@ -358,7 +357,6 @@ Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins
 </p>
 </div>        
         </div>
-        </section>
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
      

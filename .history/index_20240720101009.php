@@ -5,6 +5,10 @@
     <meta name="description" content="">
     <title>Harmony Digital</title>
     <style>
+         /* OFFRE */
+         .offre {
+           
+        }
 
         /* CARDS */
         .card {
@@ -151,15 +155,6 @@ margin-top: -100px;
  .intro {
     margin-right: 60px;
     margin-top: 30px;
-    background-image: url('Images/fondBleu.png');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
-   border-radius: 5px;
-     
- } 
-
- .intro2 {
     background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
@@ -325,40 +320,18 @@ Réalisation Campagne Publicitaire<br>
                 <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
             </h2>
         </div>
-
-  <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">      
-        <div class="w-75 text-white intro2 mt-5"> 
-              <h3 class="neon-yellow mt-3">  Pourquoi Choisir Nos Services ?</h3><br>
-
-              <p class="m-3  mb-4"> 
-<div>
-<h5><strong>Expertise et Créativité</strong></h5><br>
-<p>
-Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.<br>
-</p>
-</div>
-
-<div>
-<h5><strong>Approche Personnalisée</strong></h5><br>
-<p> 
-Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.<br>
- </p>
- </div>
-
- <div>
- <h5><strong>Résultats Mesurables</strong></h5><br>
- <p>
- Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.<br>
- </p>
- </div>
-
- <div>
- <p>N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
- Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
-</p>
-</div>        
+        
+        <div class="w-100 text-white intro ">
+            <p class="m-5 lead fs-4 neon-yellow text-center" >
+                <strong>
+              <  Pourquoi Choisir Nos Services?<br>
+Expertise et Créativité: Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.
+Approche Personnalisée: Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.
+Résultats Mesurables: Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.
+N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs. Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
+</strong>
+            </p>
         </div>
-        </section>
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
      
