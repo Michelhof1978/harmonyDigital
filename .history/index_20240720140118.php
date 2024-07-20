@@ -199,7 +199,7 @@ margin-top: -100px;
         </div>
 
         <div class="w-100 text-white intro ">
-            <p class="m-5 lead fs-4 neon-yellow text-center text-white" >
+            <p class="m-5 lead fs-4 neon-yellow text-center" >
                 <strong>
 Conception de Sites Internet<br>
 Réalisation Maquettes et Logos<br>
@@ -383,7 +383,7 @@ Réalisation Campagne Publicitaire<br>
 </div>
 
     <div class="text-center">
-      <p class="neon-yellow fs-5 text-white">
+      <p class="neon-yellow fs-5 ">
       <strong>
         N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
         </strong>

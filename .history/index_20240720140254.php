@@ -383,7 +383,7 @@ Réalisation Campagne Publicitaire<br>
 </div>
 
     <div class="text-center">
-      <p class="neon-yellow fs-5 text-white">
+      <p class="neon-yellow fs-5 ">
       <strong>
         N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
         </strong>
