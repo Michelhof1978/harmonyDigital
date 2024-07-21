@@ -483,22 +483,23 @@ Réalisation Campagne Publicitaire<br>
       <div class="container">
     <div class="row g-0 flex-column flex-md-row">
 
-        <div class="col">
+        <div class="col-md-6">
             <div class="videoCom embed-responsive embed-responsive-16by9">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="video-description">Video campagne de financement participatif</div>
             </div>
         </div>
 
-        <div class="col text-center align-self-center">
-            <h2 class="billeterie text-white display-6">Réalisations Campagnes Clients</h2>
-            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-75 "></a>
+        <div class="col-md-6">
+            <div class="videoCom embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="video-description">Vidéo Invitation Anniversaire</div>
+            </div>
         </div>
 
-        <div class="col d-none d-md-block">
-            <div class="videoCom embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <div class="video-description">Vidéo Invitation Anniversaire</div>
-            </div>
+        <div class="col-md-12 text-center align-self-center">
+            <h2 class="billeterie text-white display-6">Réalisations Campagnes Clients</h2>
+            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-75 "></a>
         </div>
 
     </div>

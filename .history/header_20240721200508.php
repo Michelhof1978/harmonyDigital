@@ -1,7 +1,11 @@
 <body>
 <?php
   // Constantes pour les URLs
- 
+  define('peni_URL', 'https://www.linkedin.com/in/michel-h-245436203/');
+  define('GITHUB_URL', 'https://github.com/Michelhof1978/');
+  define('AUTHOR_URL', 'https://cvmichel-hoffmann.fr/');
+  define('LINKEDIN_URL', 'https://www.linkedin.com/in/michel-h-245436203/');
+  define('GITHUB_URL', 'https://github.com/Michelhof1978/');
 ?>
 
 <div class="bg-dark">

@@ -323,76 +323,75 @@ Réalisation Campagne Publicitaire<br>
         </div>
     </section>
 
-    <!-- DOMAINE DE COMPETENCE -->
-    <div class="text-center">
-            <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
-            <strong class="text-white"><span class="text-orange-titre">D</span>omaine<span class="text-orange-titre"> D</span>e <span class="text-orange-titre"> C</span>ompétences</strong>
-            <p class="text-white lead fs-2"><strong> Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
-            </strong></p>
-            </h2>
-            
-        </div>
-
-        <section class="d-flex ms-0 mb-5 position-relative text-center me-5">
-  <!-- Image à gauche -->
-  <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2">
-  
-  <!-- Contenu principal -->
-  <div class="w-75 text-white intro2 mt-5"> 
-    <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
-
-    <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3><br>
-
-    <div>
-  <h4><strong>Expertise et Créativité</strong></h4>
-  <p class="fs-5">
-  <strong>
-    Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.
-    </strong>
-</p>
+   <!-- DOMAINE DE COMPETENCE -->
+<div class="text-center">
+    <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
+        <strong class="text-white">
+            <span class="text-orange-titre">D</span>omaine
+            <span class="text-orange-titre"> D</span>e
+            <span class="text-orange-titre"> C</span>ompétences
+        </strong>
+        <p class="text-white lead fs-2">
+            <strong>Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.</strong>
+        </p>
+    </h2>
 </div>
 
-<div>
- <img src="images/intro2RobotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-</div>
+<section class="d-flex ms-0 mb-5 position-relative text-center me-5">
+    <!-- Image à gauche -->
+    <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2">
 
-<div>
-  <h4><strong>Approche Personnalisée</strong></h4>
-  <p class="fs-5"> 
-  <strong>
-    Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.
-    </strong>
-</p>
-</div>
+    <!-- Contenu principal -->
+    <div class="w-75 text-white intro2 mt-5">
+        <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine">
 
-<div>
- <img src="images/intro2RobotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
-</div>
+        <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3><br>
 
-<div>
-  <h4><strong>Résultats Mesurables</strong></h4>
-  <p class="fs-5">
-    <strong>
-    Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.
-    </strong>
-</p>
-</div>
-
-<div>
- <img src="images/intro2RobotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
-</div>
-
-    <div class="d-flex justify-content-center align-items-center full-height">
-        <div class="text-center">
-            <p class="neon-yellow fs-5 text-white">
-                <strong>
-                    N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
-                </strong>
+        <div>
+            <h4><strong>Expertise et Créativité</strong></h4>
+            <p class="fs-5">
+                <strong>Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.</strong>
             </p>
         </div>
-  </div>
-</section>
 
+        <div>
+            <img src="images/intro2RobotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur">
+        </div>
+
+        <div>
+            <h4><strong>Approche Personnalisée</strong></h4>
+            <p class="fs-5">
+                <strong>Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.</strong>
+            </p>
+        </div>
+
+        <div>
+            <img src="images/intro2RobotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur">
+        </div>
+
+        <div>
+            <h4><strong>Résultats Mesurables</strong></h4>
+            <p class="fs-5">
+                <strong>Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.</strong>
+            </p>
+        </div>
+
+        <div>
+            <img src="images/intro2RobotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-5">
+        </div>
+
+        <!-- Div centrée au milieu de l'écran -->
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+            <div class="text-center">
+                <p class="neon-yellow fs-5 text-white">
+                    <strong>
+                        N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
      
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
@@ -468,43 +467,6 @@ Réalisation Campagne Publicitaire<br>
         <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid"> 
     </div>
 </section>
-
-<div>
-  <h4><strong>Expertise et Créativité</strong></h4>
-  <p class="fs-5">
-  <strong>
-    Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.
-    </strong>
-</p>
-</div>
-
-<!--Section VIDEOCOM-->
-<section class="text-center mt-4 m-2">
-      <div class="container">
-    <div class="row g-0 flex-column flex-md-row">
-
-        <div class="col">
-            <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="video-description">Video campagne de financement participatif</div>
-            </div>
-        </div>
-
-        <div class="col text-center align-self-center">
-            <h2 class="billeterie text-white display-6">Réalisations Campagnes Clients</h2>
-            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-75 "></a>
-        </div>
-
-        <div class="col d-none d-md-block">
-            <div class="videoCom embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <div class="video-description">Vidéo Invitation Anniversaire</div>
-            </div>
-        </div>
-
-    </div>
-</div>
-</section>
-<!--fIN Section VIDEOCOM-->
 
     <?php include("footer.php"); ?>
 

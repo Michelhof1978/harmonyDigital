@@ -469,6 +469,10 @@ Réalisation Campagne Publicitaire<br>
     </div>
 </section>
 
+<!--Section VIDEOCOM-->
+<section class="text-center mt-4 m-2">
+
+  
 <div>
   <h4><strong>Expertise et Créativité</strong></h4>
   <p class="fs-5">
@@ -478,8 +482,7 @@ Réalisation Campagne Publicitaire<br>
 </p>
 </div>
 
-<!--Section VIDEOCOM-->
-<section class="text-center mt-4 m-2">
+  
       <div class="container">
     <div class="row g-0 flex-column flex-md-row">
 
@@ -492,7 +495,7 @@ Réalisation Campagne Publicitaire<br>
 
         <div class="col text-center align-self-center">
             <h2 class="billeterie text-white display-6">Réalisations Campagnes Clients</h2>
-            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-75 "></a>
+            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid "></a>
         </div>
 
         <div class="col d-none d-md-block">

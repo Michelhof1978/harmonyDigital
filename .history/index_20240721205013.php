@@ -469,17 +469,12 @@ Réalisation Campagne Publicitaire<br>
     </div>
 </section>
 
-<div>
-  <h4><strong>Expertise et Créativité</strong></h4>
-  <p class="fs-5">
-  <strong>
-    Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.
-    </strong>
-</p>
-</div>
-
 <!--Section VIDEOCOM-->
 <section class="text-center mt-4 m-2">
+
+
+
+  
       <div class="container">
     <div class="row g-0 flex-column flex-md-row">
 

@@ -146,17 +146,6 @@ footer {
 }
 /* Fin Footer */
 
-/*vidéos  com */
-.videoCom {
-	padding: 15px;
-	border: 1px solid #ddd;
-	background: #FFF;
-	/*CSS3 effects */
-	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-	border-radius: 2px 2px 2px 2px;
-	box-shadow: 0 0 3px rgba(0,0,0, 0.2); 
-}
-/* Fin vidéos  com */
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {

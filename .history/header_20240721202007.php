@@ -1,7 +1,12 @@
 <body>
 <?php
   // Constantes pour les URLs
- 
+  define('PENICHE_URL', 'https://youtu.be/x11QdyjodtM?si=u-nmt-rr97ETA-Pf');
+  define('INVITATION_URL', 'https://youtu.be/G-B7-NNemiI?si=jLQZ2Y1AvqijbdXL');
+
+  define('AUTHOR_URL', 'https://cvmichel-hoffmann.fr/');
+  define('LINKEDIN_URL', 'https://www.linkedin.com/in/michel-h-245436203/');
+  define('GITHUB_URL', 'https://github.com/Michelhof1978/');
 ?>
 
 <div class="bg-dark">

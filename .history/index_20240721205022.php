@@ -477,7 +477,6 @@ Réalisation Campagne Publicitaire<br>
     </strong>
 </p>
 </div>
-
 <!--Section VIDEOCOM-->
 <section class="text-center mt-4 m-2">
       <div class="container">

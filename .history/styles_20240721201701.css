@@ -147,7 +147,7 @@ footer {
 /* Fin Footer */
 
 /*vidéos  com */
-.videoCom {
+.videoPal{
 	padding: 15px;
 	border: 1px solid #ddd;
 	background: #FFF;
@@ -156,7 +156,13 @@ footer {
 	border-radius: 2px 2px 2px 2px;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.2); 
 }
-/* Fin vidéos  com */
+
+.videoPal1 {
+	width: 100%!important;
+	height: 300px !important;
+	
+}
+/*vidéos  com */
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {
