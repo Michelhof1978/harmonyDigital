@@ -475,7 +475,7 @@ Réalisation Campagne Publicitaire<br>
     </div>
 </section>
 
-<div class="mb-5 text-center">
+<div class="mb-5 text">
             <h2 class="text-white neon-yellow  text-center "><strong>Réalisations Campagnes Clients</strong></h2>
             <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25 "></a>
         </div>

@@ -475,32 +475,33 @@ Réalisation Campagne Publicitaire<br>
     </div>
 </section>
 
-<div class="mb-5 text-center">
-            <h2 class="text-white neon-yellow  text-center "><strong>Réalisations Campagnes Clients</strong></h2>
-            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25 "></a>
-        </div>
 
 <!--Section VIDEOCOM-->
 <section class="text-center mt-4 m-2">
       <div class="container">
     <div class=" g-0 flex-column flex-md-row">
 
-    
-
-        <div class="col">
+    <div class="">
+        <div class="">
             <div class="videoCom embed-responsive embed-responsive-16by9">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="videoCom text-orange-video lead">Video campagne de financement participatif</div>
             </div>
         </div>
-        
+        </div>
 
         <div class=" d-none d-md-block">
             <div class="videoCom text-orange-video lead embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <div class="video-description">Vidéo Invitation Anniversaire</div>
             </div>
         </div>
-        </div>  
+
+        <div class="col text-center align-self-center">
+            <h2 class="text-white "><strong>Réalisations Campagnes Clients</strong></h2>
+            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-75 "></a>
+        </div>
+
+        
 
     </div>
 </div>
