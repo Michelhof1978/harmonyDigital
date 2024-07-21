@@ -177,10 +177,11 @@ margin-top: -100px;
 
 /*fin Intro2*/
 /*Section VIDEOCOM*/
+Section VIDEOCOM
 .text-orange-video {
     color: #e06717e4;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 300;
 }
 /*Section VIDEOCOM*/
     </style>
@@ -483,11 +484,11 @@ Réalisation Campagne Publicitaire<br>
 <!--Section VIDEOCOM-->
 <section class="text-center mt-4 m-2">
       <div class="container">
-    <div class=" row text-center">
+    <div class=" g-0 flex-column flex-md-row">
 
     
 
-        <div class="col-4">
+        <div class="col">
             <div class="videoCom embed-responsive embed-responsive-16by9">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="videoCom text-orange-video lead">Video campagne de financement participatif</div>
@@ -495,12 +496,11 @@ Réalisation Campagne Publicitaire<br>
         </div>
         
 
-        <div class=" col-4">
+        <div class=" d-none d-md-block">
             <div class="videoCom text-orange-video lead embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <div class="video-description">Vidéo Invitation Anniversaire</div>
             </div>
         </div>
-
         </div>  
 
     </div>

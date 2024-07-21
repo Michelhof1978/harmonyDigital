@@ -483,7 +483,7 @@ Réalisation Campagne Publicitaire<br>
 <!--Section VIDEOCOM-->
 <section class="text-center mt-4 m-2">
       <div class="container">
-    <div class=" row text-center">
+    <div class=" row">
 
     
 

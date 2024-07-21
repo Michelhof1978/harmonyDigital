@@ -483,7 +483,7 @@ Réalisation Campagne Publicitaire<br>
 <!--Section VIDEOCOM-->
 <section class="text-center mt-4 m-2">
       <div class="container">
-    <div class=" row text-center">
+    <div class=" row">
 
     
 
@@ -495,12 +495,12 @@ Réalisation Campagne Publicitaire<br>
         </div>
         
 
-        <div class=" col-4">
+        <div class=" col">
             <div class="videoCom text-orange-video lead embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <div class="video-description">Vidéo Invitation Anniversaire</div>
             </div>
         </div>
-
+        
         </div>  
 
     </div>
