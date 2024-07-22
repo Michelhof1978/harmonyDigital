@@ -176,11 +176,11 @@ margin-top: -100px;
 }
 
 /*fin Intro2*/
-/*Section VIDEOCOM*/
 .text-orange-video {
   color: #e06717e4;
   font-size: 25px;
   font-weight: 700;
+  margin-top: 10px;
 }
 
 .videoCom {
@@ -190,21 +190,38 @@ margin-top: -100px;
   background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
   border-radius: 2px;
   box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-  margin-bottom: 20px;
 }
 
-.embed-responsive iframe {
+.embed-responsive {
+  position: relative;
+  display: block;
   width: 100%;
-  height: 315px;
+  padding: 0;
+  overflow: hidden;
 }
 
-@media (max-width: 767px) {
+.embed-responsive::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+
+.embed-responsive-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (min-width: 768px) {
   .row > div:first-child {
-    margin-bottom: 20px;
+    margin-right: 20px;
   }
 }
-/*Fin Section VIDEOCOM*/
-
+/* Fin Section VIDEOCOM*/
     </style>
 </head>
 <body>
@@ -505,17 +522,17 @@ Réalisation Campagne Publicitaire<br>
 <!--Section VIDEOCOM-->
 <section class="text-center mt-4 m-2 container mb-5">
   <div class="container">
-    <div class="row justify-content-center g-0">
-      <div class="col-md-6 mb-4 mb-md-0">
+    <div class="row justify-content-center">
+      <div class="col-md-5 mb-4">
         <div class="videoCom embed-responsive embed-responsive-16by9">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           <div class="text-orange-video lead">Campagne de financement participatif</div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-5 mb-4">
         <div class="videoCom embed-responsive embed-responsive-16by9">
           <iframe width="100%" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="text-orange-video lead">Invitation Anniversaire</div>
+          <div class="text-orange-video">Invitation Anniversaire</div>
         </div>
       </div>
     </div>

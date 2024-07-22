@@ -178,33 +178,50 @@ margin-top: -100px;
 /*fin Intro2*/
 /*Section VIDEOCOM*/
 .text-orange-video {
-  color: #e06717e4;
-  font-size: 25px;
-  font-weight: 700;
+    color: #e06717e4;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 .videoCom {
-  padding: 15px;
-  border: 1px solid #ddd;
-  background: #FFF;
-  background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-  border-radius: 2px;
-  box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-  margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background: #FFF;
+    /* CSS3 effects */
+    background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+    border-radius: 2px;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.2); 
 }
 
-.embed-responsive iframe {
-  width: 100%;
-  height: 315px;
+/* Center the videos */
+.container {
+    display: flex;
+    justify-content: center;
 }
 
-@media (max-width: 767px) {
-  .row > div:first-child {
-    margin-bottom: 20px;
-  }
+.row {
+    width: 100%;
+    max-width: 960px; /* Adjust this value as needed */
 }
-/*Fin Section VIDEOCOM*/
 
+.embed-responsive-16by9 {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.embed-responsive-16by9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Section VIDEOCOM*/
     </style>
 </head>
 <body>
@@ -503,24 +520,31 @@ Réalisation Campagne Publicitaire<br>
         </div>
 
 <!--Section VIDEOCOM-->
-<section class="text-center mt-4 m-2 container mb-5">
-  <div class="container">
-    <div class="row justify-content-center g-0">
-      <div class="col-md-6 mb-4 mb-md-0">
-        <div class="videoCom embed-responsive embed-responsive-16by9">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="text-orange-video lead">Campagne de financement participatif</div>
+<section class="text-center mt-4 m-2 container mb-5  ">
+    <div class=" container ">
+    <div class="row justify-content-center g-0 flex-column flex-md-row">
+
+        <div class="col me-5">
+            <div class="videoCom embed-responsive embed-responsive-16by9">
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoCom text-orange-video lead">Campagne de financement participatif</div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="videoCom embed-responsive embed-responsive-16by9">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="text-orange-video lead">Invitation Anniversaire</div>
+        
+
+        <div class=" col">
+            <div class="videoCom text-orange-video lead embed-responsive embed-responsive-16by9">
+            <iframe width="450" height="312" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+            <div class="videoCom">Invitation Anniversaire</div>
+            </div>
         </div>
-      </div>
+
+        </div>  
+        </div>
     </div>
-  </div>
+
 </section>
+<!--fIN Section VIDEOCOM-->
 
     <?php include("footer.php"); ?>
 

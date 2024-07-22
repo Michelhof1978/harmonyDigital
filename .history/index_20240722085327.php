@@ -203,8 +203,7 @@ margin-top: -100px;
     margin-bottom: 20px;
   }
 }
-/*Fin Section VIDEOCOM*/
-
+/*Section VIDEOCOM*/
     </style>
 </head>
 <body>
@@ -503,24 +502,31 @@ Réalisation Campagne Publicitaire<br>
         </div>
 
 <!--Section VIDEOCOM-->
-<section class="text-center mt-4 m-2 container mb-5">
-  <div class="container">
-    <div class="row justify-content-center g-0">
-      <div class="col-md-6 mb-4 mb-md-0">
-        <div class="videoCom embed-responsive embed-responsive-16by9">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="text-orange-video lead">Campagne de financement participatif</div>
+<section class="text-center mt-4 m-2 container mb-5  ">
+    <div class=" container ">
+    <div class="row justify-content-center g-0 flex-column flex-md-row">
+
+        <div class="col me-5">
+            <div class="videoCom embed-responsive embed-responsive-16by9">
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoCom text-orange-video lead">Campagne de financement participatif</div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-6">
-        <div class="videoCom embed-responsive embed-responsive-16by9">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          <div class="text-orange-video lead">Invitation Anniversaire</div>
+        
+
+        <div class=" col">
+            <div class="videoCom text-orange-video lead embed-responsive embed-responsive-16by9">
+            <iframe width="450" height="312" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+            <div class="videoCom">Invitation Anniversaire</div>
+            </div>
         </div>
-      </div>
+
+        </div>  
+        </div>
     </div>
-  </div>
+
 </section>
+<!--fIN Section VIDEOCOM-->
 
     <?php include("footer.php"); ?>
 

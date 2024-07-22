@@ -203,8 +203,7 @@ margin-top: -100px;
     margin-bottom: 20px;
   }
 }
-/*Fin Section VIDEOCOM*/
-
+/*Section VIDEOCOM*/
     </style>
 </head>
 <body>
