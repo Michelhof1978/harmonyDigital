@@ -176,6 +176,7 @@ margin-top: -100px;
 }
 
 /*fin Intro2*/
+
 /*Section VIDEOCOM*/
 .text-orange-video {
   color: #e06717e4;
@@ -198,12 +199,21 @@ margin-top: -100px;
   height: 315px;
 }
 
+.custom-margin .col-md-6:first-child {
+  margin-right: 30px; /* Adjust this value to increase/decrease the space */
+}
+
 @media (max-width: 767px) {
   .row > div:first-child {
     margin-bottom: 20px;
   }
+
+  .custom-margin .col-md-6:first-child {
+    margin-right: 0; /* Reset margin on smaller screens */
+  }
 }
 /*Fin Section VIDEOCOM*/
+
 
     </style>
 </head>
@@ -507,7 +517,7 @@ Réalisation Campagne Publicitaire<br>
       <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
     </div>
   </div>
-  <div class="row justify-content-center g-0 g-md-5">
+  <div class="row justify-content-center g-0 custom-margin">
     <div class="col-md-6 mb-4 mb-md-0">
       <div class="videoCom embed-responsive embed-responsive-16by9">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -522,7 +532,6 @@ Réalisation Campagne Publicitaire<br>
     </div>
   </div>
 </section>
-
 
     <?php include("footer.php"); ?>
 
