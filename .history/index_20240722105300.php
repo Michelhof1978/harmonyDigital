@@ -610,7 +610,7 @@ Réalisation Campagne Publicitaire<br>
 
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo8.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/logo.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>

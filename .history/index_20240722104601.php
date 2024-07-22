@@ -499,7 +499,7 @@ Réalisation Campagne Publicitaire<br>
 
 
 
-<!--SECTION VIDEOCOM-->
+<!--Section VIDEOCOM-->
 <section class="text-center mt-4 container mb-5">
   <div class="container">
     <div class="robotCampagne">
@@ -522,9 +522,8 @@ Réalisation Campagne Publicitaire<br>
     </div>
   </div>
 </section>
-<!--FIN SECTION VIDEOCOM-->
 
-<!-- PRESENTATION LOGOS-->
+<!-- PRESTATIONS -->
 <section class="text-center mt-4 ms-2 me-2">
         <div>
             <h2 class="border borderColor border-4 rounded p-2  m-5">
@@ -536,12 +535,12 @@ Réalisation Campagne Publicitaire<br>
 
         <div id="tarifCarousel" class="carousel slide carousel-container">
             <div class="carousel-inner">
-                <!-- Groupe de cartes -->
+                <!-- Premier groupe de cartes -->
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center">
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo1.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
@@ -551,76 +550,72 @@ Réalisation Campagne Publicitaire<br>
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo2.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                    
                                 </p>
                             </div>
-                
+                            <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
+                            <div class="card-body">
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
                         </div>
                         <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo3.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
                                     
                                 </p>
                             </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo4.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
+                            <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
+                            <div class="card-body">
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo5.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo6.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo7.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo8.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
 
-                
+                <!-- Deuxième groupe de cartes -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white">
+                                    
+                                </p>
+                            </div>
+                            <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
+                            <div class="card-body">
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white">
+                                   
+                                </p>
+                            </div>
+                            <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
+                            <div class="card-body">
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white">
+                                   
+                                </p>
+                            </div>
+                            <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
+                            <div class="card-body fs-5 mb-5">
+                                <a href=".php" class="info btn text-white ">Plus d'infos !</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Contrôles du carrousel -->
@@ -635,7 +630,7 @@ Réalisation Campagne Publicitaire<br>
         </div>
     </section>
 
-<!-- FIN PRESENTATION LOGOS-->
+
     <?php include("footer.php"); ?>
 
     

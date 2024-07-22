@@ -499,7 +499,7 @@ Réalisation Campagne Publicitaire<br>
 
 
 
-<!--SECTION VIDEOCOM-->
+<!--Section VIDEOCOM-->
 <section class="text-center mt-4 container mb-5">
   <div class="container">
     <div class="robotCampagne">
@@ -522,120 +522,8 @@ Réalisation Campagne Publicitaire<br>
     </div>
   </div>
 </section>
-<!--FIN SECTION VIDEOCOM-->
 
-<!-- PRESENTATION LOGOS-->
-<section class="text-center mt-4 ms-2 me-2">
-        <div>
-            <h2 class="border borderColor border-4 rounded p-2  m-5">
-                <strong class="text-white"><span class="text-orange-titre">L</span>ogos<span class="text-orange-titre"> R</span>éalisés</strong>
-                <p class="text-white lead fs-2"><strong>A l'image de votre entreprise avec ou sans animations</strong></p>
-            </h2>
-            
-        </div>
 
-        <div id="tarifCarousel" class="carousel slide carousel-container">
-            <div class="carousel-inner">
-                <!-- Groupe de cartes -->
-                <div class="carousel-item active">
-                    <div class="d-flex justify-content-center">
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo1.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
-                            
-                        </div>
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo2.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                   
-                                </p>
-                            </div>
-                
-                        </div>
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo3.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo4.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo5.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo6.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo7.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-
-                        <div class="card">
-                            <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                <img src="images/logo8.png" alt="logo client" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                                <p class="textcard card-text text-white">
-                                    
-                                </p>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-
-                
-            </div>
-
-            <!-- Contrôles du carrousel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#tarifCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
-
-<!-- FIN PRESENTATION LOGOS-->
     <?php include("footer.php"); ?>
 
     
