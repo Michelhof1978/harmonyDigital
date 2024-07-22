@@ -497,16 +497,16 @@ Réalisation Campagne Publicitaire<br>
 
         <div class="col">
             <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="350" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="videoCom text-orange-video lead">Campagne de financement participatif</div>
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="videoCom text-orange-video lead">Video campagne de financement participatif</div>
             </div>
         </div>
         
 
         <div class=" col">
             <div class="videoCom text-orange-video lead embed-responsive embed-responsive-16by9">
-            <iframe width="350" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
-            <div class="videoCom">Invitation Anniversaire</div>
+            <iframe width="450" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                
+            <div class="videoCom">Vidéo Invitation Anniversaire</div>
             </div>
         </div>
 
