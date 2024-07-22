@@ -537,7 +537,7 @@ Réalisation Campagne Publicitaire<br>
             </h2>
         </div>
 
-        <div id="logoCarousel" class="carousel slide carousel-container">
+        <div id="tarifCarousel" class="carousel slide carousel-container">
             <div class="carousel-inner">
                 <!-- Groupe de cartes -->
                 <div class="carousel-item active">
@@ -638,15 +638,14 @@ Réalisation Campagne Publicitaire<br>
             </div>
 
             <!-- Contrôles du carrousel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#logoCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#logoCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-</button>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#tarifCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
 
