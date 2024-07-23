@@ -722,10 +722,8 @@ Réalisation Campagne Publicitaire<br>
 
     let img = document.createElement("img");
     img.src = "images/offre2024.png"; 
-    img.style.maxHeight = '42%'; // Max height 42% of viewport height
-    img.style.maxWidth = '42%'; // Max width 42% of viewport width
-    img.style.width = 'auto'; // Adjust width automatically to maintain aspect ratio
-    img.style.height = 'auto'; // Adjust height automatically to maintain aspect ratio
+    img.style.height = window.innerWidth < 600 ? '80%' : '60%';
+    img.style.width = img.style.height;
     popupDiv.appendChild(img);
 
     let closeButton = document.createElement("button");
