@@ -721,7 +721,7 @@ Réalisation Campagne Publicitaire<br>
    popupDiv.style.cssText = "position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9999; text-align: center; background: white; padding: 20px; border: 1px solid #ccc; border-radius: 8px;";
 
    let img = document.createElement("img");
-    img.src = "images/offre2024.png"; 
+    img.src = "../images/lePal2024.png"; 
    img.style.height = window.innerWidth < 600 ? '80%' : '60%';
    img.style.width = img.style.height;
    popupDiv.appendChild(img);
