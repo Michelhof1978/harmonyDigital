@@ -732,15 +732,14 @@ Réalisation Campagne Publicitaire<br>
     imgContainer.appendChild(img);
 
     let closeButton = document.createElement("button");
-    closeButton.textContent = "✖"; // Cross symbol
-    closeButton.style.cssText = "position: absolute; top: 10px; right: 10px; cursor: pointer; border: none; background: transparent; color: black; font-size: 24px; padding: 0; margin: 0;";
-
+    closeButton.textContent = "X";
+    closeButton.style.cssText = "position: absolute; top: 10px; right: 10px; cursor: pointer; border: none; background: transparent; font-size: 16px; color: white;";
     closeButton.onclick = function () {
       document.body.removeChild(popupDiv);
       setPopupShown();
     };
-
     imgContainer.appendChild(closeButton);
+
     popupDiv.appendChild(imgContainer);
     document.body.appendChild(popupDiv);
 
