@@ -21,35 +21,8 @@
 
   <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
- /* COOKIES */
-#cookie-banner {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: #e06717e4;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-        }
 
-        #cookie-banner p {
-            margin: 0 0 10px;
-        }
-
-        #cookie-banner button {
-            margin: 5px;
-            cursor: pointer;
-            background: #fff;
-            color: #3498db;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 3px;
-        }
- /* FIN COOKIES */
-
+    
 /* TITRES */
 .borderColor {
     border: 3px solid transparent; /* Bordure transparente, l'effet est créé par le border-image */

@@ -653,51 +653,9 @@ Réalisation Campagne Publicitaire<br>
 <!-- FIN PRESENTATION LOGOS-->
     <?php include("footer.php"); ?>
 
- <!-- COOKIES -->
-<script>
-    // Fonction pour obtenir la valeur d'un cookie
-    function getCookie(name) {
-        let match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
-        if (match) return match[2];
-    }
-
-    // Fonction pour définir un cookie avec une durée d'expiration (en jours)
-    function setCookie(name, value, days) {
-        let expires = '';
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-            expires = '; expires=' + date.toUTCString();
-        }
-        document.cookie = name + '=' + value + expires + '; path=/';
-    }
-
-    // Fonction appelée lorsqu'un utilisateur accepte les cookies
-    function acceptCookies() {
-        // Ajoutez ici le code pour définir les cookies ou effectuer d'autres actions nécessaires
-
-        // Définir un cookie indiquant que l'utilisateur a accepté les cookies
-        setCookie('cookieConsent', 'accepted', 365);
-
-        document.getElementById('cookie-banner').style.display = 'none';
-    }
-
-    // Fonction appelée lorsqu'un utilisateur refuse les cookies
-    function refuseCookies() {
-
-        document.getElementById('cookie-banner').style.display = 'none';
-    }
-
-    // Vérifier si l'utilisateur a déjà accepté les cookies
-    if (getCookie('cookieConsent') !== 'accepted') {
-        // Affiche la bannière de consentement après un délai 
-        setTimeout(function() {
-            document.getElementById('cookie-banner').style.display = 'block';
-        }, 2000);
-    }
-</script>
-
+    <!-- Scripts JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" async></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </body>
-  </html>
-
-  
+</html>

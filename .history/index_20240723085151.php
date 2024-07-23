@@ -663,7 +663,7 @@ Réalisation Campagne Publicitaire<br>
 
     // Fonction pour définir un cookie avec une durée d'expiration (en jours)
     function setCookie(name, value, days) {
-        let expires = '';
+        var expires = '';
         if (days) {
             var date = new Date();
             date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));

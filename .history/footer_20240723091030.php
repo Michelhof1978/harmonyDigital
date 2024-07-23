@@ -66,7 +66,7 @@
 
 <!-- COOKIES -->
 <div id="cookie-banner">
-    <p><strong>Nous utilisons des cookies pour améliorer votre expérience sur notre site.<br> Acceptez-vous l'utilisation des cookies ?</strong> </p>
+    <p><strong>Nous utilisons des cookies pour améliorer votre expérience sur notre site. Acceptez-vous l'utilisation des cookies ?</strong> </p>
     <button onclick="acceptCookies()"><strong>Accepter</strong></button>
     <button onclick="refuseCookies()"><strong>Refuser</strong></button>
 </div>

@@ -22,13 +22,14 @@
   <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
  /* COOKIES */
+
 #cookie-banner {
             display: none;
             position: fixed;
             bottom: 0;
             left: 0;
             width: 100%;
-            background: #e06717e4;
+            background: #3498db;
             color: #fff;
             padding: 10px;
             text-align: center;

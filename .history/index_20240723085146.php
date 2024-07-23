@@ -657,13 +657,13 @@ Réalisation Campagne Publicitaire<br>
 <script>
     // Fonction pour obtenir la valeur d'un cookie
     function getCookie(name) {
-        let match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        vlet match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
         if (match) return match[2];
     }
 
     // Fonction pour définir un cookie avec une durée d'expiration (en jours)
     function setCookie(name, value, days) {
-        let expires = '';
+        var expires = '';
         if (days) {
             var date = new Date();
             date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));

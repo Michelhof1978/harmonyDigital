@@ -28,7 +28,8 @@
             bottom: 0;
             left: 0;
             width: 100%;
-            background: #e06717e4;
+    color: #e06717e4;
+    background: #3498db;
             color: #fff;
             padding: 10px;
             text-align: center;
