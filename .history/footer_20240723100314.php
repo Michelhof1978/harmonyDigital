@@ -1,10 +1,8 @@
 <footer class="container-fluid bg-dark">
- <!-- COMPTEUR -->
- <div class="text-center mt-3 mb-3">
+  <!-- COMPTEUR -->
+<div class="text-center mt-3">
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
 </div>
-</footer>
- 
 
 <!-- COOKIES -->
 <div id="cookie-banner">
@@ -12,6 +10,7 @@
     <button onclick="acceptCookies()"><strong>Accepter</strong></button>
     <button onclick="refuseCookies()"><strong>Refuser</strong></button>
 </div>
+</footer>
 
 
 

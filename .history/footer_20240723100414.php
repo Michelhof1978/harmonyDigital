@@ -1,8 +1,5 @@
 <footer class="container-fluid bg-dark">
- <!-- COMPTEUR -->
- <div class="text-center mt-3 mb-3">
-<a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
-</div>
+ 
 </footer>
  
 
