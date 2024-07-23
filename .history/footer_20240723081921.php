@@ -61,7 +61,7 @@
 <!-- _____________________________________________________________________________________ -->
 <!-- COMPTEUR -->
 <div class="text-center mt-3">
-<a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
+    <a href="https://www.mon-compteur.fr"><img src="https://www.mon-compteur.fr/html_c01genv2-237765-2" loading="lazy" alt="nombre de visites"></a>
 </div>
 
 <!-- COOKIES -->

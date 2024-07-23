@@ -43,35 +43,7 @@
             showCharacters(0);
         });
     </script>
-<!-- _____________________________________________________________________________________ -->
 
-<!--ZOOM SURVOL SOURIS SUR IMAGE CARD-->
-<script>
-    function zoomIn(img) {
-        img.style.transform = "scale(1.5)"; // agrandir l'image 1.5 fois
-        img.style.transition = "transform 0.5s"; // ajouter une transition de 0.5s pour une animation fluide
-    }
-
-    function zoomOut(img) {
-        img.style.transform = "scale(1)"; // remettre l'image à sa taille d'origine
-        img.style.transition = "transform 0.5s"; // ajouter une transition de 0.5s pour une animation fluide
-    }
-</script>
-
-<!-- _____________________________________________________________________________________ -->
-<!-- COMPTEUR -->
-<div class="text-center mt-3">
-<a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
-</div>
-
-<!-- COOKIES -->
-<div id="cookie-banner">
-    <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. Acceptez-vous l'utilisation des cookies ?</p>
-    <button onclick="acceptCookies()">Accepter</button>
-    <button onclick="refuseCookies()">Refuser</button>
-</div>
-
-<!-- _____________________________________________________________________________________ -->
 
 
 <!-- _____________________________________________________________________________________ -->

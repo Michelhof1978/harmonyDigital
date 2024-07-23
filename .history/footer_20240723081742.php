@@ -59,19 +59,7 @@
 </script>
 
 <!-- _____________________________________________________________________________________ -->
-<!-- COMPTEUR -->
-<div class="text-center mt-3">
-<a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
-</div>
 
-<!-- COOKIES -->
-<div id="cookie-banner">
-    <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. Acceptez-vous l'utilisation des cookies ?</p>
-    <button onclick="acceptCookies()">Accepter</button>
-    <button onclick="refuseCookies()">Refuser</button>
-</div>
-
-<!-- _____________________________________________________________________________________ -->
 
 
 <!-- _____________________________________________________________________________________ -->
