@@ -138,7 +138,8 @@ html {
 /* Fin Styles pour le fond binaire */
 /* Footer */
 footer{
-    height: 360px;  
+    height: 360px;
+     background: rgba(230, 122, 22, 0.883);   
  }
  
  
@@ -148,7 +149,12 @@ footer{
      font-size: 15px; 
      
  }
- 
+ .img1{
+     width: 330px;
+     height: 650px;
+     margin-top: 50px;
+     margin-left: 50px; 
+ } 
  .img2{
      
      height: 180px;

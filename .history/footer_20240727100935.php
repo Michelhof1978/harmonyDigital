@@ -3,7 +3,7 @@
 
 
 <div class="img3 col-12 pt-3">
-    <img class="img2" src="images/logoFooter.png" loading="lazy" alt="logo">
+    <img class="" src="images/logoFooter.png" loading="lazy" alt="logo">
     <p class="copyright d-flex flex-wrap text-sm justify-content-center">Site réalisé par &nbsp; <a href="" target="_blank"><strong>Michel Hoffmann - Harmony Digital</strong></a></p>
 
 
