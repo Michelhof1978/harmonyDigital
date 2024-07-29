@@ -17,6 +17,9 @@
   <meta property="og:image" content="../images/logo.ico">
   <meta name="author" content="HOFFMANN MICHEL-Harmony Digital">
 
+ 
+<!------ Include the above in your HEAD tag ---------->
+
 
   <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>

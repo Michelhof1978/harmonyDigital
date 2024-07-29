@@ -109,14 +109,12 @@
                     </div>
                 </div>
             </div>
-              <!-- COMPTEUR -->
+        </div>
+    </footer>
+<!-- COMPTEUR -->
 <div class="text-center mt-3 mb-3">
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
 </div>
-        </div>
-      
-    </footer>
-
 <!-- COOKIES -->
 <div id="cookie-banner">
     <p><strong>Nous utilisons des cookies pour améliorer votre expérience sur notre site.<br> Acceptez-vous l'utilisation des cookies ?</strong> </p>
