@@ -39,7 +39,7 @@
  <!-- Logo et titre -->
  <a class="navbar-brand" href="index.php">
             <strong class="text-white nav-brand">
-                <span class="text-orange-footer-2">H</span class="text-orange-footer-2">armony <span class="text-orange-footer-2">D</span>igital
+                <span class="text-orange-footer-2">H</span c>armony <span class="text-orange-footer-2">D</span>igital
             </strong>
             <span class="orange">.</span>
         </a>                            </div>
@@ -48,11 +48,11 @@
                                 elit,Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div class="footer-social-icon">
-        <span>Suivez-nous !</span>
-        <a href="https://www.youtube.com/channel/UCVOTd9J0Bzsb8m_M0EayX1A" target="_blank">
-            <i class="fab fa-youtube youtube-bg"></i>
-        </a>
-    </div>
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">

@@ -48,11 +48,11 @@
                                 elit,Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div class="footer-social-icon">
-        <span>Suivez-nous !</span>
-        <a href="https://www.youtube.com/channel/UCVOTd9J0Bzsb8m_M0EayX1A" target="_blank">
-            <i class="fab fa-youtube youtube-bg"></i>
-        </a>
-    </div>
+    <span>Suivez-nous !</span>
+    <a href="https://www.youtube.com/votrechaîne"><i class="fab fa-youtube youtube-bg"></i></a>
+    <a href="https://wa.me/votrenuméro"><i class="fab fa-whatsapp whatsapp-bg"></i></a>
+</div>
+
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">

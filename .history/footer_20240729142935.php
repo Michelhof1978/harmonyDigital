@@ -36,23 +36,18 @@
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
- <!-- Logo et titre -->
- <a class="navbar-brand" href="index.php">
-            <strong class="text-white nav-brand">
-                <span class="text-orange-footer-2">H</span class="text-orange-footer-2">armony <span class="text-orange-footer-2">D</span>igital
-            </strong>
-            <span class="orange">.</span>
-        </a>                            </div>
+                                <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
                             <div class="footer-text">
                                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
                                 elit,Lorem ipsum dolor sit amet.</p>
                             </div>
                             <div class="footer-social-icon">
-        <span>Suivez-nous !</span>
-        <a href="https://www.youtube.com/channel/UCVOTd9J0Bzsb8m_M0EayX1A" target="_blank">
-            <i class="fab fa-youtube youtube-bg"></i>
-        </a>
-    </div>
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
@@ -77,14 +72,14 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Newsletter</h3>
+                                <h3>N</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                             </div>
                             <div class="subscribe-form">
                                 <form action="#">
-                                    <input type="text" placeholder="Adresse Mail">
+                                    <input type="text" placeholder="Email Address">
                                     <button><i class="fab fa-telegram-plane"></i></button>
                                 </form>
                             </div>
