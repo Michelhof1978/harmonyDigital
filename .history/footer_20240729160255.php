@@ -45,7 +45,7 @@
                             </a>
                         </div>
                         <div class="footer-text">
-                            <p>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau <span class="discord">Discord</span>.</p>
+                            <p>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau <span></span>DISCORD.</p>
                         </div>
                         <div class="footer-social-icon">
                             <span>Suivez-nous !</span>

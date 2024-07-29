@@ -45,7 +45,8 @@
                             </a>
                         </div>
                         <div class="footer-text">
-                            <p>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau <span class="discord">Discord</span>.</p>
+                            <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                            elit,Lorem ipsum dolor sit amet.</p>
                         </div>
                         <div class="footer-social-icon">
                             <span>Suivez-nous !</span>
@@ -65,7 +66,7 @@
                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
                 <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
                 <li><a href="conditionsGeneralesDeVente.php">CGV</a></li>
-                <li><a href="formulaireDeContact.php">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </div>

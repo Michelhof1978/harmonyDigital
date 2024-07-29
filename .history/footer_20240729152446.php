@@ -1,114 +1,112 @@
 <footer class="footer-section">
-    <div class="container">
-        <div class="footer-cta pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div class="cta-text">
-                            <h4>Adresse</h4>
-                            <span>4, Lotissement La Croix Rouge<br>03 230 Garnat Sur Engièvre</span>
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Adresse</h4>
+                                <span>4, Lotissement La Croix Rouge<br>03 230 Garnat Sur Engièvre</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Appelez-Nous !</h4>
+                                <span>0033-666332588</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail</h4>
+                                <span>harmonydigitalweb@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="fas fa-phone"></i>
-                        <div class="cta-text">
-                            <h4>Appelez-Nous !</h4>
-                            <span>0033-666332588</span>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+ <!-- Logo et titre -->
+ <a class="navbar-brand" href="index.php">
+            <strong class="text-white nav-brand">
+                <span class="text-orange-footer-2">H</span class="text-orange-footer-2">armony <span class="text-orange-footer-2">D</span>igital
+            </strong>
+            <span class="orange">.</span>
+        </a>                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+        <span>Suivez-nous !</span>
+        <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
+            <i class="fab fa-youtube youtube-bg"></i>
+        </a>
+    </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
-                        <i class="far fa-envelope-open"></i>
-                        <div class="cta-text">
-                            <h4>Mail</h4>
-                            <span>harmonydigitalweb@gmail.com</span>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="mentionsLegales.php">Mentions Légales</a> &nbsp;&nbsp;&nbsp;</li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Newsletter</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Adresse Mail">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-content pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <!-- Logo et titre -->
-                            <a class="navbar-brand" href="index.php">
-                                <strong class="text-white nav-brand">
-                                    <span class="text-orange-footer-2">H</span>armony <span class="text-orange-footer-2">D</span>igital
-                                </strong>
-                                <span class="orange">.</span>
-                            </a>
-                        </div>
-                        <div class="footer-text">
-                            <p>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau <span class="discord">Discord</span>.</p>
-                        </div>
-                        <div class="footer-social-icon">
-                            <span>Suivez-nous !</span>
-                            <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
-                                <i class="fab fa-youtube youtube-bg"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-    <div class="footer-widget ms-5">
-        <div class="footer-widget-heading">
-            <h3>Liens utiles</h3>
-        </div>
-        <div class="footer-links">
-            <ul>
-                <li><a href="mentionsLegales.php">Mentions Légales</a></li>
-                <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
-                <li><a href="conditionsGeneralesDeVente.php">CGV</a></li>
-                <li><a href="formulaireDeContact.php">Contact</a></li>
-            </ul>
+        <div class="copyright-area">
+        <div class="container d-flex justify-content-center">
+    <div class="row">
+        <div class=" text-center">
+            <div class="copyright-text">
+                <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:"><span class="text-orange-footer">H</span>armony-<span class="text-orange-footer">D</span>igital
+                </a></p>
+            </div>
         </div>
     </div>
 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="footer-text mb-25">
-                            <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
-                        </div>
-                        <div class="subscribe-form">
-                            <form action="#">
-                                <input type="text" placeholder="Adresse Mail">
-                                <button><i class="fab fa-telegram-plane"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              <!-- COMPTEUR -->
+<div class="text-center mt-3 mb-3">
+<a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
+</div>
         </div>
-    </div>
-    <div class="copyright-area">
-        <div class="container d-flex justify-content-center">
-            <div class="row">
-                <div class="text-center">
-                    <div class="copyright-text">
-                        <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:"><span class="text-orange-footer">H</span>armony-<span class="text-orange-footer">D</span>igital
-                        </a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- COMPTEUR -->
-        <div class="text-center mt-3 mb-3">
-            <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
-        </div>
-    </div>
-</footer>
-
+      
+    </footer>
 
 <!-- COOKIES -->
 <div id="cookie-banner">
