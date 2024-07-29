@@ -281,7 +281,7 @@ html {
     color: #878787;
   }
   .copyright-text p a{
-    color: beige;
+    color: #ff5e14;
   }
   .footer-menu li {
     display: inline-block;
@@ -297,7 +297,7 @@ html {
 
   .text-orange-footer {
     font-size: 14px;
-    color: #e06717e4;
+    color: #878787;
   }
 
 /* footer{

@@ -6,8 +6,8 @@
                         <div class="single-cta">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
-                                <h4>Adresse</h4>
-                                <span>4, Lotissement La Croix Rouge<br>03 230 Garnat Sur Engièvre</span>
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
                             </div>
                         </div>
                     </div>
@@ -15,8 +15,8 @@
                         <div class="single-cta">
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
-                                <h4>Appelez-Nous !</h4>
-                                <span>0033-666332588</span>
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
                             </div>
                         </div>
                     </div>
@@ -24,8 +24,8 @@
                         <div class="single-cta">
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
-                                <h4>Mail</h4>
-                                <span>harmonydigitalweb@gmail.com</span>
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
                             </div>
                         </div>
                     </div>
@@ -89,17 +89,27 @@
             </div>
         </div>
         <div class="copyright-area">
-        <div class="container d-flex justify-content-center">
-    <div class="row">
-        <div class=" text-center">
-            <div class="copyright-text">
-                <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:"><span class="text-orange-footer">H</span>armony <span class="text-orange-footer">D</span>igital
-                </a></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:">                <span class="text-orange">H</span>armony <span class="text-orange">D</span>igital
+                            </a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-
               <!-- COMPTEUR -->
 <div class="text-center mt-3 mb-3">
 <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>

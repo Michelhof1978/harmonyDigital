@@ -6,8 +6,8 @@
                         <div class="single-cta">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
-                                <h4>Adresse</h4>
-                                <span>4, Lotissement La Croix Rouge<br>03 230 Garnat Sur Engièvre</span>
+                                <h4>Find us</h4>
+                                <span>4 Lotissement La Croix Ropuge</span>
                             </div>
                         </div>
                     </div>
@@ -15,8 +15,8 @@
                         <div class="single-cta">
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
-                                <h4>Appelez-Nous !</h4>
-                                <span>0033-666332588</span>
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
                             </div>
                         </div>
                     </div>
@@ -24,8 +24,8 @@
                         <div class="single-cta">
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
-                                <h4>Mail</h4>
-                                <span>harmonydigitalweb@gmail.com</span>
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
                             </div>
                         </div>
                     </div>

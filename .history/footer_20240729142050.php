@@ -25,7 +25,7 @@
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
                                 <h4>Mail</h4>
-                                <span>harmonydigitalweb@gmail.com</span>
+                                <span>mail@info.com/span>
                             </div>
                         </div>
                     </div>

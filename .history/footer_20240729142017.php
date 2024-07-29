@@ -16,7 +16,7 @@
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
                                 <h4>Appelez-Nous !</h4>
-                                <span>0033-666332588</span>
+                                <span>0033-</span>
                             </div>
                         </div>
                     </div>
@@ -24,8 +24,8 @@
                         <div class="single-cta">
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
-                                <h4>Mail</h4>
-                                <span>harmonydigitalweb@gmail.com</span>
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
                             </div>
                         </div>
                     </div>
