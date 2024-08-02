@@ -150,15 +150,15 @@ margin-top: -100px;
  } 
 
  .intro {
-    margin-right: 60px;
-    margin-top: 30px;
+    margin: 30px auto;
     background-image: url('Images/fondBleu.png');
-  background-size: cover;
+    background-size: cover;
     background-position: center;
-   background-repeat: no-repeat;
-   border-radius: 5px;
-     
- } 
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding: 20px;
+}
+
  /*Fin Intro*/
   /*Intro2*/
  .robotDomaine2 {
@@ -225,11 +225,8 @@ margin-top: -100px;
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
             <div class="d-flex justify-content-center">
-                <p class="fs-5 lead p-3 intro mx-auto fw-bold">
-                Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
-<a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
-    <span class="text-orange-nav2 fs-4">Discord</span>
-</a>.
+                <p class="fs-5 lead p-3 intro mx-auto">
+                    Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau Discord.</strong>
                 </p>
             </div>
             <p class="mt-4 mb-5 lead fs-4 neon-yellow text-white">
@@ -246,6 +243,8 @@ margin-top: -100px;
     </div>
 </section>
 <!-- FIN INTRO-->
+
+
 
 
      <!-- PRESTATIONS -->

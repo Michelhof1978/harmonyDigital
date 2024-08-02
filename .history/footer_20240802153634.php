@@ -48,7 +48,7 @@
                         <p class=" lead p-3  mx-auto fw-bold ">
                 Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
 <a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
-    <span class="text-orange-nav2 fs-5">Discord</span>
+    <span class="text-orange-nav2 fs-4">Discord</span>
 </a>.
                 </p>                        </div>
                         <div class="footer-social-icon">

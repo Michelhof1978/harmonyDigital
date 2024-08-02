@@ -39,15 +39,9 @@ html {
 }
 
 .text-orange-nav2 {
-    color: #fa6604;
+    color: #e067179c;
    
 }
-
-.text-decoration-custom {
-    text-decoration: underline;
-    text-decoration-color: rgb(216, 216, 218);
-}
-
 
 .nav-brand {
     font-size: 40px;

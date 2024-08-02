@@ -224,14 +224,9 @@ margin-top: -100px;
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
-            <div class="d-flex justify-content-center">
-                <p class="fs-5 lead p-3 intro mx-auto fw-bold">
-                Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
-<a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
-    <span class="text-orange-nav2 fs-4">Discord</span>
-</a>.
-                </p>
-            </div>
+            <p class="fs-5 lead p-3 intro">
+                <strong>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau Discord.</strong>
+            </p>
             <p class="mt-4 mb-5 lead fs-4 neon-yellow text-white">
                 <strong>
                     Conception de Sites Internet<br>
@@ -246,6 +241,8 @@ margin-top: -100px;
     </div>
 </section>
 <!-- FIN INTRO-->
+
+
 
 
      <!-- PRESTATIONS -->

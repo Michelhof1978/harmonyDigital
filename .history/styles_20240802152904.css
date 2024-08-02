@@ -43,12 +43,6 @@ html {
    
 }
 
-.text-decoration-custom {
-    text-decoration: underline;
-    text-decoration-color: rgb(216, 216, 218);
-}
-
-
 .nav-brand {
     font-size: 40px;
     font-family: "Special Elite", system-ui;
