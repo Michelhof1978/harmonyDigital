@@ -99,7 +99,7 @@
             <div class="row">
                 <div class="text-center">
                     <div class="copyright-text">
-                        <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:">Harmony-Digital
+                        <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:"><span class="text-orange-footer">H</span>armony-<span class="text-orange-footer">D</span>igital
                         </a></p>
                     </div>
                 </div>

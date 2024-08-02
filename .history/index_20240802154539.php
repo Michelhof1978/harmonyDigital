@@ -2,12 +2,14 @@
 <html lang="fr">
 <head>
     <?php include("head.php"); ?>
-    <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
-    <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
+    <meta name="description" content="">
+    <title>Harmony Digital</title>
     <style>
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
+
+        
 
         /* CARDS */
         .card {
@@ -87,16 +89,6 @@ margin-top: -100px;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
    
 }
-
-/* Discord */
-.text-decoration-custom {
-    text-decoration: none; /* Évite le soulignement du lien */
-}
-
-.text-decoration-custom:hover .text-orange-nav2 {
-    color: white; /* Change la couleur du texte en blanc au survol */
-}
-
 /* Domaine de compétence */
 .textIntro {
 	margin-top: 40px;
@@ -233,13 +225,12 @@ margin-top: -100px;
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
             <div class="d-flex justify-content-center">
-            <p class="fs-5 lead p-3 intro mx-auto fw-bold">
-    Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
-    <a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
-        <span class="text-orange-nav2">Discord</span>
-    </a>
-</p>
-
+                <p class="fs-5 lead p-3 intro mx-auto fw-bold">
+                Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
+<a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
+    <span class="text-orange-nav2 fs-4">Discord</span>
+</a>.
+                </p>
             </div>
             <p class="mt-4 mb-5 lead fs-4 neon-yellow text-white">
                 <strong>
@@ -260,7 +251,7 @@ margin-top: -100px;
      <!-- PRESTATIONS -->
      <section class="text-center mt-4 ms-2 me-2">
         <div>
-            <h2 class="border borderColor border-4 rounded p-2  mb-4">
+            <h2 class="border borderColor border-4 rounded p-2  m-5">
                 <strong class="text-white">Nos Prestations</strong>
             </h2>
 

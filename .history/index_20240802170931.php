@@ -3,11 +3,13 @@
 <head>
     <?php include("head.php"); ?>
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
-    <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
+    <title>Votre Partenaire pour la Création de Sites Web Professionnels</title>
     <style>
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
+
+        
 
         /* CARDS */
         .card {
@@ -87,16 +89,6 @@ margin-top: -100px;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
    
 }
-
-/* Discord */
-.text-decoration-custom {
-    text-decoration: none; /* Évite le soulignement du lien */
-}
-
-.text-decoration-custom:hover .text-orange-nav2 {
-    color: white; /* Change la couleur du texte en blanc au survol */
-}
-
 /* Domaine de compétence */
 .textIntro {
 	margin-top: 40px;

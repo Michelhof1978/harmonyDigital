@@ -87,16 +87,6 @@ margin-top: -100px;
     border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
    
 }
-
-/* Discord */
-.text-decoration-custom {
-    text-decoration: none; /* Évite le soulignement du lien */
-}
-
-.text-decoration-custom:hover .text-orange-nav2 {
-    color: white; /* Change la couleur du texte en blanc au survol */
-}
-
 /* Domaine de compétence */
 .textIntro {
 	margin-top: 40px;

@@ -88,7 +88,6 @@ margin-top: -100px;
    
 }
 
-/* Discord */
 .text-decoration-custom {
     text-decoration: none; /* Évite le soulignement du lien */
 }
