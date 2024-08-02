@@ -210,12 +210,12 @@ margin-top: -100px;
 <body>
     
     <?php include("header.php"); ?>
-    <div id="binary-background"></div>
 
+    <div id="binary-background"></div>
  <!-- INTRO-->
     <div class="mt-5">
         <h1 class="border borderColor border-4 rounded p-2 col m-2 text-center">
-            <strong class="text-white">Votre Partenaire pour la Création de Sites Web Professionnels</strong>
+            <strong class="text-white">Concepteur De Tous Site Internet</strong>
         </h1>
     </div>
 
@@ -226,7 +226,7 @@ margin-top: -100px;
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-75">
         </div>
 
-        <div class="w-100 text-white ">
+        <div class="w-100 text-white intro ">
         <p class="ms-3 mt-4 fs-5 lead"><strong>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau Discord.</strong></p>
             <p class="ms-5 mt-2 mb-5 lead fs-4 neon-yellow text-center text-white" >
                 <strong>
@@ -242,7 +242,6 @@ Réalisation Campagne Publicitaire<br>
 
     </div>
 </section>
- <!-- FIN INTRO-->
 
      <!-- PRESTATIONS -->
      <section class="text-center mt-4 ms-2 me-2">

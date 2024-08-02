@@ -211,7 +211,7 @@ margin-top: -100px;
     
     <?php include("header.php"); ?>
     <div id="binary-background"></div>
-
+    
  <!-- INTRO-->
     <div class="mt-5">
         <h1 class="border borderColor border-4 rounded p-2 col m-2 text-center">
@@ -242,7 +242,6 @@ Réalisation Campagne Publicitaire<br>
 
     </div>
 </section>
- <!-- FIN INTRO-->
 
      <!-- PRESTATIONS -->
      <section class="text-center mt-4 ms-2 me-2">
