@@ -10,133 +10,82 @@ h4 {
 }
 
         /* CARDS */
-    /* Styles de base pour desktop */
-.card {
-    transform: scale(0.7);
-    transform-origin: center center;
-    flex: 1 0 30%;
-    box-sizing: border-box;
-    margin: 0 -90px;
-    background-image: url('Images/fondBleu.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+        .card {
+            transform: scale(0.7);
+            transform-origin: center center;
+            flex: 1 0 30%;
+            box-sizing: border-box;
+            margin: 0 -90px;
+            background-image: url('Images/fondBleu.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-.carousel-inner .d-flex > .card:first-child,
-.carousel-inner .d-flex > .card:last-child {
-    margin-left: 30px;
-    margin-right: 30px;
-}
+        .carousel-inner .d-flex > .card:first-child,
+        .carousel-inner .d-flex > .card:last-child {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
 
-.carousel-inner .d-flex {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 80px;
-}
+        .carousel-inner .d-flex {
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 80px;
+        }
 
-.carousel-container {
-    position: relative;
-    padding: 20px;
-    margin-top: -70px;
-}
+        .carousel-container {
+            position: relative;
+            padding: 20px;
+            margin-top: -70px;
+        }
 
-.carousel-control-prev,
-.carousel-control-next {
-    position: absolute;
-    top: 50%;
-    width: 40px;
-    height: 40px;
-    margin-top: -70px;
-    background-color: #e06717e4;
-    border-radius: 50%;
-}
+        .carousel-control-prev,
+        .carousel-control-next {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            margin-top: -70px;
+            background-color: #e06717e4;
+            border-radius: 50%;
+        }
 
-.carousel-control-prev {
-    left: 0;
-}
+        .carousel-control-prev {
+            left: 0;
+        }
 
-.carousel-control-next {
-    right: 0;
-}
+        .carousel-control-next {
+            right: 0;
+        }
+ /* Animation clignotante tarif */
+        .custom-animation {
+        animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
+    }
 
-/* Animation clignotante tarif */
-.custom-animation {
-    animation: infiniteBlink 2s infinite;
-}
+    
+        @keyframes infiniteBlink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+    /* Fin Animation clignotante tarif */
 
-@keyframes infiniteBlink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-}
+    .pricecard{
+font-size: 25px !important;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: -100px;
 
-.pricecard {
-    font-size: 25px !important;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: -100px;
-}
+    }
 
-.info {
+    .info {
     font-size: 30px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 5px solid #e06717e4;
-}
-
-/* Styles pour mobile */
-@media (max-width: 767px) {
-    #tarifCarouselMobile .card {
-        margin: 0 auto;
-        max-width: 300px;
-        background-image: url('Images/fondBleu.png');
-        background-size: cover;
-        background-position: center;
-        border: none;
-    }
-
-    #tarifCarouselMobile .card-img-top {
-        height: 200px;
-        object-fit: cover;
-    }
-
-    #tarifCarouselMobile .card-body {
-        background-color: rgba(0, 0, 0, 0.7);
-        color: white;
-    }
-
-    #tarifCarouselMobile .card-title {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    #tarifCarouselMobile .card-text {
-        font-size: 1.2rem;
-        animation: infiniteBlink 2s infinite;
-    }
-
-    #tarifCarouselMobile .btn {
-        background-color: #e06717;
-        border: none;
-        font-size: 1.2rem;
-        padding: 10px 20px;
-    }
-
-    #tarifCarouselMobile .carousel-control-prev,
-    #tarifCarouselMobile .carousel-control-next {
-        width: 40px;
-        height: 40px;
-        background-color: #e06717e4;
-        border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    #tarifCarouselMobile .carousel-control-prev {
-        left: 10px;
-    }
-
-    #tarifCarouselMobile .carousel-control-next {
-        right: 10px;
-    }
+    border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
+   
 }
 
 /* Discord */

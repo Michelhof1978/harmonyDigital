@@ -10,7 +10,7 @@ h4 {
 }
 
         /* CARDS */
-    /* Styles de base pour desktop */
+        /* Styles de base pour desktop */
 .card {
     transform: scale(0.7);
     transform-origin: center center;
@@ -137,6 +137,12 @@ h4 {
     #tarifCarouselMobile .carousel-control-next {
         right: 10px;
     }
+}
+    .info {
+    font-size: 30px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 5px solid #e06717e4; /* Vous pouvez ajuster l'épaisseur selon vos besoins */
+   
 }
 
 /* Discord */

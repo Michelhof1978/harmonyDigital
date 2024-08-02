@@ -4,60 +4,84 @@
     <?php include("head.php"); ?>
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
-    <style>
-h4 {
-    color: #FFFF66; /* Jaune néon très clair */
-}
-
-        /* CARDS */
-    /* Styles de base pour desktop */
+    /* Généralités pour les cartes */
 .card {
     transform: scale(0.7);
     transform-origin: center center;
-    flex: 1 0 30%;
     box-sizing: border-box;
-    margin: 0 -90px;
+    margin: 0 15px; /* Ajuste les marges autour des cartes */
     background-image: url('Images/fondBleu.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%; /* Prend toute la largeur du conteneur */
+    max-width: 350px; /* Largeur maximale de chaque carte */
 }
 
-.carousel-inner .d-flex > .card:first-child,
-.carousel-inner .d-flex > .card:last-child {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
+/* Affichage des cartes dans le carrousel */
 .carousel-inner .d-flex {
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Assure que les cartes ne se replient pas */
     justify-content: center;
-    margin-bottom: 80px;
 }
 
-.carousel-container {
-    position: relative;
-    padding: 20px;
-    margin-top: -70px;
+.carousel-item {
+    display: flex;
+    justify-content: center;
 }
 
+@media (max-width: 991.98px) { /* Tablettes et petits écrans */
+    .carousel-inner .d-flex {
+        flex-wrap: wrap; /* Permet aux cartes de se réorganiser */
+    }
+
+    .carousel-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 15px; /* Ajoute un espacement intérieur */
+    }
+
+    .card {
+        margin: 0 10px; /* Ajuste les marges autour des cartes */
+        flex: 1 0 45%; /* Assure que deux cartes se tiennent sur la ligne */
+    }
+}
+
+@media (max-width: 767.98px) { /* Mobiles */
+    .carousel-inner .d-flex {
+        flex-wrap: wrap; /* Permet aux cartes de se réorganiser */
+    }
+
+    .carousel-item {
+        display: flex;
+        flex-direction: column; /* Les cartes s'empilent verticalement */
+        align-items: center;
+    }
+
+    .card {
+        margin: 0 0 20px; /* Ajuste les marges autour des cartes */
+        flex: 1 0 90%; /* Assure que les cartes prennent presque toute la largeur */
+        max-width: none; /* Enlève la largeur maximale pour les petits écrans */
+    }
+}
+
+/* Contrôles du carrousel */
 .carousel-control-prev,
 .carousel-control-next {
     position: absolute;
     top: 50%;
     width: 40px;
     height: 40px;
-    margin-top: -70px;
     background-color: #e06717e4;
     border-radius: 50%;
+    transform: translateY(-50%);
 }
 
 .carousel-control-prev {
-    left: 0;
+    left: 10px;
 }
 
 .carousel-control-next {
-    right: 0;
+    right: 10px;
 }
 
 /* Animation clignotante tarif */
@@ -66,8 +90,17 @@ h4 {
 }
 
 @keyframes infiniteBlink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Autres styles déjà définis */
+h4 {
+    color: #FFFF66; /* Jaune néon très clair */
 }
 
 .pricecard {
@@ -79,212 +112,30 @@ h4 {
 .info {
     font-size: 30px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 5px solid #e06717e4;
+    border: 5px solid #e06717e4; /* Ajustez l'épaisseur selon vos besoins */
 }
 
-/* Styles pour mobile */
-@media (max-width: 767px) {
-    #tarifCarouselMobile .card {
-        margin: 0 auto;
-        max-width: 300px;
-        background-image: url('Images/fondBleu.png');
-        background-size: cover;
-        background-position: center;
-        border: none;
-    }
-
-    #tarifCarouselMobile .card-img-top {
-        height: 200px;
-        object-fit: cover;
-    }
-
-    #tarifCarouselMobile .card-body {
-        background-color: rgba(0, 0, 0, 0.7);
-        color: white;
-    }
-
-    #tarifCarouselMobile .card-title {
-        font-size: 1.5rem;
-        font-weight: bold;
-    }
-
-    #tarifCarouselMobile .card-text {
-        font-size: 1.2rem;
-        animation: infiniteBlink 2s infinite;
-    }
-
-    #tarifCarouselMobile .btn {
-        background-color: #e06717;
-        border: none;
-        font-size: 1.2rem;
-        padding: 10px 20px;
-    }
-
-    #tarifCarouselMobile .carousel-control-prev,
-    #tarifCarouselMobile .carousel-control-next {
-        width: 40px;
-        height: 40px;
-        background-color: #e06717e4;
-        border-radius: 50%;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    #tarifCarouselMobile .carousel-control-prev {
-        left: 10px;
-    }
-
-    #tarifCarouselMobile .carousel-control-next {
-        right: 10px;
-    }
-}
-
-/* Discord */
-.text-decoration-custom {
-    text-decoration: none; /* Évite le soulignement du lien */
-}
-
-.text-decoration-custom:hover .text-orange-nav2 {
-    color: white; /* Change la couleur du texte en blanc au survol */
-}
-
-/* Domaine de compétence */
-.textIntro {
-	margin-top: 40px;
-    background-image: url('Images/fondBleu.png');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
-}
-
-.robotIndex {
-	position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 20%; 
-    
-}
-
-.neon-yellow {
-    color: rgba(255, 255, 51, 0.8); /* Code couleur pour un jaune néon plus clair et plus transparent */
-    text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
-                 0 0 10px rgba(255, 255, 51, 0.5), 
-                 0 0 20px rgba(255, 255, 51, 0.5);
-    box-shadow: 0 0 10px rgba(255, 255, 51, 0.5), 
-                0 0 20px rgba(255, 255, 51, 0.3), 
-                0 0 30px rgba(255, 255, 51, 0.2);
-    border-radius: 10px; /* Légèrement arrondir les bords */
-    padding: 10px; /* Ajouter du padding pour que l'effet soit plus visible */
-    display: inline-block; /* Nécessaire pour que le box-shadow soit visible */
-}
-
-
-.neon-section {
-  border-radius: 5px;
-}
-
-.robotDomaine {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 150px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
-}
-.robotSeparateur {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 100px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  
-}
-.h2competence {
-  margin-top: -70px;
-}
- /* Fin domaine de compétence*/
-
-  /*Intro*/
-.offre {
-    margin-left: 100px;  
- } 
-
- .intro {
-    margin-right: 60px;
-    margin-top: 30px;
-    background-image: url('Images/fondBleu.png');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
-   border-radius: 5px;
-     
- } 
- /*Fin Intro*/
-  /*Intro2*/
- .robotDomaine2 {
-    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
-    height: auto; /* Conserve le ratio de l'image */
-    position: absolute; /* Positionnement absolu */
-    left: 0; /* Aligne l'image complètement à gauche */
-    top: 40px; /* Décale l'image vers le bas depuis le haut du conteneur */
-    margin-top: 300px;
-}
-
-.intro2 {
-    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
-    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
-}
-
-/*fin Intro2*/
-/*Section VIDEOCOM*/
-.text-orange-video {
-  color: #e06717e4;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.videoCom {
-  padding: 15px;
-  border: 1px solid #ddd;
-  background: #FFF;
-  background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-  border-radius: 2px;
-  box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-  margin-bottom: 20px;
-}
-
-.embed-responsive iframe {
-  width: 100%;
-  height: 315px;
-}
-
-@media (max-width: 767px) {
-  .row > div:first-child {
-    margin-bottom: 20px;
-  }
-}
-/*Fin Section VIDEOCOM*/
-
- /* Styles généraux du popup */
- .popup {
+/* Styles spécifiques aux éléments de popup */
+.popup {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
     text-align: center;
-    max-width: 90%; /* Largeur max pour le popup */
-    max-height: 90%; /* Hauteur max pour le popup */
-    overflow: hidden; /* Empêche le débordement */
-  }
+    max-width: 90%;
+    max-height: 90%;
+    overflow: hidden;
+}
 
-  .popup img {
-    max-height: 100%; /* Ajuster l'image pour remplir le popup */
+.popup img {
+    max-height: 100%;
     max-width: 100%;
     width: auto;
     height: auto;
-  }
+}
 
-  .popup button {
+.popup button {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -295,28 +146,27 @@ h4 {
     font-size: 20px;
     padding: 0;
     margin: 0;
-  }
+}
 
-  /* Styles pour tablettes */
-  @media (max-width: 768px) {
+/* Ajustements pour les tablettes et mobiles */
+@media (max-width: 768px) {
     .popup {
-      max-width: 80%; /* Ajuster la largeur max pour les tablettes */
-      max-height: 80%; /* Ajuster la hauteur max pour les tablettes */
+        max-width: 80%;
+        max-height: 80%;
     }
-  }
+}
 
-  /* Styles pour mobiles */
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
     .popup {
-      max-width: 95%; /* Ajuster la largeur max pour les mobiles */
-      max-height: 95%; /* Ajuster la hauteur max pour les mobiles */
+        max-width: 95%;
+        max-height: 95%;
     }
 
     .popup button {
-      font-size: 18px; /* Réduire la taille du bouton de fermeture sur les mobiles */
+        font-size: 18px;
     }
-  }
-    </style>
+}
+
 </head>
 <body>
     
@@ -324,7 +174,7 @@ h4 {
     <div id="binary-background"></div>
  <!-- INTRO-->
 <div class="mt-5">
-    <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
+    <h1 class="border borderColor border-4 rounded p-2 col m-2 text-center">
         <strong class="text-white">Votre Partenaire pour la Création de Sites Web Professionnels</strong>
     </h1>
 </div>
@@ -371,40 +221,36 @@ h4 {
         </p>
     </div>
 
-    <!-- Version desktop -->
-    <div id="tarifCarouselDesktop" class="carousel slide carousel-container d-none d-md-block">
+    <div id="tarifCarousel" class="carousel slide">
         <div class="carousel-inner">
             <!-- Premier groupe de cartes -->
             <div class="carousel-item active">
-                <div class="d-flex justify-content-center">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-5">Plus d'infos !</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card">
+                            <img src="images/card1.png" class="card-img-top" alt="site internet">
+                            <div class="card-body">
+                                <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                    <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card">
+                            <img src="images/card2.png" class="card-img-top" alt="site internet">
+                            <div class="card-body">
+                                <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
                         </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card">
+                            <img src="images/card3.png" class="card-img-top" alt="site internet">
+                            <div class="card-body">
+                                <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -412,82 +258,44 @@ h4 {
 
             <!-- Deuxième groupe de cartes -->
             <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                <div class="row">
+                    <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card">
+                            <img src="images/card4.png" class="card-img-top" alt="site internet">
+                            <div class="card-body">
+                                <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                    <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card">
+                            <img src="images/card5.png" class="card-img-top" alt="site internet">
+                            <div class="card-body">
+                                <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
                         </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
-                        <div class="card-body fs-5 mb-5">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
+                        <div class="card">
+                            <img src="images/card6.png" class="card-img-top" alt="site internet">
+                            <div class="card-body">
+                                <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
+                                <a href=".php" class="info btn text-white">Plus d'infos !</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Contrôles du carrousel desktop -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarouselDesktop" data-bs-slide="prev">
+        <!-- Contrôles du carrousel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#tarifCarouselDesktop" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!-- Version mobile -->
-    <div id="tarifCarouselMobile" class="carousel slide d-md-none">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="card">
-                    <img src="images/card1.png" class="card-img-top" alt="Service 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Service 1</h5>
-                        <p class="card-text">À partir de 890,00 €</p>
-                        <a href="#" class="btn btn-primary">Plus d'infos !</a>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="card">
-                    <img src="images/card2.png" class="card-img-top" alt="Service 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Service 2</h5>
-                        <p class="card-text">À partir de 790,00 €</p>
-                        <a href="#" class="btn btn-primary">Plus d'infos !</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Répétez pour les autres services -->
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarouselMobile" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#tarifCarouselMobile" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#tarifCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
