@@ -227,7 +227,7 @@ margin-top: -100px;
             <p class="fs-5 lead intro p-3">
                 <strong>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau Discord.</strong>
             </p>
-            <p class="mt-4 mb-5 lead fs-4 me-5 neon-yellow text-center text-white">
+            <p class="mt-4 mb-5 lead fs-4 me-3 neon-yellow text-center text-white">
                 <strong>
                     Conception de Sites Internet<br>
                     Réalisation Maquettes et Logos<br>

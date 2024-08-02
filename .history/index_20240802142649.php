@@ -224,10 +224,10 @@ margin-top: -100px;
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white text-center order-3 order-md-2">
-            <p class="fs-5 lead intro p-3">
+            <p class="fs-5 lead intro -3">
                 <strong>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau Discord.</strong>
             </p>
-            <p class="mt-4 mb-5 lead fs-4 me-5 neon-yellow text-center text-white">
+            <p class="mt-2 mb-5 lead fs-4 neon-yellow text-center text-white">
                 <strong>
                     Conception de Sites Internet<br>
                     Réalisation Maquettes et Logos<br>

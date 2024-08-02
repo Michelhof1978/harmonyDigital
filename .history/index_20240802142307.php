@@ -224,10 +224,10 @@ margin-top: -100px;
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white text-center order-3 order-md-2">
-            <p class="fs-5 lead intro p-3">
+            <p class="fs-5 lead">
                 <strong>Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau Discord.</strong>
             </p>
-            <p class="mt-4 mb-5 lead fs-4 me-5 neon-yellow text-center text-white">
+            <p class="mt-2 mb-5 lead fs-4 neon-yellow text-center text-white">
                 <strong>
                     Conception de Sites Internet<br>
                     Réalisation Maquettes et Logos<br>
@@ -247,7 +247,7 @@ margin-top: -100px;
      <section class="text-center mt-4 ms-2 me-2">
         <div>
             <h2 class="border borderColor border-4 rounded p-2  m-5">
-                <strong class="text-white">Nos Prestations</strong>
+                <strong class="text-white"><span class="text-orange-titre">Nos<span class="text-orange-titre"> P</span>restations</strong>
                 <p class="text-white lead fs-2"><strong>Des prestations adaptées à vos besoins</strong></p>
             </h2>
             
