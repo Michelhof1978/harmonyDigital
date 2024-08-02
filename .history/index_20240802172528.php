@@ -213,58 +213,6 @@ margin-top: -100px;
 }
 /*Fin Section VIDEOCOM*/
 
- /* Styles généraux du popup */
- .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    text-align: center;
-    max-width: 90%; /* Largeur max pour le popup */
-    max-height: 90%; /* Hauteur max pour le popup */
-    overflow: hidden; /* Empêche le débordement */
-  }
-
-  .popup img {
-    max-height: 100%; /* Ajuster l'image pour remplir le popup */
-    max-width: 100%;
-    width: auto;
-    height: auto;
-  }
-
-  .popup button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    color: black;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-  }
-
-  /* Styles pour tablettes */
-  @media (max-width: 768px) {
-    .popup {
-      max-width: 80%; /* Ajuster la largeur max pour les tablettes */
-      max-height: 80%; /* Ajuster la hauteur max pour les tablettes */
-    }
-  }
-
-  /* Styles pour mobiles */
-  @media (max-width: 480px) {
-    .popup {
-      max-width: 95%; /* Ajuster la largeur max pour les mobiles */
-      max-height: 95%; /* Ajuster la hauteur max pour les mobiles */
-    }
-
-    .popup button {
-      font-size: 18px; /* Réduire la taille du bouton de fermeture sur les mobiles */
-    }
-  }
     </style>
 </head>
 <body>
