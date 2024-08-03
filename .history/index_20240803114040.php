@@ -9,7 +9,174 @@ h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
 
+ /* CARDS */
+/* Styles généraux pour le carousel */
+.carousel-container {
+    position: relative;
+    padding: 20px;
+    margin-top: -70px;
+}
 
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -70px;
+    background-color: #e06717e4;
+    border-radius: 50%;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+/* Animation clignotante pour les tarifs */
+.custom-animation {
+    animation: infiniteBlink 2s infinite;
+}
+
+@keyframes infiniteBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.pricecard {
+    font-size: 20px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -70px;
+}
+
+.info {
+    font-size: 22px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px solid #e06717e4; 
+    padding: 5px 10px;
+}
+
+/* Media queries pour les écrans mobiles */
+@media (max-width: 768px) {
+    .carousel-inner {
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    .carousel-item {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+    }
+
+    .card {
+        transform: scale(0.75);
+        margin: 10px auto;
+        width: 80%;
+        max-width: 250px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .pricecard {
+        font-size: 18px !important;
+        margin-top: -50px;
+    }
+
+    .info {
+        font-size: 16px !important;
+        border-width: 2px;
+        padding: 4px 8px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-top: -20px;
+    }
+
+    .carousel-inner .d-flex {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-inner .d-flex > .card:first-child,
+    .carousel-inner .d-flex > .card:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 40px;
+        height: 40px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(224, 103, 23, 0.8);
+        border-radius: 50%;
+        opacity: 0.8;
+    }
+
+    .carousel-control-prev {
+        left: 5%;
+    }
+
+    .carousel-control-next {
+        right: 5%;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .imgcard {
+        max-height: 180px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 769px) {
+    .card-group {
+        display: flex;
+    }
+    .card {
+        flex: 1 0 30%;
+    }
+    .mobile-hide {
+        display: block;
+    }
+}
+
+/* Styles pour les cartes */
+.card {
+    transform: scale(0.7);
+    transform-origin: center center;
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    margin: 0 -90px;
+    background-image: url('Images/fondBleu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner .d-flex > .card:first-child,
+.carousel-inner .d-flex > .card:last-child {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.carousel-inner .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+/* FIN CARDS */
 
 /* Discord */
 .text-decoration-custom {
@@ -188,176 +355,6 @@ h4 {
       font-size: 18px; /* Réduire la taille du bouton de fermeture sur les mobiles */
     }
   }
-
-   /* CARDS CAROUSEL */
-/* Styles généraux pour le carousel */
-.carousel-container {
-    position: relative;
-    padding: 20px;
-    margin-top: -70px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    position: absolute;
-    top: 50%;
-    width: 40px;
-    height: 40px;
-    margin-top: -70px;
-    background-color: #e06717e4;
-    border-radius: 50%;
-}
-
-.carousel-control-prev {
-    left: 0;
-}
-
-.carousel-control-next {
-    right: 0;
-}
-
-/* Animation clignotante pour les tarifs */
-.custom-animation {
-    animation: infiniteBlink 2s infinite;
-}
-
-@keyframes infiniteBlink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0; }
-}
-
-.pricecard {
-    font-size: 20px !important;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: -70px;
-}
-
-.info {
-    font-size: 22px !important;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 3px solid #e06717e4; 
-    padding: 5px 10px;
-}
-
-/* Media queries pour les écrans mobiles */
-@media (max-width: 768px) {
-    .carousel-inner {
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-    }
-
-    .carousel-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
-    }
-
-    .card {
-        transform: scale(0.75);
-        margin: 10px auto;
-        width: 80%;
-        max-width: 250px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .pricecard {
-        font-size: 18px !important;
-        margin-top: -50px;
-    }
-
-    .info {
-        font-size: 16px !important;
-        border-width: 2px;
-        padding: 4px 8px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        margin-top: -20px;
-    }
-
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .carousel-inner .d-flex > .card:first-child,
-    .carousel-inner .d-flex > .card:last-child {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 40px;
-        height: 40px;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: rgba(224, 103, 23, 0.8);
-        border-radius: 50%;
-        opacity: 0.8;
-    }
-
-    .carousel-control-prev {
-        left: 5%;
-    }
-
-    .carousel-control-next {
-        right: 5%;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        width: 20px;
-        height: 20px;
-    }
-
-    .imgcard {
-        max-height: 180px;
-        object-fit: cover;
-    }
-}
-
-@media (min-width: 769px) {
-    .card-group {
-        display: flex;
-    }
-    .card {
-        flex: 1 0 30%;
-    }
-    .mobile-hide {
-        display: block;
-    }
-}
-
-/* Styles pour les cartes */
-.card {
-    transform: scale(0.7);
-    transform-origin: center center;
-    flex: 1 0 30%;
-    box-sizing: border-box;
-    margin: 0 -90px;
-    background-image: url('Images/fondBleu.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.carousel-inner .d-flex > .card:first-child,
-.carousel-inner .d-flex > .card:last-child {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.carousel-inner .d-flex {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 80px;
-}
-
-/* FIN CARDS CAROUSEL */
-
     </style>
 </head>
 <body>
@@ -556,9 +553,9 @@ h4 {
     <?php include("footer.php"); ?>
 </body>
 
+ <!-- COOKIES -->
 
- <!-- ------------------------------------------------------------------- -->
-   <!-- COOKIES -->
+ <!--  -->
 <script>
     // Fonction pour obtenir la valeur d'un cookie
     function getCookie(name) {

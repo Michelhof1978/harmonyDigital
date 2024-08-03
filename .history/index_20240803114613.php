@@ -9,187 +9,7 @@ h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
 
-
-
-/* Discord */
-.text-decoration-custom {
-    text-decoration: none; /* Évite le soulignement du lien */
-}
-
-.text-decoration-custom:hover .text-orange-nav2 {
-    color: white; /* Change la couleur du texte en blanc au survol */
-}
-
-/* Domaine de compétence */
-.textIntro {
-	margin-top: 40px;
-    background-image: url('Images/fondBleu.png');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
-}
-
-.robotIndex {
-	position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    width: 20%; 
-    
-}
-
-.neon-yellow {
-    color: rgba(255, 255, 51, 0.8); /* Code couleur pour un jaune néon plus clair et plus transparent */
-    text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
-                 0 0 10px rgba(255, 255, 51, 0.5), 
-                 0 0 20px rgba(255, 255, 51, 0.5);
-    box-shadow: 0 0 10px rgba(255, 255, 51, 0.5), 
-                0 0 20px rgba(255, 255, 51, 0.3), 
-                0 0 30px rgba(255, 255, 51, 0.2);
-    border-radius: 10px; /* Légèrement arrondir les bords */
-    padding: 10px; /* Ajouter du padding pour que l'effet soit plus visible */
-    display: inline-block; /* Nécessaire pour que le box-shadow soit visible */
-}
-
-
-.neon-section {
-  border-radius: 5px;
-}
-
-.robotDomaine {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 150px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  margin-top: 20px;
-}
-.robotSeparateur {
-    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
-  height: 100px; /* Conserve le ratio de l'image */
-  display: block;
-  margin: 0 auto; /* Centre l'image */
-  
-}
-.h2competence {
-  margin-top: -70px;
-}
- /* Fin domaine de compétence*/
-
-  /*Intro*/
-.offre {
-    margin-left: 100px;  
- } 
-
- .intro {
-    margin-right: 60px;
-    margin-top: 30px;
-    background-image: url('Images/fondBleu.png');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
-   border-radius: 5px;
-     
- } 
- /*Fin Intro*/
-  /*Intro2*/
- .robotDomaine2 {
-    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
-    height: auto; /* Conserve le ratio de l'image */
-    position: absolute; /* Positionnement absolu */
-    left: 0; /* Aligne l'image complètement à gauche */
-    top: 40px; /* Décale l'image vers le bas depuis le haut du conteneur */
-    margin-top: 300px;
-}
-
-.intro2 {
-    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
-    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
-}
-
-/*fin Intro2*/
-/*Section VIDEOCOM*/
-.text-orange-video {
-  color: #e06717e4;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.videoCom {
-  padding: 15px;
-  border: 1px solid #ddd;
-  background: #FFF;
-  background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
-  border-radius: 2px;
-  box-shadow: 0 0 3px rgba(0,0,0, 0.2);
-  margin-bottom: 20px;
-}
-
-.embed-responsive iframe {
-  width: 100%;
-  height: 315px;
-}
-
-@media (max-width: 767px) {
-  .row > div:first-child {
-    margin-bottom: 20px;
-  }
-}
-/*Fin Section VIDEOCOM*/
-
- /* Styles généraux du popup */
- .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-    text-align: center;
-    max-width: 90%; /* Largeur max pour le popup */
-    max-height: 90%; /* Hauteur max pour le popup */
-    overflow: hidden; /* Empêche le débordement */
-  }
-
-  .popup img {
-    max-height: 100%; /* Ajuster l'image pour remplir le popup */
-    max-width: 100%;
-    width: auto;
-    height: auto;
-  }
-
-  .popup button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    color: black;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-  }
-
-  /* Styles pour tablettes */
-  @media (max-width: 768px) {
-    .popup {
-      max-width: 80%; /* Ajuster la largeur max pour les tablettes */
-      max-height: 80%; /* Ajuster la hauteur max pour les tablettes */
-    }
-  }
-
-  /* Styles pour mobiles */
-  @media (max-width: 480px) {
-    .popup {
-      max-width: 95%; /* Ajuster la largeur max pour les mobiles */
-      max-height: 95%; /* Ajuster la hauteur max pour les mobiles */
-    }
-
-    .popup button {
-      font-size: 18px; /* Réduire la taille du bouton de fermeture sur les mobiles */
-    }
-  }
-
-   /* CARDS CAROUSEL */
+ /* CARDS */
 /* Styles généraux pour le carousel */
 .carousel-container {
     position: relative;
@@ -356,8 +176,186 @@ h4 {
     margin-bottom: 80px;
 }
 
-/* FIN CARDS CAROUSEL */
+/* FIN CARDS */
 
+/* Discord */
+.text-decoration-custom {
+    text-decoration: none; /* Évite le soulignement du lien */
+}
+
+.text-decoration-custom:hover .text-orange-nav2 {
+    color: white; /* Change la couleur du texte en blanc au survol */
+}
+
+/* Domaine de compétence */
+.textIntro {
+	margin-top: 40px;
+    background-image: url('Images/fondBleu.png');
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+}
+
+.robotIndex {
+	position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 20%; 
+    
+}
+
+.neon-yellow {
+    color: rgba(255, 255, 51, 0.8); /* Code couleur pour un jaune néon plus clair et plus transparent */
+    text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
+                 0 0 10px rgba(255, 255, 51, 0.5), 
+                 0 0 20px rgba(255, 255, 51, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 51, 0.5), 
+                0 0 20px rgba(255, 255, 51, 0.3), 
+                0 0 30px rgba(255, 255, 51, 0.2);
+    border-radius: 10px; /* Légèrement arrondir les bords */
+    padding: 10px; /* Ajouter du padding pour que l'effet soit plus visible */
+    display: inline-block; /* Nécessaire pour que le box-shadow soit visible */
+}
+
+
+.neon-section {
+  border-radius: 5px;
+}
+
+.robotDomaine {
+    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
+  height: 150px; /* Conserve le ratio de l'image */
+  display: block;
+  margin: 0 auto; /* Centre l'image */
+  margin-top: 20px;
+}
+.robotSeparateur {
+    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
+  height: 100px; /* Conserve le ratio de l'image */
+  display: block;
+  margin: 0 auto; /* Centre l'image */
+  
+}
+.h2competence {
+  margin-top: -70px;
+}
+ /* Fin domaine de compétence*/
+
+  /*Intro*/
+.offre {
+    margin-left: 100px;  
+ } 
+
+ .intro {
+    margin-right: 60px;
+    margin-top: 30px;
+    background-image: url('Images/fondBleu.png');
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 5px;
+     
+ } 
+ /*Fin Intro*/
+  /*Intro2*/
+ .robotDomaine2 {
+    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
+    height: auto; /* Conserve le ratio de l'image */
+    position: absolute; /* Positionnement absolu */
+    left: 0; /* Aligne l'image complètement à gauche */
+    top: 40px; /* Décale l'image vers le bas depuis le haut du conteneur */
+    margin-top: 300px;
+}
+
+.intro2 {
+    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
+    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
+}
+
+/*fin Intro2*/
+/*Section VIDEOCOM*/
+.text-orange-video {
+  color: #e06717e4;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.videoCom {
+  padding: 15px;
+  border: 1px solid #ddd;
+  background: #FFF;
+  background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
+  border-radius: 2px;
+  box-shadow: 0 0 3px rgba(0,0,0, 0.2);
+  margin-bottom: 20px;
+}
+
+.embed-responsive iframe {
+  width: 100%;
+  height: 315px;
+}
+
+@media (max-width: 767px) {
+  .row > div:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+/*Fin Section VIDEOCOM*/
+
+ /* Styles généraux du popup */
+ .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    max-width: 90%; /* Largeur max pour le popup */
+    max-height: 90%; /* Hauteur max pour le popup */
+    overflow: hidden; /* Empêche le débordement */
+  }
+
+  .popup img {
+    max-height: 100%; /* Ajuster l'image pour remplir le popup */
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .popup button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Styles pour tablettes */
+  @media (max-width: 768px) {
+    .popup {
+      max-width: 80%; /* Ajuster la largeur max pour les tablettes */
+      max-height: 80%; /* Ajuster la hauteur max pour les tablettes */
+    }
+  }
+
+  /* Styles pour mobiles */
+  @media (max-width: 480px) {
+    .popup {
+      max-width: 95%; /* Ajuster la largeur max pour les mobiles */
+      max-height: 95%; /* Ajuster la hauteur max pour les mobiles */
+    }
+
+    .popup button {
+      font-size: 18px; /* Réduire la taille du bouton de fermeture sur les mobiles */
+    }
+  }
     </style>
 </head>
 <body>
@@ -555,7 +553,6 @@ h4 {
 
     <?php include("footer.php"); ?>
 </body>
-
 
  <!-- ------------------------------------------------------------------- -->
    <!-- COOKIES -->
