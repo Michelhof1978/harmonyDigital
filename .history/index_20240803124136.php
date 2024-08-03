@@ -366,8 +366,9 @@ h4 {
 }
 
 /* FIN CARDS CAROUSEL */
-</style>
 
+    </style>
+    
 </head>
 <body>
     <?php include("header.php"); ?>

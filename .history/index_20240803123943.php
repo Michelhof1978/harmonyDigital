@@ -233,7 +233,6 @@ h4 {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
 }
-/* FIN Animation clignotante pour les tarifs */
 
 .pricecard {
     font-size: 30px !important;
@@ -366,8 +365,8 @@ h4 {
 }
 
 /* FIN CARDS CAROUSEL */
-</style>
 
+    </style>
 </head>
 <body>
     <?php include("header.php"); ?>

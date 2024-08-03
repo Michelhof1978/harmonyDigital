@@ -90,9 +90,6 @@ h4 {
      
  } 
  /*Fin Intro*/
-
-    /* ------------------------------------------------------------------------- */
-
   /*Intro2*/
  .robotDomaine2 {
     max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
@@ -109,9 +106,6 @@ h4 {
 }
 
 /*fin Intro2*/
-
-   /* ------------------------------------------------------------------------- */
-
 /*Section VIDEOCOM*/
 .text-orange-video {
   color: #e06717e4;
@@ -233,7 +227,6 @@ h4 {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
 }
-/* FIN Animation clignotante pour les tarifs */
 
 .pricecard {
     font-size: 30px !important;
@@ -366,8 +359,8 @@ h4 {
 }
 
 /* FIN CARDS CAROUSEL */
-</style>
 
+    </style>
 </head>
 <body>
     <?php include("header.php"); ?>

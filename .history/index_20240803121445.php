@@ -8,7 +8,8 @@
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
-   /* ------------------------------------------------------------------------- */
+
+
 
 /* Discord */
 .text-decoration-custom {
@@ -90,9 +91,6 @@ h4 {
      
  } 
  /*Fin Intro*/
-
-    /* ------------------------------------------------------------------------- */
-
   /*Intro2*/
  .robotDomaine2 {
     max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
@@ -109,9 +107,6 @@ h4 {
 }
 
 /*fin Intro2*/
-
-   /* ------------------------------------------------------------------------- */
-
 /*Section VIDEOCOM*/
 .text-orange-video {
   color: #e06717e4;
@@ -140,8 +135,6 @@ h4 {
   }
 }
 /*Fin Section VIDEOCOM*/
-
-   /* ------------------------------------------------------------------------- */
 
  /* Styles généraux du popup */
  .popup {
@@ -195,14 +188,13 @@ h4 {
       font-size: 18px; /* Réduire la taille du bouton de fermeture sur les mobiles */
     }
   }
-   /* ------------------------------------------------------------------------- */
-  
+
    /* CARDS CAROUSEL */
 /* Styles généraux pour le carousel */
 .carousel-container {
     position: relative;
     padding: 20px;
-    margin-top: -50px;
+    margin-top: -70px;
 }
 
 .carousel-control-prev,
@@ -233,10 +225,9 @@ h4 {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
 }
-/* FIN Animation clignotante pour les tarifs */
 
 .pricecard {
-    font-size: 30px !important;
+    font-size: 20px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -70px;
 }
@@ -271,7 +262,7 @@ h4 {
 
     .pricecard {
         font-size: 18px !important;
-        margin-top: -30px;
+        margin-top: -50px;
     }
 
     .info {
@@ -366,8 +357,8 @@ h4 {
 }
 
 /* FIN CARDS CAROUSEL */
-</style>
 
+    </style>
 </head>
 <body>
     <?php include("header.php"); ?>
@@ -447,7 +438,7 @@ h4 {
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             </div>
-                            <strong class="pricecard text-white custom-animation mb-5 ">À partir de 125,00 €</strong>
+                            <strong class="pricecard text-white custom-animation mb-5 fs-"">À partir de 125,00 €</strong>
                             <div class="card-body">
                                 <a href="votre-url-3" class="info btn text-white">Plus d'infos !</a>
                             </div>
