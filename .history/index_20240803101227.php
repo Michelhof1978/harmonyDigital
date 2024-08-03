@@ -10,83 +10,94 @@ h4 {
 }
 
  /* CARDS */
-        .card {
-            transform: scale(0.7);
-            transform-origin: center center;
-            flex: 1 0 30%;
-            box-sizing: border-box;
-            margin: 0 -90px;
-            background-image: url('Images/fondBleu.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+.card {
+    transform: scale(0.7);
+    transform-origin: center center;
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    margin: 0 -90px;
+    background-image: url('Images/fondBleu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-        .carousel-inner .d-flex > .card:first-child,
-        .carousel-inner .d-flex > .card:last-child {
-            margin-left: 30px;
-            margin-right: 30px;
-        }
-
-        .carousel-inner .d-flex {
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-bottom: 80px;
-        }
-
-        .carousel-container {
-            position: relative;
-            padding: 20px;
-            margin-top: -70px;
-        }
-
-        .carousel-control-prev,
-        .carousel-control-next {
-            position: absolute;
-            top: 50%;
-            width: 40px;
-            height: 40px;
-            margin-top: -70px;
-            background-color: #e06717e4;
-            border-radius: 50%;
-        }
-
-        .carousel-control-prev {
-            left: 0;
-        }
-
-        .carousel-control-next {
-            right: 0;
-        }
- /* Animation clignotante tarif */
-        .custom-animation {
-        animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
+@media (max-width: 768px) {
+    .carousel-inner .d-flex {
+        flex-wrap: nowrap;
     }
-
-    
-        @keyframes infiniteBlink {
-        0%, 100% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
+    .card {
+        transform: none;
+        margin: 0 auto;
+        max-width: 90%;
     }
-    /* Fin Animation clignotante tarif */
+}
 
-    .pricecard{
-font-size: 25px !important;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-margin-top: -100px;
+.carousel-inner .d-flex > .card:first-child,
+.carousel-inner .d-flex > .card:last-child {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
+.carousel-inner .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.carousel-container {
+    position: relative;
+    padding: 20px;
+    margin-top: -70px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -70px;
+    background-color: #e06717e4;
+    border-radius: 50%;
+}
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+/* Animation clignotante tarif */
+.custom-animation {
+    animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
+}
+
+@keyframes infiniteBlink {
+    0%, 100% {
+        opacity: 1;
     }
+    50% {
+        opacity: 0;
+    }
+}
+/* Fin Animation clignotante tarif */
 
-    .info {
+.pricecard {
+    font-size: 25px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -100px;
+}
+
+.info {
     font-size: 30px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 5px solid #e06717e4; 
 }
- /* FIN CARDS */
+/* FIN CARDS */
+
 
 /* Discord */
 .text-decoration-custom {
@@ -309,7 +320,7 @@ margin-top: -100px;
 <!-- FIN INTRO-->
 
 
-     <!-- PRESTATIONS -->
+     <!-- PRESTATIONS  CAROUSEL-->
      <section class="text-center mt-4 ms-2 me-2">
 
         <div>

@@ -86,7 +86,7 @@ margin-top: -100px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 5px solid #e06717e4; 
 }
- /* FIN CARDS */
+ /* FINCARDS */
 
 /* Discord */
 .text-decoration-custom {
