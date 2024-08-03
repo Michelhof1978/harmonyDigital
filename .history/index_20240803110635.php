@@ -10,7 +10,30 @@ h4 {
 }
 
  /* CARDS */
-/* Styles généraux pour le carousel */
+.card {
+    transform: scale(0.7);
+    transform-origin: center center;
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    margin: 0 -90px;
+    background-image: url('Images/fondBleu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner .d-flex > .card:first-child,
+.carousel-inner .d-flex > .card:last-child {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.carousel-inner .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
 .carousel-container {
     position: relative;
     padding: 20px;
@@ -36,7 +59,7 @@ h4 {
     right: 0;
 }
 
-/* Animation clignotante pour les tarifs */
+/* Animation clignotante tarif */
 .custom-animation {
     animation: infiniteBlink 2s infinite;
 }
@@ -47,133 +70,76 @@ h4 {
 }
 
 .pricecard {
-    font-size: 20px !important;
+    font-size: 25px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: -70px;
+    margin-top: -100px;
 }
 
 .info {
-    font-size: 22px !important;
+    font-size: 30px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 3px solid #e06717e4; 
-    padding: 5px 10px;
+    border: 5px solid #e06717e4;
 }
 
 /* Media queries pour les écrans mobiles */
 @media (max-width: 768px) {
-    .carousel-inner {
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+    #tarifCarousel {
+        padding: 0 5%;
     }
 
-    .carousel-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
+    .carousel-inner .d-flex {
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: hidden;
     }
 
     .card {
-        transform: scale(0.75);
-        margin: 10px auto;
-        width: 80%;
-        max-width: 250px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transform: scale(1);
+        margin: 0 10px;
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+
+    .carousel-item {
+        margin-right: 0;
+    }
+
+    .carousel-inner .d-flex > .card:not(:first-child) {
+        display: none;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 30px;
+        height: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+    }
+
+    .carousel-control-prev {
+        left: 0;
+    }
+
+    .carousel-control-next {
+        right: 0;
     }
 
     .pricecard {
-        font-size: 18px !important;
+        font-size: 20px !important;
         margin-top: -50px;
     }
 
     .info {
-        font-size: 16px !important;
-        border-width: 2px;
-        padding: 4px 8px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        margin-top: -20px;
-    }
-
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .carousel-inner .d-flex > .card:first-child,
-    .carousel-inner .d-flex > .card:last-child {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 40px;
-        height: 40px;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: rgba(224, 103, 23, 0.8);
-        border-radius: 50%;
-        opacity: 0.8;
-    }
-
-    .carousel-control-prev {
-        left: 5%;
-    }
-
-    .carousel-control-next {
-        right: 5%;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        width: 20px;
-        height: 20px;
+        font-size: 18px !important;
+        border-width: 3px;
+        padding: 5px 10px;
     }
 
     .imgcard {
-        max-height: 180px;
+        max-height: 150px;
         object-fit: cover;
     }
-}
-
-@media (min-width: 769px) {
-    .card-group {
-        display: flex;
-    }
-    .card {
-        flex: 1 0 30%;
-    }
-    .mobile-hide {
-        display: block;
-    }
-}
-
-/* Styles pour les cartes */
-.card {
-    transform: scale(0.7);
-    transform-origin: center center;
-    flex: 1 0 30%;
-    box-sizing: border-box;
-    margin: 0 -90px;
-    background-image: url('Images/fondBleu.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.carousel-inner .d-flex > .card:first-child,
-.carousel-inner .d-flex > .card:last-child {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.carousel-inner .d-flex {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 80px;
 }
 
 /* FIN CARDS */
@@ -508,6 +474,8 @@ h4 {
         </button>
     </div>
 </section>
+
+
     <!-- DOMAINE DE COMPETENCE -->
     <div class="text-center">
             <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">

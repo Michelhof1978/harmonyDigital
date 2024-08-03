@@ -9,8 +9,7 @@ h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
 
- /* CARDS */
-/* Styles généraux pour le carousel */
+ /* Styles généraux pour le carousel */
 .carousel-container {
     position: relative;
     padding: 20px;
@@ -176,7 +175,6 @@ h4 {
     margin-bottom: 80px;
 }
 
-/* FIN CARDS */
 
 /* Discord */
 .text-decoration-custom {

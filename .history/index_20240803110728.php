@@ -10,7 +10,30 @@ h4 {
 }
 
  /* CARDS */
-/* Styles généraux pour le carousel */
+.card {
+    transform: scale(0.7);
+    transform-origin: center center;
+    flex: 1 0 30%;
+    box-sizing: border-box;
+    margin: 0 -90px;
+    background-image: url('Images/fondBleu.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner .d-flex > .card:first-child,
+.carousel-inner .d-flex > .card:last-child {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.carousel-inner .d-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
 .carousel-container {
     position: relative;
     padding: 20px;
@@ -36,7 +59,7 @@ h4 {
     right: 0;
 }
 
-/* Animation clignotante pour les tarifs */
+/* Animation clignotante tarif */
 .custom-animation {
     animation: infiniteBlink 2s infinite;
 }
@@ -47,65 +70,91 @@ h4 {
 }
 
 .pricecard {
-    font-size: 20px !important;
+    font-size: 25px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: -70px;
+    margin-top: -100px;
 }
 
 .info {
-    font-size: 22px !important;
+    font-size: 30px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 3px solid #e06717e4; 
-    padding: 5px 10px;
+    border: 5px solid #e06717e4; 
 }
 
 /* Media queries pour les écrans mobiles */
 @media (max-width: 768px) {
-    .carousel-inner {
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-    }
-
-    .carousel-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
+    .carousel-inner .d-flex {
+        flex-direction: column;
+        align-items: center;
     }
 
     .card {
-        transform: scale(0.75);
-        margin: 10px auto;
-        width: 80%;
-        max-width: 250px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .pricecard {
-        font-size: 18px !important;
-        margin-top: -50px;
-    }
-
-    .info {
-        font-size: 16px !important;
-        border-width: 2px;
-        padding: 4px 8px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        margin-top: -20px;
-    }
-
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
+        transform: scale(0.9);
+        margin: 0 0 20px 0;
+        width: 90%;
+        max-width: 300px;
     }
 
     .carousel-inner .d-flex > .card:first-child,
     .carousel-inner .d-flex > .card:last-child {
         margin-left: 0;
         margin-right: 0;
+    }
+
+    .pricecard {
+        font-size: 20px !important;
+        margin-top: -50px;
+    }
+
+    .info {
+        font-size: 18px !important;
+        border-width: 3px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-top: -20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .card-group {
+        display: flex;
+    }
+    .card {
+        flex: 1 0 30%;
+    }
+    .mobile-hide {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    #tarifCarousel {
+        padding: 0 10%;
+    }
+
+    .carousel-inner .d-flex {
+        flex-wrap: nowrap;
+        overflow-x: visible;
+    }
+
+    .carousel-item {
+        margin-right: 0;
+        transition: transform .6s ease-in-out;
+    }
+
+    .carousel-inner .card {
+        flex: 0 0 100%;
+        max-width: 100%;
+        transform: scale(0.9);
+        transition: all 0.3s ease;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .carousel-inner .d-flex > .card:not(:first-child) {
+        display: none;
     }
 
     .carousel-control-prev,
@@ -133,49 +182,21 @@ h4 {
         height: 20px;
     }
 
+    .pricecard {
+        font-size: 22px !important;
+        margin-top: -30px;
+    }
+
+    .info {
+        font-size: 18px !important;
+        padding: 8px 16px;
+    }
+
     .imgcard {
-        max-height: 180px;
+        max-height: 200px;
         object-fit: cover;
     }
 }
-
-@media (min-width: 769px) {
-    .card-group {
-        display: flex;
-    }
-    .card {
-        flex: 1 0 30%;
-    }
-    .mobile-hide {
-        display: block;
-    }
-}
-
-/* Styles pour les cartes */
-.card {
-    transform: scale(0.7);
-    transform-origin: center center;
-    flex: 1 0 30%;
-    box-sizing: border-box;
-    margin: 0 -90px;
-    background-image: url('Images/fondBleu.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.carousel-inner .d-flex > .card:first-child,
-.carousel-inner .d-flex > .card:last-child {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.carousel-inner .d-flex {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 80px;
-}
-
 /* FIN CARDS */
 
 /* Discord */
@@ -508,6 +529,8 @@ h4 {
         </button>
     </div>
 </section>
+
+
     <!-- DOMAINE DE COMPETENCE -->
     <div class="text-center">
             <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
