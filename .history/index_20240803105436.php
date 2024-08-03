@@ -130,42 +130,30 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-        overflow-x: hidden;
+    .card-group {
+        display: block;
     }
-
-    .carousel-inner .card {
-        flex: 0 0 100%;
-        max-width: 100%;
-        transform: scale(0.8);
-        transition: transform 0.3s ease;
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
     }
-
+    .mobile-hide {
+        display: none;
+    }
     .carousel-item {
         margin-right: 0;
     }
-
-    .carousel-inner .d-flex > .card:not(:first-child) {
-        display: none;
+    .carousel-inner .card {
+        transform: scale(1);
+        margin: 0 auto;
     }
-
     .carousel-control-prev,
     .carousel-control-next {
         width: 30px;
         height: 30px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .pricecard {
-        font-size: 20px !important;
-    }
-
-    .info {
-        font-size: 16px !important;
     }
 }
+
 /* FIN CARDS */
 
 /* Discord */
@@ -389,7 +377,7 @@ h4 {
 <!-- FIN INTRO-->
 
 
-  <!-- PRESTATIONS CAROUSEL-->
+    <!-- PRESTATIONS CAROUSEL-->
 <section class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 mb-4">

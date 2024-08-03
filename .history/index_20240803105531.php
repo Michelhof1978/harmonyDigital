@@ -130,42 +130,30 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-        overflow-x: hidden;
+    .card-group {
+        display: block;
     }
-
-    .carousel-inner .card {
-        flex: 0 0 100%;
-        max-width: 100%;
-        transform: scale(0.8);
-        transition: transform 0.3s ease;
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
     }
-
+    .mobile-hide {
+        display: none;
+    }
     .carousel-item {
         margin-right: 0;
     }
-
-    .carousel-inner .d-flex > .card:not(:first-child) {
-        display: none;
+    .carousel-inner .card {
+        transform: scale(1);
+        margin: 0 auto;
     }
-
     .carousel-control-prev,
     .carousel-control-next {
         width: 30px;
         height: 30px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .pricecard {
-        font-size: 20px !important;
-    }
-
-    .info {
-        font-size: 16px !important;
     }
 }
+
 /* FIN CARDS */
 
 /* Discord */
@@ -404,7 +392,7 @@ h4 {
         <div class="carousel-inner">
             <!-- Premier groupe de cartes -->
             <div class="carousel-item active">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center card-group">
                     <div class="card">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
@@ -417,7 +405,7 @@ h4 {
                             <a href=".php" class="info btn text-white mb-5">Plus d'infos !</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card mobile-hide">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white">
@@ -429,7 +417,7 @@ h4 {
                             <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card mobile-hide">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white">
@@ -446,7 +434,7 @@ h4 {
 
             <!-- Deuxième groupe de cartes -->
             <div class="carousel-item">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center card-group">
                     <div class="card">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
@@ -459,7 +447,7 @@ h4 {
                             <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card mobile-hide">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white">
@@ -471,7 +459,7 @@ h4 {
                             <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card mobile-hide">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white">
