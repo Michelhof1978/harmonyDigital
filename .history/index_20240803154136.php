@@ -270,15 +270,15 @@ h4 {
     }
 
     .pricecard {
-        font-size: 20px !important;
+        font-size: 18px !important;
         margin-top: -30px;
     }
 
     .info {
-        font-size: 20px !important;
+        font-size: 16px !important;
         border-width: 2px;
-        padding: 6px 10px;
-       margin-bottom: 40px;
+        padding: 4px 8px;
+        margin-bottom: 20;
     }
 
     .carousel-control-prev,
@@ -326,7 +326,6 @@ h4 {
     .imgcard {
         max-height: 180px;
         object-fit: cover;
-        margin-top: 10px;
     }
 }
 

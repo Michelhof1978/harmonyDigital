@@ -249,17 +249,9 @@ h4 {
 }
 
 /* Media queries pour les écrans mobiles */
+/* Media queries pour les écrans mobiles */
 @media (max-width: 768px) {
-    .carousel-inner {
-        display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-    }
-
-    .carousel-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
-    }
+    /* Styles existants */
 
     .card {
         transform: scale(0.75);
@@ -267,18 +259,18 @@ h4 {
         width: 80%;
         max-width: 250px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        position: relative; /* Assure que les éléments positionnés absolument sont relatifs à la carte */
     }
 
     .pricecard {
-        font-size: 20px !important;
-        margin-top: -30px;
+        font-size: 18px !important;
+        margin-top: -50px;
     }
 
     .info {
-        font-size: 20px !important;
+        font-size: 16px !important;
         border-width: 2px;
-        padding: 6px 10px;
-       margin-bottom: 40px;
+        padding: 4px 8px;
     }
 
     .carousel-control-prev,
@@ -326,45 +318,15 @@ h4 {
     .imgcard {
         max-height: 180px;
         object-fit: cover;
-        margin-top: 10px;
     }
-}
 
-@media (min-width: 769px) {
-    .card-group {
-        display: flex;
+    /* Ajoutez ce bloc pour remonter le bouton "Plus d'infos" */
+    .card .btn-plus-info {
+        position: absolute; /* Permet de positionner absolument par rapport à la carte */
+        bottom: 10px; /* Ajustez cette valeur pour remonter le bouton */
+        left: 50%;
+        transform: translateX(-50%);
     }
-    .card {
-        flex: 1 0 30%;
-    }
-    .mobile-hide {
-        display: block;
-    }
-}
-
-/* Styles pour les cartes */
-.card {
-    transform: scale(0.7);
-    transform-origin: center center;
-    flex: 1 0 30%;
-    box-sizing: border-box;
-    margin: 0 -90px;
-    background-image: url('Images/fondBleu.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.carousel-inner .d-flex > .card:first-child,
-.carousel-inner .d-flex > .card:last-child {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.carousel-inner .d-flex {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 80px;
 }
 
 /* FIN CARDS CAROUSEL */

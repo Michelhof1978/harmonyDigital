@@ -270,15 +270,14 @@ h4 {
     }
 
     .pricecard {
-        font-size: 20px !important;
+        font-size: 18px !important;
         margin-top: -30px;
     }
 
     .info {
-        font-size: 20px !important;
+        font-size: 16px !important;
         border-width: 2px;
-        padding: 6px 10px;
-       margin-bottom: 40px;
+        padding: 4px 8px;
     }
 
     .carousel-control-prev,

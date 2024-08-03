@@ -265,20 +265,19 @@ h4 {
         transform: scale(0.75);
         margin: 10px auto;
         width: 80%;
-        max-width: 250px;
+        max-width: 100px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .pricecard {
-        font-size: 20px !important;
+        font-size: 18px !important;
         margin-top: -30px;
     }
 
     .info {
-        font-size: 20px !important;
+        font-size: 16px !important;
         border-width: 2px;
-        padding: 6px 10px;
-       margin-bottom: 40px;
+        padding: 4px 8px;
     }
 
     .carousel-control-prev,

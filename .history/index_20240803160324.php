@@ -275,9 +275,9 @@ h4 {
     }
 
     .info {
-        font-size: 20px !important;
+        font-size: 16px !important;
         border-width: 2px;
-        padding: 6px 10px;
+        padding: 4px 8px;
        margin-bottom: 40px;
     }
 

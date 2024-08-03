@@ -252,50 +252,36 @@ h4 {
 @media (max-width: 768px) {
     .carousel-inner {
         display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        overflow-x: auto; /* Permet le défilement horizontal */
+        scroll-snap-type: x mandatory; /* Snap scrolling horizontal */
+        -webkit-overflow-scrolling: touch; /* Améliore le défilement sur iOS */
+        white-space: nowrap; /* Évite le retour à la ligne des cartes */
     }
 
     .carousel-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
+        flex: 0 0 auto; /* Permet aux éléments de ne pas se rétrécir */
+        scroll-snap-align: start; /* Aligne les éléments au début du conteneur */
+        display: inline-block; /* Affiche les éléments en ligne */
+        margin-right: 10px; /* Espacement entre les cartes */
     }
 
     .card {
-        transform: scale(0.75);
-        margin: 10px auto;
-        width: 80%;
-        max-width: 250px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transform: scale(0.75); /* Ajuste la taille des cartes */
+        margin: 10px; /* Espacement autour des cartes */
+        width: 80%; /* Largeur des cartes */
+        max-width: 250px; /* Largeur maximale des cartes */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
     }
 
     .pricecard {
-        font-size: 20px !important;
-        margin-top: -30px;
+        font-size: 18px !important;
+        margin-top: -50px;
     }
 
     .info {
-        font-size: 20px !important;
+        font-size: 16px !important;
         border-width: 2px;
-        padding: 6px 10px;
-       margin-bottom: 40px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        margin-top: -20px;
-    }
-
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .carousel-inner .d-flex > .card:first-child,
-    .carousel-inner .d-flex > .card:last-child {
-        margin-left: 0;
-        margin-right: 0;
+        padding: 4px 8px;
     }
 
     .carousel-control-prev,
@@ -303,7 +289,6 @@ h4 {
         width: 40px;
         height: 40px;
         top: 50%;
-        transform: translateY(-50%);
         background-color: rgba(224, 103, 23, 0.8);
         border-radius: 50%;
         opacity: 0.8;
@@ -326,19 +311,6 @@ h4 {
     .imgcard {
         max-height: 180px;
         object-fit: cover;
-        margin-top: 10px;
-    }
-}
-
-@media (min-width: 769px) {
-    .card-group {
-        display: flex;
-    }
-    .card {
-        flex: 1 0 30%;
-    }
-    .mobile-hide {
-        display: block;
     }
 }
 
@@ -368,7 +340,6 @@ h4 {
 }
 
 /* FIN CARDS CAROUSEL */
-
 </style>
 
 </head>

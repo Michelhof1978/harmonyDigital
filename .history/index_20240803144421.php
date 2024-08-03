@@ -249,53 +249,24 @@ h4 {
 }
 
 /* Media queries pour les écrans mobiles */
+/* Styles pour le carrousel en mode mobile */
 @media (max-width: 768px) {
     .carousel-inner {
         display: flex;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
+        overflow: hidden; /* Masque le débordement pour afficher une seule carte */
+        scroll-snap-type: x mandatory; /* Assure que chaque carte est alignée correctement */
+        position: relative; /* Positionne les boutons de contrôle correctement */
     }
 
     .carousel-item {
-        flex: 0 0 100%;
-        scroll-snap-align: start;
+        flex: 0 0 100%; /* Chaque élément prend 100% de la largeur du conteneur */
+        scroll-snap-align: center; /* Aligne les éléments au centre du conteneur */
+        box-sizing: border-box; /* Assure que le padding et la bordure sont inclus dans la largeur */
     }
 
     .card {
-        transform: scale(0.75);
-        margin: 10px auto;
-        width: 80%;
-        max-width: 250px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .pricecard {
-        font-size: 20px !important;
-        margin-top: -30px;
-    }
-
-    .info {
-        font-size: 20px !important;
-        border-width: 2px;
-        padding: 6px 10px;
-       margin-bottom: 40px;
-    }
-
-    .carousel-control-prev,
-    .carousel-control-next {
-        margin-top: -20px;
-    }
-
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .carousel-inner .d-flex > .card:first-child,
-    .carousel-inner .d-flex > .card:last-child {
-        margin-left: 0;
-        margin-right: 0;
+        width: 100%; /* La carte prend toute la largeur de son conteneur */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
     }
 
     .carousel-control-prev,
@@ -303,42 +274,25 @@ h4 {
         width: 40px;
         height: 40px;
         top: 50%;
-        transform: translateY(-50%);
         background-color: rgba(224, 103, 23, 0.8);
         border-radius: 50%;
         opacity: 0.8;
+        z-index: 1000; /* Assure que les boutons sont au-dessus du carrousel */
+        transform: translateY(-50%); /* Centre verticalement les boutons */
     }
 
     .carousel-control-prev {
-        left: 5%;
+        left: 10px;
     }
 
     .carousel-control-next {
-        right: 5%;
+        right: 10px;
     }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         width: 20px;
         height: 20px;
-    }
-
-    .imgcard {
-        max-height: 180px;
-        object-fit: cover;
-        margin-top: 10px;
-    }
-}
-
-@media (min-width: 769px) {
-    .card-group {
-        display: flex;
-    }
-    .card {
-        flex: 1 0 30%;
-    }
-    .mobile-hide {
-        display: block;
     }
 }
 
@@ -368,7 +322,6 @@ h4 {
 }
 
 /* FIN CARDS CAROUSEL */
-
 </style>
 
 </head>
@@ -493,14 +446,18 @@ h4 {
             </div>
 
             <!-- Contrôles du carrousel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#tarifCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+           <!-- Ajoutez ces boutons dans votre HTML si ce n'est pas déjà fait -->
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+
+
+
         </div>
     </section>
     <!-- FIN PRESTATIONS CAROUSEL -->
@@ -567,7 +524,21 @@ h4 {
 
     <?php include("footer.php"); ?>
 </body>
+<script>
+  document.querySelector('.carousel-control-prev').addEventListener('click', function() {
+    document.querySelector('.carousel-inner').scrollBy({
+      left: -document.querySelector('.carousel-item').offsetWidth, // Défilement vers la gauche
+      behavior: 'smooth' // Défilement fluide
+    });
+  });
 
+  document.querySelector('.carousel-control-next').addEventListener('click', function() {
+    document.querySelector('.carousel-inner').scrollBy({
+      left: document.querySelector('.carousel-item').offsetWidth, // Défilement vers la droite
+      behavior: 'smooth' // Défilement fluide
+    });
+  });
+</script>
 
  <!-- ------------------------------------------------------------------- -->
    <!-- COOKIES -->
