@@ -413,7 +413,7 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">

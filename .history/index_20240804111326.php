@@ -359,7 +359,7 @@ h4 {
                                 <a href=".php" class=" info btn text-white mb-5">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -371,7 +371,7 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -389,7 +389,7 @@ h4 {
                 <!-- Deuxième groupe de cartes -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -401,7 +401,7 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -413,7 +413,7 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">

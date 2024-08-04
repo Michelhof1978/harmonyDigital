@@ -8,7 +8,8 @@
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
-/* CARDS */
+
+ /* CARDS */
 .card {
     transform: scale(0.7);
     transform-origin: center center;
@@ -29,11 +30,8 @@ h4 {
         transform: none;
         margin: 0 auto;
         max-width: 90%;
-        transform: scale(0.8); /* Reduce the card size */
     }
-    .carousel-item .d-flex {
-        flex-direction: column; /* Stack cards vertically */
-    }
+    
     .carousel-item .card {
         margin-bottom: 1rem; /* Add some space between cards */
     }
@@ -106,6 +104,8 @@ h4 {
     border: 5px solid #e06717e4; 
 }
 /* FIN CARDS */
+
+
 
 /* Discord */
 .text-decoration-custom {
@@ -347,7 +347,7 @@ h4 {
                 <!-- Premier groupe de cartes -->
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center">
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -359,7 +359,7 @@ h4 {
                                 <a href=".php" class=" info btn text-white mb-5">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -371,7 +371,7 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -389,7 +389,7 @@ h4 {
                 <!-- Deuxième groupe de cartes -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -401,7 +401,7 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
@@ -413,7 +413,7 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-                        <div class="card mt-2">
+                        <div class="card">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                                 <p class="textcard card-text text-white">
