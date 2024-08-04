@@ -327,7 +327,7 @@ h4 {
             <h2 class="border borderColor border-4 rounded p-2  mb-4">
                 <strong class="text-white">Nos Prestations</strong>
             </h2>
-            <p class="text-white lead fs-2" style="font-weight: bold;">
+            <p class="text-white lead fs-4" style="font-weight: bold;">
                 Des solutions sur mesure pour satisfaire vos besoins.
             </p>
 

@@ -327,7 +327,7 @@ h4 {
             <h2 class="border borderColor border-4 rounded p-2  mb-4">
                 <strong class="text-white">Nos Prestations</strong>
             </h2>
-            <p class="text-white lead fs-2" style="font-weight: bold;">
+            <p class="text-white lead fs-4" style="font-weight: bold;">
                 Des solutions sur mesure pour satisfaire vos besoins.
             </p>
 
@@ -419,12 +419,7 @@ h4 {
                         </div>
                     </div>
                 </div>
-                
             </div>
-
-            <p class="text-white lead fs-2" style="font-weight: bold;">
-            Ensemble, donnons vie à vos idées.
-            </p>
 
             <!-- Contrôles du carrousel -->
             <button class="carousel-control-prev" type="button" data-bs-target="#tarifCarousel" data-bs-slide="prev">
@@ -437,16 +432,18 @@ h4 {
             </button>
         </div>
 
+        <p class="text-white lead fs-2"><strong> Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
+        </strong></p>
     </section>
 
     <!-- DOMAINE DE COMPETENCE -->
     <div class="text-center">
             <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
             <strong class="text-white">Domaine De Compétences</strong>
+            <p class="text-white lead fs-2"><strong> Ensemble, donnons vie à vos idées et propulsons votre entreprise vers de nouveaux sommets.
+            </strong></p>
             </h2>
-            <p class="text-white lead fs-2" style="font-weight: bold;">
-            Propulsons votre entreprise vers de nouveaux sommets.
-            </p>
+
         </div>
 
         <section class="d-flex ms-0 mb-5 position-relative text-center me-5">
