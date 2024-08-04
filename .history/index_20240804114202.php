@@ -744,9 +744,9 @@ h4 {
         </div>
     </section>
 <!-- FIN PRESENTATION LOGOS-->
-
+ 
     <div class="text-center">
-            <p class="text-white lead fs-2 mb-5" style="font-weight: bold;">
+            <p class="text-white lead fs-2" style="font-weight: bold;">
             Propulsons votre entreprise vers les étoiles.
             </p>
         </div>

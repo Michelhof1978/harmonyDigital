@@ -69,14 +69,15 @@ h4 {
     margin-top: -70px;
     background-color: #e06717e4;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .carousel-control-prev {
-    left: 0;
+    left: -20px;
 }
 
 .carousel-control-next {
-    right: 0;
+    right: -20px;
 }
 
 /* Animation clignotante tarif */
@@ -105,7 +106,28 @@ h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 5px solid #e06717e4; 
 }
-/* FIN CARDS */
+
+/* Additional styles for better mobile presentation */
+@media (max-width: 768px) {
+    .carousel-container {
+        padding: 10px;
+        margin-top: 0;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 30px;
+        height: 30px;
+    }
+    .pricecard {
+        font-size: 20px !important;
+        margin-top: -50px;
+    }
+    .info {
+        font-size: 20px !important;
+        border-width: 3px;
+    }
+}
+
 
 /* Discord */
 .text-decoration-custom {
@@ -304,8 +326,7 @@ h4 {
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
             <div class="d-flex justify-content-center">
-
-            <p class="fs-4 lead p-3 mx-auto fw-bold">
+            <p class="fs-5 lead p-3 intro mx-auto fw-bold">
     Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
     <a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
         <span class="text-orange-nav2">Discord</span>
@@ -343,7 +364,7 @@ h4 {
 
         </div>
 
-        <div id="tarifCarousel" class="carousel slide carousel-container mt-1">
+        <div id="tarifCarousel" class="carousel slide carousel-container">
             <div class="carousel-inner">
                 <!-- Premier groupe de cartes -->
                 <div class="carousel-item active">
@@ -453,6 +474,9 @@ h4 {
             <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
             <strong class="text-white">Domaine De Compétences</strong>
             </h2>
+            <p class="text-white lead fs-2" style="font-weight: bold;">
+            Propulsons votre entreprise vers de nouveaux sommets.
+            </p>
         </div>
 
         <section class="d-flex ms-0 mb-5 position-relative text-center me-5">
@@ -743,14 +767,8 @@ h4 {
 
         </div>
     </section>
+
 <!-- FIN PRESENTATION LOGOS-->
-
-    <div class="text-center">
-            <p class="text-white lead fs-2 mb-5" style="font-weight: bold;">
-            Propulsons votre entreprise vers les étoiles.
-            </p>
-        </div>
-
     <?php include("footer.php"); ?>
 
  <!-- COOKIES -->

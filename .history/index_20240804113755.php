@@ -453,6 +453,9 @@ h4 {
             <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
             <strong class="text-white">Domaine De Compétences</strong>
             </h2>
+            <p class="text-white lead fs-2" style="font-weight: bold;">
+            Propulsons votre entreprise vers les étoile.
+            </p>
         </div>
 
         <section class="d-flex ms-0 mb-5 position-relative text-center me-5">
@@ -743,14 +746,8 @@ h4 {
 
         </div>
     </section>
+
 <!-- FIN PRESENTATION LOGOS-->
-
-    <div class="text-center">
-            <p class="text-white lead fs-2 mb-5" style="font-weight: bold;">
-            Propulsons votre entreprise vers les étoiles.
-            </p>
-        </div>
-
     <?php include("footer.php"); ?>
 
  <!-- COOKIES -->
