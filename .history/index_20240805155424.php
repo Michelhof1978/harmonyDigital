@@ -104,24 +104,21 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    /* Afficher une seule carte à la fois en mode mobile */
+    /* Afficher les 6 cartes dans une seule vue en mode mobile */
+    .carousel-inner .carousel-item {
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .carousel-inner .carousel-item > .d-flex {
-        display: block !important;
+        flex: 1 0 45%; /* Deux cartes par ligne */
+        margin: 10px;
     }
 
-    .carousel-inner .carousel-item > .d-flex > .card {
-        display: none !important;
-    }
-
-    .carousel-inner .carousel-item.active > .d-flex > .card:first-child {
-        display: block !important;
-        margin: 0 auto;
-        max-width: 90%;
-        transform: scale(0.7);  /* dimension carte */
-    }
-
-    /* Ajustements pour la carte */
     .card {
+        flex: 1 0 100%; /* Prend la largeur disponible */
+        max-width: 100%;
         margin-bottom: 1rem;
     }
 
@@ -133,8 +130,6 @@ h4 {
 
     .pricecard {
         font-size: 1.2rem;
-       
-
     }
 }
 

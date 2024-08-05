@@ -104,17 +104,17 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    /* Afficher une seule carte à la fois en mode mobile */
+    /* Ajustements pour le carrousel */
     .carousel-inner .carousel-item > .d-flex {
         display: block !important;
     }
 
     .carousel-inner .carousel-item > .d-flex > .card {
-        display: none !important;
+        display: none;
     }
 
-    .carousel-inner .carousel-item.active > .d-flex > .card:first-child {
-        display: block !important;
+    .carousel-inner .carousel-item > .d-flex > .card:first-child {
+        display: block;
         margin: 0 auto;
         max-width: 90%;
         transform: scale(0.7);  /* dimension carte */
@@ -133,11 +133,8 @@ h4 {
 
     .pricecard {
         font-size: 1.2rem;
-       
-
     }
 }
-
 
 /* FIN CARDS */
 

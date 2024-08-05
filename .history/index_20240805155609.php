@@ -110,11 +110,11 @@ h4 {
     }
 
     .carousel-inner .carousel-item > .d-flex > .card {
-        display: none !important;
+        display: none;
     }
 
-    .carousel-inner .carousel-item.active > .d-flex > .card:first-child {
-        display: block !important;
+    .carousel-inner .carousel-item.active > .d-flex > .card {
+        display: block;
         margin: 0 auto;
         max-width: 90%;
         transform: scale(0.7);  /* dimension carte */
@@ -133,8 +133,6 @@ h4 {
 
     .pricecard {
         font-size: 1.2rem;
-       
-
     }
 }
 

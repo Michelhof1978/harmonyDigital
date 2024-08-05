@@ -103,7 +103,7 @@ h4 {
     border: 5px solid #e06717e4; 
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     /* Afficher une seule carte à la fois en mode mobile */
     .carousel-inner .carousel-item > .d-flex {
         display: block !important;
@@ -136,7 +136,7 @@ h4 {
        
 
     }
-}
+} */
 
 
 /* FIN CARDS */

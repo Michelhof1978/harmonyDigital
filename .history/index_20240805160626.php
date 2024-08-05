@@ -133,7 +133,7 @@ h4 {
 
     .pricecard {
         font-size: 1.2rem;
-       
+        margin-bottom: ;
 
     }
 }

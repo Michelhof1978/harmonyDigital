@@ -103,40 +103,7 @@ h4 {
     border: 5px solid #e06717e4; 
 }
 
-@media (max-width: 768px) {
-    /* Afficher une seule carte à la fois en mode mobile */
-    .carousel-inner .carousel-item > .d-flex {
-        display: block !important;
-    }
 
-    .carousel-inner .carousel-item > .d-flex > .card {
-        display: none !important;
-    }
-
-    .carousel-inner .carousel-item.active > .d-flex > .card:first-child {
-        display: block !important;
-        margin: 0 auto;
-        max-width: 90%;
-        transform: scale(0.7);  /* dimension carte */
-    }
-
-    /* Ajustements pour la carte */
-    .card {
-        margin-bottom: 1rem;
-    }
-
-    /* Ajustements pour les contrôles du carrousel */
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 10%;
-    }
-
-    .pricecard {
-        font-size: 1.2rem;
-       
-
-    }
-}
 
 
 /* FIN CARDS */

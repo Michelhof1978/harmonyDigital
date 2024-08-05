@@ -117,7 +117,7 @@ h4 {
         display: block !important;
         margin: 0 auto;
         max-width: 90%;
-        transform: scale(0.7);  /* dimension carte */
+        transform: scale(0.9);  /* dimension carte */
     }
 
     /* Ajustements pour la carte */
@@ -133,8 +133,6 @@ h4 {
 
     .pricecard {
         font-size: 1.2rem;
-       
-
     }
 }
 
