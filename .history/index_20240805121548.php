@@ -99,11 +99,16 @@ h4 {
         transform: none;
         margin: 0 auto;
         max-width: 90%;
-        transform: scale(0.8); /* Réduire la taille de la carte*/
+        transform: scale(0.8); /* Reduce the card size */
     }
-    
+    .carousel-item .d-flex {
+        flex-direction: column; /* Stack cards vertically */
+    }
+    .carousel-item .card {
+        margin-bottom: 1rem; /* Add some space between cards */
+    }
     .carousel-item.active .d-flex > .card:not(:first-child) {
-        display: none; /* Cacher toutes les cartes sauf la première */
+        display: none; /* Hide all cards except the first one */
     }
 }
 /* FIN CARDS */

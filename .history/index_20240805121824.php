@@ -101,9 +101,14 @@ h4 {
         max-width: 90%;
         transform: scale(0.8); /* Réduire la taille de la carte*/
     }
-    
+    .carousel-item .d-flex {
+        flex-direction: column; /* Empiler les cartes verticalement */
+    }
+    .carousel-item .card {
+        margin-bottom: 1rem; /* Ajoutez de l'espace entre les cartes */
+    }
     .carousel-item.active .d-flex > .card:not(:first-child) {
-        display: none; /* Cacher toutes les cartes sauf la première */
+        display: none; /* Ajoutez de l'espace entre les cartes */
     }
 }
 /* FIN CARDS */

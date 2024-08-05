@@ -91,21 +91,7 @@ h4 {
     border: 5px solid #e06717e4; 
 }
 
-@media (max-width: 768px) {
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-    }
-    .card {
-        transform: none;
-        margin: 0 auto;
-        max-width: 90%;
-        transform: scale(0.8); /* Réduire la taille de la carte*/
-    }
-    
-    .carousel-item.active .d-flex > .card:not(:first-child) {
-        display: none; /* Cacher toutes les cartes sauf la première */
-    }
-}
+
 /* FIN CARDS */
 
 /* Discord */

@@ -27,6 +27,8 @@ h4 {
     background-repeat: no-repeat;
 }
 
+
+
 .carousel-inner .d-flex > .card:first-child,
 .carousel-inner .d-flex > .card:last-child {
     margin-left: 30px;
@@ -89,22 +91,6 @@ h4 {
     font-size: 30px !important;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 5px solid #e06717e4; 
-}
-
-@media (max-width: 768px) {
-    .carousel-inner .d-flex {
-        flex-wrap: nowrap;
-    }
-    .card {
-        transform: none;
-        margin: 0 auto;
-        max-width: 90%;
-        transform: scale(0.8); /* Réduire la taille de la carte*/
-    }
-    
-    .carousel-item.active .d-flex > .card:not(:first-child) {
-        display: none; /* Cacher toutes les cartes sauf la première */
-    }
 }
 /* FIN CARDS */
 
