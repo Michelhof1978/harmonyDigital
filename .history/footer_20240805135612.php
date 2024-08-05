@@ -97,11 +97,10 @@
     <div class="copyright-area">
         <div class="container d-flex justify-content-center">
             <div class="row">
-            
+            <div id="logo-container">
+        <img src="images/robotFooter.png" alt="Logo" class="img-fluid">
+    </div>
                 <div class="text-center">
-              
-        <img src="images/robotFooter.png" alt="Logo" class="img-fluid w-25">
-    
                     <div class="copyright-text">
                         <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:">Harmony-Digital
                         </a></p>

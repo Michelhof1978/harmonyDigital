@@ -100,7 +100,7 @@
             
                 <div class="text-center">
               
-        <img src="images/robotFooter.png" alt="Logo" class="img-fluid w-25">
+        <img src="images/robotFooter.png" alt="Logo" class="img-fluid ">
     
                     <div class="copyright-text">
                         <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:">Harmony-Digital
