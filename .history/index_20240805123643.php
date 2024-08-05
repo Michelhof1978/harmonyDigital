@@ -92,38 +92,28 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    /* Ajustements pour le carrousel */
-    .carousel-inner .carousel-item > .d-flex {
-        display: block !important;
+    .carousel-inner .d-flex {
+        flex-wrap: nowrap;
     }
-
-    .carousel-inner .carousel-item > .d-flex > .card {
-        display: none;
-    }
-
-    .carousel-inner .carousel-item > .d-flex > .card:first-child {
-        display: block;
+    .card {
+        transform: none;
         margin: 0 auto;
         max-width: 90%;
-        transform: scale(0.9);
+        transform: scale(0.8); /* Réduire la taille de la carte*/
     }
-
-    /* Ajustements pour la carte */
-    .card {
-        margin-bottom: 1rem;
+    
+    .carousel-item .card {
+        margin-bottom: 1rem; /* Ajoutez de l'espace entre les cartes */
+    }
+    .carousel-item.active .d-flex > .card:not(:first-child) {
+        display: none; /* Cacher toutes les cartes sauf la première */
     }
 
     .pricecard {
-        font-size: 25px !important;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-top: -70px;
-    }
-
-    /* Ajustements pour les contrôles du carrousel */
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 10%;
-    }
+    font-size: 25px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -70px;
+}
 }
 /* FIN CARDS */
 

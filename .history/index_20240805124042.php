@@ -92,39 +92,23 @@ h4 {
 }
 
 @media (max-width: 768px) {
-    /* Ajustements pour le carrousel */
-    .carousel-inner .carousel-item > .d-flex {
-        display: block !important;
+    .carousel-inner .card {
+        max-width: 90%; /* Assurez-vous que les cartes ne dépassent pas l'écran */
+        margin: 0 auto; /* Centre les cartes horizontalement */
     }
 
-    .carousel-inner .carousel-item > .d-flex > .card {
-        display: none;
-    }
-
-    .carousel-inner .carousel-item > .d-flex > .card:first-child {
-        display: block;
-        margin: 0 auto;
-        max-width: 90%;
-        transform: scale(0.9);
-    }
-
-    /* Ajustements pour la carte */
-    .card {
-        margin-bottom: 1rem;
-    }
-
-    .pricecard {
-        font-size: 25px !important;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-top: -70px;
-    }
-
-    /* Ajustements pour les contrôles du carrousel */
-    .carousel-control-prev,
-    .carousel-control-next {
-        width: 10%;
+    .carousel-item {
+        display: flex;
+        justify-content: center; /* Centre les cartes dans le carrousel */
     }
 }
+
+.pricecard {
+    font-size: 25px !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -70px;
+}
+
 /* FIN CARDS */
 
 /* Discord */
