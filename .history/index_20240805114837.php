@@ -319,7 +319,7 @@ h4 {
 </p>
 
             </div>
-            <p class="mt-4 mb-5 lead fs-4 neon-yellow  ">
+            <p class="mt-4 mb-5 lead fs-4 neon-yellow text-white bg-primary">
                 <strong>
                     Conception de Sites Internet<br>
                     Réalisation Maquettes et Logos<br>
