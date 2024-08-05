@@ -668,7 +668,7 @@ h4 {
                     Logos Réalisés
                 </strong>
             </h2>
-            <p class="text-white lead fs-2 mb-5 fw-bold">
+            <p class="text-white lead fs-2 mb-5">
                     <strong>A l'image de votre entreprise avec ou sans animations</strong>
                 </p>
         </div>
@@ -788,7 +788,7 @@ h4 {
 <!-- FIN PRESENTATION LOGOS-->
 
     <div class="text-center">
-            <p class="text-white lead fs-5 mb-5 fw-bold press-start-2p-regular" >
+            <p class="text-white lead fs-5 mb-5 press-start-2p-regular" >
             Propulsons votre entreprise vers les étoiles.
             </p>
         </div>
