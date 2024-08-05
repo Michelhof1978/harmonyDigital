@@ -5,7 +5,6 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
-/* Derniere phrase avant footer*/
     .press-start-2p-regular {
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
@@ -14,10 +13,6 @@
     
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
-}
-
-.competence {
-    background-image: url('Images/fondBleu.png');
 }
 /* CARDS */
 .card {
@@ -347,7 +342,7 @@ h4 {
 </p>
 
             </div>
-            <p class="pt-5 pb-5 lead fs-4 text-white  rounded rounded-2 competence">
+            <p class="mt-4 mb-5 lead fs-4 text-white  ">
                 <strong>
                     Conception de Sites Internet<br>
                     Réalisation Maquettes et Logos<br>
@@ -370,7 +365,7 @@ h4 {
             <h2 class="border borderColor border-4 rounded p-2  mb-4">
                 <strong class="text-white">Nos Prestations</strong>
             </h2>
-            <p class="text-white lead fs-2 fw-bold">
+            <p class="text-white lead fs-2 fw-bold" style="font-weight: bold;">
                 Des solutions sur mesure pour satisfaire vos besoins.
             </p>
 

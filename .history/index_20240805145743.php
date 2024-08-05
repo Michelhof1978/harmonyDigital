@@ -347,7 +347,7 @@ h4 {
 </p>
 
             </div>
-            <p class="pt-5 pb-5 lead fs-4 text-white  rounded rounded-2 competence">
+            <p class="pt-5 pb-5 lead fs-4 text-white fw-bold roundead competence">
                 <strong>
                     Conception de Sites Internet<br>
                     Réalisation Maquettes et Logos<br>
