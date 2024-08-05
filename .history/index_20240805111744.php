@@ -618,14 +618,14 @@ h4 {
 <!--FIN SECTION VIDEOCOM-->
 
  <!-- PRESENTATION LOGOS -->
- <section class="text-center mt-4 ms-2 me-2 ">
+ <section class="text-center mt-4 ms-2 me-2 mb-">
         <div>
             <h2 class="border borderColor border-4 rounded p-2 m-5">
                 <strong class="text-white">
                     Logos Réalisés
                 </strong>
             </h2>
-            <p class="text-white lead fs-2 mb-5">
+            <p class="text-white lead fs-2">
                     <strong>A l'image de votre entreprise avec ou sans animations</strong>
                 </p>
         </div>

@@ -449,9 +449,6 @@ h4 {
             <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
             <strong class="text-white">Domaine De Compétences</strong>
             </h2>
-            <p class="text-white lead fs-2" style="font-weight: bold;">
-            Ensemble, donnons vie à vos idées.
-            </p>
         </div>
 
         <section class="d-flex ms-0 mb-5 position-relative text-center me-5">
@@ -618,14 +615,14 @@ h4 {
 <!--FIN SECTION VIDEOCOM-->
 
  <!-- PRESENTATION LOGOS -->
- <section class="text-center mt-4 ms-2 me-2 ">
+ <section class="text-center mt-4 ms-2 me-2">
         <div>
             <h2 class="border borderColor border-4 rounded p-2 m-5">
                 <strong class="text-white">
                     Logos Réalisés
                 </strong>
             </h2>
-            <p class="text-white lead fs-2 mb-5">
+            <p class="text-white lead fs-2">
                     <strong>A l'image de votre entreprise avec ou sans animations</strong>
                 </p>
         </div>
