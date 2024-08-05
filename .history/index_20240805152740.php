@@ -333,7 +333,7 @@ h4 {
 <section class="mt-5 container mb-5">
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
-            <p class="text-white lead fs-5 fw-bold press-start-2p-regular">Fin De La Promo Dans </p>
+            <p class="text-white lead fs-3 fw-bold">Fin De La Promo Dans :</p>
         <div class="mb-3" id="countdown"></div>
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>
@@ -374,6 +374,8 @@ h4 {
             <p class="text-white lead fs-2 fw-bold">
                 Des solutions sur mesure pour satisfaire vos besoins.
             </p>
+
+
         </div>
 
         <div id="tarifCarousel" class="carousel slide carousel-container mt-1">
@@ -426,7 +428,7 @@ h4 {
                 <!-- Deuxième groupe de cartes -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-
+                        
                         <div class="card mt-2">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
@@ -439,7 +441,6 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-
                         <div class="card mt-2">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
@@ -452,7 +453,6 @@ h4 {
                                 <a href=".php" class="info btn text-white">Plus d'infos !</a>
                             </div>
                         </div>
-
                         <div class="card mt-2">
                             <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                                 <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
@@ -465,7 +465,6 @@ h4 {
                                 <a href=".php" class="info btn text-white ">Plus d'infos !</a>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 
