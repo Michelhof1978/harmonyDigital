@@ -1,7 +1,6 @@
 /* Général */
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url('Images/fondNoir2.jpg');
   background-size: cover;
     background-position: center;
@@ -440,6 +439,12 @@ html {
 }
 
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
 
-
-  
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}

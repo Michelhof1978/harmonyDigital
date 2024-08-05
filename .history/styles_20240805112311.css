@@ -1,7 +1,6 @@
 /* Général */
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: url('Images/fondNoir2.jpg');
   background-size: cover;
     background-position: center;
@@ -441,5 +440,9 @@ html {
 
 
 
-
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
   

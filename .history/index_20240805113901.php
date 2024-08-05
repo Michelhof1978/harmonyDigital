@@ -5,12 +5,7 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
-    .press-start-2p-regular {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-    
+        
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
@@ -751,7 +746,7 @@ h4 {
 <!-- FIN PRESENTATION LOGOS-->
 
     <div class="text-center">
-            <p class="text-white lead fs-5 mb-5 press-start-2p-regular" style="font-weight: bold;">
+            <p class="text-white lead fs-2 mb-5 spicy-rice-regular" style="font-weight: bold;">
             Propulsons votre entreprise vers les étoiles.
             </p>
         </div>
