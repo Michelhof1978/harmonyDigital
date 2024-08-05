@@ -305,10 +305,22 @@ h4 {
     }
   }
 
-  #countdown {
+  #console {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid #0f0;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px #0f0, 0 0 20px #0f0 inset;
+        }
+        #countdown {
             font-size: 2em;
             color: #0f0;
             text-shadow: 0 0 5px #0f0;
+        }
+        #label {
+            font-size: 1.2em;
+            color: #0f0;
+            margin-bottom: 10px;
         }
 
     </style>
@@ -327,8 +339,10 @@ h4 {
 <section class="mt-5 container mb-5">
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
-            <p class="text-white lead fs-3 fw-bold">Fin De La Promo Dans :</p>
-        <div class="mb-3" id="countdown"></div>
+       <div id="console">
+        <div id="label">TEMPS AVANT ARRIVÉE :</div>
+        <div id="countdown"></div>
+    </div>
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
@@ -780,14 +794,15 @@ h4 {
         </div>
 
     <?php include("footer.php"); ?>
+
     <script>
-          function updateCountdown() {
+        function updateCountdown() {
             const targetDate = new Date("2024-12-31T23:59:59").getTime();
             const now = new Date().getTime();
             const timeLeft = targetDate - now;
 
             if (timeLeft < 0) {
-                document.getElementById("countdown").innerHTML = "00 JOUR 00H 00M 00S";
+                document.getElementById("countdown").innerHTML = "ARRIVÉE !";
                 clearInterval(countdownTimer);
                 return;
             }
@@ -797,13 +812,12 @@ h4 {
             const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-            const formattedTime = `${String(days).padStart(2, '0')} JOURS ${String(hours).padStart(2, '0')}H ${String(minutes).padStart(2, '0')}M ${String(seconds).padStart(2, '0')}S`;
+            const formattedTime = `${days} j ${String(hours).padStart(2, '0')} h ${String(minutes).padStart(2, '0')} min ${String(seconds).padStart(2, '0')} s`;
             document.getElementById("countdown").innerHTML = formattedTime;
         }
 
         updateCountdown();
         const countdownTimer = setInterval(updateCountdown, 1000);
-    </script>
     </script>
 
  <!-- COOKIES -->

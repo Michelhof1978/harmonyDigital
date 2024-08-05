@@ -327,7 +327,7 @@ h4 {
 <section class="mt-5 container mb-5">
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
-            <p class="text-white lead fs-3 fw-bold">Fin De La Promo Dans :</p>
+            <div>Fi</div>
         <div class="mb-3" id="countdown"></div>
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>

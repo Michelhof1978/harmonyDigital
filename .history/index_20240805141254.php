@@ -307,10 +307,9 @@ h4 {
 
   #countdown {
             font-size: 2em;
-            color: #0f0;
-            text-shadow: 0 0 5px #0f0;
+            color: #00ff00;
+            text-shadow: 0 0 5px #00ff00;
         }
-
     </style>
 </head>
 <body>
@@ -327,8 +326,7 @@ h4 {
 <section class="mt-5 container mb-5">
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
-            <p class="text-white lead fs-3 fw-bold">Fin De La Promo Dans :</p>
-        <div class="mb-3" id="countdown"></div>
+            
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
@@ -780,31 +778,6 @@ h4 {
         </div>
 
     <?php include("footer.php"); ?>
-    <script>
-          function updateCountdown() {
-            const targetDate = new Date("2024-12-31T23:59:59").getTime();
-            const now = new Date().getTime();
-            const timeLeft = targetDate - now;
-
-            if (timeLeft < 0) {
-                document.getElementById("countdown").innerHTML = "00 JOUR 00H 00M 00S";
-                clearInterval(countdownTimer);
-                return;
-            }
-
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-            const formattedTime = `${String(days).padStart(2, '0')} JOURS ${String(hours).padStart(2, '0')}H ${String(minutes).padStart(2, '0')}M ${String(seconds).padStart(2, '0')}S`;
-            document.getElementById("countdown").innerHTML = formattedTime;
-        }
-
-        updateCountdown();
-        const countdownTimer = setInterval(updateCountdown, 1000);
-    </script>
-    </script>
 
  <!-- COOKIES -->
 <script>
