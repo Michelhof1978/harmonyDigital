@@ -69,7 +69,7 @@
                 </div>
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center m-2">
+                        <div class="footer-widget-heading">
                             <h3>Liens utiles</h3>
                         </div>
                         <div class="footer-links pb-3">
@@ -83,9 +83,9 @@
                     </div>
                 </div>
 
-                <div class="col-12 mb-5">
+                <!-- <div class="col-12 mb-5">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center m-2">
+                        <div class="footer-widget-heading">
                             <h3>Newsletter</h3>
                         </div>
                         <div class="footer-text mb-3">
@@ -98,7 +98,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -119,8 +119,8 @@
         </div>
     </div>
 </footer>
-<!-- FIN FOOTER MOBILE -->
 
+<!-- FIN FOOTER MOBILE -->
 
   <!-- FOOTER DESKTOP -->
 <footer class="footer-section d-none d-md-block">
@@ -159,7 +159,7 @@
         </div>
         <div class="footer-content pt-5 pb-5">
             <div class="row">
-                <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="col-xl-6 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-logo">
                             <a class="navbar-brand" href="index.php">
@@ -205,7 +205,7 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>Newsletter</h3>
@@ -220,7 +220,7 @@
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

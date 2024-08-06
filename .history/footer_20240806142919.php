@@ -69,11 +69,11 @@
                 </div>
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center m-2">
+                        <div class="footer-widget-heading">
                             <h3>Liens utiles</h3>
                         </div>
                         <div class="footer-links pb-3">
-                            <ul class="list-unstyled">
+                            <ul class="">
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
                                 <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
                                 <li><a href="conditionsGeneralesDeVente.php">CGV</a></li>
@@ -85,7 +85,7 @@
 
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center m-2">
+                        <div class="footer-widget-heading">
                             <h3>Newsletter</h3>
                         </div>
                         <div class="footer-text mb-3">
@@ -119,8 +119,8 @@
         </div>
     </div>
 </footer>
-<!-- FIN FOOTER MOBILE -->
 
+<!-- FIN FOOTER MOBILE -->
 
   <!-- FOOTER DESKTOP -->
 <footer class="footer-section d-none d-md-block">

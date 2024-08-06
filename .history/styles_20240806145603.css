@@ -273,7 +273,9 @@ html {
     height: 2px;
     width: 50px;
     background: #ff5e14;
+    
 }
+
 .footer-widget-heading2 h3 {
     color: #fff;
     font-size: 20px;
@@ -293,6 +295,7 @@ html {
     background: #ff5e14;
     transform: translateX(-50%); /* Centre la ligne sous le titre */
 }
+
 
 /* Styles pour les liens utiles */
 .footer-links {

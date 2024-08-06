@@ -161,12 +161,10 @@ html {
 .single-cta i {
     color: #ff5e14;
     font-size: 30px;
-    float: left;
-    margin-top: 8px;
+    margin-right: 10px; /* Espacement entre l'icône et le texte */
 }
 
 .cta-text {
-    padding-left: 15px;
     display: inline-block;
 }
 
@@ -184,17 +182,8 @@ html {
 
 .footer-content {
     display: flex;
-    justify-content: space-between; /* Espacement entre les colonnes */
-    align-items: flex-start; /* Aligner en haut */
-}
-
-.footer-pattern img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 330px;
-    background-size: cover;
-    background-position: 100% 100%;
+    flex-direction: column;
+    align-items: center; /* Centre tout le contenu horizontalement */
 }
 
 .footer-logo {
@@ -213,13 +202,13 @@ html {
 }
 
 .footer-social-icon {
-    display: flex; /* Pour aligner les icônes horizontalement */
-    align-items: center; /* Pour centrer verticalement les icônes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-social-icon span {
     color: #fff;
-    display: block;
     font-size: 20px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -230,7 +219,6 @@ html {
     color: #fff;
     font-size: 16px;
     margin-right: 15px;
-    transition: none; /* Retire la transition pour éviter les changements de couleur au survol */
 }
 
 .footer-social-icon i {
@@ -241,39 +229,38 @@ html {
     border-radius: 50%;
 }
 
-/* Couleur de fond pour l'icône YouTube */
 .youtube-bg {
-    background-color: #FF0000; /* Couleur rouge de YouTube */
+    background-color: #FF0000;
 }
 
-/* Couleur de fond pour l'icône LinkedIn */
 .linkedin-bg {
-    background-color: #0077b5; /* Couleur bleue de LinkedIn */
+    background-color: #0077b5;
 }
 
-/* Assurez-vous que les icônes ne changent pas de couleur au survol */
 .footer-social-icon a:hover {
-    color: #fff; /* Gardez la couleur blanche des icônes au survol */
+    color: #fff;
 }
 
-/* Styles pour les titres des widgets */
 .footer-widget-heading h3 {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 20px; /* Marge ajustée pour plus d'espace au-dessus des liens */
+    margin-bottom: 10px; /* Ajuster pour moins d'espace au-dessus des liens */
     position: relative;
+    display: inline-block; /* Assure le centrage de la ligne sous le titre */
 }
 
 .footer-widget-heading h3::before {
     content: "";
     position: absolute;
-    left: 0;
-    bottom: -15px;
+    left: 50%;
+    bottom: -10px; /* Ajuster la position sous le titre */
     height: 2px;
     width: 50px;
     background: #ff5e14;
+    transform: translateX(-50%); /* Centre la ligne sous le titre */
 }
+
 .footer-widget-heading2 h3 {
     color: #fff;
     font-size: 20px;
@@ -294,20 +281,19 @@ html {
     transform: translateX(-50%); /* Centre la ligne sous le titre */
 }
 
-/* Styles pour les liens utiles */
 .footer-links {
-    padding-left: 0; /* Retire le padding si nécessaire */
-    margin-left: 0; /* Retire la marge si nécessaire */
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .footer-links ul {
     padding: 0;
     margin: 0;
-    list-style: none; /* Enlève les puces des listes */
+    list-style: none;
 }
 
 .footer-links ul li {
-    margin-bottom: 12px; /* Ajoute une marge inférieure pour séparer les éléments */
+    margin-bottom: 12px;
 }
 
 .footer-links ul li a {
@@ -319,7 +305,6 @@ html {
     color: rgb(22, 215, 245);
 }
 
-/* Styles pour le formulaire de souscription */
 .subscribe-form {
     position: relative;
     overflow: hidden;
@@ -348,10 +333,10 @@ html {
     transform: rotate(-6deg);
 }
 
-/* Styles pour la zone de copyright */
 .copyright-area {
     background: #202020;
     padding: 25px 0;
+    text-align: center; /* Centre le texte dans la zone de copyright */
 }
 
 .copyright-text p {
@@ -364,7 +349,6 @@ html {
     color: beige;
 }
 
-/* Styles pour le menu du footer */
 .footer-menu li {
     display: inline-block;
     margin-left: 20px;
@@ -379,7 +363,6 @@ html {
     color: #878787;
 }
 
-/* Styles pour les éléments orange */
 .text-orange-footer {
     font-size: 14px;
     color: #e06717e4;
@@ -394,11 +377,12 @@ html {
     color: #e06717e4;
 }
 
-.robotFooter{
+.robotFooter {
     width: 100px;
     height: auto;
 }
 /* END FOOTER */
+
 
 /*vidéos  com */
 .videoCom {

@@ -273,25 +273,22 @@ html {
     height: 2px;
     width: 50px;
     background: #ff5e14;
-}
-.footer-widget-heading2 h3 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px; /* Ajuster pour moins d'espace au-dessus des liens */
-    position: relative;
-    display: inline-block; /* Assure le centrage de la ligne sous le titre */
+    
 }
 
-.footer-widget-heading2 h3::before {
+.footer-widget-heading2 {
+    position: relative; /* Required for absolute positioning of the pseudo-element */
+    text-align: center; /* Center text horizontally */
+}
+.footer-widget-heading h3::before {
     content: "";
     position: absolute;
-    left: 50%;
-    bottom: -10px; /* Ajuster la position sous le titre */
+    left: 0;
+    bottom: -15px;
     height: 2px;
     width: 50px;
     background: #ff5e14;
-    transform: translateX(-50%); /* Centre la ligne sous le titre */
+    
 }
 
 /* Styles pour les liens utiles */

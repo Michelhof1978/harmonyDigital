@@ -263,6 +263,7 @@ html {
     font-weight: 600;
     margin-bottom: 20px; /* Marge ajustée pour plus d'espace au-dessus des liens */
     position: relative;
+    text-align: ;
 }
 
 .footer-widget-heading h3::before {
@@ -273,25 +274,6 @@ html {
     height: 2px;
     width: 50px;
     background: #ff5e14;
-}
-.footer-widget-heading2 h3 {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px; /* Ajuster pour moins d'espace au-dessus des liens */
-    position: relative;
-    display: inline-block; /* Assure le centrage de la ligne sous le titre */
-}
-
-.footer-widget-heading2 h3::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -10px; /* Ajuster la position sous le titre */
-    height: 2px;
-    width: 50px;
-    background: #ff5e14;
-    transform: translateX(-50%); /* Centre la ligne sous le titre */
 }
 
 /* Styles pour les liens utiles */
