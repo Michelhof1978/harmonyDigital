@@ -347,11 +347,11 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mb-5">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -362,11 +362,11 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mb-2">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -377,11 +377,11 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mb-2">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -392,11 +392,11 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mb-2">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -407,11 +407,11 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mt-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mt-2">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -422,11 +422,11 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mt-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mt-2">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
