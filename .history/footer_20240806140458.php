@@ -3,13 +3,13 @@
 
 <!-- FIN FOOTER MOBILE -->
 
-  <!-- FOOTER DESKTOP -->
-<footer class="footer-section d-none d-md-block">
+  <!--FOOTER DESKTOP -->
+        <footer class="footer-section">
     <div class="container">
         <!-- Section CTA -->
         <div class="footer-cta pt-5 pb-5">
             <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-4 mb-30 d-none d-md-block">
                     <div class="single-cta">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-4 mb-30 d-none d-md-block">
                     <div class="single-cta">
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-xl-4 col-md-4 mb-30 d-none d-md-block">
                     <div class="single-cta">
                         <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
@@ -75,7 +75,7 @@
                         <div class="footer-widget-heading">
                             <h3>Liens utiles</h3>
                         </div>
-                        <div class="footer-links pb-3">
+                        <div class="footer-links">
                             <ul>
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
                                 <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
@@ -116,15 +116,15 @@
                 </div>
             </div>
         </div>
-         <!-- COMPTEUR -->
-         <div class="text-center mt-3 mb-3">
+ <!-- FIN FOOTER DESKTOP -->
+
+        <!-- COMPTEUR -->
+        <div class="text-center mt-3 mb-3">
             <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
         </div>
     </div>
 </footer>
-        <!-- FIN FOOTER DESKTOP -->
 
-       
 
       
 

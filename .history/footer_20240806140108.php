@@ -1,15 +1,10 @@
 
 <!-- FOOTER MOBILE -->
-
-<!-- FIN FOOTER MOBILE -->
-
-  <!-- FOOTER DESKTOP -->
-<footer class="footer-section d-none d-md-block">
+<footer class="footer-section">
     <div class="container">
-        <!-- Section CTA -->
-        <div class="footer-cta pt-5 pb-5">
-            <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
+        <div class="footer-cta pt-4 pb-4">
+            <div class="row text-center">
+                <div class="col-12 col-sm-4 mb-4">
                     <div class="single-cta">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
@@ -18,7 +13,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-12 col-sm-4 mb-4">
                     <div class="single-cta">
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
@@ -27,7 +22,118 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
+                <div class="col-12 col-sm-4 mb-4">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail</h4>
+                            <span>harmonydigitalweb@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-4 pb-4">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4 text-center text-md-start">
+                    <div class="footer-widget">
+                        <div class="footer-logo mb-3">
+                            <a class="navbar-brand" href="index.php">
+                                <strong class="text-white nav-brand">
+                                    <span class="text-orange-footer-2">H</span>armony <span class="text-orange-footer-2">D</span>igital
+                                </strong>
+                                <span class="orange">.</span>
+                            </a>
+                        </div>
+                        <div class="footer-text mb-3">
+                            <p class="lead fw-bold">
+                                Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
+                                <a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
+                                    <span class="text-orange-nav2 ">Discord</span>
+                                </a>.
+                            </p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span class="d-block mb-2">Suivez-nous !</span>
+                            <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
+                                <i class="fab fa-youtube youtube-bg"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/your-company" target="_blank">
+                                <i class="fab fa-linkedin linkedin-bg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading mb-3">
+                            <h3>Liens utiles</h3>
+                        </div>
+                        <div class="footer-links">
+                            <ul class="list-unstyled">
+                                <li><a href="mentionsLegales.php">Mentions Légales</a></li>
+                                <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
+                                <li><a href="conditionsGeneralesDeVente.php">CGV</a></li>
+                                <li><a href="formulaireDeContact.php">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 mb-4">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading mb-3">
+                            <h3>Newsletter</h3>
+                        </div>
+                        <div class="footer-text mb-3">
+                            <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="email" placeholder="Adresse Mail" class="form-control mb-2">
+                                <button type="submit" class="btn btn-primary"><i class="fab fa-telegram-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area pt-4 pb-4">
+        <div class="container text-center">
+            <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter mb-2">
+            <div class="copyright-text">
+                <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https://">Harmony-Digital</a></p>
+            </div>
+        </div>
+    </div>
+<!-- FIN FOOTER MOBILE -->
+
+
+  <!--FOOTER DESKTOP -->
+        <footer class="footer-section">
+    <div class="container">
+        <!-- Section CTA -->
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30 d-none d-md-block">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Adresse</h4>
+                            <span>4, Lotissement La Croix Rouge<br>03 230 Garnat Sur Engièvre</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30 d-none d-md-block">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Appelez-Nous !</h4>
+                            <span>0033-666332588</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30 d-none d-md-block">
                     <div class="single-cta">
                         <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
@@ -75,7 +181,7 @@
                         <div class="footer-widget-heading">
                             <h3>Liens utiles</h3>
                         </div>
-                        <div class="footer-links pb-3">
+                        <div class="footer-links">
                             <ul>
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
                                 <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
@@ -116,17 +222,23 @@
                 </div>
             </div>
         </div>
-         <!-- COMPTEUR -->
-         <div class="text-center mt-3 mb-3">
+ <!-- FIN FOOTER DESKTOP -->
+
+        <!-- COMPTEUR -->
+        <div class="text-center mt-3 mb-3">
             <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
         </div>
     </div>
 </footer>
-        <!-- FIN FOOTER DESKTOP -->
 
-       
 
-      
+        <!-- COMPTEUR -->
+        <div class="text-center mt-3 mb-3">
+            <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
+        </div>
+    </div>
+</footer>
+
 
 <!-- COOKIES -->
 <div id="cookie-banner">

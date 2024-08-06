@@ -1,16 +1,11 @@
-
-<!-- FOOTER MOBILE -->
-
-<!-- FIN FOOTER MOBILE -->
-
-  <!-- FOOTER DESKTOP -->
-<footer class="footer-section d-none d-md-block">
+<footer class="footer-section">
     <div class="container">
         <!-- Section CTA -->
         <div class="footer-cta pt-5 pb-5">
             <div class="row">
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
+                <!-- Adresse -->
+                <div class="col-12 col-md-4 mb-30">
+                    <div class="single-cta text-center">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
@@ -18,8 +13,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
+                <!-- Téléphone -->
+                <div class="col-12 col-md-4 mb-30">
+                    <div class="single-cta text-center">
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
                             <h4>Appelez-Nous !</h4>
@@ -27,8 +23,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-4 mb-30">
-                    <div class="single-cta">
+                <!-- Email -->
+                <div class="col-12 col-md-4 mb-30">
+                    <div class="single-cta text-center">
                         <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
                             <h4>Mail</h4>
@@ -38,10 +35,13 @@
                 </div>
             </div>
         </div>
+
+        <!-- Contenu du pied de page -->
         <div class="footer-content pt-5 pb-5">
             <div class="row">
-                <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
+                <!-- Logo et texte -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
+                    <div class="footer-widget text-center">
                         <div class="footer-logo">
                             <a class="navbar-brand" href="index.php">
                                 <strong class="text-white nav-brand">
@@ -58,7 +58,6 @@
                                 </a>.
                             </p>       
                         </div>
-
                         <div class="footer-social-icon">
                             <span class="pt-3 me-4">Suivez-nous !</span>
                             <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
@@ -70,12 +69,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                    <div class="footer-widget ms-5">
+                <!-- Liens utiles -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
+                    <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>Liens utiles</h3>
                         </div>
-                        <div class="footer-links pb-3">
+                        <div class="footer-links">
                             <ul>
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
                                 <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
@@ -85,8 +85,8 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <!-- Newsletter -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
                     <div class="footer-widget">
                         <div class="footer-widget-heading">
                             <h3>Newsletter</h3>
@@ -96,8 +96,8 @@
                         </div>
                         <div class="subscribe-form">
                             <form action="#">
-                                <input type="text" placeholder="Adresse Mail">
-                                <button><i class="fab fa-telegram-plane"></i></button>
+                                <input type="text" placeholder="Adresse Mail" class="form-control mb-2">
+                                <button class="btn btn-primary"><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
                     </div>
@@ -105,28 +105,22 @@
             </div>
         </div>
     </div>
-    <div class="copyright-area">
-        <div class="container d-flex justify-content-center">
-            <div class="row">
-                <div class="text-center">
-                    <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
-                    <div class="copyright-text">
-                        <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:">Harmony-Digital</a></p>
-                    </div>
-                </div>
+
+    <!-- Copyright -->
+    <div class="copyright-area py-3">
+        <div class="container text-center">
+            <img src="images/robotFooter.png" alt="Logo" class="img-fluid w-50 mb-2">
+            <div class="copyright-text">
+                <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:">Harmony-Digital</a></p>
             </div>
-        </div>
-         <!-- COMPTEUR -->
-         <div class="text-center mt-3 mb-3">
-            <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
+            <!-- COMPTEUR -->
+            <div class="text-center mt-3 mb-3">
+                <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
+            </div>
         </div>
     </div>
 </footer>
-        <!-- FIN FOOTER DESKTOP -->
 
-       
-
-      
 
 <!-- COOKIES -->
 <div id="cookie-banner">

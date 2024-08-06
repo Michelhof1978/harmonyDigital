@@ -376,8 +376,7 @@ html {
 }
 
 .robotFooter{
-    width: 100px;
-    height: auto;
+    font-size: 5px!;
 }
 /* END FOOTER */
 
