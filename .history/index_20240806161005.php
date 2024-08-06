@@ -286,7 +286,7 @@ h4 {
         position: absolute;
         right: 0;
         top: 0;
-        height: 200px; /* Ajuste la hauteur selon tes besoins */
+        height: 2000px; /* Ajuste la hauteur selon tes besoins */
         object-fit: contain;
       margin-right: -50px;
         margin-top: 1000px;
@@ -697,57 +697,57 @@ h4 {
  <!-- FIN REFERENCE DESKTOP-->
 
  <!-- REFERENCE MOBILE-->
-<section class="d-block d-md-none d-flex ms-0 mb-5 position-relative ms-2 me-5">
+<section class="d-block d-md-none d-flex ms-0 mb-5 position-relative  me-5">
     <!-- Contenu principal à gauche -->
     <div class="w-75 neon-section text-center">
-        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
+        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine3"> 
 
         <div class="m-3">
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">GESTION DE PROJET WEB</h5>
-                <p class="text-white lead fw-bold">Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</p>
+                <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</strong></p>
             </div>
 
             <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
-                <p class="text-white lead fw-bold">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</p>
+                <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
             </div>
 
             <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
-                <p class="text-white lead fw-bold">PHP et MYSQL</p>
+                <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
             </div>
 
             <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
-                <p class="text-white lead fw-bold">Codage à la main respectueux des standards du web</p>
+                <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
             </div>
 
             <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
-                <p class="text-white lead fw-bold">React et Vue.js</p>
+                <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
             <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
-                <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
+                <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
-                <p class="text-white lead fw-bold">Compatible tous supports, tablette & application mobile</p>
+                <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>
     </div>

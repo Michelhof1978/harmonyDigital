@@ -740,14 +740,14 @@ h4 {
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
-                <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
+                <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
-                <p class="text-white lead fw-bold">Compatible tous supports, tablette & application mobile</p>
+                <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>
     </div>

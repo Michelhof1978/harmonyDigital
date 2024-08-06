@@ -747,7 +747,7 @@ h4 {
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
-                <p class="text-white lead fw-bold">Compatible tous supports, tablette & application mobile</p>
+                <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</p>
             </div>
         </div>
     </div>

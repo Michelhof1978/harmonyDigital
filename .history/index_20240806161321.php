@@ -705,49 +705,49 @@ h4 {
         <div class="m-3">
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">GESTION DE PROJET WEB</h5>
-                <p class="text-white lead fw-bold">Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</p>
+                <p class="text-white lead fw-bold">Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</strong></p>
             </div>
 
             <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
-                <p class="text-white lead fw-bold">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</p>
+                <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
             </div>
 
             <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
-                <p class="text-white lead fw-bold">PHP et MYSQL</p>
+                <p class="text-white lead"><strong>PHP et MYSQL</strong></p>
             </div>
 
             <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
-                <p class="text-white lead fw-bold">Codage à la main respectueux des standards du web</p>
+                <p class="text-white lead"><strong>Codage à la main respectueux des standards du web</strong></p>
             </div>
 
             <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
-                <p class="text-white lead fw-bold">React et Vue.js</p>
+                <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
             <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
-                <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
+                <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
-                <p class="text-white lead fw-bold">Compatible tous supports, tablette & application mobile</p>
+                <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>
     </div>

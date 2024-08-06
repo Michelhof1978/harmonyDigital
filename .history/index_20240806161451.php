@@ -726,28 +726,28 @@ h4 {
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
-                <p class="text-white lead fw-bold">Codage à la main respectueux des standards du web</p>
+                <p class="text-white lead fw-bold">Codage à la main respectueux des standards du web</strong></p>
             </div>
 
             <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
-                <p class="text-white lead fw-bold">React et Vue.js</p>
+                <p class="text-white lead"><strong>React et Vue.js</strong></p>
             </div>
 
             <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
-                <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
+                <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
             </div>
 
             <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
-                <p class="text-white lead fw-bold">Compatible tous supports, tablette & application mobile</p>
+                <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
         </div>
     </div>
