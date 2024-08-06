@@ -283,15 +283,9 @@ h4 {
   }
 
   .small-robot {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 150px; /* Ajuste la hauteur selon tes besoins */
-        object-fit: contain;
-      margin-right: -50px;
-        margin-top: 1000px;
+        height: 100px; /* Ajuste cette valeur selon la hauteur souhaitée */
+        object-fit: contain; /* Assure que l'image conserve ses proportions */
     }
-    
     
     </style>
 </head>

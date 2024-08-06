@@ -282,17 +282,7 @@ h4 {
     }
   }
 
-  .small-robot {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 150px; /* Ajuste la hauteur selon tes besoins */
-        object-fit: contain;
-      margin-right: -50px;
-        margin-top: 1000px;
-    }
-    
-    
+
     </style>
 </head>
 <body>
@@ -697,10 +687,9 @@ h4 {
  <!-- FIN REFERENCE DESKTOP-->
 
  <!-- REFERENCE MOBILE-->
-<section class="d-block d-md-none d-flex ms-0 mb-5 position-relative  me-5">
-    <!-- Contenu principal à gauche -->
+<section class="d-block d-md-none mb-5 position-relative justify-content-center">
     <div class="w-75 neon-section text-center">
-        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine3"> 
+        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine pb-3 pt-3"> 
 
         <div class="m-3">
             <div class="mb-3">
@@ -752,11 +741,12 @@ h4 {
         </div>
     </div>
 
-    <!-- Image robotIntro à droite -->
-    <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid ms-auto small-robot">
+    <div class="d-none d-md-block position-absolute top-50 end-0 translate-middle-y">
+    <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid"> 
+</div>
+
 </section>
 <!-- FIN REFERENCE MOBILE-->
-
 
 <div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4">
         <div class="text-center">

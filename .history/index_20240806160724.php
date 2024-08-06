@@ -288,7 +288,7 @@ h4 {
         top: 0;
         height: 150px; /* Ajuste la hauteur selon tes besoins */
         object-fit: contain;
-      margin-right: -50px;
+        margin-left: 1025px !important;
         margin-top: 1000px;
     }
     

@@ -282,17 +282,7 @@ h4 {
     }
   }
 
-  .small-robot {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 150px; /* Ajuste la hauteur selon tes besoins */
-        object-fit: contain;
-      margin-right: -50px;
-        margin-top: 1000px;
-    }
-    
-    
+
     </style>
 </head>
 <body>
@@ -753,7 +743,7 @@ h4 {
     </div>
 
     <!-- Image robotIntro à droite -->
-    <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid ms-auto small-robot">
+    <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid ms-auto w-25">
 </section>
 <!-- FIN REFERENCE MOBILE-->
 
