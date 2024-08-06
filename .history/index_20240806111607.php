@@ -613,15 +613,7 @@ h4 {
 </div>
 </section>
 
-<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4" style="background-image: url('Images/fondBleu.png');">
-        <div class="text-center">
-            <p class="fs-4 text-white  p-3 rounded ">
-                <strong>
-                    N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
-                </strong>
-            </p>
-        </div>
-    </div>
+
 
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
 

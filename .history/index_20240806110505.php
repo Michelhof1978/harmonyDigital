@@ -314,7 +314,7 @@ h4 {
 </p>
 
             </div>
-            <p class=" ms-3 me-3 pt-5 pb-5 lead fs-4 text-white  rounded rounded-2 competence">
+            <p class="pt-5 pb-5 lead fs-4 text-white  rounded rounded-2 competence">
                 <strong>
                     Conception de Sites Internet<br>
                     Réalisation Maquettes et Logos<br>
@@ -569,7 +569,7 @@ h4 {
 
   <!-- Contenu principal -->
   <div class="w-75 text-white intro2 mt-5"> 
-    <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
+    <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine "> 
 
     <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3><br>
 
@@ -611,17 +611,19 @@ h4 {
 <div>
  <img src="images/intro2RobotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
 </div>
-</section>
 
-<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4" style="background-image: url('Images/fondBleu.png');">
+    <div class="d-flex justify-content-center align-items-center full-height">
         <div class="text-center">
-            <p class="fs-4 text-white  p-3 rounded ">
+            <p class="neon-yellow fs-5 text-white">
                 <strong>
                     N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
                 </strong>
             </p>
         </div>
-    </div>
+  </div>
+</section>
+
+
 
      <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
 
