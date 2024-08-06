@@ -411,7 +411,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mt-4">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -426,7 +426,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mt-4">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -447,8 +447,7 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD mobile-->
 
 
-
-   <!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
+    <!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
 <section class="text-center ms-2 me-2 d-none d-md-block"> <!-- Affiche uniquement sur desktop -->
     <div>
         <h2 class="border borderColor border-4 rounded p-2 mb-4">
@@ -471,7 +470,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white mb-5">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -482,7 +481,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -493,7 +492,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -509,7 +508,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -520,7 +519,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
                         <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -530,8 +529,8 @@ h4 {
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
+                        <div class="card-body ">
+                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -550,7 +549,6 @@ h4 {
     </div>
 </section>
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
-
 
 
     <!-- DOMAINE DE COMPETENCE -->
