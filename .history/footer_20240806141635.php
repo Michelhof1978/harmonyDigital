@@ -6,8 +6,8 @@
         <div class="footer-cta pt-5 pb-5 text-center">
             <div class="row justify-content-center">
                 <div class="col-12 mb-4">
-                    <div class="single-cta d-flex align-items-center justify-content-center">
-                        <i class="fas fa-map-marker-alt me-2"></i>
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
                             <span>4, Lotissement La Croix Rouge<br>03 230 Garnat Sur Engièvre</span>
@@ -15,27 +15,28 @@
                     </div>
                 </div>
                 <div class="col-12 mb-4">
-                    <div class="single-cta d-flex align-items-center justify-content-center">
-                        <i class="fas fa-phone me-2"></i>
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
                         <div class="cta-text">
                             <h4>Appelez-Nous !</h4>
                             <span>0033-666332588</span>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12 mb-4">
-                    <div class="single-cta d-flex align-items-center justify-content-center">
-                        <i class="far fa-envelope-open me-2"></i>
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
                         <div class="cta-text">
                             <h4>Mail</h4>
                             <span>harmonydigitalweb@gmail.com</span>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
-        <!-- Footer Content -->
-        <div class="footer-content text-center">
+        <div class="footer-content pt-5 pb-5 text-center">
             <div class="row justify-content-center">
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
@@ -57,9 +58,9 @@
                         </div>
 
                         <div class="footer-social-icon">
-                            <span class="pt-3 d-block ms-2 me-4">Suivez-nous !</span>
+                            <span class="pt-3 d-block">Suivez-nous !</span>
                             <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
-                                <i class="fab fa-youtube youtube-bg me-1"></i>
+                                <i class="fab fa-youtube youtube-bg me-2"></i>
                             </a>
                             <a href="https://www.linkedin.com/company/your-company" target="_blank">
                                 <i class="fab fa-linkedin linkedin-bg"></i>

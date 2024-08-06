@@ -2,8 +2,8 @@
 <!-- FOOTER MOBILE -->
 <footer class="footer-section d-block d-md-none">
     <div class="container">
-        <!-- Section CTA -->
-        <div class="footer-cta pt-5 pb-5 text-center">
+       <!-- Section CTA -->
+       <div class="footer-cta pt-5 pb-5 text-center">
             <div class="row justify-content-center">
                 <div class="col-12 mb-4">
                     <div class="single-cta d-flex align-items-center justify-content-center">
@@ -29,73 +29,6 @@
                         <div class="cta-text">
                             <h4>Mail</h4>
                             <span>harmonydigitalweb@gmail.com</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer Content -->
-        <div class="footer-content text-center">
-            <div class="row justify-content-center">
-                <div class="col-12 mb-5">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <a class="navbar-brand" href="index.php">
-                                <strong class="text-white nav-brand">
-                                    <span class="text-orange-footer-2">H</span>armony <span class="text-orange-footer-2">D</span>igital
-                                </strong>
-                                <span class="orange">.</span>
-                            </a>
-                        </div>
-                        <div class="footer-text">
-                            <p class="lead p-3 mx-auto fw-bold">
-                                Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
-                                <a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
-                                    <span class="text-orange-nav2">Discord</span>
-                                </a>.
-                            </p>       
-                        </div>
-
-                        <div class="footer-social-icon">
-                            <span class="pt-3 d-block ms-2 me-4">Suivez-nous !</span>
-                            <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
-                                <i class="fab fa-youtube youtube-bg me-1"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/company/your-company" target="_blank">
-                                <i class="fab fa-linkedin linkedin-bg"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 mb-5">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Liens utiles</h3>
-                        </div>
-                        <div class="footer-links pb-3">
-                            <ul class="list-unstyled">
-                                <li><a href="mentionsLegales.php">Mentions Légales</a></li>
-                                <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
-                                <li><a href="conditionsGeneralesDeVente.php">CGV</a></li>
-                                <li><a href="formulaireDeContact.php">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 mb-5">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading">
-                            <h3>Newsletter</h3>
-                        </div>
-                        <div class="footer-text mb-3">
-                            <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
-                        </div>
-                        <div class="subscribe-form">
-                            <form action="#" class="d-flex justify-content-center">
-                                <input type="text" placeholder="Adresse Mail" class="me-2">
-                                <button><i class="fab fa-telegram-plane"></i></button>
-                            </form>
                         </div>
                     </div>
                 </div>

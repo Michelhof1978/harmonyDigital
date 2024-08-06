@@ -35,7 +35,7 @@
             </div>
         </div>
         <!-- Footer Content -->
-        <div class="footer-content text-center">
+        <div class="footer-content pt-5 pb-5 text-center">
             <div class="row justify-content-center">
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
