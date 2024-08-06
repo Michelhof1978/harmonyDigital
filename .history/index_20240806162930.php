@@ -773,8 +773,9 @@ h4 {
   <div class="container">
     <div class="robotCampagne">
     <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
-            <strong class="text-white">Réalisations Campagnes</strong>
+            <strong class="text-white">Domaine De Compétences</strong>
             </h2>
+      <h2 class="text-white "><strong>Réalisations Campagnes</strong></h2>
       <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
     </div>
   </div>

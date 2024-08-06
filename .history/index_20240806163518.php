@@ -302,7 +302,7 @@ h4 {
  <!-- INTRO-->
 <div class="mt-5">
     <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
-        <strong class="text-white">Votre Partenaire pour la Création de Sites Web Professionnels</strong>
+        <strong class="text-white">Votre Partenaire pour la Création de Sites Web Professionnels Et Ainsi Populser Votre Entreprise Vers Les </strong>
     </h1>
 </div>
 
