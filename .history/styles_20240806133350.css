@@ -148,7 +148,7 @@ html {
 }
 /* Fin Styles pour le fond binaire */
 
-/* footer */
+/*footer*/
 .footer-section {
     background: #151414;
     position: relative;
@@ -212,11 +212,6 @@ html {
     line-height: 28px;
 }
 
-.footer-social-icon {
-    display: flex; /* Pour aligner les icônes horizontalement */
-    align-items: center; /* Pour centrer verticalement les icônes */
-}
-
 .footer-social-icon span {
     color: #fff;
     display: block;
@@ -230,7 +225,6 @@ html {
     color: #fff;
     font-size: 16px;
     margin-right: 15px;
-    transition: none; /* Retire la transition pour éviter les changements de couleur au survol */
 }
 
 .footer-social-icon i {
@@ -241,7 +235,6 @@ html {
     border-radius: 50%;
 }
 
-/* Couleur de fond pour l'icône YouTube */
 .youtube-bg {
     background-color: #FF0000; /* Couleur rouge de YouTube */
 }
@@ -250,12 +243,6 @@ html {
 .linkedin-bg {
     background-color: #0077b5; /* Couleur bleue de LinkedIn */
 }
-
-/* Assurez-vous que les icônes ne changent pas de couleur au survol */
-.footer-social-icon a:hover {
-    color: #fff; /* Gardez la couleur blanche des icônes au survol */
-}
-
 /* Styles pour les titres des widgets */
 .footer-widget-heading h3 {
     color: #fff;
@@ -297,7 +284,7 @@ html {
 }
 
 .footer-links ul li a:hover {
-    color: rgb(22, 215, 245);
+   
 }
 
 /* Styles pour le formulaire de souscription */
@@ -374,7 +361,8 @@ html {
 .discord {
     color: #e06717e4;
 }
-/* END FOOTER */
+ /* END FOOTER */
+
 
 /*vidéos  com */
 .videoCom {

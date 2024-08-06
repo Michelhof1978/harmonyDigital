@@ -148,7 +148,7 @@ html {
 }
 /* Fin Styles pour le fond binaire */
 
-/* footer */
+/*footer*/
 .footer-section {
     background: #151414;
     position: relative;
@@ -212,33 +212,12 @@ html {
     line-height: 28px;
 }
 
-.footer-social-icon {
-    display: flex; /* Pour aligner les icônes horizontalement */
-    align-items: center; /* Pour centrer verticalement les icônes */
-}
-
-.footer-social-icon span {
-    color: #fff;
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
-}
-
+/* Styles pour les icônes sociales */
 .footer-social-icon a {
     color: #fff;
     font-size: 16px;
     margin-right: 15px;
     transition: none; /* Retire la transition pour éviter les changements de couleur au survol */
-}
-
-.footer-social-icon i {
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    line-height: 38px;
-    border-radius: 50%;
 }
 
 /* Couleur de fond pour l'icône YouTube */
@@ -254,6 +233,14 @@ html {
 /* Assurez-vous que les icônes ne changent pas de couleur au survol */
 .footer-social-icon a:hover {
     color: #fff; /* Gardez la couleur blanche des icônes au survol */
+}
+
+.footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
 }
 
 /* Styles pour les titres des widgets */
@@ -374,7 +361,8 @@ html {
 .discord {
     color: #e06717e4;
 }
-/* END FOOTER */
+ /* END FOOTER */
+
 
 /*vidéos  com */
 .videoCom {

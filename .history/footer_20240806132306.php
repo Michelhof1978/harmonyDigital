@@ -50,19 +50,16 @@
 <a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
     <span class="text-orange-nav2 ">Discord</span>
 </a>.
-                </p>       
-                             </div>
-
-                <div class="footer-social-icon">
-    <span class="pt-3 me-4">Suivez-nous !</span>
-    <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
-        <i class="fab fa-youtube youtube-bg"></i>
-    </a>
-    <a href="https://www.linkedin.com/company/your-company" target="_blank">
-        <i class="fab fa-linkedin linkedin-bg"></i>
-    </a>
-</div>
-
+                </p>                        </div>
+                        <div class="footer-social-icon">
+                            <span>Suivez-nous !</span>
+                            <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
+                                <i class="fab fa-youtube youtube-bg"></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
+                                <i class="fab fa-youtube youtube-bg"></i>
+                            </a>
+                        </div>
 
                         
                     </div>

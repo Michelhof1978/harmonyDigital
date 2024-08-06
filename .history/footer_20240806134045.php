@@ -54,7 +54,7 @@
                              </div>
 
                 <div class="footer-social-icon">
-    <span class="pt-3 me-4">Suivez-nous !</span>
+    <span class="mb-3">Suivez-nous !</span>
     <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
         <i class="fab fa-youtube youtube-bg"></i>
     </a>
