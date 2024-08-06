@@ -133,7 +133,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
-                            <span>4, La Croix Rouge<br>03 230 GARNAT</span>
+                            <span>4, La Croix Rouge<br>03 230 G</span>
                         </div>
                     </div>
                 </div>

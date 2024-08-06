@@ -5,9 +5,9 @@
 
 <?php include("header.php") ?>
 
-<h1 class="pb-2 mt-5 text-center border border-3 rounded h1Index pt-1 text-white"><strong>Politique De Confidentialité - HARMONY DIGITAL</strong></h1>
+<h1 class="pb-2 mt-5 text-center border border-3 rounded h1Index pt-1 text-white"><strong>Politique De Confidentialité - h</strong></h1>
 
-<p class="lead fs mt-3 mb-5 text-white ms-5">
+<p class="lead fs mt-3 mb-5">
    <strong>1. Collecte et Utilisation des Données Personnelles :</strong><br><br>
 
    <strong>Nous collectons les données personnelles suivantes lors de votre utilisation de notre site :</strong><br>
