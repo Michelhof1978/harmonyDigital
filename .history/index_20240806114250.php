@@ -614,7 +614,7 @@ h4 {
 </section>
  <!--FIN  DOMAINE DE COMPETENCE -->
 
-<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4">
+<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4" style="background-image: url('Images/fondBleu.png');">
         <div class="text-center">
             <p class="fs-4 text-white  p-3 rounded ">
                 <strong>
@@ -744,7 +744,7 @@ h4 {
 
             <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
-            <div class="pb-4">
+            <div class="pb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
                 <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>

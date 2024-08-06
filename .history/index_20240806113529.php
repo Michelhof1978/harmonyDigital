@@ -614,7 +614,7 @@ h4 {
 </section>
  <!--FIN  DOMAINE DE COMPETENCE -->
 
-<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4">
+<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4" style="background-image: url('Images/fondBleu.png');">
         <div class="text-center">
             <p class="fs-4 text-white  p-3 rounded ">
                 <strong>
@@ -625,18 +625,19 @@ h4 {
     </div>
 
    <!-- REFERENCE DESKTOP-->
-   <section class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
-    <div class="w-50 textIntro neon-section">
-        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
+     <section class="d-flex ms-5 mb-5 position-relative justify-content-center ">
+<div class="w-50 textIntro neon-section">
+<img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
+
 
         <div class="m-5">
             <div class="text-center">
                 <h5 class="neon-yellow rounded">GESTION DE PROJET WEB</h5>
-                <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</strong></p>
+                <p class="text-white lead"><strong>Site vitrine, corporate, évènementiel, e-commmerce adaptable mobile et tablette</strong></p>
             </div>
 
             <div>
-                <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
+            <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -645,7 +646,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
+            <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -654,7 +655,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
+            <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -663,7 +664,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
+            <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -672,7 +673,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
+            <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -681,7 +682,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid  robotSeparateur"> 
+            <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid  robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -690,16 +691,15 @@ h4 {
             </div>
         </div>
     </div>
-    <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
+    <div class="robotIndex position-absolute top-50 end-0 translate-middle-y">
         <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid"> 
     </div>
 </section>
  <!-- FIN REFERENCE DESKTOP-->
 
- <!-- REFERENCE MOBILE-->
-<section class="d-block d-md-none mb-5 position-relative justify-content-center">
-    <div class="w-100 textIntro neon-section text-center">
-        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine pb-3 pt-3"> 
+ <section class="d-flex flex-column flex-md-row ms-3 mb-5 position-relative justify-content-center">
+    <div class="w-100 w-md-50 textIntro neon-section text-center">
+        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine mb-3"> 
 
         <div class="m-3">
             <div class="mb-3">
@@ -744,7 +744,7 @@ h4 {
 
             <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
-            <div class="pb-4">
+            <div class="mb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
                 <p class="text-white lead"><strong>Compatible tous supports, tablette & application mobile</strong></p>
             </div>
@@ -755,7 +755,6 @@ h4 {
         <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid"> 
     </div>
 </section>
-<!-- FIN REFERENCE MOBILE-->
 
 
 <!--SECTION VIDEOCOM-->

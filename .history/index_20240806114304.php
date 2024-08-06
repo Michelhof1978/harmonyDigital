@@ -614,7 +614,7 @@ h4 {
 </section>
  <!--FIN  DOMAINE DE COMPETENCE -->
 
-<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4">
+<div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4" style="background-image: url('Images/fondBleu.png');">
         <div class="text-center">
             <p class="fs-4 text-white  p-3 rounded ">
                 <strong>
