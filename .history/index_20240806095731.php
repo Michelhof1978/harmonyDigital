@@ -329,120 +329,36 @@ h4 {
 </section>
 <!-- FIN INTRO-->
 
-<section class="text-center ms-2 me-2">
-    <div>
-        <h2 class="border borderColor border-4 rounded p-2 mb-4">
-            <strong class="text-white">Nos Prestations</strong>
-        </h2>
-        <p class="text-white lead fs-2 fw-bold">
-            Des solutions sur mesure pour satisfaire vos besoins.
-        </p>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="images/card1.png" class="d-block w-50" alt="...">
     </div>
-
-    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-inner">
-            <!-- Carte 1 -->
-            <div class="carousel-item active">
-                <div class="d-flex justify-content-center">
-                    <div class="card mt-2" style="width: 18rem;">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white mb-5">Plus d'infos !</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Carte 2 -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                    <div class="card mt-2" style="width: 18rem;">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Carte 3 -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                    <div class="card mt-2" style="width: 18rem;">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Carte 4 -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                    <div class="card mt-2" style="width: 18rem;">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card4.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Carte 5 -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                    <div class="card mt-2" style="width: 18rem;">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card5.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Carte 6 -->
-            <div class="carousel-item">
-                <div class="d-flex justify-content-center">
-                    <div class="card mt-2" style="width: 18rem;">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
-                        </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
-                        <div class="card-body">
-                            <a href=".php" class="info btn text-white">Plus d'infos !</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contrôles du carrousel -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="images/card2.png" class="d-block w-50" alt="...">
     </div>
-</section>
+    <div class="carousel-item">
+      <img src="images/card3.png" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/card4.png" class="d-block w-25" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/card5.png" class="d-block w-25" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/card6.png" class="d-block w-25" alt="...">
+    </div>    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
      <!-- PRESTATIONS  CAROUSEL CARD DESKTOP-->
      <section class="text-center ms-2 me-2">
