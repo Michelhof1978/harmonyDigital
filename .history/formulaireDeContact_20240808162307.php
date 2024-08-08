@@ -5,7 +5,7 @@
 <style>
 /* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
 .form-control, .form-select, .form-floating textarea {
-    border: 2px solid #33a5ff; /* Augmente l'épaisseur à 3px */
+    border: 5px solid #003366; /* Augmente l'épaisseur à 3px */
     border-radius: 4px; /* Optionnel : ajouter des coins arrondis */
     padding: 0.5rem; /* Optionnel : ajouter du padding */
     box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
@@ -178,7 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <label for="objet" class="form-label text-white">Objet :</label>
                         <select name="objet" id="objet" class="form-select">
                             <option value="proposition-emploi">Demande de devis</option>
-                            <option value="proposition-projet">Besoins d'infos</option>
+                            <option value="proposition-projet">Demande de renseignements</option>
                             <option value="autre">Autre</option>
                         </select>
                     </div>

@@ -46,10 +46,10 @@
 }
 
     </style>
-    
+
 </head>
 <body>
-    <div id="binary-background3"></div>
+   
     <?php include("header.php"); ?>
 
    

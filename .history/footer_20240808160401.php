@@ -142,7 +142,7 @@
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
                             <h4>Appelez-Nous !</h4>
-                            <span>(+33)-06 66 33 25 88</span>
+                            <span>(+33)-06 66332588</span>
                         </div>
                     </div>
                 </div>

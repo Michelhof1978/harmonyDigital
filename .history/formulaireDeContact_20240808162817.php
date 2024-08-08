@@ -178,7 +178,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <label for="objet" class="form-label text-white">Objet :</label>
                         <select name="objet" id="objet" class="form-select">
                             <option value="proposition-emploi">Demande de devis</option>
-                            <option value="proposition-projet">Besoins d'infos</option>
+                            <option value="proposition-projet">B</option>
                             <option value="autre">Autre</option>
                         </select>
                     </div>
