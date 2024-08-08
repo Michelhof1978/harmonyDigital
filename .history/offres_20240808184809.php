@@ -57,12 +57,12 @@
 </div>
 
 <section class="container">
-                <p class="lead text-white text-center fs-5 mt-5 mb-5 fw-bold">
-                Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes ! UX (User Experience) et CX (Customer Experience) sont au cœur de notre politique d’Innovation !
+                <p class="lead text-white text-center fs-5 mt-5 mb-5">
+                Du concept à sa réalisation et au-delà, <span class="fw-bold">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes ! UX (User Experience) et CX (Customer Experience) sont au cœur de notre politique d’Innovation !
                 </p>
     </section>
 
-    <section class="container mb-5 ">
+    <section class="container mb-5">
        <div class="row">
             <div class="col-4">
                 <img src="images/robotinfo1.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
@@ -119,7 +119,7 @@ Un Product Owner fera le lien entre toutes les parties investies dans le projet,
                 </p>
             </div>
             <div class="col-4">
-                <img src="images/robotinfo4.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo2.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
     </section>

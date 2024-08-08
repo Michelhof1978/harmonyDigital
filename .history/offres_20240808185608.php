@@ -58,7 +58,7 @@
 
 <section class="container">
                 <p class="lead text-white text-center fs-5 mt-5 mb-5 fw-bold">
-                Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes ! UX (User Experience) et CX (Customer Experience) sont au cœur de notre politique d’Innovation !
+                Du concept à sa réalisation et au-delà, <span style="colo">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes ! UX (User Experience) et CX (Customer Experience) sont au cœur de notre politique d’Innovation !
                 </p>
     </section>
 

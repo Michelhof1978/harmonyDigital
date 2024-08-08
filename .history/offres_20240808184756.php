@@ -57,12 +57,12 @@
 </div>
 
 <section class="container">
-                <p class="lead text-white text-center fs-5 mt-5 mb-5 fw-bold">
-                Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes ! UX (User Experience) et CX (Customer Experience) sont au cœur de notre politique d’Innovation !
+                <p class="lead text-white text-center fs-5 mt-5 mb-5">
+                Du concept à sa réalisation et au-delà, <span class="fw-bold">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes ! UX (User Experience) et CX (Customer Experience) sont au cœur de notre politique d’Innovation !
                 </p>
     </section>
 
-    <section class="container mb-5 ">
+    <section class="container mb-5">
        <div class="row">
             <div class="col-4">
                 <img src="images/robotinfo1.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
@@ -113,13 +113,13 @@
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
                 Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
-Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
+Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.
 
 Un Product Owner fera le lien entre toutes les parties investies dans le projet, dès le premier jour. Il sera votre référent tout au long de notre collaboration.
                 </p>
             </div>
             <div class="col-4">
-                <img src="images/robotinfo4.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo2.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
     </section>
