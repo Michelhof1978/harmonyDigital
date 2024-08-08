@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <?php include("head.php"); ?>
-    <meta name="informations" content="Informations sur nos services et processus">
+    <meta name="informations" content="">
     <title>Infos</title>
   
     <style>

@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <?php include("head.php"); ?>
-    <meta name="actus" content="Dernières actualités et mises à jour importantes">
+    <meta name="actus" content="">
     <title>Actus</title>
   
     <style>

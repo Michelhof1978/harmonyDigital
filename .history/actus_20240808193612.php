@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <?php include("head.php"); ?>
-    <meta name="actus" content="Dernières actualités et mises à jour importantes">
-    <title>Actus</title>
+    <meta name="s" content="">
+    <title>Votre Titre</title>
   
     <style>
        

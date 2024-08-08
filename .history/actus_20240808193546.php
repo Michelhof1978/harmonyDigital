@@ -2,47 +2,11 @@
 <html lang="fr">
 <head>
     <?php include("head.php"); ?>
-    <meta name="informations" content="Informations sur nos services et processus">
-    <title>Infos</title>
+    <meta name="informations" content="">
+    <title>Votre Titre</title>
   
     <style>
-        /* Fond 0 et 1 index */
-        #binary-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            overflow: hidden;
-        }
-
-        .particle {
-            position: absolute;
-            color: lime;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 10px; /* Augmente la taille pour une meilleure visibilité */
-            white-space: nowrap;
-            opacity: 0.9;
-        }
-
-        @keyframes move {
-            0% {
-                transform: translate(0, 0);
-            }
-            25% {
-                transform: translate(calc(100vw - 24px), 0); /* 24px est la largeur approximative du caractère */
-            }
-            50% {
-                transform: translate(calc(100vw - 24px), calc(100vh - 24px));
-            }
-            75% {
-                transform: translate(0, calc(100vh - 24px));
-            }
-            100% {
-                transform: translate(0, 0);
-            }
-        }
+       
     </style>
 </head>
 <body>

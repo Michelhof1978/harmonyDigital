@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <?php include("head.php"); ?>
-    <meta name="informations" content="Informations sur nos services et processus">
-    <title>Infos</title>
+    <meta name="informations" content="">
+    <title>Votre Titre</title>
   
     <style>
         /* Fond 0 et 1 index */
