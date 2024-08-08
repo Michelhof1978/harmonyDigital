@@ -126,7 +126,7 @@ Notre Product Owner Michel fera le lien entre toutes les parties investies dans 
         </div>
     </section>
 
-    <div class="text-center mb-5">
+    <div class="text-center mb">
     <img src="images/robotinfo5.png" alt="robot" loading="lazy" class="img-fluid w-75 mt-3">
 </div>
 
