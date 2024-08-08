@@ -167,7 +167,7 @@ html {
 
 .star {
     position: absolute;
-    animation: blink 8s step-start infinite; /* Augmenter la durée de l'animation pour un clignotement plus lent */
+    animation: blink s step-start infinite; /* Augmenter la durée de l'animation pour un clignotement plus lent */
 }
 
 @keyframes blink {
