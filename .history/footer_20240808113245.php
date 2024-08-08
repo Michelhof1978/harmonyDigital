@@ -108,7 +108,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                    <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
+                    <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel-Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
@@ -230,7 +230,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-    <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank">Hoffmann Michel - Harmony Digital</a></p>
+    <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank">Hoffmann Michel-Harmony Digital</a></p>
 </div>
 
                 </div>

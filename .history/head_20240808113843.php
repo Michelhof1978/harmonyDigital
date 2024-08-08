@@ -80,8 +80,6 @@
     text-decoration: none; /* Évite le soulignement du lien */
 }
 /*Fin FOOTER */
-
-
 </style>
 
 

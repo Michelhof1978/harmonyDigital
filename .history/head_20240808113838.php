@@ -79,9 +79,7 @@
 .text-decoration-custom {
     text-decoration: none; /* Évite le soulignement du lien */
 }
-/*Fin FOOTER */
-
-
+/*FOOTER */
 </style>
 
 

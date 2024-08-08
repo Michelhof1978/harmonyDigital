@@ -76,20 +76,7 @@ h4 {
     right: 0;
 }
 
-/* Animation clignotante tarif */
-.custom-animation {
-    animation: infiniteBlink 2s infinite; /* 2s est la durée de l'animation, et "infinite" indique une répétition infinie */
-}
 
-@keyframes infiniteBlink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-/* Fin Animation clignotante tarif */
 
 .pricecard {
     font-size: 25px !important;

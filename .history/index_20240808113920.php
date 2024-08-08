@@ -104,6 +104,7 @@ h4 {
 }
 /* FIN CARDS DESKTOP*/
 
+
 .text-decoration-custom:hover .text-orange-nav2 {
     color: white; /* Change la couleur du texte en blanc au survol */
 }

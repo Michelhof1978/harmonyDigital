@@ -74,14 +74,10 @@
 } 
 /*FIN  TITRES */
 
-/*FOOTER */
 /* Discord */
 .text-decoration-custom {
     text-decoration: none; /* Évite le soulignement du lien */
 }
-/*Fin FOOTER */
-
-
 </style>
 
 
