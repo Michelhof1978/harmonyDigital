@@ -909,7 +909,34 @@ h4 {
     </script>
  <!--------------------------------------------------------------------------------->
 
- 
+ <!-- FOND 0 1 index -->
+    <script>
+        const numParticles = 100; // Nombre total de particules
+        const binaryBackground = document.getElementById('binary-background');
+        const characters = ['0', '1'];
+
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.textContent = characters[Math.floor(Math.random() * characters.length)];
+            particle.style.left = `${Math.random() * 100}vw`;
+            particle.style.top = `${Math.random() * 100}vh`;
+            particle.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durée de l'animation entre 5 et 10 secondes
+            binaryBackground.appendChild(particle);
+        }
+
+        for (let i = 0; i < numParticles; i++) {
+            createParticle();
+        }
+
+        window.addEventListener('resize', () => {
+            binaryBackground.innerHTML = '';
+            for (let i = 0; i < numParticles; i++) {
+                createParticle();
+            }
+        });
+    </script>
+
  <!--------------------------------------------------------------------------------->
 
  <!-- COOKIES -->

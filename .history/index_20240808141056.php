@@ -5,7 +5,33 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
-
+/* Fond 0 et 1*/
+#binary-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+        .particle {
+            position: absolute;
+            color: lime;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 8px;
+            white-space: nowrap;
+            animation: move 5s linear infinite;
+            opacity: 0.6;
+        }
+        @keyframes move {
+            from {
+                transform: translateY(-100%);
+            }
+            to {
+                transform: translateY(100%);
+            }
+        }
 
 /* Derniere phrase avant footer*/
     .press-start-2p-regular {
@@ -909,7 +935,34 @@ h4 {
     </script>
  <!--------------------------------------------------------------------------------->
 
- 
+ <!-- FOND 0 1 -->
+    <script>
+        const numParticles = 100; // Nombre total de particules
+        const binaryBackground = document.getElementById('binary-background');
+        const characters = ['0', '1'];
+
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.textContent = characters[Math.floor(Math.random() * characters.length)];
+            particle.style.left = `${Math.random() * 100}vw`;
+            particle.style.top = `${Math.random() * 100}vh`;
+            particle.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durée de l'animation entre 5 et 10 secondes
+            binaryBackground.appendChild(particle);
+        }
+
+        for (let i = 0; i < numParticles; i++) {
+            createParticle();
+        }
+
+        window.addEventListener('resize', () => {
+            binaryBackground.innerHTML = '';
+            for (let i = 0; i < numParticles; i++) {
+                createParticle();
+            }
+        });
+    </script>
+
  <!--------------------------------------------------------------------------------->
 
  <!-- COOKIES -->
