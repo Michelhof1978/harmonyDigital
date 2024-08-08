@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 text-center">
+<h1 class="border borderColor border-4 rounded p-2 col ms-5text-center">
         <strong class="text-white">Formulaire De Contact</strong>
     </h1>
 
