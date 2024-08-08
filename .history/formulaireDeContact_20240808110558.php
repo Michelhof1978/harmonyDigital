@@ -85,11 +85,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<h1 class="border borderColor border-4 rounded p-2 col text-center">
+<h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
         <strong class="text-white">Formulaire De Contact</strong>
     </h1>
 
-    <div class="text-center">
+    <div class="text-center mt-5">
     <img src="images/contactrobot.png" alt="Logo" class="img-fluid">
 </div>
 
