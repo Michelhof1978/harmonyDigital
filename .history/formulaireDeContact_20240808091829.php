@@ -7,7 +7,7 @@
 
 <?php
 // Clé privée reCAPTCHA 
-$config = include('/config/config.php');
+$config = include('./config/config.php');
 
 // Utiliser la clé secrète reCAPTCHA
 $secretKey = $config['recaptcha_secret_key'];

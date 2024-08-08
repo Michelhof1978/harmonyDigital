@@ -230,7 +230,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                        <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/">Hoffmann Michel-Harmony Digital</a></p>
+                        <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https:">Harmony-Digital</a></p>
                     </div>
                 </div>
             </div>
@@ -311,7 +311,7 @@
 </script>
 
 <!-- _____________________________________________________________________________________ -->
-<script>
+</script>
 //Formulaire de contact
 
 //Restrictions du formulaire de contact
@@ -440,7 +440,7 @@ $(() => {
 
 //FIN Formulaire de contact
 
-</script>
+
 <!-- _____________________________________________________________________________________ -->
 
 

@@ -1,13 +1,13 @@
 <?php include("head.php") ?>
-<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
-<title>Formulaire de Contact - Harmony Digital</title>
+<meta name="description" content="Vous souhaitez u et vous avez besoins de renseignements complémentaires.">
+<title>Formulaire de Contact - Hébergement Le Pal</title>
 </head>
 
 <?php include("header.php") ?>
 
 <?php
 // Clé privée reCAPTCHA 
-$config = include('/config/config.php');
+$config = include('./config/config.php');
 
 // Utiliser la clé secrète reCAPTCHA
 $secretKey = $config['recaptcha_secret_key'];

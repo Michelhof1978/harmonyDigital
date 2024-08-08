@@ -1,13 +1,13 @@
 <?php include("head.php") ?>
-<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
-<title>Formulaire de Contact - Harmony Digital</title>
+<meta name="description" content="Vous souhaitez organiser un séjour au Parc d'Attractions le Pal et vous avez besoins de renseignements complémentaires.">
+<title>Formulaire de Contact - Hébergement Le Pal</title>
 </head>
 
 <?php include("header.php") ?>
 
 <?php
 // Clé privée reCAPTCHA 
-$config = include('/config/config.php');
+$config = include('./config/config.php');
 
 // Utiliser la clé secrète reCAPTCHA
 $secretKey = $config['recaptcha_secret_key'];
@@ -65,7 +65,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 "RGPD accepté : " . ($rgpdAccepted ? 'Oui' : 'Non');
 
             $object = "Demande de renseignements";
-            $retour = mail("harmonydigitalweb@gmail.com", "Nouveau Message", $message, "From: contact@Lescaravanesdelabesbre.fr" . "\r\n" . "Reply-to: " . htmlspecialchars($_POST["email"]));
+            $retour = mail("postmaster@lescaravanesdelabesbre.fr", "Nouveau Message", $message, "From: contact@Lescaravanesdelabesbre.fr" . "\r\n" . "Reply-to: " . htmlspecialchars($_POST["email"]));
+            //$retour = mail("michel.hof@hotmail.fr", "Nouveau Message", $message, "From: contact@Lescaravanesdelabesbre.fr" . "\r\n" . "Reply-to: " . htmlspecialchars($_POST["email"]));
 
             if ($retour) {
                 // Redirection vers une page de confirmation après la soumission du formulaire
@@ -129,7 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="input-group has-validation">
                             <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
                             <div class="invalid-feedback">
-                                Veuillez saisir une adresse email valide avec un domaine .com ou .fr ect...
+                                Veuillez saisir une adresse email valide avec un domaine .com ou .fr.
                             </div>
                         </div>
                     </div>
