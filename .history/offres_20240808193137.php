@@ -115,8 +115,7 @@
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
                 Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
 Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
-
-Notre Product Owner Michel fera le lien entre toutes les parties investies dans le projet, dès le premier jour. 
+ Product Owner fera le lien entre toutes les parties investies dans le projet, dès le premier jour. 
 <br>Il sera votre référent tout au long de notre collaboration.
                 </p>
             </div>
