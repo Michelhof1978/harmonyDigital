@@ -34,7 +34,7 @@
                     <a class="nav-link fs-5" href="#"><strong><span class="text-orange-nav">R</span>éalisations</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="informations.php"><strong><span class="text-orange-nav">I</span>nformations</strong></a>
+                    <a class="nav-link fs-5" href="informations"><strong><span class="text-orange-nav">I</span>nformations</strong></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fs-5" href="formulaireDeContact.php"><strong><span class="text-orange-nav">C</span>ontactez-nous !</strong></a>
