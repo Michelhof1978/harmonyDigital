@@ -85,19 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
-        <strong class="text-white">Formulaire De Contact</strong>
-    </h1>
-
-    <h4 class="m-5 text-center">
-        <strong class="text-white">Besoin d'un devis ou d'une réponse à vos questions ?
-        </strong>
-    </h4>
-
-    <h4 class="m-5 text-center">
-        <strong class="text-white">Nous sommes là pour vous aider !
-        </strong>
-    </h4>
+<h4 class="m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>DEMANDE DE RENSEIGNEMENTS</strong></h4>
 
 <form class="needs-validation" id="myForm" onsubmit="return validateContactForm()" novalidate action="#" method="POST">
     <fieldset class="mb-5 ms-2 me-2">
@@ -161,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="form-check mb-4 mt-3">
                         <input class="form-check-input" type="checkbox" id="rgpdCheckbox" name="rgpdCheckbox">
                         <label class="form-check-label text-white" for="rgpdCheckbox">
-                        J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php" style="color: #e06717e4;">Politique De Confidentialité</a>.
+                        J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php"><span c>Politique De Confidentialité</span></a>.                        </label>
                         <div class="invalid-feedback" id="rgpdError" style="display: none;">
                             Vous devez accepter la politique de confidentialité.
                         </div>
@@ -169,7 +157,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="g-recaptcha m-4" data-sitekey=""></div>
 
-                    <button type="submit" value="Valider" id="send-data" class="btn  borderColor text-white fs-5 btn-block mb-4">
+                    <button type="submit" value="Valider" id="send-data" class="btn btn-primary btn-block mb-4">
                         Envoyez
                     </button>
                 </div>

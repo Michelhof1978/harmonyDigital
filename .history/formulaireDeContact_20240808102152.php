@@ -169,7 +169,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="g-recaptcha m-4" data-sitekey=""></div>
 
-                    <button type="submit" value="Valider" id="send-data" class="btn  borderColor text-white fs-5 btn-block mb-4">
+                    <button type="submit" value="Valider" id="send-data" class="btn  borderColor text-white fs-3 btn-block mb-4">
                         Envoyez
                     </button>
                 </div>

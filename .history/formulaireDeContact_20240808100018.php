@@ -85,19 +85,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
+<h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
         <strong class="text-white">Formulaire De Contact</strong>
     </h1>
-
-    <h4 class="m-5 text-center">
-        <strong class="text-white">Besoin d'un devis ou d'une réponse à vos questions ?
-        </strong>
-    </h4>
-
-    <h4 class="m-5 text-center">
-        <strong class="text-white">Nous sommes là pour vous aider !
-        </strong>
-    </h4>
+    
+    Besoin d'un devis ou d'une réponse à vos questions ? Nous sommes là pour vous aider !
+    h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
+        <strong class="text-white">Formulaire De Contact</strong>
+    </h1>
 
 <form class="needs-validation" id="myForm" onsubmit="return validateContactForm()" novalidate action="#" method="POST">
     <fieldset class="mb-5 ms-2 me-2">
@@ -169,7 +164,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="g-recaptcha m-4" data-sitekey=""></div>
 
-                    <button type="submit" value="Valider" id="send-data" class="btn  borderColor text-white fs-5 btn-block mb-4">
+                    <button type="submit" value="Valider" id="send-data" class="btn btn-primary btn-block mb-4">
                         Envoyez
                     </button>
                 </div>

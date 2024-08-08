@@ -90,12 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </h1>
 
     <h4 class="m-5 text-center">
-        <strong class="text-white">Besoin d'un devis ou d'une réponse à vos questions ?
-        </strong>
-    </h4>
-
-    <h4 class="m-5 text-center">
-        <strong class="text-white">Nous sommes là pour vous aider !
+        <strong class="text-white">Besoin d'un devis ou d'une réponse à vos questions ? Nous sommes là pour vous aider !
         </strong>
     </h4>
 
@@ -169,7 +164,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="g-recaptcha m-4" data-sitekey=""></div>
 
-                    <button type="submit" value="Valider" id="send-data" class="btn  borderColor text-white fs-5 btn-block mb-4">
+                    <button type="submit" value="Valider" id="send-data" class="btn btn-primary btn-block mb-4">
                         Envoyez
                     </button>
                 </div>

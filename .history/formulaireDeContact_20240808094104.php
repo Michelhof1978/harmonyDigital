@@ -85,19 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
-        <strong class="text-white">Formulaire De Contact</strong>
-    </h1>
-
-    <h4 class="m-5 text-center">
-        <strong class="text-white">Besoin d'un devis ou d'une réponse à vos questions ?
-        </strong>
-    </h4>
-
-    <h4 class="m-5 text-center">
-        <strong class="text-white">Nous sommes là pour vous aider !
-        </strong>
-    </h4>
+<h4 class="m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>DEMANDE DE RENSEIGNEMENTS</strong></h4>
 
 <form class="needs-validation" id="myForm" onsubmit="return validateContactForm()" novalidate action="#" method="POST">
     <fieldset class="mb-5 ms-2 me-2">
@@ -128,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="col">
                         <div class="form-outline mb-4">
-                            <label for="phoneNumber" class="form-label text-white">Téléphone</label>
+                            <label for="phoneNumber" class="form-label">Téléphone</label>
                             <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" required>
                             <div class="invalid-feedback">
                                 Veuillez saisir un numéro de téléphone valide (au moins 10 chiffres).
@@ -137,7 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
 
                     <div class="form-outline mb-4">
-                        <label for="email" class="form-label text-white">Adresse Email</label>
+                        <label for="email" class="form-label">Adresse Email</label>
                         <div class="input-group has-validation">
                             <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
                             <div class="invalid-feedback">
@@ -147,7 +135,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
 
                     <div class="form-group">
-                        <label for="message" class="mb-2 text-white">Message</label>
+                        <label for="message" class="mb-2">Message</label>
                         <div class="form-floating">
                             <textarea name="message" class="form-control" id="message" required></textarea>
                             <label for="message">Votre Message</label>
@@ -160,16 +148,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <!-- Case à cocher RGPD -->
                     <div class="form-check mb-4 mt-3">
                         <input class="form-check-input" type="checkbox" id="rgpdCheckbox" name="rgpdCheckbox">
-                        <label class="form-check-label text-white" for="rgpdCheckbox">
-                        J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php" style="color: #e06717e4;">Politique De Confidentialité</a>.
-                        <div class="invalid-feedback" id="rgpdError" style="display: none;">
+                        <label class="form-check-label" for="rgpdCheckbox">
+                        J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php">Politique De Confidentialité</a>.                        </label>
+                        <div class="invalid-feedback text-white" id="rgpdError" style="display: none;">
                             Vous devez accepter la politique de confidentialité.
                         </div>
                     </div>
 
                     <div class="g-recaptcha m-4" data-sitekey=""></div>
 
-                    <button type="submit" value="Valider" id="send-data" class="btn  borderColor text-white fs-5 btn-block mb-4">
+                    <button type="submit" value="Valider" id="send-data" class="btn btn-primary btn-block mb-4">
                         Envoyez
                     </button>
                 </div>
