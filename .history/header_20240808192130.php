@@ -34,9 +34,6 @@
                     <a class="nav-link fs-5" href="offres.php"><strong><span class="text-orange-nav">N</span>os <span class="text-orange-nav">O</span>ffres</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="#"><strong><span class="text-orange-nav">A</span>ctus</strong></a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link fs-5" href="formulaireDeContact.php"><strong><span class="text-orange-nav">C</span>ontactez-nous !</strong></a>
                 </li>
             </ul>

@@ -58,8 +58,7 @@
 
 <section class="container">
                 <p class="lead text-white text-center fs-5 mt-5 mb-5 fw-bold">
-                Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
-                <span style="color: #e06717e4 ;">UX</span> (User Experience) et <span style="color: #e06717e4 ;">CX</span> (Customer Experience) sont au cœur de notre politique d’Innovation !
+                Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes ! UX (User Experience) et CX (Customer Experience) sont au cœur de notre politique d’Innovation !
                 </p>
     </section>
 
@@ -70,9 +69,9 @@
             </div>
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 ">
-                    L’expert métier, c’est vous !<br> L’expert tech and agile, c’est nous ! <br>
+                    L’expert métier, c’est vous ! L’expert tech and agile, c’est nous ! <br>
                     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
-                    <span style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</span>
+                    Laissez-nous vous simplifier la vie !
                 </p>
             </div>
         </div>
@@ -101,8 +100,8 @@
             </div>
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5">
-                De <span style="color: #e06717e4 ;">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
-                En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>.
+                De l’idée à sa réalisation, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
+                En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat Agile et bienveillante.
                 </p>
             </div>
         </div>
@@ -117,7 +116,7 @@
 Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
 
 Un Product Owner fera le lien entre toutes les parties investies dans le projet, dès le premier jour. 
-<br>Il sera votre référent tout au long de notre collaboration.
+Il sera votre référent tout au long de notre collaboration.
                 </p>
             </div>
             <div class="col-4">
