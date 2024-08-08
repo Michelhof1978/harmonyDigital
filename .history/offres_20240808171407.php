@@ -50,21 +50,14 @@
 
     <div id="binary-background"></div>
 
-    <div class="mt-5">
-    <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
-        <strong class="text-white">Nos Offres</strong>
-    </h1>
-</div>
-
-
     <section class="container">
         <!-- Section INTRO -->
         <div class="row">
             <div class="col-4">
-                <img src="images/robotinfo1.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
+                <img src="images/robotFooter.png" alt="robot" loading="lazy" class="img-fluid w-50">
             </div>
             <div class="col-8">
-                <p class="lead text-white text-center fw-bold fs-5 mt-5">
+                <p class="lead text-white text-center fw-bold fs-4">
                     L’expert métier, c’est vous ! L’expert tech and agile, c’est nous ! <br>
                     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
                     Laissez-nous vous simplifier la vie !

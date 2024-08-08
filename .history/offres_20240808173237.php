@@ -50,13 +50,6 @@
 
     <div id="binary-background"></div>
 
-    <div class="mt-5">
-    <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
-        <strong class="text-white">Nos Offres</strong>
-    </h1>
-</div>
-
-
     <section class="container">
         <!-- Section INTRO -->
         <div class="row">

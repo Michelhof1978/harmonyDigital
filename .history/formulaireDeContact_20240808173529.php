@@ -122,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </strong>
     </h4>
 
-    <form class="needs-validation ms-3 me-3" id="myForm" onsubmit="return validateContactForm()" novalidate action="#" method="POST">
+    <form class="needs-validation ms-3 me" id="myForm" onsubmit="return validateContactForm()" novalidate action="#" method="POST">
     <fieldset class="mb-5 ms-2 me-2">
 
         <div class="row d-flex justify-content-center">

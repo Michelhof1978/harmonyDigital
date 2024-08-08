@@ -52,7 +52,7 @@
 
     <div class="mt-5">
     <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
-        <strong class="text-white">Nos Offres</strong>
+        <strong class="text-white">Votre Partenaire pour la Création de Sites Web Professionnels</strong>
     </h1>
 </div>
 
