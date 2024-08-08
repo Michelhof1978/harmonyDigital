@@ -80,14 +80,14 @@
     <section class="container mt-4">
        <div class="row">
             
-            <div class="col-8">
-                <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
+            <div class="col-9">
+                <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor">
                     Vous avez déjà démarré la digitalisation de vos process mais vous souhaitez être conseillés et accompagnés ?<br>
                      Nous vous proposons notre expertise et notre approche SMART pour faire de votre projet un succès ! <br>
                      Audit technique, accompagnement personnalisé et coaching,…
                 </p>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <img src="images/robotinfo2.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>

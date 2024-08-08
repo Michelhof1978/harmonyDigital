@@ -87,7 +87,7 @@
                      Audit technique, accompagnement personnalisé et coaching,…
                 </p>
             </div>
-            <div class="col-4">
+            <div class="col-3">
                 <img src="images/robotinfo2.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
