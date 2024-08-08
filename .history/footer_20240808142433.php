@@ -61,7 +61,7 @@
                             <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
                                 <i class="fab fa-youtube youtube-bg me-1"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/michel-h-245436203/" target="_blank">
+                            <a href="https://www.linkedin.com/company/your-company" target="_blank">
                                 <i class="fab fa-linkedin linkedin-bg"></i>
                             </a>
                         </div>
@@ -230,7 +230,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-    <p>Copyright &copy; <span id="date"></span>, Droits réservés &nbsp; <a href="https://cvmichel-hoffmann.fr/" target="_blank">Hoffmann Michel - Harmony Digital</a></p>
+    <p>Copyright &copy; <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank">Hoffmann Michel - Harmony Digital</a></p>
 </div>
 
                 </div>
