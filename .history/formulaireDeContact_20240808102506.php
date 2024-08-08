@@ -99,13 +99,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </strong>
     </h4>
 
-    <form class="needs-validation" id="myForm" onsubmit="return validateContactForm()" novalidate action="#" method="POST">
+<form class="needs-validation" id="myForm" onsubmit="return validateContactForm()" novalidate action="#" method="POST">
     <fieldset class="mb-5 ms-2 me-2">
 
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
 
-                <!-- Prénom -->
                 <div class="row mb-4">
                     <div class="col">
                         <div class="form-outline">
@@ -117,7 +116,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                     </div>
 
-                    <!-- Nom -->
                     <div class="col">
                         <div class="form-outline">
                             <label for="lastName" class="form-label text-white">Nom</label>
@@ -128,7 +126,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                     </div>
 
-                    <!-- Téléphone -->
                     <div class="col">
                         <div class="form-outline mb-4">
                             <label for="phoneNumber" class="form-label text-white">Téléphone</label>
@@ -139,28 +136,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                     </div>
 
-                    <!-- Email -->
                     <div class="form-outline mb-4">
                         <label for="email" class="form-label text-white">Adresse Email</label>
                         <div class="input-group has-validation">
                             <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
                             <div class="invalid-feedback">
-                                Veuillez saisir une adresse email valide avec un domaine .com ou .fr.
+                                Veuillez saisir une adresse email valide avec un domaine .com ou .fr ect...
                             </div>
                         </div>
                     </div>
 
-                    <!-- Sélecteur d'objet -->
-                    <div class="mb-3">
-                        <label for="objet" class="form-label text-white">Objet :</label>
-                        <select name="objet" id="objet" class="form-select">
-                            <option value="proposition-emploi">Demande de devis</option>
-                            <option value="proposition-projet">Demande de renseignements</option>
-                            <option value="autre">Autre</option>
-                        </select>
-                    </div>
+                    <div class="mb-3 lead">
+        <label for="objet">Objet:</label>
+        <select name="objet" id="objet">
+          <option>Proposition d'emploi</option>
+          <option>Proposition projet</option>
+          <option>Autre</option>
+        </select>
+      </div>
 
-                    <!-- Message -->
                     <div class="form-group">
                         <label for="message" class="mb-2 text-white">Message</label>
                         <div class="form-floating">
@@ -182,16 +176,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                     </div>
 
-                    <!-- reCAPTCHA -->
                     <div class="g-recaptcha m-4" data-sitekey=""></div>
 
-                    <!-- Bouton d'envoi -->
-                    <button type="submit" value="Valider" id="send-data" class="btn borderColor text-white fs-5 btn-block mb-4">
+                    <button type="submit" value="Valider" id="send-data" class="btn  borderColor text-white fs-5 btn-block mb-4">
                         Envoyez
                     </button>
                 </div>
             </div>
-        </div>
+            </div>
     </fieldset>
 </form>
 
