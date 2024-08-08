@@ -85,7 +85,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 <div id="binary-background2"></div>
-
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 text-center">
         <strong class="text-white">Formulaire De Contact</strong>
     </h1>
@@ -206,7 +205,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!-- Arrière plan 0 et 1 formulaire contact-->
 <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const typingElement = document.querySelector('#binary-background2');
+            const typingElement = document.querySelector('#binary-background');
             const binaryLength = 500; // Nombre total de caractères binaires à afficher
             const characters = [];
 
@@ -233,9 +232,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             showCharacters(0);
         });
     </script>
-
-<!-- ---------------------------------------------------------------------------->
-
+    
 <!-- FORMULAIRE DE CONTACT -->
 <script>
     function validateContactForm() {

@@ -5,7 +5,7 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
-/* Fond 0 et 1*/
+
 #binary-background {
             position: fixed;
             top: 0;
@@ -31,7 +31,7 @@
                 transform: translateY(100%);
             }
         }
-
+        
 /* Derniere phrase avant footer*/
     .press-start-2p-regular {
   font-family: "Press Start 2P", system-ui;
@@ -327,8 +327,6 @@ h4 {
         <strong class="text-white">Votre Partenaire pour la Création de Sites Web Professionnels</strong>
     </h1>
 </div>
-
-<div id="binary-background"></div>
 
 <section class="mt-5 container mb-5">
     <div class="row align-items-center justify-content-center text-center">

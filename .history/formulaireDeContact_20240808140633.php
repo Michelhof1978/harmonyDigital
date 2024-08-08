@@ -234,8 +234,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         });
     </script>
 
-<!-- ---------------------------------------------------------------------------->
-
+<!-- Arrière plan 0 et 1 formulaire contact-->
 <!-- FORMULAIRE DE CONTACT -->
 <script>
     function validateContactForm() {

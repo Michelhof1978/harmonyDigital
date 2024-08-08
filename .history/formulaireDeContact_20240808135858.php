@@ -85,7 +85,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 <div id="binary-background2"></div>
-
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 text-center">
         <strong class="text-white">Formulaire De Contact</strong>
     </h1>
@@ -233,8 +232,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             showCharacters(0);
         });
     </script>
-
-<!-- ---------------------------------------------------------------------------->
 
 <!-- FORMULAIRE DE CONTACT -->
 <script>

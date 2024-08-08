@@ -328,8 +328,6 @@ h4 {
     </h1>
 </div>
 
-<div id="binary-background"></div>
-
 <section class="mt-5 container mb-5">
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
