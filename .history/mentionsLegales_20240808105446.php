@@ -5,8 +5,10 @@
 
 <?php include("header.php") ?>
 
+<h1 <strong>Mentions Légales - Harmony Digital</strong></h1>
+
 <h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
-        <strong class="text-white">Mentions Légales - Harmony Digital</strong>
+        <strong class="text-white">Formulaire De Contact</strong>
     </h1>
 
 <div class="text-center mt-5">

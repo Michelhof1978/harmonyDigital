@@ -11,9 +11,8 @@
     </h1>
 
 <div class="text-center mt-5">
-    <img src="images/politiquerobot.png" alt="Logo" class="img-fluid">
+    <img src="images/politirobot.png" alt="Logo" class="img-fluid">
 </div>
-
 <p class="lead fs mt-3 mb-5 text-white ms-5">
    <strong>1. Collecte et Utilisation des Données Personnelles :</strong><br><br>
 

@@ -5,12 +5,10 @@
 
 <?php include("header.php") ?>
 
-<h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
-        <strong class="text-white">Mentions Légales - Harmony Digital</strong>
-    </h1>
+<h1 class="pb-2 mt-5 text-center border border-3 rounded h1Index pt-1 text-white"><strong>Mentions Légales - HARMONY DIGITAL</strong></h1>
 
 <div class="text-center mt-5">
-    <img src="images/mentionsrobot.png" alt="Logo" class="img-fluid">
+    <img src="images/mentions.png" alt="Logo" class="img-fluid">
 </div>
 
 <p class="text-center lead fs mt-3 mb-5 text-white">

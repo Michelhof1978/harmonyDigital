@@ -5,12 +5,14 @@
 
 <?php include("header.php") ?>
 
+<h1 class="pb-2 mt-5 text-center border border-3 rounded h1Index pt-1 text-white"><strong>Conditions générales de vente -  HARMONY DIGITAL </strong></h1>
+
 <h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
-        <strong class="text-white">Conditions générales de vente - Harmony Digital</strong>
+        <strong class="text-white">Politique De Confidentialité - Harmony Digital</strong>
     </h1>
 
 <div class="text-center mt-5">
-    <img src="images/cgvrobot.png" alt="Logo" class="img-fluid">
+    <img src="images/politiquerobot.png" alt="Logo" class="img-fluid">
 </div>
 
 <p class="lead fs mt-3 mb-5 text-white ms-3">
@@ -48,7 +50,7 @@ Nous ne saurions être tenus responsables en cas de force majeure, tels que les 
 <strong>11. Juridiction</strong><br>
 Tout litige relatif à l'exécution ou à l'interprétation de ces conditions sera soumis aux juridictions compétentes du siège social de l'entreprise.<br><br>
 
-<p class="text-center text-white mb-5"><strong>La commande de services implique l'acceptation totale de ces conditions générales de vente.</strong></p>
+<p class="text-center text-white"><strong>La commande de services implique l'acceptation totale de ces conditions générales de vente.</strong></p>
 </p>
 
 <?php include("footer.php") ?>

@@ -48,7 +48,7 @@ Nous ne saurions être tenus responsables en cas de force majeure, tels que les 
 <strong>11. Juridiction</strong><br>
 Tout litige relatif à l'exécution ou à l'interprétation de ces conditions sera soumis aux juridictions compétentes du siège social de l'entreprise.<br><br>
 
-<p class="text-center text-white mb-5"><strong>La commande de services implique l'acceptation totale de ces conditions générales de vente.</strong></p>
+<p class="text-center text-white mb-4"><strong>La commande de services implique l'acceptation totale de ces conditions générales de vente.</strong></p>
 </p>
 
 <?php include("footer.php") ?>

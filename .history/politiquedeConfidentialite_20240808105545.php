@@ -5,15 +5,15 @@
 
 <?php include("header.php") ?>
 
+<h1 class="pb-2 mt-5 text-center border border-3 rounded h1Index pt-1 text-white"><strong>Politique De Confidentialité - HARMONY DIGITAL</strong></h1>
 
 <h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
-        <strong class="text-white">Politique De Confidentialité - Harmony Digital</strong>
+        <strong class="text-white">Mentions Légales - Harmony Digital</strong>
     </h1>
 
 <div class="text-center mt-5">
-    <img src="images/politiquerobot.png" alt="Logo" class="img-fluid">
+    <img src="images/mentionsrobot.png" alt="Logo" class="img-fluid">
 </div>
-
 <p class="lead fs mt-3 mb-5 text-white ms-5">
    <strong>1. Collecte et Utilisation des Données Personnelles :</strong><br><br>
 
