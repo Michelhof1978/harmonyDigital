@@ -14,17 +14,17 @@ RewriteRule ^ / [R=301,L]
 # Réécriture de /pageaccueil vers /index.php
 RewriteRule ^/?$ index.php [L]
 
-# Redirection de /offres .php vers /offres 
-RewriteCond %{THE_REQUEST} \s/offres \.php [NC]
-RewriteRule ^ /offres  [R=301,L]
-# Réécriture de /offres  vers /offres .php
-RewriteRule ^offres /?$ offres.php [L]
+# Redirection de /informations.php vers /informations
+RewriteCond %{THE_REQUEST} \s/informations\.php [NC]
+RewriteRule ^ /informations [R=301,L]
+# Réécriture de /informations vers /informations.php
+RewriteRule ^informations/?$ informations.php [L]
 
 # Redirection de /formulaireDeContact.php vers /formulaireDeContact
-RewriteCond %{THE_REQUEST} \s/formulaireDeContact\.php [NC]
+RewriteCond %{THE_REQUEST} \s/offres\.php [NC]
 RewriteRule ^ /formulaireDeContact [R=301,L]
-# Réécriture de /formulaireDeContact vers /formulaireDeContact.php
-RewriteRule ^formulaireDeContact/?$ formulaireDeContact.php [L]
+# Réécriture de /offres vers /formulaireDeContact.php
+RewriteRule ^offres/?$ offres.php [L]
 
 # Redirection de /mentionsLegales.php vers /mentionsLegales
 RewriteCond %{THE_REQUEST} \s/mentionsLegales\.php [NC]

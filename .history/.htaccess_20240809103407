@@ -14,10 +14,10 @@ RewriteRule ^ / [R=301,L]
 # Réécriture de /pageaccueil vers /index.php
 RewriteRule ^/?$ index.php [L]
 
-# Redirection de /offres .php vers /offres 
+# Redirection de /informations.php vers /offres 
 RewriteCond %{THE_REQUEST} \s/offres \.php [NC]
 RewriteRule ^ /offres  [R=301,L]
-# Réécriture de /offres  vers /offres .php
+# Réécriture de /offres  vers /ioffres .php
 RewriteRule ^offres /?$ offres.php [L]
 
 # Redirection de /formulaireDeContact.php vers /formulaireDeContact
