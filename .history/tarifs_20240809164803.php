@@ -68,7 +68,7 @@
 
         <div class="row justify-content-center">
             <div class="col-md-6 text-center w-25">
-                <img src="images/robotTarifs1.png" alt="robot" class="img-fluid">
+                <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid">
             </div>
         </div>
 
@@ -169,7 +169,7 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <img src="images/robotTarifs2.png" alt="robot" class="img-fluid w-75">
+                <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid w-75">
             </div>
         </div>
     </section>
@@ -276,14 +276,14 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <img src="images/robotTarifs3.png" alt="robot" class="img-fluid w-75">
+                <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid w-75">
             </div>
         </div>
     </section>
 
-    <div class="row justify-content-center mt-5">
-            <div class="col-md-6 text-center w-50">
-                <img src="images/robotTarifs4.png" alt="robot" class="img-fluid">
+    <div class="row justify-content-center">
+            <div class="col-md-6 text-center w-75">
+                <img src="images/robot.png" alt="Services Complémentaires" class="img-fluid">
             </div>
         </div>
     <?php include("footer.php"); ?>
