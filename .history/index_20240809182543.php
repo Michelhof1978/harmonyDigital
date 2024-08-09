@@ -825,7 +825,7 @@ h4 {
             </strong>
         </h2>
     <p class="text-white lead mb-5 fw-bold ">
-        <p class="text-white lead fs-2 pb-5 fw-bold ">
+        <p class="text-white lead fs-2 pb-5 fw-bold press-start-2p-regular">
             A l'image de votre entreprise avec ou sans animations
         </p>
     </div>

@@ -824,9 +824,8 @@ h4 {
                 Logos Réalisés
             </strong>
         </h2>
-    <p class="text-white lead mb-5 fw-bold ">
-        <p class="text-white lead fs-2 pb-5 fw-bold ">
-            A l'image de votre entreprise avec ou sans animations
+        <p class="text-white lead fs-2 pb-5 fw-bold">
+            A l'image de votre entreprise avec ou sans animations</strong>
         </p>
     </div>
 
