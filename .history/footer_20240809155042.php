@@ -445,7 +445,7 @@ $(() => {
 <!-- FOND '€', '$'-->
 <script>
     const totalParticles = 100; // Nombre total de particules
-    const backgroundElement = document.getElementById('binary-background3');
+    const backgroundElement = document.getElementById('binary-background');
     const symbols = ['€', '$'];
 
     function createParticle() {

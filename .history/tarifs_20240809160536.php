@@ -41,7 +41,7 @@
             font-size: 10px;
             white-space: nowrap;
             animation: move 5s linear infinite;
-            opacity: 0.8;
+            opacity: 0.6;
         }
         @keyframes move {
             from {

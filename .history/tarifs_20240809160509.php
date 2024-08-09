@@ -38,10 +38,10 @@
             position: absolute;
             color: lime;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 10px;
+            font-size: 8px;
             white-space: nowrap;
             animation: move 5s linear infinite;
-            opacity: 0.8;
+            opacity: 0.6;
         }
         @keyframes move {
             from {

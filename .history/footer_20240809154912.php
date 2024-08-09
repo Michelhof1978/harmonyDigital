@@ -442,33 +442,7 @@ $(() => {
 <!-- _____________________________________________________________________________________ -->
 
 <!-- _____________________________________________________________________________________ -->
-<!-- FOND '€', '$'-->
-<script>
-    const totalParticles = 100; // Nombre total de particules
-    const backgroundElement = document.getElementById('binary-background3');
-    const symbols = ['€', '$'];
-
-    function createParticle() {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.textContent = symbols[Math.floor(Math.random() * symbols.length)];
-        particle.style.left = `${Math.random() * 100}vw`;
-        particle.style.top = `${Math.random() * 100}vh`;
-        particle.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durée de l'animation entre 5 et 10 secondes
-        backgroundElement.appendChild(particle);
-    }
-
-    for (let i = 0; i < totalParticles; i++) {
-        createParticle();
-    }
-
-    window.addEventListener('resize', () => {
-        backgroundElement.innerHTML = '';
-        for (let i = 0; i < totalParticles; i++) {
-            createParticle();
-        }
-    });
-</script>
+<!-- FOND 0 1 index -->
 
 
 
