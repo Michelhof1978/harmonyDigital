@@ -29,20 +29,17 @@
     <?php include("header.php"); ?>
 
     <div id="binary-background"></div>
-
-    <section class="container tarifs-section text-white">
-    <div class="mt-5">
-        <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
+    <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
             <strong class="text-white">Tarifs pour la Création de Site Web</strong>
         </h1>
     </div>
 
-    <!-- Vous pouvez retirer ou ajuster cette ligne si nécessaire -->
-    <div class="row justify-content-center">
-        <div class="col-md-6 text-center w-25">
+    <div class="col-md-6 text-center w-25">
             <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid">
         </div>
-    </div>
+        
+    <section class="container tarifs-section text-white">
+    <div class="mt-5">
 
     <div class="row">
         <!-- Site Web Vitrine -->
@@ -146,13 +143,11 @@
             </div>
         </div>
         <!-- Ajout de l'image -->
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
             <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid">
         </div>
     </div>
 </section>
-
-
 
 
 <section class="container tarifs-section text-white">

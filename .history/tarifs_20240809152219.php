@@ -36,14 +36,6 @@
             <strong class="text-white">Tarifs pour la Création de Site Web</strong>
         </h1>
     </div>
-
-    <!-- Vous pouvez retirer ou ajuster cette ligne si nécessaire -->
-    <div class="row justify-content-center">
-        <div class="col-md-6 text-center w-25">
-            <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid">
-        </div>
-    </div>
-
     <div class="row">
         <!-- Site Web Vitrine -->
         <div class="col-md-6">
@@ -146,117 +138,111 @@
             </div>
         </div>
         <!-- Ajout de l'image -->
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid">
+        <div class="col-md-6">
+            <img src="images/logoFooter.png" alt="Services Complémentaires" class="img-fluid">
         </div>
     </div>
 </section>
 
 
+    <section class="container tarifs-section text-white">
+        
+        <div class="mt-5">
+    <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
+        <strong class="text-white">Tarifs pour la Création de Logo</strong>
+    </h1>
+</div>
+        <div class="row">
+            <!-- Logo de Base -->
+            <div class="col-md-6">
+                <div class="tarif-details">
+                    <h2 class="tarif-title fw-bold">1. Logo de Base</h2>
+                    <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 300 à 800 euros</span></p>
+                    <ul>
+                        <li>Conception de 1 à 2 propositions de logo</li>
+                        <li>Révisions limitées (généralement 1 à 2)</li>
+                        <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
+                        <li>Guide de style de base (couleurs, typographie)</li>
+                    </ul>
+                </div>
+            </div>
 
-
-<section class="container tarifs-section text-white">
-    <div class="mt-5">
-        <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
-            <strong class="text-white">Tarifs pour la Création de Logo</strong>
-        </h1>
-    </div>
-    <div class="row">
-        <!-- Logo de Base -->
-        <div class="col-md-6">
-            <div class="tarif-details">
-                <h2 class="tarif-title fw-bold">1. Logo de Base</h2>
-                <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
-                <p><strong>Tarif :</strong><span class="discord fw-bold"> De 300 à 800 euros</span></p>
-                <ul>
-                    <li>Conception de 1 à 2 propositions de logo</li>
-                    <li>Révisions limitées (généralement 1 à 2)</li>
-                    <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
-                    <li>Guide de style de base (couleurs, typographie)</li>
-                </ul>
+            <!-- Logo Standard -->
+            <div class="col-md-6">
+                <div class="tarif-details">
+                    <h2 class="tarif-title fw-bold">2. Logo Standard</h2>
+                    <p>Pour les projets nécessitant un design plus élaboré avec une recherche de marque plus approfondie.</p>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 800 à 1 500 euros</span></p>
+                    <ul>
+                        <li>Conception de 3 à 5 propositions de logo</li>
+                        <li>Révisions plus nombreuses (généralement 3 à 5)</li>
+                        <li>Livraison des fichiers finaux en formats raster</li>
+                        <li>Guide de style détaillé (couleurs, typographie, utilisation du logo)</li>
+                        <li>Application de la marque sur des supports de base (cartes de visite, papeterie)</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <!-- Logo Standard -->
-        <div class="col-md-6">
-            <div class="tarif-details">
-                <h2 class="tarif-title fw-bold">2. Logo Standard</h2>
-                <p>Pour les projets nécessitant un design plus élaboré avec une recherche de marque plus approfondie.</p>
-                <p><strong>Tarif :</strong><span class="discord fw-bold"> De 800 à 1 500 euros</span></p>
-                <ul>
-                    <li>Conception de 3 à 5 propositions de logo</li>
-                    <li>Révisions plus nombreuses (généralement 3 à 5)</li>
-                    <li>Livraison des fichiers finaux en formats raster</li>
-                    <li>Guide de style détaillé (couleurs, typographie, utilisation du logo)</li>
-                    <li>Application de la marque sur des supports de base (cartes de visite, papeterie)</li>
-                </ul>
+        <div class="row">
+            <!-- Logo Premium -->
+            <div class="col-md-6">
+                <div class="tarif-details">
+                    <h2 class="tarif-title fw-bold">3. Logo Premium</h2>
+                    <p>Pour les projets nécessitant une recherche approfondie, plusieurs concepts créatifs, et des applications étendues de la marque.</p>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 1 500 à 3 000 euros</span> </p>
+                    <ul>
+                        <li>Conception de plusieurs concepts de logo (plus de 5 propositions)</li>
+                        <li>Révisions illimitées ou étendues</li>
+                        <li>Livraison des fichiers finaux en formats raster</li>
+                        <li>Guide de style complet (couleurs, typographie, utilisation du logo, variantes du logo)</li>
+                        <li>Application de la marque sur divers supports (cartes de visite, papeterie, vêtements)</li>
+                        <li>Déclinaisons et versions du logo pour différents usages (monochrome, icônes)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Logo Sur-Mesure -->
+            <div class="col-md-6">
+                <div class="tarif-details">
+                    <h2 class="tarif-title fw-bold">4. Logo Sur-Mesure avec Identité Visuelle Complète</h2>
+                    <p>Pour les entreprises qui cherchent une identité visuelle complète et unique, avec une analyse de marque approfondie.</p>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 3 000 à 6 000 euros</span></p>
+                    <ul>
+                        <li>Conception de multiples concepts créatifs et révisions illimitées</li>
+                        <li>Livraison des fichiers finaux en formats raster</li>
+                        <li>Guide de style complet et détaillé</li>
+                        <li>Application de la marque sur tous les supports nécessaires</li>
+                        <li>Développement d'éléments de la marque supplémentaires (cartes de visite, brochures, modèles de présentation)</li>
+                        <li>Consultation sur la stratégie de marque et la direction créative</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="row">
-        <!-- Logo Premium -->
-        <div class="col-md-6">
-            <div class="tarif-details">
-                <h2 class="tarif-title fw-bold">3. Logo Premium</h2>
-                <p>Pour les projets nécessitant une recherche approfondie, plusieurs concepts créatifs, et des applications étendues de la marque.</p>
-                <p><strong>Tarif :</strong><span class="discord fw-bold"> De 1 500 à 3 000 euros</span></p>
-                <ul>
-                    <li>Conception de plusieurs concepts de logo (plus de 5 propositions)</li>
-                    <li>Révisions illimitées ou étendues</li>
-                    <li>Livraison des fichiers finaux en formats raster</li>
-                    <li>Guide de style complet (couleurs, typographie, utilisation du logo, variantes du logo)</li>
-                    <li>Application de la marque sur divers supports (cartes de visite, papeterie, vêtements)</li>
-                    <li>Déclinaisons et versions du logo pour différents usages (monochrome, icônes)</li>
-                </ul>
+        <!-- Services Complémentaires -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="tarif-details">
+                    <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
+                    <h3>Déclinaisons Supplémentaires</h3>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 100 à 300 euros</span> par déclinaison</p>
+                    <ul>
+                        <li>Versions du logo pour des usages spécifiques (réseaux sociaux, applications, etc.)</li>
+                    </ul>
+                    
+                    <h3>Création de Visuels Associés</h3>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 150 à 500 euros</span></p>
+                    <ul>
+                        <li>Création d'éléments visuels complémentaires comme des icônes, des bannières, ou des modèles pour les réseaux sociaux</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <!-- Logo Sur-Mesure -->
-        <div class="col-md-6">
-            <div class="tarif-details">
-                <h2 class="tarif-title fw-bold">4. Logo Sur-Mesure avec Identité Visuelle Complète</h2>
-                <p>Pour les entreprises qui cherchent une identité visuelle complète et unique, avec une analyse de marque approfondie.</p>
-                <p><strong>Tarif :</strong><span class="discord fw-bold"> De 3 000 à 6 000 euros</span></p>
-                <ul>
-                    <li>Conception de multiples concepts créatifs et révisions illimitées</li>
-                    <li>Livraison des fichiers finaux en formats raster</li>
-                    <li>Guide de style complet et détaillé</li>
-                    <li>Application de la marque sur tous les supports nécessaires</li>
-                    <li>Développement d'éléments de la marque supplémentaires (cartes de visite, brochures, modèles de présentation)</li>
-                    <li>Consultation sur la stratégie de marque et la direction créative</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Services Complémentaires avec Image -->
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <div class="tarif-details">
-                <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
-                <h3>Déclinaisons Supplémentaires</h3>
-                <p><strong>Tarif :</strong><span class="discord fw-bold"> De 100 à 300 euros</span> par déclinaison</p>
-                <ul>
-                    <li>Versions du logo pour des usages spécifiques (réseaux sociaux, applications, etc.)</li>
-                </ul>
-                
-                <h3>Création de Visuels Associés</h3>
-                <p><strong>Tarif :</strong><span class="discord fw-bold"> De 150 à 500 euros</span></p>
-                <ul>
-                    <li>Création d'éléments visuels complémentaires comme des icônes, des bannières, ou des modèles pour les réseaux sociaux</li>
-                </ul>
-            </div>
-        </div>
-        <!-- Ajout de l'image -->
-        <div class="col-md-6">
-            <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid">
-        </div>
-    </div>
-
-    <div class="discord fw-bold text-center m-5 fs-3">Pour toute demande relative aux tarifs, nous vous prions de bien vouloir nous contacter.</div>
-</section>
-
+        <div class="discord fw-bold text-center m-5 fs-3">Pour toute demande relative aux tarifs, nous vous prions de bien vouloir nous contacter.</div>
+    </section>
     <?php include("footer.php"); ?>
 
     

@@ -39,7 +39,7 @@
 
     <!-- Vous pouvez retirer ou ajuster cette ligne si nécessaire -->
     <div class="row justify-content-center">
-        <div class="col-md-6 text-center w-25">
+        <div class="col-md-6 text-center">
             <img src="images/robotFooter.png" alt="Services Complémentaires" class="img-fluid">
         </div>
     </div>
