@@ -12,7 +12,7 @@
         .tarif-title {
             font-size: 1.5rem;
             margin-top: 20px;
-            text-align: left;
+            text-align: center;
         }
         .tarif-details {
             margin-bottom: 30px;
@@ -68,7 +68,7 @@
 
         <div class="row justify-content-center mt-4">
             <div class="col-md-6 text-center">
-                <img src="images/robotTarifs1.png" alt="robot" class="img-fluid mx-auto w-25">
+                <img src="images/robotTarifs1.png" alt="robot" class="img-fluid mx-auto">
             </div>
         </div>
 

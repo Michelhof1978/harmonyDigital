@@ -12,7 +12,6 @@
         .tarif-title {
             font-size: 1.5rem;
             margin-top: 20px;
-            text-align: left;
         }
         .tarif-details {
             margin-bottom: 30px;
@@ -60,15 +59,16 @@
     <div id="currency-background"></div>
 
     <section class="container tarifs-section text-white">
-        <div class="text-center mt-5">
-            <h1 class="border borderColor border-4 rounded p-2 mx-auto">
+        <!-- Contenu des tarifs pour la création de site web -->
+        <div class="mt-5">
+            <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
                 <strong class="text-white">Tarifs pour la Création de Site Web</strong>
             </h1>
         </div>
 
-        <div class="row justify-content-center mt-4">
-            <div class="col-md-6 text-center">
-                <img src="images/robotTarifs1.png" alt="robot" class="img-fluid mx-auto w-25">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center w-25">
+                <img src="images/robotTarifs1.png" alt="robot" class="img-fluid">
             </div>
         </div>
 
@@ -136,7 +136,7 @@
             </div>
         </div>
 
-        <div class="row align-items-center mt-4">
+        <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="tarif-details">
                     <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
@@ -169,14 +169,14 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <img src="images/robotTarifs2.png" alt="robot" class="img-fluid mx-auto w-50">
+                <img src="images/robotTarifs2.png" alt="robot" class="img-fluid w-50">
             </div>
         </div>
     </section>
 
-    <section class="container tarifs-section text-white">
-        <div class="text-center mt-5">
-            <h1 class="border borderColor border-4 rounded p-2 mx-auto">
+    <section class="container tarifs-section text-white ms-">
+        <div class="mt-5">
+            <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
                 <strong class="text-white">Tarifs pour la Création de Logo</strong>
             </h1>
         </div>
@@ -245,7 +245,7 @@
             </div>
         </div>
 
-        <div class="row align-items-center mt-4">
+        <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="tarif-details">
                     <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
@@ -276,21 +276,16 @@
                 </div>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-                <img src="images/robotTarifs3.png" alt="robot" class="img-fluid mx-auto w-50">
+                <img src="images/robotTarifs3.png" alt="robot" class="img-fluid w-50">
             </div>
         </div>
     </section>
 
-    <div class="fw-bold text-center m-5 text-white press-start-2p-regular">
-        Pour toute demande relative aux tarifs, nous vous prions de bien vouloir nous contacter.
-    </div>
-
     <div class="row justify-content-center mt-5">
-        <div class="col-md-6 text-center">
-            <img src="images/robotTarifs4.png" alt="robot" class="img-fluid mx-auto">
+            <div class="col-md-6 text-center w-50">
+                <img src="images/robotTarifs4.png" alt="robot" class="img-fluid">
+            </div>
         </div>
-    </div>
-
     <?php include("footer.php"); ?>
 
     <script>

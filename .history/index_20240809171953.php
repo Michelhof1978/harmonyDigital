@@ -306,12 +306,6 @@ h4 {
     background-repeat: no-repeat;
 }
 
-
-.img-small {
-    max-width: 50px; /* Ajustez la largeur maximale selon vos besoins */
-    height: auto; /* Maintient les proportions de l'image */
-}
-
     </style>
 </head>
 <body>
@@ -896,14 +890,14 @@ h4 {
 <!-- FIN PRESENTATION-->
 
 
-<div class="text-center">
-    <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
-        <img src="images/robotFinIndex1.png" alt="robot" loading="lazy" class="img-fluid img-small">
-        Propulsons votre entreprise vers les étoiles.
-        <img src="images/robotFinIndex2.png" alt="robot" loading="lazy" class="img-fluid img-small">
-    </p>
-</div>
+    <div class="text-center">
+            <p class="text-white lead fs-5 mb-5 fw-bold press-start-2p-regular" >
+            <img src="images/robotFinIndex1.png" alt="robot" loading="lazy" class="img-fluid">
+            Propulsons votre entreprise vers les étoiles.
+            <img src="images/robotFinIndex2.png" alt="robot" loading="lazy" class="img-fluid w-25">
 
+            </p>
+        </div>
 
     <?php include("footer.php"); ?>
 

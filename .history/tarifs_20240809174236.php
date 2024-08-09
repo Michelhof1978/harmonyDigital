@@ -12,7 +12,7 @@
         .tarif-title {
             font-size: 1.5rem;
             margin-top: 20px;
-            text-align: left;
+            text-align: center;
         }
         .tarif-details {
             margin-bottom: 30px;
@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">1. Site Web Vitrine</h2>
+                    <h2 class="tarif-title fw-bold">Site Web Vitrine</h2>
                     <p>Un site vitrine est conçu pour présenter des informations de manière simple et efficace. Idéal pour les petites entreprises ou les professionnels souhaitant une présence en ligne de base.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 590 à 2 000 euros</span></p>
                     <ul>
@@ -90,7 +90,7 @@
 
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">2. Site Web avec Fonctionnalités Avancées</h2>
+                    <h2 class="tarif-title fw-bold">Site Web avec Fonctionnalités Avancées</h2>
                     <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 2 200 à 5 000 euros</span></p>
                     <ul>
@@ -107,7 +107,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">3. Site Web E-commerce</h2>
+                    <h2 class="tarif-title fw-bold">Site Web E-commerce</h2>
                     <p>Pour les projets nécessitant des fonctionnalités de vente en ligne, comme les paiements en ligne, la gestion des stocks, et le suivi des commandes.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 4 000 à 8 500 euros</span></p>
                     <ul>
@@ -122,7 +122,7 @@
 
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">4. Site Web sur Mesure</h2>
+                    <h2 class="tarif-title fw-bold">Site Web sur Mesure</h2>
                     <p>Pour les projets nécessitant des fonctionnalités totalement personnalisées ou des intégrations spécifiques.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 7 000 à 18 000 euros</span></p>
                     <ul>
@@ -139,7 +139,7 @@
         <div class="row align-items-center mt-4">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
+                    <h2 class="tarif-title fw-bold">Services Complémentaires</h2>
                     <h3>Maintenance et Support</h3>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 50 à 200 euros</span> par mois</p>
                     <ul>
@@ -183,7 +183,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">1. Logo de Base</h2>
+                    <h2 class="tarif-title fw-bold">Logo de Base</h2>
                     <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 150 à 500 euros</span></p>
                     <ul>
@@ -197,7 +197,7 @@
 
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">2. Logo Standard</h2>
+                    <h2 class="tarif-title fw-bold">Logo Standard</h2>
                     <p>Pour des besoins plus élaborés, incluant plusieurs propositions et révisions.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 800 à 1 500 euros</span></p>
                     <ul>
@@ -214,7 +214,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">3. Logo Premium</h2>
+                    <h2 class="tarif-title fw-bold">Logo Premium</h2>
                     <p>Pour les marques qui nécessitent une approche approfondie avec des recherches et une stratégie complète.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 1 500 à 3 000 euros</span></p>
                     <ul>
@@ -230,7 +230,7 @@
 
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">4. Logo sur Mesure</h2>
+                    <h2 class="tarif-title fw-bold">Logo sur Mesure</h2>
                     <p>Pour des besoins spécifiques nécessitant des concepts entièrement personnalisés et une collaboration étroite.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> À partir de 3 000 euros</span></p>
                     <ul>
@@ -248,7 +248,7 @@
         <div class="row align-items-center mt-4">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
+                    <h2 class="tarif-title fw-bold">Services Complémentaires</h2>
                     <h3>Version Monochrome</h3>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> 100 euros</span></p>
                     <ul>

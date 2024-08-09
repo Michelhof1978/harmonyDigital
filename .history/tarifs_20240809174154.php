@@ -12,7 +12,7 @@
         .tarif-title {
             font-size: 1.5rem;
             margin-top: 20px;
-            text-align: left;
+            text-align: center;
         }
         .tarif-details {
             margin-bottom: 30px;
@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">1. Site Web Vitrine</h2>
+                    <h2 class="tarif-title fw-bold">Site Web Vitrine</h2>
                     <p>Un site vitrine est conçu pour présenter des informations de manière simple et efficace. Idéal pour les petites entreprises ou les professionnels souhaitant une présence en ligne de base.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 590 à 2 000 euros</span></p>
                     <ul>
@@ -90,7 +90,7 @@
 
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">2. Site Web avec Fonctionnalités Avancées</h2>
+                    <h2 class="tarif-title fw-bold">Site Web avec Fonctionnalités Avancées</h2>
                     <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 2 200 à 5 000 euros</span></p>
                     <ul>
@@ -107,7 +107,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">3. Site Web E-commerce</h2>
+                    <h2 class="tarif-title fw-bold">Site Web E-commerce</h2>
                     <p>Pour les projets nécessitant des fonctionnalités de vente en ligne, comme les paiements en ligne, la gestion des stocks, et le suivi des commandes.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 4 000 à 8 500 euros</span></p>
                     <ul>
@@ -122,7 +122,7 @@
 
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">4. Site Web sur Mesure</h2>
+                    <h2 class="tarif-title fw-bold">Site Web sur Mesure</h2>
                     <p>Pour les projets nécessitant des fonctionnalités totalement personnalisées ou des intégrations spécifiques.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 7 000 à 18 000 euros</span></p>
                     <ul>

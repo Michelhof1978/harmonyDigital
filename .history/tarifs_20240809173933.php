@@ -12,7 +12,7 @@
         .tarif-title {
             font-size: 1.5rem;
             margin-top: 20px;
-            text-align: left;
+            text-align: center;
         }
         .tarif-details {
             margin-bottom: 30px;

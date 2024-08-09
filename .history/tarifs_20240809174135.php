@@ -12,7 +12,7 @@
         .tarif-title {
             font-size: 1.5rem;
             margin-top: 20px;
-            text-align: left;
+            text-align: center;
         }
         .tarif-details {
             margin-bottom: 30px;
@@ -75,7 +75,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="tarif-details">
-                    <h2 class="tarif-title fw-bold">1. Site Web Vitrine</h2>
+                    <h2 class="tarif-title fw-bold">Site Web Vitrine</h2>
                     <p>Un site vitrine est conçu pour présenter des informations de manière simple et efficace. Idéal pour les petites entreprises ou les professionnels souhaitant une présence en ligne de base.</p>
                     <p><strong>Tarif :</strong><span class="discord fw-bold"> De 590 à 2 000 euros</span></p>
                     <ul>
