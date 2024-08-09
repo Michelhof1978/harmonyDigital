@@ -833,7 +833,7 @@ h4 {
             <!-- Diapositive contenant toutes les cartes -->
             <div class="carousel-item active">
                 <div class="d-flex overflow-auto">
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
@@ -875,13 +875,13 @@ h4 {
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/logo9.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>

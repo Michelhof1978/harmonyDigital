@@ -289,26 +289,14 @@ h4 {
         margin-top: 1000px;
     }
 
-  /* Effet survol logo */
-.imgcard2 {
+  /* ffet survol logo */
+.imgcard {
     transition: transform 0.5s ease;
 }
 
 /* Animation lors du survol */
-.imgcard2:hover {
+.imgcard:hover {
     transform: rotateY(360deg);
-}
-
-.card2 {
-    transform: scale(0.7);
-    transform-origin: center center;
-    flex: 1 0 30%;
-    box-sizing: border-box;
-    margin: 0 -90px;
-    background-image: url('Images/fondNoir2.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
     </style>
@@ -833,57 +821,57 @@ h4 {
             <!-- Diapositive contenant toutes les cartes -->
             <div class="carousel-item active">
                 <div class="d-flex overflow-auto">
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo2.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo2.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo3.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo3.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo4.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo4.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo6.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo6.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo7.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo7.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
-                    <div class="card2 mx-2">
+                    <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo9.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo9.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
