@@ -38,7 +38,7 @@
             position: absolute;
             color: lime;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 10px;
+            font-size: 12px;
             white-space: nowrap;
             animation: move 5s linear infinite;
             opacity: 0.8;
@@ -185,7 +185,7 @@
                 <div class="tarif-details">
                     <h2 class="tarif-title fw-bold">1. Logo de Base</h2>
                     <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
-                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 150 à 500 euros</span></p>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 300 à 800 euros</span></p>
                     <ul>
                         <li>Conception de 1 à 2 propositions de logo</li>
                         <li>Révisions limitées (généralement 1 à 2)</li>

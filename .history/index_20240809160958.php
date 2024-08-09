@@ -521,7 +521,7 @@ h4 {
                             <img src="images/card3.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 150,00 €</strong>
+                        <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
                         <div class="card-body">
                             <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
