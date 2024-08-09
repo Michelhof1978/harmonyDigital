@@ -208,7 +208,7 @@
                     <p><strong>Tarif :</strong> De 3 000 à 6 000 euros ou plus</p>
                     <ul>
                         <li>Conception de multiples concepts créatifs et révisions illimitées</li>
-                        <li>Livraison des fichiers finaux en formats raster</li>
+                        <li>Livraison des fichiers finaux en formatsraster</li>
                         <li>Guide de style complet et détaillé</li>
                         <li>Application de la marque sur tous les supports nécessaires</li>
                         <li>Développement d'éléments de la marque supplémentaires (cartes de visite, brochures, modèles de présentation)</li>

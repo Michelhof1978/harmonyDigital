@@ -59,7 +59,7 @@
                 <div class="tarif-details">
                     <h2 class="tarif-title">2. Site Web avec Fonctionnalités Avancées</h2>
                     <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
-                    <p><strong>Tarif :</strong> De 2 200 à 5 000 euros</p>
+                    <p><strong>Tarif :</strong> De 2 300 à 5 000 euros</p>
                     <ul>
                         <li>Design personnalisé et mise en page avancée</li>
                         <li>Intégration de fonctionnalités spécifiques (ex. : formulaires, galeries)</li>
@@ -77,12 +77,12 @@
                 <div class="tarif-details">
                     <h2 class="tarif-title">3. Site Web E-commerce</h2>
                     <p>Pour les projets nécessitant des fonctionnalités de vente en ligne, comme les paiements en ligne, la gestion des stocks, et le suivi des commandes.</p>
-                    <p><strong>Tarif :</strong> De 4 000 à 8 500 euros</p>
+                    <p><strong>Tarif :</strong> De 3 000 à 7 000 euros</p>
                     <ul>
                         <li>Configuration de la boutique en ligne</li>
                         <li>Intégration des systèmes de paiement sécurisés</li>
                         <li>Gestion des stocks et des produits</li>
-                        <li>Optimisation SEO</li>
+                        <li>Optimisation pour les conversions et SEO</li>
                         <li>Formation pour la gestion des commandes et du catalogue</li>
                     </ul>
                 </div>
@@ -93,7 +93,7 @@
                 <div class="tarif-details">
                     <h2 class="tarif-title">4. Site Web sur Mesure</h2>
                     <p>Pour les projets nécessitant des fonctionnalités totalement personnalisées ou des intégrations spécifiques.</p>
-                    <p><strong>Tarif :</strong> De 7 000 à 18 000 euros</p>
+                    <p><strong>Tarif :</strong> De 5 000 à 15 000 euros</p>
                     <ul>
                         <li>Développement de fonctionnalités uniques</li>
                         <li>Design et UX sur mesure</li>
@@ -127,7 +127,7 @@
                     <h3>Hébergement</h3>
                     <p><strong>Tarif :</strong> De 50 à 200 euros par an</p>
                     <ul>
-                        <li>Hébergement web</li>
+                        <li>Hébergement web (partagé, VPS, dédié)</li>
                         <li>Support technique associé</li>
                     </ul>
 
@@ -141,103 +141,6 @@
         </div>
     </section>
 
-
-    <section class="container tarifs-section text-white">
-        
-        <div class="mt-5">
-    <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
-        <strong class="text-white">Tarifs pour la Création de Logo</strong>
-    </h1>
-</div>
-        <div class="row">
-            <!-- Logo de Base -->
-            <div class="col-md-6">
-                <div class="tarif-details">
-                    <h2 class="tarif-title">1. Logo de Base</h2>
-                    <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
-                    <p><strong>Tarif :</strong> De 300 à 800 euros</p>
-                    <ul>
-                        <li>Conception de 1 à 2 propositions de logo</li>
-                        <li>Révisions limitées (généralement 1 à 2)</li>
-                        <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
-                        <li>Guide de style de base (couleurs, typographie)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Logo Standard -->
-            <div class="col-md-6">
-                <div class="tarif-details">
-                    <h2 class="tarif-title">2. Logo Standard</h2>
-                    <p>Pour les projets nécessitant un design plus élaboré avec une recherche de marque plus approfondie.</p>
-                    <p><strong>Tarif :</strong> De 800 à 1 500 euros</p>
-                    <ul>
-                        <li>Conception de 3 à 5 propositions de logo</li>
-                        <li>Révisions plus nombreuses (généralement 3 à 5)</li>
-                        <li>Livraison des fichiers finaux en formats raster</li>
-                        <li>Guide de style détaillé (couleurs, typographie, utilisation du logo)</li>
-                        <li>Application de la marque sur des supports de base (cartes de visite, papeterie)</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <!-- Logo Premium -->
-            <div class="col-md-6">
-                <div class="tarif-details">
-                    <h2 class="tarif-title">3. Logo Premium</h2>
-                    <p>Pour les projets nécessitant une recherche approfondie, plusieurs concepts créatifs, et des applications étendues de la marque.</p>
-                    <p><strong>Tarif :</strong> De 1 500 à 3 000 euros</p>
-                    <ul>
-                        <li>Conception de plusieurs concepts de logo (plus de 5 propositions)</li>
-                        <li>Révisions illimitées ou étendues</li>
-                        <li>Livraison des fichiers finaux en formats raster</li>
-                        <li>Guide de style complet (couleurs, typographie, utilisation du logo, variantes du logo)</li>
-                        <li>Application de la marque sur divers supports (cartes de visite, papeterie, vêtements)</li>
-                        <li>Déclinaisons et versions du logo pour différents usages (monochrome, icônes)</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Logo Sur-Mesure -->
-            <div class="col-md-6">
-                <div class="tarif-details">
-                    <h2 class="tarif-title">4. Logo Sur-Mesure avec Identité Visuelle Complète</h2>
-                    <p>Pour les entreprises qui cherchent une identité visuelle complète et unique, avec une analyse de marque approfondie.</p>
-                    <p><strong>Tarif :</strong> De 3 000 à 6 000 euros ou plus</p>
-                    <ul>
-                        <li>Conception de multiples concepts créatifs et révisions illimitées</li>
-                        <li>Livraison des fichiers finaux en formats raster</li>
-                        <li>Guide de style complet et détaillé</li>
-                        <li>Application de la marque sur tous les supports nécessaires</li>
-                        <li>Développement d'éléments de la marque supplémentaires (cartes de visite, brochures, modèles de présentation)</li>
-                        <li>Consultation sur la stratégie de marque et la direction créative</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Services Complémentaires -->
-        <div class="row">
-            <div class="col-md-6">
-                <div class="tarif-details">
-                    <h2 class="tarif-title">5. Services Complémentaires</h2>
-                    <h3>Déclinaisons Supplémentaires</h3>
-                    <p><strong>Tarif :</strong> De 100 à 300 euros par déclinaison</p>
-                    <ul>
-                        <li>Versions du logo pour des usages spécifiques (réseaux sociaux, applications, etc.)</li>
-                    </ul>
-                    
-                    <h3>Création de Visuels Associés</h3>
-                    <p><strong>Tarif :</strong> De 150 à 500 euros</p>
-                    <ul>
-                        <li>Création d'éléments visuels complémentaires comme des icônes, des bannières, ou des modèles pour les réseaux sociaux</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
     <?php include("footer.php"); ?>
 
     

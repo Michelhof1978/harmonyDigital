@@ -159,7 +159,7 @@
                     <ul>
                         <li>Conception de 1 à 2 propositions de logo</li>
                         <li>Révisions limitées (généralement 1 à 2)</li>
-                        <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
+                        <li>Livraison des fichiers finaux en formats vectoriels (AI, EPS) et raster (PNG, JPG)</li>
                         <li>Guide de style de base (couleurs, typographie)</li>
                     </ul>
                 </div>
@@ -174,7 +174,7 @@
                     <ul>
                         <li>Conception de 3 à 5 propositions de logo</li>
                         <li>Révisions plus nombreuses (généralement 3 à 5)</li>
-                        <li>Livraison des fichiers finaux en formats raster</li>
+                        <li>Livraison des fichiers finaux en formats vectoriels et raster</li>
                         <li>Guide de style détaillé (couleurs, typographie, utilisation du logo)</li>
                         <li>Application de la marque sur des supports de base (cartes de visite, papeterie)</li>
                     </ul>
@@ -192,7 +192,7 @@
                     <ul>
                         <li>Conception de plusieurs concepts de logo (plus de 5 propositions)</li>
                         <li>Révisions illimitées ou étendues</li>
-                        <li>Livraison des fichiers finaux en formats raster</li>
+                        <li>Livraison des fichiers finaux en formats vectoriels et raster</li>
                         <li>Guide de style complet (couleurs, typographie, utilisation du logo, variantes du logo)</li>
                         <li>Application de la marque sur divers supports (cartes de visite, papeterie, vêtements)</li>
                         <li>Déclinaisons et versions du logo pour différents usages (monochrome, icônes)</li>
@@ -208,7 +208,7 @@
                     <p><strong>Tarif :</strong> De 3 000 à 6 000 euros ou plus</p>
                     <ul>
                         <li>Conception de multiples concepts créatifs et révisions illimitées</li>
-                        <li>Livraison des fichiers finaux en formats raster</li>
+                        <li>Livraison des fichiers finaux en formats vectoriels et raster</li>
                         <li>Guide de style complet et détaillé</li>
                         <li>Application de la marque sur tous les supports nécessaires</li>
                         <li>Développement d'éléments de la marque supplémentaires (cartes de visite, brochures, modèles de présentation)</li>

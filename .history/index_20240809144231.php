@@ -379,7 +379,7 @@ h4 {
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card1.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 590,00 €</strong>
+                        <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                         <div class="card-body">
                             <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
@@ -510,7 +510,7 @@ h4 {
                             <img src="images/card2.png" alt="site internet" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
-                        <strong class="pricecard text-white custom-animation mb-5">À partir de 490,00 €</strong>
+                        <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
                         <div class="card-body">
                             <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
