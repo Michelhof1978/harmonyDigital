@@ -230,7 +230,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-    <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés &nbsp; <a href="https://cvmichel-hoffmann.fr/" target="_blank">Hoffmann Michel - Harmony Digital</a></p>
+    <p>Copyright &copy; <span id="date"></span>, Droits réservés &nbsp; <a href="https://cvmichel-hoffmann.fr/" target="_blank">Hoffmann Michel - Harmony Digital</a></p>
 </div>
 
                 </div>

@@ -501,7 +501,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
                     </div>
 

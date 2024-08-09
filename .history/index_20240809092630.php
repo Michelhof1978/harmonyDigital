@@ -381,7 +381,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -396,7 +396,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
                     </div>
                 </div>
@@ -411,7 +411,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
                     </div>
                 </div>
@@ -426,7 +426,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
                     </div>
                 </div>
@@ -441,7 +441,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
                     </div>
                 </div>
@@ -456,7 +456,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Nous Contacter !</a>
                         </div>
                     </div>
                 </div>
@@ -501,7 +501,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 890,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -512,7 +512,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 790,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -523,7 +523,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 125,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
@@ -539,7 +539,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -550,7 +550,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
                         </div>
                     </div>
 
@@ -561,7 +561,7 @@ h4 {
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
                         <div class="card-body">
-                            <a href="formulaireDeContact.php" class="info btn text-white mb-4">Nous Contacter !</a>
+                            <a href=".php" class="info btn text-white mb-4">Plus d'infos !</a>
                         </div>
                     </div>
                 </div>
