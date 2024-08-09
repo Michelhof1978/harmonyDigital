@@ -143,6 +143,7 @@
     <section class="container">
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
             Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital</span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
+            <span style="color: #e06717e4 ;">UX</span> (User Experience) et <span style="color: #e06717e4 ;">CX</span> (Customer Experience) sont au cœur de notre politique d’Innovation !
         </p>
 
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">

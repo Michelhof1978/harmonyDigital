@@ -134,7 +134,7 @@
 
 <!-- OFFRES MOBILE -->
 <div class="d-block d-md-none">
-    <div class="mt-5 mb-5">
+    <div class="mt-5">
         <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
             <strong class="text-white">Nos Offres</strong>
         </h1>
@@ -143,9 +143,6 @@
     <section class="container">
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
             Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital</span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
-        </p>
-
-        <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
             <span style="color: #e06717e4 ;">UX</span> (User Experience) et <span style="color: #e06717e4 ;">CX</span> (Customer Experience) sont au cœur de notre politique d’Innovation !
         </p>
     </section>
@@ -161,9 +158,8 @@
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
                     L’expert métier, c’est vous !<br> L’expert tech and agile, c’est nous ! <br>
                     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
+                    <span style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</span>
                 </p>
-                <p class="mt-3 lead text-center fw-bold" style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</p>
-
             </div>
         </div>
     </section>

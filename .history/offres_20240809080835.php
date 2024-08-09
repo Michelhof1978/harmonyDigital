@@ -133,8 +133,9 @@
 
 
 <!-- OFFRES MOBILE -->
+<!-- OFFRES MOBILE -->
 <div class="d-block d-md-none">
-    <div class="mt-5 mb-5">
+    <div class="mt-3">
         <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
             <strong class="text-white">Nos Offres</strong>
         </h1>
@@ -143,9 +144,6 @@
     <section class="container">
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
             Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital</span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
-        </p>
-
-        <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
             <span style="color: #e06717e4 ;">UX</span> (User Experience) et <span style="color: #e06717e4 ;">CX</span> (Customer Experience) sont au cœur de notre politique d’Innovation !
         </p>
     </section>
@@ -161,9 +159,8 @@
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
                     L’expert métier, c’est vous !<br> L’expert tech and agile, c’est nous ! <br>
                     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
+                    <span style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</span>
                 </p>
-                <p class="mt-3 lead text-center fw-bold" style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</p>
-
             </div>
         </div>
     </section>
@@ -180,24 +177,23 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo2.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo2.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
     </section>
 
     <section class="container mb-4">
-        
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="images/robotinfo3.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
+            </div>
+        </div>
         <div class="row">
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
                 De <span style="color: #e06717e4 ;">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
                 En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>.
                 </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center">
-                <img src="images/robotinfo3.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
     </section>
@@ -214,13 +210,13 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo4.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo4.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
     </section>
 
     <div class="text-center mb-4">
-        <img src="images/robotinfo5.png" alt="robot" loading="lazy" class="img-fluid w-75 mt-3">
+        <img src="images/robotinfo5.png" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
     </div>
 </div>
 <!-- FIN OFFRES MOBILE -->
