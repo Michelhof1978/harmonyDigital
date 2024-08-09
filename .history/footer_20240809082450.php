@@ -85,7 +85,7 @@
 
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center text-white m-2">
+                        <div class="footer-widget-heading2 text-center m-2">
                             <h3>Newsletter</h3>
                         </div>
                         <div class="footer-text mb-3">
