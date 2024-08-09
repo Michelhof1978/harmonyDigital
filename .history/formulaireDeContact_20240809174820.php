@@ -220,7 +220,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="row justify-content-center mt-5">
         <div class="col-md-6 text-center">
-            <img src="images/robotForm.png" alt="robot" class="img-fluid mx-auto">
+            <img src="images/robotTarifs4.png" alt="robot" class="img-fluid mx-auto">
         </div>
     </div>
 <?php include("footer.php") ?>
