@@ -3,7 +3,7 @@
 
 # RewriteEngine On
 # RewriteCond %{SERVER_PORT} 80
-# RewriteRule ^(.*)$ https://www.harmony-digital.fr/$1 [R,L]
+# RewriteRule ^(.*)$ https://www.harmony-di.fr/$1 [R,L]
 
 RewriteEngine On
 RewriteBase /
