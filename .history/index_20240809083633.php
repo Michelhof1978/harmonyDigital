@@ -5,6 +5,44 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
+/* Ajoute de la perspective au conteneur pour un effet de profondeur */
+.carousel-item {
+    perspective: 1000px; /* Ajustez cette valeur selon l'effet désiré */
+}
+
+/* Conteneur pour gérer les transformations 3D */
+.card-container {
+    display: inline-block;
+    position: relative;
+    transform-style: preserve-3d; /* Permet des transformations 3D */
+}
+
+/* Transition pour les effets de rotation */
+.imgcard {
+    transition: transform 0.6s ease, box-shadow 0.3s ease;
+    transform-style: preserve-3d; /* Permet des transformations 3D */
+}
+
+/* Rotation horizontale avec effet de profondeur */
+.imgcard:hover {
+    transform: rotateX(10deg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Ombre pour plus de réalisme */
+}
+
+/* Optionnel: Ajout d'un peu d'espace autour des cartes */
+.card {
+    margin: 1rem;
+}
+
+/* Assurez-vous que les images sont contenues correctement */
+.carousel-inner {
+    overflow: hidden;
+}
+
+/* Optionnel: Ajout d'un rayon de bord pour les images */
+.bg-image {
+    border-radius: 0.5rem;
+}
 
 
 /* Derniere phrase avant footer*/
@@ -289,16 +327,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -803,85 +832,84 @@ h4 {
 </section>
 <!--FIN SECTION VIDEOCOM-->
 
-<!-- PRESENTATION LOGOS -->
-<section class="text-center mt-4 ms-2 me-2">
-    <div>
-        <h2 class="border borderColor border-4 rounded p-2 m-5">
-            <strong class="text-white">
-                Logos Réalisés
-            </strong>
-        </h2>
-        <p class="text-white lead fs-2 pb-5 fw-bold">
-            <strong>A l'image de votre entreprise avec ou sans animations</strong>
-        </p>
-    </div>
+ <!-- PRESENTATION LOGOS -->
+ <section class="text-center mt-4 ms-2 me-2">
+        <div>
+            <h2 class="border borderColor border-4 rounded p-2 m-5">
+                <strong class="text-white">
+                    Logos Réalisés
+                </strong>
+            </h2>
+            <p class="text-white lead fs-2 pb-5 fw-bold">
+                <strong>A l'image de votre entreprise avec ou sans animations</strong>
+            </p>
+        </div>
 
-    <div id="logoCarousel" class="carousel slide carousel-container">
-        <div class="carousel-inner">
-            <!-- Diapositive contenant toutes les cartes -->
-            <div class="carousel-item active">
-                <div class="d-flex overflow-auto">
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+        <div id="logoCarousel" class="carousel slide carousel-container">
+            <div class="carousel-inner">
+                <!-- Diapositive contenant toutes les cartes -->
+                <div class="carousel-item active">
+                    <div class="d-flex overflow-auto">
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo2.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo2.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo3.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo3.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo4.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo4.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo6.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo6.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo7.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo7.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card mx-2">
-                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo9.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
-                            <p class="textcard card-text text-white"></p>
+                        <div class="card mx-2">
+                            <div class="bg-image hover-overlay ripple card-container" data-mdb-ripple-color="light">
+                                <img src="images/logo9.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                                <p class="textcard card-text text-white"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- FIN PRESENTATION-->
-
+    </section>
+    <!-- FIN PRESENTATION LOGOS DESKTOP -->
 
     <div class="text-center">
             <p class="text-white lead fs-5 mb-5 fw-bold press-start-2p-regular" >

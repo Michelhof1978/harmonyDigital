@@ -289,16 +289,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -816,10 +807,10 @@ h4 {
         </p>
     </div>
 
-    <div id="logoCarousel" class="carousel slide carousel-container">
-        <div class="carousel-inner">
+    <div>
+        <div class="">
             <!-- Diapositive contenant toutes les cartes -->
-            <div class="carousel-item active">
+            <div class="">
                 <div class="d-flex overflow-auto">
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
@@ -880,7 +871,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS DESKTOP-->
 
 
     <div class="text-center">

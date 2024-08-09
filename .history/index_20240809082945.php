@@ -5,6 +5,28 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
+/* Assurez-vous que vos images ne débordent pas du conteneur */
+.carousel-inner {
+    overflow: hidden;
+}
+
+.card {
+    /* Optional: Adds a bit of space around cards */
+    margin: 1rem;
+}
+
+.imgcard {
+    transition: transform 0.5s ease;
+}
+
+.imgcard:hover {
+    transform: rotate(360deg);
+}
+
+/* Optional: Add some padding and a border radius if needed */
+.bg-image {
+    border-radius: 0.5rem;
+}
 
 
 /* Derniere phrase avant footer*/
@@ -289,16 +311,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -880,7 +893,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS DESKTOP-->
 
 
     <div class="text-center">

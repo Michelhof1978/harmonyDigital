@@ -5,6 +5,34 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
+/* Ajoute une perspective à l'élément conteneur */
+.carousel-item {
+    perspective: 1000px; /* Vous pouvez ajuster cette valeur selon l'effet désiré */
+}
+
+.imgcard {
+    transition: transform 0.5s ease;
+    transform-style: preserve-3d; /* Permet des transformations 3D */
+}
+
+.imgcard:hover {
+    transform: rotateX(360deg); /* Rotation horizontale */
+}
+
+/* Assurez-vous que les images sont contenues correctement */
+.carousel-inner {
+    overflow: hidden;
+}
+
+.card {
+    /* Ajoute un peu d'espace autour des cartes, si nécessaire */
+    margin: 1rem;
+}
+
+/* Optionnel: Ajoute un rayon de bord pour les images */
+.bg-image {
+    border-radius: 0.5rem;
+}
 
 
 /* Derniere phrase avant footer*/
@@ -289,16 +317,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -880,7 +899,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS DESKTOP-->
 
 
     <div class="text-center">

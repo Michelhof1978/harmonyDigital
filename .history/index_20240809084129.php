@@ -5,6 +5,33 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
+.card {
+    overflow: hidden;
+    position: relative; /* Nécessaire pour positionner le pseudo-élément */
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Léger zoom */
+}
+
+.card:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 255, 0, 0.3); /* Dégradé de couleur */
+    transition: background 0.3s ease;
+    z-index: 1; /* Assurez-vous que l'effet se superpose à l'image */
+}
+
+.imgcard {
+    transition: opacity 0.3s ease;
+    position: relative; /* Nécessaire pour que l'image soit au-dessus de l'effet */
+    z-index: 0;
+}
 
 
 /* Derniere phrase avant footer*/
@@ -289,16 +316,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -880,7 +898,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS-->
 
 
     <div class="text-center">

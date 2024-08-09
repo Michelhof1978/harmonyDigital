@@ -289,16 +289,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -823,49 +814,49 @@ h4 {
                 <div class="d-flex overflow-auto">
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo2.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo2.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo3.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo3.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo4.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo4.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo6.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo6.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo7.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo7.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard img-fluid">
+                            <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard img-fluid" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
@@ -880,7 +871,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS -->
 
 
     <div class="text-center">

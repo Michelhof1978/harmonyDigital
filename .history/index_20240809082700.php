@@ -289,16 +289,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -803,7 +794,7 @@ h4 {
 </section>
 <!--FIN SECTION VIDEOCOM-->
 
-<!-- PRESENTATION LOGOS -->
+<!-- PRESENTATION LOGOS DESKTOP-->
 <section class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
@@ -880,7 +871,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS DESKTOP-->
 
 
     <div class="text-center">

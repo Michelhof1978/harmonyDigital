@@ -5,6 +5,23 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
     <style>
+.card {
+    overflow: hidden; /* Assurez-vous que les éléments ne débordent pas de la carte */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Zoom léger sur l'image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+
+.imgcard {
+    transition: opacity 0.3s ease; /* Transition pour la modification de l'opacité */
+}
+
+.card:hover .imgcard {
+    opacity: 0.8; /* Légère réduction de l'opacité lors du survol */
+}
 
 
 /* Derniere phrase avant footer*/
@@ -289,16 +306,7 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
-}
-
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
-}
-
+    
     </style>
 </head>
 <body>
@@ -880,7 +888,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS-->
 
 
     <div class="text-center">

@@ -289,14 +289,25 @@ h4 {
         margin-top: 1000px;
     }
     
-    /* Style de base de l'image */
-.imgcard {
-    transition: transform 0.5s ease;
+
+    /* Agr */
+    .card {
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-/* Animation lors du survol */
-.imgcard:hover {
-    transform: rotateY(360deg);
+.card:hover {
+    transform: translateY(-10px); /* Décalage vers le haut */
+    filter: brightness(1.2); /* Augmente la luminosité */
+}
+
+.imgcard {
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .imgcard {
+    opacity: 0.9; /* Légère réduction de l'opacité */
 }
 
     </style>
@@ -880,7 +891,7 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION-->
+<!-- FIN PRESENTATION LOGOS -->
 
 
     <div class="text-center">
