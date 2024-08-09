@@ -34,9 +34,7 @@
                     <a class="nav-link fs-5" href="infos.php"><strong><span class="text-orange-nav">I</span>nformations</strong></a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link fs-5" href="tarifs.php"><strong><span class="text-orange-nav">T</span>arifs</strong></a>
-                </li>
+                
             
                 <li class="nav-item">
                     <a class="nav-link fs-5" href="formulaireDeContact.php"><strong><span class="text-orange-nav">C</span>ontactez-nous !</strong></a>
