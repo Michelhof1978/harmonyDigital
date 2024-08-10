@@ -258,6 +258,69 @@ h4 {
 }
 /*Fin Section VIDEOCOM*/
 
+ /* Styles généraux du popup */
+ .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    text-align: center;
+    max-width: 90%; /* Largeur max pour le popup */
+    max-height: 90%; /* Hauteur max pour le popup */
+    overflow: hidden; /* Empêche le débordement */
+  }
+
+  .popup img {
+    max-height: 100%; /* Ajuster l'image pour remplir le popup */
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .popup button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Styles pour tablettes */
+  @media (max-width: 768px) {
+    .popup {
+      max-width: 80%; /* Ajuster la largeur max pour les tablettes */
+      max-height: 80%; /* Ajuster la hauteur max pour les tablettes */
+    }
+  }
+
+  /* Styles pour mobiles */
+  @media (max-width: 480px) {
+    .popup {
+      max-width: 95%; /* Ajuster la largeur max pour les mobiles */
+      max-height: 95%; /* Ajuster la hauteur max pour les mobiles */
+    }
+
+    .popup button {
+      font-size: 18px; /* Réduire la taille du bouton de fermeture sur les mobiles */
+    }
+  }
+
+  .small-robot {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 200px; /* Ajuste la hauteur selon tes besoins */
+        object-fit: contain;
+      margin-right: -50px;
+        margin-top: 1000px;
+    }
+
   /* Effet survol logo */
 .imgcard2 {
     transition: transform 0.5s ease;
@@ -290,7 +353,6 @@ h4 {
 </head>
 
     <?php include("header.php"); ?>
-    <div id="binary-background"></div>
     
  <!-- INTRO-->
 <div class="mt-5">
@@ -887,7 +949,7 @@ h4 {
         const timeLeft = targetDate - now;
 
         if (timeLeft < 0) {
-            document.getElementById("countdown").innerHTML = "00  JOURS 00H 00M 00S";
+            document.getElementById("countdown").innerHTML = "00 JOURS 00H 00M 00S";
             clearInterval(countdownTimer);
             return;
         }
@@ -909,6 +971,111 @@ h4 {
     updateCountdown();
     const countdownTimer = setInterval(updateCountdown, 1000);
 </script>
+ 
+
+ <!-- COOKIES -->
+<script>
+    // Fonction pour obtenir la valeur d'un cookie
+    function getCookie(name) {
+        let match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+        if (match) return match[2];
+    }
+
+    // Fonction pour définir un cookie avec une durée d'expiration (en jours)
+    function setCookie(name, value, days) {
+        let expires = '';
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = '; expires=' + date.toUTCString();
+        }
+        document.cookie = name + '=' + value + expires + '; path=/';
+    }
+
+    // Fonction appelée lorsqu'un utilisateur accepte les cookies
+    function acceptCookies() {
+        // Ajoutez ici le code pour définir les cookies ou effectuer d'autres actions nécessaires
+
+        // Définir un cookie indiquant que l'utilisateur a accepté les cookies
+        setCookie('cookieConsent', 'accepted', 365);
+
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+    // Fonction appelée lorsqu'un utilisateur refuse les cookies
+    function refuseCookies() {
+
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+
+    // Vérifier si l'utilisateur a déjà accepté les cookies
+    if (getCookie('cookieConsent') !== 'accepted') {
+        // Affiche la bannière de consentement après un délai 
+        setTimeout(function() {
+            document.getElementById('cookie-banner').style.display = 'block';
+        }, 2000);
+    }
+</script>
+
+
+<!-- Affichage Popup -->
+<script>
+  // Fonction pour vérifier si le popup a déjà été affiché aujourd'hui
+  function isPopupShown() {
+    const date = new Date();
+    const dateString = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
+    return document.cookie.includes(`popupShown=${dateString}`);
+  }
+
+  // Fonction pour définir le cookie indiquant que le popup a été affiché aujourd'hui
+  function setPopupShown() {
+    const date = new Date();
+    // Fixer l'expiration à la fin du jour
+    date.setHours(23, 59, 59, 999);
+    const dateString = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
+    document.cookie = `popupShown=${dateString}; expires=${date.toUTCString()}; path=/`;
+  }
+
+  // Vérifie si le popup n'a pas déjà été montré aujourd'hui
+  if (!isPopupShown()) {
+    let popupDiv = document.createElement("div");
+    popupDiv.className = "popup"; // Ajouter la classe popup
+    popupDiv.style.cssText = "position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9999; text-align: center;";
+
+    let imgContainer = document.createElement("div");
+    imgContainer.style.cssText = "position: relative; display: inline-block;";
+
+    let img = document.createElement("img");
+    img.src = "images/offre2024.png"; 
+    img.style.maxHeight = '100%'; // Ajuster à 100% de la hauteur du popup
+    img.style.maxWidth = '100%'; // Ajuster à 100% de la largeur du popup
+    img.style.width = 'auto'; // Ajuster largeur automatiquement pour maintenir le ratio
+    img.style.height = 'auto'; // Ajuster hauteur automatiquement pour maintenir le ratio
+    imgContainer.appendChild(img);
+
+    let closeButton = document.createElement("button");
+    closeButton.textContent = "✖"; // Symbole de fermeture
+    closeButton.style.cssText = "position: absolute; top: 10px; right: 10px; cursor: pointer; border: none; background: transparent; color: black; font-size: 20px; padding: 0; margin: 0;";
+
+    closeButton.onclick = function () {
+      document.body.removeChild(popupDiv);
+      setPopupShown();
+    };
+
+    imgContainer.appendChild(closeButton);
+    popupDiv.appendChild(imgContainer);
+    document.body.appendChild(popupDiv);
+
+    // Optionnel: fermeture automatique après 30 secondes
+    setTimeout(function() {
+      if (document.body.contains(popupDiv)) {
+        document.body.removeChild(popupDiv);
+      }
+      setPopupShown();
+    }, 30000);
+  }
+</script>
+<!--------------------------------------------------------------------------------->
 
 </body>
   </html>

@@ -225,11 +225,10 @@
 </div>
 <!-- FIN OFFRES MOBILE -->
 
+<!-- OFFRES MOBILE -->
 
     <?php include("footer.php"); ?>
 
-
-    <!-- FOND BINAIRE -->
     <script>
         const numParticles = 100; // Nombre total de particules
         const binaryBackground = document.getElementById('binary-background');
@@ -241,29 +240,22 @@
             particle.textContent = characters[Math.floor(Math.random() * characters.length)];
             particle.style.left = `${Math.random() * 100}vw`;
             particle.style.top = `${Math.random() * 100}vh`;
-
+            
             // Définir une animation unique pour chaque particule
-            const duration = Math.random() * 30 + 25; // Durée entre 25s et 55s
-            particle.style.animation = `move ${duration}s linear infinite`;
+            particle.style.animation = `move ${Math.random() * 30 + 25}s linear infinite`;
             
             binaryBackground.appendChild(particle);
         }
 
-        function initializeParticles() {
+        for (let i = 0; i < numParticles; i++) {
+            createParticle();
+        }
+
+        window.addEventListener('resize', () => {
             binaryBackground.innerHTML = '';
             for (let i = 0; i < numParticles; i++) {
                 createParticle();
             }
-        }
-
-        // Initialiser les particules lors du chargement de la page
-        initializeParticles();
-
-        // Utiliser un debounce pour améliorer la performance lors du redimensionnement
-        let resizeTimeout;
-        window.addEventListener('resize', () => {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(initializeParticles, 200); // Délai de 200ms avant de réinitialiser
         });
     </script>
 </body>

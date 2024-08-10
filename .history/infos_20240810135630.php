@@ -229,7 +229,7 @@
     <?php include("footer.php"); ?>
 
 
-    <!-- FOND BINAIRE -->
+    <!-- FIN OFFRES MOBILE -->
     <script>
         const numParticles = 100; // Nombre total de particules
         const binaryBackground = document.getElementById('binary-background');

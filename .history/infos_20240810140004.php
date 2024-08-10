@@ -5,50 +5,51 @@
   
     <style>
         /* Fond 0 et 1 index */
-        #binary-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            overflow: hidden;
-        }
+        #background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
 
-        .particle {
-            position: absolute;
-            color: lime;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 10px; /* Augmente la taille pour une meilleure visibilité */
-            white-space: nowrap;
-            opacity: 0.9;
-            animation: move 25s linear infinite; /* Valeur par défaut, peut être remplacée en JavaScript */
-        }
+.dot {
+    position: absolute;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px; /* Augmente la taille pour une meilleure visibilité */
+    white-space: nowrap;
+    opacity: 0.9;
+    animation: moveDots 25s linear infinite; /* Valeur par défaut, peut être remplacée en JavaScript */
+}
 
-        @keyframes move {
-            0% {
-                transform: translate(0, 0);
-            }
-            25% {
-                transform: translate(calc(100vw - 10px), 0); /* Ajustez 10px selon la taille de la particule */
-            }
-            50% {
-                transform: translate(calc(100vw - 10px), calc(100vh - 10px));
-            }
-            75% {
-                transform: translate(0, calc(100vh - 10px));
-            }
-            100% {
-                transform: translate(0, 0);
-            }
-        }
+@keyframes moveDots {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(calc(100vw - 10px), 0); /* Ajustez 10px selon la taille de la particule */
+    }
+    50% {
+        transform: translate(calc(100vw - 10px), calc(100vh - 10px));
+    }
+    75% {
+        transform: translate(0, calc(100vh - 10px));
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
     </style>
 </head>
 <body>
     
     <?php include("header.php"); ?>
 
-    <div id="binary-background"></div>
+    <div id="background-container"></div>
 
 
 <!-- OFFRES DESKTOP -->

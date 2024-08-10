@@ -22,7 +22,6 @@
             font-size: 10px; /* Augmente la taille pour une meilleure visibilité */
             white-space: nowrap;
             opacity: 0.9;
-            animation: move 25s linear infinite; /* Valeur par défaut, peut être remplacée en JavaScript */
         }
 
         @keyframes move {
@@ -30,13 +29,13 @@
                 transform: translate(0, 0);
             }
             25% {
-                transform: translate(calc(100vw - 10px), 0); /* Ajustez 10px selon la taille de la particule */
+                transform: translate(calc(100vw - 24px), 0); /* 24px est la largeur approximative du caractère */
             }
             50% {
-                transform: translate(calc(100vw - 10px), calc(100vh - 10px));
+                transform: translate(calc(100vw - 24px), calc(100vh - 24px));
             }
             75% {
-                transform: translate(0, calc(100vh - 10px));
+                transform: translate(0, calc(100vh - 24px));
             }
             100% {
                 transform: translate(0, 0);
@@ -48,7 +47,7 @@
     
     <?php include("header.php"); ?>
 
-    <div id="binary-background"></div>
+    <div id="binary-background4"></div>
 
 
 <!-- OFFRES DESKTOP -->
@@ -225,14 +224,13 @@
 </div>
 <!-- FIN OFFRES MOBILE -->
 
+<!-- OFFRES MOBILE -->
 
     <?php include("footer.php"); ?>
 
-
-    <!-- FOND BINAIRE -->
     <script>
         const numParticles = 100; // Nombre total de particules
-        const binaryBackground = document.getElementById('binary-background');
+        const binaryBackground = document.getElementById('binary-background4');
         const characters = ['0', '1'];
 
         function createParticle() {
@@ -241,29 +239,22 @@
             particle.textContent = characters[Math.floor(Math.random() * characters.length)];
             particle.style.left = `${Math.random() * 100}vw`;
             particle.style.top = `${Math.random() * 100}vh`;
-
+            
             // Définir une animation unique pour chaque particule
-            const duration = Math.random() * 30 + 25; // Durée entre 25s et 55s
-            particle.style.animation = `move ${duration}s linear infinite`;
+            particle.style.animation = `move ${Math.random() * 30 + 25}s linear infinite`;
             
             binaryBackground.appendChild(particle);
         }
 
-        function initializeParticles() {
+        for (let i = 0; i < numParticles; i++) {
+            createParticle();
+        }
+
+        window.addEventListener('resize', () => {
             binaryBackground.innerHTML = '';
             for (let i = 0; i < numParticles; i++) {
                 createParticle();
             }
-        }
-
-        // Initialiser les particules lors du chargement de la page
-        initializeParticles();
-
-        // Utiliser un debounce pour améliorer la performance lors du redimensionnement
-        let resizeTimeout;
-        window.addEventListener('resize', () => {
-            clearTimeout(resizeTimeout);
-            resizeTimeout = setTimeout(initializeParticles, 200); // Délai de 200ms avant de réinitialiser
         });
     </script>
 </body>
