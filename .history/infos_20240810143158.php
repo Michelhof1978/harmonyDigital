@@ -4,8 +4,7 @@
     <title>Infos</title>
   
     <style>
-        /* Fond 0 et 1 index */
-        #binary-background {
+      #binary-background {
     position: fixed;
     top: 0;
     left: 0;
@@ -43,7 +42,6 @@
     }
 }
 
-    </style>
 </head>
 <body>
     

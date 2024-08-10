@@ -367,7 +367,7 @@ h4 {
                     Communication Événementielle<br>
                     Réalisation de Campagnes Publicitaires<br>
                 </p>
-            </div>
+</div>
         </div>
     </div>
 </section>
