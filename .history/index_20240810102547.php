@@ -145,7 +145,7 @@ h4 {
 /* Domaine de compétence */
 .textIntro {
 	margin-top: 40px;
-    background-image: url('images/fondBleu.png');
+    background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -205,7 +205,7 @@ h4 {
  .intro {
     margin-right: 60px;
     margin-top: 30px;
-    background-image: url('images/fondBleu.png');
+    background-image: url('Images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -337,7 +337,7 @@ h4 {
     flex: 1 0 30%;
     box-sizing: border-box;
     margin: 0 -90px;
-    background-image: url('images/fondNoir2.jpg');
+    background-image: url('Images/fondNoir2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

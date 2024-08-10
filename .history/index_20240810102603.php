@@ -337,7 +337,7 @@ h4 {
     flex: 1 0 30%;
     box-sizing: border-box;
     margin: 0 -90px;
-    background-image: url('images/fondNoir2.jpg');
+    background-image: url('Images/fondNoir2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

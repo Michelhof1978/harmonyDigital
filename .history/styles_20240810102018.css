@@ -2,13 +2,8 @@
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url('images/fondNoir2.jpg');
-  background-size: cover;
-    background-position: center;
-   background-repeat: no-repeat;
-    margin: 0; /* Supprime les marges par défaut du body */
-    padding: 0; /* Supprime les paddings par défaut du body */
-    overflow-x: hidden; /* Évite le débordement horizontal */
+    background-image: url('Images/fondNoir2.jpg');
+  
    
 }  
 
