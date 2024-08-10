@@ -248,7 +248,7 @@
        
         <div class="row justify-content-center mt-5">
         <div class="col-md-6 text-center">
-            <img src="images/robotTarifs3.png" alt="robot" class="img-fluid mx-auto w-25">
+            <img src="images/robotTarifs3.png" alt="robot" class="img-fluid mx-auto">
         </div>
     </div>
         </div>

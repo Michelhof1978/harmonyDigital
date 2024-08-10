@@ -246,11 +246,9 @@
         </div>
 
        
-        <div class="row justify-content-center mt-5">
-        <div class="col-md-6 text-center">
-            <img src="images/robotTarifs3.png" alt="robot" class="img-fluid mx-auto w-25">
-        </div>
-    </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="images/robotTarifs3.png" alt="robot" class="img-fluid mx-auto w-50">
+            </div>
         </div>
     </section>
 
@@ -258,7 +256,11 @@
         Pour toute demande relative aux tarifs, nous vous prions de bien vouloir nous contacter.
     </div>
 
-    
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6 text-center">
+            <img src="images/robotTarifs4.png" alt="robot" class="img-fluid mx-auto">
+        </div>
+    </div>
 
     <?php include("footer.php"); ?>
 

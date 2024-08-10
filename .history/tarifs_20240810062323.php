@@ -245,12 +245,39 @@
             </div>
         </div>
 
-       
-        <div class="row justify-content-center mt-5">
-        <div class="col-md-6 text-center">
-            <img src="images/robotTarifs3.png" alt="robot" class="img-fluid mx-auto w-25">
-        </div>
-    </div>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <div class="tarif-details">
+                    <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
+                    <h3>Version Monochrome</h3>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> 100 euros</span></p>
+                    <ul>
+                        <li>Adaptation du logo pour une utilisation monochrome</li>
+                    </ul>
+                    
+                    <h3>Carte de Visite</h3>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 150 à 400 euros</span></p>
+                    <ul>
+                        <li>Conception et mise en page</li>
+                        <li>Options d'impression</li>
+                    </ul>
+
+                    <h3>En-tête de Lettre</h3>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> De 100 à 250 euros</span></p>
+                    <ul>
+                        <li>Conception et mise en page de l'en-tête</li>
+                    </ul>
+
+                    <h3>Déclinaisons du Logo</h3>
+                    <p><strong>Tarif :</strong><span class="discord fw-bold"> 200 euros</span></p>
+                    <ul>
+                        <li>Création de variations du logo pour différents supports</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="images/robotTarifs3.png" alt="robot" class="img-fluid mx-auto w-50">
+            </div>
         </div>
     </section>
 
@@ -258,7 +285,11 @@
         Pour toute demande relative aux tarifs, nous vous prions de bien vouloir nous contacter.
     </div>
 
-    
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6 text-center">
+            <img src="images/robotTarifs4.png" alt="robot" class="img-fluid mx-auto">
+        </div>
+    </div>
 
     <?php include("footer.php"); ?>
 
