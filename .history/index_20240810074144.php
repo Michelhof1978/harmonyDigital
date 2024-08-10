@@ -55,7 +55,7 @@ h4 {
     }
 
     #countdown .time-part {
-        width: 1.8em; /* Réduit encore la largeur des parties du temps */
+        width: 1.2em; /* Réduit encore la largeur des parties du temps */
     }
 }
 

@@ -14,53 +14,43 @@ h4 {
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
 .countdown-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem; /* Réduit l'espace en bas sur mobile */
+    text-align: center; /* Centre le compteur sur la page */
+    padding: 20px; /* Espacement autour du compteur */
 }
 
 #countdown {
-    font-size: 2em;
+    font-size: 5vw; /* Taille de police responsive en fonction de la largeur de la vue */
     color: #0f0;
     text-shadow: 0 0 10px #0f0; /* Effet de lueur pour un look plus géométrique */
     font-family: 'Orbitron', sans-serif; /* Police moderne et géométrique */
     letter-spacing: 0.1em; /* Espacement entre les chiffres pour un effet plus aéré */
-    text-transform: uppercase; /* Optionnel : met en majuscule les lettres pour plus de cohérence */
     white-space: nowrap; /* Pour éviter les retours à la ligne */
-    text-align: center; /* Centre le texte */
 }
 
-/* Styles pour les différentes parties du temps */
 #countdown .time-part {
     display: inline-block;
-    width: 2em; /* Ajustez cette largeur selon vos besoins */
+    width: 3em; /* Largeur fixe pour chaque partie du temps */
     text-align: center;
 }
 
-/* Médias Queries pour les écrans plus petits */
-@media (max-width: 768px) {
+/* Media Queries pour ajuster la taille du texte sur différents écrans */
+@media (max-width: 1200px) {
     #countdown {
-        font-size: 1.5em; /* Réduit la taille de la police sur les écrans plus petits */
-    }
-
-    #countdown .time-part {
-        width: 1.5em; /* Réduit la largeur des parties du temps */
+        font-size: 4vw;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 900px) {
     #countdown {
-        font-size: 1.2em; /* Réduit encore la taille de la police pour les très petits écrans */
-    }
-
-    #countdown .time-part {
-        width: 1.8em; /* Réduit encore la largeur des parties du temps */
+        font-size: 6vw;
     }
 }
 
-
-
+@media (max-width: 600px) {
+    #countdown {
+        font-size: 8vw;
+    }
+}
 
 .competence {
     background-image: url('Images/fondBleu.png');
@@ -374,7 +364,7 @@ h4 {
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
             <p class="text-white lead fs-5 fw-bold press-start-2p-regular">Fin De La Promo Dans </p>
            
-            <div class="countdown-container mb-3">
+            <div class="countdown-container">
     <div id="countdown"></div>
 </div>
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">

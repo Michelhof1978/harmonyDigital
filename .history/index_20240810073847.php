@@ -13,13 +13,6 @@ h4 {
 /* Compte à rebours */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
 
-.countdown-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem; /* Réduit l'espace en bas sur mobile */
-}
-
 #countdown {
     font-size: 2em;
     color: #0f0;
@@ -28,35 +21,12 @@ h4 {
     letter-spacing: 0.1em; /* Espacement entre les chiffres pour un effet plus aéré */
     text-transform: uppercase; /* Optionnel : met en majuscule les lettres pour plus de cohérence */
     white-space: nowrap; /* Pour éviter les retours à la ligne */
-    text-align: center; /* Centre le texte */
 }
 
-/* Styles pour les différentes parties du temps */
 #countdown .time-part {
     display: inline-block;
     width: 2em; /* Ajustez cette largeur selon vos besoins */
     text-align: center;
-}
-
-/* Médias Queries pour les écrans plus petits */
-@media (max-width: 768px) {
-    #countdown {
-        font-size: 1.5em; /* Réduit la taille de la police sur les écrans plus petits */
-    }
-
-    #countdown .time-part {
-        width: 1.5em; /* Réduit la largeur des parties du temps */
-    }
-}
-
-@media (max-width: 480px) {
-    #countdown {
-        font-size: 1.2em; /* Réduit encore la taille de la police pour les très petits écrans */
-    }
-
-    #countdown .time-part {
-        width: 1.8em; /* Réduit encore la largeur des parties du temps */
-    }
 }
 
 
@@ -374,7 +344,7 @@ h4 {
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
             <p class="text-white lead fs-5 fw-bold press-start-2p-regular">Fin De La Promo Dans </p>
            
-            <div class="countdown-container mb-3">
+            <div class="countdown-container mb-">
     <div id="countdown"></div>
 </div>
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
