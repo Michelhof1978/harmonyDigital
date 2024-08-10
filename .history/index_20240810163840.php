@@ -263,7 +263,7 @@ h4 {
 
 .intro2 {
     margin-left: 30%; 
-    padding-left: 20px; 
+    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
 }
 
 /*fin Intro2*/
@@ -320,7 +320,7 @@ h4 {
 
 
 .img-small {
-    max-width: 50px; 
+    max-width: 50px; /* Ajustez la largeur maximale selon vos besoins */
     height: auto; /* Maintient les proportions de l'image */
 }
 

@@ -6,15 +6,15 @@
  
 /* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
 .form-control, .form-select, .form-floating textarea {
-    border: 2px solid #33a5ff; 
-    border-radius: 4px; 
-    padding: 0.5rem; 
+    border: 2px solid #33a5ff; /* Augmente l'épaisseur à 3px */
+    border-radius: 4px; /* Optionnel : ajouter des coins arrondis */
+    padding: 0.5rem; /* Optionnel : ajouter du padding */
     box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
 }
 
 .form-control:focus, .form-select:focus, .form-floating textarea:focus {
     border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
-    outline: none; /* Supprime le contour par défaut */
+    outline: none; /* Supprimer le contour par défaut */
 }
 
 
@@ -28,16 +28,16 @@
 // Clé privée reCAPTCHA 
 $config = include('/config/config.php');
 
-// Utilise la clé secrète reCAPTCHA
+// Utiliser la clé secrète reCAPTCHA
 $secretKey = $config['recaptcha_secret_key'];
 
-// Initialise le message d'erreur
+// Initialiser le message d'erreur
 $error_message = '';
 
 $rgpdAccepted = false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Vérifie que tous les champs sont remplis
+    // Vérifier que tous les champs sont remplis
     if (
         isset($_POST["firstName"]) &&
         isset($_POST["lastName"]) &&
@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $rgpdAccepted = true;
             }
 
-            // Modifie le message pour inclure l'information sur l'acceptation des RGPD
+            // Modifier le message pour inclure l'information sur l'acceptation des RGPD
             $message = "Demande de renseignements :\n" .
                 "Nom : " . htmlspecialchars($_POST["firstName"]) . "\n" .
                 "Prénom : " . htmlspecialchars($_POST["lastName"]) . "\n" .
@@ -263,6 +263,50 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!-- ---------------------------------------------------------------------------->
 
 <!-- FORMULAIRE DE CONTACT -->
+<script>
+    function validateContactForm() {
+        // Validation de l'adresse e-mail
+        let emailInput = document.getElementById('email');//Obtient l'élément HTML avec l'ID "email" (champ d'adresse e-mail).
+        let emailValue = emailInput.value.trim();//Obtient la valeur de l'adresse e-mail avec les espaces blancs supprimés.
+        let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;//Définit une expression régulière pour valider l'adresse e-mail.
 
+//Vérifie si la valeur de l'adresse e-mail correspond à l'expression régulière. Affiche une alerte si la validation échoue.
+        if (!emailRegex.test(emailValue)) {
+            alert('Veuillez saisir une adresse email valide.');
+            emailInput.focus();
+            return false;
+        }
+
+// Obtient l'élément HTML avec l'ID "phoneNumber" (champ de numéro de téléphone).
+        let phoneNumberInput = document.getElementById("phoneNumber");
+        let phoneNumberValue = phoneNumberInput.value;//Obtient la valeur du numéro de téléphone.
+
+// Définit une expression régulière pour valider que le numéro de téléphone ne contient que des chiffres.
+        let phoneRegex = /^[0-9]+$/;
+//Vérifie si la valeur du numéro de téléphone correspond à l'expression régulière. Affiche une alerte si la validation échoue.
+        if (!phoneRegex.test(phoneNumberValue)) {
+            alert("Veuillez saisir uniquement des chiffres pour le numéro de téléphone.");
+            return false;
+        }
+
+// Obtient l'élément HTML avec l'ID "rgpdCheckbox" (case à cocher RGPD).
+        let rgpdCheckbox = document.getElementById('rgpdCheckbox');
+        if (!rgpdCheckbox.checked) {
+            alert('Vous devez accepter la politique de confidentialité.');
+            rgpdCheckbox.focus();
+            return false;
+        }
+
+// Obtient la réponse du reCAPTCHA.
+        let recaptchaResponse = grecaptcha.getResponse();
+//Vérifie si la réponse reCAPTCHA est vide. Affiche une alerte si la validation échoue.
+        if (recaptchaResponse.length == 0) {
+            alert('Veuillez cocher le reCAPTCHA.');
+            return false;
+        }
+// Si toutes les validations précédentes sont réussies, la fonction renvoie true, indiquant que le formulaire est valide.
+        return true;
+    }
+</script>
 </body>
     </html>

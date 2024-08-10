@@ -261,7 +261,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialise les particules lors du chargement de la page
     initializeParticles();
 
-    // Utilise un debounce pour améliorer la performance lors du redimensionnement
+    // Utiliser un debounce pour améliorer la performance lors du redimensionnement
     let resizeTimeout;
     window.addEventListener('resize', () => {
         clearTimeout(resizeTimeout);

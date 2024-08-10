@@ -19,7 +19,7 @@
     position: absolute;
     color: lime;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 10px; /* Augmente la taille pour une meilleure visibilité */
+    font-size: 10px; /* Augmentez la taille pour une meilleure visibilité */
     white-space: nowrap;
     opacity: 0.9;
     animation: move 25s linear infinite; /* Valeur par défaut, peut être remplacée en JavaScript */
@@ -258,10 +258,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Initialise les particules lors du chargement de la page
+    // Initialiser les particules lors du chargement de la page
     initializeParticles();
 
-    // Utilise un debounce pour améliorer la performance lors du redimensionnement
+    // Utiliser un debounce pour améliorer la performance lors du redimensionnement
     let resizeTimeout;
     window.addEventListener('resize', () => {
         clearTimeout(resizeTimeout);

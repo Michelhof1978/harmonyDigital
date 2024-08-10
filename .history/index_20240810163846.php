@@ -320,7 +320,7 @@ h4 {
 
 
 .img-small {
-    max-width: 50px; 
+    max-width: 50px; /* Ajustez la largeur maximale selon vos besoins */
     height: auto; /* Maintient les proportions de l'image */
 }
 

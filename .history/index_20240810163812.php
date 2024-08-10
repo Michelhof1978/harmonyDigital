@@ -224,7 +224,7 @@ h4 {
   margin-top: 20px;
 }
 .robotSeparateur {
-    max-width: 50%; 
+    max-width: 50%; /* Ajustez la valeur en pourcentage pour réduire l'image */
   height: 100px; /* Conserve le ratio de l'image */
   display: block;
   margin: 0 auto; /* Centre l'image */
@@ -253,7 +253,7 @@ h4 {
  /*Fin Intro*/
   /*Intro2*/
  .robotDomaine2 {
-    max-width: 25%; 
+    max-width: 25%; /* Ajustez cette valeur selon la taille souhaitée de l'image */
     height: auto; /* Conserve le ratio de l'image */
     position: absolute; /* Positionnement absolu */
     left: 0; /* Aligne l'image complètement à gauche */
@@ -262,8 +262,8 @@ h4 {
 }
 
 .intro2 {
-    margin-left: 30%; 
-    padding-left: 20px; 
+    margin-left: 30%; /* Ajustez cette valeur pour faire de la place pour l'image */
+    padding-left: 20px; /* Optionnel : ajoute un espace entre l'image et le texte */
 }
 
 /*fin Intro2*/
@@ -320,7 +320,7 @@ h4 {
 
 
 .img-small {
-    max-width: 50px; 
+    max-width: 50px; /* Ajustez la largeur maximale selon vos besoins */
     height: auto; /* Maintient les proportions de l'image */
 }
 
