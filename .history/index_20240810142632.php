@@ -64,7 +64,8 @@ h4 {
     width: 2em; /* Ajustez cette largeur selon vos besoins */
     text-align: center;
 }
-/* Robot droite compétence */
+/* Styles pour les différentes parties du temps */
+
 .small-robot {
         position: absolute;
         right: 0;

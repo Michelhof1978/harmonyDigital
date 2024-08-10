@@ -64,16 +64,7 @@ h4 {
     width: 2em; /* Ajustez cette largeur selon vos besoins */
     text-align: center;
 }
-/* Robot droite compétence */
-.small-robot {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 200px; /* Ajuste la hauteur selon tes besoins */
-        object-fit: contain;
-      margin-right: -50px;
-        margin-top: 1000px;
-    }
+
 /* Médias Queries pour les écrans plus petits */
 @media (max-width: 768px) {
     #countdown {
@@ -328,7 +319,7 @@ h4 {
 </head>
 
     <?php include("header.php"); ?>
-    <div id="currency-background"></div>
+    <div id="binary-background"></div>
     
  <!-- INTRO-->
 <div class="mt-5">
@@ -946,35 +937,6 @@ h4 {
 
     updateCountdown();
     const countdownTimer = setInterval(updateCountdown, 1000);
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const numParticles = 100; // Nombre total de particules
-    const currencyBackground = document.getElementById('currency-background');
-    const characters = ['0', '1']; // Chiffres 0 et 1
-
-    function createParticle() {
-        const particle = document.createElement('div');
-        particle.className = 'currency-particle';
-        particle.textContent = characters[Math.floor(Math.random() * characters.length)];
-        particle.style.left = `${Math.random() * 100}vw`;
-        particle.style.top = `${Math.random() * 100}vh`;
-        particle.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durée de l'animation entre 5 et 10 secondes
-        currencyBackground.appendChild(particle);
-    }
-
-    for (let i = 0; i < numParticles; i++) {
-        createParticle();
-    }
-
-    window.addEventListener('resize', () => {
-        currencyBackground.innerHTML = '';
-        for (let i = 0; i < numParticles; i++) {
-            createParticle();
-        }
-    });
-});
 </script>
 
 </body>

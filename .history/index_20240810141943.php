@@ -64,16 +64,7 @@ h4 {
     width: 2em; /* Ajustez cette largeur selon vos besoins */
     text-align: center;
 }
-/* Robot droite compétence */
-.small-robot {
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 200px; /* Ajuste la hauteur selon tes besoins */
-        object-fit: contain;
-      margin-right: -50px;
-        margin-top: 1000px;
-    }
+
 /* Médias Queries pour les écrans plus petits */
 @media (max-width: 768px) {
     #countdown {
@@ -328,7 +319,7 @@ h4 {
 </head>
 
     <?php include("header.php"); ?>
-    <div id="currency-background"></div>
+    <div id="binary-background"></div>
     
  <!-- INTRO-->
 <div class="mt-5">
