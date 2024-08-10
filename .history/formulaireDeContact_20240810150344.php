@@ -4,7 +4,7 @@
 
 <style>
    /* Assurez-vous que le canvas prend toute la largeur de l'écran */
-body {
+canvas {
     width: 100%;
     height: auto; /* Ajustez la hauteur en fonction du besoin ou définissez une hauteur fixe */
     display: block; /* Élimine les espaces en bas du canvas */

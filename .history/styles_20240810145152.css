@@ -9,14 +9,8 @@ body {
     margin: 0; /* Supprime les marges par défaut du body */
     padding: 0; /* Supprime les paddings par défaut du body */
     overflow-x: hidden; /* Évite le débordement horizontal */
-   
+   width: 100;
 }  
-
-html{
-	margin: 0;
-	padding: 0;
-	
-}
 
 /* Styles généraux du popup */
 .popup {

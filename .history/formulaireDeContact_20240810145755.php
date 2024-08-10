@@ -3,14 +3,7 @@
 <title>Formulaire de Contact - Harmony Digital</title>
 
 <style>
-   /* Assurez-vous que le canvas prend toute la largeur de l'écran */
-body {
-    width: 100%;
-    height: auto; /* Ajustez la hauteur en fonction du besoin ou définissez une hauteur fixe */
-    display: block; /* Élimine les espaces en bas du canvas */
-    margin: 0; /* Élimine les marges par défaut */
-    padding: 0; /* Élimine les paddings par défaut */
-}
+    
 /* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
 .form-control, .form-select, .form-floating textarea {
     border: 2px solid #33a5ff; /* Augmente l'épaisseur à 3px */
