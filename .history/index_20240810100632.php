@@ -975,6 +975,7 @@ h4 {
     const countdownTimer = setInterval(updateCountdown, 1000);
 </script>
  
+ <!--------------------------------------------------------------------------------->
 
  <!-- COOKIES -->
 <script>

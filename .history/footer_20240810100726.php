@@ -10,7 +10,7 @@
                         <i class="fas fa-map-marker-alt me-2"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
-                            <span>4, Lotissement La Croix Rouge<br>03 230 Garnat-sur-Engièvre</span>
+                            <span>4, Lotissement La Croix Rouge<br>03 230 Garnat Sur Engièvre</span>
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
                         <i class="fas fa-phone me-2"></i>
                         <div class="cta-text">
                             <h4>Appelez-Nous !</h4>
-                            <span>(+33) 6 66 33 25 88</span>
+                            <span>(+33)-06 66 33 25 88</span>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                         <div class="footer-links pb-3">
                             <ul class="list-unstyled">
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
-                                <li><a href="politiquedeConfidentialite.php">Politique de Confidentialité</a></li>
+                                <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
                                 <li><a href="conditionsGeneralesDeVente.php">CGV</a></li>
                                 <li><a href="formulaireDeContact.php">Contact</a></li>
                             </ul>
@@ -93,7 +93,7 @@
                         </div>
                         <div class="subscribe-form">
                             <form action="#" class="d-flex justify-content-center">
-                                <input type="email" placeholder="Adresse Mail" class="me-2" required>
+                                <input type="text" placeholder="Adresse Mail" class="me-2">
                                 <button><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
@@ -108,7 +108,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
+                    <p>Copyright &copy;2023 -  <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,8 @@
 </footer>
 <!-- FIN FOOTER MOBILE -->
 
-<!-- FOOTER DESKTOP -->
+
+  <!-- FOOTER DESKTOP -->
 <footer class="footer-section d-none d-md-block">
     <div class="container">
         <!-- Section CTA -->
@@ -132,7 +133,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
-                            <span>4, La Croix Rouge<br>03 230 Garnat-sur-Engièvre</span>
+                            <span>4, La Croix Rouge<br>03 230 GARNAT</span>
                         </div>
                     </div>
                 </div>
@@ -141,7 +142,7 @@
                         <i class="fas fa-phone"></i>
                         <div class="cta-text">
                             <h4>Appelez-Nous !</h4>
-                            <span>(+33) 6 66 33 25 88</span>
+                            <span>(+33) - 06 66 33 25 88</span>
                         </div>
                     </div>
                 </div>
@@ -188,32 +189,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center text-white m-2">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget ms-5">
+                        <div class="footer-widget-heading">
                             <h3>Liens utiles</h3>
                         </div>
                         <div class="footer-links pb-3">
-                            <ul class="list-unstyled">
+                            <ul>
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
-                                <li><a href="politiquedeConfidentialite.php">Politique de Confidentialité</a></li>
+                                <li><a href="politiquedeConfidentialite.php">Politique De Confidentialité</a></li>
                                 <li><a href="conditionsGeneralesDeVente.php">CGV</a></li>
                                 <li><a href="formulaireDeContact.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 mb-50">
+
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center text-white m-2">
+                        <div class="footer-widget-heading">
                             <h3>Newsletter</h3>
                         </div>
-                        <div class="footer-text mb-3">
+                        <div class="footer-text mb-25">
                             <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
                         </div>
                         <div class="subscribe-form">
-                            <form action="#" class="d-flex justify-content-center">
-                                <input type="email" placeholder="Adresse Mail" class="me-2" required>
+                            <form action="#">
+                                <input type="text" placeholder="Adresse Mail">
                                 <button><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
@@ -222,25 +224,25 @@
             </div>
         </div>
     </div>
-    <div class="copyright-area text-center">
-        <div class="container">
+    <div class="copyright-area">
+        <div class="container d-flex justify-content-center">
             <div class="row">
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2023 - <span id="date2"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
-                    </div>
+    <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés &nbsp; <a href="https://cvmichel-hoffmann.fr/" target="_blank">Hoffmann Michel - Harmony Digital</a></p>
+</div>
+
                 </div>
             </div>
         </div>
-        <!-- COMPTEUR -->
-        <div class="text-center mt-3 mb-3">
+         <!-- COMPTEUR -->
+         <div class="text-center mt-3 mb-3">
             <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c01genv2-242156-1" loading="lazy" alt="nombre de visites" /></a>
         </div>
     </div>
 </footer>
-<!-- FIN FOOTER DESKTOP -->
-
+        <!-- FIN FOOTER DESKTOP -->
 
 <!-- COOKIES -->
 <div id="cookie-banner">
@@ -248,12 +250,18 @@
     <button onclick="acceptCookies()"><strong>Accepter</strong></button>
     <button onclick="refuseCookies()"><strong>Refuser</strong></button>
 </div>
+
+
+
+
 <!-- _____________________________________________________________________________________ -->
 
 <!-- Scripts JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" async></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" async></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   
+<!-- _____________________________________________________________________________________ -->
 
 <!-- _____________________________________________________________________________________ -->
 
@@ -273,6 +281,7 @@
 <!-- _____________________________________________________________________________________ -->
 <script>
 //Formulaire de contact
+
 //Restrictions du formulaire de contact
 const form = document.getElementById("formulaire");
 const firstNameInput = document.getElementById("firstName");
@@ -432,7 +441,7 @@ $(() => {
 
 <!-- _____________________________________________________________________________________ -->
 
-
+<!-- _____________________________________________________________________________________ -->
 <!-- FOND '€', '$'-->
 <script>
     const totalParticles = 100; // Nombre total de particules
@@ -510,21 +519,12 @@ $(() => {
 
 <!-- DATE MISE A JOUR AUTO COPYRIGHT FOOTER -->
 <script>
-   document.addEventListener('DOMContentLoaded', function() {
-    let date = new Date();
-    let year = date.getFullYear();
-    document.getElementById('date').textContent = year;
-});
-
-</script>
-
-<script>
-   document.addEventListener('DOMContentLoaded', function() {
-    let date = new Date();
-    let year = date.getFullYear();
-    document.getElementById('date2').textContent = year;
-});
-
+    document.addEventListener("DOMContentLoaded", function() {
+        // Récupérer la date et l'année actuelles
+        let date = new Date().getFullYear();
+        // Mettre à jour le contenu de l'élément avec la date actuelle
+        document.getElementById('date').textContent = date;
+    });
 </script>
 
 

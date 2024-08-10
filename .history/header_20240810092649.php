@@ -56,5 +56,5 @@
     <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
     </div>
-</section>
+</header>
 </header>

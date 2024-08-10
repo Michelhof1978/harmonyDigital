@@ -817,53 +817,54 @@ h4 {
 
 
 
-<!-- SECTION CONTACT -->
 <div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4">
-    <div class="text-center">
-        <p class="fs-4 text-white p-3 rounded">
-            <strong>
-                N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
-            </strong>
-        </p>
+        <div class="text-center">
+            <p class="fs-4 text-white  p-3 rounded ">
+                <strong>
+                    N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
+                </strong>
+            </p>
+        </div>
     </div>
-</div>
-<!-- FIN SECTION CONTACT -->
 
-<!-- SECTION VIDEOCOM -->
+<!--SECTION VIDEOCOM -->
 <section class="text-center mt-4 container mb-5">
-    <div class="container">
-        <div class="robotCampagne">
-            <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
-                <strong class="text-white">Réalisations Campagnes</strong>
+  <div class="container">
+    <div class="robotCampagne">
+    <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
+            <strong class="text-white">Réalisations Campagnes</strong>
             </h2>
-            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
-        </div>
+      <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
     </div>
-    <div class="row justify-content-center g-0 g-md-5">
-        <div class="col-md-6 mb-4 mb-md-0">
-            <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="text-orange-video lead">Campagne De Financement Participatif</div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="text-orange-video lead">Invitation Anniversaire</div>
-            </div>
-        </div>
+  </div>
+  <div class="row justify-content-center g-0 g-md-5">
+    <div class="col-md-6 mb-4 mb-md-0">
+      <div class="videoCom embed-responsive embed-responsive-16by9">
+        <iframe width="100" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="text-orange-video lead">Campagne De Financement Participatif</div>
+      </div>
     </div>
+    <div class="col-md-6">
+      <div class="videoCom embed-responsive embed-responsive-16by9">
+        <iframe width="100" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="text-orange-video lead">Invitation Anniversaire</div>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- FIN SECTION VIDEOCOM -->
+<!--FIN SECTION VIDEOCOM-->
 
 <!-- PRESENTATION LOGOS -->
 <section class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
-            <strong class="text-white">Logos Réalisés</strong>
+            <strong class="text-white">
+                Logos Réalisés
+            </strong>
         </h2>
-        <p class="text-white lead fs-2 pb-5 fw-bold press-start-2p-regular">
-            À l'image de votre entreprise avec ou sans animations
+    <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
+        <p class="text-white lead fs-2 pb-5 fw-bold ">
+            A l'image de votre entreprise avec ou sans animations
         </p>
     </div>
 
@@ -931,9 +932,9 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION LOGOS -->
+<!-- FIN PRESENTATION-->
 
-<!-- SECTION FINALE -->
+
 <div class="text-center">
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
         <img src="images/robotFinIndex1.png" alt="robot" loading="lazy" class="img-fluid img-small">
@@ -941,6 +942,7 @@ h4 {
         <img src="images/robotFinIndex2.png" alt="robot" loading="lazy" class="img-fluid img-small">
     </p>
 </div>
+
 
     <?php include("footer.php"); ?>
 
@@ -974,7 +976,11 @@ h4 {
     updateCountdown();
     const countdownTimer = setInterval(updateCountdown, 1000);
 </script>
+
+ <!--------------------------------------------------------------------------------->
+
  
+ <!--------------------------------------------------------------------------------->
 
  <!-- COOKIES -->
 <script>
@@ -1020,6 +1026,7 @@ h4 {
     }
 </script>
 
+ <!--------------------------------------------------------------------------------->
 
 <!-- Affichage Popup -->
 <script>

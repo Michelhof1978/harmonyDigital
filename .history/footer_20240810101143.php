@@ -228,7 +228,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2023 - <span id="date2"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
+                        <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
@@ -254,6 +254,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" async></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" async></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   
+<!-- _____________________________________________________________________________________ -->
 
 <!-- _____________________________________________________________________________________ -->
 
@@ -273,6 +275,7 @@
 <!-- _____________________________________________________________________________________ -->
 <script>
 //Formulaire de contact
+
 //Restrictions du formulaire de contact
 const form = document.getElementById("formulaire");
 const firstNameInput = document.getElementById("firstName");
@@ -510,21 +513,12 @@ $(() => {
 
 <!-- DATE MISE A JOUR AUTO COPYRIGHT FOOTER -->
 <script>
-   document.addEventListener('DOMContentLoaded', function() {
-    let date = new Date();
-    let year = date.getFullYear();
-    document.getElementById('date').textContent = year;
-});
-
-</script>
-
-<script>
-   document.addEventListener('DOMContentLoaded', function() {
-    let date = new Date();
-    let year = date.getFullYear();
-    document.getElementById('date2').textContent = year;
-});
-
+    document.addEventListener("DOMContentLoaded", function() {
+        // Récupérer la date et l'année actuelles
+        let date = new Date().getFullYear();
+        // Mettre à jour le contenu de l'élément avec la date actuelle
+        document.getElementById('date').textContent = date;
+    });
 </script>
 
 

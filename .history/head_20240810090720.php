@@ -20,10 +20,21 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  
-<!-- css Titres ne fonctionne pas ds le fichier css-->
+  <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
  /* COOKIES */
+
+ body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('Images/fondNoir2.jpg');
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+    margin: 0; /* Supprime les marges par défaut du body */
+    padding: 0; /* Supprime les paddings par défaut du body */
+    overflow-x: hidden; /* Évite le débordement horizontal */
+   
+}  
 #cookie-banner {
             display: none;
             position: fixed;

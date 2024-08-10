@@ -20,8 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  
-<!-- css Titres ne fonctionne pas ds le fichier css-->
+  <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
  /* COOKIES */
 #cookie-banner {

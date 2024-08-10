@@ -1,4 +1,4 @@
-
+<?php include("head.php") ?>
     <?php include("head.php"); ?>
     <meta name="informations" content="Informations sur nos services et processus">
     <title>Infos</title>
@@ -44,7 +44,6 @@
     </style>
 </head>
 <body>
-    
     <?php include("header.php"); ?>
 
     <div id="binary-background"></div>

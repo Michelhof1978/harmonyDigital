@@ -1,11 +1,11 @@
-<body>
+</head>
 <?php
   // Constantes pour les URLs
  
 ?>
 
 <header>
-<div class="bg-dark">
+<section class="bg-dark">
 <div class="navbar-brand"> 
     <div class="container-fluid">
         <!-- Logo et titre -->
@@ -16,7 +16,7 @@
             <span class="orange">.</span>
         </a>
     </div>
-</div>
+</section>
 
 <nav class="navbar navbar-expand-md bg-dark">  
     <div class="container-fluid">
@@ -48,7 +48,7 @@
 </nav>
 </div>
 
-<section id="special-header">
+<header id="special-header">
     <video autoplay muted loop id="video-bg" playsinline>
         <source src="videos/header.mp4" type="video/mp4">
         Votre navigateur ne supporte pas la vidéo.
@@ -56,5 +56,4 @@
     <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
     </div>
-</section>
 </header>

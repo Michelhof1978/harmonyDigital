@@ -44,7 +44,6 @@
     </style>
 </head>
 <body>
-    
     <?php include("header.php"); ?>
 
     <div id="binary-background"></div>

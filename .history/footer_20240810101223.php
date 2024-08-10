@@ -228,7 +228,7 @@
                 <div class="text-center">
                     <img src="images/robotFooter.png" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2023 - <span id="date2"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
+                        <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
@@ -510,21 +510,12 @@ $(() => {
 
 <!-- DATE MISE A JOUR AUTO COPYRIGHT FOOTER -->
 <script>
-   document.addEventListener('DOMContentLoaded', function() {
-    let date = new Date();
-    let year = date.getFullYear();
-    document.getElementById('date').textContent = year;
-});
-
-</script>
-
-<script>
-   document.addEventListener('DOMContentLoaded', function() {
-    let date = new Date();
-    let year = date.getFullYear();
-    document.getElementById('date2').textContent = year;
-});
-
+    document.addEventListener("DOMContentLoaded", function() {
+        // Récupérer la date et l'année actuelles
+        let date = new Date().getFullYear();
+        // Mettre à jour le contenu de l'élément avec la date actuelle
+        document.getElementById('date').textContent = date;
+    });
 </script>
 
 

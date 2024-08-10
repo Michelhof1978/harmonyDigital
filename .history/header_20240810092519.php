@@ -1,11 +1,11 @@
-<body>
+</head>
 <?php
   // Constantes pour les URLs
  
 ?>
 
 <header>
-<div class="bg-dark">
+<section class="bg-dark">
 <div class="navbar-brand"> 
     <div class="container-fluid">
         <!-- Logo et titre -->
@@ -16,7 +16,7 @@
             <span class="orange">.</span>
         </a>
     </div>
-</div>
+</section>
 
 <nav class="navbar navbar-expand-md bg-dark">  
     <div class="container-fluid">

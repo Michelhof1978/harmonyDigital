@@ -411,7 +411,7 @@ h4 {
         </p>
     </div>
 
-    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
         <div class="carousel-inner">
             <!-- Carte 1 -->
             <div class="carousel-item active">
@@ -513,11 +513,13 @@ h4 {
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    
 </section>
 <!-- FIN PRESTATIONS CAROUSEL CARD mobile-->
 
-<!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
+
+
+   <!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
 <section class="text-center ms-2 me-2 d-none d-md-block"> <!-- Affiche uniquement sur desktop -->
     <div>
         <h2 class="border borderColor border-4 rounded p-2 mb-4">
@@ -620,72 +622,73 @@ h4 {
 </section>
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
+
+
     <!-- DOMAINE DE COMPETENCE -->
-<div class="text-center">
-    <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
-        <strong class="text-white">Domaine De Compétences</strong>
-    </h2>
-    <p class="text-white lead fs-2 ms-2 me-2 fw-bold">
-        Ensemble, donnons vie à vos idées.
-    </p>
+    <div class="text-center">
+            <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
+            <strong class="text-white">Domaine De Compétences</strong>
+            </h2>
+            <p class="text-white lead fs-2 ms-2 me-2 fw-bold">
+            Ensemble, donnons vie à vos idées.
+            </p>
+        </div>
+
+        <section class="d-flex ms-0 mb-5 position-relative text-center me-5">
+  <!-- Image à gauche -->
+  <img src="images/robotIntro3.png" alt="robot" loading="lazy" class="img-fluid robotDomaine2">
+
+  <!-- Contenu principal -->
+  <div class="w-75 text-white intro2 mt-5"> 
+    <img src="images/robotIntro2.png" alt="robot" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
+
+    <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3><br>
+
+    <div>
+  <h4><strong>Expertise et Créativité</strong></h4>
+  <p class="fs-5">
+  <strong>
+    Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.
+    </strong>
+</p>
 </div>
 
-<section class="d-flex ms-0 mb-5 position-relative text-center me-5">
-    <!-- Image à gauche -->
-    <img src="images/robotIntro3.png" alt="Robot Introduction" loading="lazy" class="img-fluid robotDomaine2">
+<div>
+ <img src="images/intro2RobotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
+</div>
 
-    <!-- Contenu principal -->
-    <div class="w-75 text-white intro2 mt-5"> 
-        <img src="images/robotIntro2.png" alt="Robot Intro" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
+<div>
+  <h4><strong>Approche Personnalisée</strong></h4>
+  <p class="fs-5"> 
+  <strong>
+    Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.
+    </strong>
+</p>
+</div>
 
-        <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3>
+<div>
+ <img src="images/intro2RobotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
+</div>
 
-        <div>
-            <h4><strong>Expertise et Créativité</strong></h4>
-            <p class="fs-5">
-                <strong>
-                    Notre équipe expérimentée apporte des solutions innovantes et personnalisées à chaque projet.
-                </strong>
-            </p>
-        </div>
+<div>
+  <h4><strong>Résultats Mesurables</strong></h4>
+  <p class="fs-5">
+    <strong>
+    Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.
+    </strong>
+</p>
+</div>
 
-        <div>
-            <img src="images/intro2RobotSeparateur.png" alt="Séparateur 1" loading="lazy" class="img-fluid robotSeparateur"> 
-        </div>
-
-        <div>
-            <h4><strong>Approche Personnalisée</strong></h4>
-            <p class="fs-5"> 
-                <strong>
-                    Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.
-                </strong>
-            </p>
-        </div>
-
-        <div>
-            <img src="images/intro2RobotSeparateur2.png" alt="Séparateur 2" loading="lazy" class="img-fluid robotSeparateur"> 
-        </div>
-
-        <div>
-            <h4><strong>Résultats Mesurables</strong></h4>
-            <p class="fs-5">
-                <strong>
-                    Nous mettons en place des indicateurs de performance pour suivre et optimiser les résultats de nos actions.
-                </strong>
-            </p>
-        </div>
-
-        <div>
-            <img src="images/intro2RobotSeparateur3.png" alt="Séparateur 3" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
-        </div>
-    </div>
+<div>
+ <img src="images/intro2RobotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
+</div>
 </section>
-<!-- FIN DOMAINE DE COMPETENCE -->
+ <!--FIN  DOMAINE DE COMPETENCE -->
 
-<!-- REFERENCE DESKTOP -->
-<section class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
+   <!-- REFERENCE DESKTOP-->
+   <section class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">
-        <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
+        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine"> 
 
         <div class="m-5">
             <div class="text-center">
@@ -694,7 +697,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur.png" alt="Séparateur 1" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -703,7 +706,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur2.png" alt="Séparateur 2" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -712,7 +715,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur3.png" alt="Séparateur 3" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -721,7 +724,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur4.png" alt="Séparateur 4" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -730,7 +733,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur5.png" alt="Séparateur 5" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -739,7 +742,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur6.png" alt="Séparateur 6" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid  robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -749,16 +752,16 @@ h4 {
         </div>
     </div>
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
-        <img src="images/robotIntro.png" alt="Robot Introduction" loading="lazy" class="img-fluid"> 
+        <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid"> 
     </div>
 </section>
-<!-- FIN REFERENCE DESKTOP -->
+ <!-- FIN REFERENCE DESKTOP-->
 
-<!-- REFERENCE MOBILE -->
+ <!-- REFERENCE MOBILE-->
 <section class="d-block d-md-none d-flex ms-0 mb-5 position-relative ms-2 me-5">
     <!-- Contenu principal à gauche -->
     <div class="w-75 neon-section text-center">
-        <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
+        <img src="images/robotCompetence.png" alt="robot" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
 
         <div class="m-3">
             <div class="mb-3">
@@ -766,42 +769,42 @@ h4 {
                 <p class="text-white lead fw-bold">Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</p>
             </div>
 
-            <img src="images/robotSeparateur.png" alt="Séparateur 1" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
                 <p class="text-white lead fw-bold">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</p>
             </div>
 
-            <img src="images/robotSeparateur2.png" alt="Séparateur 2" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur2.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
                 <p class="text-white lead fw-bold">PHP et MYSQL</p>
             </div>
 
-            <img src="images/robotSeparateur3.png" alt="Séparateur 3" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur3.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
                 <p class="text-white lead fw-bold">Codage à la main respectueux des standards du web</p>
             </div>
 
-            <img src="images/robotSeparateur4.png" alt="Séparateur 4" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur4.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
                 <p class="text-white lead fw-bold">React et Vue.js</p>
             </div>
 
-            <img src="images/robotSeparateur5.png" alt="Séparateur 5" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur5.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
                 <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
             </div>
 
-            <img src="images/robotSeparateur6.png" alt="Séparateur 6" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur6.png" alt="robot" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
@@ -811,59 +814,59 @@ h4 {
     </div>
 
     <!-- Image robotIntro à droite -->
-    <img src="images/robotIntro.png" alt="Robot Introduction" loading="lazy" class="img-fluid ms-auto small-robot">
+    <img src="images/robotIntro.png" alt="robot" loading="lazy" class="img-fluid ms-auto small-robot">
 </section>
-<!-- FIN REFERENCE MOBILE -->
+<!-- FIN REFERENCE MOBILE-->
 
 
-
-<!-- SECTION CONTACT -->
 <div class="d-flex justify-content-center align-items-center vh-75 ms-4 me-4">
-    <div class="text-center">
-        <p class="fs-4 text-white p-3 rounded">
-            <strong>
-                N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
-            </strong>
-        </p>
+        <div class="text-center">
+            <p class="fs-4 text-white  p-3 rounded ">
+                <strong>
+                    N'hésitez pas à nous contacter pour discuter de votre projet et découvrir comment nous pouvons vous aider à atteindre vos objectifs.<br>
+                </strong>
+            </p>
+        </div>
     </div>
-</div>
-<!-- FIN SECTION CONTACT -->
 
-<!-- SECTION VIDEOCOM -->
+<!--SECTION VIDEOCOM -->
 <section class="text-center mt-4 container mb-5">
-    <div class="container">
-        <div class="robotCampagne">
-            <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
-                <strong class="text-white">Réalisations Campagnes</strong>
+  <div class="container">
+    <div class="robotCampagne">
+    <h2 class="border borderColor border-4 rounded p-2  m-3 mb-5">
+            <strong class="text-white">Réalisations Campagnes</strong>
             </h2>
-            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
-        </div>
+      <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
     </div>
-    <div class="row justify-content-center g-0 g-md-5">
-        <div class="col-md-6 mb-4 mb-md-0">
-            <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="text-orange-video lead">Campagne De Financement Participatif</div>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <div class="text-orange-video lead">Invitation Anniversaire</div>
-            </div>
-        </div>
+  </div>
+  <div class="row justify-content-center g-0 g-md-5">
+    <div class="col-md-6 mb-4 mb-md-0">
+      <div class="videoCom embed-responsive embed-responsive-16by9">
+        <iframe width="100" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="text-orange-video lead">Campagne De Financement Participatif</div>
+      </div>
     </div>
+    <div class="col-md-6">
+      <div class="videoCom embed-responsive embed-responsive-16by9">
+        <iframe width="100" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="text-orange-video lead">Invitation Anniversaire</div>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- FIN SECTION VIDEOCOM -->
+<!--FIN SECTION VIDEOCOM-->
 
 <!-- PRESENTATION LOGOS -->
 <section class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
-            <strong class="text-white">Logos Réalisés</strong>
+            <strong class="text-white">
+                Logos Réalisés
+            </strong>
         </h2>
-        <p class="text-white lead fs-2 pb-5 fw-bold press-start-2p-regular">
-            À l'image de votre entreprise avec ou sans animations
+    <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
+        <p class="text-white lead fs-2 pb-5 fw-bold ">
+            A l'image de votre entreprise avec ou sans animations
         </p>
     </div>
 
@@ -931,9 +934,9 @@ h4 {
         </div>
     </div>
 </section>
-<!-- FIN PRESENTATION LOGOS -->
+<!-- FIN PRESENTATION-->
 
-<!-- SECTION FINALE -->
+
 <div class="text-center">
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
         <img src="images/robotFinIndex1.png" alt="robot" loading="lazy" class="img-fluid img-small">
@@ -941,6 +944,7 @@ h4 {
         <img src="images/robotFinIndex2.png" alt="robot" loading="lazy" class="img-fluid img-small">
     </p>
 </div>
+
 
     <?php include("footer.php"); ?>
 
@@ -974,7 +978,11 @@ h4 {
     updateCountdown();
     const countdownTimer = setInterval(updateCountdown, 1000);
 </script>
+
+ <!--------------------------------------------------------------------------------->
+
  
+ <!--------------------------------------------------------------------------------->
 
  <!-- COOKIES -->
 <script>
@@ -1020,6 +1028,7 @@ h4 {
     }
 </script>
 
+ <!--------------------------------------------------------------------------------->
 
 <!-- Affichage Popup -->
 <script>

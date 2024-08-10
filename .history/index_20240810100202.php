@@ -842,7 +842,7 @@ h4 {
     <div class="row justify-content-center g-0 g-md-5">
         <div class="col-md-6 mb-4 mb-md-0">
             <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="text-orange-video lead">Campagne De Financement Participatif</div>
             </div>
         </div>
@@ -974,7 +974,11 @@ h4 {
     updateCountdown();
     const countdownTimer = setInterval(updateCountdown, 1000);
 </script>
+
+ <!--------------------------------------------------------------------------------->
+
  
+ <!--------------------------------------------------------------------------------->
 
  <!-- COOKIES -->
 <script>
@@ -1020,6 +1024,7 @@ h4 {
     }
 </script>
 
+ <!--------------------------------------------------------------------------------->
 
 <!-- Affichage Popup -->
 <script>
