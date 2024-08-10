@@ -1,3 +1,4 @@
+
 # # Activation du module de réécriture
 # RewriteEngine On
 
@@ -19,12 +20,12 @@
 # # Réécriture de /tarifs vers /tarifs.php
 # RewriteRule ^tarifs/?$ tarifs.php [L]
 
-# # Redirection de /infos.php vers /infos
-# RewriteCond %{THE_REQUEST} \s/infos\.php [NC]
-# RewriteRule ^infos\.php$ /infos [R=301,L]
+# # Redirection de /informations.php vers /informations
+# RewriteCond %{THE_REQUEST} \s/informations\.php [NC]
+# RewriteRule ^informations\.php$ /informations [R=301,L]
 
-# # Réécriture de /infos vers /infos.php
-# RewriteRule ^infos/?$ infos.php [L]
+# # Réécriture de /informations vers /informations.php
+# RewriteRule ^informations/?$ informations.php [L]
 
 # # Redirection de /formulaireDeContact.php vers /formulaireDeContact
 # RewriteCond %{THE_REQUEST} \s/formulaireDeContact\.php [NC]

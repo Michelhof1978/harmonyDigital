@@ -103,10 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 <div id="binary-background2"></div>
-<h2 class="m-5 text-center">
-        <strong class="text-warning fw-bold">FORMULAIRE EN COURS DE VALIDATION, NON OPERATIONEL
-        </strong>
-    </h2>
+
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 text-center">
         <strong class="text-white">Formulaire De Contact</strong>
     </h1>
@@ -202,7 +199,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="form-check mb-4 mt-3">
                         <input class="form-check-input" type="checkbox" id="rgpdCheckbox" name="rgpdCheckbox">
                         <label class="form-check-label text-white" for="rgpdCheckbox">
-                        J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php" style="color: #e06717aa;" ><span class="fw-bold">Politique De Confidentialité</span> </a>.
+                        J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php" style="color: #e06717aa;">Politique De Confidentialité</a>.
                         <div class="invalid-feedback" id="rgpdError" style="display: none;">
                             Vous devez accepter la politique de confidentialité.
                         </div>
