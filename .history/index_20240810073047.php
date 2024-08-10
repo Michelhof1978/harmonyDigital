@@ -20,15 +20,7 @@ h4 {
     font-family: 'Orbitron', sans-serif; /* Police moderne et géométrique */
     letter-spacing: 0.1em; /* Espacement entre les chiffres pour un effet plus aéré */
     text-transform: uppercase; /* Optionnel : met en majuscule les lettres pour plus de cohérence */
-    white-space: nowrap; /* Pour éviter les retours à la ligne */
 }
-
-#countdown .time-part {
-    display: inline-block;
-    width: 2em; /* Ajustez cette largeur selon vos besoins */
-    text-align: center;
-}
-
 
 
 

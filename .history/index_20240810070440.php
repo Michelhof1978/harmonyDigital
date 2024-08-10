@@ -4,33 +4,59 @@
     <?php include("head.php"); ?>
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
-   
-   <style>  
+    <style>
+
+
+
+    
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
 
 /* Compte à rebours */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
-
 #countdown {
-    font-size: 2em;
-    color: #0f0;
-    text-shadow: 0 0 10px #0f0; /* Effet de lueur pour un look plus géométrique */
-    font-family: 'Orbitron', sans-serif; /* Police moderne et géométrique */
-    letter-spacing: 0.1em; /* Espacement entre les chiffres pour un effet plus aéré */
-    text-transform: uppercase; /* Optionnel : met en majuscule les lettres pour plus de cohérence */
-    white-space: nowrap; /* Pour éviter les retours à la ligne */
-}
-
-#countdown .time-part {
-    display: inline-block;
-    width: 2em; /* Ajustez cette largeur selon vos besoins */
-    text-align: center;
-}
-
-
-
+            display: flex;
+            font-size: 4rem;
+            letter-spacing: 0.2rem;
+        }
+        .time-unit {
+            margin: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .time-unit div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #111;
+            border: 2px solid #0f0;
+            padding: 0.5rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+        }
+        .time-unit span {
+            display: block;
+            font-size: 4rem;
+            color: #0f0;
+            font-family: 'Press Start 2P', cursive;
+            position: relative;
+            padding: 1rem;
+            background: #000;
+            border-radius: 5px;
+            box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.8);
+        }
+        .label {
+            font-size: 1rem;
+            color: #0f0;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .blinking {
+            animation: blink 1s step-start infinite;
+        }
 
 .competence {
     background-image: url('Images/fondBleu.png');
@@ -343,7 +369,24 @@ h4 {
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
             <p class="text-white lead fs-5 fw-bold press-start-2p-regular">Fin De La Promo Dans </p>
-        <div class="mb-3" id="countdown"></div>
+            <div id="countdown">
+        <div class="time-unit" id="days">
+            <div><span>00</span></div>
+            <div class="label">JOURS</div>
+        </div>
+        <div class="time-unit" id="hours">
+            <div><span>00</span></div>
+            <div class="label">H</div>
+        </div>
+        <div class="time-unit" id="minutes">
+            <div><span>00</span></div>
+            <div class="label">M</div>
+        </div>
+        <div class="time-unit" id="seconds">
+            <div><span>00</span></div>
+            <div class="label">S</div>
+        </div>
+    </div>
             <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
@@ -921,36 +964,30 @@ h4 {
     <?php include("footer.php"); ?>
 
  <!-- COMPTE A REBOURS -->
- <script>
-    function updateCountdown() {
-        const targetDate = new Date("2024-12-31T23:59:59").getTime();
-        const now = new Date().getTime();
-        const timeLeft = targetDate - now;
+    <script>
+          function updateCountdown() {
+            const targetDate = new Date("2024-12-31T23:59:59").getTime();
+            const now = new Date().getTime();
+            const timeLeft = targetDate - now;
 
-        if (timeLeft < 0) {
-            document.getElementById("countdown").innerHTML = "00 JOURS 00H 00M 00S";
-            clearInterval(countdownTimer);
-            return;
+            if (timeLeft < 0) {
+                document.getElementById("countdown").innerHTML = "00 JOUR 00H 00M 00S";
+                clearInterval(countdownTimer);
+                return;
+            }
+
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+            const formattedTime = `${String(days).padStart(2, '0')} JOURS ${String(hours).padStart(2, '0')}H ${String(minutes).padStart(2, '0')}M ${String(seconds).padStart(2, '0')}S`;
+            document.getElementById("countdown").innerHTML = formattedTime;
         }
 
-        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-        const formattedTime = `
-            <span class="time-part">${String(days).padStart(2, '0')}</span> JOURS
-            <span class="time-part">${String(hours).padStart(2, '0')}</span>H
-            <span class="time-part">${String(minutes).padStart(2, '0')}</span>M
-            <span class="time-part">${String(seconds).padStart(2, '0')}</span>S
-        `;
-        document.getElementById("countdown").innerHTML = formattedTime;
-    }
-
-    updateCountdown();
-    const countdownTimer = setInterval(updateCountdown, 1000);
-</script>
-
+        updateCountdown();
+        const countdownTimer = setInterval(updateCountdown, 1000);
+    </script>
  <!--------------------------------------------------------------------------------->
 
  

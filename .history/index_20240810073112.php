@@ -23,12 +23,6 @@ h4 {
     white-space: nowrap; /* Pour éviter les retours à la ligne */
 }
 
-#countdown .time-part {
-    display: inline-block;
-    width: 2em; /* Ajustez cette largeur selon vos besoins */
-    text-align: center;
-}
-
 
 
 

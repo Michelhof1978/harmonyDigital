@@ -25,7 +25,7 @@ h4 {
 
 #countdown .time-part {
     display: inline-block;
-    width: 2em; /* Ajustez cette largeur selon vos besoins */
+    width: 3em; /* Ajustez cette largeur selon vos besoins */
     text-align: center;
 }
 

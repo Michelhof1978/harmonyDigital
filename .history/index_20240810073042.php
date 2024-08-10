@@ -20,15 +20,7 @@ h4 {
     font-family: 'Orbitron', sans-serif; /* Police moderne et géométrique */
     letter-spacing: 0.1em; /* Espacement entre les chiffres pour un effet plus aéré */
     text-transform: uppercase; /* Optionnel : met en majuscule les lettres pour plus de cohérence */
-    white-space: nowrap; /* Pour éviter les retours à la ligne */
 }
-
-#countdown .time-part {
-    display: inline-block;
-    width: 2em; /* Ajustez cette largeur selon vos besoins */
-    text-align: center;
-}
-
 
 
 
@@ -928,7 +920,7 @@ h4 {
         const timeLeft = targetDate - now;
 
         if (timeLeft < 0) {
-            document.getElementById("countdown").innerHTML = "00 JOURS 00H 00M 00S";
+            document.getElementById("countdown").innerHTML = "00 JOUR 00H 00M 00S";
             clearInterval(countdownTimer);
             return;
         }
@@ -938,12 +930,7 @@ h4 {
         const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-        const formattedTime = `
-            <span class="time-part">${String(days).padStart(2, '0')}</span> JOURS
-            <span class="time-part">${String(hours).padStart(2, '0')}</span>H
-            <span class="time-part">${String(minutes).padStart(2, '0')}</span>M
-            <span class="time-part">${String(seconds).padStart(2, '0')}</span>S
-        `;
+        const formattedTime = `${String(days).padStart(2, '0')} JOURS ${String(hours).padStart(2, '0')}H ${String(minutes).padStart(2, '0')}M ${String(seconds).padStart(2, '0')}S`;
         document.getElementById("countdown").innerHTML = formattedTime;
     }
 
