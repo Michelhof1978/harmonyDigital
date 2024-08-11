@@ -35,7 +35,7 @@ $secretKey = $config['recaptcha_secret_key'];
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
   // Récupération des données du formulaire en les nettoyant
   $nom = htmlspecialchars($_POST["nom"]);
-  $prenom = htmlspecialchars($_POST["prenom"]);
+  $ = htmlspecialchars($_POST["nom"]);
   $email = isset($_POST["email"]) ? filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) : null;
   $objet = htmlspecialchars($_POST["objet"]);
   $message = htmlspecialchars($_POST["message"]);
@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Veuillez compléter le reCAPTCHA correctement.</p>';
       } else {
           // Envoi de l'e-mail
-          $message = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
+          $message = "Message envoyé de :\nNom : $nom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
           $retour = mail("harmonydigitalweb@gmail.com", $objet, $message, "From: contact@cvmichel-hoffmann.fr" . "\r\n" . "Reply-to: $email");
 
           if ($retour) {
