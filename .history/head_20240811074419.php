@@ -22,7 +22,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>

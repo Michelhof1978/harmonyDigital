@@ -2,6 +2,9 @@
 <meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
 <title>Formulaire de Contact - Harmony Digital</title>
 
+  <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdC6SMqAAAAAHIDToWxhO3hpVbTSqKh_qIc7-_U"></script>
+  <!-- Your code -->
+</head>
 <style>
  
 /* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
@@ -83,8 +86,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <?php include("header.php"); ?>
 
 <div id="binary-background2"></div>
-
-<h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center">
+<h2 class="m-5 text-center">
+    <strong class="text-warning fw-bold">FORMULAIRE EN COURS DE VALIDATION, NON OPERATIONEL</strong>
+</h2>
+<h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 text-center">
     <strong class="text-white">Formulaire De Contact</strong>
 </h1>
 
@@ -154,8 +159,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <label for="objet" class="form-label text-white">Objet :</label>
                         <select name="objet" id="objet" class="form-select" required>
                             <option value="" disabled selected>Choisissez un objet</option>
-                            <option value="Demande de devis">Demande de devis</option>
-                            <option value="Besoins d'infos">Besoins d'infos</option>
+                            <option value="proposition-emploi">Demande de devis</option>
+                            <option value="proposition-projet">Besoins d'infos</option>
                             <option value="autre">Autre</option>
                         </select>
                     </div>
@@ -184,7 +189,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     </div>
 
                     <!-- reCAPTCHA -->
-                    <div class="g-recaptcha mt-4 mb-4" data-sitekey="6LeDJiQqAAAAALRhC54Yqk-PnttYsWFvK9Ev6Zew"></div>
+                    <div class="g-recaptcha m-4" data-sitekey="VOTRE_CLE_PUBLIQUE"></div>
 
                     <!-- Bouton d'envoi -->
                     <button type="submit" value="Valider" id="send-data" class="btn borderColor text-white fs-5 btn-block mb-4">
@@ -235,7 +240,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     });
 </script>
 
-  
+
 
 </body>
 </html>

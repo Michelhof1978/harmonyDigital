@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <div id="binary-background2"></div>
 
-<h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center">
+<h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 text-center">
     <strong class="text-white">Formulaire De Contact</strong>
 </h1>
 
@@ -184,7 +184,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     </div>
 
                     <!-- reCAPTCHA -->
-                    <div class="g-recaptcha mt-4 mb-4" data-sitekey="6LeDJiQqAAAAALRhC54Yqk-PnttYsWFvK9Ev6Zew"></div>
+                    <div class="g-recaptcha m" data-sitekey="6LeDJiQqAAAAALRhC54Yqk-PnttYsWFvK9Ev6Zew"></div>
 
                     <!-- Bouton d'envoi -->
                     <button type="submit" value="Valider" id="send-data" class="btn borderColor text-white fs-5 btn-block mb-4">
