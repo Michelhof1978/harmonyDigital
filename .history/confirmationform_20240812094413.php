@@ -8,7 +8,7 @@ include("head.php");
 
 <style>
     .text-light-success {
-        color: #7dff33; /* Un vert plus clair */
+        color: #6eff33; /* Un vert plus clair */
     }
 </style>
 
@@ -22,7 +22,7 @@ include("head.php");
     <section class="confirmation mb-5">
         <h4 class="m-5 text-center border border-3  text-white p-2 display-6 borderColor" id="contact"><strong>MESSAGE ENVOYE</strong></h4>
         <div class="text-center">
-            <div class=" fw-bold lead  fs-2 text-light-success  text-center p-4 pb-5 ms-1 me-1 mb-5">
+            <div class=" fw-bold lead f text-light-success  text-center p-4 pb-5 ms-1 me-1 mb-5">
                 <p>
                     Nous avons bien reçu votre message et nous vous confirmons que votre demande est en cours de traitement.
                 </p>
@@ -33,9 +33,9 @@ include("head.php");
 <?php else: ?>
     <!-- Message de confirmation non affiché -->
     <section class="confirmation mb-5">
-        <h4 class="m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>MESSAGE NON ENVOYE</strong></h4>
+        <h4 class=" borderColor m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>AUCUN MESSAGE DE CONFIRMATION</strong></h4>
         <div class="text-center">
-            <div class="lead text-danger fw-bold  fs-2 text-center p-4 pb-5 ms-1 me-1 mb-5">
+            <div class="lead text-danger fw-bold  fs-3 text-center p-4 pb-5 ms-1 me-1 mb-5">
             <p class="alert alert-danger ms-5 mt-3 fw-bold">
     Veuillez vérifier les informations suivantes :<br>
     <ul>
@@ -44,7 +44,6 @@ include("head.php");
         <li>Veuillez remplir tous les champs obligatoires du formulaire.</li><br>
     </ul>
 </p>
-
             </div>
         </div>
     </section>

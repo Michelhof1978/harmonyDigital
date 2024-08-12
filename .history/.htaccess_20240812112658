@@ -33,12 +33,12 @@ RewriteRule ^formulaireDeContact\.php$ /formulaireDeContact [R=301,L]
 # Réécriture de /formulaireDeContact vers /formulaireDeContact.php
 RewriteRule ^formulaireDeContact/?$ formulaireDeContact.php [L]
 
-# Redirection de /confirmationform.php vers /confirmationform
-RewriteCond %{THE_REQUEST} \s/confirmationform\.php [NC]
-RewriteRule ^confirmationform\.php$ /confirmationform [R=301,L]
+# Redirection de /confirmationform.php vers /formulaireDeContact
+RewriteCond %{THE_REQUEST} \s/formulaireDeContact\.php [NC]
+RewriteRule ^formulaireDeContact\.php$ /formulaireDeContact [R=301,L]
 
-# Réécriture de /confirmationform vers /confirmationform.php
-RewriteRule ^confirmationform/?$ confirmationform.php [L]
+# Réécriture de /formulaireDeContact vers /formulaireDeContact.php
+RewriteRule ^formulaireDeContact/?$ formulaireDeContact.php [L]
 
 # Redirection de /mentionsLegales.php vers /mentionsLegales
 RewriteCond %{THE_REQUEST} \s/mentionsLegales\.php [NC]

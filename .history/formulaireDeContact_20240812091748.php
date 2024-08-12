@@ -86,6 +86,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <div id="binary-background2"></div>
 
+<div id="binary-background2"></div>
+
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center">
     <strong class="text-white">Formulaire De Contact</strong>
 </h1>
@@ -116,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php unset($_SESSION['message_sent']); // Supprimer la variable après l'affichage ?>
 <?php endif; ?>
 
-<form class="needs-validation ms-3 me-3" id="myForm" novalidate action="#" method="POST">
+<form class="needs-validation ms-3 me-3" id="myForm" novalidate action="confirmationform.php" method="POST">
     <fieldset class="mb-5 ms-2 me-2">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
@@ -147,9 +149,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="col">
                         <div class="form-outline mb-4">
                             <label for="phoneNumber" class="form-label text-white">Téléphone</label>
-                            <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" required>
+                            <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" title="Veuillez entrer un numéro de téléphone valide (10 à 15 chiffres)" required>
                             <div class="invalid-feedback">
-                                Veuillez saisir un numéro de téléphone valide (au moins 10 chiffres).
+                                Veuillez saisir un numéro de téléphone valide (10 à 15 chiffres).
                             </div>
                         </div>
                     </div>
@@ -158,9 +160,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="form-outline mb-4">
                         <label for="email" class="form-label text-white">Adresse Email</label>
                         <div class="input-group has-validation">
-                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
+                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" required>
                             <div class="invalid-feedback">
-                                Veuillez saisir une adresse email valide avec un domaine .com ou .fr.
+                                Veuillez saisir une adresse email valide.
                             </div>
                         </div>
                     </div>
@@ -211,6 +213,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
     </fieldset>
 </form>
+
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 text-center">

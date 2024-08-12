@@ -41,7 +41,7 @@ include("head.php");
     <ul>
         <li>Assurez-vous que l'adresse email est au format correct (par exemple, <strong>nom@domaine.fr</strong> ou <strong>nom@domaine.com</strong>).</li><br>
         <li>Le numéro de téléphone doit contenir uniquement des chiffres et doit avoir entre 10 et 15 chiffres.</li><br>
-        <li>Veuillez remplir tous les champs obligatoires du formulaire.</li><br>
+        <li>Veuillez remplir tous les champs obligatoires du formulaire.</li>
     </ul>
 </p>
 

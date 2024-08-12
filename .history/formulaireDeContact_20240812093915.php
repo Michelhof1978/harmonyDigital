@@ -84,6 +84,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <?php include("header.php"); ?>
 
+
+
 <div id="binary-background2"></div>
 
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center">

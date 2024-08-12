@@ -1,22 +1,38 @@
-<?php
-session_start(); // Démarrer la session
 
-$config = include('./config/config.php');
-$secretKey = $config['recaptcha_secret_key'];
+<?php
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    // Récupération des données du formulaire en les nettoyant
-    $nom = htmlspecialchars($_POST["lastName"]);
-    $prenom = htmlspecialchars($_POST["firstName"]);
-    $email = isset($_POST["email"]) ? filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) : null;
-    $objet = htmlspecialchars($_POST["objet"]);
-    $message = htmlspecialchars($_POST["message"]);
-    $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", $_POST["phoneNumber"]) : null; // Ne garde que les chiffres du numéro de téléphone
+    // Nettoyer et valider les données du formulaire
+    $nom = htmlspecialchars(trim($_POST["lastName"]));
+    $prenom = htmlspecialchars(trim($_POST["firstName"]));
+    $email = filter_var(trim($_POST["email"]), FILTER_VALIDATE_EMAIL);
+    $objet = htmlspecialchars(trim($_POST["objet"]));
+    $message = htmlspecialchars(trim($_POST["message"]));
+    $telephone = preg_replace("/[^0-9]/", "", trim($_POST["phoneNumber"])); // Ne garde que les chiffres du numéro de téléphone
 
-    if ($email === null) {
-        echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Email invalide</p>';
+    // Vérifications
+    $errors = [];
+
+    if (empty($nom) || empty($prenom) || empty($objet) || empty($message) || empty($telephone)) {
+        $errors[] = "Tous les champs doivent être remplis.";
+    }
+
+    if (!$email) {
+        $errors[] = "Adresse email invalide.";
+    }
+
+    if (strlen($telephone) < 10 || strlen($telephone) > 15) {
+        $errors[] = "Le numéro de téléphone doit contenir entre 10 et 15 chiffres.";
+    }
+
+    if (!empty($errors)) {
+        // Afficher les erreurs
+        foreach ($errors as $error) {
+            echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">' . $error . '</p>';
+        }
     } else {
-        // Vérification du reCAPTCHA
+        // Validation reCAPTCHA
         $recaptchaResponse = $_POST['g-recaptcha-response'];
         $recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify";
         $recaptchaData = [
@@ -34,15 +50,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         $context = stream_context_create($options);
         $jsonResponse = file_get_contents($recaptchaUrl, false, $context);
-
         $recaptchaResult = json_decode($jsonResponse, true);
 
         if (!$recaptchaResult['success']) {
             echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Veuillez compléter le reCAPTCHA correctement.</p>';
         } else {
             // Envoi de l'e-mail
-            $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
-            $retour = mail("harmonydigitalweb@gmail.com", $objet, $messageContent, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
+            $messageBody = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
+            $retour = mail("harmonydigitalweb@gmail.com", $objet, $messageBody, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
 
             if ($retour) {
                 $_SESSION['message_sent'] = true;
@@ -55,6 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 }
 ?>
+
 
 
 <?php include("head.php") ?>
@@ -83,6 +99,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
 <?php include("header.php"); ?>
+
+<div id="binary-background2"></div>
 
 <div id="binary-background2"></div>
 
@@ -116,7 +134,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <?php unset($_SESSION['message_sent']); // Supprimer la variable après l'affichage ?>
 <?php endif; ?>
 
-<form class="needs-validation ms-3 me-3" id="myForm" novalidate action="#" method="POST">
+<form class="needs-validation ms-3 me-3" id="myForm" novalidate action="confirmationform.php" method="POST">
     <fieldset class="mb-5 ms-2 me-2">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
@@ -147,9 +165,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="col">
                         <div class="form-outline mb-4">
                             <label for="phoneNumber" class="form-label text-white">Téléphone</label>
-                            <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" required>
+                            <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" title="Veuillez entrer un numéro de téléphone valide (10 à 15 chiffres)" required>
                             <div class="invalid-feedback">
-                                Veuillez saisir un numéro de téléphone valide (au moins 10 chiffres).
+                                Veuillez saisir un numéro de téléphone valide (10 à 15 chiffres).
                             </div>
                         </div>
                     </div>
@@ -158,9 +176,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="form-outline mb-4">
                         <label for="email" class="form-label text-white">Adresse Email</label>
                         <div class="input-group has-validation">
-                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
+                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" required>
                             <div class="invalid-feedback">
-                                Veuillez saisir une adresse email valide avec un domaine .com ou .fr.
+                                Veuillez saisir une adresse email valide.
                             </div>
                         </div>
                     </div>
@@ -211,6 +229,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
     </fieldset>
 </form>
+
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 text-center">

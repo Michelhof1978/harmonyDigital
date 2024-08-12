@@ -37,11 +37,11 @@ include("head.php");
         <div class="text-center">
             <div class="lead text-danger fw-bold  fs-2 text-center p-4 pb-5 ms-1 me-1 mb-5">
             <p class="alert alert-danger ms-5 mt-3 fw-bold">
-    Veuillez vérifier les informations suivantes :<br>
+    Veuillez vérifier les informations suivantes :
     <ul>
-        <li>Assurez-vous que l'adresse email est au format correct (par exemple, <strong>nom@domaine.fr</strong> ou <strong>nom@domaine.com</strong>).</li><br>
-        <li>Le numéro de téléphone doit contenir uniquement des chiffres et doit avoir entre 10 et 15 chiffres.</li><br>
-        <li>Veuillez remplir tous les champs obligatoires du formulaire.</li><br>
+        <li>Assurez-vous que l'adresse email est au format correct (par exemple, <strong>nom@domaine.fr</strong> ou <strong>nom@domaine.com</strong>).</li>
+        <li>Le numéro de téléphone doit contenir uniquement des chiffres et doit avoir entre 10 et 15 chiffres.</li>
+        <li>Veuillez remplir tous les champs obligatoires du formulaire.</li>
     </ul>
 </p>
 

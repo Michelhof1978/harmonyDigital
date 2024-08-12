@@ -38,7 +38,7 @@ RewriteCond %{THE_REQUEST} \s/confirmationform\.php [NC]
 RewriteRule ^confirmationform\.php$ /confirmationform [R=301,L]
 
 # Réécriture de /confirmationform vers /confirmationform.php
-RewriteRule ^confirmationform/?$ confirmationform.php [L]
+RewriteRule ^formulaireDeContact/?$ formulaireDeContact.php [L]
 
 # Redirection de /mentionsLegales.php vers /mentionsLegales
 RewriteCond %{THE_REQUEST} \s/mentionsLegales\.php [NC]
