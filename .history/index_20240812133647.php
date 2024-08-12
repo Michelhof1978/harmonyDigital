@@ -627,7 +627,7 @@ h4 {
         </div>
 
         <div>
-            <h3><strong>Approche Personnalisée</strong></h3>
+            <h4><strong>Approche Personnalisée</strong></h4>
             <p class="fs-5"> 
                 <strong>
                     Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.

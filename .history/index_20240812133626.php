@@ -611,7 +611,7 @@ h4 {
     <div class="w-75 text-white intro2 mt-5"> 
         <img src="images/robotIntro2.png" alt="Robot Intro" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
 
-        <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3>
+        <h class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3>
 
         <div>
             <h4><strong>Expertise et Créativité</strong></h4>
@@ -627,7 +627,7 @@ h4 {
         </div>
 
         <div>
-            <h3><strong>Approche Personnalisée</strong></h3>
+            <h4><strong>Approche Personnalisée</strong></h4>
             <p class="fs-5"> 
                 <strong>
                     Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.
