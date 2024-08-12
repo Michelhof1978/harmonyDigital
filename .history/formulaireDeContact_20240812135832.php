@@ -134,6 +134,26 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     margin: 10px;
 }
 
+@media (max-width: 768px) {
+    .form-group, .form-outline, .form-select, .form-floating textarea {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0.5rem; /* Ajustez le padding si nécessaire */
+    }
+
+    .form-outline, .form-select, .form-group, .form-floating {
+        margin-bottom: 1rem; /* Réduit l'espace entre les éléments pour les petits écrans */
+    }
+
+    .btn {
+        width: 100%; /* Bouton prend toute la largeur disponible sur petits écrans */
+        margin-top: 1rem; /* Ajoute un espace au-dessus du bouton */
+    }
+
+    .error-message {
+        padding: 0 1rem; /* Ajoute du padding horizontal aux messages d'erreur */
+    }
+}
 </style>
 
 </head>
@@ -174,12 +194,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <?php endif; ?>
 
 <form class="needs-validation ms-3 me-3" id="myForm" novalidate action="#" method="POST">
-    <fieldset class="mb-5 ms-2 me-2">
+    <fieldset class="mb-5">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-6">
+            <div class="col-md-8 col-12">
                 <!-- Prénom -->
                 <div class="row mb-4">
-                    <div class="col">
+                    <div class="col-md-6 col-12 mb-3">
                         <div class="form-outline">
                             <label for="firstName" class="form-label text-white">Prénom</label>
                             <input name="firstName" type="text" id="firstName" class="form-control" placeholder="Prénom" required>
@@ -190,7 +210,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     </div>
 
                     <!-- Nom -->
-                    <div class="col">
+                    <div class="col-md-6 col-12 mb-3">
                         <div class="form-outline">
                             <label for="lastName" class="form-label text-white">Nom</label>
                             <input name="lastName" type="text" id="lastName" class="form-control" placeholder="Nom" required>
@@ -201,8 +221,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     </div>
 
                     <!-- Téléphone -->
-                    <div class="col">
-                        <div class="form-outline mb-4">
+                    <div class="col-12 mb-3">
+                        <div class="form-outline">
                             <label for="phoneNumber" class="form-label text-white">Téléphone</label>
                             <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" required>
                             <div class="invalid-feedback">
@@ -212,18 +232,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     </div>
 
                     <!-- Email -->
-                    <div class="form-outline mb-4">
-                        <label for="email" class="form-label text-white">Adresse Email</label>
-                        <div class="input-group has-validation">
-                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
-                            <div class="invalid-feedback">
-                                Veuillez saisir une adresse email valide avec un @ et un domaine .com ou .fr.
+                    <div class="col-12 mb-3">
+                        <div class="form-outline">
+                            <label for="email" class="form-label text-white">Adresse Email</label>
+                            <div class="input-group">
+                                <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
+                                <div class="invalid-feedback">
+                                    Veuillez saisir une adresse email valide avec un @ et un domaine .com ou .fr.
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Sélecteur d'objet -->
-                    <div class="mb-3">
+                    <div class="col-12 mb-3">
                         <label for="objet" class="form-label text-white">Objet :</label>
                         <select name="objet" id="objet" class="form-select" required>
                             <option value="" disabled selected>Choisissez un objet</option>
@@ -234,8 +256,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     </div>
 
                     <!-- Message -->
-                    <div class="form-group">
-                        <label for="message" class="mb-2 text-white">Message</label>
+                    <div class="col-12 mb-3">
                         <div class="form-floating">
                             <textarea name="message" class="form-control" id="message" required></textarea>
                             <label for="message">Votre Message</label>
@@ -246,28 +267,35 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     </div>
 
                     <!-- Case à cocher RGPD -->
-                    <div class="form-check mb-4 mt-3">
-                        <input class="form-check-input" type="checkbox" id="rgpdCheckbox" name="rgpdCheckbox" required>
-                        <label class="form-check-label text-white" for="rgpdCheckbox">
-                            J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php" style="color: #e06717aa;"><span class="fw-bold">Politique De Confidentialité</span></a>.
-                        </label>
-                        <div class="invalid-feedback">
-                            Vous devez accepter la politique de confidentialité.
+                    <div class="col-12 mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="rgpdCheckbox" name="rgpdCheckbox" required>
+                            <label class="form-check-label text-white" for="rgpdCheckbox">
+                                J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php" style="color: #e06717aa;"><span class="fw-bold">Politique De Confidentialité</span></a>.
+                            </label>
+                            <div class="invalid-feedback">
+                                Vous devez accepter la politique de confidentialité.
+                            </div>
                         </div>
                     </div>
 
                     <!-- reCAPTCHA -->
-                    <div class="g-recaptcha mt-4 mb-4" data-sitekey="6LeDJiQqAAAAALRhC54Yqk-PnttYsWFvK9Ev6Zew"></div>
+                    <div class="col-12 mb-4">
+                        <div class="g-recaptcha" data-sitekey="6LeDJiQqAAAAALRhC54Yqk-PnttYsWFvK9Ev6Zew"></div>
+                    </div>
 
                     <!-- Bouton d'envoi -->
-                    <button type="submit" value="Valider" id="send-data" class="btn borderColor text-white fs-5 btn-block mb-4">
-                        Envoyez
-                    </button>
+                    <div class="col-12">
+                        <button type="submit" value="Valider" id="send-data" class="btn borderColor text-white fs-5 btn-block mb-4">
+                            Envoyez
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </fieldset>
 </form>
+
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 text-center">

@@ -134,6 +134,26 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     margin: 10px;
 }
 
+@media (max-width: 768px) {
+    .form-group, .form-outline, .form-select, .form-floating textarea {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0.5rem; /* Ajustez le padding si nécessaire */
+    }
+
+    .form-outline, .form-select, .form-group, .form-floating {
+        margin-bottom: 1rem; /* Réduit l'espace entre les éléments pour les petits écrans */
+    }
+
+    .btn {
+        width: 100%; /* Bouton prend toute la largeur disponible sur petits écrans */
+        margin-top: 1rem; /* Ajoute un espace au-dessus du bouton */
+    }
+
+    .error-message {
+        padding: 0 1rem; /* Ajoute du padding horizontal aux messages d'erreur */
+    }
+}
 </style>
 
 </head>
