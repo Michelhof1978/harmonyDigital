@@ -244,8 +244,8 @@
 
 <!-- COOKIES -->
 <div id="cookie-banner">
-    <p><strong>Ce site web utilise des cookies.<br>
-    Les cookies nous permettent de personnaliser le contenu et les annonces, d'offrir des fonctionnalités relatives aux médias sociaux et d'analyser notre trafic.<br> Nous partageons également des informations sur l'utilisation de notre site avec nos partenaires de médias sociaux, de publicité et d'analyse, qui peuvent combiner celles-ci avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.</strong> </p>
+    <p><strong>Ce site web utilise des cookies.
+    Les cookies nous permettent de personnaliser le contenu et les annonces, d'offrir des fonctionnalités relatives aux médias sociaux et d'analyser notre trafic. Nous partageons également des informations sur l'utilisation de notre site avec nos partenaires de médias sociaux, de publicité et d'analyse, qui peuvent combiner celles-ci avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées lors de votre utilisation de leurs services.</strong> </p>
     <button onclick="acceptCookies()"><strong>Accepter</strong></button>
     <button onclick="refuseCookies()"><strong>Refuser</strong></button>
 </div>

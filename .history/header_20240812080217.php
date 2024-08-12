@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto text-center me-3">
                 <li class="nav-item">
-                    <a class="nav-link fs-5" aria-current="page" href="index.php"><strong>Accueil</strong></a>
+                    <a class="nav-link fs-5" aria-current="page" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="infos.php">Informations</strong></a>
+                    <a class="nav-link fs-5" href="infos.php"><strong><span class="text-orange-nav">I</span>nformations</strong></a>
                 </li>
 
                 <li class="nav-item">
@@ -40,7 +40,7 @@
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="formulaireDeContact.php">Contactez-nous !</strong></a>
+                    <a class="nav-link fs-5" href="formulaireDeContact.php"><strong><span class="text-orange-nav">C</span>ontactez-nous !</strong></a>
                 </li>
             </ul>
         </div>

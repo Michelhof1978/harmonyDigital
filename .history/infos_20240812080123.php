@@ -56,7 +56,7 @@
 <div class="d-none d-md-block">
     <div class="mt-5">
         <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
-            <strong class="text-white">Informations</strong>
+            <strong class="text-white">Information</strong>
         </h1>
     </div>
 

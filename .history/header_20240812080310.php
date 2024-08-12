@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto text-center me-3">
                 <li class="nav-item">
-                    <a class="nav-link fs-5" aria-current="page" href="index.php"><strong>Accueil</strong></a>
+                    <a class="nav-link fs-5" aria-current="page" href="index.php"><strong><span class="text-orange-nav">Accueil</strong></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fs-5" href="infos.php">Informations</strong></a>

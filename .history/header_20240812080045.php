@@ -11,7 +11,7 @@
         <!-- Logo et titre -->
         <a class="navbar-brand ms-2" href="index.php">
             <strong class="text-white nav-brand">
-                <span class="text-orange">H</span>armony <span class="text-orange">D</span>igital
+                <span class="text-orange">H<armony <span class="text-orange">D</span>igital
             </strong>
             <span class="orange">.</span>
         </a>
@@ -29,18 +29,18 @@
         <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto text-center me-3">
                 <li class="nav-item">
-                    <a class="nav-link fs-5" aria-current="page" href="index.php"><strong>Accueil</strong></a>
+                    <a class="nav-link fs-5" aria-current="page" href="index.php"><strong><span class="text-orange-nav">A</span>ccueil</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="infos.php">Informations</strong></a>
+                    <a class="nav-link fs-5" href="infos.php"><strong><span class="text-orange-nav">I</span>nformations</strong></a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="tarifs.php"><strong>Tarifs</strong></a>
+                    <a class="nav-link fs-5" href="tarifs.php"><strong><span class="text-orange-nav">T</span>arifs</strong></a>
                 </li>
             
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="formulaireDeContact.php">Contactez-nous !</strong></a>
+                    <a class="nav-link fs-5" href="formulaireDeContact.php"><strong><span class="text-orange-nav">C</span>ontactez-nous !</strong></a>
                 </li>
             </ul>
         </div>
