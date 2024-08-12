@@ -457,10 +457,10 @@
         "telephone": "06 66 33 25 88",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "4 lotissement la croix rouge",
-            "addressLocality": "Garnat sur engièvre",
+            "streetAddress": "4",
+            "addressLocality": "Dompierre sur besbre",
             "addressRegion": "Auvergne-Rhône-Alpes", 
-            "postalCode": "03230",
+            "postalCode": "03290",
             "addressCountry": "FR"
         },
         "priceRange": "Abordable"  

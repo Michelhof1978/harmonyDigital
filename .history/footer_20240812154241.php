@@ -452,15 +452,15 @@
     {
         "@context": "http://schema.org",
         "@type": "LocalBusiness",
-        "name": "Harmony Digital",
-        "image": "https://harmony-digital.fr/images/logo.png",
-        "telephone": "06 66 33 25 88",
+        "name": "Les Caravanes De La Besbre",
+        "image": "https://lescaravanesdelabesbre.fr/images/logo.webp",
+        "telephone": "06 ",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "4 lotissement la croix rouge",
-            "addressLocality": "Garnat sur engièvre",
+            "streetAddress": "Camping Les bords de Besbre",
+            "addressLocality": "Dompierre sur besbre",
             "addressRegion": "Auvergne-Rhône-Alpes", 
-            "postalCode": "03230",
+            "postalCode": "03290",
             "addressCountry": "FR"
         },
         "priceRange": "Abordable"  

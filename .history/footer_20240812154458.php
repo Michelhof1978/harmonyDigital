@@ -458,9 +458,9 @@
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "4 lotissement la croix rouge",
-            "addressLocality": "Garnat sur engièvre",
+            "addressLocality": "Dompierre sur besbre",
             "addressRegion": "Auvergne-Rhône-Alpes", 
-            "postalCode": "03230",
+            "postalCode": "03290",
             "addressCountry": "FR"
         },
         "priceRange": "Abordable"  

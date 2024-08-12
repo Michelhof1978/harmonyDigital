@@ -460,7 +460,7 @@
             "streetAddress": "4 lotissement la croix rouge",
             "addressLocality": "Garnat sur engièvre",
             "addressRegion": "Auvergne-Rhône-Alpes", 
-            "postalCode": "03230",
+            "postalCode": "03290",
             "addressCountry": "FR"
         },
         "priceRange": "Abordable"  

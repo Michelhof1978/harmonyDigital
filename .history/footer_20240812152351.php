@@ -189,10 +189,10 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-white m-2">
+                        <div class="footer-widget-heading2 text-white m-2 ms-5">
                             <h3>Liens utiles</h3>
                         </div>
-                        <div class="footer-links pb-3 ms-2">
+                        <div class="footer-links pb-3 ms-5">
                             <ul class="list-unstyled">
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
                                 <li><a href="politiquedeConfidentialite.php">Politique de Confidentialité</a></li>
@@ -211,7 +211,7 @@
                             <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
                         </div>
                         <div class="subscribe-form">
-                            <form id="newsletter-form" action="newsletter_signup.php" method="post" class="d-flex justify-content-center">
+                        <form id="newsletter-form" action="newsletter_signup.php" method="post" class="d-flex justify-content-center">
                                 <input type="email" name="email" placeholder="Adresse Mail" class="me-2" required>
                                 <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                             </form>
@@ -239,7 +239,6 @@
     </div>
 </footer>
 <!-- FIN FOOTER DESKTOP -->
-
 
 
 <!-- COOKIES -->
@@ -448,24 +447,24 @@
 
 <!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
 <!-- En utilisant ce balisage, les moteurs de recherche et d'autres agents intelligents peuvent mieux comprendre et interpréter les informations liées à l'entreprise sur la page web. -->
- <script type="application/ld+json">
+<!-- <script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "LocalBusiness",
-        "name": "Harmony Digital",
-        "image": "https://harmony-digital.fr/images/logo.png",
-        "telephone": "06 66 33 25 88",
+        "name": "Les Caravanes De La Besbre",
+        "image": "https://lescaravanesdelabesbre.fr/images/logo.webp",
+        "telephone": "06 86 41 31 71",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "4 lotissement la croix rouge",
-            "addressLocality": "Garnat sur engièvre",
+            "streetAddress": "Camping Les bords de Besbre",
+            "addressLocality": "Dompierre sur besbre",
             "addressRegion": "Auvergne-Rhône-Alpes", 
-            "postalCode": "03230",
+            "postalCode": "03290",
             "addressCountry": "FR"
         },
         "priceRange": "Abordable"  
     }
-</script> 
+</script> -->
 
 
 

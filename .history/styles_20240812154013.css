@@ -340,7 +340,8 @@ body {
 .footer-social-icon a:hover {
     color: #fff; /* Garde la couleur blanche des icônes au survol */
 }
-
+margin-left: auto;
+text-align: right; /* Pour aligner le texte à droite */
 /* Styles pour les titres des widgets */
 .footer-widget-heading h3 {
     color: #fff;
