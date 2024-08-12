@@ -121,18 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     outline: none; /* Supprime le contour par défaut */
 }
 
-.error-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
 
-.alert {
-    text-align: center;
-    max-width: 600px;
-    margin: 10px;
-}
 </style>
 
 </head>
@@ -205,7 +194,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                             <label for="phoneNumber" class="form-label text-white">Téléphone</label>
                             <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" required>
                             <div class="invalid-feedback">
-                                Veuillez saisir un numéro de téléphone valide (10 à 15 chiffres).
+                                Veuillez saisir un numéro de téléphone valide (au moins 10 chiffres).
                             </div>
                         </div>
                     </div>
@@ -216,7 +205,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <div class="input-group has-validation">
                             <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
                             <div class="invalid-feedback">
-                                Veuillez saisir une adresse email valide avec un @ et un domaine .com ou .fr.
+                                Veuillez saisir une adresse email valide avec un @ et / ou un domaine .com ou .fr...
                             </div>
                         </div>
                     </div>

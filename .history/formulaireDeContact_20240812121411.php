@@ -121,18 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     outline: none; /* Supprime le contour par défaut */
 }
 
-.error-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
 
-.alert {
-    text-align: center;
-    max-width: 600px;
-    margin: 10px;
-}
 </style>
 
 </head>

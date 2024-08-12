@@ -12,42 +12,23 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $objet = htmlspecialchars(trim($_POST["objet"]));
     $message = htmlspecialchars(trim($_POST["message"]));
     $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", trim($_POST["phoneNumber"])) : null; // Ne garde que les chiffres du numéro de téléphone
-    $rgpdCheckbox = isset($_POST["rgpdCheckbox"]);
 
     // Validation des données
     $errors = [];
 
-    // Vérification des champs non vides
-    if (empty($prenom)) {
-        $errors[] = 'Prénom est requis.';
-    }
-    if (empty($nom)) {
-        $errors[] = 'Nom est requis.';
-    }
-    if (empty($email)) {
-        $errors[] = 'Email est requis.';
-    }
-    if (empty($telephone)) {
-        $errors[] = 'Numéro de téléphone est requis.';
-    }
-    if (empty($objet)) {
-        $errors[] = 'Objet est requis.';
-    }
-    if (empty($message)) {
-        $errors[] = 'Message est requis.';
-    }
-    if (!$rgpdCheckbox) {
-        $errors[] = 'Vous devez accepter la politique de confidentialité.';
-    }
-
     // Vérification de l'email
-    if ($email === null || !preg_match("/^[^\s@]+@[^\s@]+\.[^\s@]+$/", $email)) {
-        $errors[] = 'Email invalide. Assurez-vous qu\'il contient un @ et un nom de domaine valide.';
+    if ($email === null) {
+        $errors[] = 'Email invalide';
     }
 
     // Vérification du numéro de téléphone
     if ($telephone === null || strlen($telephone) < 10 || strlen($telephone) > 15) {
         $errors[] = 'Numéro de téléphone invalide. Il doit contenir entre 10 et 15 chiffres.';
+    }
+
+    // Vérification du message
+    if (empty($message)) {
+        $errors[] = 'Le message ne peut pas être vide.';
     }
 
     // Vérification du reCAPTCHA
@@ -91,15 +72,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Affichage des erreurs
     if (!empty($errors)) {
-        echo '<div class="error-message">';
         foreach ($errors as $error) {
             echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">' . $error . '</p>';
         }
-        echo '</div>';
     }
 }
 ?>
-
 
 
 <?php include("head.php") ?>
@@ -121,18 +99,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     outline: none; /* Supprime le contour par défaut */
 }
 
-.error-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
 
-.alert {
-    text-align: center;
-    max-width: 600px;
-    margin: 10px;
-}
 </style>
 
 </head>
@@ -204,8 +171,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <div class="form-outline mb-4">
                             <label for="phoneNumber" class="form-label text-white">Téléphone</label>
                             <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" required>
-                            <div class="invalid-feedback">
-                                Veuillez saisir un numéro de téléphone valide (10 à 15 chiffres).
+                            <div class="invalid-feedback w">
+                                Veuillez saisir un numéro de téléphone valide (au moins 10 chiffres).
                             </div>
                         </div>
                     </div>
@@ -216,7 +183,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                         <div class="input-group has-validation">
                             <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
                             <div class="invalid-feedback">
-                                Veuillez saisir une adresse email valide avec un @ et un domaine .com ou .fr.
+                                Veuillez saisir une adresse email valide avec un @ et / ou un domaine .com ou .fr...
                             </div>
                         </div>
                     </div>
