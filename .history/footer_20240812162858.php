@@ -28,7 +28,7 @@
                         <i class="far fa-envelope-open me-2"></i>
                         <div class="cta-text">
                             <h4>Mail</h4>
-                            <span>michelhoffmann@harmony-digital.fr</span>
+                            <span>harmonydigitalweb@gmail.com</span>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 <?php
 session_start(); // Démarrer la session
 
+// Inclure les fichiers d'en-tête et de pied de page
 include("head.php");
 ?>
 <meta name="description" content="Confirmation message - Harmony Digital">
