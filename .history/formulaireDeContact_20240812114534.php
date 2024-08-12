@@ -224,17 +224,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const typingElement = document.querySelector('#binary-background2');
-        const binaryLength = 300; // Nombre total de caractères binaires à afficher
+        const binaryLength = 500; // Nombre total de caractères binaires à afficher
         const characters = [];
 
         // Créez des éléments span pour chaque caractère
         for (let i = 0; i < binaryLength; i++) {
             const char = document.createElement('span');
-            char.textContent = Math.random() > 0.8 ? '@' : '@'; // Remplace 0 et 1 par @ et #
+            char.textContent = Math.random() > 0.5 ? '@' : '@'; // Remplace 0 et 1 par @ et #
             char.className = 'star';
             char.style.left = Math.random() * 100 + 'vw';
             char.style.top = Math.random() * 100 + 'vh';
-            char.style.animationDelay = `${Math.random() * 15}s`; // Délai d'animation aléatoire pour chaque caractère
+            char.style.animationDelay = `${Math.random() * 5}s`; // Délai d'animation aléatoire pour chaque caractère
             typingElement.appendChild(char);
             characters.push(char);
         }

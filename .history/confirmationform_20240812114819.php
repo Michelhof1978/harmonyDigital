@@ -16,7 +16,7 @@ include("head.php");
 
 <?php include("header.php") ?>
 
-<div id="binary-background2"></div>
+<div id="binary-background"></div>
 
 <?php if (isset($_SESSION['message_sent']) && $_SESSION['message_sent'] === true): ?>
     <section class="confirmation mb-5">

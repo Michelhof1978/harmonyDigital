@@ -230,7 +230,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // Créez des éléments span pour chaque caractère
         for (let i = 0; i < binaryLength; i++) {
             const char = document.createElement('span');
-            char.textContent = Math.random() > 0.8 ? '@' : '@'; // Remplace 0 et 1 par @ et #
+            char.textContent = Math.random() > 0.5 ? '@' : '@'; // Remplace 0 et 1 par @ et #
             char.className = 'star';
             char.style.left = Math.random() * 100 + 'vw';
             char.style.top = Math.random() * 100 + 'vh';

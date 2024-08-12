@@ -4,6 +4,10 @@ session_start(); // Démarrer la session
 $config = include('./config/config.php');
 $secretKey = $config['recaptcha_secret_key'];
 
+// Initialisation des messages d'erreur
+$errors = [];
+$success = false;
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Récupération des données du formulaire en les nettoyant
     $nom = htmlspecialchars($_POST["lastName"]);
@@ -13,10 +17,37 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = htmlspecialchars($_POST["message"]);
     $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", $_POST["phoneNumber"]) : null; // Ne garde que les chiffres du numéro de téléphone
 
+    // Validation des champs
+    if (empty($prenom)) {
+        $errors[] = 'Veuillez saisir votre prénom.';
+    }
+
+    if (empty($nom)) {
+        $errors[] = 'Veuillez saisir votre nom.';
+    }
+
+    if ($telephone === null || strlen($telephone) < 10) {
+        $errors[] = 'Veuillez saisir un numéro de téléphone valide (au moins 10 chiffres).';
+    }
+
     if ($email === null) {
-        echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Email invalide</p>';
-    } else {
-        // Vérification du reCAPTCHA
+        $errors[] = 'Email invalide.';
+    }
+
+    if (empty($objet)) {
+        $errors[] = 'Veuillez choisir un objet.';
+    }
+
+    if (empty($message)) {
+        $errors[] = 'Veuillez saisir votre message.';
+    }
+
+    if (!isset($_POST['rgpdCheckbox'])) {
+        $errors[] = 'Vous devez accepter la politique de confidentialité.';
+    }
+
+    // Vérification du reCAPTCHA
+    if (empty($errors)) {
         $recaptchaResponse = $_POST['g-recaptcha-response'];
         $recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify";
         $recaptchaData = [
@@ -38,49 +69,55 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $recaptchaResult = json_decode($jsonResponse, true);
 
         if (!$recaptchaResult['success']) {
-            echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Veuillez compléter le reCAPTCHA correctement.</p>';
-        } else {
-            // Envoi de l'e-mail
-            $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
-            $retour = mail("harmonydigitalweb@gmail.com", $objet, $messageContent, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
+            $errors[] = 'Veuillez compléter le reCAPTCHA correctement.';
+        }
+    }
 
-            if ($retour) {
-                $_SESSION['message_sent'] = true;
-                header('Location: confirmationform.php');
-                exit();
-            } else {
-                echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Erreur lors de l\'envoi de l\'email</p>';
-            }
+    // Si pas d'erreurs, envoi de l'e-mail
+    if (empty($errors)) {
+        $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
+        $retour = mail("harmonydigitalweb@gmail.com", $objet, $messageContent, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
+
+        if ($retour) {
+            $_SESSION['message_sent'] = true;
+            header('Location: confirmationform.php');
+            exit();
+        } else {
+            $errors[] = 'Erreur lors de l\'envoi de l\'email';
         }
     }
 }
 ?>
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
+    <title>Formulaire de Contact - Harmony Digital</title>
+    <style>
+        /* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
+        .form-control, .form-select, .form-floating textarea {
+            border: 2px solid #33a5ff; 
+            border-radius: 4px; 
+            padding: 0.5rem; 
+            box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
+        }
 
-<?php include("head.php") ?>
-<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
-<title>Formulaire de Contact - Harmony Digital</title>
+        .form-control:focus, .form-select:focus, .form-floating textarea:focus {
+            border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
+            outline: none; /* Supprime le contour par défaut */
+        }
 
-<style>
- 
-/* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
-.form-control, .form-select, .form-floating textarea {
-    border: 2px solid #33a5ff; 
-    border-radius: 4px; 
-    padding: 0.5rem; 
-    box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
-}
-
-.form-control:focus, .form-select:focus, .form-floating textarea:focus {
-    border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
-    outline: none; /* Supprime le contour par défaut */
-}
-
-
-</style>
-
+        .alert-danger {
+            color: #dc3545;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-
+<body>
 
 <?php include("header.php"); ?>
 
@@ -101,6 +138,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <h4 class="m-5 text-center">
     <strong class="text-white">Nous sommes là pour vous aider !</strong>
 </h4>
+
+<?php if (!empty($errors)): ?>
+    <div class="alert alert-danger ms-5 mt-3 fw-bold">
+        <ul>
+            <?php foreach ($errors as $error): ?>
+                <li><?php echo htmlspecialchars($error); ?></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+<?php endif; ?>
 
 <?php if (isset($_SESSION['message_sent']) && $_SESSION['message_sent'] === true): ?>
     <section class="confirmation mb-5">
@@ -125,7 +172,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="col">
                         <div class="form-outline">
                             <label for="firstName" class="form-label text-white">Prénom</label>
-                            <input name="firstName" type="text" id="firstName" class="form-control" placeholder="Prénom" required>
+                            <input name="firstName" type="text" id="firstName" class="form-control" placeholder="Prénom" value="<?php echo htmlspecialchars($prenom ?? ''); ?>" required>
                             <div class="invalid-feedback">
                                 Veuillez saisir votre prénom.
                             </div>
@@ -136,7 +183,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="col">
                         <div class="form-outline">
                             <label for="lastName" class="form-label text-white">Nom</label>
-                            <input name="lastName" type="text" id="lastName" class="form-control" placeholder="Nom" required>
+                            <input name="lastName" type="text" id="lastName" class="form-control" placeholder="Nom" value="<?php echo htmlspecialchars($nom ?? ''); ?>" required>
                             <div class="invalid-feedback">
                                 Veuillez saisir votre nom.
                             </div>
@@ -147,7 +194,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="col">
                         <div class="form-outline mb-4">
                             <label for="phoneNumber" class="form-label text-white">Téléphone</label>
-                            <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" pattern="[0-9]{10,15}" required>
+                            <input name="phoneNumber" type="tel" id="phoneNumber" class="form-control" placeholder="Téléphone" value="<?php echo htmlspecialchars($telephone ?? ''); ?>" pattern="[0-9]{10,15}" required>
                             <div class="invalid-feedback">
                                 Veuillez saisir un numéro de téléphone valide (au moins 10 chiffres).
                             </div>
@@ -158,7 +205,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="form-outline mb-4">
                         <label for="email" class="form-label text-white">Adresse Email</label>
                         <div class="input-group has-validation">
-                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
+                            <input name="email" type="email" id="email" class="form-control" placeholder="Email" value="<?php echo htmlspecialchars($email ?? ''); ?>" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|fr)$">
                             <div class="invalid-feedback">
                                 Veuillez saisir une adresse email valide avec un domaine .com ou .fr.
                             </div>
@@ -169,10 +216,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="mb-3">
                         <label for="objet" class="form-label text-white">Objet :</label>
                         <select name="objet" id="objet" class="form-select" required>
-                            <option value="" disabled selected>Choisissez un objet</option>
-                            <option value="Demande de devis">Demande de devis</option>
-                            <option value="Besoins d'infos">Besoins d'infos</option>
-                            <option value="autre">Autre</option>
+                            <option value="" disabled>Choisissez un objet</option>
+                            <option value="Demande de devis" <?php echo isset($objet) && $objet === 'Demande de devis' ? 'selected' : ''; ?>>Demande de devis</option>
+                            <option value="Besoins d'infos" <?php echo isset($objet) && $objet === 'Besoins d\'infos' ? 'selected' : ''; ?>>Besoins d'infos</option>
+                            <option value="autre" <?php echo isset($objet) && $objet === 'autre' ? 'selected' : ''; ?>>Autre</option>
                         </select>
                     </div>
 
@@ -180,7 +227,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     <div class="form-group">
                         <label for="message" class="mb-2 text-white">Message</label>
                         <div class="form-floating">
-                            <textarea name="message" class="form-control" id="message" required></textarea>
+                            <textarea name="message" class="form-control" id="message" required><?php echo htmlspecialchars($message ?? ''); ?></textarea>
                             <label for="message">Votre Message</label>
                             <div class="invalid-feedback">
                                 Veuillez saisir votre message.
@@ -190,7 +237,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
                     <!-- Case à cocher RGPD -->
                     <div class="form-check mb-4 mt-3">
-                        <input class="form-check-input" type="checkbox" id="rgpdCheckbox" name="rgpdCheckbox" required>
+                        <input class="form-check-input" type="checkbox" id="rgpdCheckbox" name="rgpdCheckbox" <?php echo isset($_POST['rgpdCheckbox']) ? 'checked' : ''; ?> required>
                         <label class="form-check-label text-white" for="rgpdCheckbox">
                             J'accepte que mes données personnelles soient traitées conformément à <a href="politiquedeConfidentialite.php" style="color: #e06717aa;"><span class="fw-bold">Politique De Confidentialité</span></a>.
                         </label>
@@ -224,17 +271,17 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const typingElement = document.querySelector('#binary-background2');
-        const binaryLength = 300; // Nombre total de caractères binaires à afficher
+        const binaryLength = 500; // Nombre total de caractères binaires à afficher
         const characters = [];
 
-        // Créez des éléments span pour chaque caractère
+        // Créez des éléments span pour chaque caractère binaire
         for (let i = 0; i < binaryLength; i++) {
             const char = document.createElement('span');
-            char.textContent = Math.random() > 0.8 ? '@' : '@'; // Remplace 0 et 1 par @ et #
+            char.textContent = Math.round(Math.random());
             char.className = 'star';
             char.style.left = Math.random() * 100 + 'vw';
             char.style.top = Math.random() * 100 + 'vh';
-            char.style.animationDelay = `${Math.random() * 15}s`; // Délai d'animation aléatoire pour chaque caractère
+            char.style.animationDelay = `${Math.random() * 5}s`; // Délai d'animation aléatoire pour chaque caractère
             typingElement.appendChild(char);
             characters.push(char);
         }
@@ -250,8 +297,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         showCharacters(0);
     });
 </script>
-
-  
 
 </body>
 </html>
