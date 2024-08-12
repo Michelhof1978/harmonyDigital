@@ -242,6 +242,7 @@
 <!-- FIN FOOTER DESKTOP -->
 
 
+
 <!-- COOKIES -->
 <div id="cookie-banner">
     <p><strong>Ce site web utilise des cookies.<br>
