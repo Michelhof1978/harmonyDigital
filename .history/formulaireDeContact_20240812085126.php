@@ -86,6 +86,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <div id="binary-background2"></div>
 
+<?php include("header.php"); ?>
+
 <div id="binary-background2"></div>
 
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center">
@@ -213,7 +215,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
     </fieldset>
 </form>
-
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 text-center">
         <img src="images/robotForm.png" alt="robot" class="img-fluid mx-auto w-50">

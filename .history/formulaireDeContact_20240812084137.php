@@ -1,90 +1,31 @@
-<?php
-session_start(); // Démarrer la session
 
-$config = include('./config/config.php');
-$secretKey = $config['recaptcha_secret_key'];
 
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    // Récupération des données du formulaire en les nettoyant
-    $nom = htmlspecialchars($_POST["lastName"]);
-    $prenom = htmlspecialchars($_POST["firstName"]);
-    $email = isset($_POST["email"]) ? filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) : null;
-    $objet = htmlspecialchars($_POST["objet"]);
-    $message = htmlspecialchars($_POST["message"]);
-    $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", $_POST["phoneNumber"]) : null; // Ne garde que les chiffres du numéro de téléphone
-
-    if ($email === null) {
-        echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Email invalide</p>';
-    } else {
-        // Vérification du reCAPTCHA
-        $recaptchaResponse = $_POST['g-recaptcha-response'];
-        $recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify";
-        $recaptchaData = [
-            'secret' => $secretKey,
-            'response' => $recaptchaResponse,
-        ];
-
-        $options = [
-            'http' => [
-                'header' => "Content-type: application/x-www-form-urlencoded\r\n",
-                'method' => 'POST',
-                'content' => http_build_query($recaptchaData),
-            ],
-        ];
-
-        $context = stream_context_create($options);
-        $jsonResponse = file_get_contents($recaptchaUrl, false, $context);
-
-        $recaptchaResult = json_decode($jsonResponse, true);
-
-        if (!$recaptchaResult['success']) {
-            echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Veuillez compléter le reCAPTCHA correctement.</p>';
-        } else {
-            // Envoi de l'e-mail
-            $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
-            $retour = mail("harmonydigitalweb@gmail.com", $objet, $messageContent, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
-
-            if ($retour) {
-                $_SESSION['message_sent'] = true;
-                header('Location: confirmationform.php');
-                exit();
-            } else {
-                echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Erreur lors de l\'envoi de l\'email</p>';
-            }
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
+    <title>Formulaire de Contact - Harmony Digital</title>
+    <style>
+        /* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
+        .form-control, .form-select, .form-floating textarea {
+            border: 2px solid #33a5ff; 
+            border-radius: 4px; 
+            padding: 0.5rem; 
+            box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
         }
-    }
-}
-?>
 
-
-<?php include("head.php") ?>
-<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
-<title>Formulaire de Contact - Harmony Digital</title>
-
-<style>
- 
-/* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
-.form-control, .form-select, .form-floating textarea {
-    border: 2px solid #33a5ff; 
-    border-radius: 4px; 
-    padding: 0.5rem; 
-    box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
-}
-
-.form-control:focus, .form-select:focus, .form-floating textarea:focus {
-    border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
-    outline: none; /* Supprime le contour par défaut */
-}
-
-
-</style>
-
+        .form-control:focus, .form-select:focus, .form-floating textarea:focus {
+            border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
+            outline: none; /* Supprime le contour par défaut */
+        }
+    </style>
+    <!-- Inclure ici le code du head.php s'il y a des scripts ou des styles -->
 </head>
-
+<body>
 
 <?php include("header.php"); ?>
-
-<div id="binary-background2"></div>
 
 <div id="binary-background2"></div>
 
@@ -252,8 +193,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         showCharacters(0);
     });
 </script>
-
-  
 
 </body>
 </html>

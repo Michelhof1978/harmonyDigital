@@ -13,9 +13,9 @@ include("head.php");
 
 <?php if (isset($_SESSION['message_sent']) && $_SESSION['message_sent'] === true): ?>
     <section class="confirmation mb-5">
-        <h4 class="m-5 text-center border border-3  text-white p-2 display-6 borderColor" id="contact"><strong>MESSAGE ENVOYE</strong></h4>
+        <h4 class="m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>MESSAGE ENVOYE</strong></h4>
         <div class="text-center">
-            <div class=" fw-bold lead  display-6 text-success  text-center p-4 pb-5 ms-1 me-1 mb-5">
+            <div class=" fw-bold lead  display-4 text-center p-4 pb-5 ms-1 me-1 mb-5">
                 <p>
                     Nous avons bien reçu votre message et nous vous confirmons que votre demande est en cours de traitement.
                 </p>
@@ -28,7 +28,7 @@ include("head.php");
     <section class="confirmation mb-5">
         <h4 class="m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>AUCUN MESSAGE DE CONFIRMATION</strong></h4>
         <div class="text-center">
-            <div class="lead text-danger fw-bold  display-6 text-center p-4 pb-5 ms-1 me-1 mb-5">
+            <div class="lead fw-bold  display-4 text-center p-4 pb-5 ms-1 me-1 mb-5">
                 <p>
                     Aucun message de confirmation n'a été trouvé. Assurez-vous que votre message a été envoyé correctement.
                 </p>

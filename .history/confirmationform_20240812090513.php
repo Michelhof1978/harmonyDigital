@@ -28,7 +28,7 @@ include("head.php");
     <section class="confirmation mb-5">
         <h4 class="m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>AUCUN MESSAGE DE CONFIRMATION</strong></h4>
         <div class="text-center">
-            <div class="lead text-danger fw-bold  display-6 text-center p-4 pb-5 ms-1 me-1 mb-5">
+            <div class="lead text-danger fw-bold  display-4 text-center p-4 pb-5 ms-1 me-1 mb-5">
                 <p>
                     Aucun message de confirmation n'a été trouvé. Assurez-vous que votre message a été envoyé correctement.
                 </p>

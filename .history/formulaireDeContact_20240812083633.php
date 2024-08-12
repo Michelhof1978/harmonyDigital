@@ -1,6 +1,31 @@
-<?php
-session_start(); // Démarrer la session
+<?php include("head.php") ?>
+<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
+<title>Formulaire de Contact - Harmony Digital</title>
 
+<style>
+ 
+/* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
+.form-control, .form-select, .form-floating textarea {
+    border: 2px solid #33a5ff; 
+    border-radius: 4px; 
+    padding: 0.5rem; 
+    box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
+}
+
+.form-control:focus, .form-select:focus, .form-floating textarea:focus {
+    border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
+    outline: none; /* Supprime le contour par défaut */
+}
+
+
+</style>
+
+</head>
+
+<?php include("head.php"); ?>
+
+<?php
+// Clé privée reCAPTCHA
 $config = include('./config/config.php');
 $secretKey = $config['recaptcha_secret_key'];
 
@@ -13,6 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = htmlspecialchars($_POST["message"]);
     $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", $_POST["phoneNumber"]) : null; // Ne garde que les chiffres du numéro de téléphone
 
+    // Vérifiez si l'adresse e-mail est vide
     if ($email === null) {
         echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Email invalide</p>';
     } else {
@@ -41,13 +67,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Veuillez compléter le reCAPTCHA correctement.</p>';
         } else {
             // Envoi de l'e-mail
-            $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
-            $retour = mail("harmonydigitalweb@gmail.com", $objet, $messageContent, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
+            $message = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
+            $retour = mail("harmonydigitalweb@gmail.com", $objet, $message, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
 
             if ($retour) {
-                $_SESSION['message_sent'] = true;
-                header('Location: confirmationform.php');
-                exit();
+                echo '<p class="alert alert-success mt-3 fw-bold">L\'email a bien été envoyé</p>';
             } else {
                 echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Erreur lors de l\'envoi de l\'email</p>';
             }
@@ -56,35 +80,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
-
-<?php include("head.php") ?>
-<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
-<title>Formulaire de Contact - Harmony Digital</title>
-
-<style>
- 
-/* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
-.form-control, .form-select, .form-floating textarea {
-    border: 2px solid #33a5ff; 
-    border-radius: 4px; 
-    padding: 0.5rem; 
-    box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
-}
-
-.form-control:focus, .form-select:focus, .form-floating textarea:focus {
-    border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
-    outline: none; /* Supprime le contour par défaut */
-}
-
-
-</style>
-
-</head>
-
-
 <?php include("header.php"); ?>
-
-<div id="binary-background2"></div>
+<?php session_start();
+?>
 
 <div id="binary-background2"></div>
 
@@ -103,20 +101,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <h4 class="m-5 text-center">
     <strong class="text-white">Nous sommes là pour vous aider !</strong>
 </h4>
-
-<?php if (isset($_SESSION['message_sent']) && $_SESSION['message_sent'] === true): ?>
-    <section class="confirmation mb-5">
-        <h4 class="m-5 text-center border border-3 rounded text-white p-2 display-6 h4Index" id="contact"><strong>MESSAGE ENVOYE</strong></h4>
-        <div class="text-center">
-            <div class="lead text-success display-4 text-center bg-light rounded shadow p-4 pb-5 bg-white rounded ms-1 me-1 mb-5">
-                <p>
-                    Nous avons bien reçu votre message et nous vous confirmons que votre demande est en cours de traitement.
-                </p>
-            </div>
-        </div>
-    </section>
-    <?php unset($_SESSION['message_sent']); // Supprimer la variable après l'affichage ?>
-<?php endif; ?>
 
 <form class="needs-validation ms-3 me-3" id="myForm" novalidate action="#" method="POST">
     <fieldset class="mb-5 ms-2 me-2">

@@ -1,3 +1,29 @@
+<?php include("head.php") ?>
+<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
+<title>Formulaire de Contact - Harmony Digital</title>
+
+<style>
+ 
+/* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
+.form-control, .form-select, .form-floating textarea {
+    border: 2px solid #33a5ff; 
+    border-radius: 4px; 
+    padding: 0.5rem; 
+    box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
+}
+
+.form-control:focus, .form-select:focus, .form-floating textarea:focus {
+    border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
+    outline: none; /* Supprime le contour par défaut */
+}
+
+
+</style>
+
+</head>
+
+<?php include("head.php"); ?>
+
 <?php
 session_start(); // Démarrer la session
 
@@ -56,35 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
-
-<?php include("head.php") ?>
-<meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
-<title>Formulaire de Contact - Harmony Digital</title>
-
-<style>
- 
-/* Bordure bleu foncé autour des champs de saisie avec une épaisseur accrue */
-.form-control, .form-select, .form-floating textarea {
-    border: 2px solid #33a5ff; 
-    border-radius: 4px; 
-    padding: 0.5rem; 
-    box-sizing: border-box; /* Assure que la bordure est incluse dans la largeur totale */
-}
-
-.form-control:focus, .form-select:focus, .form-floating textarea:focus {
-    border-color: #001a33; /* Couleur de bordure au focus pour un effet de surbrillance plus foncé */
-    outline: none; /* Supprime le contour par défaut */
-}
-
-
-</style>
-
-</head>
-
-
 <?php include("header.php"); ?>
-
-<div id="binary-background2"></div>
 
 <div id="binary-background2"></div>
 

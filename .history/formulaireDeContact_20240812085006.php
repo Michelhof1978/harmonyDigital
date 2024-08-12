@@ -1,62 +1,3 @@
-<?php
-session_start(); // Démarrer la session
-
-$config = include('./config/config.php');
-$secretKey = $config['recaptcha_secret_key'];
-
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    // Récupération des données du formulaire en les nettoyant
-    $nom = htmlspecialchars($_POST["lastName"]);
-    $prenom = htmlspecialchars($_POST["firstName"]);
-    $email = isset($_POST["email"]) ? filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) : null;
-    $objet = htmlspecialchars($_POST["objet"]);
-    $message = htmlspecialchars($_POST["message"]);
-    $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", $_POST["phoneNumber"]) : null; // Ne garde que les chiffres du numéro de téléphone
-
-    if ($email === null) {
-        echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Email invalide</p>';
-    } else {
-        // Vérification du reCAPTCHA
-        $recaptchaResponse = $_POST['g-recaptcha-response'];
-        $recaptchaUrl = "https://www.google.com/recaptcha/api/siteverify";
-        $recaptchaData = [
-            'secret' => $secretKey,
-            'response' => $recaptchaResponse,
-        ];
-
-        $options = [
-            'http' => [
-                'header' => "Content-type: application/x-www-form-urlencoded\r\n",
-                'method' => 'POST',
-                'content' => http_build_query($recaptchaData),
-            ],
-        ];
-
-        $context = stream_context_create($options);
-        $jsonResponse = file_get_contents($recaptchaUrl, false, $context);
-
-        $recaptchaResult = json_decode($jsonResponse, true);
-
-        if (!$recaptchaResult['success']) {
-            echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Veuillez compléter le reCAPTCHA correctement.</p>';
-        } else {
-            // Envoi de l'e-mail
-            $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
-            $retour = mail("harmonydigitalweb@gmail.com", $objet, $messageContent, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
-
-            if ($retour) {
-                $_SESSION['message_sent'] = true;
-                header('Location: confirmationform.php');
-                exit();
-            } else {
-                echo '<p class="alert alert-danger ms-5 mt-3 fw-bold">Erreur lors de l\'envoi de l\'email</p>';
-            }
-        }
-    }
-}
-?>
-
-
 <?php include("head.php") ?>
 <meta name="description" content="Vous souhaiteriez un devis ou auriez besoins de renseignements complémentaires.">
 <title>Formulaire de Contact - Harmony Digital</title>
@@ -81,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 </head>
 
+<?php include("head.php"); ?>
+
 
 <?php include("header.php"); ?>
-
-<div id="binary-background2"></div>
 
 <div id="binary-background2"></div>
 
