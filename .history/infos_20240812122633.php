@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
         particle.style.top = `${Math.random() * 100}vh`;
 
         // Définir une animation unique pour chaque particule
-        const duration = Math.random() * 30 + 5; // Durée entre 25s et 55s
+        const duration = Math.random() * 30 + 15; // Durée entre 25s et 55s
         particle.style.animation = `move ${duration}s linear infinite`;
         
         binaryBackground.appendChild(particle);
