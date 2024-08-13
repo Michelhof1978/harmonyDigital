@@ -126,7 +126,7 @@
     <div class="container">
         <!-- Section CTA -->
         <div class="footer-cta pt-5 pb-5">
-            <div class="row text-center">
+            <div class="row">
                 <div class="col-xl-4 col-md-4 mb-30">
                     <div class="single-cta">
                         <i class="fas fa-map-marker-alt"></i>
@@ -156,8 +156,7 @@
                 </div>
             </div>
         </div>
-        <!-- Footer Content -->
-        <div class="footer-content pt-5 pb-5 text-center">
+        <div class="footer-content pt-5 pb-5">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
@@ -190,11 +189,11 @@
                 </div>
 
                 <div class="col-xl-4 col-lg-4 mb-50">
-                    <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center text-white m-2">
+                    <div class="footer-widget ">
+                        <div class="footer-widget-heading2 text-white m-2">
                             <h3>Liens utiles</h3>
                         </div>
-                        <div class="footer-links pb-3">
+                        <div class="footer-links pb-3 ms-2">
                             <ul class="list-unstyled">
                                 <li><a href="mentionsLegales.php">Mentions Légales</a></li>
                                 <li><a href="politiquedeConfidentialite.php">Politique de Confidentialité</a></li>
@@ -205,12 +204,12 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="col-xl-4 col-lg-4 mb-50 style="margin-left: auto; text-align: right;"">
                     <div class="footer-widget">
-                        <div class="footer-widget-heading2 text-center text-white m-2">
+                        <div class="footer-widget-heading2 text-white m-2">
                             <h3>Newsletter</h3>
                         </div>
-                        <div class="footer-text mb-3">
+                        <div class="footer-text mb-3 ms-2">
                             <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
                         </div>
                         <div class="subscribe-form">
@@ -242,7 +241,6 @@
     </div>
 </footer>
 <!-- FIN FOOTER DESKTOP -->
-
 
 
 
