@@ -45,7 +45,7 @@ RewriteCond %{THE_REQUEST} \s/confirmationNewsLetter\.php [NC]
 RewriteRule ^confirmationNewsLetter\.php$ /confirmationNewsLetter [R=301,L]  
 
 # Réécriture de /confirmationNewsLetter vers /confirmationNewsLetter.php
-RewriteRule ^confirmationNewsLetter/?$ confirmationNewsLetter.php [L]
+RewriteRule ^confirmationform/?$ confirmationform.php [L]
 
 # Redirection de /mentionsLegales.php vers /mentionsLegales
 RewriteCond %{THE_REQUEST} \s/mentionsLegales\.php [NC]
