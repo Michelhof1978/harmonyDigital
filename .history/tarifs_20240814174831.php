@@ -174,9 +174,9 @@
     </div>
 </section>
 
-<!-- <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3"> -->
+<!-- <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3">
         <!-- Conteneur pour la vidéo avec une largeur définie pour différents breakpoints -->
-        <!-- <div class="w-50 w-sm-75 w-md-75 w-lg-75">
+        <div class="w-50 w-sm-75 w-md-75 w-lg-75">
             <video controls autoplay class="w-100">
                 <source src="videos/robotCircuit.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
