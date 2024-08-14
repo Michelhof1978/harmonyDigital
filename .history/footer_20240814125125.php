@@ -251,10 +251,8 @@
     <p><strong>Ce site web utilise des cookies.<br>
     Nous utilisons des cookies pour améliorer votre expérience sur notre site web, personnaliser le contenu et analyser notre trafic.<br>
      Les cookies sont de petits fichiers de données qui sont placés sur votre appareil lorsque vous visitez notre site.  <br>  
-     <div class="mt-4">
      <button onclick="acceptCookies()"><strong>Accepter</strong></button>
     <button onclick="refuseCookies()"><strong>Refuser</strong></button>
-    </div>
 </div>
 <!-- _____________________________________________________________________________________ -->
 
@@ -512,4 +510,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- _____________________________________________________________________________________ -->
  <!-- Whattsapp -->
  <script defer src="https://static.getbutton.io/widget/bundle.js?id=dkNpL" ></script>
+
+
+
 

@@ -51,11 +51,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             bottom: 0;
             left: 0;
             width: 100%;
-            background: #e06717e4;
+            background: #f57d3c;
             color: #fff;
             padding: 10px;
             text-align: center;
-           
         }
 
         #cookie-banner p {
@@ -66,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             margin: 5px;
             cursor: pointer;
             background: #fff;
-            color: #448ce7;
+            color: #3498db;
             border: none;
             padding: 5px 10px;
             border-radius: 3px;

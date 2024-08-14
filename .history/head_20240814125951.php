@@ -41,7 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   gtag('config', 'G-HPGMZYGZ9P');
 </script>
-
 <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
  /* COOKIES */
@@ -55,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             color: #fff;
             padding: 10px;
             text-align: center;
-           
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
         }
 
         #cookie-banner p {
@@ -66,7 +65,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             margin: 5px;
             cursor: pointer;
             background: #fff;
-            color: #448ce7;
+            color: #3498db;
             border: none;
             padding: 5px 10px;
             border-radius: 3px;

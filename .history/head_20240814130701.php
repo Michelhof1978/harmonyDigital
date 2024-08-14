@@ -64,6 +64,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         #cookie-banner button {
             margin: 5px;
+            margin-top: 5px
             cursor: pointer;
             background: #fff;
             color: #448ce7;
