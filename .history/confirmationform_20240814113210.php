@@ -26,7 +26,7 @@ include("head.php");
                 <p>
                     Nous avons bien reçu votre message et nous vous confirmons que votre demande est en cours de traitement.
                 </p>
-                <img src="images/robotSeparateur.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
+                
             </div>
         </div>
     </section>
