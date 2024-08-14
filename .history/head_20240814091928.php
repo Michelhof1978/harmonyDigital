@@ -41,7 +41,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   gtag('config', 'G-HPGMZYGZ9P');
 </script>
-
 <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
  /* COOKIES */
