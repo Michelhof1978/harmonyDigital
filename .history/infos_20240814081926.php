@@ -148,9 +148,9 @@
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
             <span style="color: #e06717e4 ;">UX</span> (User Experience) et <span style="color: #e06717e4 ;">CX</span> (Customer Experience) sont au cœur de notre politique d’Innovation !
         </p>
-</div>
+    </section>
 
-    <div class="container mb-4">
+    <section class="container mb-4">
         <div class="row">
             <div class="col-12 text-center">
                 <img src="images/robotinfo1.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
@@ -166,9 +166,9 @@
 
             </div>
         </div>
-</div>
+    </section>
 
-    <div class="container mb-4">
+    <section class="container mb-4">
         <div class="row">
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4 borderColor p-3">
@@ -183,9 +183,9 @@
                 <img src="images/robotinfo2.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
-</div>
+    </section>
 
-    <div class="container mb-4">
+    <section class="container mb-4">
         
         <div class="row">
             <div class="col-12">
@@ -200,9 +200,9 @@
                 <img src="images/robotinfo3.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
-</div>
+    </section>
 
-    <div class="container mb-4">
+    <section class="container mb-4">
         <div class="row">
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4 borderColor p-3">
@@ -217,7 +217,7 @@
                 <img src="images/robotinfo4.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
-</div>
+    </section>
 
     <div class="text-center mb-4">
         <img src="images/robotinfo5.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">

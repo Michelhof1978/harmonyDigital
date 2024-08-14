@@ -15,8 +15,7 @@
     <img src="images/cgvrobot.png" alt="Logo" class="img-fluid">
 </div>
 
-<div class="lead fs mt-3 mb-5 text-white ms-3">
-
+<p class="lead fs mt-3 mb-5 text-white ms-3">
 <strong>1. Acceptation des Conditions</strong><br>
 Toute commande de services implique l'acceptation totale et sans réserve de ces conditions générales de vente. Aucune condition contraire ne pourra être opposée sauf accord express écrit de notre part.<br><br>
 
@@ -51,8 +50,7 @@ Nous ne saurions être tenus responsables en cas de force majeure, tels que les 
 Tout litige relatif à l'exécution ou à l'interprétation de ces conditions sera soumis aux juridictions compétentes du siège social de l'entreprise.<br><br>
 
 <p class="text-center text-white mb-5"><strong>La commande de services implique l'acceptation totale de ces conditions générales de vente.</strong></p>
-</div>
-
+</p>
 <?php include("footer.php") ?>
 
 </body>

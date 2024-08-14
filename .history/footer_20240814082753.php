@@ -276,7 +276,6 @@
 </script>
 
 <!-- _____________________________________________________________________________________ -->
-
 <!-- COOKIES -->
 <script>
     // Fonction pour obtenir la valeur d'un cookie

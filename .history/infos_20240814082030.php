@@ -150,7 +150,7 @@
         </p>
 </div>
 
-    <div class="container mb-4">
+    <section class="container mb-4">
         <div class="row">
             <div class="col-12 text-center">
                 <img src="images/robotinfo1.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">

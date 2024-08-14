@@ -48,7 +48,7 @@
 </nav>
 </div>
 
-<div id="special-header">
+<section id="special-header">
     <video autoplay muted loop id="video-bg" playsinline>
         <source src="videos/header.mp4" type="video/mp4">
         Votre navigateur ne supporte pas la vidéo.
@@ -56,5 +56,5 @@
     <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
     </div>
-</div>
+</section>
 </header>
