@@ -903,7 +903,7 @@ h4 {
             </div>
         </div>
     </div>
-                </div>
+</section>
 <!-- FIN PRESENTATION LOGOS -->
 
 <!-- SECTION FINALE -->

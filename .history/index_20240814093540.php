@@ -826,11 +826,11 @@ h4 {
             </div>
         </div>
     </div>
-                </div>
+</section>
 <!-- FIN SECTION VIDEOCOM -->
 
 <!-- PRESENTATION LOGOS -->
-<div class="text-center mt-4 ms-2 me-2">
+<section class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
             <strong class="text-white">Logos Réalisés</strong>
@@ -903,7 +903,7 @@ h4 {
             </div>
         </div>
     </div>
-                </div>
+</section>
 <!-- FIN PRESENTATION LOGOS -->
 
 <!-- SECTION FINALE -->

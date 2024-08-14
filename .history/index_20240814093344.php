@@ -491,7 +491,7 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD mobile-->
 
 <!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
-<div class="text-center ms-2 me-2 d-none d-md-block"> <!-- Affiche uniquement sur desktop -->
+<section class="text-center ms-2 me-2 d-none d-md-block"> <!-- Affiche uniquement sur desktop -->
     <div>
         <h2 class="border borderColor border-4 rounded p-2 mb-4">
             <strong class="text-white">Nos Prestations</strong>
@@ -590,7 +590,7 @@ h4 {
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-</div>
+</section>
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
     <!-- DOMAINE DE COMPETENCE -->
@@ -603,7 +603,7 @@ h4 {
     </p>
 </div>
 
-<div class="d-flex ms-0 mb-5 position-relative text-center me-5">
+<section class="d-flex ms-0 mb-5 position-relative text-center me-5">
     <!-- Image à gauche -->
     <img src="images/robotIntro3.png" alt="Robot Introduction" loading="lazy" class="img-fluid robotDomaine2">
 
@@ -652,11 +652,11 @@ h4 {
             <img src="images/intro2RobotSeparateur3.png" alt="Séparateur 3" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
         </div>
     </div>
-</div>
+</section>
 <!-- FIN DOMAINE DE COMPETENCE -->
 
 <!-- REFERENCE DESKTOP -->
-<div class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
+<section class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">
         <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
 
@@ -724,11 +724,11 @@ h4 {
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
         <img src="images/robotIntro.png" alt="Robot Introduction" loading="lazy" class="img-fluid"> 
     </div>
-</div>
+</section>
 <!-- FIN REFERENCE DESKTOP -->
 
 <!-- REFERENCE MOBILE -->
-<div class="d-block d-md-none d-flex ms-0 mb-5 position-relative ms-2 me-5">
+<section class="d-block d-md-none d-flex ms-0 mb-5 position-relative ms-2 me-5">
     <!-- Contenu principal à gauche -->
     <div class="w-75 neon-section text-center">
         <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
@@ -785,7 +785,7 @@ h4 {
 
     <!-- Image robotIntro à droite -->
     <img src="images/robotIntro.png" alt="Robot Introduction" loading="lazy" class="img-fluid ms-auto small-robot">
-</div>
+</section>
 <!-- FIN REFERENCE MOBILE -->
 
 
@@ -803,7 +803,7 @@ h4 {
 <!-- FIN SECTION CONTACT -->
 
 <!-- SECTION VIDEOCOM -->
-<div class="text-center mt-4 container mb-5">
+<section class="text-center mt-4 container mb-5">
     <div class="container">
         <div class="robotCampagne">
             <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
@@ -826,11 +826,11 @@ h4 {
             </div>
         </div>
     </div>
-                </div>
+</section>
 <!-- FIN SECTION VIDEOCOM -->
 
 <!-- PRESENTATION LOGOS -->
-<div class="text-center mt-4 ms-2 me-2">
+<section class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
             <strong class="text-white">Logos Réalisés</strong>
@@ -903,7 +903,7 @@ h4 {
             </div>
         </div>
     </div>
-                </div>
+</section>
 <!-- FIN PRESENTATION LOGOS -->
 
 <!-- SECTION FINALE -->
