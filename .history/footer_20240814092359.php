@@ -451,30 +451,24 @@
 
 <!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
 <!-- En utilisant ce balisage, les moteurs de recherche et d'autres agents intelligents peuvent mieux comprendre et interpréter les informations liées à l'entreprise sur la page web. -->
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Harmony Digital",
-    "image": "https://harmony-digital.fr/images/logo.png",
-    "telephone": "06 66 33 25 88",
-    "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "4 lotissement la croix rouge",
-        "addressLocality": "Garnat sur engièvre",
-        "addressRegion": "Auvergne-Rhône-Alpes", 
-        "postalCode": "03230",
-        "addressCountry": "FR"
-    },
-    "priceRange": "Abordable",
-    "url": "https://harmony-digital.fr",
-    "description": "Harmony Digital est une entreprise spécialisée dans la création de sites internet. Nous offrons des solutions abordables et personnalisées pour répondre à vos besoins numériques.",
-    "openingHours": [
-        "Mo-Fr 09:00-18:00",
-        "Sa 09:00-12:00"
-    ]
-}
-</script>
+ <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Harmony Digital",
+        "image": "https://harmony-digital.fr/images/logo.png",
+        "telephone": "06 66 33 25 88",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "4 lotissement la croix rouge",
+            "addressLocality": "Garnat sur engièvre",
+            "addressRegion": "Auvergne-Rhône-Alpes", 
+            "postalCode": "03230",
+            "addressCountry": "FR"
+        },
+        "priceRange": "Abordable"  
+    }
+</script> 
 
 <!-- _____________________________________________________________________________________ -->
 
@@ -506,7 +500,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </script>
 
 
-
+<!--  -->
 
 
 

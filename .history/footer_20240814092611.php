@@ -470,8 +470,7 @@
     "url": "https://harmony-digital.fr",
     "description": "Harmony Digital est une entreprise spécialisée dans la création de sites internet. Nous offrons des solutions abordables et personnalisées pour répondre à vos besoins numériques.",
     "openingHours": [
-        "Mo-Fr 09:00-18:00",
-        "Sa 09:00-12:00"
+        "Mo-Fr 09:00-18:00"
     ]
 }
 </script>
