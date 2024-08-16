@@ -330,6 +330,11 @@ h4 {
     <?php include("header.php"); ?>
     <div id="currency-background"></div>
     
+
+    <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5">
+        <img src="images/banniererobotindex.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-75">
+    </div>
+
  <!-- INTRO-->
 <div class="mt-5">
     <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
