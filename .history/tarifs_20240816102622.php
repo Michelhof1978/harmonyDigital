@@ -51,21 +51,33 @@
             }
         }
 
-        .video-container {
-            position: relative;
+
+     /* VIDEO POUR MOBILE */
+     .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 100%;
-            padding-top: 56.25%; /* Ratio 16:9 */
-            margin-bottom: 20px;
+            height: 100vh; /* Utilise toute la hauteur de l'écran */
+            margin-bottom: -250px;
+            padding: 0;
+            overflow: hidden; /* Évite les débordements */
         }
 
-        .video-container iframe,
         .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            max-width: 100%; /* Limite la largeur à 100% du conteneur */
+            max-height: 100%; /* Limite la hauteur à 100% du conteneur */
+            object-fit: contain; /* Ajuste la vidéo pour qu'elle soit entièrement visible */
         }
+
+        /* Assurez-vous que la vidéo sur les grands écrans reste inchangée */
+        @media (min-width: 768px) {
+            .video-container {
+                display: none;
+               
+            }
+        }
+
     </style>
 </head>
 
@@ -188,20 +200,10 @@
     </div>
 </section>
 
-<div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <!-- Conteneur pour la vidéo avec une largeur définie pour différents breakpoints -->
-        <!-- Masquer le contenu sur les écrans petits (mobile) -->
-        <div class="d-none d-md-block w-50">
-            <video controls autoplay class="w-100">
-                <source src="videos/robotCircuit.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise <code>video</code>.
-            </video>
-        </div>
-    </div>
-    
 
-<section class="container tarifs-section text-white">
-    <div class="text-center mt-5">
+
+<section class="container tarifs-section text-white ">
+    <div class="text-center">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
             <strong class="text-white">Tarifs pour la Création de Logo</strong>
         </h1>

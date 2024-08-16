@@ -51,21 +51,6 @@
             }
         }
 
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-top: 56.25%; /* Ratio 16:9 */
-            margin-bottom: 20px;
-        }
-
-        .video-container iframe,
-        .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
     </style>
 </head>
 
@@ -189,19 +174,16 @@
 </section>
 
 <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <!-- Conteneur pour la vidéo avec une largeur définie pour différents breakpoints -->
-        <!-- Masquer le contenu sur les écrans petits (mobile) -->
+        <!-- Conteneur pour la vidéo pour écrans de bureau -->
         <div class="d-none d-md-block w-50">
             <video controls autoplay class="w-100">
                 <source src="videos/robotCircuit.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>
-    </div>
-    
 
-<section class="container tarifs-section text-white">
-    <div class="text-center mt-5">
+<section class="container tarifs-section text-white ">
+    <div class="text-center">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
             <strong class="text-white">Tarifs pour la Création de Logo</strong>
         </h1>

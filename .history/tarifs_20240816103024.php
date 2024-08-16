@@ -188,11 +188,18 @@
     </div>
 </section>
 
-<div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <!-- Conteneur pour la vidéo avec une largeur définie pour différents breakpoints -->
-        <!-- Masquer le contenu sur les écrans petits (mobile) -->
+ <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <!-- Conteneur pour la vidéo pour écrans de bureau -->
         <div class="d-none d-md-block w-50">
             <video controls autoplay class="w-100">
+                <source src="videos/robotCircuit.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+
+        <!-- Conteneur pour la vidéo pour écrans mobiles -->
+        <div class="d-block d-md-none video-container">
+            <video controls autoplay>
                 <source src="videos/robotCircuit.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>

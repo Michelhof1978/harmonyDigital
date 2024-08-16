@@ -51,21 +51,7 @@
             }
         }
 
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-top: 56.25%; /* Ratio 16:9 */
-            margin-bottom: 20px;
-        }
 
-        .video-container iframe,
-        .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
     </style>
 </head>
 
@@ -188,17 +174,16 @@
     </div>
 </section>
 
-<div class="container d-flex justify-content-center align-items-center min-vh-100">
+<!-- <div class="container d-flex justify-content-center align-items-center min-vh-100 mt-3"> -->
         <!-- Conteneur pour la vidéo avec une largeur définie pour différents breakpoints -->
-        <!-- Masquer le contenu sur les écrans petits (mobile) -->
-        <div class="d-none d-md-block w-50">
+        <div class="w-50 w-sm-75 w-md-75 w-lg-75 text-center">
             <video controls autoplay class="w-100">
                 <source src="videos/robotCircuit.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>
     </div>
-    
+
 
 <section class="container tarifs-section text-white">
     <div class="text-center mt-5">

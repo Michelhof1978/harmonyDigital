@@ -51,21 +51,7 @@
             }
         }
 
-        .video-container {
-            position: relative;
-            width: 100%;
-            padding-top: 56.25%; /* Ratio 16:9 */
-            margin-bottom: 20px;
-        }
 
-        .video-container iframe,
-        .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
     </style>
 </head>
 
@@ -188,7 +174,7 @@
     </div>
 </section>
 
-<div class="container d-flex justify-content-center align-items-center min-vh-100">
+<div class="container d-flex justify-content-center align-items-center min-vh-100 ">
         <!-- Conteneur pour la vidéo avec une largeur définie pour différents breakpoints -->
         <!-- Masquer le contenu sur les écrans petits (mobile) -->
         <div class="d-none d-md-block w-50">
