@@ -51,7 +51,7 @@
     <div id="binary-background"></div>
 
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5">
-        <img src="images/banniererobotinfos.png" alt="Bannière d'informations avec un robot" class="img-fluid w-75 rounded">
+        <img src="images/banniererobotinfos.png" alt="Bannière d'information avec un robot" class="img-fluid w-75 rounded">
     </div>
 
 

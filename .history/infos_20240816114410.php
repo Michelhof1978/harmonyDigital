@@ -48,13 +48,11 @@
     
     <?php include("header.php"); ?>
 
-    <div id="binary-background"></div>
+    <div id="binary-background"></div>banniererobotinfos
 
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5">
-        <img src="images/banniererobotinfos.png" alt="Bannière d'informations avec un robot" class="img-fluid w-75 rounded">
+        <img src="images/banniererobotindex.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-75 rounded">
     </div>
-
-
 <!-- OFFRES DESKTOP -->
 <div class="d-none d-md-block">
     <div class="mt-5">
