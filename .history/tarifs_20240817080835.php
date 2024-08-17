@@ -73,10 +73,7 @@
 
     <div id="currency-background"></div>banniererobottarif
 
-    <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5">
-        <img src="images/banniererobottarif.png" alt="Bannière d'informations avec un robot" class="img-fluid w-75 rounded">
-    </div>
-
+    
     <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
