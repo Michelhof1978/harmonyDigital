@@ -6,17 +6,17 @@
 
 <header>
 <div class="bg-dark">
-<div class="navbar-brand"> 
+<<div class="navbar-brand">
     <div class="container-fluid">
         <!-- Logo et titre -->
         <a class="navbar-brand ms-2" href="index.php">
-            <strong class="text-white nav-brand-logo">
-                <span class="text-orange">H</span>armony <span class="text-orange">D</span>igital
-            </strong>
-            <span class="orange">.</span>
+           
+            <img src="path/to/your/image-dot.png" alt="." class="logo-dot">
         </a>
     </div>
 </div>
+
+
 
 <nav class="navbar navbar-expand-md bg-dark">  
     <div class="container-fluid">

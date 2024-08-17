@@ -104,11 +104,12 @@ body {
 }
 
 
-.nav-brand-logo {
-    font-size: 40px;
-    font-family: "Special Elite", system-ui;
-    font-weight: 400;
-    font-style: normal;
+.nav-brand {
+    font-size: 80px;
+    font-family: "Black And White Picture", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 .nav-item a {

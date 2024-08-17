@@ -15,7 +15,19 @@ body {
     background-repeat: no-repeat;
 }
 
+.logo-img {
+    height: 24px; /* Ajustez la hauteur selon vos besoins */
+    width: auto; /* Maintient les proportions de l'image */
+    vertical-align: middle; /* Aligne les images verticalement avec le texte */
+}
 
+.logo-dot {
+    height: 24px; /* Ajustez la hauteur selon vos besoins */
+    width: auto; /* Maintient les proportions de l'image */
+    vertical-align: middle; /* Aligne les images verticalement avec le texte */
+}
+
+ 
 /* Styles généraux du popup */
 .popup {
     position: fixed;
@@ -104,7 +116,7 @@ body {
 }
 
 
-.nav-brand-logo {
+.nav-brand {
     font-size: 40px;
     font-family: "Special Elite", system-ui;
     font-weight: 400;

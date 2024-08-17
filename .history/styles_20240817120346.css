@@ -15,6 +15,26 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Style de base pour l'image du logo */
+.logo-img {
+    height: 2rem; /* Ajustez la hauteur selon vos besoins */
+    width: auto; /* Maintient les proportions de l'image */
+    vertical-align: middle; /* Aligne l'image verticalement avec le texte si nécessaire */
+}
+
+/* Responsive pour les petits écrans */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 1.5rem; /* Réduit la taille sur les écrans plus petits */
+    }
+}
+
+/* Responsive pour les très petits écrans */
+@media (max-width: 576px) {
+    .logo-img {
+        height: 1rem; /* Réduit encore la taille sur les très petits écrans */
+    }
+}
 
 /* Styles généraux du popup */
 .popup {
@@ -104,7 +124,7 @@ body {
 }
 
 
-.nav-brand-logo {
+.nav-brand {
     font-size: 40px;
     font-family: "Special Elite", system-ui;
     font-weight: 400;

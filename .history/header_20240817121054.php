@@ -6,17 +6,18 @@
 
 <header>
 <div class="bg-dark">
-<div class="navbar-brand"> 
+<div class="navbar-brand">
     <div class="container-fluid">
-        <!-- Logo et titre -->
+        <!-- Logo uniquement -->
         <a class="navbar-brand ms-2" href="index.php">
-            <strong class="text-white nav-brand-logo">
-                <span class="text-orange">H</span>armony <span class="text-orange">D</span>igital
-            </strong>
-            <span class="orange">.</span>
+            <img src="images/enseigneNom.png" alt="Logo" class="logo-img img-fluid w-50">
         </a>
     </div>
 </div>
+</div>
+
+
+
 
 <nav class="navbar navbar-expand-md bg-dark">  
     <div class="container-fluid">

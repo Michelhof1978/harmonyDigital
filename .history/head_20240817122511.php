@@ -25,7 +25,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
 
-
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <!-- Google Tag Manager -->
@@ -48,7 +47,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
-
  /* COOKIES */
 #cookie-banner {
             display: none;

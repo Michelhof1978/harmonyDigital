@@ -370,7 +370,7 @@ h4 {
 <div class="mt-5 container mb-5">
     <div class="row align-items-center justify-content-center text-center">
         <div class="col-12 col-md-6 mt-3 order-2 order-md-1">
-            <p class="text-white lead fs-5 fw-bold press-start-2p-regular">Fin de la promo dans </p>
+            <p class="text-white lead fs-5 fw-bold are-you-serious-regular">Fin de la promo dans </p>
            
             <div class="countdown-container mb-3">
                 <div id="countdown"></div>
@@ -627,7 +627,7 @@ h4 {
         <h2 class="border borderColor border-4 rounded p-2 m-3 mb-3">
             <strong class="text-white">Robots Dévoués</strong>
         </h2>
-        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mb-5 mt-2">
+        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mb-5 mt-5">
             La Satisfaction Client en Priorité
         </p>
     </div>
@@ -960,7 +960,7 @@ h4 {
 
 <!-- SECTION FINALE -->
 <div class="text-center">
-    <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
+    <p class="text-white lead mb-5 fw-bold are-you-serious-regular fs-5">
         <img src="images/robotFinIndex1.png" alt="robot" loading="lazy" class="img-fluid img-small">
         Propulsons votre entreprise vers les étoiles.
         <img src="images/robotFinIndex2.png" alt="robot" loading="lazy" class="img-fluid img-small">
