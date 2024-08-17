@@ -627,7 +627,7 @@ h4 {
         <h2 class="border borderColor border-4 rounded p-2 ">
             <strong class="text-white">Robots Dévoués</strong>
         </h2>
-        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mt-5">
+        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold m-5">
             La Satisfaction Client en Priorité
         </p>
     </div>
