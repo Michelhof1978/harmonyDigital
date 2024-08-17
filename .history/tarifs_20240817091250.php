@@ -74,7 +74,7 @@
     <div id="currency-background"></div>banniererobottarif
 
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5">
-        <img src="images/banniererobot.png" alt="Bannière d'informations avec un robot" class="img-fluid w-50 rounded">
+        <img src="images/banniererobottarif.png" alt="Bannière d'informations avec un robot" class="img-fluid w-50 rounded">
     </div>
 
     <section class="container tarifs-section text-white">
@@ -197,7 +197,7 @@
         <!-- Masquer le contenu sur les écrans petits (mobile) -->
         <div class="d-none d-md-block w-50">
             <video controls autoplay class="w-100">
-                <source src="videos/robot.mp4" type="video/mp4">
+                <source src="videos/robotCi.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>

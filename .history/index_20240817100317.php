@@ -604,29 +604,25 @@ h4 {
 </div>
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
-<!-- ROBOT VIDEO DESKTOP -->
-<div class="d-none d-md-block">
-    <!-- Contenu à afficher uniquement sur les écrans moyens et plus grands -->
-    <div class="text-center">
-        <h2 class="border borderColor border-4 rounded p-2 m-3 mb-3">
-            <strong class="text-white">Robots Dévoués</strong>
-        </h2>
-        <p class="text-white lead fs-2 ms-2 me-2 fw-bold mb-2 mt-5">
-            La Satisfaction Client en Priorité
-        </p>
-    </div>
+<!-- ROBOT VIDEO-->
+<div class="text-center">
+    <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
+        <strong class="text-white">Domaine De Compétences</strong>
+    </h2>
+    <p class="text-white lead fs-2 ms-2 me-2 fw-bold">
+        Ensemble, donnons vie à vos idées.
+    </p>
+</div>
 
-    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh; padding: 0;">
-        <!-- Vidéo pour les écrans de taille moyenne et supérieure -->
-        <div class="w-50">
-            <video autoplay loop muted playsinline class="w-100 rounded">
-                <source src="videos/robotordi.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise <code>video</code>.
-            </video>
-        </div>
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="d-none d-md-block w-50" style="margin-bottom: 150px;">
+        <video autoplay loop muted playsinline class="w-100">
+            <source src="videos/robotordi.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise <code>video</code>.
+        </video>
     </div>
 </div>
-<!-- FIN ROBOT VIDEO DESKTOP -->
+<!-- FIN ROBOT VIDEO-->
 
 
     <!-- DOMAINE DE COMPETENCE -->
