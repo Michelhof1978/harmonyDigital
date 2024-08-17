@@ -626,7 +626,7 @@ h4 {
 <!-- ROBOT VIDEO RESPONSIVE -->
 <div class="container-fluid px-0 mb-5">
     <div class="text-center">
-        <h2 class="border borderColor border-4 rounded p-2 ms-5 me-5">
+        <h2 class="border borderColor border-4 rounded p-2 ms-5 ">
             <strong class="text-white"> Des Robots Dévoués</strong>
         </h2>
         <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mt-5">

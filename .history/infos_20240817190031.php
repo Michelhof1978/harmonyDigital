@@ -56,12 +56,10 @@
 </div>
 <!--Fin Banner mobile -->
 
- <!--Banner desktop -->
-<div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5  d-md-none">
+<div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
     <img src="images/banniererobotinfos.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
- <!--Fin Banner desktop -->
-
+<!--Fin Banner mobile -->
 <!-- OFFRES DESKTOP -->
 <div class="d-none d-md-block">
     <div class="mt-5">

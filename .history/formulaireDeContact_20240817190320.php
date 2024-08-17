@@ -149,7 +149,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </div>
   <!--Fin Banner mobile -->
 
-  <!--Banner desktop -->
+  <!-Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
     <img src="images/banniererobotform.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>  

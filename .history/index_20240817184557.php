@@ -359,7 +359,6 @@ h4 {
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
     <img src="images/banniererobotindex.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
-
  <!-- INTRO-->
 <div class="mt-5">
     <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center">
@@ -626,8 +625,8 @@ h4 {
 <!-- ROBOT VIDEO RESPONSIVE -->
 <div class="container-fluid px-0 mb-5">
     <div class="text-center">
-        <h2 class="border borderColor border-4 rounded p-2 ms-5 me-5">
-            <strong class="text-white"> Des Robots Dévoués</strong>
+        <h2 class="border borderColor border-4 rounded p-2 ">
+            <strong class="text-white">Robots Dévoués</strong>
         </h2>
         <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mt-5">
             La Satisfaction Client en Priorité

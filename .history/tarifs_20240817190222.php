@@ -79,9 +79,8 @@
 </div>
 <!--Fin Banner mobile -->
 
- <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobottarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded mb-2">
+    <img src="images/banniererobottarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
  <!--Fin Banner desktop -->
     <section class="container tarifs-section text-white">

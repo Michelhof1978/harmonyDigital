@@ -77,13 +77,12 @@
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
     <img src="images/banniererobottarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
-<!--Fin Banner mobile -->
+<!--Fin  Banner mobile -->
 
- <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobottarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded mb-2">
+    <img src="images/banniererobottarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
- <!--Fin Banner desktop -->
+
     <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">

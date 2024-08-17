@@ -51,7 +51,7 @@
     <div id="binary-background"></div>
 
     <!-- Banner mobile -->
-    <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
+    <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex mb-5">
     <img src="images/banniererobotinfos.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
 <!--Fin Banner mobile -->

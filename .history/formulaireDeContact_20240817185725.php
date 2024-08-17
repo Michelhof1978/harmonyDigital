@@ -143,19 +143,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <div id="binary-background2"></div>
 
-  <!-- Banner mobile -->
+  <!--  -->
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
     <img src="images/banniererobotform.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
-  <!--Fin Banner mobile -->
-
-  <!--Banner desktop -->
+  <!-- Prénom -->
+  <!-- Prénom -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
     <img src="images/banniererobotform.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
-</div>  
- <!--Fin Banner desktop -->
-
-  
+</div>    
+  <!-- Prénom -->
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center">
     <strong class="text-white">Formulaire De Contact</strong>
 </h1>
