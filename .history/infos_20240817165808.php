@@ -50,12 +50,16 @@
 
     <div id="binary-background"></div>
 
+    <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5">
+        <img src="images/banniererobotinfos.png" alt="Bannière d'informations avec un robot" class="img-fluid w-50 rounded">
+    </div>
+
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
-    <img src="images/banniererobotinfos.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
+    <img src="images/banniererobotindex.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotinfos.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotindex.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
 
 <!-- OFFRES DESKTOP -->

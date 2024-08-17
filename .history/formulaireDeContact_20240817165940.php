@@ -148,7 +148,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotform.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotinfos.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>    
 
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center">
