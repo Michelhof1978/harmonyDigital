@@ -74,11 +74,11 @@
     <div id="currency-background"></div>banniererobottarif
 
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
-    <img src="images/banniererobotarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
+    <img src="images/banniererobotarifss.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotinfos.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
 
     <section class="container tarifs-section text-white">

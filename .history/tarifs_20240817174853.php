@@ -78,7 +78,7 @@
 </div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotarifs.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobot.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
 
     <section class="container tarifs-section text-white">
