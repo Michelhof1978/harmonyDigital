@@ -966,32 +966,7 @@ h4 {
 <!-- FIN PRESENTATION LOGOS -->
 
 
-<!-- ROBOT VIDEO DESKTOP -->
-<div class="container-fluid px-0 mb-5 d-none d-md-block">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-        <div class="video-container" style="max-width: 50%; margin: auto;">
-            <video autoplay loop muted playsinline class="rounded w-100">
-                <source src="videos/robotpresentation2.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise <code>video</code>.
-            </video>
-        </div>
-    </div>
-</div>
-<!-- FIN ROBOT VIDEO DESKTOP-->
 
-<!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 mb-5 d-block d-md-none">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-        <div class="video-container" style="width: 100%;">
-            <video autoplay loop muted playsinline class="rounded w-100">
-                <source src="videos/robotpresentation2.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise <code>video</code>.
-            </video>
-        </div>
-    </div>
-</div>
-<!-- FIN ROBOT VIDEO MOBILE -->
-    
 
 <!-- SECTION FINALE -->
 <div class="text-center">

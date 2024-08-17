@@ -104,11 +104,11 @@
 </div>
 
 <!-- ROBOT VIDEO DESKTOP -->
-<div class="container-fluid px-0 mb-5 d-none d-md-block mt-5">
+<div class="container-fluid px-0 mb-5 d-none d-md-block">
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="max-width: 50%; margin: auto;">
             <video autoplay loop muted playsinline class="rounded w-100">
-                <source src="videos/robotpresentation3.mp4" type="video/mp4">
+                <source src="videos/robotpresentation.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>
