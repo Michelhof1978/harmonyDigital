@@ -324,8 +324,6 @@ h4 {
     height: auto; /* Maintient les proportions de l'image */
 }
 
-
-/* Video robot ordi*/
 .video-container {
         width: 100%;
         max-width: 100%;
@@ -622,12 +620,12 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
 <!-- ROBOT VIDEO RESPONSIVE -->
-<div class="container-fluid px-0 mb-5">
+<div class="container-fluid px-0">
     <div class="text-center">
         <h2 class="border borderColor border-4 rounded p-2 m-3 mb-3">
             <strong class="text-white">Robots Dévoués</strong>
         </h2>
-        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mb-5 mt-5">
+        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mb-4 mt-4">
             La Satisfaction Client en Priorité
         </p>
     </div>

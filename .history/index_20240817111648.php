@@ -324,26 +324,9 @@ h4 {
     height: auto; /* Maintient les proportions de l'image */
 }
 
-
-/* Video robot ordi*/
-.video-container {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-    .video-container video {
-        width: 100%;
-        height: auto;
-    }
-    @media (min-width: 768px) {
-        .fs-md-2 {
-            font-size: 2rem !important;
-        }
-        .video-container {
-            width: 50%;
-            max-width: 800px;
-        }
-    }
+.robotVideo{
+   
+}
 
     </style>
 </head>
@@ -622,17 +605,18 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
 <!-- ROBOT VIDEO RESPONSIVE -->
-<div class="container-fluid px-0 mb-5">
+<div class="container-fluid px-0">
     <div class="text-center">
         <h2 class="border borderColor border-4 rounded p-2 m-3 mb-3">
             <strong class="text-white">Robots Dévoués</strong>
         </h2>
-        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mb-5 mt-5">
+        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mb-4 mt-4">
             La Satisfaction Client en Priorité
         </p>
     </div>
 
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <!-- Vidéo pour tous les écrans -->
         <div class="video-container">
             <video autoplay loop muted playsinline class="rounded">
                 <source src="videos/robotordi.mp4" type="video/mp4">
@@ -642,7 +626,22 @@ h4 {
     </div>
 </div>
 
-   
+
+    .video-container {
+        width: 100%;
+        max-width: 800px;
+        padding: 0 15px;
+    }
+    .video-container video {
+        width: 100%;
+        height: auto;
+    }
+    @media (min-width: 768px) {
+        .fs-md-2 {
+            font-size: 2rem !important;
+        }
+    }
+
 <!-- FIN ROBOT VIDEO RESPONSIVE -->
 
     <!-- DOMAINE DE COMPETENCE -->

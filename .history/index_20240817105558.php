@@ -324,26 +324,9 @@ h4 {
     height: auto; /* Maintient les proportions de l'image */
 }
 
-
-/* Video robot ordi*/
-.video-container {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-    .video-container video {
-        width: 100%;
-        height: auto;
-    }
-    @media (min-width: 768px) {
-        .fs-md-2 {
-            font-size: 2rem !important;
-        }
-        .video-container {
-            width: 50%;
-            max-width: 800px;
-        }
-    }
+.robotVideo{
+   
+}
 
     </style>
 </head>
@@ -621,29 +604,53 @@ h4 {
 </div>
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
-<!-- ROBOT VIDEO RESPONSIVE -->
-<div class="container-fluid px-0 mb-5">
+<!-- ROBOT VIDEO DESKTOP -->
+<div class="d-none d-md-block">
+    <!-- Contenu à afficher uniquement sur les écrans moyens et plus grands -->
     <div class="text-center">
         <h2 class="border borderColor border-4 rounded p-2 m-3 mb-3">
             <strong class="text-white">Robots Dévoués</strong>
         </h2>
-        <p class="text-white lead fs-4 fs-md-2 ms-2 me-2 fw-bold mb-5 mt-5">
+        <p class="text-white lead fs-2 ms-2 me-2 fw-bold mb-2 mt-5">
             La Satisfaction Client en Priorité
         </p>
     </div>
 
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-        <div class="video-container">
-            <video autoplay loop muted playsinline class="rounded">
+    <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh; padding: 0;">
+        <!-- Vidéo pour les écrans de taille moyenne et supérieure -->
+        <div class="w-50">
+            <video autoplay loop muted playsinline class="w-100 rounded">
                 <source src="videos/robotordi.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>
     </div>
 </div>
+<!-- FIN ROBOT VIDEO DESKTOP -->
 
-   
-<!-- FIN ROBOT VIDEO RESPONSIVE -->
+<!-- ROBOT VIDEO MOBILE -->
+<div class="d-md-none" style="margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column; justify-content: center;">
+    <!-- Contenu à afficher uniquement sur les écrans plus petits que moyens -->
+    <div class="text-center" style="margin: 0; padding: 0; flex-shrink: 0;">
+        <h2 class="border borderColor border-4 rounded p-2" style="margin: -1rem 0; padding: 0;">
+            <strong class="text-white">Robots Dévoués</strong>
+        </h2>
+        <p class="text-white lead fs-2 ms-2 me-2 fw-bold" style="margin: -0.5rem 0; padding: 0;">
+            La Satisfaction Client en Priorité
+        </p>
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center" style="flex: 1; margin: 0; padding: 0;">
+        <!-- Vidéo pour les écrans de taille petite à moyenne -->
+        <div class="w-100" style="margin: 0; padding: 0;">
+            <video autoplay loop muted playsinline class="w-100 rounded" style="display: block; margin: 0; padding: 0;">
+                <source src="videos/robotordi.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO MOBILE -->
 
     <!-- DOMAINE DE COMPETENCE -->
 <div class="text-center">
