@@ -10,6 +10,30 @@ include("head.php");
     .text-light-success {
         color: #7dff33; /* Un vert plus clair */
     }
+    
+    #binary-background2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        overflow: hidden;
+        background-color: #000;
+    }
+
+    #binary-background2 .star {
+        position: absolute;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 2rem;
+        opacity: 0;
+        animation: blink 1s infinite alternate;
+    }
+
+    @keyframes blink {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
 </style>
 
 </head>
