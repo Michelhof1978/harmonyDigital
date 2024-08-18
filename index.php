@@ -709,6 +709,36 @@ h4 {
 </div>
 <!-- FIN DOMAINE DE COMPETENCE -->
 
+<!-- ROBOT VIDEO DESKTOP -->
+<div class="container-fluid px-0 mb-5 d-none d-md-block">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="max-width: 50%; margin: auto;">
+            <!-- La vidéo se lit automatiquement, en boucle, sans son, et est compatible avec le mode plein écran -->
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle1.mp4" type="video/mp4">
+                <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO DESKTOP-->
+
+<!-- ROBOT VIDEO MOBILE -->
+<div class="container-fluid px-0 mb-5 d-block d-md-none">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="width: 100%;">
+            <!-- Même configuration pour la version mobile -->
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle1.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO MOBILE -->
+
+
 <!-- REFERENCE DESKTOP -->
 <div class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">

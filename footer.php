@@ -159,7 +159,7 @@
                     <div class="footer-widget">
                         <div class="footer-logo">
                             <a class="navbar-brand" href="index.php">
-                                <strong class="text-white nav-brand">
+                                <strong class="text-white nav-brand-logo">
                                     <span class="text-orange-footer-2">H</span>armony <span class="text-orange-footer-2">D</span>igital
                                 </strong>
                                 <span class="orange">.</span>
