@@ -105,10 +105,11 @@ body {
 
 
 .nav-brand-logo {
-    font-size: 40px;
+    font-size: 38px;
     font-family: "Special Elite", system-ui;
     font-weight: 400;
     font-style: normal;
+    margin-right: 5px;
 }
 
 .nav-item a {
@@ -547,13 +548,6 @@ body {
 
     .star {
         font-size: 10px;
-    }
-
-    .nav-brand-logo {
-        font-size: 25px;
-        font-family: "Special Elite", system-ui;
-        font-weight: 400;
-        font-style: normal;
     }
 }
 

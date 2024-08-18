@@ -126,14 +126,14 @@
         <div class="video-container" style="width: 100%;">
             <video autoplay loop muted playsinline class="rounded w-100">
                 <source src="videos/robotpresentation3.mp4" type="video/mp4">
+                <img src="path/to/fallback-image.jpg" alt="Fallback Image">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>
     </div>
 </div>
+
 <!-- FIN ROBOT VIDEO MOBILE -->
-
-
     
 
     <div class="container mt-5 mb-5">
