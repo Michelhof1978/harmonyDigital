@@ -78,7 +78,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (empty($errors)) {
         // Envoi de l'e-mail
         $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
-        $retour = mail("michelhoffmann@harmony-digital.fr", $objet, $messageContent, "From: michelhoffmann@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
+        $retour = mail("harmony@gmail.com", $objet, $messageContent, "From: contact@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
 
         if ($retour) {
             $_SESSION['message_sent'] = true;

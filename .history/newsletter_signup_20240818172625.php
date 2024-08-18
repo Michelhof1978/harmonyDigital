@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $subject = 'Nouvel abonnement à la newsletter';
         $message = 'Un nouvel utilisateur s\'est abonné à la newsletter avec l\'email : ' . $email;
         $headers = 'From: harmonydigitalweb@gmail.com' . "\r\n" .
-                   'Reply-To: harmonydigitalweb@gmail.com' . "\r\n" .
+                   'Reply-To: michelhoffmann@harmony-digital.fr' . "\r\n" .
                    'X-Mailer: PHP/' . phpversion();
 
         if (mail($to, $subject, $message, $headers)) {

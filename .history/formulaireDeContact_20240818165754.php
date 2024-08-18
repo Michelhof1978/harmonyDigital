@@ -11,43 +11,36 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = isset($_POST["email"]) ? filter_var(trim($_POST["email"]), FILTER_VALIDATE_EMAIL) : null;
     $objet = htmlspecialchars(trim($_POST["objet"]));
     $message = htmlspecialchars(trim($_POST["message"]));
-    $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", trim($_POST["phoneNumber"])) : null; // Ne garde que les chiffres du numéro de téléphone
+    $telephone = isset($_POST["phoneNumber"]) ? preg_replace("/[^0-9]/", "", trim($_POST["phoneNumber"])) : null;
     $rgpdCheckbox = isset($_POST["rgpdCheckbox"]);
 
     // Validation des données
     $errors = [];
 
-    // Vérification des champs non vides
     if (empty($prenom)) {
-        $errors[] = 'Prénom est requis.';
+        $errors[] = 'Le prénom est requis.';
     }
     if (empty($nom)) {
-        $errors[] = 'Nom est requis.';
+        $errors[] = 'Le nom est requis.';
     }
     if (empty($email)) {
-        $errors[] = 'Email est requis.';
+        $errors[] = 'L\'email est requis.';
+    } elseif ($email === false) {
+        $errors[] = 'Email invalide. Veuillez entrer une adresse email valide.';
     }
     if (empty($telephone)) {
-        $errors[] = 'Numéro de téléphone est requis.';
+        $errors[] = 'Le numéro de téléphone est requis.';
+    } elseif (strlen($telephone) < 10 || strlen($telephone) > 15) {
+        $errors[] = 'Numéro de téléphone invalide. Il doit contenir entre 10 et 15 chiffres.';
     }
     if (empty($objet)) {
-        $errors[] = 'Objet est requis.';
+        $errors[] = 'L\'objet est requis.';
     }
     if (empty($message)) {
-        $errors[] = 'Message est requis.';
+        $errors[] = 'Le message est requis.';
     }
     if (!$rgpdCheckbox) {
         $errors[] = 'Vous devez accepter la politique de confidentialité.';
-    }
-
-    // Vérification de l'email
-    if ($email === null || !preg_match("/^[^\s@]+@[^\s@]+\.[^\s@]+$/", $email)) {
-        $errors[] = 'Email invalide. Assurez-vous qu\'il contient un @ et un nom de domaine valide.';
-    }
-
-    // Vérification du numéro de téléphone
-    if ($telephone === null || strlen($telephone) < 10 || strlen($telephone) > 15) {
-        $errors[] = 'Numéro de téléphone invalide. Il doit contenir entre 10 et 15 chiffres.';
     }
 
     // Vérification du reCAPTCHA
@@ -76,16 +69,23 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     if (empty($errors)) {
-        // Envoi de l'e-mail
-        $messageContent = "Message envoyé de :\nNom : $nom\nPrenom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
-        $retour = mail("michelhoffmann@harmony-digital.fr", $objet, $messageContent, "From: michelhoffmann@harmony-digital.fr" . "\r\n" . "Reply-to: $email");
+        // Préparation des en-têtes
+        $headers = [];
+        $headers[] = "From: Harmony Digital <contact@harmony-digital.fr>";
+        $headers[] = "Reply-To: $email";
+        $headers[] = "Content-Type: text/plain; charset=UTF-8";
+        $headers[] = "MIME-Version: 1.0";
+
+        // Envoi de l'email
+        $messageContent = "Message envoyé de :\nNom : $nom\nPrénom : $prenom\nEmail : $email\nTéléphone : $telephone\nObjet : $objet\nMessage : $message";
+        $retour = mail("michelhoffmann@harmony-digital.fr", "=?UTF-8?B?".base64_encode($objet)."?=", $messageContent, implode("\r\n", $headers));
 
         if ($retour) {
             $_SESSION['message_sent'] = true;
             header('Location: confirmationform.php');
             exit();
         } else {
-            $errors[] = 'Erreur lors de l\'envoi de l\'email';
+            $errors[] = 'Erreur lors de l\'envoi de l\'email. Veuillez réessayer plus tard.';
         }
     }
 
@@ -99,6 +99,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 }
 ?>
+
 
 
 
