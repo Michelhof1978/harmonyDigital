@@ -120,6 +120,20 @@
 </div>
 <!-- FIN ROBOT VIDEO DESKTOP-->
 
+<!-- ROBOT VIDEO MOBILE -->
+<div class="container-fluid px-0 mb-5 d-block d-md-none">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="width: 100%;">
+            <!-- Même configuration pour la version mobile -->
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotpresentation3.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO MOBILE -->
+
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-4">
@@ -149,9 +163,6 @@
         </div>
 </div>
 
-    <div class="text-center mb-5">
-        <img src="images/robotinfo5.png" alt="robot" loading="lazy" class="img-fluid w-75 mt-3">
-    </div>
 </div>
 <!-- FIN OFFRES DESKTOP -->
 
@@ -242,14 +253,42 @@
             </div>
         </div>
 </div>
-
-    <div class="text-center mb-4">
-        <img src="images/robotinfo5.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
-    </div>
 </div>
 <!-- FIN OFFRES MOBILE -->
 
+<!-- ROBOT VIDEO DESKTOP -->
+<div class="container-fluid px-0 mb-5 d-none d-md-block">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="max-width: 50%; margin: auto;">
+            <!-- La vidéo se lit automatiquement, en boucle, sans son, et est compatible avec le mode plein écran -->
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle2.mp4" type="video/mp4">
+                <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO DESKTOP-->
 
+<!-- ROBOT VIDEO MOBILE -->
+<div class="container-fluid px-0 mb-5 d-block d-md-none">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="width: 100%;">
+            <!-- Même configuration pour la version mobile -->
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle2.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO MOBILE -->
+
+<div class="text-center mb-4">
+        <img src="images/robotinfo5.png" alt="robot" loading="lazy" class="img-fluid w-25 mt-3">
+    </div>
+    
     <?php include("footer.php"); ?>
 
 
