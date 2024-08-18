@@ -281,7 +281,7 @@
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="max-width: 50%; margin: auto;">
             <video autoplay loop muted playsinline class="rounded w-100">
                 <source src="videos/robotpresentation1.mp4" type="video/mp4">
@@ -294,7 +294,7 @@
 
 <!-- ROBOT VIDEO MOBILE -->
 <div class="container-fluid px-0 mb-5 d-block d-md-none">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; ">
         <div class="video-container" style="width: 100%;">
             <video autoplay loop muted playsinline class="rounded w-100">
                 <source src="videos/robotpresentation1.mp4" type="video/mp4">

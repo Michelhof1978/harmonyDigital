@@ -521,7 +521,7 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD mobile-->
 
 <!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
-<div class="text-center ms-2 me-2 d-none d-md-block" > <!-- Affiche uniquement sur desktop -->
+<div class="text-center ms-2 me-2 d-none d-md-block"> <!-- Affiche uniquement sur desktop -->
     <div>
         <h2 class="border borderColor border-4 rounded p-2 mb-4">
             <strong class="text-white">Nos Prestations</strong>
@@ -624,7 +624,7 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
 <!-- ROBOT VIDEO RESPONSIVE -->
-<div class="container-fluid px-0 mb-5" style="margin-top:-50px;">
+<div class="container-fluid px-0 mb-5">
     <div class="text-center">
         <h2 class="border borderColor border-4 rounded p-2 ms-5 me-5">
             <strong class="text-white"> Des Robots Dévoués</strong>
@@ -657,7 +657,7 @@ h4 {
     </p>
 </div>
 
-<div class="d-flex ms-0 mb-5 position-relative text-center me-5" style="margin-top:-50px;">
+<div class="d-flex ms-0 mb-5 position-relative text-center me-5">
     <!-- Image à gauche -->
     <img src="images/robotIntro3.png" alt="Robot Introduction" loading="lazy" class="img-fluid robotDomaine2">
 
@@ -726,7 +726,7 @@ h4 {
 
 <!-- ROBOT VIDEO MOBILE -->
 <div class="container-fluid px-0 mb-5 d-block d-md-none">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top: -100px; margin-bottom: -50px;">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
             <video autoplay loop muted playsinline class="rounded w-100">
@@ -1005,8 +1005,8 @@ h4 {
 <!-- FIN ROBOT VIDEO DESKTOP-->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-block d-md-none">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-150px;">
+<div class="container-fluid px-0 mb-2 d-block d-md-none">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-;">
         <div class="video-container" style="width: 100%;">
             <video autoplay loop muted playsinline class="rounded w-100">
                 <source src="videos/robotpresentation2.mp4" type="video/mp4">

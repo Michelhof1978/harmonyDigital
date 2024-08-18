@@ -521,7 +521,7 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD mobile-->
 
 <!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
-<div class="text-center ms-2 me-2 d-none d-md-block" > <!-- Affiche uniquement sur desktop -->
+<div class="text-center ms-2 me-2 d-none d-md-block"> <!-- Affiche uniquement sur desktop -->
     <div>
         <h2 class="border borderColor border-4 rounded p-2 mb-4">
             <strong class="text-white">Nos Prestations</strong>
@@ -624,7 +624,7 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
 <!-- ROBOT VIDEO RESPONSIVE -->
-<div class="container-fluid px-0 mb-5" style="margin-top:-50px;">
+<div class="container-fluid px-0 mb-5" style="min-height: 50vh; margin-top:-150px;">
     <div class="text-center">
         <h2 class="border borderColor border-4 rounded p-2 ms-5 me-5">
             <strong class="text-white"> Des Robots Dévoués</strong>

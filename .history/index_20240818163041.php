@@ -521,7 +521,7 @@ h4 {
 <!-- FIN PRESTATIONS CAROUSEL CARD mobile-->
 
 <!-- PRESTATIONS CAROUSEL CARD DESKTOP-->
-<div class="text-center ms-2 me-2 d-none d-md-block" > <!-- Affiche uniquement sur desktop -->
+<div class="text-center ms-2 me-2 d-none d-md-block" style="margin-top:-150px;"> <!-- Affiche uniquement sur desktop -->
     <div>
         <h2 class="border borderColor border-4 rounded p-2 mb-4">
             <strong class="text-white">Nos Prestations</strong>

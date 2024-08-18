@@ -273,7 +273,7 @@
 
 <!-- ROBOT VIDEO MOBILE -->
 <div class="container-fluid px-0 mb-5 d-block d-md-none">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-bottom:;">
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
             <video autoplay loop muted playsinline class="rounded w-100">
