@@ -168,6 +168,35 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <strong class="text-white">Besoin d'un devis ou d'une réponse à vos questions ?</strong>
 </h4>
 
+<!-- ROBOT VIDEO DESKTOP -->
+<div class="container-fluid px-0 mb-5 d-none d-md-block">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="max-width: 50%; margin: auto;">
+            <!-- La vidéo se lit automatiquement, en boucle, sans son, et est compatible avec le mode plein écran -->
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/presentationform.mp4" type="video/mp4">
+                <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO DESKTOP-->
+
+<!-- ROBOT VIDEO MOBILE -->
+<div class="container-fluid px-0 mb-5 d-block d-md-none">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="width: 100%;">
+            <!-- Même configuration pour la version mobile -->
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/presentationform.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIN ROBOT VIDEO MOBILE -->
+
 <h4 class="m-5 text-center">
     <strong class="text-white">Nous sommes là pour vous aider !</strong>
 </h4>
