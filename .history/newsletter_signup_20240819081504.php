@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
 
         if ($email) {
-            $to = 'michelhoffmann@harmony-digital.fr';
+            $to = 'harmonydigitalweb@gmail.com';
             $subject = 'Nouvel abonnement à la newsletter';
             $message = 'Un nouvel utilisateur s\'est abonné à la newsletter avec l\'email : ' . $email;
             $headers = 'From: michelhoffmann@harmony-digital.fr' . "\r\n" .
