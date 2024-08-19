@@ -240,7 +240,7 @@
 
 <!-- COOKIES -->
 <div id="cookie-banner">
-    <p><strong>Ce site web utilise des cookies.</strong> </p><br>
+    <p><strong>Ce site web utilise des cookies.</strong><br>
     Nous utilisons des cookies pour améliorer votre expérience sur notre site web, personnaliser le contenu et analyser notre trafic.<br>
      Les cookies sont de petits fichiers de données qui sont placés sur votre appareil lorsque vous visitez notre site.  <br>  
      <div class="mt-4">
