@@ -1,10 +1,6 @@
 <?php include("head.php") ?>
 <meta name="description" content="Consultez la politique de confidentialité de Harmony Digital. Apprenez comment nous protégeons vos données personnelles et respectons votre vie privée.">
-<title>Politique de Confidentialité - Harmony Digital</title>
-
-<meta property="og:url" content="https://harmony-digital.fr/politiquedeConfidentialite">
-    <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/politiquedeConfidentialite">
+<title>Politique de Confidentialité - Harmony Digital</title>politiquedeConfidentialite
 
 </head>
 

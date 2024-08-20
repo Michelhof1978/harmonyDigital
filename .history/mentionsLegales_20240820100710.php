@@ -4,7 +4,7 @@
 
 <meta property="og:url" content="https://harmony-digital.fr/mentionsLegales">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/mentionsLegales">
+    <link rel="canonical" href="https://harmony-digital.fr/infos">
 
 </head>
 

@@ -3,10 +3,9 @@
     <meta name="description" content="Découvrez nos tarifs compétitifs pour la création de sites web, marketing digital, SEO, et design de logos. Obtenez des solutions sur mesure adaptées à votre budget pour améliorer votre présence en ligne.">
 <title>Tarifs - Création de Site Web, Marketing Digital, SEO & Logo | Solution Web</title>
 
-<meta property="og:url" content="https://harmony-digital.fr/tarifs">
+<meta property="og:url" content="https://harmony-digital.fr/infos">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/tarifs">
-
+    <link rel="canonical" href="https://harmony-digital.fr/infos">
     <style>
         .tarifs-section {
             margin-top: 30px;

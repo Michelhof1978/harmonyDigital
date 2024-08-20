@@ -512,8 +512,8 @@
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "42"
+    "ratingValue": "4.",
+    "reviewCount": "120"
   }
 }
 </script>

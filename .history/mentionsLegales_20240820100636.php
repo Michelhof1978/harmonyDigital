@@ -2,10 +2,9 @@
 <meta name="description" content="Consultez les mentions légales de Harmony Digital, comprenant les informations juridiques, les conditions d'utilisation et les détails sur la protection des données.">
 <title>Mentions Légales - Harmony Digital</title>
 
-<meta property="og:url" content="https://harmony-digital.fr/mentionsLegales">
+<meta property="og:url" content="https://harmony-digital.fr/infos">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/mentionsLegales">
-
+    <link rel="canonical" href="https://harmony-digital.fr/infos">
 </head>
 
 <?php include("header.php") ?>

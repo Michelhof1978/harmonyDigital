@@ -484,43 +484,7 @@
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Review",
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5",
-    "bestRating": "5"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Client Satisfait"
-  },
-  "reviewBody": "Harmony Digital a fourni un excellent service pour la création de notre site web. Très satisfait du résultat et du professionnalisme."
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Service",
-  "serviceType": "Référencement SEO",
-  "provider": {
-    "@type": "Organization",
-    "name": "Harmony Digital"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "42"
-  }
-}
-</script>
-
-
-
-<!-- FIN SEO -->
+<!-- _________ -->
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCWSBWT7"

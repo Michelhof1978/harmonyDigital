@@ -5,7 +5,7 @@
 
 <meta property="og:url" content="https://harmony-digital.fr/tarifs">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/tarifs">
+    <link rel="canonical" href="https://harmony-digital.fr/infos">
 
     <style>
         .tarifs-section {

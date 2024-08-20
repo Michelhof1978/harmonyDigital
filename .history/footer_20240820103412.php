@@ -513,11 +513,10 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.8",
-    "reviewCount": "42"
+    "reviewCount": "120"
   }
 }
 </script>
-
 
 
 <!-- FIN SEO -->

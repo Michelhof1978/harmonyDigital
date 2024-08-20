@@ -3,10 +3,9 @@
 <meta name="description" content="Découvrez comment notre entreprise fonctionne : de la conception de votre site web à la mise en œuvre de stratégies de marketing digital, SEO, et design de logos. Apprenez-en plus sur notre processus de travail collaboratif, transparent et efficace.">
 <title>Informations - Processus de Travail | Agence Web</title>
 
-<meta property="og:url" content="https://harmony-digital.fr/infos">
+<meta property="og:url" content="https://harmony-digital.fr/accueil">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/infos">
-
+    <link rel="canonical" href="https://harmony-digital.fr/accueil">
     <style>
         /* Fond 0 et 1 index */
         #binary-background {

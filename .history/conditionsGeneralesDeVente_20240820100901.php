@@ -2,9 +2,9 @@
 <meta name="description" content="Découvrez les conditions générales de vente de Harmony Digital. Toutes les informations sur nos termes, modalités, et politiques de prestation de services.">
 <title>Conditions Générales de Vente - Harmony Digital</title>
 
-<meta property="og:url" content="https://harmony-digital.fr/conditionsGeneralesDeVente">
+<meta property="og:url" content="https://harmony-digital.fr/politiquedeConfidentialite">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/conditionsGeneralesDeVente">
+    <link rel="canonical" href="https://harmony-digital.fr/politiquedeConfidentialite">
 
 </head>
 

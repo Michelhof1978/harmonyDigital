@@ -501,23 +501,6 @@
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Service",
-  "serviceType": "Référencement SEO",
-  "provider": {
-    "@type": "Organization",
-    "name": "Harmony Digital"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "42"
-  }
-}
-</script>
-
 
 
 <!-- FIN SEO -->

@@ -4,8 +4,7 @@
 
 <meta property="og:url" content="https://harmony-digital.fr/politiquedeConfidentialite">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/politiquedeConfidentialite">
-
+    <link rel="canonical" href="https://harmony-digital.fr/mentionsLegales">
 </head>
 
 <?php include("header.php") ?>

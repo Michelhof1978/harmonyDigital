@@ -2,10 +2,10 @@
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
     <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
    
-    <meta property="og:url" content="https://harmony-digital.fr/accueil">
+    <meta property="og:url" content="URL de la page actuelle">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/accueil">
-
+    <link rel="canonical" href="URL de la page canonique">
+    
    <style>  
 /* Fond 0 et 1 index */
 #currency-background {

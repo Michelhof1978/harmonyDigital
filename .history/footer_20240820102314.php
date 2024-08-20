@@ -442,85 +442,36 @@
 
 
 
-<!--SEO -->
+<!-- _____________________________________________________________________________________ -->
 
+<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
+<!-- En utilisant ce balisage, les moteurs de recherche et d'autres agents intelligents peuvent mieux comprendre et interpréter les informations liées à l'entreprise sur la page web. -->
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
-    "@type": "Service",
+    "@type": "LocalBusiness",
     "name": "Harmony Digital",
     "image": "https://harmony-digital.fr/images/logo.png",
-    "telephone": "+33 6 66 33 25 88",
+    "telephone": "06 66 33 25 88",
     "address": {
         "@type": "PostalAddress",
-        "streetAddress": "4 Lotissement La Croix Rouge",
-        "addressLocality": "Garnat-sur-Engièvre",
-        "addressRegion": "Auvergne-Rhône-Alpes",
+        "streetAddress": "4 lotissement la croix rouge",
+        "addressLocality": "Garnat sur engièvre",
+        "addressRegion": "Auvergne-Rhône-Alpes", 
         "postalCode": "03230",
         "addressCountry": "FR"
     },
-    "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "46,78883",
-        "longitude": "3.53106"
-    },
-    "priceRange": "€-€€€",
+    "priceRange": "Abordable",
     "url": "https://harmony-digital.fr",
-    "description": "Harmony Digital est spécialisée dans la création de sites internet à des tarifs très compétitifs. Nous offrons des solutions personnalisées allant du design web à l'optimisation SEO, pour répondre à tous vos besoins numériques.",
+    "description": "Harmony Digital est une entreprise spécialisée dans la création de sites internet. Nous offrons des solutions abordables et personnalisées pour répondre à vos besoins numériques.",
     "openingHours": [
         "Mo-Fr 09:00-18:00",
         "Sa 09:00-12:00"
-    ],
-    "sameAs": [
-        https://www.linkedin.com/in/michel-h-245436203/    ],
-    "offers": {
-        "@type": "Offer",
-        "url": "https://harmony-digital.fr/",
-        "priceCurrency": "EUR",
-        "price": "100",  // Prix standard
-        "priceValidUntil": "2025-12-31",
-        "description": "Profitez de 10% de réduction sur nos services de création de sites web. Offre valable jusqu'au 31 décembre 2024. Consultez les détails de l'offre sur notre site."
-    }
+    ]
 }
 </script>
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Review",
-  "reviewRating": {
-    "@type": "Rating",
-    "ratingValue": "5",
-    "bestRating": "5"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Client Satisfait"
-  },
-  "reviewBody": "Harmony Digital a fourni un excellent service pour la création de notre site web. Très satisfait du résultat et du professionnalisme."
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Service",
-  "serviceType": "Référencement SEO",
-  "provider": {
-    "@type": "Organization",
-    "name": "Harmony Digital"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "42"
-  }
-}
-</script>
-
-
-
-<!-- FIN SEO -->
+<!-- _____________________________________________________________________________________ -->
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCWSBWT7"
