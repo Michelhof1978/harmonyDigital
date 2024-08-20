@@ -1,8 +1,7 @@
 
     <?php include("head.php"); ?>
-    <meta name="description" content="Découvrez nos tarifs compétitifs pour la création de sites web, marketing digital, SEO, et design de logos. Obtenez des solutions sur mesure adaptées à votre budget pour améliorer votre présence en ligne.">
-<title>Tarifs - Création de Site Web, Marketing Digital, SEO & Logo | Solution Web</title>
-
+    <meta name="tarifs" content="Détails des tarifs pour nos services web">
+    <title>Tarifs - Agence Web</title>
   
     <style>
         .tarifs-section {

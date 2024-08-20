@@ -13,10 +13,10 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="images/logo.ico">
  
-  <meta property="og:title" content="Harmony Digital - Experts en Création de Sites Web et Marketing Digital">
-<meta property="og:description" content="Harmony Digital : Conception de sites internet, design de maquettes et logos, SEO, marketing digital, communication événementielle et campagnes publicitaires. Services sur mesure pour booster votre visibilité en ligne.">
+  <meta property="og:title" content="Harmony Digital">
+  <meta property="og:description" content="Conception de Sites Internet, Réalisation Maquettes et Logos, Référencement SEO, Marketing Digital, Communication En Événementielle, Réalisation Campagne Publicitaire. Entreprise Nationale">
+ 
   <meta property="og:image" content="images/logo.ico">
-  
   <meta name="author" content="HOFFMANN MICHEL-Harmony Digital">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
