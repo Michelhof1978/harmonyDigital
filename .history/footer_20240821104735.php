@@ -461,8 +461,8 @@
     },
     "geo": {
         "@type": "GeoCoordinates",
-        "latitude": 46.78883,
-        "longitude": 3.53106
+        "latitude": "46,78883",
+        "longitude": "3.53106"
     },
     "priceRange": "€-€€€",
     "url": "https://harmony-digital.fr",
@@ -472,19 +472,17 @@
         "Sa 09:00-12:00"
     ],
     "sameAs": [
-        "https://www.linkedin.com/in/michel-h-245436203/"
-    ],
+        https://www.linkedin.com/in/michel-h-245436203/    ],
     "offers": {
         "@type": "Offer",
         "url": "https://harmony-digital.fr/",
         "priceCurrency": "EUR",
-        "price": "100",
+        "price": "100",  // Prix standard
         "priceValidUntil": "2025-12-31",
         "description": "Profitez de 10% de réduction sur nos services de création de sites web. Offre valable jusqu'au 31 décembre 2024. Consultez les détails de l'offre sur notre site."
     }
 }
 </script>
-
 
 <!-- <script type="application/ld+json">
 {
