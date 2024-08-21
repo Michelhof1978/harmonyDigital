@@ -100,7 +100,7 @@ h4 {
 }
 
 .competence {
-    background-image: url('images/fondBleu.webp');
+    background-image: url('images/fondBleu.png');
 }
 /* CARDS DESKTOP*/
 .card {
@@ -109,7 +109,7 @@ h4 {
     flex: 1 0 30%;
     box-sizing: border-box;
     margin: 0 -90px;
-    background-image: url('images/fondBleu.webp');
+    background-image: url('images/fondBleu.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ h4 {
 /* Domaine de compétence */
 .textIntro {
 	margin-top: 40px;
-    background-image: url('images/fondBleu.webp');
+    background-image: url('images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -247,7 +247,7 @@ h4 {
  .intro {
     margin-right: 60px;
     margin-top: 30px;
-    background-image: url('images/fondBleu.webp');
+    background-image: url('images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -316,7 +316,7 @@ h4 {
     flex: 1 0 30%;
     box-sizing: border-box;
     margin: 0 -90px;
-    background-image: url('images/fondNoir2.webp');
+    background-image: url('images/fondNoir2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -357,11 +357,11 @@ h4 {
     
 
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
-    <img src="images/banniererobotindex.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
+    <img src="images/banniererobotindex." alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotindex.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotindex.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
 
  <!-- INTRO-->
@@ -381,7 +381,7 @@ h4 {
             <div class="countdown-container mb-3">
                 <div id="countdown"></div>
             </div>
-            <img src="images/offre2024.webp" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
+            <img src="images/offre2024.png" alt="robot" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
             <div class="d-flex justify-content-center">
@@ -663,11 +663,11 @@ h4 {
 
 <div class="d-flex ms-0 mb-5 position-relative text-center me-5" style="margin-top:-50px;">
     <!-- Image à gauche -->
-    <img src="images/robotIntro3.webp" alt="Robot Introduction" loading="lazy" class="img-fluid robotDomaine2">
+    <img src="images/robotIntro3.png" alt="Robot Introduction" loading="lazy" class="img-fluid robotDomaine2">
 
     <!-- Contenu principal -->
     <div class="w-75 text-white intro2 mt-5"> 
-        <img src="images/robotIntro2.webp" alt="Robot Intro" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
+        <img src="images/robotIntro2.png" alt="Robot Intro" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
 
         <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3>
 
@@ -746,7 +746,7 @@ h4 {
 <!-- REFERENCE DESKTOP -->
 <div class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">
-        <img src="images/robotCompetence.webp" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
+        <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
 
         <div class="m-5">
             <div class="text-center">
@@ -800,7 +800,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur6.webp" alt="Séparateur 6" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur6.png" alt="Séparateur 6" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -819,7 +819,7 @@ h4 {
 <div class="d-block d-md-none d-flex ms-0 mb-5 position-relative ms-2 me-5">
     <!-- Contenu principal à gauche -->
     <div class="w-75 neon-section text-center">
-        <img src="images/robotCompetence.webp" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
+        <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
 
         <div class="m-3">
             <div class="mb-3">
@@ -872,7 +872,7 @@ h4 {
     </div>
 
     <!-- Image robotIntro à droite -->
-    <img src="images/robotIntro.webp" alt="Robot Introduction" loading="lazy" class="img-fluid ms-auto small-robot">
+    <img src="images/robotIntro.png" alt="Robot Introduction" loading="lazy" class="img-fluid ms-auto small-robot">
 </div>
 <!-- FIN REFERENCE MOBILE -->
 
@@ -897,7 +897,7 @@ h4 {
             <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
                 <strong class="text-white">Réalisations Campagnes</strong>
             </h2>
-            <img src="images/robotVideo.webp" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
+            <img src="images/robotVideo" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
         </div>
     </div>
     <div class="row justify-content-center g-0 g-md-5">
@@ -935,55 +935,55 @@ h4 {
                 <div class="d-flex overflow-auto">
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo1.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo1.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo2.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo2.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo3.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo3.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo4.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo4.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo6.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo6.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo7.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo7.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo8.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo8.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo9.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo9.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
@@ -1025,9 +1025,9 @@ h4 {
 <!-- SECTION FINALE -->
 <div class="text-center">
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
-        <img src="images/robotFinIndex1.webp" alt="robot" loading="lazy" class="img-fluid img-small">
+        <img src="images/robotFinIndex1.png" alt="robot" loading="lazy" class="img-fluid img-small">
         Propulsons votre entreprise vers les étoiles.
-        <img src="images/robotFinIndex2.webp" alt="robot" loading="lazy" class="img-fluid img-small">
+        <img src="images/robotFinIndex2.png" alt="robot" loading="lazy" class="img-fluid img-small">
     </p>
 </div>
 

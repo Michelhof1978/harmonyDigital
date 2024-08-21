@@ -146,13 +146,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   <!-- Banner mobile -->
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
-    <img src="images/banniererobotform.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
+    <img src="images/banniererobotform.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
   <!--Fin Banner mobile -->
 
   <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotform.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotform.png" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>  
  <!--Fin Banner desktop -->
 
@@ -162,7 +162,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </h1>
 
 <div class="text-center mt-5">
-    <img src="images/contactRobot.webp" alt="robot" class="img-fluid w-50">
+    <img src="images/contactRobot.png" alt="robot" class="img-fluid w-50">
 </div>
 
 <h4 class="m-5 text-center">

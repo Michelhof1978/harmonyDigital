@@ -959,7 +959,7 @@ h4 {
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>

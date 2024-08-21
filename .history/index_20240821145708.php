@@ -746,7 +746,7 @@ h4 {
 <!-- REFERENCE DESKTOP -->
 <div class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">
-        <img src="images/robotCompetence.webp" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
+        <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
 
         <div class="m-5">
             <div class="text-center">
@@ -959,7 +959,7 @@ h4 {
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>

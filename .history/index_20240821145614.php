@@ -109,7 +109,7 @@ h4 {
     flex: 1 0 30%;
     box-sizing: border-box;
     margin: 0 -90px;
-    background-image: url('images/fondBleu.webp');
+    background-image: url('images/fondBleu.w');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ h4 {
 /* Domaine de compétence */
 .textIntro {
 	margin-top: 40px;
-    background-image: url('images/fondBleu.webp');
+    background-image: url('images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -247,7 +247,7 @@ h4 {
  .intro {
     margin-right: 60px;
     margin-top: 30px;
-    background-image: url('images/fondBleu.webp');
+    background-image: url('images/fondBleu.png');
   background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -316,7 +316,7 @@ h4 {
     flex: 1 0 30%;
     box-sizing: border-box;
     margin: 0 -90px;
-    background-image: url('images/fondNoir2.webp');
+    background-image: url('images/fondNoir2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -746,7 +746,7 @@ h4 {
 <!-- REFERENCE DESKTOP -->
 <div class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">
-        <img src="images/robotCompetence.webp" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
+        <img src="images/robotCompetence.png" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
 
         <div class="m-5">
             <div class="text-center">
@@ -959,7 +959,7 @@ h4 {
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo5.png" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
