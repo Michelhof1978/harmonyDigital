@@ -945,49 +945,49 @@ h4 {
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo2.webp" alt="logo client Diversens" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo2.webp" alt="logo client " loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo3.webp" alt="logo client pour un mariage" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo3.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo4.webp" alt="logo client pour un garage" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo4.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.webp" alt="logo client institut de beauté" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo5.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo6.webp" alt="logo client institut de beauté" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo6.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo7.webp" alt="logo client surfcamp" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo7.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo8.webp" alt="logo client restaurant" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo8.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo9.webp" alt="logo client bar restaurant" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo9.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
@@ -1029,9 +1029,9 @@ h4 {
 <!-- SECTION FINALE -->
 <div class="text-center">
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
-        <img src="images/robotFinIndex1.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
+        <img src="images/robotFinIndex1.webp" alt="robot" loading="lazy" class="img-fluid img-small">
         Propulsons votre entreprise vers les étoiles.
-        <img src="images/robotFinIndex2.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
+        <img src="images/robotFinIndex2.webp" alt="robot" loading="lazy" class="img-fluid img-small">
     </p>
 </div>
 

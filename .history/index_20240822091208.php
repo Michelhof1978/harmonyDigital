@@ -1029,7 +1029,7 @@ h4 {
 <!-- SECTION FINALE -->
 <div class="text-center">
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
-        <img src="images/robotFinIndex1.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
+        <img src="images/robotFinIndex1.webp" alt="robot" loading="lazy" class="img-fluid img-small">
         Propulsons votre entreprise vers les étoiles.
         <img src="images/robotFinIndex2.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
     </p>

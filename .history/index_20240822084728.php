@@ -663,11 +663,11 @@ h4 {
 
 <div class="d-flex ms-0 mb-5 position-relative text-center me-5" style="margin-top:-50px;">
     <!-- Image à gauche -->
-    <img src="images/robotIntro3.webp" alt="Robot de décoration" loading="lazy" class="img-fluid robotDomaine2">
+    <img src="images/robotIntro3.webp" alt="Robot Introduction" loading="lazy" class="img-fluid robotDomaine2">
 
     <!-- Contenu principal -->
     <div class="w-75 text-white intro2 mt-5"> 
-        <img src="images/robotIntro2.webp" alt="Robot de décoration" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
+        <img src="images/robotIntro2.webp" alt="Robot Intro" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
 
         <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3>
 
@@ -681,11 +681,11 @@ h4 {
         </div>
 
         <div>
-            <img src="images/intro2RobotSeparateur.png" alt="Robot Séparateur de texte Expertise et Créativité" loading="lazy" class="img-fluid robotSeparateur"> 
+            <img src="images/intro2RobotSeparateur.png" alt="Séparateur 1" loading="lazy" class="img-fluid robotSeparateur"> 
         </div>
 
         <div>
-            <h4><strong>Approche Personnalisée</strong></h4>
+            <h3><strong>Approche Personnalisée</strong></h3>
             <p class="fs-5"> 
                 <strong>
                     Nous travaillons en étroite collaboration avec vous pour comprendre vos besoins et objectifs spécifiques.
@@ -694,7 +694,7 @@ h4 {
         </div>
 
         <div>
-            <img src="images/intro2RobotSeparateur2.png" alt="Robot Séparateur de texte Approche Personnalisée" loading="lazy" class="img-fluid robotSeparateur"> 
+            <img src="images/intro2RobotSeparateur2.png" alt="Séparateur 2" loading="lazy" class="img-fluid robotSeparateur"> 
         </div>
 
         <div>
@@ -707,7 +707,7 @@ h4 {
         </div>
 
         <div>
-            <img src="images/intro2RobotSeparateur3.png" alt="Robot Séparateur de texte Résultats Mesurables" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
+            <img src="images/intro2RobotSeparateur3.png" alt="Séparateur 3" loading="lazy" class="img-fluid robotSeparateur mb-5"> 
         </div>
     </div>
 </div>
@@ -742,15 +742,11 @@ h4 {
 </div>
 <!-- FIN ROBOT VIDEO MOBILE -->
 
-<h2 class="text-center border borderColor border-4 rounded p-2 m-3 mb-5 text-white fw-bold">
-    Nos Services Web Complets
-</h2>
-
 
 <!-- REFERENCE DESKTOP -->
 <div class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">
-        <img src="images/robotCompetence.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotDomaine"> 
+        <img src="images/robotCompetence.webp" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine"> 
 
         <div class="m-5">
             <div class="text-center">
@@ -759,7 +755,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur.png" alt="Séparateur 1" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -768,7 +764,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur2.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur2.png" alt="Séparateur 2" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -777,7 +773,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur3.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur3.png" alt="Séparateur 3" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -786,7 +782,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur4.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur4.png" alt="Séparateur 4" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -795,7 +791,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur5.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur5.png" alt="Séparateur 5" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -804,7 +800,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur6.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur6.webp" alt="Séparateur 6" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -814,7 +810,7 @@ h4 {
         </div>
     </div>
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
-        <img src="images/robotIntro.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
+        <img src="images/robotIntro.png" alt="Robot Introduction" loading="lazy" class="img-fluid"> 
     </div>
 </div>
 <!-- FIN REFERENCE DESKTOP -->
@@ -823,7 +819,7 @@ h4 {
 <div class="d-block d-md-none d-flex ms-0 mb-5 position-relative ms-2 me-5">
     <!-- Contenu principal à gauche -->
     <div class="w-75 neon-section text-center">
-        <img src="images/robotCompetence.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
+        <img src="images/robotCompetence.webp" alt="Robot Compétence" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
 
         <div class="m-3">
             <div class="mb-3">
@@ -831,42 +827,42 @@ h4 {
                 <p class="text-white lead fw-bold">Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</p>
             </div>
 
-            <img src="images/robotSeparateur.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur.png" alt="Séparateur 1" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
                 <p class="text-white lead fw-bold">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</p>
             </div>
 
-            <img src="images/robotSeparateur2.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur2.png" alt="Séparateur 2" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
                 <p class="text-white lead fw-bold">PHP et MYSQL</p>
             </div>
 
-            <img src="images/robotSeparateur3.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur3.png" alt="Séparateur 3" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
                 <p class="text-white lead fw-bold">Codage à la main respectueux des standards du web</p>
             </div>
 
-            <img src="images/robotSeparateur4.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur4.png" alt="Séparateur 4" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
                 <p class="text-white lead fw-bold">React et Vue.js</p>
             </div>
 
-            <img src="images/robotSeparateur5.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur5.png" alt="Séparateur 5" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
                 <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
             </div>
 
-            <img src="images/robotSeparateur6.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur6.png" alt="Séparateur 6" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
@@ -876,7 +872,7 @@ h4 {
     </div>
 
     <!-- Image robotIntro à droite -->
-    <img src="images/robotIntro.webp" alt="Robot d'illustration déco" loading="lazy" class="img-fluid ms-auto small-robot">
+    <img src="images/robotIntro.webp" alt="Robot Introduction" loading="lazy" class="img-fluid ms-auto small-robot">
 </div>
 <!-- FIN REFERENCE MOBILE -->
 
@@ -898,8 +894,8 @@ h4 {
 <div class="text-center mt-4 container mb-5">
     <div class="container">
         <div class="robotCampagne">
-            <h2 class=" text-white fw-bold border borderColor border-4 rounded p-2 m-3 mb-5">
-            Vidéos de Campagnes et Événements
+            <h2 class="border borderColor border-4 rounded p-2 m-3 mb-5">
+                <strong class="text-white">Réalisations Campagnes</strong>
             </h2>
             <img src="images/robotVideo.webp" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
         </div>
@@ -939,55 +935,55 @@ h4 {
                 <div class="d-flex overflow-auto">
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo1.webp" alt="logo client application musique" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo1.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo2.webp" alt="logo client Diversens" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo2.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo3.webp" alt="logo client pour un mariage" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo3.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo4.webp" alt="logo client pour un garage" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo4.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo5.webp" alt="logo client institut de beauté" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo5.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo6.webp" alt="logo client institut de beauté" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo6.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo7.webp" alt="logo client surfcamp" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo7.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo8.webp" alt="logo client restaurant" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo8.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
                     <div class="card2 mx-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/logo9.webp" alt="logo client bar restaurant" loading="lazy" class="imgcard2 img-fluid">
+                            <img src="images/logo9.webp" alt="logo client" loading="lazy" class="imgcard2 img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                     </div>
@@ -1029,9 +1025,9 @@ h4 {
 <!-- SECTION FINALE -->
 <div class="text-center">
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
-        <img src="images/robotFinIndex1.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
+        <img src="images/robotFinIndex1.webp" alt="robot" loading="lazy" class="img-fluid img-small">
         Propulsons votre entreprise vers les étoiles.
-        <img src="images/robotFinIndex2.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
+        <img src="images/robotFinIndex2.webp" alt="robot" loading="lazy" class="img-fluid img-small">
     </p>
 </div>
 
