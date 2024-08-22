@@ -12,7 +12,7 @@
   <meta name="author" content="HOFFMANN MICHEL - Harmony Digital">
 
   <!-- Favicon -->
-  <link rel="icon" href="images/logo.ico">
+  <link rel="icon" type="image/ico" href="images/logo.ico">
 
   <!-- CSS Links -->
   <link rel="stylesheet" href="styles.css">

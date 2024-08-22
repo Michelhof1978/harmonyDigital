@@ -345,7 +345,7 @@
     imgContainer.style.cssText = "position: relative; display: inline-block;";
 
     let img = document.createElement("img");
-    img.src = "images/offre2024.webp"; 
+    img.src = "images/offre2024."; 
     img.style.maxHeight = '100%'; // Ajuster à 100% de la hauteur du popup
     img.style.maxWidth = '100%'; // Ajuster à 100% de la largeur du popup
     img.style.width = 'auto'; // Ajuster largeur automatiquement pour maintenir le ratio
