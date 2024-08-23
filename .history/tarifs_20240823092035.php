@@ -85,7 +85,7 @@
 
  <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobottarifs.webp" alt="Bannière illustrative de bienvenue avec un robot" class="img-fluid w-100 rounded mb-2">
+    <img src="images/banniererobottarifs.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded mb-2">
 </div>
  <!--Fin Banner desktop -->
     <section class="container tarifs-section text-white">
@@ -97,7 +97,7 @@
 
     <div class="row justify-content-center mt-4">
         <div class="col-md-6 text-center">
-            <img src="images/robotTarifs1.webp" alt="robot illustratif" class="img-fluid mx-auto w-25">
+            <img src="images/robotTarifs1.webp" alt="robot" class="img-fluid mx-auto w-25">
         </div>
     </div>
 
@@ -198,7 +198,7 @@
             </div>
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <img src="images/robotTarifs2.webp" alt="robot illustratif" class="img-fluid mx-auto w-50">
+            <img src="images/robotTarifs2.webp" alt="robot" class="img-fluid mx-auto w-50">
         </div>
     </div>
 </section>
@@ -278,7 +278,7 @@
 
     <div class="row justify-content-center mt-5">
         <div class="col-md-6 text-center">
-            <img src="images/robotTarifs3.webp" alt="robot illustratif" class="img-fluid mx-auto w-25">
+            <img src="images/robotTarifs3.webp" alt="robot" class="img-fluid mx-auto w-25">
         </div>
     </div>
 </section>

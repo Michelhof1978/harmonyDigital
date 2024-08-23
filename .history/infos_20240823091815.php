@@ -1,7 +1,7 @@
 
 <?php include("head.php"); ?>
 <meta name="description" content="Découvrez comment notre entreprise fonctionne : de la conception de votre site web à la mise en œuvre de stratégies de marketing digital, SEO, et design de logos. Apprenez-en plus sur notre processus de travail collaboratif, transparent et efficace.">
-<title>Informations - Processus de Travail</title>
+<title>Informations - Processus de Travail | Agence Web</title>
 
 <meta property="og:url" content="https://harmony-digital.fr/infos">
     <!-- Canonical Link -->
@@ -290,7 +290,7 @@
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 <div class="text-center mb-4">
-        <img src="images/robotinfo5.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
+        <img src="images/robotinfo5.webp" alt="robot" loading="lazy" class="img-fluid w-50 mt-3">
     </div>
     
     <?php include("footer.php"); ?>

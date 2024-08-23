@@ -152,7 +152,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotform.webp" alt="Bannière illustrative de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotform.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>  
  <!--Fin Banner desktop -->
 
