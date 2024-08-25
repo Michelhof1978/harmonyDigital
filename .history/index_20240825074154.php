@@ -408,7 +408,7 @@ h4 {
                     Référencement SEO<br>
                     Marketing Digital<br>
                     Communication Événementielle<br>
-                    Réalisation de Campagnes Publicitaires<br>
+                    -Réalisation de Campagnes Publicitaires<br>
                 </p>
             </div>
         </div>

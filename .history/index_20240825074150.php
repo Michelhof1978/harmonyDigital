@@ -405,10 +405,10 @@ h4 {
                 <p class="fw-bold">
                     Conception de Sites Internet<br>
                     Réalisation de Maquettes et Logos<br>
-                    Référencement SEO<br>
-                    Marketing Digital<br>
-                    Communication Événementielle<br>
-                    Réalisation de Campagnes Publicitaires<br>
+                    -Référencement SEO<br>
+                    -Marketing Digital<br>
+                    -Communication Événementielle<br>
+                    -Réalisation de Campagnes Publicitaires<br>
                 </p>
             </div>
         </div>

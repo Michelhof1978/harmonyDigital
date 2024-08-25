@@ -102,18 +102,6 @@ h4 {
 .competence {
     background-image: url('images/fondBleu.webp');
 }
-
- /* Style par défaut pour les écrans plus grands */
- .competence p {
-        font-size: 1.25rem; /* fs-4 correspond à 1.25rem */
-    }
-
-    /* Style pour les écrans de moins de 768px (mobile) */
-    @media (max-width: 767.98px) {
-        .competence p {
-            font-size: 1rem; /* Ajustez la taille du texte pour mobile */
-        }
-    }
 /* CARDS DESKTOP*/
 .card {
     transform: scale(0.7);
@@ -403,11 +391,11 @@ h4 {
             </div>
             <div class="ms-3 me-3 pt-5 pb-5 lead fs-4 text-white rounded rounded-2 competence">
                 <p class="fw-bold">
-                    Conception de Sites Internet<br>
-                    Réalisation de Maquettes et Logos<br>
-                    Référencement SEO<br>
-                    Marketing Digital<br>
-                    Communication Événementielle<br>
+                    -Conception de Sites Internet<br>
+                    -Réalisation de Maquettes et Logos<br>
+                    -Référencement SEO<br>
+                    -Marketing Digital<br>
+                    -Communication Événementielle<br>
                     Réalisation de Campagnes Publicitaires<br>
                 </p>
             </div>

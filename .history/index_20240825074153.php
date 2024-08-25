@@ -407,8 +407,8 @@ h4 {
                     Réalisation de Maquettes et Logos<br>
                     Référencement SEO<br>
                     Marketing Digital<br>
-                    Communication Événementielle<br>
-                    Réalisation de Campagnes Publicitaires<br>
+                    -Communication Événementielle<br>
+                    -Réalisation de Campagnes Publicitaires<br>
                 </p>
             </div>
         </div>

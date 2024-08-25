@@ -403,12 +403,12 @@ h4 {
             </div>
             <div class="ms-3 me-3 pt-5 pb-5 lead fs-4 text-white rounded rounded-2 competence">
                 <p class="fw-bold">
-                    Conception de Sites Internet<br>
-                    Réalisation de Maquettes et Logos<br>
-                    Référencement SEO<br>
-                    Marketing Digital<br>
-                    Communication Événementielle<br>
-                    Réalisation de Campagnes Publicitaires<br>
+                    -Conception de Sites Internet<br>
+                    -Réalisation de Maquettes et Logos<br>
+                    -Référencement SEO<br>
+                    -Marketing Digital<br>
+                    -Communication Événementielle<br>
+                    -Réalisation de Campagnes Publicitaires<br>
                 </p>
             </div>
         </div>
