@@ -1017,7 +1017,7 @@ h4 {
 
 
 <!-- ROBOT VIDEO DESKTOP -->
-<div class="container-fluid px-0 mb-5 d-none d-md-block"    >
+<div class="container-fluid px-0 mb-5 d-none d-md-block ms-5"    >
     <div class="row align-items-center g-5" style="min-height: 50vh;">
         <!-- Video Section -->
         <div class="col-md-6 d-flex justify-content-center">

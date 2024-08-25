@@ -1028,7 +1028,7 @@ h4 {
         </div>
 
         <!-- Image Section -->
-        <div class="col-md-6 d-flex justify-content-center ">
+        <div class="col-md-6 d-flex justify-content-center ms-5">
             <a href="https://lescaravanesdelabesbre.fr/" target="_blank" rel="noopener noreferrer">
                 <img src="images/caravanesdelabesbre.webp" alt="Description de l'image" class="img-fluid w-50">
             </a>

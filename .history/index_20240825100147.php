@@ -1017,20 +1017,20 @@ h4 {
 
 
 <!-- ROBOT VIDEO DESKTOP -->
-<div class="container-fluid px-0 mb-5 d-none d-md-block"    >
-    <div class="row align-items-center g-5" style="min-height: 50vh;">
+<div class="container-fluid px-0 mb-5 d-none d-md-block">
+    <div class="row align-items-center" style="min-height: 50vh;">
         <!-- Video Section -->
-        <div class="col-md-6 d-flex justify-content-center">
-            <video autoplay loop muted playsinline class="rounded w-100">
+        <div class="col-md-6 d-flex justify-content-center mb-4 mb-md-0">
+            <video autoplay loop muted playsinline class="rounded w-100" style="max-width: 100%;">
                 <source src="videos/robotpresentation4.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>
 
         <!-- Image Section -->
-        <div class="col-md-6 d-flex justify-content-center ">
-            <a href="https://lescaravanesdelabesbre.fr/" target="_blank" rel="noopener noreferrer">
-                <img src="images/caravanesdelabesbre.webp" alt="Description de l'image" class="img-fluid w-50">
+        <div class="col-md-6 d-flex justify-content-center">
+            <a href="https://www.example.com" target="_blank" rel="noopener noreferrer">
+                <img src="ima" alt="Description de l'image" class="img-fluid" style="max-width: 100%;">
             </a>
         </div>
     </div>

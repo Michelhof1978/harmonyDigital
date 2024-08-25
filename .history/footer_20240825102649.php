@@ -113,7 +113,6 @@
                 </div>
             </div>
         </div>
-        <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
     </div>
 </footer>
 <!-- FIN FOOTER MOBILE -->
@@ -232,7 +231,7 @@
                 </div>
             </div>
         </div>
-        <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
+        <a class="mt-3" href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
     </div>
 </footer>
 <!-- FIN FOOTER DESKTOP -->
