@@ -113,9 +113,9 @@
                 </div>
             </div>
         </div>
-        <div class="mt-2">
+       
         <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
-    </div>
+   
     </div>
 </footer>
 <!-- FIN FOOTER MOBILE -->
@@ -234,9 +234,8 @@
                 </div>
             </div>
         </div>
-        <div class="mt-2">
         <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
-    </div>    </div>
+    </div>
 </footer>
 <!-- FIN FOOTER DESKTOP -->
 

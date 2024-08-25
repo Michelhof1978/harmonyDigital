@@ -1039,7 +1039,7 @@ h4 {
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold">
         Grâce à Harmony Digital, l'entreprise Les Caravanes de la Besbre a placé sa confiance en nous.<br>
-        Et les résultats parlent d'eux-mêmes.</p>
+        Et les résultats parlent d'eux-mêmes.         </p>
     </div>
 
 
@@ -1057,17 +1057,17 @@ h4 {
     <!-- FIN ROBOT VIDEO DESKTOP -->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-md-none">
-        <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-            <div class="video-container-caravane" style="max-width: 100%; margin: auto;" onclick="openVideoLink()">
-                <video class="video-caravane" autoplay loop muted playsinline>
-                    <source src="videos/robotpresentation4.mp4" type="video/mp4">
-                    Votre navigateur ne supporte pas la balise <code>video</code>.
-                </video>
-            </div>
+<div class="container-fluid px-0 d-block d-md-none">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-150px;">
+        <div class="video-container-caravane" style="width: 100%;">
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotpresentation4.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
-    <!-- FIN ROBOT VIDEO MOBILE -->
+</div>
+<!-- FIN ROBOT VIDEO MOBILE -->
     
 
 <!-- SECTION FINALE -->

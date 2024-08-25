@@ -1039,7 +1039,7 @@ h4 {
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold">
         Grâce à Harmony Digital, l'entreprise Les Caravanes de la Besbre a placé sa confiance en nous.<br>
-        Et les résultats parlent d'eux-mêmes.</p>
+        Et les résultats parlent d'eux-mêmes.         </p>
     </div>
 
 
@@ -1057,7 +1057,7 @@ h4 {
     <!-- FIN ROBOT VIDEO DESKTOP -->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-md-none">
+<div class="container-fluid px-0 mb-5 d-md-none">
         <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
             <div class="video-container-caravane" style="max-width: 100%; margin: auto;" onclick="openVideoLink()">
                 <video class="video-caravane" autoplay loop muted playsinline>
