@@ -424,7 +424,7 @@ h4 {
     Nos Services de Création Web et Marketing Digital
 </h2>
 
-<img src="images/bannercards.webp" alt="Description des étapes pour une transformation digital et monter l'entreprise vers les sommets" loading="lazy" class="img-fluid rounded mt-3 mb-3 w-100">
+<img src="images/bannercards.webp" alt="Description des étapes pour une transformation digita" loading="lazy" class="img-fluid mt-3 mb-3 w-100">
 
         <p class="text-white lead fs-2 fw-bold">
             Des solutions sur mesure pour satisfaire vos besoins.
@@ -544,7 +544,7 @@ h4 {
             <strong class="text-white"> Nos Services de Création Web et Marketing Digital</strong>
         </h2>
         
-        <img src="images/bannercards.webp" alt="Description des étapes pour une transformation digital et monter l'entreprise vers les sommets" loading="lazy" class="img-fluid rounded w-75 m-5">
+        <img src="images/bannercards.webp" alt="Robot de décoration" loading="lazy" class="img-fluid w-75 m-5">
 
         <p class="text-white lead fs-2 fw-bold">
             Des solutions sur mesure pour satisfaire vos besoins.
