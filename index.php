@@ -361,6 +361,16 @@ h4 {
         }
     }
 
+    .video-container-caravane {
+            display: inline-block;
+            cursor: pointer;
+            position: relative;
+        }
+        .video-caravane {
+            max-width: 100%;
+            height: auto;
+        }
+
     </style>
 </head>
 
@@ -1014,30 +1024,29 @@ h4 {
     </div>
                 </div>
 <!-- FIN PRESENTATION LOGOS -->
+<div class="text-center mt-4 ms-2 me-2">
+    <div>
+        <h2 class="border borderColor border-4 rounded p-2 m-5">
+            <strong class="text-white">Projet Client Site Web</strong>
+        </h2>
+        <p class="text-white lead fs-4 pb-5 fw-bold">
+        Grâce à Harmony Digital, l'entreprise Les Caravanes de la Besbre a placé sa confiance en nous.<br>
+        Et les résultats parlent d'eux-mêmes.         </p>
+    </div>
 
 
 <!-- ROBOT VIDEO DESKTOP -->
-<div class="container-fluid px-0 mb-5 d-none d-md-block"    >
-    <div class="row align-items-center g-5" style="min-height: 50vh;">
-        <!-- Video Section -->
-        <div class="col-md-6 d-flex justify-content-center">
-            <video autoplay loop muted playsinline class="rounded w-100">
-                <source src="videos/robotpresentation4.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la balise <code>video</code>.
-            </video>
-        </div>
-
-        <!-- Image Section -->
-        <div class="col-md-6 d-flex justify-content-center ">
-            <a href="https://lescaravanesdelabesbre.fr/" target="_blank" rel="noopener noreferrer">
-                <img src="images/caravanesdelabesbre.webp" alt="Description de l'image" class="img-fluid w-50">
-            </a>
+<div class="container-fluid px-0 mb-5 d-none d-md-block">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+            <div class="video-container-caravane" style="max-width: 50%; margin: auto;" onclick="openVideoLink()">
+                <video class="video-caravane" autoplay loop muted playsinline>
+                    <source src="videos/robotpresentation4.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise <code>video</code>.
+                </video>
+            </div>
         </div>
     </div>
-</div>
-<!-- FIN ROBOT VIDEO DESKTOP -->
-
-
+    <!-- FIN ROBOT VIDEO DESKTOP -->
 
 <!-- ROBOT VIDEO MOBILE -->
 <div class="container-fluid px-0 d-block d-md-none">
@@ -1063,6 +1072,11 @@ h4 {
 </div>
 
     <?php include("footer.php"); ?>
+    <script>
+        function openVideoLink() {
+            window.open('https://lescaravanesdelabesbre.fr/', '_blank');
+        }
+    </script>
 
  <!-- COMPTE A REBOURS -->
  <script>
