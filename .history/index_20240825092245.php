@@ -831,7 +831,7 @@ h4 {
         </div>
     </div>
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
-        <img src="images/robotIntro.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
+        <img src="images/robotIntro.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
     </div>
 </div>
 <!-- FIN REFERENCE DESKTOP -->

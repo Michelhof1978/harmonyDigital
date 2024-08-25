@@ -424,7 +424,7 @@ h4 {
     Nos Services de Création Web et Marketing Digital
 </h2>
 
-<img src="images/bannercards.webp" alt="Description des étapes pour une transformation digital et monter l'entreprise vers les sommets" loading="lazy" class="img-fluid rounded mt-3 mb-3 w-100">
+<img src="images/bannercards.webp" alt="Description des étapes pour une transformation digital et monter l'entreprise vers les sommets" loading="lazy" class="img-fluid rounde mt-3 mb-3 w-100">
 
         <p class="text-white lead fs-2 fw-bold">
             Des solutions sur mesure pour satisfaire vos besoins.
@@ -831,7 +831,7 @@ h4 {
         </div>
     </div>
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
-        <img src="images/robotIntro.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
+        <img src="images/robotIntro.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
     </div>
 </div>
 <!-- FIN REFERENCE DESKTOP -->

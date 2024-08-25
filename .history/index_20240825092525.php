@@ -831,7 +831,7 @@ h4 {
         </div>
     </div>
     <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
-        <img src="images/robotIntro.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
+        <img src="images/robotIntro.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
     </div>
 </div>
 <!-- FIN REFERENCE DESKTOP -->
@@ -1018,16 +1018,26 @@ h4 {
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
-    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-        <div class="video-container" style="max-width: 50%; margin: auto;">
+    <div class="d-flex justify-content-between align-items-center" style="min-height: 50vh;">
+        <!-- Video Section -->
+        <div class="video-container" style="max-width: 50%; flex: 1;">
             <video autoplay loop muted playsinline class="rounded w-100">
                 <source src="videos/robotpresentation4.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la balise <code>video</code>.
             </video>
         </div>
+
+        <!-- Image and Text Section -->
+        <div class="text-container" style="max-width: 50%; flex: 1; padding: 20px;">
+            <a href="https://lescaravanesdelabesbre.fr/" target="_blank" rel="noopener noreferrer">
+                <img src="images/caravanesdelabesbre.webp" alt="Description de l'image" style="width: 100%; height: auto; display: block; margin-bottom: 10px;">
+            </a>
+            <p style="text-align: center;">Dérniers projet Client réalisé</p>
+        </div>
     </div>
 </div>
-<!-- FIN ROBOT VIDEO DESKTOP-->
+<!-- FIN ROBOT VIDEO DESKTOP -->
+
 
 <!-- ROBOT VIDEO MOBILE -->
 <div class="container-fluid px-0 d-block d-md-none">

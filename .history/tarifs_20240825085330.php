@@ -210,7 +210,7 @@
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
             <strong class="text-white">Tarifs pour la Création de Logo</strong>
         </h1>
-        <img src="images/soucoupe.webp" alt="robot illustratif" class="img-fluid m-3 w-25">
+        <img src="images/robotTarifs2.webp" alt="robot illustratif" class="img-fluid mx-auto w-50"
     </div>
     <div class="row mt-4">
         <div class="col-md-6">
