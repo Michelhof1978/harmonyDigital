@@ -564,12 +564,12 @@ h4 {
         
         <img src="images/bannercards.webp" alt="Description des étapes pour une transformation digital et monter l'entreprise vers les sommets" loading="lazy" class="img-fluid rounded w-75 m-5">
 
-        <p class="text-white lead fs-2 fw-bold" >
+        <p class="text-white lead fs-2 fw-bold" style="margin-bottom: -30px;">
             Des solutions sur mesure pour satisfaire vos besoins.
         </p>
     </div>
 
-    <div id="tarifCarousel" class="carousel slide carousel-container mt-1" >
+    <div id="tarifCarousel" class="carousel slide carousel-container mt-1">
         <div class="carousel-inner">
             <!-- Premier groupe de cartes -->
             <div class="carousel-item active">
@@ -1037,7 +1037,7 @@ h4 {
 <div class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
-            <strong class="text-white">Projet Client D'un Site Web Vitrine</strong>
+            <strong class="text-white">Projet Client Site Web</strong>
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold">
         Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
