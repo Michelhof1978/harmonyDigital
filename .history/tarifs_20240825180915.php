@@ -312,7 +312,7 @@
     
 
 <div class="fw-bold text-center m-5 text-white press-start-2p-regular">
-    Pour toute demande relative aux tarifs,<br> nous vous prions de bien vouloir nous contacter.
+    Pour toute demande relative aux tarifs,< nous vous prions de bien vouloir nous contacter.
 </div>
 
     
