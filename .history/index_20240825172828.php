@@ -957,7 +957,7 @@ h4 {
 <!-- FIN SECTION VIDEOCOM -->
 
 <!-- PRESENTATION LOGOS -->
-<div class="text-center mt-4 ms-2 me-2" style="margin-bottom: -80px;">
+<div class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
             <strong class="text-white">Logos Réalisés</strong>
@@ -1031,9 +1031,7 @@ h4 {
         </div>
     </div>
                 </div>
-
 <!-- FIN PRESENTATION LOGOS -->
-
 <div class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
@@ -1059,7 +1057,7 @@ h4 {
     <!-- FIN ROBOT VIDEO DESKTOP -->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-md-none" style="margin-top: -70px; margin-bottom: -20px">
+<div class="container-fluid px-0 d-md-none" style="m">
         <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
             <div class="video-container-caravane" style="max-width: 100%; margin: auto;" onclick="openVideoLink()">
                 <video class="video-caravane" autoplay loop muted playsinline>
@@ -1076,9 +1074,8 @@ h4 {
 <div class="text-center">
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
         <img src="images/robotFinIndex1.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
-        Propulsons 
-        <img src="images/robotFinIndex2.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small"><br>
-        Votre entreprise vers les étoiles
+        Propulsons votre entreprise vers les étoiles.
+        <img src="images/robotFinIndex2.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
     </p>
 </div>
 

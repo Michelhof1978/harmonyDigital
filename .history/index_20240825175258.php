@@ -1077,7 +1077,7 @@ h4 {
     <p class="text-white lead mb-5 fw-bold press-start-2p-regular">
         <img src="images/robotFinIndex1.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
         Propulsons 
-        <img src="images/robotFinIndex2.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small"><br>
+        <img src="images/robotFinIndex2.webp" alt="robot illustratif" loading="lazy" class="img-fluid img-small">
         Votre entreprise vers les étoiles
     </p>
 </div>
