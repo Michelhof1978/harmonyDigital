@@ -1,4 +1,3 @@
-
 <!-- FOOTER MOBILE -->
 <footer class="footer-section d-block d-md-none">
     <div class="container">
@@ -47,9 +46,6 @@
                                 <span class="orange">.</span>
                             </a>
                         </div>
-                        <div class="mb-3 text-center">
-            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25">
-        </div>
                         <div class="footer-text">
                             <p class="lead p-3 mx-auto fw-bold">
                                 Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
@@ -58,7 +54,6 @@
                                 </a>.
                             </p>       
                         </div>
-
                         <div class="footer-social-icon">
                             <span class="pt-3 d-block ms-2 me-4">Suivez-nous !</span>
                             <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
@@ -85,7 +80,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
                         <div class="footer-widget-heading2 text-center text-white m-2">
@@ -100,7 +94,6 @@
                                 <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
-                     
                     </div>
                 </div>
             </div>
@@ -110,20 +103,18 @@
         <div class="container">
             <div class="row">
                 <div class="text-center">
-                <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
+                    <img src="images/robotFooter.webp" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
                         <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-2">
+        <div
         <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
-    </div>
     </div>
 </footer>
 <!-- FIN FOOTER MOBILE -->
-
 <!-- FOOTER DESKTOP -->
 <footer class="footer-section d-none d-md-block">
     <div class="container">
@@ -191,7 +182,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-widget-heading2 text-center text-white m-2">
@@ -207,7 +197,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-widget-heading2 text-center text-white m-2">
@@ -222,9 +211,6 @@
                                 <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
-                        <div class="mt-3">
-            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25">
-        </div>
                     </div>
                 </div>
             </div>
@@ -234,23 +220,17 @@
         <div class="container">
             <div class="row">
                 <div class="text-center">
-                <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
-                <div class="copyright-text">
+                    <img src="images/robotFooter.webp" alt="Logo" class="img-fluid robotFooter">
+                    <div class="copyright-text">
                         <p>Copyright &copy; 2023 - <span id="date2"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-2">
         <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
-    </div>   
- </div>
+    </div>
 </footer>
 <!-- FIN FOOTER DESKTOP -->
-
-
-
-
 <!-- COOKIES -->
 <div id="cookie-banner">
     <p><strong>Ce site web utilise des cookies.</strong> </p><br>
@@ -262,29 +242,23 @@
     </div>
 </div>
 <!-- _____________________________________________________________________________________ -->
-
 <!-- Scripts JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" async></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" async></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
 <!-- _____________________________________________________________________________________ -->
-
 <!--ZOOM SURVOL SOURIS SUR IMAGE CARD-->
 <script>
     function zoomIn(img) {
         img.style.transform = "scale(1.5)"; // agrandi l'image 1.5 fois
         img.style.transition = "transform 0.5s"; // ajoute une transition de 0.5s pour une animation fluide
     }
-
     function zoomOut(img) {
         img.style.transform = "scale(1)"; // remettre l'image à sa taille d'origine
         img.style.transition = "transform 0.5s"; // ajoute une transition de 0.5s pour une animation fluide
     }
 </script>
-
 <!-- _____________________________________________________________________________________ -->
-
 <!-- COOKIES -->
 <script>
     // Fonction pour obtenir la valeur d'un cookie
@@ -292,7 +266,6 @@
         let match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
         if (match) return match[2];
     }
-
     // Fonction pour définir un cookie avec une durée d'expiration (en jours)
     function setCookie(name, value, days) {
         let expires = '';
@@ -303,23 +276,17 @@
         }
         document.cookie = name + '=' + value + expires + '; path=/';
     }
-
     // Fonction appelée lorsqu'un utilisateur accepte les cookies
     function acceptCookies() {
         // Ajoutez ici le code pour définir les cookies ou effectuer d'autres actions nécessaires
-
         // Définir un cookie indiquant que l'utilisateur a accepté les cookies
         setCookie('cookieConsent', 'accepted', 365);
-
         document.getElementById('cookie-banner').style.display = 'none';
     }
-
     // Fonction appelée lorsqu'un utilisateur refuse les cookies
     function refuseCookies() {
-
         document.getElementById('cookie-banner').style.display = 'none';
     }
-
     // Vérifier si l'utilisateur a déjà accepté les cookies
     if (getCookie('cookieConsent') !== 'accepted') {
         // Affiche la bannière de consentement après un délai 
@@ -328,8 +295,6 @@
         }, 2000);
     }
 </script>
-
-
 <!-- Affichage Popup -->
 <script>
   // Fonction pour vérifier si le popup a déjà été affiché aujourd'hui
@@ -338,7 +303,6 @@
     const dateString = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
     return document.cookie.includes(`popupShown=${dateString}`);
   }
-
   // Fonction pour définir le cookie indiquant que le popup a été affiché aujourd'hui
   function setPopupShown() {
     const date = new Date();
@@ -347,16 +311,13 @@
     const dateString = `${date.getFullYear()}/${date.getMonth() + 1}/${date.getDate()}`;
     document.cookie = `popupShown=${dateString}; expires=${date.toUTCString()}; path=/`;
   }
-
   // Vérifie si le popup n'a pas déjà été montré aujourd'hui
   if (!isPopupShown()) {
     let popupDiv = document.createElement("div");
     popupDiv.className = "popup"; // Ajouter la classe popup
     popupDiv.style.cssText = "position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 9999; text-align: center;";
-
     let imgContainer = document.createElement("div");
     imgContainer.style.cssText = "position: relative; display: inline-block;";
-
     let img = document.createElement("img");
     img.src = "images/offre2024.webp"; 
     img.style.maxHeight = '100%'; // Ajuster à 100% de la hauteur du popup
@@ -364,20 +325,16 @@
     img.style.width = 'auto'; // Ajuster largeur automatiquement pour maintenir le ratio
     img.style.height = 'auto'; // Ajuster hauteur automatiquement pour maintenir le ratio
     imgContainer.appendChild(img);
-
     let closeButton = document.createElement("button");
     closeButton.textContent = "✖"; // Symbole de fermeture
     closeButton.style.cssText = "position: absolute; top: 10px; right: 10px; cursor: pointer; border: none; background: transparent; color: black; font-size: 20px; padding: 0; margin: 0;";
-
     closeButton.onclick = function () {
       document.body.removeChild(popupDiv);
       setPopupShown();
     };
-
     imgContainer.appendChild(closeButton);
     popupDiv.appendChild(imgContainer);
     document.body.appendChild(popupDiv);
-
     // Optionnel: fermeture automatique après 30 secondes
     setTimeout(function() {
       if (document.body.contains(popupDiv)) {
@@ -393,7 +350,6 @@
         const numParticles = 100; // Nombre total de particules
         const binaryBackground = document.getElementById('binary-background');
         const characters = ['0', '1'];
-
         function createParticle() {
             const particle = document.createElement('div');
             particle.className = 'particle';
@@ -404,33 +360,25 @@
             particle.style.animation = `move ${duration}s linear infinite`;
             binaryBackground.appendChild(particle);
         }
-
         function initializeParticles() {
             binaryBackground.innerHTML = '';
             for (let i = 0; i < numParticles; i++) {
                 createParticle();
             }
         }
-
         initializeParticles();
-
         window.addEventListener('resize', () => {
             // Utilise un debounce pour améliorer la performance
             clearTimeout(window.resizeTimeout);
             window.resizeTimeout = setTimeout(initializeParticles, 200);
         });
     </script>
-
-
 <!-- _____________________________________________________________________________________ -->
-
-
 <!-- FOND '€', '$'-->
 <script>
     const totalParticles = 100; // Nombre total de particules
     const backgroundElement = document.getElementById('binary-background3');
     const symbols = ['€', '$'];
-
     function createParticle() {
         const particle = document.createElement('div');
         particle.className = 'particle';
@@ -440,11 +388,9 @@
         particle.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durée de l'animation entre 5 et 10 secondes
         backgroundElement.appendChild(particle);
     }
-
     for (let i = 0; i < totalParticles; i++) {
         createParticle();
     }
-
     window.addEventListener('resize', () => {
         backgroundElement.innerHTML = '';
         for (let i = 0; i < totalParticles; i++) {
@@ -452,11 +398,7 @@
         }
     });
 </script>
-
-
-
 <!--SEO -->
-
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -497,8 +439,6 @@
     }
 }
 </script>
-
-
 <!-- <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -515,7 +455,6 @@
   "reviewBody": "Harmony Digital a fourni un excellent service pour la création de notre site web. Très satisfait du résultat et du professionnalisme."
 }
 </script> -->
-
 <!-- <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -532,19 +471,12 @@
   }
 }
 </script> -->
-
-
-
 <!-- FIN SEO -->
-
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCWSBWT7"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
 <!-- _____________________________________________________________________________________ -->
-
-
 <!-- DATE MISE A JOUR AUTO COPYRIGHT FOOTER MOBILE ET DESKTOP -->
 <script>
    document.addEventListener('DOMContentLoaded', function() {
@@ -552,19 +484,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     let year = date.getFullYear();
     document.getElementById('date').textContent = year;
 });
-
 </script>
-
 <script>
    document.addEventListener('DOMContentLoaded', function() {
     let date = new Date();
     let year = date.getFullYear();
     document.getElementById('date2').textContent = year;
 });
-
 </script>
-
-
 <!-- _____________________________________________________________________________________ -->
  <!-- Whattsapp et IA-->
  <script defer src="https://static.getbutton.io/widget/bundle.js?id=dkNpL" ></script>

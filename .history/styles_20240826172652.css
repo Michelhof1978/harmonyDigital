@@ -3,7 +3,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;  /* Assure que html et body prennent toute la largeur de la fenêtre */
+    width: 100vw;  /* Assure que html et body prennent toute la largeur de la fenêtre */
     overflow-x: hidden; /* Évite le débordement horizontal */
 }
 
@@ -233,11 +233,6 @@ body {
 
 
 /* footer */
-
-.footer-section {
-    background: #151414;
-    position: relative;
-}
 
 .footer-cta {
     border-bottom: 1px solid #373636;

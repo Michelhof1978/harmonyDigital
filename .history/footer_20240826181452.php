@@ -47,9 +47,6 @@
                                 <span class="orange">.</span>
                             </a>
                         </div>
-                        <div class="mb-3 text-center">
-            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25">
-        </div>
                         <div class="footer-text">
                             <p class="lead p-3 mx-auto fw-bold">
                                 Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
@@ -85,7 +82,9 @@
                         </div>
                     </div>
                 </div>
-                
+                <div class="mt-3">
+            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25">
+        </div>
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
                         <div class="footer-widget-heading2 text-center text-white m-2">

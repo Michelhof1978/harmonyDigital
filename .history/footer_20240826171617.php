@@ -1,7 +1,7 @@
 
 <!-- FOOTER MOBILE -->
 <footer class="footer-section d-block d-md-none">
-    <div class="container">
+    <div class="container-fluid"> <!-- Remplacé par "container-fluid" -->
         <!-- Section CTA -->
         <div class="footer-cta pt-5 pb-5 text-center">
             <div class="row justify-content-center">
@@ -47,9 +47,6 @@
                                 <span class="orange">.</span>
                             </a>
                         </div>
-                        <div class="mb-3 text-center">
-            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25">
-        </div>
                         <div class="footer-text">
                             <p class="lead p-3 mx-auto fw-bold">
                                 Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
@@ -85,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-12 mb-5">
                     <div class="footer-widget">
                         <div class="footer-widget-heading2 text-center text-white m-2">
@@ -100,17 +97,16 @@
                                 <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
-                     
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="copyright-area text-center">
-        <div class="container">
+        <div class="container-fluid"> <!-- Remplacé par "container-fluid" -->
             <div class="row">
                 <div class="text-center">
-                <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
+                <img src="images/gif6.gif" alt="Logo" class="img-fluid robotFooter">
                     <div class="copyright-text">
                         <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
                     </div>
@@ -126,7 +122,7 @@
 
 <!-- FOOTER DESKTOP -->
 <footer class="footer-section d-none d-md-block">
-    <div class="container">
+    <div class="container-fluid"> <!-- Remplacé par "container-fluid" -->
         <!-- Section CTA -->
         <div class="footer-cta pt-5 pb-5">
             <div class="row text-center">
@@ -191,8 +187,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                     <div class="footer-widget">
                         <div class="footer-widget-heading2 text-center text-white m-2">
                             <h3>Liens utiles</h3>
@@ -207,8 +202,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                     <div class="footer-widget">
                         <div class="footer-widget-heading2 text-center text-white m-2">
                             <h3>Newsletter</h3>
@@ -217,34 +211,28 @@
                             <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
                         </div>
                         <div class="subscribe-form">
-                            <form id="newsletter-form" action="newsletter_signup.php" method="post" class="d-flex justify-content-center">
+                            <form id="newsletter-form-desktop" action="newsletter_signup.php" method="post" class="d-flex justify-content-center">
                                 <input type="email" name="email" placeholder="Adresse Mail" class="me-2" required>
                                 <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                             </form>
                         </div>
-                        <div class="mt-3">
-            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25">
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>    
+    <div class="copyright-area text-center">
+        <div class="container-fluid"> <!-- Remplacé par "container-fluid" -->
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 text-center">
+                    <img src="images/gif6.gif" alt="Logo" class="img-fluid robotFooter">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="copyright-area text-center">
-        <div class="container">
-            <div class="row">
-                <div class="text-center">
-                <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
-                <div class="copyright-text">
-                        <p>Copyright &copy; 2023 - <span id="date2"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Hoffmann Michel - Harmony Digital</span></a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mt-2">
-        <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
-    </div>   
- </div>
 </footer>
 <!-- FIN FOOTER DESKTOP -->
 

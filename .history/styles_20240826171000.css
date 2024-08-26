@@ -233,7 +233,9 @@ body {
 
 
 /* footer */
-
+footer{
+    width: 100;
+}
 .footer-section {
     background: #151414;
     position: relative;
