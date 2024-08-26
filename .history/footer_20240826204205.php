@@ -223,7 +223,7 @@
                             </form>
                         </div>
                         <div class="mt-3">
-            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25 mt-3">
+            <img src="images/robotFooter.webp" alt="Robot illustration" class="img-fluid w-25 m">
         </div>
                     </div>
                 </div>

@@ -235,10 +235,13 @@ body {
 /* FOOTER */
 
 footer{
+    
+    
+  }
+footer{
 position:fixed;
 bottom: 0;
-margin-left: -10px;
-width: 105%;
+width: 100%;
 }
 
 .container{

@@ -161,7 +161,6 @@ body {
     z-index: 0;
 }
 
-
 #logo-container {
     position: absolute;
     top: 50%;
@@ -233,12 +232,10 @@ body {
 /* /* FOND BINAIRE*/*/
 
 /* FOOTER */
-
 footer{
 position:fixed;
 bottom: 0;
-margin-left: -10px;
-width: 105%;
+width: 100%;
 }
 
 .container{
@@ -483,7 +480,7 @@ width: 100%;
 }
 /* END FOOTER */
 
-/*VIDEO DE MARKETING */
+/*VIDEO DEM%ARKETING */
 .videoCom {
 	padding: 15px;
 	border: 1px solid #ddd;
@@ -493,7 +490,7 @@ width: 100%;
 	border-radius: 2px 2px 2px 2px;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.2); 
 }
-/*VIDEO DE MARKETING */
+/* Fin vidéos  com */
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {

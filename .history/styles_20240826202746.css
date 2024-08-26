@@ -159,8 +159,6 @@ body {
     height: 100%;
     object-fit: cover;
     z-index: 0;
-}
-
 
 #logo-container {
     position: absolute;
@@ -233,12 +231,10 @@ body {
 /* /* FOND BINAIRE*/*/
 
 /* FOOTER */
-
 footer{
 position:fixed;
 bottom: 0;
-margin-left: -10px;
-width: 105%;
+width: 100%;
 }
 
 .container{

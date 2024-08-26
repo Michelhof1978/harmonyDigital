@@ -161,7 +161,6 @@ body {
     z-index: 0;
 }
 
-
 #logo-container {
     position: absolute;
     top: 50%;
@@ -174,9 +173,8 @@ body {
     max-width: 280px;
     max-height: auto;
 }
-/* FIN BANNER VIDEO*/ 
+/* FIN BANNER VIDEO*/ */
 
-/* FOND BINAIRE*/
 #binary-background {
     position: fixed;
     top: 0;
@@ -230,15 +228,15 @@ body {
     0%, 100% { opacity: 1; }
     50% { opacity: 0; }
 }
-/* /* FOND BINAIRE*/*/
+/* Fin Styles pour le fond binaire form contact*/
 
-/* FOOTER */
 
+
+/* footer */
 footer{
 position:fixed;
 bottom: 0;
-margin-left: -10px;
-width: 105%;
+width: 100%;
 }
 
 .container{
@@ -483,7 +481,7 @@ width: 100%;
 }
 /* END FOOTER */
 
-/*VIDEO DE MARKETING */
+/*vidéos  com */
 .videoCom {
 	padding: 15px;
 	border: 1px solid #ddd;
@@ -493,7 +491,7 @@ width: 100%;
 	border-radius: 2px 2px 2px 2px;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.2); 
 }
-/*VIDEO DE MARKETING */
+/* Fin vidéos  com */
 
 /* Media queries pour les appareils mobiles */
 @media (max-width: 768px) {

@@ -161,7 +161,6 @@ body {
     z-index: 0;
 }
 
-
 #logo-container {
     position: absolute;
     top: 50%;
@@ -233,12 +232,10 @@ body {
 /* /* FOND BINAIRE*/*/
 
 /* FOOTER */
-
 footer{
 position:fixed;
 bottom: 0;
-margin-left: -10px;
-width: 105%;
+width: 100%;
 }
 
 .container{
