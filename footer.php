@@ -53,7 +53,7 @@
                         <div class="footer-text">
                             <p class="lead p-3 mx-auto fw-bold">
                                 Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
-                                <a href="https://discord.com" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
+                                <a href="<?php echo DISCORD; ?>" class="text-decoration-custom" target="_blank" rel="noopener noreferrer">
                                     <span class="text-orange-nav2">Discord</span>
                                 </a>.
                             </p>       
@@ -61,10 +61,10 @@
 
                         <div class="footer-social-icon">
                             <span class="pt-3 d-block ms-2 me-4">Suivez-nous !</span>
-                            <a href="https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g" target="_blank">
+                            <a href="YOUTUBE" target="_blank">
                                 <i class="fab fa-youtube youtube-bg me-1"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/michel-h-245436203/" target="_blank">
+                            <a href="LINKEDIN" target="_blank">
                                 <i class="fab fa-linkedin linkedin-bg"></i>
                             </a>
                         </div>

@@ -106,13 +106,15 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">1. Site Web Vitrine</h2>
                 <p>Un site vitrine est conçu pour présenter des informations de manière simple et efficace. Idéal pour les petites entreprises ou les professionnels souhaitant une présence en ligne de base.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 590 à 2 000 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 590 à 2 290 euros</span></p>
                 <ul>
                     <li>Design de base et mise en page</li>
                     <li>Création de pages essentielles (accueil, à propos, contact)</li>
                     <li>Intégration des éléments de marque (logo, couleurs)</li>
                     <li>Optimisation SEO de base</li>
                     <li>Formation pour la gestion du contenu</li>
+                    <li>Formulaire de contact suivant la formule choisie</li>
+                    <li>Limité à 1 à 4 pages maximum selon la formule choisi</li>
                 </ul>
             </div>
         </div>
@@ -170,7 +172,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
                 <h3>Maintenance et Support</h3>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 50 à 200 euros</span> par mois</p>
+                <p><strong>Tarif Abonnement Mensuel :</strong> <span class="discord fw-bold">De 50 à 200 euros</span> </p>
                 <ul>
                     <li>Mises à jour régulières</li>
                     <li>Sauvegardes</li>
@@ -178,20 +180,21 @@
                 </ul>
                 
                 <h3>Nom de Domaine</h3>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 10 à 30 euros par an</span></p>
+                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">De 15 à 70 euros </span></p>
                 <ul>
                     <li>Enregistrement et renouvellement du nom de domaine</li>
                 </ul>
 
                 <h3>Hébergement</h3>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 50 à 200 euros</span> par an</p>
+                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">De 60 à 200 euros</span> </p>
                 <ul>
                     <li>Hébergement web</li>
                     <li>Support technique associé</li>
+                    <li>Service d'Emailing</li>
                 </ul>
 
-                <h3>Certificat SSL</h3>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">Offert</span></p>
+                <h3>Protection contre les intrusions et les attaques par piratage</h3>
+                <p><strong>Tarif Mensuel :</strong> <span class="discord fw-bold">5 euros</span></p>
                 <ul>
                     <li>Sécurisation des données échangées entre le site et ses visiteurs</li>
                 </ul>
@@ -199,6 +202,13 @@
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
             <img src="images/robotTarifs2.webp" alt="robot illustratif" class="img-fluid mx-auto w-50">
+        </div>
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container">
+            <video autoplay loop muted playsinline class="rounded w-75">
+                <source src="videos/iatarif.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </section>
@@ -219,8 +229,8 @@
                 <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">De 150 à 500 euros</span></p>
                 <ul>
-                    <li>Conception de 1 à 2 propositions de logo</li>
-                    <li>Révisions limitées (généralement 1 à 2)</li>
+                    <li>Conception de 1 à 5 propositions de logo</li>
+                    <li>Révisions limitées (généralement 1 à 5)</li>
                     <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
                     <li>Guide de style de base (couleurs, typographie)</li>
                 </ul>
@@ -233,9 +243,9 @@
                 <p>Pour des besoins plus élaborés, incluant plusieurs propositions et révisions.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">De 800 à 1 500 euros</span></p>
                 <ul>
-                    <li>Conception de 3 à 5 propositions de logo</li>
+                    <li>Conception de 3 à 8 propositions de logo</li>
                     <li>Révisions supplémentaires (généralement 3 à 5)</li>
-                    <li>Livraison des fichiers finaux en formats raster et vectoriels (AI, EPS, SVG)</li>
+                    <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
                     <li>Guide de style détaillé (couleurs, typographie, utilisation)</li>
                     <li>Consultation sur l'identité visuelle</li>
                 </ul>
@@ -250,9 +260,9 @@
                 <p>Pour les marques qui nécessitent une approche approfondie avec des recherches et une stratégie complète.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">De 1 500 à 3 000 euros</span></p>
                 <ul>
-                    <li>Conception de 5 à 10 propositions de logo</li>
+                    <li>Conception de 5 à 15 propositions de logo</li>
                     <li>Révisions illimitées</li>
-                    <li>Livraison des fichiers finaux en formats raster et vectoriels (AI, EPS, SVG)</li>
+                    <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
                     <li>Guide de style complet (couleurs, typographie, utilisation)</li>
                     <li>Consultation stratégique et recherche de marque</li>
                     <li>Applications de logo sur divers supports</li>
@@ -269,7 +279,7 @@
                     <li>Conception personnalisée en fonction des besoins uniques</li>
                     <li>Recherche approfondie et développement</li>
                     <li>Révisions et itérations illimitées</li>
-                    <li>Livraison des fichiers finaux en formats raster et vectoriels (AI, EPS, SVG)</li>
+                    <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
                     <li>Guide de style complet avec applications variées</li>
                     <li>Support et conseils prolongés</li>
                 </ul>
@@ -312,7 +322,7 @@
     
 
 <div class="fw-bold text-center m-5 text-white press-start-2p-regular">
-    Pour toute demande relative aux tarifs,<br> nous vous prions de bien vouloir nous contacter.
+    Pour toute demande relative aux tarifs de nos autres services,<br> nous vous prions de bien vouloir nous contacter.
 </div>
 
     
