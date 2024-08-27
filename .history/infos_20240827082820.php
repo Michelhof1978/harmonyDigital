@@ -92,14 +92,11 @@
                 <img src="images/robotinfo1.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
             <div class="col-8">
-            <p class="lead text-white text-center fw-bold fs-5 mt-5">
-    L’expert métier, c’est vous !<br> 
-    L’expert <a href="<?php echo AGILE; ?>" style="color: #e06717e4;" target="_blank">tech and agile</a>, c’est nous ! <br>
-    Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
-    <span style="color: #e06717e4;">Laissez-nous vous simplifier la vie !</span>
-</p>
-
-
+                <p class="lead text-white text-center fw-bold fs-5 mt-5">
+                    L’expert métier, c’est vous !<br> L’expert<a href="<?php echo CX; ?>" style="color: #e06717e4;" target="_blank">tech and agile</a> , c’est nous ! <br>
+                    Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
+                    <span style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</span>
+                </p>
             </div>
         </div>
 </div>
@@ -166,7 +163,7 @@
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
                 Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
                 Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
-                Notre Product Owner fera le lien entre toutes les parties investies dans le projet, dès le premier jour et jusqu'à la fin du projet. <br>Il sera votre seul référent tout au long de notre collaboration.
+                Notre Product Owner Michel fera le lien entre toutes les parties investies dans le projet, dès le premier jour. <br>Il sera votre référent tout au long de notre collaboration.
                 </p>
             </div>
             <div class="col-4">
