@@ -75,16 +75,12 @@
     </div>
 
     <div class="container">
-    <p class="lead text-white text-center fs-5 mt-5 mb-5 fw-bold">
-        Du concept à sa réalisation et au-delà, <span style="color: #e06717e4;">Harmony Digital</span> s’appuie sur son approche 
-        <a href="<?php echo SMART; ?>" style="color: #e06717e4;" target="_blank">SMART</a> 
-        et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
-        <a href="<?php echo UX; ?>" style="color: #e06717e4;" target="_blank">UX</a> (User Experience) et 
-        <a href="<?php echo CX; ?>" style="color: #e06717e4;" target="_blank">CX</a> 
-        (Customer Experience) sont au cœur de notre politique d’Innovation !
-    </p>
+        <p class="lead text-white text-center fs-5 mt-5 mb-5 fw-bold">
+            Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital </span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
+            <a href="<?php echo UX; ?>" style="color: #e06717e4;">UX</a> (User Experience) et <a href=<?php echo CX; ?> https://www.oracle.com/fr/cx/what-is-cx/" style="color: #e06717e4;">CX</a>
+            (Customer Experience) sont au cœur de notre politique d’Innovation !
+        </p>
 </div>
-
 
     <div class="container mb-5">
         <div class="row">

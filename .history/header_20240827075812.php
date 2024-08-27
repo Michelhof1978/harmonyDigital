@@ -1,10 +1,8 @@
 <body>
 <?php
   // Constantes pour les URLs
-  define('UX', 'https://esokia.com/fr/blog/ux-ui-quest-ce-que-ca-signifie');
-  define('CX', 'https://www.oracle.com/fr/cx/what-is-cx/');
-  define('SMART', 'https://www.manager-go.com/vente/methode-smart.htm');
-
+  define('AUTHOR_URL', 'https://harmony-digital.fr/');
+  define('AUTHOR_URL', 'https://harmony-digital.fr/');
  
 ?>
 
