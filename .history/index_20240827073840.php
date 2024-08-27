@@ -396,7 +396,7 @@ h4 {
     <img src="images/banniererobotindex.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
 
-<img src="images/gif3.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
+<img src="images/gif3.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px; margin-left: 150px;">
 
 <img src="images/gif3.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 

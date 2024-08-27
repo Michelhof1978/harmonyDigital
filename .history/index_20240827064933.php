@@ -386,19 +386,15 @@ h4 {
     <div id="currency-background"></div>
     
 
-<div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
-<img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter d-none d-md-block">
-<img src="images/banniererobotindex.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
-    <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter d-none d-md-block">
-    </div>
+    <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
+    <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
+    <img src="images/banniererobotindex.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-50 rounded">
+    <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
+</div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
     <img src="images/banniererobotindex.webp" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
-
-<img src="images/gif3.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
-
-<img src="images/gif3.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
