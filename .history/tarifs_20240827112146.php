@@ -8,19 +8,6 @@
     <link rel="canonical" href="https://harmony-digital.fr/tarifs">
 
     <style>
-         /* Assure que la vidéo prend toute la largeur sur les petits écrans */
-    @media (max-width: 767.98px) {
-        .video-responsive {
-            width: 100% !important;
-            height: auto; /* Ajuste la hauteur pour maintenir les proportions */
-        }
-    }
-
-    /* La largeur de la vidéo sur les écrans moyens et plus grands reste inchangée */
-    .video-responsive {
-        width: 75%; /* Ajuste la largeur pour les écrans moyens et plus grands */
-        height: auto; /* Ajuste la hauteur pour maintenir les proportions */
-    }
         .tarifs-section {
             margin-top: 30px;
         }
