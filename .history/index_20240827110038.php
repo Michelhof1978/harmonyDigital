@@ -205,8 +205,8 @@ h4 {
    background-repeat: no-repeat;
 }
 
-.robotIndex {
-	position: fixed;
+ {
+	posi.robotIndextion: fixed;
     top: 50%;
     right: 0;
     transform: translateY(-50%);

@@ -205,14 +205,17 @@
         </div>
 </section>
 
-<div class="mt-5 mb-5 d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-    <video autoplay loop muted playsinline class="rounded w-75">
-        <source src="videos/iatarif.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la balise <code>video</code>.
-    </video>
+<div class="ms-5 mt-5 mb-5 d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+    <div class="">
+        <video autoplay loop muted playsinline class="rounded w-75">
+            <source src="videos/iatarif.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise <code>video</code>.
+        </video>
+    </div>
 </div>
-
-
+<div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
+        <img src="images/robotIntro.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid"> 
+    </div>
 
 <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
@@ -321,7 +324,7 @@
     
 
 <div class="fw-bold text-center m-5 text-white press-start-2p-regular">
-    Pour toute demande relative aux tarifs à nos autres services,<br> nous vous prions de bien vouloir nous contacter.
+    Pour toute demande relative aux tarifs de nos autres services,<br> nous vous prions de bien vouloir nous contacter.
 </div>
 
     

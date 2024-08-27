@@ -8,6 +8,14 @@
     <link rel="canonical" href="https://harmony-digital.fr/tarifs">
 
     <style>
+ .robotIndex {
+	position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 20%; 
+
+}
         .tarifs-section {
             margin-top: 30px;
         }
@@ -205,12 +213,20 @@
         </div>
 </section>
 
-<div class="mt-5 mb-5 d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-    <video autoplay loop muted playsinline class="rounded w-75">
-        <source src="videos/iatarif.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la balise <code>video</code>.
-    </video>
+
+
+<div class="mt-5 mb-5">
+    <div class="">
+        <video autoplay loop muted playsinline class="rounded w-75">
+            <source src="videos/iatarif.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise <code>video</code>.
+        </video>
+    </div>
+    <div class="robotIndex position-absolute top-50 end-0 translate-middle-y d-none d-md-block">
+        <img src="images/robotIntro.webp" alt="Robot illustration" loading="lazy" class="img-fluid"> 
+    </div>
 </div>
+
 
 
 
@@ -321,7 +337,7 @@
     
 
 <div class="fw-bold text-center m-5 text-white press-start-2p-regular">
-    Pour toute demande relative aux tarifs à nos autres services,<br> nous vous prions de bien vouloir nous contacter.
+    Pour toute demande relative aux tarifs de nos autres services,<br> nous vous prions de bien vouloir nous contacter.
 </div>
 
     

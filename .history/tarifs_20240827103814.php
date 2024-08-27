@@ -205,13 +205,14 @@
         </div>
 </section>
 
-<div class="mt-5 mb-5 d-flex justify-content-center align-items-center" style="min-height: 50vh;">
-    <video autoplay loop muted playsinline class="rounded w-75">
-        <source src="videos/iatarif.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la balise <code>video</code>.
-    </video>
+<div class="md-flex justify-content-center align-items-center" style="min-height: 50vh;">
+    <div class="">
+        <video autoplay loop muted playsinline class="rounded w-75">
+            <source src="videos/iatarif.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise <code>video</code>.
+        </video>
+    </div>
 </div>
-
 
 
 <section class="container tarifs-section text-white">
@@ -321,7 +322,7 @@
     
 
 <div class="fw-bold text-center m-5 text-white press-start-2p-regular">
-    Pour toute demande relative aux tarifs à nos autres services,<br> nous vous prions de bien vouloir nous contacter.
+    Pour toute demande relative aux tarifs de nos autres services,<br> nous vous prions de bien vouloir nous contacter.
 </div>
 
     
