@@ -212,7 +212,7 @@
         <div class="row">
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
-                    L’expert métier, c’est vous !<br> L’expert tech and <a href="<?php echo AGILE; ?>" style="color: #e06717e4;" target="_blank">agile</a>, c’est nous ! <br>
+                    L’expert métier, c’est vous !<br> L’expert tech and <a href="<?php echo AGILE; ?>" style="color: #e06717e4;" target="_blank">tech and agile</a>, c’est nous ! <br>
                     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
                 </p>
                 <p class="mt-3 lead text-center fw-bold" style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</p>

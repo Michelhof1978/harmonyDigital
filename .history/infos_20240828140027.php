@@ -197,9 +197,7 @@
         </p>
 
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
-        <a href="<?php echo UX; ?>" style="color: #e06717e4;" target="_blank">UX</a> (User Experience) et 
-        <a href="<?php echo CX; ?>" style="color: #e06717e4;" target="_blank">CX</a> 
-        (Customer Experience) sont au cœur de notre politique d’Innovation !
+            <span style="color: #e06717e4 ;">UX</span> (User Experience) et <span style="color: #e06717e4 ;">CX</span> (Customer Experience) sont au cœur de notre politique d’Innovation !
         </p>
 </div>
 
@@ -212,7 +210,7 @@
         <div class="row">
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
-                    L’expert métier, c’est vous !<br> L’expert tech and <a href="<?php echo AGILE; ?>" style="color: #e06717e4;" target="_blank">agile</a>, c’est nous ! <br>
+                    L’expert métier, c’est vous !<br> L’expert tech and agile, c’est nous ! <br>
                     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
                 </p>
                 <p class="mt-3 lead text-center fw-bold" style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</p>

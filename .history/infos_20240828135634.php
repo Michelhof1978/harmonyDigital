@@ -68,7 +68,7 @@
 
  <img src="images/gif4.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
 
-<img src="images/gif5.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
+<img src="images/gif4.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 
 <!-- OFFRES DESKTOP -->
 <div class="d-none d-md-block">
@@ -156,10 +156,12 @@
                 <img src="images/robotinfo3.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
             <div class="col-8">
-                <p class="lead text-white text-center fw-bold fs-5 mt-5">
-                De <span style="color: #e06717e4 ;">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
-                En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>.
-                </p>
+            Du concept à sa réalisation et au-delà, <span style="color: #e06717e4;">Harmony Digital</span> s’appuie sur son approche 
+        <a href="<?php echo SMART; ?>" style="color: #e06717e4;" target="_blank">SMART</a> 
+        et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
+        <a href="<?php echo UX; ?>" style="color: #e06717e4;" target="_blank">UX</a> (User Experience) et 
+        <a href="<?php echo CX; ?>" style="color: #e06717e4;" target="_blank">CX</a> 
+        (Customer Experience) sont au cœur de notre politique d’Innovation !
             </div>
         </div>
 </div>
@@ -193,13 +195,11 @@
 
     <div class="container">
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
-            Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital</span> s’appuie sur son approche <a href="<?php echo SMART; ?>" style="color: #e06717e4;" target="_blank">SMART</a>  et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
+            Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital</span> s’appuie sur son approche SMART et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
         </p>
 
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
-        <a href="<?php echo UX; ?>" style="color: #e06717e4;" target="_blank">UX</a> (User Experience) et 
-        <a href="<?php echo CX; ?>" style="color: #e06717e4;" target="_blank">CX</a> 
-        (Customer Experience) sont au cœur de notre politique d’Innovation !
+            <span style="color: #e06717e4 ;">UX</span> (User Experience) et <span style="color: #e06717e4 ;">CX</span> (Customer Experience) sont au cœur de notre politique d’Innovation !
         </p>
 </div>
 
@@ -212,7 +212,7 @@
         <div class="row">
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
-                    L’expert métier, c’est vous !<br> L’expert tech and <a href="<?php echo AGILE; ?>" style="color: #e06717e4;" target="_blank">agile</a>, c’est nous ! <br>
+                    L’expert métier, c’est vous !<br> L’expert tech and agile, c’est nous ! <br>
                     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
                 </p>
                 <p class="mt-3 lead text-center fw-bold" style="color: #e06717e4 ;">Laissez-nous vous simplifier la vie !</p>
