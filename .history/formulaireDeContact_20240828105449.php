@@ -156,12 +156,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </div>  
  <!--Fin Banner desktop -->
 
- <img src="images/gif7.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -20px;">
-
-<img src="images/gif7.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -20px; margin-left: 150px;">
-
-<h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center text-white fw-bold">
-   Formulaire De Contact
+  
+<h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center ">
+    <strong class="text-white">Formulaire De Contact</strong>
 </h1>
 
 <div class="text-center mt-5">

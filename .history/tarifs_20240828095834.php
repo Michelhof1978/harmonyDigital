@@ -101,9 +101,9 @@
     <img src="images/banniererobottarifs.webp" alt="Bannière illustrative de bienvenue avec un robot" class="img-fluid w-100 rounded mb-2">
 </div>
 
-<img src="images/gif5.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
+<img src="images/gif4.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
 
-<img src="images/gif5.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
+<img src="images/gif4.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
  <!--Fin Banner desktop -->
     <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
