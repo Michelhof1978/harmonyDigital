@@ -237,11 +237,12 @@ body {
 footer{
 position:fixed;
 bottom: 0;
-width: 100%;
+margin-left: -10px;
+width: 110%;
 }
 
 .container{
-width: 100%;
+width: 110%;
 }
 
 .footer-section {

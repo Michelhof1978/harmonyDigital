@@ -238,15 +238,19 @@ footer{
 position:fixed;
 bottom: 0;
 width: 100%;
+margin: 0;
+padding: 0;
 }
 
 .container{
 width: 100%;
+
 }
 
 .footer-section {
     background: #151414;
     position: relative;
+    width: 100%;
 }
 
 .footer-cta {

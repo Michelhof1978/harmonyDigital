@@ -68,7 +68,7 @@
 
  <img src="images/gif4.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
 
-<img src="images/gif4.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
+<img src="images/gif3.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 
 <!-- OFFRES DESKTOP -->
 <div class="d-none d-md-block">

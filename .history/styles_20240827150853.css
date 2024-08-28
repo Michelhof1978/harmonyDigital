@@ -238,10 +238,13 @@ footer{
 position:fixed;
 bottom: 0;
 width: 100%;
+padding-left: -45%;
+padding-right: -15%;
 }
 
 .container{
 width: 100%;
+
 }
 
 .footer-section {

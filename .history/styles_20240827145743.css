@@ -237,6 +237,7 @@ body {
 footer{
 position:fixed;
 bottom: 0;
+margin-left: -10px;
 width: 100%;
 }
 

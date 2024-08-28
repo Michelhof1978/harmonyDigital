@@ -237,7 +237,8 @@ body {
 footer{
 position:fixed;
 bottom: 0;
-width: 100%;
+margin-left: -10px;
+width: 100vh;
 }
 
 .container{

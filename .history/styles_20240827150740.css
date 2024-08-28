@@ -238,10 +238,14 @@ footer{
 position:fixed;
 bottom: 0;
 width: 100%;
+margin-left: -15px;
+margin-right: -15px;
 }
 
 .container{
 width: 100%;
+
+
 }
 
 .footer-section {
