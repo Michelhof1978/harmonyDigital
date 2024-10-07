@@ -567,3 +567,30 @@ width: 100%;
         font-style: normal;
     }
 }
+
+/* Derniere phrase avant footer*/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    position: relative; /* ou fixed si nécessaire */
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    max-width: 1200px; /* ou la largeur que vous désirez */
+    margin: 0 auto;
+    padding: 20px;
+}

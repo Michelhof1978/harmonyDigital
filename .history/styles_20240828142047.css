@@ -234,19 +234,24 @@ body {
 
 /* FOOTER */
 
-footer{
-position:fixed;
-bottom: 0;
-width: 100%;
-}
-
-.container{
-width: 100%;
-}
-
-.footer-section {
+footer {
+    width: 100%;
     background: #151414;
     position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-section .container, .footer-content .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
 }
 
 .footer-cta {
@@ -567,3 +572,31 @@ width: 100%;
         font-style: normal;
     }
 }
+
+/* Derniere phrase avant footer*/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    position: relative; /* ou fixed si nécessaire */
+    bottom: 0;
+    left: 0;
+}
+
+.footer-content {
+    max-width: 1200px; /* ou la largeur que vous désirez */
+    margin: 0 auto;
+    padding: 20px;
+}
+

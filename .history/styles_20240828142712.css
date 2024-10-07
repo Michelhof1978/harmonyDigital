@@ -567,3 +567,25 @@ width: 100%;
         font-style: normal;
     }
 }
+
+/* Derniere phrase avant footer*/
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+  footer.footer-section {
+    width: 100%; /* Assure que le footer prend 100% de la largeur */
+    background: #151414; /* Assurez-vous que le background du footer est bien visible */
+}
+
+.footer-section .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.copyright-area {
+    width: 100%; /* Assure que la section des droits d'auteur prend 100% de la largeur */
+}
