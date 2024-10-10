@@ -233,7 +233,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo2.webp" loading="lazy" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo2.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -250,7 +250,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo3.webp" loading="lazy" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo3.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -267,7 +267,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo4.webp" loading="lazy" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo4.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -304,7 +304,7 @@
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 <div class="text-center mb-4">
-        <img src="images/robotinfo5.webp" loading="lazy" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
+        <img src="images/robotinfo5.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
     </div>
     
     <?php include("footer.php"); ?>

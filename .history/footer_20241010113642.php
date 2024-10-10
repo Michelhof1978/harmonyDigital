@@ -1,6 +1,6 @@
 
 <!-- FOOTER MOBILE -->
-<footer class="footer-section d-block d-md-none ">
+<footer class="footer-section d-block d-md-none container-fluid">
     <div class="container">
         <!-- Section CTA -->
         <div class="footer-cta pt-5 pb-5 text-center">
@@ -10,7 +10,7 @@
                         <i class="fas fa-map-marker-alt me-2"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
-                            <span>La Motte<br>58 300 Decize</span>
+                            <span>4, La Croix Rouge<br>03 230 Garnat-sur-Engièvre</span>
                         </div>
                     </div>
                 </div>
@@ -117,9 +117,9 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="mt-2">
+        <div class="mt-2">
         <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
-    </div> -->
+    </div>
     </div>
 </footer>
 <!-- FIN FOOTER MOBILE -->
@@ -135,7 +135,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
-                            <span>La Motte<br>58 300 Decize</span>
+                            <span>4, La Croix Rouge<br>03 230 Garnat-sur-Engièvre</span>
                         </div>
                     </div>
                 </div>

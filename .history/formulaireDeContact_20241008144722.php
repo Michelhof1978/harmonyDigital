@@ -152,20 +152,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
   <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobotform.webp" loading="lazy" alt="Bannière illustrative de bienvenue avec un robot" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotform.webp" alt="Bannière illustrative de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>  
  <!--Fin Banner desktop -->
 
  <img src="images/gif7.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -20px;">
 
-<img src="images/gif7.gif" alt="robot gif" loading="lazy" class="img-fluid d-none d-md-block" style="margin-bottom: -20px; margin-left: 150px;">
+<img src="images/gif7.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -20px; margin-left: 150px;">
 
 <h1 class="border borderColor border-4 rounded p-2 col ms-5 me-5 mt-4 text-center text-white fw-bold">
    Formulaire De Contact
 </h1>
 
 <div class="text-center mt-5">
-    <img src="images/contactRobot.webp" loading="lazy" alt="robot" class="img-fluid w-50">
+    <img src="images/contactRobot.webp" alt="robot" class="img-fluid w-50">
 </div>
 
 <h4 class="m-5 text-center">
@@ -288,7 +288,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 text-center">
-        <img src="images/robotForm.webp" loading="lazy" alt="robot" class="img-fluid mx-auto w-50">
+        <img src="images/robotForm.webp" alt="robot" class="img-fluid mx-auto w-50">
     </div>
 </div>
 

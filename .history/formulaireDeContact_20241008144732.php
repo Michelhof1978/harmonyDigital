@@ -165,7 +165,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </h1>
 
 <div class="text-center mt-5">
-    <img src="images/contactRobot.webp" loading="lazy" alt="robot" class="img-fluid w-50">
+    <img src="images/contactRobot.webp" alt="robot" class="img-fluid w-50">
 </div>
 
 <h4 class="m-5 text-center">
@@ -288,7 +288,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-6 text-center">
-        <img src="images/robotForm.webp" loading="lazy" alt="robot" class="img-fluid mx-auto w-50">
+        <img src="images/robotForm.webp" alt="robot" class="img-fluid mx-auto w-50">
     </div>
 </div>
 

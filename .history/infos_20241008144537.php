@@ -304,7 +304,7 @@
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 <div class="text-center mb-4">
-        <img src="images/robotinfo5.webp" loading="lazy" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
+        <img src="images/robotinfo5.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
     </div>
     
     <?php include("footer.php"); ?>

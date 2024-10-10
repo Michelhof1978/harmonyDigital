@@ -10,7 +10,7 @@
                         <i class="fas fa-map-marker-alt me-2"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
-                            <span>La Motte<br>58 300 Decize</span>
+                            <span>L<br>03 230 Garnat-sur-Engièvre</span>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="cta-text">
                             <h4>Adresse</h4>
-                            <span>La Motte<br>58 300 Decize</span>
+                            <span>4, La Croix Rouge<br>03 230 Garnat-sur-Engièvre</span>
                         </div>
                     </div>
                 </div>
