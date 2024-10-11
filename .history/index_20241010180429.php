@@ -7,10 +7,7 @@
     <link rel="canonical" href="https://harmony-digital.fr/accueil">
 
    <style>  
-footer{
-    margin-left: -8px;
-    margin-right: -4px;
-}
+
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
 }
