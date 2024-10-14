@@ -367,11 +367,8 @@ h4 {
     </div>
 
  <!-- Mode mobile-->
- <div class="d-block d-lg-none text-center">
-  <img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter" style="margin-bottom: -50px;">
-</div>
-
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
+<img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter ">
 <img src="images/banniererobotindex.webp" loading="lazy" alt="Bannière de bienvenue avec un robot où tous les rêves se réalisent" class="img-fluid w-100 rounded">
 </div>
 

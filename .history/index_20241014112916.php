@@ -368,7 +368,7 @@ h4 {
 
  <!-- Mode mobile-->
  <div class="d-block d-lg-none text-center">
-  <img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter" style="margin-bottom: -50px;">
+  <img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" style=" " class="img-fluid robotFooter">
 </div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">

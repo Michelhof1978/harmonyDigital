@@ -1,6 +1,6 @@
  <?php include("head.php"); ?>
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
-    <title>Agence De Création De Site Web En France</title>
+    <title>Conception de Sites Web de Qualité | Création Professionnelle & Optimisation SEO</title>
    
     <meta property="og:url" content="https://harmony-digital.fr/accueil">
     <!-- Canonical Link -->
@@ -359,29 +359,24 @@ h4 {
     <?php include("header.php"); ?>
     <div id="binary-background"></div>
     
- <!-- Mode desktop-->
+
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
 <img src="images/gif6.gif" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter d-none d-md-block">
 <img src="images/banniererobotindex.webp" loading="lazy" alt="Bannière de bienvenue avec un robot où tous les rêves se réalisent" class="img-fluid w-50 rounded">
     <img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter d-none d-md-block">
     </div>
 
- <!-- Mode mobile-->
- <div class="d-block d-lg-none text-center">
-  <img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter" style="margin-bottom: -50px;">
-</div>
-
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-<img src="images/banniererobotindex.webp" loading="lazy" alt="Bannière de bienvenue avec un robot où tous les rêves se réalisent" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotindex.webp" loading="lazy" alt="Bannière de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
 
-<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
-<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
+<img src="images/gif3.gif" alt="robot gif" loading="lazy" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
 
+<img src="images/gif3.gif" alt="robot gif" loading="lazy" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-    Agence De Création De Site Web En France
+    Agence De création de site web
 </h1>
 
 
