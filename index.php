@@ -683,11 +683,11 @@ h4 {
 
 <div class="d-flex ms-0 mb-5 position-relative text-center me-5" style="margin-top:-50px;">
     <!-- Image à gauche -->
-    <img src="images/robotIntro3.webp" alt="Robot de décoration" loading="lazy" class="img-fluid robotDomaine2">
+    <img src="images/robotIntro3.webp" alt="Robot d'illustartion qui présente nos compétences clés'" loading="lazy" class="img-fluid robotDomaine2">
 
     <!-- Contenu principal -->
     <div class="w-75 text-white intro2 mt-5"> 
-        <img src="images/robotIntro2.webp" alt="Robot de décoration" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
+        <img src="images/robotIntro2.webp" alt="Robot d'illustration de compétences'" loading="lazy" class="img-fluid robotDomaine d-none d-md-block"> 
 
         <h3 class="neon-yellow mt-5 mb-5">Pourquoi Choisir Nos Services ?</h3>
 
@@ -770,7 +770,7 @@ h4 {
 <!-- REFERENCE DESKTOP -->
 <div class="d-none d-md-flex ms-5 mb-5 position-relative justify-content-center">
     <div class="w-50 textIntro neon-section">
-        <img src="images/robotCompetence.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotDomaine"> 
+        <img src="images/robotCompetence.webp" alt="Robot d'illustration de séparateur de texte" loading="lazy" class="img-fluid robotDomaine"> 
 
         <div class="m-5">
             <div class="text-center">
@@ -779,7 +779,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur.png" alt="Robot d'illustration de séparateur de texte CONCEPTION GRAPHIQUE & WEBDESIGN" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -788,7 +788,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur2.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur2.png" alt="Robot d'illustration de séparateur de texte INTERFACE D'ADMINISTRATION" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -797,7 +797,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur3.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur3.png" alt="Robot d'illustration de séparateur de texte INTEGRATION HTML / CSS" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -806,7 +806,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur4.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur4.png" alt="Robot d'illustration de séparateur de texte DYNAMISATION DES PAGES PAR JAVASCRIPT" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -815,7 +815,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur5.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur5.png" alt="Robot d'illustration de séparateur de texte VALIDATION W3C & REFERENCEMENT NATUREL SEO" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -824,7 +824,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur6.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur6.webp" alt="Robot d'illustration de séparateur de texte CONCEPTION MULTI-PLATEFORME" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -843,7 +843,7 @@ h4 {
 <div class="d-block d-md-none d-flex ms-0 mb-5 position-relative ms-2 me-5">
     <!-- Contenu principal à gauche -->
     <div class="w-75 neon-section text-center">
-        <img src="images/robotCompetence.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
+        <img src="images/robotCompetence.webp" alt="Robot d'illustration de séparateur de texte GESTION DE PROJET WEB" loading="lazy" class="img-fluid robotDomaine3 w-50"> 
 
         <div class="m-3">
             <div class="mb-3">
@@ -851,42 +851,42 @@ h4 {
                 <p class="text-white lead fw-bold">Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</p>
             </div>
 
-            <img src="images/robotSeparateur.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur.png" alt="Robot d'illustration de séparateur de texte CONCEPTION GRAPHIQUE & WEBDESIGN" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
                 <p class="text-white lead fw-bold">Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</p>
             </div>
 
-            <img src="images/robotSeparateur2.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur2.png" alt="Robot d'illustration de séparateur de texte INTERFACE D'ADMINISTRATION" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTERFACE D'ADMINISTRATION</h5>
                 <p class="text-white lead fw-bold">PHP et MYSQL</p>
             </div>
 
-            <img src="images/robotSeparateur3.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur3.png" alt="Robot d'illustration de séparateur de texte INTEGRATION HTML / CSS" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">INTEGRATION HTML / CSS</h5>
                 <p class="text-white lead fw-bold">Codage à la main respectueux des standards du web</p>
             </div>
 
-            <img src="images/robotSeparateur4.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur4.png" alt="Robot d'illustration de séparateur de texte DYNAMISATION DES PAGES PAR JAVASCRIPT" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">DYNAMISATION DES PAGES PAR JAVASCRIPT</h5>
                 <p class="text-white lead fw-bold">React et Vue.js</p>
             </div>
 
-            <img src="images/robotSeparateur5.png" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur5.png" alt="Robot d'illustration de séparateur de texte VALIDATION W3C & REFERENCEMENT NATUREL SEO" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
                 <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
             </div>
 
-            <img src="images/robotSeparateur6.webp" alt="Robot de décoration séparateur de texte" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur6.webp" alt="Robot d'illustration de séparateur de texte CONCEPTION MULTI-PLATEFORME" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="pb-4">
                 <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
