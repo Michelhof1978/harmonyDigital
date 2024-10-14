@@ -486,7 +486,7 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card4.png" loading="lazy" alt="Présentation des services de marketing digital avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card4.png" loading="lazy" alt="carte de présentation des services marketing digital avec un robot" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
                         <div class="card-body">
@@ -501,7 +501,7 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card5.png" loading="lazy" alt="carte de présentation des services communication événementiel avec un robot" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
                         <div class="card-body">
@@ -516,7 +516,7 @@ h4 {
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card6.png" loading="lazy" alt="carte de présentation des services campagne publicitaire avec un robot" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
                         <div class="card-body">
@@ -621,7 +621,7 @@ h4 {
 
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
