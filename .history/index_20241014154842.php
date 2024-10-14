@@ -779,7 +779,7 @@ h4 {
             </div>
 
             <div>
-                <img src="images/robotSeparateur.png" alt="Robot d'illustration qui présente" loading="lazy" class="img-fluid robotSeparateur"> 
+                <img src="images/robotSeparateur.png" alt="Robot d'illustration" loading="lazy" class="img-fluid robotSeparateur"> 
             </div>
 
             <div class="text-center">
@@ -851,7 +851,7 @@ h4 {
                 <p class="text-white lead fw-bold">Site vitrine, corporate, évènementiel, e-commerce adaptable mobile et tablette</p>
             </div>
 
-            <img src="images/robotSeparateur.png" alt="Robot d'illustration qui présente" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
+            <img src="images/robotSeparateur.png" alt="Robot d'illustration de séparateur de texte CONCEPTION GRAPHIQUE & WEBDESIGN" loading="lazy" class="img-fluid robotSeparateur mb-3"> 
 
             <div class="mb-3">
                 <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
