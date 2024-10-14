@@ -38,7 +38,7 @@
 
 footer{
     margin-left: -8px;
-    margin-right: -7px;
+    margin-right: -5px;
 }
 h4 {
     color: #FFFF66; /* Jaune néon très clair */

@@ -112,7 +112,7 @@
                 <div class="text-center">
                 <img src="images/gif6.gif" loading="lazy" alt="robot gif" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2022 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Site réalisé par Michel Hoffmann <br> Harmony Digital</span></a></p>
+                        <p>Copyright &copy; 2022 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Site réalisé par Michel Hoffmann - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
@@ -493,7 +493,7 @@
         "url": "https://harmony-digital.fr/",
         "priceCurrency": "EUR",
         "price": "100",
-        "priceValidUntil": "2035-12-31",
+        "priceValidUntil": "2025-12-31",
         "description": "Profitez de 10% de réduction sur nos services de création de sites web. Offre valable jusqu'au 31 décembre 2024. Consultez les détails de l'offre sur notre site."
     }
 }

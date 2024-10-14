@@ -8,37 +8,10 @@
 
    <style>  
 
-   /* Fond 0 et 1 index */
-#currency-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-}
-.currency-particle {
-    position: absolute;
-    color: lime;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 10px;
-    white-space: nowrap;
-    animation: move 5s linear infinite;
-    opacity: 0.8;
-}
-@keyframes move {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(100%);
-    }
-}
-
+   
 footer{
     margin-left: -8px;
-    margin-right: -7px;
+    margin-right: -4px;
 }
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
@@ -386,9 +359,7 @@ h4 {
 </head>
 
     <?php include("header.php"); ?>
-
-<!-- Obligé de mettre le code fond binaire identique à d'autres page mais en mode mobile, cela ne fonctionne donc doublon de code-->
-    <div id="currency-background"></div>
+    <div id="binary-background"></div>
     
  <!-- Mode desktop-->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
@@ -1134,32 +1105,6 @@ h4 {
 
     updateCountdown();
     const countdownTimer = setInterval(updateCountdown, 1000);
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const numParticles = 100; // Nombre total de particules
-    const currencyBackground = document.getElementById('currency-background');
-    const characters = ['0', '1']; // Chiffres 0 et 1
-    function createParticle() {
-        const particle = document.createElement('div');
-        particle.className = 'currency-particle';
-        particle.textContent = characters[Math.floor(Math.random() * characters.length)];
-        particle.style.left = `${Math.random() * 100}vw`;
-        particle.style.top = `${Math.random() * 100}vh`;
-        particle.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durée de l'animation entre 5 et 10 secondes
-        currencyBackground.appendChild(particle);
-    }
-    for (let i = 0; i < numParticles; i++) {
-        createParticle();
-    }
-    window.addEventListener('resize', () => {
-        currencyBackground.innerHTML = '';
-        for (let i = 0; i < numParticles; i++) {
-            createParticle();
-        }
-    });
-});
 </script>
 
 </body>

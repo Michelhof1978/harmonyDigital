@@ -215,7 +215,7 @@ body {
     color: lime;
     font-family: 'Courier New', Courier, monospace;
     opacity: 0.5;
-    font-size: 9px;
+    font-size: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;

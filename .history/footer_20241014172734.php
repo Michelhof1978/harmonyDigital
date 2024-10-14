@@ -112,7 +112,7 @@
                 <div class="text-center">
                 <img src="images/gif6.gif" loading="lazy" alt="robot gif" class="img-fluid robotFooter">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2022 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Site réalisé par Michel Hoffmann <br> Harmony Digital</span></a></p>
+                        <p>Copyright &copy; 2022 - <span id="date"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Site réalisé par Michel Hoffmann - Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>

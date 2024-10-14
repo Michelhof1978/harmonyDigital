@@ -38,7 +38,7 @@
 
 footer{
     margin-left: -8px;
-    margin-right: -7px;
+    margin-right: -4px;
 }
 h4 {
     color: #FFFF66; /* Jaune néon très clair */
@@ -387,7 +387,7 @@ h4 {
 
     <?php include("header.php"); ?>
 
-<!-- Obligé de mettre le code fond binaire identique à d'autres page mais en mode mobile, cela ne fonctionne donc doublon de code-->
+<!-- Obligé de mettre le code fond binaire identique à d'autres page-->
     <div id="currency-background"></div>
     
  <!-- Mode desktop-->
