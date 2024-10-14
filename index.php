@@ -921,7 +921,7 @@ h4 {
             <h2 class=" text-white fw-bold border borderColor border-4 rounded p-2 m-3 mb-5">
             Vidéos de Campagnes et Événements
             </h2>
-            <img src="images/robotVideo.webp" alt="image robot" loading="lazy" class="robotVideo img-fluid w-25">
+            <img src="images/robotVideo.webp" alt="Robot présentant 2 campagnes vidéo" loading="lazy" class="robotVideo img-fluid w-25">
         </div>
     </div>
     <div class="row justify-content-center g-0 g-md-5">

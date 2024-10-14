@@ -48,7 +48,7 @@
                             </a>
                         </div>
                         <div class="mb-3 text-center">
-            <img src="images/robotFooter.webp" loading="lazy" alt="Robot illustration" class="img-fluid w-25">
+            <img src="images/robotFooter.webp" loading="lazy" alt="Robot d'illustration pied de page" class="img-fluid w-25">
         </div>
                         <div class="footer-text">
                             <p class="lead p-3 mx-auto fw-bold">
@@ -223,7 +223,7 @@
                             </form>
                         </div>
                         <div class="mt-3">
-            <img src="images/robotFooter.webp" loading="lazy" alt="Robot illustration" class="img-fluid w-25 mt-3">
+            <img src="images/robotFooter.webp" loading="lazy" alt="Robot d'illustration pied de page" class="img-fluid w-25 mt-3">
         </div>
                     </div>
                 </div>
