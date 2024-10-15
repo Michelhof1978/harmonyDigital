@@ -108,7 +108,7 @@
     <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
-            <strong class="text-white">Nos Tarifs</strong>
+            <strong class="text-white">Tarifs</strong>
         </h1>
     </div>
 

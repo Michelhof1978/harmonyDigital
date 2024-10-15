@@ -74,7 +74,7 @@
 <div class="d-none d-md-block">
     <div class="mt-5">
         <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-            Nous découvrir
+            
         </h1>
     </div>
 
