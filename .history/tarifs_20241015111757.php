@@ -92,13 +92,13 @@
 
     <!-- Banner mobile -->
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
-    <img src="images/banniererobottarifs.webp" alt="Bannière d'un robot présentant les tarifs ci-dessous" class="img-fluid w-50 rounded">
+    <img src="images/banniererobottarifs.webp" alt="Bannière illustrative de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
 <!--Fin Banner mobile -->
 
  <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
-    <img src="images/banniererobottarifs.webp" alt="Bannière d'un robot présentant les tarifs ci-dessous " class="img-fluid w-100 rounded mb-2">
+    <img src="images/banniererobottarifs.webp" alt="Bannière d' un robot " class="img-fluid w-100 rounded mb-2">
 </div>
 
 <img src="images/gif5.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
