@@ -1,13 +1,28 @@
 
     <?php include("head.php"); ?>
-    <meta name="description" content="Découvrez nos tarifs compétitifs pour la création de sites web, marketing digital, SEO, et design de logos. Obtenez des solutions sur mesure adaptées à votre budget pour améliorer votre présence en ligne.">
-<title>Tarifs - Création de Site Web, Marketing Digital, SEO & Logo | Solution Web</title>
+    <meta name="description" content="Découvrez nos tarifs compétitifs pour la création de sites web, marketing digital, SEO, et design de logos. Paiement possible en plusieurs fois ou sous forme d'abonnement.">
+<title>Tarifs de nos prestations </title>
 
 <meta property="og:url" content="https://harmony-digital.fr/tarifs">
     <!-- Canonical Link -->
     <link rel="canonical" href="https://harmony-digital.fr/tarifs">
 
     <style>
+
+.neon-yellow {
+    color: rgba(255, 255, 51, 0.8); /* Code couleur pour un jaune néon plus clair et plus transparent */
+    text-shadow: 0 0 5px rgba(255, 255, 51, 0.5), 
+                 0 0 10px rgba(255, 255, 51, 0.5), 
+                 0 0 20px rgba(255, 255, 51, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 51, 0.5), 
+                0 0 20px rgba(255, 255, 51, 0.3), 
+                0 0 30px rgba(255, 255, 51, 0.2);
+    border-radius: 10px; /* Légèrement arrondir les bords */
+    padding: 10px; 
+    display: inline-block; /* Nécessaire pour que le box-shadow soit visible */
+}
+
+
          /* Assure que la vidéo prend toute la largeur sur les petits écrans */
     @media (max-width: 767.98px) {
         .video-responsive {
@@ -108,8 +123,12 @@
     <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
-            <strong class="text-white">Nos Tarifs</strong>
+            <strong class="text-white">Tarifs de nos prestations</strong>
         </h1>
+
+        <h3 class="mt-5">
+            <strong class="neon-yellow"> Paiement possible jusqu'à 10 fois gratuit</strong>
+        </h3>
     </div>
 
     <div class="row justify-content-center mt-4">
@@ -118,12 +137,35 @@
         </div>
     </div>
 
+    <!-- Vidéo pour mobile (12 colonnes) -->
+<div class="d-flex justify-content-center align-items-center d-md-none" style="min-height: 50vh; margin-top: -75px; margin-bottom: -50px">
+    <div class="video-container col-12">
+        <video autoplay loop muted playsinline class="rounded w-100">
+            <source src="videos/videotarif.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise <code>video</code>.
+        </video>
+    </div>
+</div>
+
+<!-- Vidéo pour desktop (6 colonnes) -->
+<div class="d-flex justify-content-center align-items-center d-none d-md-flex" style="min-height: 50vh; margin-top: -120px; margin-bottom: -30px">
+    <div class="video-container d-flex justify-content-center" style="max-width: 700px; width: 100%;">
+        <video autoplay loop muted playsinline class="rounded" style="width: 100%;">
+            <source src="videos/videotarif.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la balise <code>video</code>.
+        </video>
+    </div>
+</div>
+
+
+
+
     <div class="row">
         <div class="col-md-6">
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">1. Site Web Vitrine</h2>
                 <p>Un site vitrine est conçu pour présenter des informations de manière simple et efficace. Idéal pour les petites entreprises ou les professionnels souhaitant une présence en ligne de base.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 590 à 2 290 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 590 Euros</span></p>
                 <ul>
                     <li>Design de base et mise en page</li>
                     <li>Création de pages essentielles (accueil, à propos, contact)</li>
@@ -140,7 +182,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">2. Site Web avec Fonctionnalités Avancées</h2>
                 <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 2 200 à 5 000 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 2 200 Euros </span></p>
                 <ul>
                     <li>Design personnalisé et mise en page avancée</li>
                     <li>Intégration de fonctionnalités spécifiques (ex. : formulaires, galeries)</li>
@@ -157,7 +199,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">3. Site Web E-commerce</h2>
                 <p>Pour les projets nécessitant des fonctionnalités de vente en ligne, comme les paiements en ligne, la gestion des stocks, et le suivi des commandes.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 4 000 à 8 500 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 4 000 Euros</span></p>
                 <ul>
                     <li>Configuration de la boutique en ligne</li>
                     <li>Intégration des systèmes de paiement sécurisés</li>
@@ -172,7 +214,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">4. Site Web sur Mesure</h2>
                 <p>Pour les projets nécessitant des fonctionnalités totalement personnalisées ou des intégrations spécifiques.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 7 000 à 18 000 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 7 000 Euros</span></p>
                 <ul>
                     <li>Développement de fonctionnalités uniques</li>
                     <li>Design et UX sur mesure</li>
@@ -189,7 +231,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
                 <h3>Maintenance et Support</h3>
-                <p><strong>Tarif Abonnement Mensuel :</strong> <span class="discord fw-bold">De 50 à 200 euros</span> </p>
+                <p><strong>Tarif Abonnement Mensuel :</strong> <span class="discord fw-bold">A partir de 50 Euros</span> </p>
                 <ul>
                     <li>Mises à jour régulières</li>
                     <li>Sauvegardes</li>
@@ -197,13 +239,13 @@
                 </ul>
                 
                 <h3>Nom de Domaine</h3>
-                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">De 15 à 70 euros </span></p>
+                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 15 Euros </span></p>
                 <ul>
                     <li>Enregistrement et renouvellement du nom de domaine</li>
                 </ul>
 
                 <h3>Hébergement</h3>
-                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">De 60 à 200 euros</span> </p>
+                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 60 Euros</span> </p>
                 <ul>
                     <li>Hébergement web</li>
                     <li>Support technique associé</li>
@@ -211,7 +253,7 @@
                 </ul>
 
                 <h3>Protection contre les intrusions et les attaques par piratage</h3>
-                <p><strong>Tarif Mensuel :</strong> <span class="discord fw-bold">5 euros</span></p>
+                <p><strong>Tarif Mensuel :</strong> <span class="discord fw-bold">A partir de 5 Euros</span></p>
                 <ul>
                     <li>Sécurisation des données échangées entre le site et ses visiteurs</li>
                 </ul>
@@ -244,7 +286,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">1. Logo de Base</h2>
                 <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 150 à 500 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 150 Euros</span></p>
                 <ul>
                     <li>Conception de 1 à 5 propositions de logo</li>
                     <li>Révisions limitées (généralement 1 à 5)</li>
@@ -258,7 +300,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">2. Logo Standard</h2>
                 <p>Pour des besoins plus élaborés, incluant plusieurs propositions et révisions.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 800 à 1 500 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 800 Euros</span></p>
                 <ul>
                     <li>Conception de 3 à 8 propositions de logo</li>
                     <li>Révisions supplémentaires (généralement 3 à 5)</li>
@@ -275,7 +317,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">3. Logo Premium</h2>
                 <p>Pour les marques qui nécessitent une approche approfondie avec des recherches et une stratégie complète.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">De 1 500 à 3 000 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 1 500 Euros</span></p>
                 <ul>
                     <li>Conception de 5 à 15 propositions de logo</li>
                     <li>Révisions illimitées</li>
@@ -291,7 +333,7 @@
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold">4. Logo sur Mesure</h2>
                 <p>Pour des besoins spécifiques nécessitant des concepts entièrement personnalisés et une collaboration étroite.</p>
-                <p><strong>Tarif :</strong> <span class="discord fw-bold">À partir de 3 000 euros</span></p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">À partir de 3 000 Euros</span></p>
                 <ul>
                     <li>Conception personnalisée en fonction des besoins uniques</li>
                     <li>Recherche approfondie et développement</li>
