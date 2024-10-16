@@ -1,6 +1,6 @@
  <?php include("head.php"); ?>
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
-    <title>Agence De Création De Site Internet à Decize</title>
+    <title>Agence De Création De Site I</title>
    
     <meta property="og:url" content="https://harmony-digital.fr/accueil">
     <!-- Canonical Link -->
@@ -412,7 +412,7 @@ h4 {
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-    Agence De Création De Site Web, Logo, audiovisuelle...
+    Agence De Création De Site Web En France
 </h1>
 
 

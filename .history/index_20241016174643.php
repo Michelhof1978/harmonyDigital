@@ -412,7 +412,7 @@ h4 {
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-    Agence De Création De Site Web, Logo, audiovisuelle...
+    Agence De Création De Site Web, Logo
 </h1>
 
 
