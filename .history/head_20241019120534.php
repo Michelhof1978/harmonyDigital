@@ -72,11 +72,11 @@
 /* BANNER */
 .banner {
             width: 100%;
-            height: 350px; 
+            height: 1900px; 
             background-image: url('images/banner.png'); 
             background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;
+           
         }
 
  /* COOKIES */

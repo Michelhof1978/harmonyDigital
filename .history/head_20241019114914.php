@@ -69,11 +69,11 @@
 
 <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
-/* BANNER */
+/*  */
 .banner {
             width: 100%;
-            height: 350px; 
-            background-image: url('images/banner.png'); 
+            height: 300px; /* Tu peux ajuster la hauteur */
+            background-image: url('ton_image.jpg'); /* Remplace par le chemin de ton image */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

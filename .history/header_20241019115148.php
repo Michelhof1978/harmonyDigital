@@ -55,7 +55,6 @@
 </div>
 
 <div class="banner"></div>
-
 <!-- <div id="special-header">
     <video autoplay muted loop id="video-bg" playsinline>
         <source src="videos/header.mp4" type="video/mp4">

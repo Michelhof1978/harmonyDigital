@@ -72,8 +72,8 @@
 /* BANNER */
 .banner {
             width: 100%;
-            height: 350px; 
-            background-image: url('images/banner.png'); 
+            height: 400px; /* Tu peux ajuster la hauteur */
+            background-image: url('images/banner.png'); /* Remplace par le chemin de ton image */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

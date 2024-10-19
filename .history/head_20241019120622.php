@@ -72,7 +72,7 @@
 /* BANNER */
 .banner {
             width: 100%;
-            height: 350px; 
+            height: 400px; 
             background-image: url('images/banner.png'); 
             background-size: cover;
             background-position: center;

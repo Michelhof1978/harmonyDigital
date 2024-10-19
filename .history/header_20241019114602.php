@@ -8,6 +8,9 @@
   define('DISCORD', 'https://discord.com');
   define('LINKEDIN', 'https://www.linkedin.com/in/michel-h-245436203/');
   define('YOUTUBE', 'https://www.youtube.com/channel/UCSHUogEcs5VBu6IfBbqJ42g');
+
+
+ 
 ?>
 
 <header>
@@ -53,8 +56,6 @@
     </div>
 </nav>
 </div>
-
-<div class="banner"></div>
 
 <!-- <div id="special-header">
     <video autoplay muted loop id="video-bg" playsinline>
