@@ -1098,75 +1098,37 @@ h4 {
 </div>
 
     <?php include("footer.php"); ?>
-    <!-- Script pour ouvrir le lien vidéo -->
-    <script>
-        function openVideoLink() {
-            window.open('https://lescaravanesdelabesbre.fr/', '_blank');
+    document.addEventListener('DOMContentLoaded', () => {
+    const numParticles = 100;
+    const currencyBackground = document.getElementById('currency-background');
+    const characters = ['0', '1'];
+    
+    function createParticle() {
+        const particle = document.createElement('div');
+        particle.className = 'currency-particle';
+        particle.textContent = characters[Math.floor(Math.random() * characters.length)];
+        particle.style.left = `${Math.random() * 100}vw`;
+        particle.style.top = `${Math.random() * 100}vh`;
+        particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
+        return particle; // Renvoie le particle sans l'ajouter tout de suite
+    }
+
+    // Créer un fragment de document pour éviter les reflows
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < numParticles; i++) {
+        fragment.appendChild(createParticle());
+    }
+    currencyBackground.appendChild(fragment); // Ajoute tous les particles en une seule opération
+
+    window.addEventListener('resize', () => {
+        currencyBackground.innerHTML = ''; // Réinitialise le contenu
+        const newFragment = document.createDocumentFragment();
+        for (let i = 0; i < numParticles; i++) {
+            newFragment.appendChild(createParticle());
         }
-    </script>
+        currencyBackground.appendChild(newFragment);
+    });
+});
 
-    <!-- Script pour le compte à rebours -->
-    <script>
-        function updateCountdown() {
-            const targetDate = new Date("2024-12-31T23:59:59").getTime();
-            const now = Date.now();
-            const timeLeft = targetDate - now;
-
-            if (timeLeft < 0) {
-                document.getElementById("countdown").innerHTML = "00  JOURS 00H 00M 00S";
-                clearInterval(countdownTimer);
-                return;
-            }
-
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-            document.getElementById("countdown").innerHTML = `
-                <span class="time-part">${String(days).padStart(2, '0')}</span> JOURS
-                <span class="time-part">${String(hours).padStart(2, '0')}</span>H
-                <span class="time-part">${String(minutes).padStart(2, '0')}</span>M
-                <span class="time-part">${String(seconds).padStart(2, '0')}</span>S
-            `;
-        }
-
-        updateCountdown();
-        const countdownTimer = setInterval(updateCountdown, 1000);
-    </script>
-
-    <!-- Script pour les particules -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const numParticles = 100;
-            const currencyBackground = document.getElementById('currency-background');
-            const characters = ['0', '1'];
-
-            function createParticle() {
-                const particle = document.createElement('div');
-                particle.className = 'currency-particle';
-                particle.textContent = characters[Math.floor(Math.random() * characters.length)];
-                particle.style.left = `${Math.random() * 100}vw`;
-                particle.style.top = `${Math.random() * 100}vh`;
-                particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
-                return particle;
-            }
-
-            const fragment = document.createDocumentFragment();
-            for (let i = 0; i < numParticles; i++) {
-                fragment.appendChild(createParticle());
-            }
-            currencyBackground.appendChild(fragment);
-
-            window.addEventListener('resize', () => {
-                currencyBackground.innerHTML = '';
-                const newFragment = document.createDocumentFragment();
-                for (let i = 0; i < numParticles; i++) {
-                    newFragment.appendChild(createParticle());
-                }
-                currencyBackground.appendChild(newFragment);
-            });
-        });
-    </script>
 </body>
   </html>

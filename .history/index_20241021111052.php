@@ -1098,75 +1098,68 @@ h4 {
 </div>
 
     <?php include("footer.php"); ?>
-    <!-- Script pour ouvrir le lien vidéo -->
     <script>
         function openVideoLink() {
             window.open('https://lescaravanesdelabesbre.fr/', '_blank');
         }
     </script>
 
-    <!-- Script pour le compte à rebours -->
-    <script>
-        function updateCountdown() {
-            const targetDate = new Date("2024-12-31T23:59:59").getTime();
-            const now = Date.now();
-            const timeLeft = targetDate - now;
+ <!-- COMPTE A REBOURS -->
+ <script>
+    function updateCountdown() {
+        const targetDate = new Date("2024-12-31T23:59:59").getTime();
+        const now = new Date().getTime();
+        const timeLeft = targetDate - now;
 
-            if (timeLeft < 0) {
-                document.getElementById("countdown").innerHTML = "00  JOURS 00H 00M 00S";
-                clearInterval(countdownTimer);
-                return;
-            }
-
-            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-
-            document.getElementById("countdown").innerHTML = `
-                <span class="time-part">${String(days).padStart(2, '0')}</span> JOURS
-                <span class="time-part">${String(hours).padStart(2, '0')}</span>H
-                <span class="time-part">${String(minutes).padStart(2, '0')}</span>M
-                <span class="time-part">${String(seconds).padStart(2, '0')}</span>S
-            `;
+        if (timeLeft < 0) {
+            document.getElementById("countdown").innerHTML = "00  JOURS 00H 00M 00S";
+            clearInterval(countdownTimer);
+            return;
         }
 
-        updateCountdown();
-        const countdownTimer = setInterval(updateCountdown, 1000);
-    </script>
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-    <!-- Script pour les particules -->
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const numParticles = 100;
-            const currencyBackground = document.getElementById('currency-background');
-            const characters = ['0', '1'];
+        const formattedTime = `
+            <span class="time-part">${String(days).padStart(2, '0')}</span> JOURS
+            <span class="time-part">${String(hours).padStart(2, '0')}</span>H
+            <span class="time-part">${String(minutes).padStart(2, '0')}</span>M
+            <span class="time-part">${String(seconds).padStart(2, '0')}</span>S
+        `;
+        document.getElementById("countdown").innerHTML = formattedTime;
+    }
 
-            function createParticle() {
-                const particle = document.createElement('div');
-                particle.className = 'currency-particle';
-                particle.textContent = characters[Math.floor(Math.random() * characters.length)];
-                particle.style.left = `${Math.random() * 100}vw`;
-                particle.style.top = `${Math.random() * 100}vh`;
-                particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
-                return particle;
-            }
+    updateCountdown();
+    const countdownTimer = setInterval(updateCountdown, 1000);
+</script>
 
-            const fragment = document.createDocumentFragment();
-            for (let i = 0; i < numParticles; i++) {
-                fragment.appendChild(createParticle());
-            }
-            currencyBackground.appendChild(fragment);
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const numParticles = 100; // Nombre total de particules
+    const currencyBackground = document.getElementById('currency-background');
+    const characters = ['0', '1']; // Chiffres 0 et 1
+    function createParticle() {
+        const particle = document.createElement('div');
+        particle.className = 'currency-particle';
+        particle.textContent = characters[Math.floor(Math.random() * characters.length)];
+        particle.style.left = `${Math.random() * 100}vw`;
+        particle.style.top = `${Math.random() * 100}vh`;
+        particle.style.animationDuration = `${Math.random() * 5 + 5}s`; // Durée de l'animation entre 5 et 10 secondes
+        currencyBackground.appendChild(particle);
+    }
+    for (let i = 0; i < numParticles; i++) {
+        createParticle();
+    }
+    window.addEventListener('resize', () => {
+        currencyBackground.innerHTML = '';
+        for (let i = 0; i < numParticles; i++) {
+            createParticle();
+        }
+    });
+});
+</script>
 
-            window.addEventListener('resize', () => {
-                currencyBackground.innerHTML = '';
-                const newFragment = document.createDocumentFragment();
-                for (let i = 0; i < numParticles; i++) {
-                    newFragment.appendChild(createParticle());
-                }
-                currencyBackground.appendChild(newFragment);
-            });
-        });
-    </script>
 </body>
   </html>
