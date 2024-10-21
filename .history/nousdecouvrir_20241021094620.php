@@ -1,7 +1,7 @@
 
 <?php include("head.php"); ?>
 <meta name="description" content="Découvrez comment notre entreprise fonctionne : de la conception de votre site web à la mise en œuvre de stratégies de marketing digital, SEO, et design de logos. Apprenez-en plus sur notre processus de travail collaboratif, transparent et efficace.">
-<title>Nous découvrir - Notre processus de Travail</title>
+<title>Nous découvrir - Processus de Travail</title>
 
 <meta property="og:url" content="https://harmony-digital.fr/infos">
     <!-- Canonical Link -->
@@ -298,7 +298,6 @@
     <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>

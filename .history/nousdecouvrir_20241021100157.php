@@ -1,7 +1,7 @@
 
 <?php include("head.php"); ?>
 <meta name="description" content="Découvrez comment notre entreprise fonctionne : de la conception de votre site web à la mise en œuvre de stratégies de marketing digital, SEO, et design de logos. Apprenez-en plus sur notre processus de travail collaboratif, transparent et efficace.">
-<title>Nous découvrir - Notre processus de Travail</title>
+<title>Nous découvrir - Notre rocessus de Travail</title>
 
 <meta property="og:url" content="https://harmony-digital.fr/infos">
     <!-- Canonical Link -->
@@ -141,10 +141,10 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
-            <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotpresentation3.mp4">
-    <source type="video/mp4">
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotpresentation3.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </div>
@@ -279,11 +279,11 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="max-width: 50%; margin: auto;">
             <!-- La vidéo se lit automatiquement, en boucle, sans son, et est compatible avec le mode plein écran -->
-            <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotParle2.mp4">
-    <source type="video/mp4">
-    <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle2.mp4" type="video/mp4">
+                <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </div>
@@ -294,11 +294,10 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
-            <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotParle2.mp4">
-    <source type="video/mp4">
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
-
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle2.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </div>
