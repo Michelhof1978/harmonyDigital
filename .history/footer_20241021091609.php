@@ -570,35 +570,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  <!-- Whattsapp et IA-->
  <script defer src="https://static.getbutton.io/widget/bundle.js?id=dkNpL" ></script>
 
- <!--_____________________________________________________________________________________-->
-  <!-- Pour que les vidéos se chargent au fur et à mesure pour éviter d'alourdir le temps de chargement-->
- <script>
-   
-    const lazyVideos = document.querySelectorAll('video.lazy');
 
-    if ('IntersectionObserver' in window) {
-      const lazyVideoObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const video = entry.target;
-
-            // Définir la source de la vidéo depuis data-src
-            const src = video.getAttribute('data-src');
-            if (src) {
-              video.src = src;
-              video.load();  // Charger la vidéo
-              video.classList.remove('lazy');  // Enlever la classe lazy après chargement
-            }
-
-            // Arrêter d'observer la vidéo après chargement
-            lazyVideoObserver.unobserve(video);
-          }
-        });
-      });
-
-      // Observer chaque vidéo
-      lazyVideos.forEach(video => {
-        lazyVideoObserver.observe(video);
-      });
-    }
-  </script>
+ 

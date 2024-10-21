@@ -571,7 +571,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  <script defer src="https://static.getbutton.io/widget/bundle.js?id=dkNpL" ></script>
 
  <!--_____________________________________________________________________________________-->
-  <!-- Pour que les vidéos se chargent au fur et à mesure pour éviter d'alourdir le temps de chargement-->
+ 
+ 
  <script>
    
     const lazyVideos = document.querySelectorAll('video.lazy');

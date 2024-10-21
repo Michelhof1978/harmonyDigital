@@ -1064,10 +1064,10 @@ h4 {
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
         <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
             <div class="video-container-caravane" style="max-width: 50%; margin: auto;" onclick="openVideoLink()">
-            <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
-    <source type="video/mp4">
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
+                <video class="video-caravane" autoplay loop muted playsinline>
+                    <source src="videos/robotpresentation4.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise <code>video</code>.
+                </video>
             </div>
         </div>
     </div>
@@ -1077,10 +1077,10 @@ h4 {
 <div class="container-fluid px-0 d-md-none" style="margin-top: -70px; margin-bottom: -20px">
         <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
             <div class="video-container-caravane" style="max-width: 100%; margin: auto;" onclick="openVideoLink()">
-            <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
-    <source type="video/mp4">
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
+                <video class="video-caravane" autoplay loop muted playsinline>
+                    <source src="videos/robotpresentation4.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la balise <code>video</code>.
+                </video>
             </div>
         </div>
     </div>

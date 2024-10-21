@@ -19,12 +19,12 @@ RewriteRule ^tarifs\.php$ /tarifs [R=301,L]
 # Réécriture de /tarifs vers /tarifs.php
 RewriteRule ^tarifs/?$ tarifs.php [L]
 
-# Redirection de /nousdecouvrir.php vers /ousdecouvrir
-RewriteCond %{THE_REQUEST} \s/nousdecouvrir\.php [NC]
-RewriteRule ^nousdecouvrir\.php$ /nousdecouvrir [R=301,L]
+# Redirection de /nousdecouvrir.php vers /infos
+RewriteCond %{THE_REQUEST} \s/infos\.php [NC]
+RewriteRule ^infos\.php$ /infos [R=301,L]
 
-# Réécriture de /nousdecouvrir vers /nousdecouvrir.php
-RewriteRule ^nousdecouvrir/?$ nousdecouvrir.php [L]
+# Réécriture de /infos vers /infos.php
+RewriteRule ^infos/?$ infos.php [L]
 
 # Redirection de /formulaireDeContact.php vers /formulaireDeContact
 RewriteCond %{THE_REQUEST} \s/formulaireDeContact\.php [NC]

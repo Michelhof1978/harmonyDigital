@@ -38,7 +38,7 @@
                     <a class="nav-link fs-5" aria-current="page" href="index.php"><strong>Accueil</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="nousdecouvrir.php"><strong>Nous découvrir</strong></a>
+                    <a class="nav-link fs-5" href="infos.php"><strong>Nous découvrir</strong></a>
                 </li>
 
                 <li class="nav-item">
@@ -57,10 +57,10 @@
 <!-- <div class="banner"></div> -->
 
 <div id="special-header">
-    <video autoplay muted loop id="video-bg" playsinline>
-        <source src="videos/header.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la vidéo.
-    </video>
+<video autoplay muted loop id="video-bg" playsinline preload="none" class="lazy" data-src="videos/header.mp4">
+    <source type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+</video>
     <!-- <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
     </div> -->

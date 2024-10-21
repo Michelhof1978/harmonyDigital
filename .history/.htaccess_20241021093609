@@ -23,8 +23,8 @@ RewriteRule ^tarifs/?$ tarifs.php [L]
 RewriteCond %{THE_REQUEST} \s/nousdecouvrir\.php [NC]
 RewriteRule ^nousdecouvrir\.php$ /nousdecouvrir [R=301,L]
 
-# Réécriture de /nousdecouvrir vers /nousdecouvrir.php
-RewriteRule ^nousdecouvrir/?$ nousdecouvrir.php [L]
+# Réécriture de /nousdecouvrir vers /infos.php
+RewriteRule ^infos/?$ infos.php [L]
 
 # Redirection de /formulaireDeContact.php vers /formulaireDeContact
 RewriteCond %{THE_REQUEST} \s/formulaireDeContact\.php [NC]

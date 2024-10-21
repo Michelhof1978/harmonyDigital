@@ -38,7 +38,7 @@
                     <a class="nav-link fs-5" aria-current="page" href="index.php"><strong>Accueil</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5" href="nousdecouvrir.php"><strong>Nous découvrir</strong></a>
+                    <a class="nav-link fs-5" href="infos.php"><strong>Nous découvrir</strong></a>
                 </li>
 
                 <li class="nav-item">
