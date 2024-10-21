@@ -1,6 +1,6 @@
 <?php include("head.php"); ?>
 <meta name="description" content="Découvrez comment notre entreprise fonctionne : de la conception de votre site web à la mise en œuvre de stratégies de marketing digital, SEO, et design de logos. Apprenez-en plus sur notre processus de travail collaboratif, transparent et efficace.">
-<title>Nous découvrir - Notre processus de Travail</title>
+<title>Informations - Processus de Travail</title>
 
 <meta property="og:url" content="https://harmony-digital.fr/infos">
     <!-- Canonical Link -->
@@ -55,25 +55,25 @@
 
     <!-- Banner mobile -->
     <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-none d-md-flex">
-    <img src="images/banniererobotinfos.webp" alt="Bannière d'illustration d'un robot présentant les services ci-dessous" class="img-fluid w-50 rounded">
+    <img src="images/banniererobotinfos.webp" alt="Bannière illustration de bienvenue avec un robot" class="img-fluid w-50 rounded">
 </div>
 <!--Fin Banner mobile -->
 
  <!--Banner desktop -->
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5  d-md-none">
-    <img src="images/banniererobotinfos.webp" alt="Bannière d'illustration d'un robot présentant les services ci-dessous" class="img-fluid w-100 rounded">
+    <img src="images/banniererobotinfos.webp" alt="Bannière illustration de bienvenue avec un robot" class="img-fluid w-100 rounded">
 </div>
  <!--Fin Banner desktop -->
 
  <img src="images/gif4.gif"loading="lazy" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
 
-<img src="images/gif4.gif" loading="lazy" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
+<img src="images/gif4.gif" alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 
 <!-- OFFRES DESKTOP -->
 <div class="d-none d-md-block">
     <div class="mt-5">
         <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-            Nous découvrir
+            Informations
         </h1>
     </div>
 
@@ -92,7 +92,7 @@
     <div class="container mb-5">
         <div class="row">
             <div class="col-4">
-                <img src="images/robotinfo1.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo1.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
             <div class="col-8">
             <p class="lead text-white text-center fw-bold fs-5 mt-5">
@@ -117,7 +117,7 @@
                 </p>
             </div>
             <div class="col-4">
-                <img src="images/robotinfo2.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo2.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
 </div>
@@ -126,10 +126,10 @@
 <div class="container-fluid px-0 mb-5 d-none d-md-block mt-5">
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="max-width: 50%; margin: auto;">
-        <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="auto" data-src="videos/robotpresentation3.mp4">
-    <source type="video/mp4">
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotpresentation3.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </div>
@@ -140,10 +140,10 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
-            <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="auto" data-src="videos/robotpresentation3.mp4">
-    <source type="video/mp4">
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotpresentation3.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </div>
@@ -152,7 +152,7 @@
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-4">
-                <img src="images/robotinfo3.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo3.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5">
@@ -173,7 +173,7 @@
                 </p>
             </div>
             <div class="col-4">
-                <img src="images/robotinfo4.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo4.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
 </div>
@@ -186,7 +186,7 @@
 <div class="d-block d-md-none">
     <div class="mt-5 mb-5">
         <h1 class="border borderColor border-4 rounded p-2 col m-4 text-center text-white bw-bold">
-        Nous découvrir
+            Informations
         </h1>
     </div>
 
@@ -205,7 +205,7 @@
     <div class="container mb-4">
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo1.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo1.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
         <div class="row">
@@ -232,7 +232,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo2.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo2.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -249,7 +249,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo3.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo3.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -266,7 +266,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo4.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo4.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -278,11 +278,11 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="max-width: 50%; margin: auto;">
             <!-- La vidéo se lit automatiquement, en boucle, sans son, et est compatible avec le mode plein écran -->
-            <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="auto" data-src="videos/robotParle2.mp4">
-    <source type="video/mp4">
-    <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle2.mp4" type="video/mp4">
+                <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </div>
@@ -293,18 +293,17 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
-            <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="auto" data-src="videos/robotParle2.mp4">
-    <source type="video/mp4">
-    Votre navigateur ne supporte pas la balise <code>video</code>.
-</video>
-
+            <video autoplay loop muted playsinline class="rounded w-100">
+                <source src="videos/robotParle2.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la balise <code>video</code>.
+            </video>
         </div>
     </div>
 </div>
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 <div class="text-center mb-4">
-        <img src="images/robotinfo5.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
+        <img src="images/robotinfo5.webp" alt="robot illustratif" loading="lazy" class="img-fluid w-50 mt-3">
     </div>
     
     <?php include("footer.php"); ?>
