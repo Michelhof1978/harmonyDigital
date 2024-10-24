@@ -1,6 +1,6 @@
  <?php include("head.php"); ?>
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
-    <title>Création De Site Internet,Logo, Campagne Audiovisuelle.... en Bourgogne Franche-Comté</title>
+    <title>Création De Site Internet en Bourgogne Franche Con</title>
    
     <meta property="og:url" content="https://harmony-digital.fr/accueil">
     <!-- Canonical Link -->
@@ -382,21 +382,7 @@ h4 {
             }
         }
  /* FIN VIDEO CLIC CARAVANE */
-
- .gif6mobile{
-    margin-bottom: -50px;
- }
-
- .gif3mobile1{
-    margin-bottom: -43px;
- }
-
- .gif3mobile2{
-    margin-bottom: -43px; 
-    margin-left: 150px;
- }
     </style>
-
 </head>
 
     <?php include("header.php"); ?>
@@ -413,20 +399,20 @@ h4 {
 
  <!-- Mode mobile-->
  <div class="d-block d-lg-none text-center">
-  <img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter gif6mobile">
+  <img src="images/gif6.gif" loading="lazy" alt="gif animé d'un robot qui marche" class="img-fluid robotFooter" style="margin-bottom: -50px;">
 </div>
 
 <div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5 d-md-none">
 <img src="images/banniererobotindex.webp" loading="lazy" alt="Bannière de bienvenue avec un robot où tous les rêves se réalisent" class="img-fluid w-100 rounded">
 </div>
 
-<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class=" gif3mobile1 img-fluid d-block d-md-none">
-<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class="gif3mobile2 img-fluid d-none d-md-block">
+<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
+<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-    Création De Site Web, Logo, Camapgne Audiovisuelle...
+    Agence De Création De Site Web, Logo, audiovisuelle...
 </h1>
 
 
@@ -456,7 +442,7 @@ h4 {
                     Référencement SEO<br>
                     Marketing Digital<br>
                     Communication Événementielle<br>
-                    Campagne Audiovisuelle<br>
+                    Communication Audiovisuelle<br>
                 </p>
             </div>
         </div>

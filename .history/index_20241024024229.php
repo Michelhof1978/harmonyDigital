@@ -1,6 +1,6 @@
  <?php include("head.php"); ?>
     <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels. Notre équipe vous aide à concevoir des sites web attrayants et fonctionnels qui répondent à vos besoins spécifiques et optimisent votre présence en ligne.">
-    <title>Création De Site Internet,Logo, Campagne Audiovisuelle.... en Bourgogne Franche-Comté</title>
+    <title>Création De Site Internet en Bourgogne Franche Coté</title>
    
     <meta property="og:url" content="https://harmony-digital.fr/accueil">
     <!-- Canonical Link -->
@@ -396,7 +396,6 @@ h4 {
     margin-left: 150px;
  }
     </style>
-
 </head>
 
     <?php include("header.php"); ?>
@@ -426,7 +425,7 @@ h4 {
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-    Création De Site Web, Logo, Camapgne Audiovisuelle...
+    Agence De Création De Site Web, Logo, audiovisuelle...
 </h1>
 
 
@@ -456,7 +455,7 @@ h4 {
                     Référencement SEO<br>
                     Marketing Digital<br>
                     Communication Événementielle<br>
-                    Campagne Audiovisuelle<br>
+                    Communication Audiovisuelle<br>
                 </p>
             </div>
         </div>

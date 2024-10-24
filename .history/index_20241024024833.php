@@ -456,7 +456,7 @@ h4 {
                     Référencement SEO<br>
                     Marketing Digital<br>
                     Communication Événementielle<br>
-                    Campagne Audiovisuelle<br>
+                    Communication Audiovisuelle<br>
                 </p>
             </div>
         </div>
