@@ -55,9 +55,7 @@
      margin-left: 150px;
 }
 
-.span{
-    color: #e06717e4
-}
+.span
 
     </style>
 </head>
@@ -92,11 +90,11 @@
 
     <div class="container">
     <p class="lead text-white text-center fs-5 mt-5 mb-5 fw-bold">
-        Du concept à sa réalisation et au-delà, <span class="span">Harmony Digital</span> s’appuie sur son approche 
-        <a href="<?php echo SMART; ?>" class="span" target="_blank">SMART</a> 
+        Du concept à sa réalisation et au-delà, <span style="color: #e06717e4;">Harmony Digital</span> s’appuie sur son approche 
+        <a href="<?php echo SMART; ?>" style="color: #e06717e4;" target="_blank">SMART</a> 
         et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
-        <a href="<?php echo UX; ?>" class="span" target="_blank">UX</a> (User Experience) et 
-        <a href="<?php echo CX; ?>" class="span" target="_blank">CX</a> 
+        <a href="<?php echo UX; ?>" style="color: #e06717e4;" target="_blank">UX</a> (User Experience) et 
+        <a href="<?php echo CX; ?>" style="color: #e06717e4;" target="_blank">CX</a> 
         (Customer Experience) sont au cœur de notre politique d’Innovation !
     </p>
 </div>
@@ -110,9 +108,9 @@
             <div class="col-8">
             <p class="lead text-white text-center fw-bold fs-5 mt-5">
     L’expert métier, c’est vous !<br> 
-    L’expert <a href="<?php echo AGILE; ?>" class="span" target="_blank">tech and agile</a>, c’est nous ! <br>
+    L’expert <a href="<?php echo AGILE; ?>" style="color: #e06717e4;" target="_blank">tech and agile</a>, c’est nous ! <br>
     Ensemble, nous donnerons vie à vos projets, du concept à l’hébergement dans le cloud et au-delà. <br>
-    <span class="span">Laissez-nous vous simplifier la vie !</span>
+    <span style="color: #e06717e4;">Laissez-nous vous simplifier la vie !</span>
 </p>
 
 
@@ -140,10 +138,9 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container" style="max-width: 50%; margin: auto;">
         <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotpresentation3.mp4">
-    <source src="videos/robotpresentation3.mp4" type="video/mp4"> <!-- Ajout de l'attribut src -->
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>
@@ -155,10 +152,9 @@
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
             <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotpresentation3.mp4">
-    <source src="videos/robotpresentation3.mp4" type="video/mp4"> <!-- Ajout de l'attribut src -->
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>
@@ -171,7 +167,7 @@
             </div>
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5">
-                De <span class="span">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
+                De <span style="color: #e06717e4 ;">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
                 En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>.
                 </p>
             </div>
@@ -207,12 +203,12 @@
 
     <div class="container">
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
-            Du concept à sa réalisation et au-delà, <span class="span">Harmony Digital</span> s’appuie sur son approche <a href="<?php echo SMART; ?>" style="color: #e06717e4;" target="_blank">SMART</a>  et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
+            Du concept à sa réalisation et au-delà, <span style="color: #e06717e4 ;">Harmony Digital</span> s’appuie sur son approche <a href="<?php echo SMART; ?>" style="color: #e06717e4;" target="_blank">SMART</a>  et innovante pour vous accompagner dans votre démarche de transformation digitale : penser et designer les solutions, les développer, les maintenir et les faire évoluer selon vos besoins et là où vous en êtes <br>
         </p>
 
         <p class="lead text-white text-center fs-6 mt-4 mb-4 fw-bold">
-        <a href="<?php echo UX; ?>" class="span" target="_blank">UX</a> (User Experience) et 
-        <a href="<?php echo CX; ?>" class="span" target="_blank">CX</a> 
+        <a href="<?php echo UX; ?>" style="color: #e06717e4;" target="_blank">UX</a> (User Experience) et 
+        <a href="<?php echo CX; ?>" style="color: #e06717e4;" target="_blank">CX</a> 
         (Customer Experience) sont au cœur de notre politique d’Innovation !
         </p>
 </div>
@@ -257,7 +253,7 @@
         <div class="row">
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
-                De <span class="span">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
+                De <span style="color: #e06717e4 ;">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
                 En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>.
                 </p>
             </div>
@@ -294,11 +290,10 @@
         <div class="video-container" style="max-width: 50%; margin: auto;">
             <!-- La vidéo se lit automatiquement, en boucle, sans son, et est compatible avec le mode plein écran -->
             <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotParle2.mp4">
-    <source src="videos/robotParle2.mp4" type="video/mp4"> <!-- Ajout de l'attribut src -->
+    <source type="video/mp4">
     <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>
@@ -309,10 +304,9 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
         <div class="video-container" style="width: 100%;">
         <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotParle2.mp4">
-    <source src="videos/robotParle2.mp4" type="video/mp4"> <!-- Ajout de l'attribut src -->
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
 
         </div>
     </div>

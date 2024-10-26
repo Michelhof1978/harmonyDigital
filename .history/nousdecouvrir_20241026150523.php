@@ -155,10 +155,9 @@
         <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
             <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotpresentation3.mp4">
-    <source src="videos/robotpresentation3.mp4" type="video/mp4"> <!-- Ajout de l'attribut src -->
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>
@@ -294,11 +293,10 @@
         <div class="video-container" style="max-width: 50%; margin: auto;">
             <!-- La vidéo se lit automatiquement, en boucle, sans son, et est compatible avec le mode plein écran -->
             <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotParle2.mp4">
-    <source src="videos/robotParle2.mp4" type="video/mp4"> <!-- Ajout de l'attribut src -->
+    <source type="video/mp4">
     <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>
@@ -309,10 +307,9 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
         <div class="video-container" style="width: 100%;">
         <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotParle2.mp4">
-    <source src="videos/robotParle2.mp4" type="video/mp4"> <!-- Ajout de l'attribut src -->
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
 
         </div>
     </div>
