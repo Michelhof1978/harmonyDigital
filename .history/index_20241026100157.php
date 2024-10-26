@@ -129,9 +129,8 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
 }
-cardwidth{
-    width: 18rem;
-}
+cardwidh
+
 .carousel-inner .d-flex > .card:first-child,
 .carousel-inner .d-flex > .card:last-child {
     margin-left: 30px;
@@ -397,59 +396,6 @@ cardwidth{
     margin-bottom: -43px; 
     margin-left: 150px;
  }
-
- .robotvideo{
-    margin-top:-50px;
- }
- .robotvideo2 {
-    min-height: 50vh;
- }
- .robotvideo3{
-    margin-top:-50px;
- }
-
- .robotvideo4{
-    min-height: 50vh;
- }
-
-.robotvideo5{
-    max-width: 50%; 
-    margin: auto;
-}
-
-.robotvideo6{
-    min-height: 50vh; 
-    margin-top: -100px; 
-    margin-bottom: -50px;
-}
-
-.robotvideo7{
-    width: 100%;
-}
-.logo{
-    margin-bottom: -80px;
-}
-
-.robotvideo8{
-    min-height: 50vh;
-}
-
-.robotvideo9{
-     margin-top: -70px; 
-     margin-bottom: -20px;
-}
-.robotvideo10{
-    max-width: 50%; 
-    margin: auto;
-}
-.robotvideo11{
-    min-height: 50vh;
-}
-
-.robotvideo12{
-    max-width: 100%; 
-    margin: auto;
-}
     </style>
 
 </head>
@@ -539,7 +485,7 @@ cardwidth{
             <!-- Carte 1 -->
             <div class="carousel-item active">
                 <div class="d-flex justify-content-center">
-                    <div class="card mt-2 card-uniform cardwidth">
+                    <div class="card mt-2 card-uniform cardwidth" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card1.png" loading="lazy" alt="Présentation du service création de site web avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
@@ -554,7 +500,7 @@ cardwidth{
             <!-- Carte 2 -->
             <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                    <div class="card mt-2 card-uniform cardwidth">
+                    <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card2.png" alt="Présentation du référencement naturel (SEO) avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
@@ -569,7 +515,7 @@ cardwidth{
             <!-- Carte 3 -->
             <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                    <div class="card mt-2 card-uniform cardwidth">
+                    <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card3.png" loading="lazy" alt="Présentation des services de maquettes et logos avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
@@ -584,7 +530,7 @@ cardwidth{
             <!-- Carte 4 -->
             <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                    <div class="card mt-2 card-uniform cardwidth">
+                    <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card4.png" loading="lazy" alt="Présentation des services de marketing digital avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
@@ -599,7 +545,7 @@ cardwidth{
             <!-- Carte 5 -->
             <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                    <div class="card mt-2 card-uniform cardwidth">
+                    <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
@@ -614,7 +560,7 @@ cardwidth{
             <!-- Carte 6 -->
             <div class="carousel-item">
                 <div class="d-flex justify-content-center">
-                    <div class="card mt-2 card-uniform cardwidth">
+                    <div class="card mt-2 card-uniform" style="width: 18rem;">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
@@ -747,7 +693,7 @@ cardwidth{
 <!-- FIN PRESTATIONS CAROUSEL CARD DESKTOP-->
 
 <!-- ROBOT VIDEO RESPONSIVE -->
-<div class="container-fluid px-0 mb-5 robotvideo">
+<div class="container-fluid px-0 mb-5" style="margin-top:-50px;">
     <div class="text-center">
         <h2 class="border borderColor border-4 rounded p-2 ms-5 me-5">
             <strong class="text-white"> Des Robots Dévoués</strong>
@@ -757,7 +703,7 @@ cardwidth{
         </p>
     </div>
 
-    <div class="d-flex justify-content-center align-items-center robotvideo2">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
         <div class="video-container">
             <video autoplay loop muted playsinline class="rounded">
                 <source src="videos/robotordi.mp4" type="video/mp4">
@@ -781,7 +727,7 @@ cardwidth{
     </p>
 </div>
 
-<div class="d-flex ms-0 mb-5 position-relative text-center me-5 robotvideo3">
+<div class="d-flex ms-0 mb-5 position-relative text-center me-5" style="margin-top:-50px;">
     <!-- Image à gauche -->
     <img src="images/robotIntro3.webp" alt="Robot d'illustartion qui présente nos compétences clés'" loading="lazy" class="img-fluid robotDomaine2">
 
@@ -835,8 +781,8 @@ cardwidth{
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
-    <div class="d-flex justify-content-center align-items-center robotvideo4">
-        <div class="video-container robotvideo5">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="video-container" style="max-width: 50%; margin: auto;">
         <video autoplay loop muted playsinline class="lazy rounded w-100" preload="none" data-src="videos/robotParle1.mp4">
     <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
     Votre navigateur ne supporte pas la balise <code>video</code>.
@@ -848,8 +794,8 @@ cardwidth{
 
 <!-- ROBOT VIDEO MOBILE -->
 <div class="container-fluid px-0 mb-5 d-block d-md-none">
-    <div class="d-flex justify-content-center align-items-center robotvideo6">
-        <div class="video-container robotvideo6">
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top: -100px; margin-bottom: -50px;">
+        <div class="video-container" style="width: 100%;">
             <!-- Même configuration pour la version mobile -->
             <video autoplay loop muted playsinline class="lazy rounded w-100" preload="none" data-src="videos/robotParle1.mp4">
     <source type="video/mp4">
@@ -1018,7 +964,7 @@ cardwidth{
     <div class="container">
         <div class="robotCampagne">
             <h2 class=" text-white fw-bold border borderColor border-4 rounded p-2 m-3 mb-5">
-            Campagne et Événement Audiovisuels
+            Campagnes et Événements Audiovisuelles
             </h2>
             <img src="images/robotVideo.webp" alt="Robot présentant 2 campagnes vidéo" loading="lazy" class="robotVideo img-fluid w-25">
         </div>
@@ -1041,7 +987,7 @@ cardwidth{
 <!-- FIN SECTION VIDEOCOM -->
 
 <!-- PRESENTATION LOGOS -->
-<div class="text-center mt-4 ms-2 me-2 logo">
+<div class="text-center mt-4 ms-2 me-2" style="margin-bottom: -80px;">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
             <strong class="text-white">Logos Réalisés</strong>
@@ -1131,8 +1077,8 @@ cardwidth{
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
-        <div class="d-flex justify-content-center align-items-center robotvideo9" >
-            <div class="video-container-caravane robotvideo10"  onclick="openVideoLink()">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+            <div class="video-container-caravane" style="max-width: 50%; margin: auto;" onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
     <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
@@ -1143,9 +1089,9 @@ cardwidth{
     <!-- FIN ROBOT VIDEO DESKTOP -->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-md-none robotvideo9">
-        <div class="d-flex justify-content-center align-items-center robotvideo11">
-            <div class="video-container-caravane robotvideo12" onclick="openVideoLink()">
+<div class="container-fluid px-0 d-md-none" style="margin-top: -70px; margin-bottom: -20px">
+        <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+            <div class="video-container-caravane" style="max-width: 100%; margin: auto;" onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
     <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.

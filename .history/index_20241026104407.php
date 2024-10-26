@@ -442,14 +442,7 @@ cardwidth{
     max-width: 50%; 
     margin: auto;
 }
-.robotvideo11{
-    min-height: 50vh;
-}
 
-.robotvideo12{
-    max-width: 100%; 
-    margin: auto;
-}
     </style>
 
 </head>
@@ -1145,7 +1138,7 @@ cardwidth{
 <!-- ROBOT VIDEO MOBILE -->
 <div class="container-fluid px-0 d-md-none robotvideo9">
         <div class="d-flex justify-content-center align-items-center robotvideo11">
-            <div class="video-container-caravane robotvideo12" onclick="openVideoLink()">
+            <div class="video-container-caravane robotvideo12" style="max-width: 100%; margin: auto;" onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
     <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.

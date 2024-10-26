@@ -448,7 +448,7 @@ cardwidth{
 
 .robotvideo12{
     max-width: 100%; 
-    margin: auto;
+    margin: auto;"
 }
     </style>
 
