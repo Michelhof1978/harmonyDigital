@@ -245,7 +245,8 @@
                 </div>
             </div>
         </div>
-   
+    </div>
+</footer>
 <!-- FIN FOOTER DESKTOP -->
 
         <!-- <div class="mt-2">
@@ -269,7 +270,7 @@
     </div>
 </div>
 
-
+</body>
 <!-- _____________________________________________________________________________________ -->
 
 <!-- Scripts JavaScript -->
@@ -465,6 +466,7 @@
 
 
 <!--SEO -->
+
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",

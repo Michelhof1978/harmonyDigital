@@ -475,8 +475,8 @@ cardwidth{
 <img src="images/banniererobotindex.webp" loading="lazy" alt="Bannière de bienvenue avec un robot où tous les rêves se réalisent" class="img-fluid w-100 rounded">
 </div>
 
-<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" class=" gif3mobile1 img-fluid d-block d-md-none">
-<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" class="gif3mobile2 img-fluid d-none d-md-block">
+<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class=" gif3mobile1 img-fluid d-block d-md-none">
+<img src="images/gif3.gif" alt="gif animé d'un robot présentant la bannière" loading="lazy" class="gif3mobile2 img-fluid d-none d-md-block">
 
 
  <!-- INTRO-->
@@ -493,7 +493,7 @@ cardwidth{
             <div class="countdown-container mb-3">
                 <div id="countdown"></div>
             </div>
-            <img src="images/offre2024.webp" loading="lazy" alt="promotion de -10% pour les 50 prochains clients, offre valable jusqu'à la fin de l'année" class="img-fluid w-50 w-md-75 mx-auto">
+            <img src="images/offre2024.webp" loading="lazy" alt="promotion de -10% pour les 50 prochains clients, offre valable jusqu'à la fin de l'année" loading="lazy" class="img-fluid w-50 w-md-75 mx-auto">
         </div>
         <div class="col-12 col-md-6 mt-4 text-white order-3 order-md-2">
             <div class="d-flex justify-content-center">
@@ -527,7 +527,7 @@ cardwidth{
     Nos Services de Création Web et Marketing Digital
 </h2>
 
-<img src="images/bannercards.webp" loading="lazy" alt="Etapes pour une transformation digital et monter l'entreprise vers les étoiles" class="img-fluid rounded mt-3 mb-3 w-100">
+<img src="images/bannercards.webp" loading="lazy" alt="Etapes pour une transformation digital et monter l'entreprise vers les étoiles" loading="lazy" class="img-fluid rounded mt-3 mb-3 w-100">
 
         <p class="text-white lead fs-2 fw-bold">
             Des solutions sur mesure pour satisfaire vos besoins.
@@ -541,7 +541,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform cardwidth">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card1.png" loading="lazy" alt="Présentation du service création de site web avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card1.png" loading="lazy" alt="Présentation du service création de site web avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 590,00 €</strong>
                         <div class="card-body">
@@ -571,7 +571,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform cardwidth">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card3.png" loading="lazy" alt="Présentation des services de maquettes et logos avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card3.png" loading="lazy" alt="Présentation des services de maquettes et logos avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 150,00 €</strong>
                         <div class="card-body">
@@ -586,7 +586,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform cardwidth">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card4.png" loading="lazy" alt="Présentation des services de marketing digital avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card4.png" loading="lazy" alt="Présentation des services de marketing digital avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
                         <div class="card-body">
@@ -601,7 +601,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform cardwidth">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
                         <div class="card-body">
@@ -616,7 +616,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2 card-uniform cardwidth">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
+                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid mt-2">
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
                         <div class="card-body">
@@ -647,7 +647,7 @@ cardwidth{
             <strong class="text-white"> Nos Services de Création Web et Marketing Digital</strong>
         </h2>
         
-        <img src="images/bannercards.webp" loading="lazy" alt="Description des étapes pour une transformation digital et monter l'entreprise vers les sommets" class="img-fluid rounded w-75 m-5">
+        <img src="images/bannercards.webp" loading="lazy" alt="Description des étapes pour une transformation digital et monter l'entreprise vers les sommets" loading="lazy" class="img-fluid rounded w-75 m-5">
 
         <p class="text-white lead fs-2 fw-bold" >
             Des solutions sur mesure pour satisfaire vos besoins.
@@ -661,7 +661,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card1.png" loading="lazy" alt="Présentation du service création de site web avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card1.png" loading="lazy" alt="Présentation du service création de site web avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 590,00 €</strong>
@@ -672,7 +672,7 @@ cardwidth{
 
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card2.png" loading="lazy" alt="Présentation du référencement naturel (SEO) avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card2.png" loading="lazy" alt="Présentation du référencement naturel (SEO) avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 490,00 €</strong>
@@ -683,7 +683,7 @@ cardwidth{
 
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card3.png" loading="lazy" alt="Présentation des services de maquettes et logos avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card3.png" loading="lazy" alt="Présentation des services de maquettes et logos avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 150,00 €</strong>
@@ -699,7 +699,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card4.png" loading="lazy" alt="Présentation des services marketing digital avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card4.png" loading="lazy" alt="Présentation des services marketing digital avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
@@ -710,7 +710,7 @@ cardwidth{
 
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
@@ -721,7 +721,7 @@ cardwidth{
 
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
@@ -852,7 +852,7 @@ cardwidth{
         <div class="video-container robotvideo6">
             <!-- Même configuration pour la version mobile -->
             <video autoplay loop muted playsinline class="lazy rounded w-100" preload="none" data-src="videos/robotParle1.mp4">
-    <source src="videos/robotParle1.mp4" type="video/mp4">
+    <source type="video/mp4">
     <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
@@ -1127,14 +1127,14 @@ cardwidth{
         Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
         Et les résultats parlent d'eux-mêmes.</p>
     </div>
-    </div>
+
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
         <div class="d-flex justify-content-center align-items-center robotvideo9" >
             <div class="video-container-caravane robotvideo10"  onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
-    <source src="videos/robotpresentation4.mp4" type="video/mp4">
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
             </div>
@@ -1147,7 +1147,7 @@ cardwidth{
         <div class="d-flex justify-content-center align-items-center robotvideo11">
             <div class="video-container-caravane robotvideo12" onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
-    <source src="videos/robotpresentation4.mp4" type="video/mp4">
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
             </div>
@@ -1167,7 +1167,6 @@ cardwidth{
 </div>
 
     <?php include("footer.php"); ?>
-
     <!-- Script pour ouvrir le lien vidéo -->
     <script>
         function openVideoLink() {
@@ -1238,6 +1237,5 @@ cardwidth{
             });
         });
     </script>
-
 </body>
-</html>
+  </html>

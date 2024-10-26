@@ -269,7 +269,7 @@
     </div>
 </div>
 
-
+</body>
 <!-- _____________________________________________________________________________________ -->
 
 <!-- Scripts JavaScript -->
@@ -465,6 +465,7 @@
 
 
 <!--SEO -->
+
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",

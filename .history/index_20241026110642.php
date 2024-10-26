@@ -699,7 +699,7 @@ cardwidth{
                 <div class="d-flex justify-content-center">
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card4.png" loading="lazy" alt="Présentation des services marketing digital avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card4.png" loading="lazy" alt="Présentation des services marketing digital avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 750,00 €</strong>
@@ -710,7 +710,7 @@ cardwidth{
 
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card5.png" loading="lazy" alt="Présentation des services de communication événementiel avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 350,00 €</strong>
@@ -721,7 +721,7 @@ cardwidth{
 
                     <div class="card mt-2">
                         <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
+                            <img src="images/card6.png" loading="lazy" alt="Présentation des services de campagne publicitaire avec un robot en illustration" loading="lazy" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)" class="imgcard img-fluid">
                             <p class="textcard card-text text-white"></p>
                         </div>
                         <strong class="pricecard text-white custom-animation mb-5">À partir de 250,00 €</strong>
@@ -852,7 +852,7 @@ cardwidth{
         <div class="video-container robotvideo6">
             <!-- Même configuration pour la version mobile -->
             <video autoplay loop muted playsinline class="lazy rounded w-100" preload="none" data-src="videos/robotParle1.mp4">
-    <source src="videos/robotParle1.mp4" type="video/mp4">
+    <source type="video/mp4">
     <!-- Message affiché si la balise video n'est pas supportée par le navigateur -->
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
@@ -1127,14 +1127,14 @@ cardwidth{
         Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
         Et les résultats parlent d'eux-mêmes.</p>
     </div>
-    </div>
+
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
         <div class="d-flex justify-content-center align-items-center robotvideo9" >
             <div class="video-container-caravane robotvideo10"  onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
-    <source src="videos/robotpresentation4.mp4" type="video/mp4">
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
             </div>
@@ -1147,7 +1147,7 @@ cardwidth{
         <div class="d-flex justify-content-center align-items-center robotvideo11">
             <div class="video-container-caravane robotvideo12" onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
-    <source src="videos/robotpresentation4.mp4" type="video/mp4">
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
             </div>
@@ -1167,7 +1167,6 @@ cardwidth{
 </div>
 
     <?php include("footer.php"); ?>
-
     <!-- Script pour ouvrir le lien vidéo -->
     <script>
         function openVideoLink() {
@@ -1238,6 +1237,5 @@ cardwidth{
             });
         });
     </script>
-
 </body>
-</html>
+  </html>

@@ -159,7 +159,7 @@
                 </div>
             </div>
         </div>
-        <!-- Contenu du Footer -->
+        <!-- Footer Content -->
         <div class="footer-content pt-5 pb-5 text-center">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 mb-50">
@@ -223,8 +223,8 @@
                             </form>
                         </div>
                         <div class="mt-3">
-                            <img src="images/robotFooter.webp" loading="lazy" alt="Robot d'illustration pied de page" class="img-fluid w-25 mt-3">
-                        </div>
+            <img src="images/robotFooter.webp" loading="lazy" alt="Robot d'illustration pied de page" class="img-fluid w-25 mt-3">
+        </div>
                     </div>
                 </div>
             </div>
@@ -234,20 +234,13 @@
         <div class="container">
             <div class="row">
                 <div class="text-center">
-                    <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
-                    <div class="copyright-text">
-                        <p>Copyright &copy; 2022 - <span id="date2"></span>, Droits réservés 
-                            <a href="https://cvmichel-hoffmann.fr/" target="_blank">
-                                <br><span class="pt-5">Site réalisé par Michel Hoffmann <br> Harmony Digital</span>
-                            </a>
-                        </p>
+                <img src="images/gif6.gif" alt="robot gif" class="img-fluid robotFooter">
+                <div class="copyright-text">
+                        <p>Copyright &copy; 2022 - <span id="date2"></span>, Droits réservés <a href="https://cvmichel-hoffmann.fr/" target="_blank"><br><span class="pt-5">Site réalisé par Michel Hoffmann <br> Harmony Digital</span></a></p>
                     </div>
                 </div>
             </div>
         </div>
-   
-<!-- FIN FOOTER DESKTOP -->
-
         <!-- <div class="mt-2">
         <a href="http://www.mon-compteur.fr"><img src="http://www.mon-compteur.fr/html_c02genv2-78096-1" border="0" /></a>
     </div>    -->
@@ -268,7 +261,6 @@
     <button onclick="refuseCookies()"><strong>Refuser</strong></button>
     </div>
 </div>
-
 
 <!-- _____________________________________________________________________________________ -->
 
@@ -465,6 +457,7 @@
 
 
 <!--SEO -->
+
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",

@@ -450,7 +450,14 @@ cardwidth{
     max-width: 100%; 
     margin: auto;
 }
+
+
+.responsive-iframe {
+    width: 100%;
+}
+
     </style>
+
 
 </head>
 
@@ -1026,13 +1033,21 @@ cardwidth{
     <div class="row justify-content-center g-0 g-md-5">
         <div class="col-md-6 mb-4 mb-md-0">
             <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+            <iframe class="responsive-iframe" height="315" src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
                 <div class="text-orange-video lead">Campagne De Financement Participatif</div>
             </div>
         </div>
         <div class="col-md-6">
             <div class="videoCom embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <iframe class="responsive-iframe" height="315" src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
                 <div class="text-orange-video lead">Invitation Anniversaire</div>
             </div>
         </div>
@@ -1127,7 +1142,7 @@ cardwidth{
         Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
         Et les résultats parlent d'eux-mêmes.</p>
     </div>
-    </div>
+
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
@@ -1167,7 +1182,6 @@ cardwidth{
 </div>
 
     <?php include("footer.php"); ?>
-
     <!-- Script pour ouvrir le lien vidéo -->
     <script>
         function openVideoLink() {
@@ -1238,6 +1252,5 @@ cardwidth{
             });
         });
     </script>
-
 </body>
-</html>
+  </html>

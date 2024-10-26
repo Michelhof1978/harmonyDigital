@@ -1127,7 +1127,7 @@ cardwidth{
         Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
         Et les résultats parlent d'eux-mêmes.</p>
     </div>
-    </div>
+
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block">
@@ -1167,7 +1167,6 @@ cardwidth{
 </div>
 
     <?php include("footer.php"); ?>
-
     <!-- Script pour ouvrir le lien vidéo -->
     <script>
         function openVideoLink() {
@@ -1238,6 +1237,5 @@ cardwidth{
             });
         });
     </script>
-
 </body>
-</html>
+  </html>
