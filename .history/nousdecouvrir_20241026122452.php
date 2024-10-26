@@ -52,7 +52,7 @@
 
 .gif2{
     margin-bottom: -43px;
-     margin-left: 150px;
+     margin-left: 150px;"
 }
 
     </style>

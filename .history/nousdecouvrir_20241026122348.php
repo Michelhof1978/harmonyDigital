@@ -47,12 +47,7 @@
 }
 
 .gif1{
-    margin-bottom: -43px;
-}
-
-.gif2{
-    margin-bottom: -43px;
-     margin-left: 150px;
+    style="margin-bottom: -43px;
 }
 
     </style>
@@ -76,7 +71,7 @@
 
  <img src="images/gif4.gif" alt="robot gif" class="img-fluid d-block d-md-none gif1">
 
-<img src="images/gif4.gif"  alt="robot gif" class="img-fluid d-none d-md-block gif2">
+<img src="images/gif4.gif"  alt="robot gif" class="img-fluid d-none d-md-block gif2" style="margin-bottom: -43px; margin-left: 150px;">
 
 <!-- OFFRES DESKTOP -->
 <div class="d-none d-md-block">

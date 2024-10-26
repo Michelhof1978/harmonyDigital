@@ -46,15 +46,6 @@
     }
 }
 
-.gif1{
-    margin-bottom: -43px;
-}
-
-.gif2{
-    margin-bottom: -43px;
-     margin-left: 150px;
-}
-
     </style>
 </head>
     
@@ -74,9 +65,9 @@
 </div>
  <!--Fin Banner desktop -->
 
- <img src="images/gif4.gif" alt="robot gif" class="img-fluid d-block d-md-none gif1">
+ <img src="images/gif4.gif" alt="robot gif" class="img-fluid d-block d-md-none" style="margin-bottom: -43px;">
 
-<img src="images/gif4.gif"  alt="robot gif" class="img-fluid d-none d-md-block gif2">
+<img src="images/gif4.gif"  alt="robot gif" class="img-fluid d-none d-md-block" style="margin-bottom: -43px; margin-left: 150px;">
 
 <!-- OFFRES DESKTOP -->
 <div class="d-none d-md-block">
@@ -161,7 +152,7 @@
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-4">
-                <img src="images/robotinfo3.webp" loading="lazy" alt="robot décoratif" class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo3.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5">
@@ -182,7 +173,7 @@
                 </p>
             </div>
             <div class="col-4">
-                <img src="images/robotinfo4.webp" loading="lazy" alt="robot décoratif"  class="img-fluid w-50 mt-3">
+                <img src="images/robotinfo4.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
             </div>
         </div>
 </div>
@@ -214,7 +205,7 @@
     <div class="container mb-4">
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo1.webp" loading="lazy" alt="robot décoratif" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo1.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
         <div class="row">
@@ -241,7 +232,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo2.webp" loading="lazy" alt="robot décoratif" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo2.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -258,7 +249,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo3.webp" loading="lazy" alt="robot décoratif" class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo3.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -275,7 +266,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <img src="images/robotinfo4.webp" loading="lazy" alt="robot décoratif"  class="img-fluid w-25 mt-3">
+                <img src="images/robotinfo4.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-25 mt-3">
             </div>
         </div>
 </div>
@@ -312,7 +303,7 @@
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 <div class="text-center mb-4">
-        <img src="images/robotinfo5.webp" loading="lazy" alt="robot décoratif"  class="img-fluid w-50 mt-3">
+        <img src="images/robotinfo5.webp" loading="lazy" alt="robot décoratif" loading="lazy" class="img-fluid w-50 mt-3">
     </div>
     
     <?php include("footer.php"); ?>
