@@ -95,7 +95,7 @@
                             <p>Abonnez-vous à notre newsletter pour rester informé des dernières actualités.</p>
                         </div>
                         <div class="subscribe-form">
-                        <form action="newsletter_signup.php" method="post" class="d-flex justify-content-center">
+                        <form id="newsletter-form" action="newsletter_signup.php" method="post" class="d-flex justify-content-center">
                                 <input type="email" name="email" placeholder="Adresse Mail" class="me-2" required>
                                 <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                             </form>

@@ -261,7 +261,6 @@
                 </ul>
             </div>
         </div>
-        </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
             <img src="images/robotTarifs2.webp" alt="robot illustratif" class="img-fluid mx-auto w-50">
         </div>

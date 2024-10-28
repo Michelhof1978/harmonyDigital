@@ -261,7 +261,6 @@
                 </ul>
             </div>
         </div>
-        </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
             <img src="images/robotTarifs2.webp" alt="robot illustratif" class="img-fluid mx-auto w-50">
         </div>
@@ -269,10 +268,9 @@
 
 <div class="mt-5 mb-5 d-flex justify-content-center align-items-center" style="min-height: 50vh;">
 <video autoplay loop muted playsinline class="rounded video-responsive lazy" preload="none" data-src="videos/iatarif.mp4">
-    <source src="videos/iatarif.mp4" type="video/mp4">
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
 </div>
 
 
@@ -362,10 +360,9 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
         <div class="video-container" style="max-width: 50%; margin: auto;">
         <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotpresentation1.mp4">
-    <source src="videos/robotpresentation1.mp4" type="video/mp4">
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>
@@ -376,10 +373,9 @@
     <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh; margin-top:-50px; margin-bottom:-100px;">
         <div class="video-container" style="width: 100%;">
         <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/robotpresentation1.mp4">
-    <source src="videos/robotpresentation1.mp4" type="video/mp4">
+    <source type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>
-
         </div>
     </div>
 </div>

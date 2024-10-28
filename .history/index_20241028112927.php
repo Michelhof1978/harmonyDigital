@@ -1034,6 +1034,7 @@ cardwidth{
             <div class="videoCom embed-responsive embed-responsive-16by9">
 
             <iframe 
+    style="border: none; width: 100%; height: 315px;" 
     src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" 
     title="YouTube video player" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -1045,7 +1046,8 @@ cardwidth{
         </div>
         <div class="col-md-6">
             <div class="videoCom embed-responsive embed-responsive-16by9">
-<iframe  
+<iframe 
+    style="border: none; width: 100%; height: 315px;" 
     src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" 
     title="YouTube video player" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

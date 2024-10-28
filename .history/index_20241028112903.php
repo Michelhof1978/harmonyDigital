@@ -1032,8 +1032,9 @@ cardwidth{
     <div class="row justify-content-center g-0 g-md-5">
         <div class="col-md-6 mb-4 mb-md-0">
             <div class="videoCom embed-responsive embed-responsive-16by9">
-
+                
             <iframe 
+    style="border: none; width: 100%; height: 315px;" 
     src="https://www.youtube.com/embed/x11QdyjodtM?si=R-_wiZVwgNNjgODr" 
     title="YouTube video player" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -1045,13 +1046,7 @@ cardwidth{
         </div>
         <div class="col-md-6">
             <div class="videoCom embed-responsive embed-responsive-16by9">
-<iframe  
-    src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" 
-    title="YouTube video player" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-</iframe>
+                <iframe src="https://www.youtube.com/embed/G-B7-NNemiI?si=6n5RGhrVoRGKNBX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 <div class="text-orange-video lead">Invitation Anniversaire</div>
             </div>
         </div>
