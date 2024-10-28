@@ -554,9 +554,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- _____________________________________________________________________________________ -->
 
 
-<!-- Intégration de WhatsApp et chat ai-->
+<!-- Intégration de WhatsApp -->
 <script defer src="https://static.getbutton.io/widget/bundle.js?id=dkNpL" ></script>
-
 
 <!-- Script pour mettre à jour l'année dans le footer -->
 <script>

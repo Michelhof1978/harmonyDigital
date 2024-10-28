@@ -555,10 +555,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <!-- Intégration de WhatsApp et chat ai-->
-<script defer src="https://static.getbutton.io/widget/bundle.js?id=dkNpL" ></script>
-
-
-<!-- Script pour mettre à jour l'année dans le footer -->
+<script defer src="https://static.getbutton.io/widget/bundle.js?id=dkNpL" ></script><!-- Script pour mettre à jour l'année dans le footer -->
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const year = new Date().getFullYear();
