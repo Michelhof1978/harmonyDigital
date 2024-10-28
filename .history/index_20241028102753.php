@@ -452,9 +452,7 @@ cardwidth{
     margin: auto;
 }
 
-.margin-bottom{
-    margin-bottom: -120px;
-}
+.margin-bottom{}
     </style>
 
 </head>

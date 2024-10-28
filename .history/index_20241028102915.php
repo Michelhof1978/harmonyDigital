@@ -453,7 +453,7 @@ cardwidth{
 }
 
 .margin-bottom{
-    margin-bottom: -120px;
+    margin-bottom: -100px;
 }
     </style>
 

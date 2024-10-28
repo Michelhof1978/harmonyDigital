@@ -451,10 +451,6 @@ cardwidth{
     max-width: 100%; 
     margin: auto;
 }
-
-.margin-bottom{
-    margin-bottom: -120px;
-}
     </style>
 
 </head>
@@ -852,7 +848,7 @@ cardwidth{
 <!-- FIN ROBOT VIDEO DESKTOP-->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-block d-md-none margin-bottom">
+<div class="container-fluid px-0 d-block d-md-none ma">
     <div class="d-flex justify-content-center align-items-center robotvideo6">
         <div class="video-container robotvideo6">
             <!-- Même configuration pour la version mobile -->

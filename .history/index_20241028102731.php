@@ -451,10 +451,6 @@ cardwidth{
     max-width: 100%; 
     margin: auto;
 }
-
-.margin-bottom{
-    margin-bottom: -120px;
-}
     </style>
 
 </head>

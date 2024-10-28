@@ -421,7 +421,7 @@ cardwidth{
 .robotvideo6{
     min-height: 50vh; 
     margin-top: -100px; 
-    margin-top: -10px;
+    margin-top: -30px;
 }
 
 .robotvideo7{
@@ -450,10 +450,6 @@ cardwidth{
 .robotvideo12{
     max-width: 100%; 
     margin: auto;
-}
-
-.margin-bottom{
-    margin-bottom: -120px;
 }
     </style>
 
@@ -852,7 +848,7 @@ cardwidth{
 <!-- FIN ROBOT VIDEO DESKTOP-->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-block d-md-none margin-bottom">
+<div class="container-fluid px-0 mb-5 d-block d-md-none">
     <div class="d-flex justify-content-center align-items-center robotvideo6">
         <div class="video-container robotvideo6">
             <!-- Même configuration pour la version mobile -->
@@ -866,7 +862,7 @@ cardwidth{
 </div>
 <!-- FIN ROBOT VIDEO MOBILE -->
 
-<h2 class="text-center border borderColor border-4 rounded p-2 m-3 mb-3 text-white fw-bold ">
+<h2 class="text-center border borderColor border-4 rounded p-2 m-3 mb-5 text-white fw-bold">
     Nos Services Web Complets
 </h2>
 
