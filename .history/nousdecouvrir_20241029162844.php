@@ -172,7 +172,7 @@
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5">
                 De <span class="span">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
-                En tant que Smart, nous offrons une approche complète et immersive de la transformation numérique, plaçant le client au centre de l'innovation de son propre projet. Ensemble, nous établissons une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>, pour co-créer des solutions adaptées et visionnaires.
+                En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>.
                 </p>
             </div>
         </div>
@@ -258,7 +258,9 @@
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
                 De <span class="span">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
-                En tant que Smart, nous offrons une approche complète et immersive de la transformation numérique, plaçant le client au centre de l'innovation de son propre projet. Ensemble, nous établissons une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>, pour co-créer des solutions adaptées et visionnaires.
+               
+               
+                En tant que smart, nous proposons une approche 360 de la transformation numérique qui va projeter le client au cœur de l’innovation dans son propre projet, le tout dans une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>.
                 </p>
             </div>
         </div>
