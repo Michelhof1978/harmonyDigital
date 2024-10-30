@@ -487,7 +487,7 @@ cardwidth{
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-    Création De Site Web, Logo, Campagne-Audiovisuelle...
+    Création De Site Web, Logo, C Audiovisuelle...
 </h1>
 
 
