@@ -505,8 +505,8 @@ cardwidth{
             <div class="d-flex justify-content-center">
                 <p class="fs-4 lead p-3 mx-auto fw-bold">
                     Nous pouvons réaliser tous vos projets à distance en effectuant des points réguliers via le réseau 
-                    <a href="<?php echo DISCORD; ?>" class="text-decoration-custom " target="_blank" rel="noopener noreferrer">
-                        <span class="text-orange-nav2 underline-discord">Discord</span>
+                    <a href="<?php echo DISCORD; ?>" class="text-decoration-custom underline-discord" target="_blank" rel="noopener noreferrer">
+                        <span class="text-orange-nav2">Discord</span>
                     </a>
                 </p>
             </div>
@@ -1142,14 +1142,14 @@ cardwidth{
         <h2 class="border borderColor border-4 rounded p-2 m-5">
             <strong class="text-white">Projet Client D'un Site Web Vitrine</strong>
         </h2>
-        <p class="text-white lead fs-4 pb-5 fw-bold mb-5">
+        <p class="text-white lead fs-4 pb-5 fw-bold">
         Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
         Et les résultats parlent d'eux-mêmes.</p>
     </div>
     </div>
 
 <!-- ROBOT VIDEO DESKTOP -->
-<div class="container-fluid px-0 mb-5 d-none d-md-block mt-4">
+<div class="container-fluid px-0 mb-5 d-none d-md-block">
         <div class="d-flex justify-content-center align-items-center robotvideo9" >
             <div class="video-container-caravane robotvideo10"  onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">

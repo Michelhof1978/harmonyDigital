@@ -68,13 +68,13 @@ RewriteRule ^conditionsGeneralesDeVente\.php$ /conditionsGeneralesDeVente [R=301
 # Réécriture de /conditionsGeneralesDeVente vers /conditionsGeneralesDeVente.php
 RewriteRule ^conditionsGeneralesDeVente/?$ conditionsGeneralesDeVente.php [L]
 
-# Mettre en cache pour un téléchargement plus rapide des pages
+
 # Active le module expires pour définir le cache
 <IfModule mod_expires.c>
     ExpiresActive On
 
     # Mettre en cache les images pendant 1 mois
-    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
     ExpiresByType image/gif "access plus 1 month"
     ExpiresByType image/png "access plus 1 month"
 
@@ -85,8 +85,4 @@ RewriteRule ^conditionsGeneralesDeVente/?$ conditionsGeneralesDeVente.php [L]
 
     # Mettre en cache les fichiers HTML pendant 1 jour (utile pour les sites statiques)
     ExpiresByType text/html "access plus 1 day"
-    
-    # Mettre en cache les fichiers vidéo MP4 pendant 1 mois
-    ExpiresByType video/mp4 "access plus 1 month"
 </IfModule>
-

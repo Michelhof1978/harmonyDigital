@@ -476,11 +476,6 @@ width: 100%;
     color: #e06717e4;
 }
 
-.underline-discord {
-    text-decoration: underline;
-    text-decoration-color: #e06717e4; /* Couleur du trait souligné */
-    text-decoration-thickness: 2px; /* Épaisseur optionnelle du soulignement */
-}
 
 .robotFooter{
     width: 100px;

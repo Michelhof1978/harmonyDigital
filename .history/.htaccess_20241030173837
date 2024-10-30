@@ -68,7 +68,7 @@ RewriteRule ^conditionsGeneralesDeVente\.php$ /conditionsGeneralesDeVente [R=301
 # Réécriture de /conditionsGeneralesDeVente vers /conditionsGeneralesDeVente.php
 RewriteRule ^conditionsGeneralesDeVente/?$ conditionsGeneralesDeVente.php [L]
 
-# Mettre en cache pour un téléchargement plus rapide des pages
+# 
 # Active le module expires pour définir le cache
 <IfModule mod_expires.c>
     ExpiresActive On
