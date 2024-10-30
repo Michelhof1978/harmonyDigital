@@ -162,112 +162,109 @@
 
 
 
-<div class="row">
-    <div class="col-md-6">
-        <div class="tarif-details">
-            <h2 class="tarif-title fw-bold discord">1. Site Web Vitrine</h2>
-            <p>Un site vitrine est conçu pour présenter des informations de manière simple et efficace. Idéal pour les petites entreprises ou les professionnels souhaitant une présence en ligne de base.</p>
-            <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 590 Euros</span></p>
-            <ul>
-                <li>Design de base et mise en page</li>
-                <li>Création de pages essentielles (accueil, à propos, contact)</li>
-                <li>Intégration des éléments de marque (logo, couleurs)</li>
-                <li>Optimisation SEO de base</li>
-                <li>Formation pour la gestion du contenu</li>
-                <li>Formulaire de contact suivant la formule choisie</li>
-                <li>Limité à 1 à 4 pages maximum selon la formule choisie</li>
-            </ul>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="tarif-details">
+                <h2 class="tarif-title fw-bold">1.<span> Site Web Vitrine</h2>
+                <p>Un site vitrine est conçu pour présenter des informations de manière simple et efficace. Idéal pour les petites entreprises ou les professionnels souhaitant une présence en ligne de base.</p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 590 Euros</span></p>
+                <ul>
+                    <li>Design de base et mise en page</li>
+                    <li>Création de pages essentielles (accueil, à propos, contact)</li>
+                    <li>Intégration des éléments de marque (logo, couleurs)</li>
+                    <li>Optimisation SEO de base</li>
+                    <li>Formation pour la gestion du contenu</li>
+                    <li>Formulaire de contact suivant la formule choisie</li>
+                    <li>Limité à 1 à 4 pages maximum selon la formule choisi</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="tarif-details">
+                <h2 class="tarif-title fw-bold">2. Site Web avec Fonctionnalités Avancées</h2>
+                <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 2 200 Euros </span></p>
+                <ul>
+                    <li>Design personnalisé et mise en page avancée</li>
+                    <li>Intégration de fonctionnalités spécifiques (ex. : formulaires, galeries)</li>
+                    <li>Optimisation SEO plus poussée</li>
+                    <li>Intégration de plugins ou modules supplémentaires</li>
+                    <li>Formation pour la gestion du contenu</li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="col-md-6">
-        <div class="tarif-details">
-            <h2 class="tarif-title fw-bold discord">2. Site Web avec Fonctionnalités Avancées</h2>
-            <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
-            <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 2 200 Euros</span></p>
-            <ul>
-                <li>Design personnalisé et mise en page avancée</li>
-                <li>Intégration de fonctionnalités spécifiques (ex. : formulaires, galeries)</li>
-                <li>Optimisation SEO plus poussée</li>
-                <li>Intégration de plugins ou modules supplémentaires</li>
-                <li>Formation pour la gestion du contenu</li>
-            </ul>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="tarif-details">
+                <h2 class="tarif-title fw-bold">3. Site Web E-commerce</h2>
+                <p>Pour les projets nécessitant des fonctionnalités de vente en ligne, comme les paiements en ligne, la gestion des stocks, et le suivi des commandes.</p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 4 000 Euros</span></p>
+                <ul>
+                    <li>Configuration de la boutique en ligne</li>
+                    <li>Intégration des systèmes de paiement sécurisés</li>
+                    <li>Gestion des stocks et des produits</li>
+                    <li>Optimisation SEO</li>
+                    <li>Formation pour la gestion des commandes et du catalogue</li>
+                </ul>
+            </div>
         </div>
-    </div>
-</div>
 
-<div class="row">
-    <div class="col-md-6">
-        <div class="tarif-details">
-            <h2 class="tarif-title fw-bold discord">3. Site Web E-commerce</h2>
-            <p>Pour les projets nécessitant des fonctionnalités de vente en ligne, comme les paiements en ligne, la gestion des stocks, et le suivi des commandes.</p>
-            <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 4 000 Euros</span></p>
-            <ul>
-                <li>Configuration de la boutique en ligne</li>
-                <li>Intégration des systèmes de paiement sécurisés</li>
-                <li>Gestion des stocks et des produits</li>
-                <li>Optimisation SEO</li>
-                <li>Formation pour la gestion des commandes et du catalogue</li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="col-md-6">
-        <div class="tarif-details">
-            <h2 class="tarif-title fw-bold discord">4. Site Web sur Mesure</h2>
-            <p>Pour les projets nécessitant des fonctionnalités totalement personnalisées ou des intégrations spécifiques.</p>
-            <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 7 000 Euros</span></p>
-            <ul>
-                <li>Développement de fonctionnalités uniques</li>
-                <li>Design et UX sur mesure</li>
-                <li>Intégration avec des systèmes externes</li>
-                <li>Tests et optimisation</li>
-                <li>Formation pour la gestion du site</li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div class="row align-items-center mt-4">
-    <div class="col-md-6">
-        <div class="tarif-details">
-            <h2 class="tarif-title fw-bold discord">5. Services Complémentaires</h2>
-            
-            <h5 class="discord">Maintenance et Support</h5>
-            <p><strong>Tarif Abonnement Mensuel :</strong> <span class="discord fw-bold">A partir de 50 Euros</span></p>
-            <ul>
-                <li>Mises à jour régulières</li>
-                <li>Sauvegardes</li>
-                <li>Support technique</li>
-            </ul>
-
-            <h4 class="discord">Nom de Domaine</h4>
-            <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 15 Euros</span></p>
-            <ul>
-                <li>Enregistrement et renouvellement du nom de domaine</li>
-            </ul>
-
-            <h3>Hébergement</h3>
-            <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 60 Euros</span></p>
-            <ul>
-                <li>Hébergement web</li>
-                <li>Support technique associé</li>
-                <li>Service d'Emailing</li>
-            </ul>
-
-            <h5 class="discord">Protection contre les intrusions et les attaques par piratage</h5>
-            <p><strong>Tarif Mensuel :</strong> <span class="discord fw-bold">A partir de 5 Euros</span></p>
-            <ul>
-                <li>Sécurisation des données échangées entre le site et ses visiteurs</li>
-            </ul>
+        <div class="col-md-6">
+            <div class="tarif-details">
+                <h2 class="tarif-title fw-bold">4. Site Web sur Mesure</h2>
+                <p>Pour les projets nécessitant des fonctionnalités totalement personnalisées ou des intégrations spécifiques.</p>
+                <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 7 000 Euros</span></p>
+                <ul>
+                    <li>Développement de fonctionnalités uniques</li>
+                    <li>Design et UX sur mesure</li>
+                    <li>Intégration avec des systèmes externes</li>
+                    <li>Tests et optimisation</li>
+                    <li>Formation pour la gestion du site</li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    <div class="col-md-6 d-flex justify-content-center align-items-center">
-        <img src="images/robotTarifs2.webp" alt="robot illustratif" class="img-fluid mx-auto w-50">
-    </div>
-</div>
+    <div class="row align-items-center mt-4">
+        <div class="col-md-6">
+            <div class="tarif-details">
+                <h2 class="tarif-title fw-bold">5. Services Complémentaires</h2>
+                <h3>Maintenance et Support</h3>
+                <p><strong>Tarif Abonnement Mensuel :</strong> <span class="discord fw-bold">A partir de 50 Euros</span> </p>
+                <ul>
+                    <li>Mises à jour régulières</li>
+                    <li>Sauvegardes</li>
+                    <li>Support technique</li>
+                </ul>
+                
+                <h3>Nom de Domaine</h3>
+                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 15 Euros </span></p>
+                <ul>
+                    <li>Enregistrement et renouvellement du nom de domaine</li>
+                </ul>
 
+                <h3>Hébergement</h3>
+                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 60 Euros</span> </p>
+                <ul>
+                    <li>Hébergement web</li>
+                    <li>Support technique associé</li>
+                    <li>Service d'Emailing</li>
+                </ul>
+
+                <h3>Protection contre les intrusions et les attaques par piratage</h3>
+                <p><strong>Tarif Mensuel :</strong> <span class="discord fw-bold">A partir de 5 Euros</span></p>
+                <ul>
+                    <li>Sécurisation des données échangées entre le site et ses visiteurs</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-6 d-flex justify-content-center align-items-center">
+            <img src="images/robotTarifs2.webp" alt="robot illustratif" class="img-fluid mx-auto w-50">
+        </div>
 </section>
 
 <div class="mt-5 mb-5 d-flex justify-content-center align-items-center" style="min-height: 50vh;">
@@ -284,14 +281,14 @@
 <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
-            <strong class="text-white discord">Tarifs pour la Création de Logo</strong>
+            <strong class="text-white">Tarifs pour la Création de Logo</strong>
         </h1>
         <img src="images/soucoupe.webp" alt="robot illustratif" class="img-fluid m-3 w-25">
     </div>
     <div class="row mt-4">
         <div class="col-md-6">
             <div class="tarif-details">
-                <h2 class="tarif-title fw-bold discord">1. Logo de Base</h2>
+                <h2 class="tarif-title fw-bold">1. Logo de Base</h2>
                 <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 150 Euros</span></p>
                 <ul>
@@ -305,7 +302,7 @@
 
         <div class="col-md-6">
             <div class="tarif-details">
-                <h2 class="tarif-title fw-bold discord">2. Logo Standard</h2>
+                <h2 class="tarif-title fw-bold">2. Logo Standard</h2>
                 <p>Pour des besoins plus élaborés, incluant plusieurs propositions et révisions.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 800 Euros</span></p>
                 <ul>
@@ -322,7 +319,7 @@
     <div class="row">
         <div class="col-md-6">
             <div class="tarif-details">
-                <h2 class="tarif-title fw-bold discord">3. Logo Premium</h2>
+                <h2 class="tarif-title fw-bold">3. Logo Premium</h2>
                 <p>Pour les marques qui nécessitent une approche approfondie avec des recherches et une stratégie complète.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 1 500 Euros</span></p>
                 <ul>
@@ -338,7 +335,7 @@
 
         <div class="col-md-6">
             <div class="tarif-details">
-                <h2 class="tarif-title fw-bold discord">4. Logo sur Mesure</h2>
+                <h2 class="tarif-title fw-bold">4. Logo sur Mesure</h2>
                 <p>Pour des besoins spécifiques nécessitant des concepts entièrement personnalisés et une collaboration étroite.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">À partir de 3 000 Euros</span></p>
                 <ul>
