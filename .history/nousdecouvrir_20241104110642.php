@@ -189,12 +189,11 @@
     <div class="container mt-4 mb-5">
         <div class="row">
             <div class="col-8">
-            <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
-        Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
-        Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
-        Notre <a href="https://www.cegos.fr/ressources/mag/fiches-metiers/les-metiers-de-la-gestion-de-projets/fiche-metier-product-owner#:~:text=devenir%20Product%20Owner-,Qu'est%2Dce%20qu'un%20Product%20Owner%20%3F,%C3%A9quipe%20marketing%20et%20les%20clients." target="_blank" class="link-white">Product Owner</a> fera le lien entre toutes les parties investies dans le projet, dès le premier jour et jusqu'à la fin du projet. <br>
-        Il sera votre seul référent tout au long de notre collaboration.
-    </p>
+                <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
+                Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
+                Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
+                Notre Product Owner fera le lien entre toutes les parties investies dans le projet, dès le premier jour et jusqu'à la fin du projet. <br>Il sera votre seul référent tout au long de notre collaboration.
+                </p>
             </div>
             <div class="col-4">
                 <img src="images/robotinfo4.webp" loading="lazy" alt="robot décoratif"  class="img-fluid w-50 mt-3">
