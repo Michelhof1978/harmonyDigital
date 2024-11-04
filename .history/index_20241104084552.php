@@ -7,7 +7,7 @@
     <link rel="canonical" href="https://harmony-digital.fr/accueil">
 
    <style> 
-/* Liens*/ 
+/* Fond 0 et 1 index */ 
 .link-white {
             color: white;
             text-decoration: underline;

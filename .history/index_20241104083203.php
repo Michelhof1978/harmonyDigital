@@ -6,17 +6,11 @@
     <!-- Canonical Link -->
     <link rel="canonical" href="https://harmony-digital.fr/accueil">
 
-   <style> 
-/* Liens*/ 
+   <style>  
 .link-white {
             color: white;
             text-decoration: underline;
         }
-
-        .link-white:hover {
-            color: #e06717e4; /* Couleur lors du survol */
-        }
-
    /* Fond 0 et 1 index */
 #currency-background {
     position: fixed;
@@ -898,11 +892,9 @@ cardwidth{
             </div>
 
             <div class="text-center">
-        <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
-        <p class="text-white lead">
-            <strong>Logos, <a href="https://www.hubspot.fr/products/cms/website-themes-templates/what-is#:~:text=D%C3%A9finition%20d'un%20template%20de,site%2C%20m%C3%AAme%20sans%20comp%C3%A9tences%20graphiques." target="_blank" class="link-white">templates</a> Web, plaquette publicitaire, carte de visite, newsletter...</strong>
-        </p>
-    </div>
+                <h5 class="neon-yellow rounded">CONCEPTION GRAPHIQUE & WEBDESIGN</h5>
+                <p class="text-white lead"><strong>Logos, templates Web, plaquettes publicitaires, cartes de visite, newsletters...</strong></p>
+            </div>
 
             <div>
                 <img src="images/robotSeparateur2.png" alt="Robot d'illustration de séparateur de texte INTERFACE D'ADMINISTRATION" loading="lazy" class="img-fluid robotSeparateur"> 
@@ -936,13 +928,9 @@ cardwidth{
             </div>
 
             <div class="text-center">
-        <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
-        <p class="text-white lead">
-            <strong>
-                <a href="https://www.monparcourshandicap.gouv.fr/accessibilite-numerique#:~:text=Qu'est%2Dce%20que%20l,et%20ses%20fonctionnalit%C3%A9s%20sans%20difficult%C3%A9." target="_blank" class="link-white">Accessibilité</a> & ergonomie des pages web
-            </strong>
-        </p>
-    </div>
+                <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
+                <p class="text-white lead"><strong>Accessibilité & ergonomie des pages web</strong></p>
+            </div>
 
             <div>
                 <img src="images/robotSeparateur6.webp" alt="Robot d'illustration de séparateur de texte CONCEPTION MULTI-PLATEFORME" loading="lazy" class="img-fluid robotSeparateur"> 

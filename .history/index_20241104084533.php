@@ -6,16 +6,12 @@
     <!-- Canonical Link -->
     <link rel="canonical" href="https://harmony-digital.fr/accueil">
 
-   <style> 
-/* Liens*/ 
+   <style>  
 .link-white {
             color: white;
             text-decoration: underline;
         }
 
-        .link-white:hover {
-            color: #e06717e4; /* Couleur lors du survol */
-        }
 
    /* Fond 0 et 1 index */
 #currency-background {
