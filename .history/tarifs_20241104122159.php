@@ -250,7 +250,7 @@ h2{
                 <li>Enregistrement et renouvellement du nom de domaine</li>
             </ul>
 
-            <h4 class="discord">Hébergement</h4>
+            <h4 class="">Hébergement</h4>
             <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 60 Euros</span></p>
             <ul>
                 <li>Hébergement web</li>

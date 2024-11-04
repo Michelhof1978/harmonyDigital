@@ -1201,8 +1201,8 @@ cardwidth{
     </p>
 </div>
 
-<div class="container-fluid d-flex justify-content-center align-items-center full-height ">
-<img src="images/bannerGoogle.png" loading="lazy" alt="Bannière Google" class="img-fluid w-25 rounded">
+<div class="container-fluid d-flex justify-content-center align-items-center full-height mt-5">
+<img src="images/bannerGoogle.png" loading="lazy" alt="Bannière Google" class="img-fluid w-100 rounded">
 </div>
 
     <?php include("footer.php"); ?>
