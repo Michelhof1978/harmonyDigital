@@ -1246,7 +1246,7 @@
      </div>
  </div>
  <!-- FIN ROBOT VIDEO MOBILE -->
-        <p class="text-white text-center lead fs-4 pb-5 fw-bold mb-5">
+        <p class="text-white lead fs-4 pb-5 fw-bold mb-5">
              Leur chiffre d'affaires a presque doublé, les plaçant désormais en concurrence <br> avec une célèbre plateforme de réservation.
         </p>
 
