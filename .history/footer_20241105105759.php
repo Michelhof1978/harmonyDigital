@@ -468,17 +468,17 @@
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "Service",
     "name": "Harmony Digital",
     "image": "https://harmony-digital.fr/images/logo.png",
-    "logo": "https://harmony-digital.fr/images/logo.png",
     "telephone": "+33 6 66 33 25 88",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "LA MOTTE",
         "addressLocality": "DECIZE",
-        "addressRegion": "Bourgogne-Franche Comté",
-        "postalCode": "58300",
+        "addressRegion": "Bourgogne-Franche Comté
+        ",
+        "postalCode": "58 300",
         "addressCountry": "FR"
     },
     "geo": {
@@ -502,10 +502,11 @@
         "priceCurrency": "EUR",
         "price": "100",
         "priceValidUntil": "2035-12-31",
-        "description": "Création de site internet, création de site web, agence web, agence web Decize, agence web Bourgogne-Franche-Comté, SEO, référencement, développement web, création de logo, marketing digital. Profitez de solutions complètes pour votre présence en ligne avec des services personnalisés et optimisés pour le référencement. Contactez-nous pour des offres exclusives et des réductions spéciales sur la création de votre site internet."
+        "description": "Profitez de 10% de réduction sur nos services de création de sites web. Offre valable jusqu'au 31 décembre 2025. Consultez les détails de l'offre sur notre site."
     }
 }
 </script>
+
 
 <!-- <script type="application/ld+json">
 {
