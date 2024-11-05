@@ -4,7 +4,7 @@
 
 <meta property="og:url" content="https://harmony-digital.fr/nousdecouvrir">
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/nousdecouvrir">
+    <link rel="canonical" href="https://harmony-digital.fr/infos">
 
     <style>
         /* Fond 0 et 1 index */

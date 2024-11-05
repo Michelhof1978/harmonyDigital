@@ -1153,16 +1153,16 @@ cardwidth{
 
 <!-- FIN PRESENTATION LOGOS -->
 
-<div class="text-center mt-4 ms-2 me-2">
+<!-- <div class="text-center mt-4 ms-2 me-2">
     <div>
         <h2 class="border borderColor border-4 rounded p-2 m-5">
             <strong class="text-white">Projet Client D'un Site Web Vitrine</strong>
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold mb-5">
-        Exemple de réalisation : création d'un site vitrine pour un client, incluant un formulaire de contact et une optimisation SEO, le tout pour seulement 990,00 €.<br>
-        Leur chiffre d'affaires a presque doublé, les plaçant désormais en concurrence avec une célèbre plateforme de réservation.</p>
+        Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
+        Et les résultats parlent d'eux-mêmes.</p>
     </div>
-    </div>
+    </div> -->
 
 <!-- ROBOT VIDEO DESKTOP -->
 <div class="container-fluid px-0 mb-5 d-none d-md-block mt-4">

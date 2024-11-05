@@ -48,7 +48,7 @@
   <!-- End Google Tag Manager -->
 
   <!-- Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPGMZYGZ9P"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPGMZYGZ9P"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -57,7 +57,7 @@
     }
     gtag('js', new Date());
     gtag('config', 'G-HPGMZYGZ9P');
-  </script> -->
+  </script>
 
 
 

@@ -1160,7 +1160,7 @@ cardwidth{
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold mb-5">
         Exemple de réalisation : création d'un site vitrine pour un client, incluant un formulaire de contact et une optimisation SEO, le tout pour seulement 990,00 €.<br>
-        Leur chiffre d'affaires a presque doublé, les plaçant désormais en concurrence avec une célèbre plateforme de réservation.</p>
+        L</p>
     </div>
     </div>
 

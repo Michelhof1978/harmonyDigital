@@ -27,10 +27,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
 
   <!-- Scripts -->
-  <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Google Tag Manager -->
-  <!-- <script>
+  <script>
     (function(w, d, s, l, i) {
       w[l] = w[l] || [];
       w[l].push({
@@ -44,11 +44,11 @@
       j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-NCWSBWT7');
-  </script> -->
+  </script>
   <!-- End Google Tag Manager -->
 
   <!-- Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPGMZYGZ9P"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HPGMZYGZ9P"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -57,7 +57,7 @@
     }
     gtag('js', new Date());
     gtag('config', 'G-HPGMZYGZ9P');
-  </script> -->
+  </script>
 
 
 

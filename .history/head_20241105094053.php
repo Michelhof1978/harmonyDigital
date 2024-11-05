@@ -27,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
 
   <!-- Scripts -->
-  <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Google Tag Manager -->
   <!-- <script>
@@ -56,8 +56,8 @@
       dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', 'G-HPGMZYGZ9P');
-  </script> -->
+    gtag('config', 'G-HPGMZYGZ9P'); -->
+  </script>
 
 
 

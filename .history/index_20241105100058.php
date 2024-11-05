@@ -1159,13 +1159,13 @@ cardwidth{
             <strong class="text-white">Projet Client D'un Site Web Vitrine</strong>
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold mb-5">
-        Exemple de réalisation : création d'un site vitrine pour un client, incluant un formulaire de contact et une optimisation SEO, le tout pour seulement 990,00 €.<br>
-        Leur chiffre d'affaires a presque doublé, les plaçant désormais en concurrence avec une célèbre plateforme de réservation.</p>
+        Grâce à Harmony Digital, l'entreprise "Les Caravanes de la Besbre" a placé sa confiance en nous.<br>
+        Et les résultats parlent d'eux-mêmes.</p>
     </div>
-    </div>
+    </div> -->
 
 <!-- ROBOT VIDEO DESKTOP -->
-<div class="container-fluid px-0 mb-5 d-none d-md-block mt-4">
+<!-- <div class="container-fluid px-0 mb-5 d-none d-md-block mt-4">
         <div class="d-flex justify-content-center align-items-center robotvideo9" >
             <div class="video-container-caravane robotvideo10"  onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
@@ -1174,11 +1174,11 @@ cardwidth{
 </video>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- FIN ROBOT VIDEO DESKTOP -->
 
 <!-- ROBOT VIDEO MOBILE -->
-<div class="container-fluid px-0 d-md-none robotvideo9">
+<!-- <div class="container-fluid px-0 d-md-none robotvideo9">
         <div class="d-flex justify-content-center align-items-center robotvideo11">
             <div class="video-container-caravane robotvideo12" onclick="openVideoLink()">
             <video class="video-caravane lazy" autoplay loop muted playsinline preload="none" data-src="videos/robotpresentation4.mp4">
@@ -1187,8 +1187,8 @@ cardwidth{
 </video>
             </div>
         </div>
-    </div>
-    <!-- FIN ROBOT VIDEO MOBILE -->
+    </div> -->
+    <!-- FIN ROBOT VIDEO MOBILE
     
 
 <!-- SECTION FINALE -->
