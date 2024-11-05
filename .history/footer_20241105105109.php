@@ -476,7 +476,8 @@
         "@type": "PostalAddress",
         "streetAddress": "LA MOTTE",
         "addressLocality": "DECIZE",
-        "addressRegion": "Bourgogne-Franche Comté",
+        "addressRegion": "Bourgogne-Franche Comté
+        ",
         "postalCode": "58 300",
         "addressCountry": "FR"
     },
@@ -505,6 +506,7 @@
     }
 }
 </script>
+
 
 <!-- <script type="application/ld+json">
 {

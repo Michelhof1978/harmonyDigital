@@ -11,11 +11,14 @@
   <meta property="og:image" content="images/logo.ico">
   <meta name="author" content="HOFFMANN MICHEL - Harmony Digital">
 
-   <!--Balises Open Graph pour un meilleur partage sur les réseaux sociaux -->
+   <!-- SEO Balises Open Graph pour un meilleur partage sur les réseaux sociaux -->
    <meta property="og:title" content="Agence Création de Sites Internet - HARMONY DIGITAL">
     <meta property="og:description" content="Nous créons des sites internet performants et optimisés pour le SEO.">
     <meta property="og:image" content="images/logo.ico">
     <meta property="og:url" content="https://harmony-digital.fr/">
+
+    <!--SEO  Balises pour les mots-clés  -->
+   <meta name="keywords" content="création site internet, création site web, agence web, agence web Decize, agence web Bourgogne-Franche-Comté, SEO, référencement, développement web, logo, marketing digital, création site internet sur mesure, site vitrine, site e-commerce, agence digitale, design web, refonte de site internet, optimisation SEO, visibilité en ligne, stratégie numérique, site web responsive, création de contenu, maintenance de site, gestion de projet web, hébergement web, développement front-end, développement back-end, programmation web, audit SEO, analyse de trafic, expérience utilisateur, interface utilisateur, branding, identité visuelle, conception graphique, rédaction web, campagnes publicitaires, marketing de contenu, publicité en ligne, Google Ads, réseaux sociaux, community management, site internet professionnel, solutions web, agence de communication, conception de site internet, boutique en ligne, CMS, WordPress, Shopify, WooCommerce, référencement local, analyse concurrentielle, site internet rapide, création site internet optimisé, webmaster, gestion de contenu, technologies web, transformation digitale, marketing de proximité, marketing mobile, performance web, design UX, design UI, accessibilité web, tendances web, services web, développement mobile, optimisation de conversion, freelance web, application web, consulting web, support technique, landing page, marketing automation, newsletter, optimisation images, stratégie SEO local, backlinks, moteurs de recherche, analytics, web design moderne, portfolio en ligne, services créatifs, agence de développement, accompagnement digital, solutions e-commerce, web 3.0, référencement naturel, netlinking, blogging, articles SEO, formation SEO, coaching web, influenceurs numériques, content marketing, site d'entreprise, landing pages efficaces, technologies innovantes, digitalisation, optimisation mobile, certification SSL, sécurité web, gestion de bases de données, prototypage, wireframes, migration de site, services UX/UI, design graphique personnalisé, optimisation de performance, solutions de marketing digital, web analytique, campagne audiovisuelle">
 
 
   <!-- Favicon -->

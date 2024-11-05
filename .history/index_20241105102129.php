@@ -1159,8 +1159,8 @@ cardwidth{
             <strong class="text-white">Projet Client D'un Site Web Vitrine</strong>
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold mb-5">
-        Exemple de réalisation : création d'un site vitrine pour un client,<br> incluant un formulaire de contact et une optimisation SEO, le tout pour seulement 990,00 €.<br><br>
-        Leur chiffre d'affaires a presque doublé, les plaçant désormais en concurrence <br> avec une célèbre plateforme de réservation.</p>
+        Exemple de réalisation : création d'un site vitrine pour un client, incluant un formulaire de contact et une optimisation SEO, le tout pour seulement 990,00 €.<br>
+        Leur chiffre d'affaires a presque doublé, les plaçant désormais en concurrence avec une célèbre plateforme de réservation.</p>
     </div>
     </div>
 
@@ -1168,7 +1168,7 @@ cardwidth{
 <div class="container-fluid px-0 mb-5 d-none d-md-block mt-4">
         <div class="d-flex justify-content-center align-items-center robotvideo9" >
             <div class="video-container-caravane robotvideo10"  onclick="openVideoLink()">
-            <video class="video-caravane lazy" autoplay loop muted playsinline preload="auto" data-src="videos/robotpresentation4.mp4">
+            <video class="video-caravane lazy" autoplay loop muted playsinline preload="" data-src="videos/robotpresentation4.mp4">
     <source src="videos/robotpresentation4.mp4" type="video/mp4">
     Votre navigateur ne supporte pas la balise <code>video</code>.
 </video>

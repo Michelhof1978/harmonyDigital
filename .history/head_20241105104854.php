@@ -11,7 +11,7 @@
   <meta property="og:image" content="images/logo.ico">
   <meta name="author" content="HOFFMANN MICHEL - Harmony Digital">
 
-   <!--Balises Open Graph pour un meilleur partage sur les réseaux sociaux -->
+   <!-- Balises Open Graph pour un meilleur partage sur les réseaux sociaux -->
    <meta property="og:title" content="Agence Création de Sites Internet - HARMONY DIGITAL">
     <meta property="og:description" content="Nous créons des sites internet performants et optimisés pour le SEO.">
     <meta property="og:image" content="images/logo.ico">

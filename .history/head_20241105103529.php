@@ -11,12 +11,11 @@
   <meta property="og:image" content="images/logo.ico">
   <meta name="author" content="HOFFMANN MICHEL - Harmony Digital">
 
-   <!--Balises Open Graph pour un meilleur partage sur les réseaux sociaux -->
-   <meta property="og:title" content="Agence Création de Sites Internet - HARMONY DIGITAL">
+   <!-- Balises Open Graph pour un meilleur partage sur les réseaux sociaux -->
+   <meta property="og:title" content="Agence Création de Sites Internet - Nom de l'Entreprise">
     <meta property="og:description" content="Nous créons des sites internet performants et optimisés pour le SEO.">
-    <meta property="og:image" content="images/logo.ico">
-    <meta property="og:url" content="https://harmony-digital.fr/">
-
+    <meta property="og:image" content="URL_de_votre_image.jpg">
+    <meta property="og:url" content="https://votre-site.com">
 
   <!-- Favicon -->
   <link rel="icon" href="images/logo.ico">

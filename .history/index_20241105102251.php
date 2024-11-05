@@ -1159,7 +1159,7 @@ cardwidth{
             <strong class="text-white">Projet Client D'un Site Web Vitrine</strong>
         </h2>
         <p class="text-white lead fs-4 pb-5 fw-bold mb-5">
-        Exemple de réalisation : création d'un site vitrine pour un client,<br> incluant un formulaire de contact et une optimisation SEO, le tout pour seulement 990,00 €.<br><br>
+        Exemple de réalisation : création d'un site vitrine pour un client,<br> incluant un formulaire de contact et une optimisation SEO, le tout pour seulement 990,00 €.<br>
         Leur chiffre d'affaires a presque doublé, les plaçant désormais en concurrence <br> avec une célèbre plateforme de réservation.</p>
     </div>
     </div>
