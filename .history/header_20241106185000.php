@@ -57,11 +57,8 @@
         <!-- <div class="banner"></div> -->
 
         <div id="special-header">
-            <video autoplay muted loop id="video-bg" playsinline>
-                <source src="videos/header.mp4" type="video/mp4">
-                Votre navigateur ne supporte pas la vidéo.
-            </video>
-            
+        <iframe src="https://drive.google.com/file/d/1euxA77y0uNp8w_moF4fd3uX0Ohs0kDNe/preview" width="640" height="480" allow="autoplay"></iframe>
+
             <!-- <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
     </div> -->

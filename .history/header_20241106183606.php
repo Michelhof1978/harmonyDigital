@@ -57,11 +57,16 @@
         <!-- <div class="banner"></div> -->
 
         <div id="special-header">
-            <video autoplay muted loop id="video-bg" playsinline>
+
+        <iframe 
+            src="https://player.vimeo.com/video/1026978735?autoplay=1&loop=1&muted=1" 
+            allow="autoplay; fullscreen; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+            <!-- <video autoplay muted loop id="video-bg" playsinline>
                 <source src="videos/header.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la vidéo.
-            </video>
-            
+            </video> -->
             <!-- <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
     </div> -->

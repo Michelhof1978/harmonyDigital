@@ -61,7 +61,6 @@
                 <source src="videos/header.mp4" type="video/mp4">
                 Votre navigateur ne supporte pas la vidéo.
             </video>
-            
             <!-- <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
     </div> -->
