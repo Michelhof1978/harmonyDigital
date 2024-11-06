@@ -11,7 +11,7 @@
         text-decoration: underline;
     }
 
-    /* API LIEN*/
+    /* API*/
 
     .link-color{
         color: #fa6604;

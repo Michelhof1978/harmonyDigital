@@ -11,15 +11,6 @@
         text-decoration: underline;
     }
 
-    /* API LIEN*/
-
-    .link-color{
-        color: #fa6604;
-    }
-
-    .link-color:hover {
-    color: white; /* Couleur blanche au survol */
-}
     .neon-yellow {
         color: rgba(255, 255, 51, 0.8);
         /* Code couleur pour un jaune néon plus clair et plus transparent */

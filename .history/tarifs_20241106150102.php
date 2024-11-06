@@ -11,7 +11,7 @@
         text-decoration: underline;
     }
 
-    /* API LIEN*/
+    * Code couleur pour un jaune néon plus clair et plus transparent */
 
     .link-color{
         color: #fa6604;

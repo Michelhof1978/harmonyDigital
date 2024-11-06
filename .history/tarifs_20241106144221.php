@@ -11,15 +11,6 @@
         text-decoration: underline;
     }
 
-    /* API LIEN*/
-
-    .link-color{
-        color: #fa6604;
-    }
-
-    .link-color:hover {
-    color: white; /* Couleur blanche au survol */
-}
     .neon-yellow {
         color: rgba(255, 255, 51, 0.8);
         /* Code couleur pour un jaune néon plus clair et plus transparent */
@@ -160,15 +151,12 @@
     <div class="row justify-content-center mt-4">
         <div class="col-md-6 text-center">
             <img src="images/robotTarifs1.webp" alt="robot illustratif" class="img-fluid mx-auto w-25">
+                
         </div>
     </div>
 
-    <!-- <div class="d-flex justify-content-center align-items-center">
-    <img src="images/imagetarifs.webp" alt="présentation d'un forfait mensuel pour création site web" class="img-fluid m-3 w-50 rounded">
-</div> -->
-
     <!-- Vidéo pour mobile (12 colonnes) -->
-    <div class="d-flex justify-content-center align-items-center d-md-none" style="min-height: 50vh; margin-top: -75px; margin-bottom: -50px">
+    <!-- <div class="d-flex justify-content-center align-items-center d-md-none" style="min-height: 50vh; margin-top: -75px; margin-bottom: -50px">
         <div class="video-container col-12">
             <video autoplay loop muted playsinline class="rounded w-100 lazy" preload="none" data-src="videos/videotarif.mp4">
                 <source src="videos/videotarif.mp4" type="video/mp4">
@@ -176,10 +164,10 @@
             </video>
 
         </div>
-    </div>
+    </div> -->
 
     <!-- Vidéo pour desktop (6 colonnes) -->
-    <div class="d-flex justify-content-center align-items-center d-none d-md-flex" style="min-height: 50vh; margin-top: -120px; margin-bottom: -30px">
+    <!-- <div class="d-flex justify-content-center align-items-center d-none d-md-flex" style="min-height: 50vh; margin-top: -120px; margin-bottom: -30px">
         <div class="video-container d-flex justify-content-center" style="max-width: 700px; width: 100%;">
             <video autoplay loop muted playsinline class="rounded lazy" style="width: 100%;" preload="none" data-src="videos/videotarif.mp4">
                 <source src="videos/videotarif.mp4" type="video/mp4">
@@ -187,7 +175,7 @@
             </video>
 
         </div>
-    </div>
+    </div> -->
 
 
 

@@ -11,15 +11,6 @@
         text-decoration: underline;
     }
 
-    /* API LIEN*/
-
-    .link-color{
-        color: #fa6604;
-    }
-
-    .link-color:hover {
-    color: white; /* Couleur blanche au survol */
-}
     .neon-yellow {
         color: rgba(255, 255, 51, 0.8);
         /* Code couleur pour un jaune néon plus clair et plus transparent */
@@ -179,7 +170,7 @@
     </div>
 
     <!-- Vidéo pour desktop (6 colonnes) -->
-    <div class="d-flex justify-content-center align-items-center d-none d-md-flex" style="min-height: 50vh; margin-top: -120px; margin-bottom: -30px">
+    <!-- <div class="d-flex justify-content-center align-items-center d-none d-md-flex" style="min-height: 50vh; margin-top: -120px; margin-bottom: -30px">
         <div class="video-container d-flex justify-content-center" style="max-width: 700px; width: 100%;">
             <video autoplay loop muted playsinline class="rounded lazy" style="width: 100%;" preload="none" data-src="videos/videotarif.mp4">
                 <source src="videos/videotarif.mp4" type="video/mp4">
@@ -187,7 +178,7 @@
             </video>
 
         </div>
-    </div>
+    </div> -->
 
 
 
