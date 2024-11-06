@@ -1060,16 +1060,10 @@
 
              <img src="images/robotSeparateur5.png" alt="Robot d'illustration de séparateur de texte VALIDATION W3C & REFERENCEMENT NATUREL SEO" loading="lazy" class="img-fluid robotSeparateur mb-3">
 
-             <div class="text-center">
-        <h5 class="neon-yellow rounded">
-            <a href="https://jaetheme.com/blog/valider-site-w3c/" target="_blank" class="link-white">VALIDATION W3C</a> & REFERENCEMENT NATUREL SEO
-        </h5>
-        <p class="text-white lead">
-            <strong>
-                <a href="https://www.monparcourshandicap.gouv.fr/accessibilite-numerique#:~:text=Qu'est%2Dce%20que%20l,et%20ses%20fonctionnalit%C3%A9s%20sans%20difficult%C3%A9." target="_blank" class="link-white">Accessibilité</a> & ergonomie des pages web
-            </strong>
-        </p>
-    </div>
+             <div class="mb-3">
+                 <h5 class="neon-yellow rounded">VALIDATION W3C & REFERENCEMENT NATUREL SEO</h5>
+                 <p class="text-white lead fw-bold">Accessibilité & ergonomie des pages web</p>
+             </div>
 
              <img src="images/robotSeparateur6.webp" alt="Robot d'illustration de séparateur de texte CONCEPTION MULTI-PLATEFORME" loading="lazy" class="img-fluid robotSeparateur mb-3">
 
