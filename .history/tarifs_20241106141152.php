@@ -393,7 +393,7 @@
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 
-<div class="fw-bold text-center m-5 text-white fs-5">
+<div class="fw-bold text-center m-5 text-white">
     Pour toute demande concernant nos tarifs et services,<br> veuillez nous contacter pour obtenir un devis personnalisé.</div>
 
 

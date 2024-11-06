@@ -553,7 +553,7 @@
 
  <!-- INTRO-->
  <h1 class="mt-5 border borderColor border-4 rounded p-2 col m-4 text-center text-white fw-bold">
-     Création De Site Web, Logo, Campagne-Audiovisuelle...
+     Création De Site Web, Logo, Campagne -Audiovisuelle...
  </h1>
 
 
@@ -1068,7 +1068,7 @@
 
              <div class="pb-4">
                  <h5 class="neon-yellow rounded">CONCEPTION MULTI-PLATEFORME</h5>
-                 <p class="text-white lead fw-bold">Compatible tous supports, tablette & mobile</p>
+                 <p class="text-white lead fw-bold">Compatible tous supports, tablette & application mobile</p>
              </div>
          </div>
      </div>

@@ -202,12 +202,12 @@
                 <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 2 200 Euros</span></p>
                 <ul>
-        <li>Design personnalisé et mise en page avancée</li>
-        <li>Intégration de fonctionnalités spécifiques (ex. : formulaires de réservation, galeries d'images...)</li>
-        <li>Optimisation SEO plus poussée</li>
-        <li>Intégration de plugins, <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api" target="_blank" class="link-color">API</a> ou modules supplémentaires</li>
-        <li>Formation pour la gestion du contenu</li>
-    </ul>
+                    <li>Design personnalisé et mise en page avancée</li>
+                    <li>Intégration de fonctionnalités spécifiques (ex. : formulaires de réservation, galeries d'images...)</li>
+                    <li>Optimisation SEO plus poussée</li>
+                    <li>Intégration de plugins, API ou modules supplémentaires</li>
+                    <li>Formation pour la gestion du contenu</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -336,6 +336,7 @@
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 1 500 Euros</span></p>
                 <ul>
                     <li>Conception de 5 à 10 propositions de logo</li>
+                    <li>Révisions illimitées</li>
                     <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
                     <li>Consultation stratégique et recherche de marque</li>
                     <li>Applications de logo sur divers supports</li>
@@ -351,6 +352,7 @@
                 <ul>
                     <li>Conception personnalisée en fonction des besoins uniques</li>
                     <li>Recherche approfondie et développement</li>
+                    <li>Révisions et itérations illimitées</li>
                     <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
                 </ul>
             </div>
@@ -393,7 +395,7 @@
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 
-<div class="fw-bold text-center m-5 text-white fs-5">
+<div class="fw-bold text-center m-5 text-white press-start-2p-regular">
     Pour toute demande concernant nos tarifs et services,<br> veuillez nous contacter pour obtenir un devis personnalisé.</div>
 
 

@@ -202,12 +202,12 @@
                 <p>Ces sites incluent des fonctionnalités supplémentaires comme des formulaires complexes, des galeries d'images, ou des options de personnalisation.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 2 200 Euros</span></p>
                 <ul>
-        <li>Design personnalisé et mise en page avancée</li>
-        <li>Intégration de fonctionnalités spécifiques (ex. : formulaires de réservation, galeries d'images...)</li>
-        <li>Optimisation SEO plus poussée</li>
-        <li>Intégration de plugins, <a href="https://www.cnil.fr/fr/definition/interface-de-programmation-dapplication-api" target="_blank" class="link-color">API</a> ou modules supplémentaires</li>
-        <li>Formation pour la gestion du contenu</li>
-    </ul>
+                    <li>Design personnalisé et mise en page avancée</li>
+                    <li>Intégration de fonctionnalités spécifiques (ex. : formulaires de réservation, galeries d'images...)</li>
+                    <li>Optimisation SEO plus poussée</li>
+                    <li>Intégration de plugins, API ou modules supplémentaires</li>
+                    <li>Formation pour la gestion du contenu</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -257,7 +257,7 @@
                 </ul>
 
                 <h4 class="discord">Nom de Domaine</h4>
-                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 25 Euros</span></p>
+                <p><strong>Tarif Annuel :</strong> <span class="discord fw-bold">A partir de 15 Euros</span></p>
                 <ul>
                     <li>Enregistrement et renouvellement du nom de domaine</li>
                 </ul>
@@ -270,7 +270,11 @@
                     <li>Service d'Emailing</li>
                 </ul>
 
-                
+                <h5 class="discord">Protection contre les intrusions et les attaques par piratage</h5>
+                <p><strong>Tarif Mensuel :</strong> <span class="discord fw-bold">A partir de 5 Euros</span></p>
+                <ul>
+                    <li>Sécurisation des données échangées entre le site et ses visiteurs</li>
+                </ul>
             </div>
         </div>
 
@@ -295,7 +299,7 @@
 <section class="container tarifs-section text-white">
     <div class="text-center mt-5">
         <h1 class="border borderColor border-4 rounded p-2 mx-auto">
-            <strong class="text-white discord">Tarifs pour la Création de Logo Avec Ou Sans Animation</strong>
+            <strong class="text-white discord">Tarifs pour la Création de Logo</strong>
         </h1>
         <img src="images/soucoupe.webp" alt="robot illustratif" class="img-fluid m-3 w-25">
     </div>
@@ -303,7 +307,7 @@
         <div class="col-md-6">
             <div class="tarif-details">
                 <h2 class="tarif-title fw-bold discord">1. Logo de Base</h2>
-                <p>Pour les entreprises ou les personnes qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
+                <p>Pour les entreprises ou les individus qui ont besoin d'un logo simple, avec des éléments graphiques de base.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 150 Euros</span></p>
                 <ul>
                     <li>Conception de 1 à 5 propositions de logo</li>
@@ -320,8 +324,10 @@
                 <p>Pour des besoins plus élaborés, incluant plusieurs propositions et révisions.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 800 Euros</span></p>
                 <ul>
-                    <li>Conception de 3 à 5 propositions de logo</li>
+                    <li>Conception de 3 à 8 propositions de logo</li>
+                    <li>Révisions supplémentaires (généralement 3 à 5)</li>
                     <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
+                    <li>Guide de style détaillé (couleurs, typographie, utilisation)</li>
                     <li>Consultation sur l'identité visuelle</li>
                 </ul>
             </div>
@@ -335,8 +341,10 @@
                 <p>Pour les marques qui nécessitent une approche approfondie avec des recherches et une stratégie complète.</p>
                 <p><strong>Tarif :</strong> <span class="discord fw-bold">A partir de 1 500 Euros</span></p>
                 <ul>
-                    <li>Conception de 5 à 10 propositions de logo</li>
+                    <li>Conception de 5 à 15 propositions de logo</li>
+                    <li>Révisions illimitées</li>
                     <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
+                    <li>Guide de style complet (couleurs, typographie, utilisation)</li>
                     <li>Consultation stratégique et recherche de marque</li>
                     <li>Applications de logo sur divers supports</li>
                 </ul>
@@ -351,7 +359,10 @@
                 <ul>
                     <li>Conception personnalisée en fonction des besoins uniques</li>
                     <li>Recherche approfondie et développement</li>
+                    <li>Révisions et itérations illimitées</li>
                     <li>Livraison des fichiers finaux en formats raster (PNG, JPG)</li>
+                    <li>Guide de style complet avec applications variées</li>
+                    <li>Support et conseils prolongés</li>
                 </ul>
             </div>
         </div>
@@ -393,7 +404,7 @@
 <!-- FIN ROBOT VIDEO MOBILE -->
 
 
-<div class="fw-bold text-center m-5 text-white fs-5">
+<div class="fw-bold text-center m-5 text-white press-start-2p-regular">
     Pour toute demande concernant nos tarifs et services,<br> veuillez nous contacter pour obtenir un devis personnalisé.</div>
 
 

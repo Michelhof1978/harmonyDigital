@@ -140,8 +140,8 @@
         <div class="row">
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
-                Votre entreprise ou association a-t-elle déjà démarré la digitalisation de vos process, mais vous souhaitez être conseillé et accompagné ?<br>
-                    Nous vous proposons notre expertise et notre approche pour faire de votre projet un succès ! <br>
+                    Vous avez déjà démarré la digitalisation de vos process mais vous souhaitez être conseillés et accompagnés ?<br>
+                    Nous vous proposons notre expertise et notre approche SMART pour faire de votre projet un succès ! <br>
                     Audit technique, accompagnement personnalisé et coaching,…
                 </p>
             </div>
@@ -199,7 +199,7 @@
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
                     Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
-                    Plusieurs échanges sont d’emblée programmés, dans le but d’appréhender au mieux vos besoins et vos problématiques, grâce à la collecte et à l’analyse d’informations.<br>
+                    Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
                     Notre <a href="https://www.cegos.fr/ressources/mag/fiches-metiers/les-metiers-de-la-gestion-de-projets/fiche-metier-product-owner#:~:text=devenir%20Product%20Owner-,Qu'est%2Dce%20qu'un%20Product%20Owner%20%3F,%C3%A9quipe%20marketing%20et%20les%20clients." target="_blank" class="link-white">Product Owner</a> fera le lien entre toutes les parties investies dans le projet, dès le premier jour et jusqu'à la fin du projet. <br>
                     Il sera votre seul référent tout au long de notre collaboration.
                 </p>
@@ -257,7 +257,7 @@
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4 borderColor p-3">
                     Vous avez déjà démarré la digitalisation de vos process mais vous souhaitez être conseillés et accompagnés ?<br>
-                    Nous vous proposons notre expertise et nos idées pour faire de votre projet un succès ! <br>
+                    Nous vous proposons notre expertise et notre approche SMART pour faire de votre projet un succès ! <br>
                     Audit technique, accompagnement personnalisé et coaching,…
                 </p>
             </div>
@@ -275,7 +275,7 @@
             <div class="col-12">
                 <p class="lead text-white text-center fw-bold fs-6 mt-4">
                     De <span class="span">l’idée à sa réalisation</span>, Harmony Digital s’appuie sur ses valeurs de transparence, de bienveillance et d’innovation pour accompagner ses clients d’un bout à l’autre de leur démarche de transformation digitale : penser et designer la solution, la développer, la maintenir et la faire évoluer.<br><br>
-                    Nous offrons une approche complète et immersive de la transformation numérique, plaçant le client au centre de l'innovation de son propre projet. Ensemble, nous établissons une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>, pour co-créer des solutions adaptées et visionnaires.
+                    En tant que Smart, nous offrons une approche complète et immersive de la transformation numérique, plaçant le client au centre de l'innovation de son propre projet. Ensemble, nous établissons une relation de partenariat <span style="color: #e06717e4 ;">Agile et bienveillante</span>, pour co-créer des solutions adaptées et visionnaires.
                 </p>
             </div>
         </div>
@@ -289,12 +289,11 @@
     <div class="container mb-4">
         <div class="row">
             <div class="col-12">
-            <p class="lead text-white text-center fw-bold fs-6 mt-4 borderColor p-3">
-        Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
-        Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
-        Notre <a href="https://www.clementine.jobs/fiches-metiers/metiers-marketing-publicite-digitale/product-owner/" target="_blank" class="link-white">Product Owner</a> fera le lien entre toutes les parties investies dans le projet, dès le premier jour. <br>
-        Il sera votre référent tout au long de notre collaboration.
-    </p>
+                <p class="lead text-white text-center fw-bold fs-6 mt-4 borderColor p-3">
+                    Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
+                    Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
+                    Notre Product Owner fera le lien entre toutes les parties investies dans le projet, dès le premier jour. <br>Il sera votre référent tout au long de notre collaboration.
+                </p>
             </div>
         </div>
         <div class="row">

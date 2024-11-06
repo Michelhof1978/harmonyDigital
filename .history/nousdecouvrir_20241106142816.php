@@ -140,7 +140,7 @@
         <div class="row">
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
-                Votre entreprise ou association a-t-elle déjà démarré la digitalisation de vos process, mais vous souhaitez être conseillé et accompagné ?<br>
+                    Votre entr déjà démarré la digitalisation de vos process mais vous souhaitez être conseillé et accompagné ?<br>
                     Nous vous proposons notre expertise et notre approche pour faire de votre projet un succès ! <br>
                     Audit technique, accompagnement personnalisé et coaching,…
                 </p>
@@ -199,7 +199,7 @@
             <div class="col-8">
                 <p class="lead text-white text-center fw-bold fs-5 mt-5 borderColor p-3">
                     Notre équipe est à votre écoute et passe à l’action dès notre premier contact. <br>
-                    Plusieurs échanges sont d’emblée programmés, dans le but d’appréhender au mieux vos besoins et vos problématiques, grâce à la collecte et à l’analyse d’informations.<br>
+                    Plusieurs échanges sont d’emblée programmés, le but étant d’appréhender au mieux votre besoin et vos problématiques par la collecte et l’analyse d’informations.<br>
                     Notre <a href="https://www.cegos.fr/ressources/mag/fiches-metiers/les-metiers-de-la-gestion-de-projets/fiche-metier-product-owner#:~:text=devenir%20Product%20Owner-,Qu'est%2Dce%20qu'un%20Product%20Owner%20%3F,%C3%A9quipe%20marketing%20et%20les%20clients." target="_blank" class="link-white">Product Owner</a> fera le lien entre toutes les parties investies dans le projet, dès le premier jour et jusqu'à la fin du projet. <br>
                     Il sera votre seul référent tout au long de notre collaboration.
                 </p>
