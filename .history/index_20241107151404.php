@@ -1,9 +1,8 @@
  <?php include("head.php"); ?>
- <meta name="description" content="Création de sites web professionnels et sur mesure. Un partenaire de confiance pour un site unique qui reflète parfaitement votre image de marque">
-<title>Agence Web, Création Site Internet... à Decize dans la Nièvre</title>
+ <meta name="description" content="Nous sommes votre partenaire de confiance pour la création de sites web professionnels ou à votre image selon vos idées.>
+ <title>Agence Web, Création Site Internet.... à Decize dans la Nièvre</title>
 
-
- <meta property="og:url" content="https://harmony-digital.fr/accueil">
+ <meta property="og:url content="https://harmony-digital.fr/accueil">
  <!-- Canonical Link -->
  <link rel="canonical" href="https://harmony-digital.fr/accueil">
 
