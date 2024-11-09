@@ -1,6 +1,7 @@
 <?php include("head.php"); ?>
 <title>Tarifs de nos prestations </title>
-<meta name="description" content="Découvrez nos tarifs compétitifs pour la création de sites web, avec la possibilité de paiement en 10 fois sans frais ou sous forme d'abonnement mensuel.">
+
+<meta name="description" content="Découvrez nos tarifs compétitifs pour la création de sites web, marketing digital, SEO, et design de logos. Paiement possible en plusieurs fois ou sous forme d'abonnement.">
 
 <meta property="og:url" content="https://harmony-digital.fr/tarifs">
 <!-- Canonical Link -->

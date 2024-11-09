@@ -1,7 +1,5 @@
 <?php include("head.php") ?>
-
-<title>Conditions Générales de Vente - Harmony Digital</title>
-<meta name="description" content="Conditions générales de vente de Harmony Digital. Toutes les informations sur nos termes, modalités, et politiques de prestation de services.">
+<meta name="description" content="Découvrez les conditions générales de vente de Harmony Digital. Toutes les informations sur nos termes, modalités, et politiques de prestation de services.">
 
 <meta property="og:url" content="https://harmony-digital.fr/conditionsGeneralesDeVente">
 <!-- Canonical Link -->

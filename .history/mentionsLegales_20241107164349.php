@@ -1,7 +1,6 @@
 <?php include("head.php") ?>
 
-<title>Mentions Légales - Harmony Digital</title>
-<meta name="description" content="Consultez les mentions légales, comprenant les informations juridiques, les conditions d'utilisation et les détails sur la protection des données.">
+<meta name="description" content="Consultez les mentions légales de Harmony Digital, comprenant les informations juridiques, les conditions d'utilisation et les détails sur la protection des données.">
 
 <meta property="og:url" content="https://harmony-digital.fr/mentionsLegales">
 <!-- Canonical Link -->

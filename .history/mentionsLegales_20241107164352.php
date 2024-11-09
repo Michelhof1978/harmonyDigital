@@ -1,10 +1,10 @@
 <?php include("head.php") ?>
-<meta name="description" content="Consultez les mentions légales de Harmony Digital, comprenant les informations juridiques, les conditions d'utilisation et les détails sur la protection des données.">
 <title>Mentions Légales - Harmony Digital</title>
+<meta name="description" content="Consultez les mentions légales de Harmony Digital, comprenant les informations juridiques, les conditions d'utilisation et les détails sur la protection des données.">
 
 <meta property="og:url" content="https://harmony-digital.fr/mentionsLegales">
-    <!-- Canonical Link -->
-    <link rel="canonical" href="https://harmony-digital.fr/mentionsLegales">
+<!-- Canonical Link -->
+<link rel="canonical" href="https://harmony-digital.fr/mentionsLegales">
 
 </head>
 
@@ -13,8 +13,8 @@
 <div id="binary-background"></div>
 
 <h1 class="border borderColor border-4 rounded p-2 col m-5 text-center">
-        <strong class="text-white">Mentions Légales - Harmony Digital</strong>
-    </h1>
+    <strong class="text-white">Mentions Légales - Harmony Digital</strong>
+</h1>
 
 <div class="text-center mt-5">
     <img src="images/mentionsrobot.png" loading="lazy" alt="Logo" class="img-fluid">
@@ -38,4 +38,5 @@
 <?php include("footer.php") ?>
 
 </body>
-  </html>
+
+</html>

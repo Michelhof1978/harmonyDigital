@@ -103,8 +103,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
 <?php include("head.php") ?>
-<meta name="description" content="Contactez-nous pour obtenir un devis personnalisé ou des informations supplémentaires sur nos services de création de site web, marketing digital, SEO, et design de logos. Nous sommes là pour répondre à toutes vos questions.">
 <title>Formulaire de Contact - Harmony Digital</title>
+<meta name="description" content="Contactez-nous pour obtenir un devis personnalisé ou des informations supplémentaires sur nos services de création de site web.">
 
 
 <style>

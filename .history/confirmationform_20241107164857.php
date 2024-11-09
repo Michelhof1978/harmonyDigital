@@ -3,9 +3,8 @@ session_start(); // Démarrer la session
 
 include("head.php");
 ?>
-
-<title>Confirmation Formulaire De Contact - Harmony Digital</title>
 <meta name="description" content="Confirmation message - Harmony Digital">
+<title>Confirmation Formulaire  - Harmony Digital</title>
 
 <style>
     .text-light-success {
