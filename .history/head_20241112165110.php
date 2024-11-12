@@ -71,14 +71,14 @@
   <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
     /* BANNER */
-    /* .banner {
+    .banner {
             width: 100%;
             height: 350px; 
-            background-image: url('images/banner.webp'); 
+            background-image: url('images/banner2.webp'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-        } */
+        }
 
     /* COOKIES */
     #cookie-banner {

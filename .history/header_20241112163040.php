@@ -54,7 +54,7 @@
             </nav>
         </div>
 
-        <!-- <div class="banner"></div> -->
+        <div class="banner"></div>
 
         <div id="special-header">
             <video autoplay muted loop id="video-bg" playsinline>
@@ -62,8 +62,8 @@
                 Votre navigateur ne supporte pas la vidéo.
             </video>
             
-            <!-- <div id="logo-container">
+            <div id="logo-container">
         <img src="images/logo.png" alt="Logo" class="img-fluid">
-    </div> -->
-        <!-- </div> -->
+    </div>
+        </div>
     </header>
