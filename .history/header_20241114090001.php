@@ -54,7 +54,7 @@
             </nav>
         </div>
 
-        <div class="banner"></div>
+        <!-- <div class="banner"></div> -->
 
         <!-- <div id="special-header">
             <video autoplay muted loop id="video-bg" playsinline>

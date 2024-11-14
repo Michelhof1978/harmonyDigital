@@ -74,7 +74,7 @@
     .banner {
             width: 100%;
             height: 350px; 
-            background-image: url('images/banner.png'); 
+            background-image: url('images/banner.webp'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

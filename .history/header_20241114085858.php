@@ -62,8 +62,6 @@
                 Votre navigateur ne supporte pas la vidéo.
             </video> -->
             
-            <!-- <div id="logo-container">
-        <img src="images/logo.png" alt="Logo" class="img-fluid">
-    </div> -->
+          
         <!-- </div> -->
     </header>
