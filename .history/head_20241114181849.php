@@ -71,39 +71,29 @@
   <!-- css Titres ne fonctionne pas ds le fichier css-->
   <style>
     /* BANNER */
-    /* Reset de base */
-   /* Réinitialisation de base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    .banner {
+            width: 100%;
+            height: 350px; 
+            background-image: url('images/banner.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-/* Bannière Desktop */
-.banner-desktop {
-    display: block; /* Par défaut pour desktop */
-    width: 100%;
-    height: 250px; /* Hauteur pour desktop */
-    background: url('images/banner-desktop.png') center/cover no-repeat;
-}
-
-/* Bannière Mobile */
-.banner-mobile {
-    display: none; /* Masquée par défaut */
-    width: 100%;
-    height: 150px; /* Hauteur spécifique pour mobile */
-    background: url('images/banner-mobile.png') center/cover no-repeat;
-}
-
-/* Styles Responsives */
+        /* Style pour les écrans de moins de 768px */
 @media (max-width: 768px) {
-    .banner-desktop {
-        display: none; /* Cacher la bannière desktop sur mobile */
-    }
-    .banner-mobile {
-        display: block; /* Afficher la bannière mobile */
+    .banner {
+        height: 200px; /* ou une autre hauteur pour s'adapter à l'écran mobile */
     }
 }
+
+@media (max-width: 768px) {
+    .banner {
+        width: 90%; /* Ajuste la largeur pour un affichage plus petit sur mobile */
+        margin: 0 auto; /* Centrer la bannière */
+    }
+}
+
 
     /* COOKIES */
     #cookie-banner {

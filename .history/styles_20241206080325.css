@@ -16,6 +16,14 @@ body {
 }
 
 
+    .banner-mobile {
+        height: 50px !important;
+        
+    }
+
+
+
+
 /* POPUP */
 .popup {
     position: fixed;

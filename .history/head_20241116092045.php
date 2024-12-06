@@ -72,38 +72,44 @@
   <style>
     /* BANNER */
     /* Reset de base */
-   /* Réinitialisation de base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* Bannière Desktop */
-.banner-desktop {
-    display: block; /* Par défaut pour desktop */
-    width: 100%;
-    height: 250px; /* Hauteur pour desktop */
-    background: url('images/banner-desktop.png') center/cover no-repeat;
-}
+        /* Bannière pour desktop */
+        .banner-desktop {
+            display: block; /* Visible par défaut */
+            width: 100%;
+            height: 250px; 
+            background-image: url('images/banner-desktop.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-/* Bannière Mobile */
-.banner-mobile {
-    display: none; /* Masquée par défaut */
-    width: 100%;
-    height: 150px; /* Hauteur spécifique pour mobile */
-    background: url('images/banner-mobile.png') center/cover no-repeat;
-}
+        /* Bannière pour mobile */
+        .banner-mobile {
+            display: none; /* Cachée par défaut */
+            width: 100%;
+            height: 150px; 
+            background-image: url('images/banner-mobile.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-/* Styles Responsives */
-@media (max-width: 768px) {
-    .banner-desktop {
-        display: none; /* Cacher la bannière desktop sur mobile */
-    }
-    .banner-mobile {
-        display: block; /* Afficher la bannière mobile */
-    }
-}
+        /* Styles pour les écrans mobiles */
+        @media (max-width: 768px) {
+            .banner-desktop {
+                display: none; /* Masquer la bannière desktop */
+            }
+            .banner-mobile {
+                display: block; /* Afficher la bannière mobile */
+            }
+        }
+
 
     /* COOKIES */
     #cookie-banner {

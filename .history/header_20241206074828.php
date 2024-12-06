@@ -58,7 +58,7 @@
     <!-- <div class="banner-desktop"></div> -->
 
 <!-- Bannière pour mobile -->
-<!-- <div class="banner-mobile "></div> -->
+<div class="banner-mobile"></div>
 
         <!-- <div id="special-header">
             <video autoplay muted loop id="video-bg" playsinline>

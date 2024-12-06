@@ -55,7 +55,7 @@
         </div>
 
         <!-- Bannière pour desktop -->
-    <!-- <div class="banner-desktop"></div> -->
+    <div class="banner-desktop"></div>
 
 <!-- Bannière pour mobile -->
 <!-- <div class="banner-mobile "></div> -->

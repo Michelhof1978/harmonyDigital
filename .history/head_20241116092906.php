@@ -72,39 +72,44 @@
   <style>
     /* BANNER */
     /* Reset de base */
-   /* Réinitialisation de base */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-/* Bannière Desktop */
-.banner-desktop {
-    display: block; /* Par défaut pour desktop */
-    width: 100%;
-    height: 250px; /* Hauteur pour desktop */
-    background: url('images/banner-desktop.png') center/cover no-repeat;
-}
+        /* Bannière pour desktop */
+        .banner-desktop {
+            display: block; /* Visible par défaut */
+            width: 100%;
+            height: 250px; 
+            background-image: url('images/banner-desktop.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
-/* Bannière Mobile */
-.banner-mobile {
-    display: none; /* Masquée par défaut */
-    width: 100%;
-    height: 150px; /* Hauteur spécifique pour mobile */
-    background: url('images/banner-mobile.png') center/cover no-repeat;
-}
-
-/* Styles Responsives */
-@media (max-width: 768px) {
-    .banner-desktop {
-        display: none; /* Cacher la bannière desktop sur mobile */
-    }
-    .banner-mobile {
-        display: block; /* Afficher la bannière mobile */
-    }
-}
-
+        /* Bannière pour mobile */
+        .banner-desktop {
+            display: block;
+            width: 100%;
+            height: 250px;
+            background: red;
+        }
+        .banner-mobile {
+            display: none;
+            width: 100%;
+            height: 50px;
+            background: blue;
+        }
+        @media (max-width: 768px) {
+            .banner-desktop {
+                display: none;
+            }
+            .banner-mobile {
+                display: block;
+            }
+        }
     /* COOKIES */
     #cookie-banner {
       display: none;

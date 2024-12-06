@@ -15,6 +15,16 @@ body {
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+    .banner-mobile {
+        height: 50px;
+        overflow: hidden; /* Facultatif, pour couper le contenu qui dépasse */
+        padding: 0; /* Assurez-vous qu'il n'y a pas de padding indésirable */
+        margin: 0;  /* Idem pour les marges */
+    }
+}
+
+
 
 /* POPUP */
 .popup {

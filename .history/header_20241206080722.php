@@ -55,10 +55,10 @@
         </div>
 
         <!-- Bannière pour desktop -->
-    <!-- <div class="banner-desktop"></div> -->
+    <div class="banner-desktop"></div>
 
 <!-- Bannière pour mobile -->
-<!-- <div class="banner-mobile "></div> -->
+<div class=" "></div>
 
         <!-- <div id="special-header">
             <video autoplay muted loop id="video-bg" playsinline>

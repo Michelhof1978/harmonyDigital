@@ -15,6 +15,20 @@ body {
     background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 768px) {
+    .banner-mobile {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .banner-mobile img, .banner-mobile p, .banner-mobile h1 {
+        height: 100%; /* Ou ajustez la taille selon le besoin */
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
 
 /* POPUP */
 .popup {
