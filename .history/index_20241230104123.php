@@ -1285,7 +1285,7 @@
  <!-- Script pour le compte à rebours -->
  <script>
      function updateCountdown() {
-         const targetDate = new Date("2025-12-31T23:59:59").getTime();
+         const targetDate = new Date("2024-12-31T23:59:59").getTime();
          const now = Date.now();
          const timeLeft = targetDate - now;
 
